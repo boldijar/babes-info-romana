@@ -1,0 +1,72 @@
+Comenzi: ls, cd, mkdir, pwd, man, clear, kill, echo,
+         less, cp, find, grep, sed, zip, unzip, tar,
+         gzip, gunzip, write, who, finger, ping, mc,
+         cat, sort, wc, rm, chmod, passwd, ps, fg, bg,
+         file, w, mv, df, du, comm, diff, mesg, talk
+
+Compilare: vi a.c
+           gcc -Wall -o a a.c
+           ./a
+
+Expresii Regulare
+-----------------
+\< - inceput de cuvant
+\> - sfarsit de cuvant
+[...] - set de caractere dintre care oricare
+        se potriveste
+      - ex [123] - oricare dintre cifrele 1, 2, sau 3
+           [123 ] - 1, 2, 3, sau spatiu
+           [a-z] - orice litera mica
+           [aeiou] - orice vocala
+           [A-Z] - orice litera mare
+           [0-9] - orice cifra
+[^...] - orice caracter care NU este intre cele
+         specificate
+       - ex [^0-9] - orice care nu este cifra
+            [^,.:] - orice cu exceptia virgula, punct,
+                     doua puncte
+* - expresia precedenta de zero sau mai multe ori
+\+ - expresia precedenta o data sau de mai multe ori
+? - expresia precedenta de zero sau una ori
+. - (punct) orice caracter, o singura data
+\ - face escape la carcaterele speciale, facandu-le
+    normale
+^ - inceput de linie
+$ - sfarsit de linie
+
+Tema: Alegeti un editor dintre vi, emacs, joe, nano, pico, mc si descrieti combinatiile de taste pentur urmatoarele operatii:
+- save
+- exit
+- copy
+- paste
+- go to line
+- sterge o line
+- sterge un caracter
+- navigare: sus, jos, stanga, dreapta, page up,
+            page down, inceput/sfarsit de linie
+- cautare + inlocuire
+- sterge un cuvant
+- iesire fara salvare
+- save as
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+sa implementez adt vector, cu funtctii init, destroy, addElem, 
+getElemPos, belongs
+si in programa test sa citesc un vector cu numere complexe, 
+sa afisez continutul, 
+si sa calulez frecventa de aparitie la o anumit numar

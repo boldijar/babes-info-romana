@@ -1,0 +1,174 @@
+Programre Shell
+---------------
+- redirectarea erorii standard
+- variabile
+- comenzi embedded `...` (apostroafe inverse shift/~)
+- apostrof vs ghilimea
+- structuri de control: if, for, while, case
+- variabile speciale/predefinite
+- personalizarea BASH
+- valgrind
+- alocare memorie
+- transfer virtual box to host
+
+Redirectarea erorii standard
+----------------------------
+- 2> a.txt - redirecteaza mesajele de eroare in a.txt
+
+- > a.txt 2>&1 - redirecteaza si iesirea standard
+                 si eroare standard in a.txt
+
+- > a.txt 2> a.txt - APROAPE la fel ca mai sus,
+                     dar in loc sa specificam
+                     destinatia de doua ori, o
+                     referim separat si ca urmare
+                     mesajele se vor suprascrie.
+
+Variabile Shell
+---------------
+A=5
+B=asdf
+
+echo $A ${B}
+
+Comenzi embedded
+----------------
+- se ruleaza intre apostrofi inversi (sun escape
+  si langa 1) `...`
+- ex: `cat a.txt | wc -l`
+
+- efect: intreaga expresie dintre apostrofii
+  inversi (inclusiv apostrofii) este inlocuita de
+  rezultatul comenzii, care apoi se poate asigna
+  unei variabile sau etc
+
+Apostrof vs ghilimea
+--------------------
+- in testul scris intre ghilimele, valorile
+  variabilor si a comenzilor embedded sunt
+  substituite. intre apostrofi, se pastreaza
+  textul asa cum este
+
+IF
+--
+NU UITATI DE SPATII
+
+if [ ... ]; then
+    ...
+fi
+
+if [ ... ]; then
+    ...
+else
+    ...
+fi
+
+if [ ... ]; then
+    ...
+elif [ ... ]; then
+    ...
+elif [ ... ]; then
+    ...
+else
+    ...
+fi
+
+- toate conditiile verificabile de IF sunt de fapt
+  comenzi. comanda "test" ofera argumente care
+  testeaza lucuri mai intuitive. "[ ... ]" se
+  traduce de fapt intr-o comanda "test"
+
+- man test
+
+- negare [ ! ... ]
+
+- operatori numerici: -eq -ne -lt -lte -gt -gte
+- operatori pe stringuri:
+  - ==
+  - -z - stringul este vid
+  - -n - stringul nu este vid
+
+- ex: if [ ! "adsf" == "qwer" ]; then
+          echo corect
+      fi
+
+- operatori pe fisiere
+  -e fisierul exista
+  -f fisierul exista si e fisier normal
+  -d fisierul exista si e director
+  -r fisierul exista si e citibil
+  -w fisierul exista si se poate scrie
+  -x fisierul exista si e executabil
+
+Scripturi Shell
+---------------
+- un fisier text, cu orice extensie dar preferabil
+  .sh sau nicio extensie.
+
+- prima linie preferabil contine calea catre
+  programul care evalueaza codul din restul
+  fisierului
+
+a.sh
+----
+#!/bin/bash
+
+echo asdf
+
+- pentru a putea rula un script fara a mentiona
+  interprtorul shell (bash) pe linia de comanda,
+  trebiue sa aveti "#!/..." la inceputul
+  fisierului si trebuie sa dati drepturi de
+  executie fisierului
+
+  chmod 700 a.sh
+
+rwx  rwx   rwx
+user group other
+
+FOR
+---
+- seamana ca si utilizare cu foreach din python si
+  nu cu for-ul din C/C++
+
+for A in catel pisica purcel; do
+    echo Avem $A
+done
+
+for A in *.txt; do
+    ls -l $A
+done
+
+
+Variabile speciale/predefinite (argumente in linie
+de comanda)
+
+- $1, $2, ..., $9 argumente date scriptului in
+                  linia de comanda
+
+- $0 - numele comenzii
+
+- $* sau $@ - toti parametrii
+
+- $# - numarul de parametri ?
+
+- $? - codul de retur al comenzii precendente
+       (valoarea de adevar)
+
+- shift n - shifteaza argumentele spre stanga cu n
+            pozitii, primele n argumente devenind
+            inacesibile
+
+WHILE
+-----
+
+while [ ... ]; do
+    ...
+done
+
+PATH
+----
+- variabila speciala care contine o lista de cai
+  unde interpretorul de comenzi cauta
+  executabilele
+- ex: PATH=/bin:/usr/bin

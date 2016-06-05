@@ -1,0 +1,24 @@
+﻿Build started 3/23/2011 17:00:08.
+     1>Project "C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Lab4MATR\Lab4MATR.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lab4MATR.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Lab4.cpp
+         Lab4.cpp
+     1>Lab4.cpp(31): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Debug\Lab4MATR.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab4MATR.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Debug\Lab4MATR.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Debug\Lab4MATR.lib" /MACHINE:X86 Debug\ADTMatrix.obj
+         Debug\Lab4.obj
+         LINK : C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Debug\Lab4MATR.exe not found or not built by the last incremental link; performing full link
+         Lab4MATR.vcxproj -> C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Debug\Lab4MATR.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Debug\Lab4MATR.exe;#1" /manifest Debug\Lab4MATR.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab4MATR.unsuccessfulbuild".
+         Touching "Debug\Lab4MATR.lastbuildstate".
+     1>Done Building Project "C:\Users\Andra\Documents\Visual Studio 2010\Projects\Lab4MATR\Lab4MATR\Lab4MATR.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.10

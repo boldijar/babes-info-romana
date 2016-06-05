@@ -1,0 +1,7 @@
+- Executabilul se gaseste in ,,Debug -> SDA.exe"
+- Alegeti o optiune dintre cele enumerate (1,2,3,4,0)
+- NU am facut validatori, deci daca se introduc alte date, programul crapa
+- La adaugare se introduc triplete(linie,coloana,valoare) numere naturale > 0
+- La modificare se introduce tripletul(linie, coloana, valore) pe care dorim sa-l modificam(deja existent), 
+	apoi valoarea noua pe care programul o atribuie automat liniei si coloanei date anterior
+- La vinderea unei case se introduc triplete(linie, coloana, valoare) din cele deja existente in memorie.

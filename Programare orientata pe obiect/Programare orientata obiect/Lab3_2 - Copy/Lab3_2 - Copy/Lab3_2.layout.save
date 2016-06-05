@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="arrmanip.h" open="1" top="0" tabpos="5">
+		<Cursor position="1814" topLine="72" />
+	</File>
+	<File name="controller.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="13176" topLine="197" />
+	</File>
+	<File name="controller.h" open="1" top="0" tabpos="7">
+		<Cursor position="295" topLine="3" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="2813" topLine="57" />
+	</File>
+	<File name="node.h" open="1" top="0" tabpos="6">
+		<Cursor position="362" topLine="0" />
+	</File>
+	<File name="userinterface.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="7822" topLine="168" />
+	</File>
+	<File name="userinterface.h" open="1" top="0" tabpos="2">
+		<Cursor position="360" topLine="11" />
+	</File>
+</CodeBlocks_layout_file>

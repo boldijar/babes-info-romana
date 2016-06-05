@@ -1,0 +1,57 @@
+Plan
+----
+- mutex
+- dup2
+- teoria so
+
+POPEN pseudo-implementare
+-------------------------
+
+FILE* popen(char* cmd, char* mode) {
+      int p[2];
+      pipe(p);
+
+      if(strcmp(mode, "r") == 0) {
+          dup2(p[0], 1);
+      }
+      else {
+          dup2(p[1], 0);
+      }
+
+      if(fork() == 0) {
+          execl(cmd, cmd, ...);
+          exit(0);
+      }
+      wait(0);
+
+      return fdopen(p[0], mode);
+}
+
+Thread-uri in Windows
+---------------------
+- folositi MS Visual Studio Express
+- pthread_t  --->  HANDLE
+- pthread_create  --->  CreateThread
+- pthread_join  --->  WaitForSingleObject
+- pthread_mutex_init  --->  InitializeCriticalSection
+- pthread_mutex_lock  --->  EnterCriticalSection
+- pthread_mutex_unlock  ---> LeaveCriticalSection
+- pthread_mutex_destroy  ---> DeleteCriticalSection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

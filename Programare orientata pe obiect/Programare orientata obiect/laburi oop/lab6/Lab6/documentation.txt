@@ -1,0 +1,377 @@
+ADTs with generic elements
+
+Specify, design and implement ADT List, using a linked representation, in the following manner:
+  [SLL  - Simple Linked List] - will use simple links for the representation
+
+ and DYNAMIC MEMORY ALLOCATION
+
+ Do not modify the LSI and LDI specification from the DSA course. You must create the corresponding iterators also.
+
+ Write a test program that uses the defined data type. The program will contain:
+
+   [SLL Test]:  list of complex numbers, list of products (name - char*, price - int)
+
+You must implement the classes Product and Complex and overload at least the =, ==, >>, << operators.
+
+Remark: there will be a single class List, having the information of generic type (void*)
+
+
+ADT Comnplex
+------------
+
+Domain
+------ 
+	D=ℂ
+Representation
+--------------
+	record
+		m,n – integer (m – real part, n-imaginar part)
+
+Operations + implementation
+---------------------------
+
+subalgorithm init(a) is:
+	Data: -
+	Result: a
+	Postconditions: a=0
+	
+	a.m := 0;
+	a.n := 0;
+
+endsubalgorithm
+
+
+subalgorithm copy(a,b) is:
+	Data: b
+	Precondtitions: b ∊ D
+	Result: a
+	Postconditions: a=b
+	
+	a.m := b.m;
+	a.n := b.n;
+
+endsubalgorithm
+
+subalgorithm print(a) is:
+	Data: a
+	Precondtitions: a ∊ D
+	Result: -
+	
+	print(a.m);
+	print(a.n);
+endsubalgotithm
+
+subalgorithm read(a) is:
+	Data: -
+	Result: c
+	Postconditions: c ∊ D
+	
+	init(c);
+	read(c.m);
+	read(c.n);
+endsubalgorithm
+
+Subalgorithm sum(a,b,c) is:
+	Data: a,b
+	Precondtitions: a,b ∊ D
+	Result: c
+	Postconditions: c ∊ D ; c = a+b
+
+	c.m:= a.m + b.m;
+	c.n:= a.n + b.n;
+
+endsubalgorithm
+
+
+subalgorithm mul(a,b,c) is :
+	Data: a,b
+	Precondtitions: a,b ∊ D
+	Result: c
+	Postconditions: c ∊ D ; c = a*b
+	
+	c.m:= a.m * b.m - a.n * b.n;
+	c.n:= a.n * b.m + a.m * b.n;
+
+endsubalgorithm
+
+subalgorithm sub(a,b,c) is :
+
+	Data: a,b
+	Precondtitions: a,b ∊ D
+	Result: c
+	Postconditions: c ∊ D ; c = a-b
+
+	c.m:= a.m - b.m;
+	c.n:= a.n - b.n;
+
+endsubalgorithm
+
+
+ADT Product
+------------
+
+Domain
+------ 
+	D= (name,price)
+Representation
+--------------
+	record
+		price - integer
+		name - string
+
+Operations + implementation
+---------------------------
+
+subalgorithm init(a) is:
+	Data: -
+	Result: a
+	Postconditions: a=0
+	
+	a.price := 0;
+	a.name := "";
+
+endsubalgorithm
+
+
+subalgorithm copy(a,b) is:
+	Data: b
+	Precondtitions: b ∊ D
+	Result: a
+	Postconditions: a=b
+	
+	a.price := b.price;
+	a.name := b.name;
+
+endsubalgorithm
+
+subalgorithm print(a) is:
+	Data: a
+	Precondtitions: a ∊ D
+	Result: -
+	
+	print(a.price);
+	print(a.name);
+endsubalgotithm
+
+subalgorithm read(a) is:
+	Data: -
+	Result: c
+	Postconditions: c ∊ D
+	
+	init(c);
+	read(c.price);
+	read(c.name);
+endsubalgorithm
+
+function cmp(a,b) is:
+	Data: a
+	Precondtitions: a ∊ D
+	Result: cmp
+	Postconditions: cmp = 1 if a.price > b.price
+			cmp = 0 if a.price = b.price
+			cmp = -1 if a.price < b.price
+			
+	if a.price > b.price then
+		cmp:=1;
+	else
+		if a.price < b.price then
+			cmp:=-1;
+		else
+			cmp:=0;
+		endif
+	endif
+endfunction
+
+function getPrice(a) is:
+	Data: a
+	Precondtitions: a ∊ D
+	Result: getPrice
+	Postcoditions: getPrice = a.price
+	
+	getPrice := a.price;
+endfunction
+
+function getName(a) is:
+	Data: a
+	Precondtitions: a ∊ D
+	Result: getName
+	Postcoditions: getPrice = a.name
+	
+	getPrice := a.name;
+endfunction
+
+
+ADT Node
+--------
+
+Domain
+------ 
+	D = (data,link)
+Representation
+--------------
+	record
+		data - Element
+		link - the next Node or NULL
+		
+ADT Iterator
+------------
+
+Domain
+------ 
+	D = (list,node)
+Representation
+--------------
+	record
+		list - ADT SList
+		node - the current Node
+		
+Operations + implementation
+---------------------------
+
+subalgorithm init(it) is:
+	Data: -
+	Result: it
+	Postcondition: it - iterator to a NULL Element in a NULL list
+	
+	it.list := NULL;
+	it.node := NULL;
+endsubalgorithm
+
+subalgorithm init(it,list) is:
+	Data: list
+	Preconditions: list ∊ SList
+	Result: it
+	Postcondition: it - iterator to the first Element in the list list
+	
+	it.list := list;
+	it.node := list.start;
+endsubalgorithm
+
+subalgorithm init(it,node) is:
+	Data: list,node
+	Preconditions: 	list ∊ SList
+			node ∊ Node
+	Result: it
+	Postcondition: it - iterator to the node node in the list list
+	
+	it.list := list;
+	it.node := node;
+endsubalgorithm
+
+function cmp(it1,it2) is:
+	Data: it1,it2
+	Preconditions: it1,it2 ∊ D
+	Result: cmp
+	Postconditions: cmp = true if it1=it2
+			cmp = false if it1<>it2
+	
+	cmp := it1=it2;
+endfunction
+
+function next(it) is:
+	Data: it
+	Preconditions: it ∊ D
+	Result: it
+	Postconditions: it = next element in list
+	
+	it.node := it.node.link;
+endfunction
+
+function get(it) is:
+	Data: it
+	Preconditions: it ∊ D
+	Result: get
+	Postconditions: get - the value associated with the current position
+	
+	get := it.node.data; 
+	
+endfunction
+
+
+ADT List
+------------
+
+Domain
+------ 
+	D = (xi) xi ∊ Node
+Representation
+--------------
+	record
+		start - Node
+		
+Operations + implementation
+---------------------------
+
+subalgorithm init(lst) is:
+	Data: -
+	Result: lst
+	Postcondition: lst - empty list
+	
+	lst.start = NULL;
+endsubalgorithm
+
+subalgorithm init(lst,from) is:
+	Data: from
+	Preconditions: from ∊ D
+	Result: lst
+	Postconditions: lst = from
+	
+	it = begin(from);
+	while(cmp(it,end(from))
+		add(lst,get(it));
+		next(it);
+	endehile
+endsubalgorithm
+
+subalgorithm add(lst,e) is:
+	Data: e,lst
+	Preconditions: 	e ∊ Node
+			lst ∊ D
+	Result: lst
+	Postconditions: lst = lst U {e}
+
+	tmp.link := start;
+	tmp.data := e;
+	lst.start := tmp;
+endsubalgorithm
+
+subalgorithm remove(lst,e) is:
+	Data: e,lst
+	Preconditions: 	e  ∊ Node
+			lst ∊ D
+	Result: lst
+	Postconditions: lst = lst \ {e}
+	
+	if start <> NULL then	
+		for(tmp = lst.start ; cmp(tmp.link,NULL) ; tmp := tmp.link )
+			if tmp.link.data = e then
+				aux = tmp.link
+				tmp.link = tmp.link.link
+			endif
+		endfor
+	endif
+	
+	if tmp = start and tmp.data = e then
+		start = NULL
+	endif
+endsubalgorithm
+
+function find(lst,e) is:
+	Data: e,lst
+	Preconditions: 	e  ∊ Node
+			lst ∊ D
+	Result: find
+	Postconditions: find - iterator to the first position in the list where the node is equal to e
+	
+	for(tmp = lst.start ; cmp(tmp,NULL) ; tmp := tmp.link )
+		if tmp.data = e then
+			init(it,lst,tmp)
+			find:=it;
+			tmp:=NULL
+		endif
+	endfor
+endfunction
+
+
+
+

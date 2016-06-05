@@ -1,0 +1,108 @@
+Plan
+----
+- transfer de fisiere dintre VirtualBox si Windows
+- personalizare BASH
+- alocare de memorie in C
+- folosirea valgrind (laborator)
+- Windows BAT (laborator)
+
+Tansfer de fisiere VirtualBox - Windows
+---------------------------------------
+- Montarea in linux a unui director shared din
+  windows: samba (linux), windows shares
+- email :-)
+- dropbox (linie de comanda???)
+- scp - secure copy
+      - NAT port SSH
+      - implementare Windows SCP (putty)
+- WinSCP - aveti nevoie de NAT la fel ca si pentru scp
+
+Personalizare BASH
+------------------
+- PATH - export PATH=.:$PATH
+- proxy - export http_proxy=http://172.30.0.1:8080
+        - export ftp_proxy=http://172.30.0.1:8080
+- aliasuri: alias ll="ls -l"
+- cursor (prompt): PS1="> "
+
+- scrieti aceste comnezi de personalizare
+  intr-unul din fisierele urmatoare sau in toate
+  (cititi manualul pentru detalii despre fiecare
+  fisier)
+  - ~/.bash_profile
+  - ~/.bashrc
+  - ~/.profile
+  - /etc/profile
+
+Alocare de memorie in C
+-----------------------
+- alocare statica
+  - ex: int a[5]
+        char s[100]
+        float f[10][10]
+  - DIMENSIUNEA ALOCATA ESTE STIUTA SI STABILITA
+    LA SCRIEREA PROGRAMULUI, INAINTE DE COMPILARE
+    SI RULARE => numerele de mai sus nu pot fi
+                 variabile ci eventual macrouri
+
+  - ALOCAREA SE FACE O DATA SI NU SE MAI SCHIMBA
+  
+  - ex: #define N 5
+        int a[N]   // N este macro, ca urmare aici
+                   // avem alocare statica
+
+  - ex: int len=7;
+        scanf("%d", &len);
+
+        int a[len]; // len este varibila si ca
+                    // urmare alocarea "int a[len]" nu
+                    // este statica. in C-ul clasic,
+                    // aceasta sintaxa nu se
+                    // compileaza. gcc o accepta si
+                    // o transforma in alocarea
+                    // aparenta static dar de fapt
+                    // dinamica de mai jos
+
+  - dimensiune limitata: 
+       - incercati int a[1000][1000][500]
+  - alocare se face in STACK
+
+  - dupa terminarea functiei in care a avut loc,
+    spatiul alocat static nu mai este disponibil,
+    decat intamplator
+
+- alocare dinamica
+  - se face in HEAP
+  - C: malloc, calloc, realloc
+       free
+  - pointeri
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- alocare aparent statica, dar in realitate dinamica
+
+
+
+
+
+
+
+
+
+
+
+
+

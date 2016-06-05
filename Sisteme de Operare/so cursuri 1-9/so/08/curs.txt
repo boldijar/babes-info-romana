@@ -1,0 +1,111 @@
+Plan
+----
+- thread-uri
+  - creare si asteptare (reamintire)
+  - executie in ordine nedefinita (reaminitre)
+  - aceeasi functie in mai multe thread-uri sau
+    mai multe functii in mai multe thread-uri
+  - transmitere de parametri
+  - ce se duplica dn memorie si ce ramane comun?
+  - corupere date
+  - sincronizare cu mutex
+  - deadlock
+
+Thread-uri
+----------
+- la pornirea programului avem un singur thread
+  (default) care ruleaza functia main
+- crearea unui thread rezulta in rularea functiei
+  asociate acelui thread concurent cu thread-ul
+  default (main). crearea inca a unui thread
+  rezulta in rularea functie respective concurent
+  cu threadul main si cel create anterior.
+- daca thread-ul main se termina, atunci toate
+  thread-urile care nu sunt detached (nu stim cum
+  se fac inca) se termina si ele si se termina si
+  procesul. ca urmare, toate threadurile care nu
+  sunt detached trebuie asteptate cu join
+- functionarea threadurilor este **nedefinita**
+  daca main se termina fara a le astepta
+
+Transmitere de parametri
+------------------------
+- unui thread is se poate transmite un singur
+  parametru care este un pointer
+- daca avem de transmis mai multi parametri
+  definim o structura cu tot ce e necesar si
+  trimit un pointer spre o asemenea structura
+  populata cu toate valorile relevante
+- memoria alocata special pentur argumentul unui
+  thread se poate elibera fara risc, doar in
+  functia thread-ului dupca ce valorile au fost
+  folosite sau copiate.
+
+Mutex
+-----
+
+- variabilele globale si zonele de heap accesata
+  si modificate concurent de mai multe thread-uri
+  se numesc resurse critice, iar fragmentele de
+  cod care le afecteaza se numesc sectiuni critice
+
+- sectiunile critice trebuie protejate pentu a
+  preveni coruperea datelor
+
+- cel mai simplu mecanism este mutex: create,
+  lock, unlock, destroy (trylock)
+
+- TEMA: ce e posibil sa se intample la rulearea
+  concurenta a celor doua threaduri de mai jos
+
+  pthread_mutex_t m1, m2
+
+  f() {
+     lock(m1)
+     lock(m2)
+     ...
+     unlock(m1)
+     unlock(m2)
+  }  
+
+  g() {
+     lock(m2)
+     lock(m1)
+     ...
+     unlock(m2)
+     unlock(m1)
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

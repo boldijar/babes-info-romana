@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="lab4">
+</Property><Property Name="Solution File" Value="C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab4.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab4.suo">
+</Property><Property Name="Date" Value="Friday, April 22, 2011">
+</Property><Property Name="Time" Value="5:11 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="lab4.sln" Description="File successfully backed up as C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab4.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="lab4.suo" Description="File successfully backed up as C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab4.suo.old">
+</Event><Event ErrorLevel="0" Project="lab4" Source="lab4\lab4.vcproj" Description="Converting project file 'C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab4\lab4.vcproj'.">
+</Event><Event ErrorLevel="2" Project="lab4" Source="lab4\lab4.vcproj" Description="File 'C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab4\lab4.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="lab4" Source="lab4\lab4.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="lab4" Source="lab4\lab4.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="lab4.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="lab4.sln" Description="Converted">
+</Event></UpgradeLog>

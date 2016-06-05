@@ -1,0 +1,298 @@
+#include <iostream>
+#include <iomanip>
+#include <sstream>
+
+#include "userinterface.h"
+#include "controller.h"
+using namespace std;
+
+/// Defining Menu Headers
+#define MenuHeaderDesc "Descrierea"
+#define MenuHeaderCMD "Comanda"
+/// Defining Menu Context
+#define MenuEntry1 "Adaugarea numerelor in lista "
+#define MenuEntry2 "Inserarea numerelor pe o anumita pozitie din lista "
+#define MenuEntry3 "Stergerea numerelor din intervalul [x,y] "
+#define MenuEntry4 "Inlocuirea unui subsir dat cu un sir dat "
+#define MenuEntry5 "Afisarea numerelor prime din intervalul [x,y] "
+#define MenuEntry6 "Afisarea numerelor impare din intervalul [x,y] "
+#define MenuEntry7 "Afisarea sumei numerelor din intervalul [x,y] "
+#define MenuEntry8 "Afisarea C.M.M.D.C numerelor din intervalul [x,y] "
+#define MenuEntry9 "Afisarea maximului numerelor din intervalul [x,y] "
+#define MenuEntry10 "Filtrare sir: doar numere prime "
+#define MenuEntry11 "Filtrare sir: doar numere negative "
+#define MenuEntry12 "Anuleaza ultima operatie "
+#define MenuEntry13 "Afiseaza meniu "
+#define MenuEntry14 "Afiseaza ajutor "
+#define MenuEntry0 "Iesire"
+/// Defining prompter
+#define MenuPrompter ">>"
+/// Data defining
+#define MAX_USER_OUTPUT_INT 20
+#define cmdArray { 1, 2, 3, 4, 05, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0 };
+#define cmdMessage "  Introduceti valorile: "
+#define cmdMessagePosition "Pozitia pe care doriti sa introduceti date: "
+
+UserInterface::UserInterface()
+{
+    //ctor
+}
+
+UserInterface::~UserInterface()
+{
+    //dtor
+}
+
+void UserInterface::DisplayMenu()
+{
+    int cmd[] = cmdArray;
+    // Menu Header
+    cout<<setfill('.')<<left<<setw(54)<<MenuHeaderDesc<<MenuHeaderCMD<<endl;
+    cout<<setfill('=')<<setw(61)<<""<<endl;
+    // Menu Context
+    cout<<setfill('.')<<left<<setw(54)<<MenuEntry1<<"   "<<cmd[0]<<endl
+        <<left<<setw(54)<<MenuEntry2<<"   "<<cmd[1]<<endl
+        <<left<<setw(54)<<MenuEntry3<<"   "<<cmd[2]<<endl
+        <<left<<setw(54)<<MenuEntry4<<"   "<<cmd[3]<<endl
+        <<left<<setw(54)<<MenuEntry5<<"   "<<cmd[4]<<endl
+        <<left<<setw(54)<<MenuEntry6<<"   "<<cmd[5]<<endl
+        <<left<<setw(54)<<MenuEntry7<<"   "<<cmd[6]<<endl
+        <<left<<setw(54)<<MenuEntry8<<"   "<<cmd[7]<<endl
+        <<left<<setw(54)<<MenuEntry9<<"   "<<cmd[8]<<endl
+        <<left<<setw(54)<<MenuEntry10<<"   "<<cmd[9]<<endl
+        <<left<<setw(54)<<MenuEntry11<<"   "<<cmd[10]<<endl
+        <<left<<setw(54)<<MenuEntry12<<"   "<<cmd[11]<<endl
+        <<left<<setw(54)<<MenuEntry13<<"   "<<cmd[12]<<endl
+        <<left<<setw(54)<<MenuEntry14<<"   "<<cmd[13]<<endl
+        <<left<<setw(54)<<MenuEntry0<<"   "<<cmd[14]<<endl;
+}
+
+void UserInterface::GetCommand(int& data)
+{
+    string temp;
+    stringstream ss;
+    cout<<MenuPrompter;
+    getline(cin,temp);
+    ss<<temp;
+    ss>>data;
+}
+
+void UserInterface::GetUserInput(double* dataArray, unsigned int& count)
+{
+    cout<<MenuPrompter;
+    count = 0;
+    string temp;
+    stringstream ss;
+    getline(cin, temp);
+    ss<<temp;
+    while(!ss.eof())
+        ss>>dataArray[count++];
+}
+
+void UserInterface::GetUserInput(unsigned int& data)
+{
+    cout<<MenuPrompter;
+    string temp;
+    stringstream ss;
+    getline(cin, temp);
+    ss<<temp;
+    ss>>data;
+}
+
+void UserInterface::AnalyzeCommand(int cmd)
+{
+
+    //const int cmds [] = cmdArray;
+    switch(cmd)
+    {
+    case 1: // Adds numbers to the list
+    {
+        double* temp = new double[100];
+        unsigned int count;
+        cout<<cmdMessage<<endl;
+        GetUserInput(temp,count);
+        for(unsigned int i=0; i<count; i++)
+            GetController().AddToList(temp[i]);
+        delete[] temp;
+        GetController().PrintList(GetController().GetList());
+    }
+    break;
+    // Insert command: insert [1..n] at [poz]
+    case 2:
+    {
+        unsigned int pos=0;
+        double* temp = new double[100];
+        unsigned int count;
+        cout<<cmdMessage<<endl;
+        GetUserInput(temp,count);
+        cout<<cmdMessagePosition<<endl;
+        GetUserInput(pos);
+        for(unsigned int i=0; i<count; i++)
+            GetController().AddToList(temp[i],pos++ );
+        delete[] temp;
+        GetController().PrintList(GetController().GetList());
+    }
+    break;
+    // remove
+    case 3:
+    {
+        unsigned int pos1, pos2;
+        cout<<"Pozitia de inceput: ";
+        GetUserInput(pos1);
+        cout<<"Pozitia de final: ";
+        GetUserInput(pos2);
+        GetController().RemoveFromList(pos1, pos2);
+        GetController().PrintList(GetController().GetList());
+    }
+    break;
+    // replace
+    case 4:
+    {
+        List<double> m_list;
+        List<double> replacelist;
+        double* temp = new double[100];
+        unsigned int count, c1;
+        cout<<"Cautati un subsir:"<<endl;
+        GetUserInput(temp,count);
+        for(unsigned int i=0; i<count; i++)
+            m_list.addLast(temp[i]);
+        cout<<"Cu ce sa fie inlocuit :"<<endl;
+        GetUserInput(temp,count);
+        for(unsigned int i=0; i<count; i++)
+            replacelist.addLast(temp[i]);
+        //for(unsigned int i=0; i<count; i++)
+            GetController().ReplaceAll(m_list,replacelist);
+        delete[] temp;
+       GetController().PrintList(GetController().GetList());
+    }
+    break;
+    // prime
+    case 5:
+    {
+        List<double> m_list;
+        unsigned int x,y;
+        cout<<"Introduceti pozitiile de inceput - final (separate de Enter):"<<endl;
+        GetUserInput(x);
+        GetUserInput(y);
+        /// Getting in a generic container the prime numbers of the main list
+        /// at x and y position.
+        GetController().GetPrimes(m_list,x,y);
+        GetController().PrintList(m_list);
+    }
+    break;
+    // odd
+    case 6:
+    {
+        List<double> m_list;
+        unsigned int x,y;
+        cout<<"Introduceti pozitiile de inceput - final (separate de Enter):"<<endl;
+        GetUserInput(x);
+        GetUserInput(y);
+        /// Getting in a generic container the prime numbers of the main list
+        /// at x and y position.
+        GetController().GetOddNumbers(m_list,x,y);
+        GetController().PrintList(m_list);
+        // distrugere? lista
+    }
+    break;
+    // sum
+    case 7:
+    {
+        List<double> m_list;
+        double sum=0;
+        unsigned int x,y;
+        cout<<"Introduceti pozitiile de inceput - final (separate de Enter):"<<endl;
+        GetUserInput(x);
+        GetUserInput(y);
+        /// Getting in a generic container the prime numbers of the main list
+        /// at x and y position.
+        GetController().GetSum(m_list,x,y);
+        cout<<"Suma din ["<<x<<","<<y<<"] este: "<<endl<<sum<<endl;
+    }
+    break;
+    // gcd
+    case 8:
+    {
+        List<double> m_list;
+        double gcd=0;
+        unsigned int x,y;
+        cout<<"Introduceti pozitiile de inceput - final (separate de Enter):"<<endl;
+        GetUserInput(x);
+        GetUserInput(y);
+        /// Getting in a generic container the prime numbers of the main list
+        /// at x and y position.
+        GetController().GetGCD(m_list,x,y);
+        cout<<"Suma din ["<<x<<","<<y<<"] este: "<<endl<<gcd<<endl;
+    }
+    break;
+    // max
+    case 9:
+    {
+        List<double> m_list;
+        double max=0;
+        unsigned int x,y;
+        cout<<"Introduceti pozitiile de inceput - final (separate de Enter):"<<endl;
+        GetUserInput(x);
+        GetUserInput(y);
+        /// Getting in a generic container the prime numbers of the main list
+        /// at x and y position.
+        GetController().GetMax(m_list,x,y);
+        cout<<"Suma din ["<<x<<","<<y<<"] este: "<<endl<<max;
+    }
+    break;
+    // filter negatives
+    case 10:
+    {
+        List<double> m_list;
+        GetController().GetPrimes(m_list,0,GetController().GetList().countElements());
+        GetController().SetList(m_list);
+        cout<<"Filtrare lista > doar numere prime."<<endl;
+    }
+    break;
+    // filter primes
+    case 11:
+    {
+        List<double> m_list;
+        GetController().GetPrimes(m_list,0,GetController().GetList().countElements());
+        GetController().SetList(m_list);
+        cout<<"Filtrare lista > doar numere negative."<<endl;
+
+    }
+    break;
+
+    case 12:
+    {
+        GetController().Undo();
+    }
+
+    case 13:
+    {
+        DisplayMenu();
+    }
+    break;
+
+    case 14:
+    {
+        //DisplayHelp();
+    }
+    break;
+    case 15:
+    {
+        if(GetController().GetList().countElements() != 0)
+            GetController().PrintList(GetController().GetList());
+        else cout<<"Nu sunt elemente in lista !"<<endl;
+    }
+    break;
+    case 0:
+    {
+        cout<<"Aplicatia se va inchide. O zi buna !";
+    }
+    break;
+    default:
+    {
+        DisplayMenu();
+    }
+    break;
+    }
+}
+

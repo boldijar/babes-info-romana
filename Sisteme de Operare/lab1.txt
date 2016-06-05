@@ -1,0 +1,13 @@
+cp file1 ../lab2    (sunt in lab1, copiez file1 in folderul lab2)
+
+
+
+mv file1 file3   (redenumesc file1 in file3)
+
+
+
+mv file3 ../lab1 (sunt in lab2, mut file3 in folderul lab1)
+
+
+
+ps   -afiseaza procesele 

@@ -1,0 +1,61 @@
+									Autor: Musetescu Mircea
+									Grupa: 225
+									Data predarii: 19.12.2001				 
+
+Laborator Nr.5
+
+
+PROBLEMA:
+  Se da un graf orientat G=(X,GAMMA). Descrieti un algoritm pentru determinarea
+unei multimi exterior stabile minime in graful G.
+
+PROIECTARE:
+
+  Pentru rezolvarea acestei probleme se poate utiliza metoda Branch and Bound.
+
+  In ceea ce priveste corectitudinea algorimului este important de precizat
+faptul ca, atunci cand exista solutie, algoritmul se incheie cand este
+selectat spre expandare nodul corespunzator solutiei optime. 
+
+  In cazul problemei de fata un nod are structura (X,X',T,f) unde:
+  G'= (X U X',() este un graf bipartit // (-Delta
+      X'= { i' | i din X }
+      i' este in ((j) daca i=j sau j este in GAMMA(i)
+  T = este o multime exterior stabila
+  f = |X'| + |T| este borna nodului (functia de cost)
+  Expandarea nodului (X,X',T,b) se realizeaza in urmatorul mod:
+    1) (X-{i}, X'-((i), T U {i}, |X'-((i)|+|T|+1)
+    2) (X-{i}, X'-((i), T      , |X'-((i)|+|T|  )
+    pentru orice i din X' cu proprietatea |((i)| >= 2
+
+ALGORITM:
+
+OPEN << (X,X',MULTIMEA VIDA, |X'|)
+Cat timp ((* OPEN nu este vida) si
+          (* nu s-a selectat nodul cu |X'|=MULTIMEA VIDA)) executa
+  * Selecteaza optim: nodul din OPEN cu f minim
+  OPEN>> optim>> CLOSE
+  * Expandeaza optim
+  Pentru (* orice S, succesor al lui optim) executa
+    Daca (* S nu apare nici in OPEN nici in CLOSE)
+      atunci OPEN<< S
+      altfel P := (* adresa din OPEN sau CLOSE, unde s-a gasit S)
+             Daca (S.f < P.f)
+               atunci P.tata := optim
+                      Daca (* S s-a gasit in CLOSE)
+                        atunci CLOSE>> S>> OPEN
+                      SfDaca
+             SfDaca
+    SfDaca
+  SfPentru
+SfCat
+Daca (* OPEN este vida)
+  atunci (* Problema nu are solutie)
+  altfel (* Tipareste optim.T)
+SfDaca
+
+OBSERVATIE:
+
+  Algoritmul se incheie atunci cand X' este multimea vida deoarece T din X
+este multime exterior stabila in G daca si numai daca ((T)=X' in G'
+(teorema demonstrata in curs).

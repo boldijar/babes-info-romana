@@ -1,0 +1,17 @@
+
+4. CAR RENTAL
+Cristina works at the Wheels Inc. car rental company. Wheels Inc. has a car pool
+available for renting. Each car has a unique license number, a model and a category (one
+of small, family, SUV, sports). Cristina would like to have a computer program to help
+her better manage the car rental process in the following ways:
+
+a. Whenever a new car is added to the car pool she must be able to add it to the program's car list.
+b. She wants to be able to update the model and category for any car in the car pool.
+c. She wants to be able to remove cars from the car pool.
+d. She wants to be able to quickly consult the list of:
+	i. The cars in the car pool
+	ii. Cars that are currently rented
+	iii. Cars available for rental
+	
+e. She wants the program to help her with car renting. She can mark any available car as rented (so
+   it cannot be rented again) and any rented car as available (so it can again be rented).

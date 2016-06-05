@@ -1,0 +1,58 @@
+#ifndef CONTROLLER_H
+#define CONTROLLER_H
+
+#include "arrmanip.h"
+
+class Controller
+{
+public:
+
+    /** Default constructor */
+    Controller();
+    /** Default destructor */
+    virtual ~Controller();
+    /** Get          */
+    List<double> GetList(){return list;
+    }
+    /****/
+    void SetList(List<double> value){CopyList(list,value);}
+    /****/
+    void AddToList(/*List<double>&, */double, unsigned int);
+    /****/
+    void AddToList(/*List<double>&, */double);
+    /****/
+    void RemoveFromList(/*List<double>&, */unsigned int);
+    /****/
+    void RemoveFromList(/*List<double>&, */unsigned int, unsigned int);
+    /****/
+    void ReplaceAll(/*List<double>&, */List<double>&, List<double>&);
+    /****/
+    void GetPrimes(/*List<double>&, */List<double>&, unsigned int, unsigned int);
+    /****/
+    void GetOddNumbers(/*List<double>&, */List<double>&, unsigned int, unsigned int);
+    /****/
+    void GetSum(/*List<double>&, */double&, unsigned int, unsigned int);
+    /****/
+    void GetGCD(/*List<double>& list, */double&, unsigned int, unsigned int);
+    /****/
+    void GetMax(/*List<double>&, */double&, unsigned int, unsigned int);
+    /****/
+    void GetNegatives(/*List<double>&, */List<double>& , unsigned int, unsigned int);
+    /****/
+    void CopyList(List<double>&, List<double>);
+    /****/
+    void SwapLists(List<double>&, List<double>&);
+
+    void PrintList(List<double>);
+
+    void Undo();
+
+
+protected:
+    List<double> list;
+    List<double> undoList;
+private:
+
+};
+
+#endif // CONTROLLER_H

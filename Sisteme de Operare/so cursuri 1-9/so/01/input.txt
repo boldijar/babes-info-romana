@@ -1,0 +1,179 @@
+
+Operating Systems
+
+2014-2015 2nd Semester
+1st Year English
+
+Instructor: 	Conf. Dr. Rares Boian <rares at cs.ubbcluj.ro>
+Seminar/Lab Instructors: 	Lect. Dr. Horea Grebla <horea at cs.ubbcluj.ro>
+Lect. Dr. Adrian Sterca <forest at cs.ubbcluj.ro>
+Assist. Dan Cojocar <dan at cs.ubbcluj.ro>
+Assist. Mihai Suciu <mihai-suciu at cs.ubbcluj.ro>
+Drd. Ioan Badaranza <ionutb at cs.ubbcluj.ro>
+Drd. Bogdan Pop <popb at cs.ubbcluj.ro>
+Drd. Diana Troanca <dianat at cs.ubbcluj.ro>
+
+Consulting Hours: 	TBD, Room 304, Campus
+
+Syllabus
+
+News
+2015-02-23: Welcome! Please read carefully all the details below.
+
+Graded Work
+
+    Homeworks
+        Assigned during the lectures
+        Due back in one week. The homeworks should be submitted in person during the next lecture
+    Quizzes
+        Take place during labs and/or seminars
+        Will not necesarily be announced in advance
+        Short duration (5 - 10 minutes)
+    Lab projects (details)
+        The problems to be solved for each lab project will be assigned to students through the AMS portal. The access to the portal is done using the UNIX username and password
+        Besides the problem assigned through AMS, each lab project will have a problem to be solved in class. This problem will be graded during the same lab hour and account for 50% of that project's grade.
+        The problems to be solved in-lab must be solved during the lab when they are assigned or during the next lab.
+        The solutions must be uploaded into the AMS portal by the given deadline. A one-week extesion will be allowed, in which case the grade will be reduced by 2 points. Later uploads will be ignored.
+        Lab attendance is mandatory
+    Lab tests
+        Exam duration: 20 min
+        The students will be required to solve (implement) a problem on the computer.
+        There will be no Internet access allowed during the exam, nor will the studens be permitted to access the information in their personal UNIX accounts.
+        Access to the UNIX manual pages available on the exam server is permitted
+    UNIX Shell Partial Practical exam
+        Takes place in the middle of the semester
+        Exam duration: 40 min
+        The students will be required to solve (implement) a problem on the computer.
+        There will be no Internet access allowed during the exam, nor will the studens be permitted to access the information in their personal UNIX accounts.
+        Access to the UNIX manual pages available on the exam server is permitted
+    UNIX Processes and Threads Partial Practical exam
+        Takes place in the last lab hour
+        Exam duration: 40 min
+        The students will be required to solve (implement) a problema on the computer.
+        There will be no Internet access allowed during the exam, nor will the studens be permitted to access the information in their personal UNIX accounts.
+        Access to the UNIX manual pages available on the exam server is permitted
+    Written exam
+        To enter this exam, a student must have:
+            At least 8 lab hour attendences
+            A grade of at least 5 in the shell practical exam
+            A grade of at least 5 in the processes/threads practical exam
+            An average of at least 5 for the lab activity (projects + tests)
+        Exam problems: 20 questions which require concise and short answers.
+        Exam duration: 150 min
+        Students are allowed to bring a cheat-sheet. The sheet must be hand-written on A4 paper.
+
+Final grade calculation
+Notice that the grade average of Homeworks and Quizzes is a bonus added to the final grade.
+
+Abbreviations:
+
+    (N) Normal examination period and semester
+        N.Grade = Final grade after the normal examination period
+        N.E.W = Written exam
+        N.E.Sh = UNIX Shell programming partial practical exam
+        N.E.PrTh = UNIX processes and threads programming partial practical exam
+        N.T.GSA = grep/sed/awk programming test
+        N.T.Sh = Shell programming test
+        N.T.Pr = UNIX processes programming test
+        N.T.Thr = UNIX threads programming test
+        N.P.Sh = UNIX shell programming project
+        N.P.Pr = UNIX processes programming project
+        N.P.Thr = UNIX threads programming project
+        N.L = Average grade of the lab activity (tests and projects)
+        N.B = Bonus - average of homeworks and quizzes
+    (R) Re-examination period
+        R.Grade = Final grade after the re-examination period
+        R.E.W = Written exam
+        R.E.Sh = UNIX Shell programming partial practical exam
+        R.E.PrTh = UNIX processes and threads programming partial practical exam
+        R.L = Partial practical exam that replaces N.L
+
+N.L = (N.T.GSA + N.T.Sh + N.T.Pr + N.T.Thr + N.P.Sh + N.P.Pr + N.P.Thr)/7
+
+N.Grade = 4
+IF  N.E.W ≥ 5  AND  N.E.Sh ≥ 5  AND  N.E.PrTh ≥ 5  AND  N.L ≥ 5  THEN
+    N.Grade = 0.4 * N.E.W +
+              0.3 * N.L +
+              0.2 * N.E.PrTh +
+              0.1 * N.E.Sh +
+              0.1 * N.B
+
+    N.Grade = min(N.Grade, 10)
+END IF
+
+X.E.W =    max(N.E.W,    R.E.W)
+X.L =      max(N.L,      R.L)
+X.E.PrTh = max(N.E.PrTh, R.E.PrTh)
+X.E.Sh =   max(N.E.Sh,   R.E.Sh)
+
+R.Grade = 4
+IF  X.E.W ≥ 5  AND  X.E.Sh ≥ 5  AND  X.E.PrTh ≥ 5  AND  X.L ≥ 5  THEN
+    R.Grade = 0.4 * X.E.W +
+              0.3 * X.L +
+              0.2 * X.E.PrTh +
+              0.1 * X.E.Sh
+END IF
+
+FinalGrade = max(N.Grade, R.Grade)
+
+Re-Examination
+
+The re-examination will start with the written exam, followed shortly by a practical exam that will consist of three problems, one for each of the following grades: R.E.Sh, R.E.PrTh, and R.L
+
+Lab group division
+
+The distribution of students into lab groups is done automatically such that lab groups will be balanced in the number of students. Switching lab groups is allowed only during the first two weeks of the semester provided that the students have good reasons to request the switch and the switch will keep the lab groups balanced.
+
+Students taking this course again
+Students taking this course again will have to accomplish all the course requirements as they are set for everybody else. Work done previously on this course will be ignored. All assignments will have to be solved again.
+
+Lab project handin rules
+
+    The lab projects must work on the hardware and software facilities available in the CS department
+    The projects will be presented to the lab instructor exclusively during the lab hours
+    The solutions will be archived in ZIP format and will be uploaded to the AMS portal. The access to the portal is done using the student's UNIX username and password.
+    The handin of a lab project involves:
+        Uploading the solution into the AMS portal.
+        The lab project has to be graded by the lab instructor upon the students presentation.
+        If any of the above are not satisfied the lab project is considered un-submitted and hence not graded.
+    A lab handin must include:
+        The source code of the project properly indented and commented. The code indentation and comments are worth 2 points of the project's grade.
+        All the resources necessary to test and evaluate the project (i.e input files, test data, etc.)
+
+Weekly Schedule
+
+
+
+Resources
+
+    Reference materials
+        English - similar material to what we cover in class: (0), (1), (2), (3)
+        Romanian
+    Lecture notes
+    Lecture examples
+    Lab examples
+    C Programing Language
+        C Made Easy
+        C Tutorial (original website)
+        C Tutorial by Brian W. Kernighan. Use this tutorial for a more detailed presentation of the C programming languge.
+        C Arrays and Pointers as Function Arguments
+        C/C++ reference (we are only interested in C)
+    Make
+        Simple Makefile example that uses a header file
+        Makefile example shown in class
+    UNIX Editors
+        VI Tutorial
+        JOE Tutorial
+    Shell Programming (BASH):
+        Tutorial 1
+        Tutorial 2
+        Bash prompts: (1), (2). export PS1='\e]2;\w\a\n\e[36m[\t] \e[32m\u@\h \e[33m\w\e[0m\n> '
+    Examples shown during the UNIX C programming tutorials
+        Macros for easy tracing the program execution + Binary tree loading and parsing
+        Concurrent client-server communication using FIFO
+    GREP Tutorials: (1), (2)
+    SED Tutorials: (1), (2)
+    AWK Tutorials: (1), (2)
+    Practice problems: Grep/Sed/Awk, Shell
+
+

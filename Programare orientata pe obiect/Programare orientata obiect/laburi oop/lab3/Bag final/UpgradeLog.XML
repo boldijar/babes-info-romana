@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Bag final">
+</Property><Property Name="Solution File" Value="C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Bag final\Bag final.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Bag final\Bag final.suo">
+</Property><Property Name="Date" Value="Monday, April 18, 2011">
+</Property><Property Name="Time" Value="19:00 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Bag final.sln" Description="File successfully backed up as C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Bag final\Bag final.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Bag final.suo" Description="File successfully backed up as C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Bag final\Bag final.suo.old">
+</Event><Event ErrorLevel="0" Project="Bag final" Source="Bag final\Bag final.vcproj" Description="Converting project file 'C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Bag final\Bag final\Bag final.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Bag final" Source="Bag final\Bag final.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Bag final" Source="Bag final\Bag final.vcproj" Description="Done converting to new project file 'C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Bag final\Bag final\Bag final.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Bag final" Source="Bag final\Bag final.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Bag final.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Bag final.sln" Description="Converted">
+</Event></UpgradeLog>

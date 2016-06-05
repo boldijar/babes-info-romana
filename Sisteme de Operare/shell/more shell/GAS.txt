@@ -1,0 +1,38 @@
+-> http://www.cs.ubbcluj.ro/~rares/course/os/res/gsa/gsa.html
+
+1. Find all the usernames that logged in from "economica" on a Sunday.
+cat last.fake | awk '{ if($3 ~ "^economica" && $4 == "Sun") print $1 }' | sort -u
+
+2. Find all the users that logged into the system after 11PM
+cat last.fake | awk '{print $1":"$7}' | awk -F ":" '{ if($2 >= 23) print $1 }' | head --bytes=-6 | sort -u
+
+3. Display the full names of the users having a username that starts with "m" and with a user ID divisible by 7.
+cat passwd.fake | awk -F ":" '{ if($1 ~ "^m" && $3 % 7 == 0) print $5}' | sort -u
+
+4. Display all the distinct TTYs used by user root.
+cat ps.fake | awk '{ if($1 == "root") print $6 }' | sort -u
+
+5. Find the full names of all the users whose username ends in 88.
+cat passwd.fake | awk -F ":" '{ if($1 ~ "88$") print $5 }'
+
+6. Find all users whose user ID has three digits and starts with 23
+cat passwd.fake | awk -F ":" '{ if(length($3) == 3 && $3 ~ "^23") print $5}'
+
+7. Find all usersnames starting with "k" that logged on "pts/9"
+cat last.fake | awk '{ if($1 ~ "^k" && $2 == "pts/9") print $1 }'
+
+*Obs: spre deosebire de rezultatele asteptate de pe site, acesta comanda returneaza doar un singur username. Domnul profesor a avut o mica gresala, comanda pe care a scris-o el returneaza si userii care s-au logat pe "pts/9x" nu doar cei de pe "pts/9" (ex: kim1332)
+
+8. Find all the distinct usernames starting with "r" that are currently running programs, and display them duplicating every vowel.
+cat ps.fake | awk '{ if($1 ~ "^r") print $1 }' | sort -u | sed -e 's/[aeiou]/&&/g'
+
+9. Display all the distinct lines left in /etc/passwd after deleting all letter and digits and spaces.
+cat passwd.fake | sed -e 's/[0-9a-Z ]//g' | sort -u
+
+10. Display all the distinct lines left in /etc/passwd after deleting all characters except "r".
+cat passwd.fake | sed -e 's/[^r]//g' | sort -u
+
+11. Calculate the average of the PIDs of the processes currently running in the system.
+cat ps.fake | awk '{ if ($2 ~ "^[0-9]") counter++; sum += $2} END  { print sum/counter }'
+
+Obs: si aici s-a strecurat o mica gresala la "Expected Result" pe siteul domnului profesor. Rezultatul corect este 8410.28, deoarece contorul nu il marim la prima linie(cea care contine titlul tabelului)  si ultima linie(care contine doar caracterul newline).

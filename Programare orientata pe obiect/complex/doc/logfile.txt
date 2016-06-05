@@ -1,0 +1,47 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.8.2.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-service.jar;D:\Ioan Maties- POO\BoabeGrau
+-d
+D:\Ioan Maties- POO\BoabeGrau\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java
+<---- end of javadoc command ---->
+Loading source file D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java...
+D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java:3: error: illegal start of expression
+    { public static void main(String[]args)
+      ^
+D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java:3: error: illegal start of expression
+    { public static void main(String[]args)
+             ^
+D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java:3: error: ';' expected
+    { public static void main(String[]args)
+                   ^
+D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java:3: error: '.class' expected
+    { public static void main(String[]args)
+                                      ^
+D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java:3: error: ';' expected
+    { public static void main(String[]args)
+                                          ^
+D:\Ioan Maties- POO\BoabeGrau\BoabeGrau.java:4: error: reached end of file while parsing
+        { BigInteger sum=new BigInteger
+                                       ^
+6 errors

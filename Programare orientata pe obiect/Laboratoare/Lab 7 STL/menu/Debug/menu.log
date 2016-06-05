@@ -1,0 +1,18 @@
+﻿Build started 5/28/2015 16:05:16.
+     1>Project "C:\Users\Iulian\Desktop\Lab 7 STL\menu\menu.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\menu.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         menu.vcxproj -> C:\Users\Iulian\Desktop\Lab 7 STL\Debug\menu.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\menu.unsuccessfulbuild".
+         Touching "Debug\menu.lastbuildstate".
+     1>Done Building Project "C:\Users\Iulian\Desktop\Lab 7 STL\menu\menu.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18

@@ -1,0 +1,80 @@
+
+sh a.txt    -fisier shell
+chmod 744 a.txt   - drepturi de citire/scriere/executie pt user, si doar de citire 			pentru restul
+
+./a.txt  - executare script
+
+
+
+a=2
+echo a   - afiseaza a
+echo $a   - afiseaza 2
+
+b=1+1
+echo $b    - afiseaza 1+1
+b=`expr 1 + 1`
+echo $b    - afiseaza 2
+
+c=$((3*5))
+echo $c    - 15
+
+
+vim 3.sh
+----
+a=2
+b=2
+if [ $a -gt $b ]; then
+	echo $a
+else
+	echo $b
+fi
+----
+chmod 700 3.sh
+./3.sh
+
+
+
+
+vim 3.sh
+----
+//daca avem nu avem exact 2 parametrii atunci afisam ,,eroare
+
+if [ $# -ne 2 ]; then
+	echo "eroare"
+	exit 1
+fi
+
+if [ $1 -gt $2 ]; then
+	echo $1
+else
+	echo $2
+fi
+-----
+chmod 700 3.sh
+./3.sh 1 5       -afiseaza 5
+
+
+
+
+
+afisam useri de pe server:
+4.sh
+----
+for x in `grep gr212 /etc/passwd | cut -d: -f1`
+do
+	echo $x
+	sleep 1
+done
+
+
+
+
+
+
+----------
+i=2
+while [ $i -lt 8 ]; do
+	echo $i
+	i=$(($i+1))
+	sleep 1
+done

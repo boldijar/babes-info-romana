@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1402093295 source:d:\project\sda\priority_queue\elevi.cpp
+	"elevi.h"
+
+1402095875 d:\project\sda\priority_queue\elevi.h
+	<string>
+
+1402097623 source:d:\project\sda\priority_queue\priority_queue.cpp
+	"elevi.h"
+	"priority_queue.h"
+	<iostream>
+
+1402243103 d:\project\sda\priority_queue\priority_queue.h
+	"elevi.h"
+	<string>
+	<cstdio>
+	<iostream>
+
+1402156253 source:d:\project\sda\priority_queue\main.cpp
+	<iostream>
+	"elevi.h"
+	"priority_queue.h"
+	"repository.h"
+	<cstdlib>
+	"ui.h"
+
+1402150327 d:\project\sda\priority_queue\repository.h
+	"elevi.h"
+	<string>
+	"priority_queue.h"
+
+1402150939 d:\project\sda\priority_queue\ui.h
+	"repository.h"
+
+1402153358 source:d:\project\sda\priority_queue\ui.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	"ui.h"
+	"repository.h"
+

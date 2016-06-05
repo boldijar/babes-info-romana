@@ -1,0 +1,31 @@
+.BAT
+
+
+for %%i in () do comanda
+
+
+type    <=>   cat
+
+
+
+//afisam continutul fisierelor txt
+//1.bat
+echo OFF
+for %%i in ( *.txt ) do type %%i
+
+
+//sterge fisierul
+//sterge.bat
+del %1
+
+
+
+//sterge mai multe fisiere transimse ca parametrii
+
+echo OFF
+:start
+if "%1" == "" goto :end
+del %1
+shift
+goto :start
+:end

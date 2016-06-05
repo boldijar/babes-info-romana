@@ -1,0 +1,125 @@
+Plan
+----
+- comportament open/close/read/write cu pipe/fifo
+- deadlock la deschiderea FIFO
+- semnale
+- server cu fork
+- thread-uri
+  - creare
+  - pasare de argumente
+  - probleme cu alocarea de memorie
+  - corupere date (race condition)
+  - sincronizare cu mutex
+- dup2
+- implementare similar cu ce face bash cu "|"
+
+Flag-uri
+--------
+- cand o functie are nevoie de multi parametri
+  boolean-i, acesti multi multi parametri pot fi
+  inlocuiti cu unul singur de tip int (dar poate
+  fi si short sau long) considerand fiecare bit al
+  acestui parametru, a avea o anume insemnatate.
+
+- in general, flag-urile sunt intregi cu valori
+  puteri ale lui 2, astfel incat ocupa un singur
+  bit si se paseaza functiei respective vombinate
+  cu sau pe biti "|"
+
+int citireIncapatanata(int fd, void* buf, int size,
+                       int rounds) {
+    int total, r, k; 
+
+    r = 0;
+    total = 0;
+    
+    while(total < size && r < rounds) {
+        k = read(fd, buf+total, size-total);
+        if(k < 0) {
+            return k;
+        }
+        total += k;
+        r++;
+    }
+    return total;
+}
+
+Server cu FORK
+--------------
+
+void handler(int sgn) {
+    wait(0);
+    signal(handler, SIG_CHLD);
+}
+
+int main() {
+    ...
+    signal(handler, SIG_CHLD);
+    while(1) {
+        // primeste cerere
+        if(fork() == 0) {
+            //serveste cerere
+            exit(0);
+        }
+    }
+    ...
+}
+
+- la terminare, procesul fiu trimite un semnal
+  (SIGCHLD) procesului parinte
+
+Semnale
+-------
+
+- sunt intreruperi soft
+- suprascriind handler-ul pentru SIGCHLD, putem
+  astepta imediat dupa procesul fiu care s-a
+  terminat
+- setarea unui handler pentru un semnal se face
+  folosind apelului sistem "signal"
+- trimiterea unui semnal se fac ecu apelul sistem
+  "kill"
+
+- semnalele sunt identificate prin numere asociate
+  cu nume mai citibile. le gasiti in "man 7 signal"
+
+Thread-uri POSIX
+----------------
+- pthread_create
+- pthread_join
+- pthread_self
+
+- un thread executa o functie in paralel cu restul
+  executiei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+

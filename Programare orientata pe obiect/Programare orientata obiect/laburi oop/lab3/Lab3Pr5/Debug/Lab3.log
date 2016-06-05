@@ -1,0 +1,17 @@
+﻿Build started 4/13/2011 10:48:25 AM.
+     1>Project "C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Lab3Pr5\Lab3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lab3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Lab3.vcxproj -> C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Lab3Pr5\Debug\Lab3.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab3.unsuccessfulbuild".
+         Touching "Debug\Lab3.lastbuildstate".
+     1>Done Building Project "C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab3\Lab3Pr5\Lab3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

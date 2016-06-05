@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="lab5">
+</Property><Property Name="Solution File" Value="C:\Users\sandu\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab5\lab5.sln">
+</Property><Property Name="User Options File" Value="C:\Users\sandu\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab5\lab5.suo">
+</Property><Property Name="Date" Value="Tuesday, April 12, 2011">
+</Property><Property Name="Time" Value="23:08">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="lab5.sln" Description="File successfully backed up as C:\Users\sandu\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab5\lab5.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="lab5.suo" Description="File successfully backed up as C:\Users\sandu\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab5\lab5.suo.old">
+</Event><Event ErrorLevel="0" Project="lab5" Source="lab5.vcproj" Description="Converting project file 'C:\Users\sandu\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab5\lab5.vcproj'.">
+</Event><Event ErrorLevel="1" Project="lab5" Source="lab5.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="lab5" Source="lab5.vcproj" Description="Done converting to new project file 'C:\Users\sandu\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\lab5 probl3\lab5\lab5.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="lab5" Source="lab5.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="lab5.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="lab5.sln" Description="Converted">
+</Event></UpgradeLog>

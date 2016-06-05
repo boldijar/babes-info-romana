@@ -1,0 +1,1 @@
+sa se implementeze un program care creeaza o ierarhie de procese in care el e strabunicul celui mai tanar proces, fiecare proces isi va tipari pidul, pidul parintelui si va astepta dupa procesul fiu direct.

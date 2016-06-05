@@ -1,0 +1,471 @@
+> 
+> 2+2;
+
+                                  4
+
+> 
+> 
+
+                                            2
+                        y := x -> 2 x (1 + y )
+
+> ec1:=diff(y(x),x) = 2*x*(1+y(x)^2);
+
+                          d                      2
+                   ec1 := -- y(x) = 2 x (1 + y(x) )
+                          dx
+
+> s1:=dsolve(ec1,y(x));
+
+                                       2
+                     s1 := y(x) = tan(x  + 2 _C1)
+
+> 
+> 
+> a:=rhs(s1);
+
+                                   2
+                         a := tan(x  + 2 _C1)
+
+> b:=unapply(a,x,_C1);
+
+                                         2
+                   b := (x, _C1) -> tan(x  + 2 _C1)
+
+> plot( [ b(x,1), b(x,2)], x=-2..2, y=-10..10, color=[red,blue] );
+
+> ec2:= (x^2-1) * diff(y(x),x) + 2*x*y(x)^2 = 0;
+
+                       2      /d      \           2
+              ec2 := (x  - 1) |-- y(x)| + 2 x y(x)  = 0
+                              \dx     /
+
+> s2 :=dsolve(ec2, y(x));
+
+                                         1
+               s2 := y(x) = ---------------------------
+                            ln(x - 1) + ln(x + 1) + _C1
+
+> a:=rhs(s2);
+
+                                     1
+                   a := ---------------------------
+                        ln(x - 1) + ln(x + 1) + _C1
+
+> b:=unapply(a,x,_C1);
+
+                                           1
+             b := (x, _C1) -> ---------------------------
+                              ln(x - 1) + ln(x + 1) + _C1
+
+> plot( [b(x,1), b(x,2)], x=-2..2, y=-10..10, color=[red, blue]);
+
+> ec3 := 2*x^2*diff(y(x),x) = x^2 + y(x)^2;
+
+                           /d      \  2    2       2
+                  ec3 := 2 |-- y(x)| x  = x  + y(x)
+                           \dx     /
+
+> s3:=dsolve(ec3, y(x));
+
+                               x (-2 + ln(x) + _C1)
+                  s3 := y(x) = --------------------
+                                   ln(x) + _C1
+
+> a:=rhs(s3);
+
+                           x (-2 + ln(x) + _C1)
+                      a := --------------------
+                               ln(x) + _C1
+
+> b:=unapply(a,x,_C1);
+
+                                 x (-2 + ln(x) + _C1)
+                b := (x, _C1) -> --------------------
+                                     ln(x) + _C1
+
+> plot( [b(x,1), b(x,2)], x=-2..2, y=-10..10, color=[red,blue] );
+
+> ec4:= diff(y(x),x) = -(x/y(x));
+
+                              d            x
+                       ec4 := -- y(x) = - ----
+                              dx          y(x)
+
+> s4 := dsolve(ec4, y(x));
+
+                         2       1/2             2       1/2
+         s4 := y(x) = (-x  + _C1)   , y(x) = -(-x  + _C1)
+
+> a1 := rhs(s4[1]);
+
+                                  2       1/2
+                         a1 := (-x  + _C1)
+
+> a2 := rhs(s4[2]);
+
+                                  2       1/2
+                        a2 := -(-x  + _C1)
+
+> b1:=unapply(a1,x,_C1);
+
+                                        2       1/2
+                   b1 := (x, _C1) -> (-x  + _C1)
+
+> b2:=unapply(a2,x,_C1);
+> 
+
+                                        2       1/2
+                  b2 := (x, _C1) -> -(-x  + _C1)
+
+> plot( [b1(x,1), b1(x,2)], x=-2..2, y=-10..10, color = [red, blue] );
+
+> plot( [b2(x,1), b2(x,2)], x=-2..2, y=-10..10, color = [red, blue] );
+
+> ec5 := diff(y(x), x, x) + y(x) = sin(x) + cos(x);
+
+                     / 2      \
+                     |d       |
+              ec5 := |--- y(x)| + y(x) = sin(x) + cos(x)
+                     |  2     |
+                     \dx      /
+
+> s5:=dsolve(ec5, y(x));
+
+  s5 := y(x) = sin(x) _C2 + cos(x) _C1 + 1/2 cos(x) + 1/2 sin(x) x
+
+         - 1/2 cos(x) x
+
+> a := rhs(s5);
+
+  a := sin(x) _C2 + cos(x) _C1 + 1/2 cos(x) + 1/2 sin(x) x
+
+         - 1/2 cos(x) x
+
+> b := unapply(a,x,_C1, _C2);
+
+  b := (x, _C1, _C2) -> sin(x) _C2 + cos(x) _C1 + 1/2 cos(x)
+
+         + 1/2 sin(x) x - 1/2 cos(x) x
+
+> plot(  [ b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red,blue]);
+
+> ec6:=diff(y(x),x,x) - y(x) = exp(2*x);
+
+                        / 2      \
+                        |d       |
+                 ec6 := |--- y(x)| - y(x) = exp(2 x)
+                        |  2     |
+                        \dx      /
+
+> s6 := dsolve(ec6, y(x));
+
+         s6 := y(x) = exp(-x) _C2 + exp(x) _C1 + 1/3 exp(2 x)
+
+> a := rhs(s6);
+
+             a := exp(-x) _C2 + exp(x) _C1 + 1/3 exp(2 x)
+
+> b := unapply (a,x,_C1, _C2);
+
+    b := (x, _C1, _C2) -> exp(-x) _C2 + exp(x) _C1 + 1/3 exp(2 x)
+
+> plot( [ b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red,blue]);
+
+> ec7 := diff(y(x),x,x) + 4*y(x) = 1/(cos(2*x));
+
+                       / 2      \
+                       |d       |               1
+                ec7 := |--- y(x)| + 4 y(x) = --------
+                       |  2     |            cos(2 x)
+                       \dx      /
+
+> s7 := dsolve(ec7, y(x));
+
+  s7 := y(x) = sin(2 x) _C2 + cos(2 x) _C1 + 1/2 x sin(2 x)
+
+         + 1/4 ln(cos(2 x)) cos(2 x)
+
+> a := rhs(s7);
+
+  a := sin(2 x) _C2 + cos(2 x) _C1 + 1/2 x sin(2 x)
+
+         + 1/4 ln(cos(2 x)) cos(2 x)
+
+> b := unapply(a,x,_C1, _C2);
+
+  b := (x, _C1, _C2) -> sin(2 x) _C2 + cos(2 x) _C1 + 1/2 x sin(2 x)
+
+         + 1/4 ln(cos(2 x)) cos(2 x)
+
+> plot( [b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red, blue]);
+
+> ec8:= diff(y(x),x,x) - diff(y(x),x) = 1/ ( 1+exp(x));
+
+                     / 2      \
+                     |d       |   /d      \       1
+              ec8 := |--- y(x)| - |-- y(x)| = ----------
+                     |  2     |   \dx     /   1 + exp(x)
+                     \dx      /
+
+> s8 := dsolve(ec8, y(x));
+
+  s8 := y(x) = -exp(x) ln(exp(x)) + (1 + exp(x)) ln(1 + exp(x)) - 1
+
+         - x + exp(x) _C1 + _C2
+
+> a := rhs(s8);
+
+  a := -exp(x) ln(exp(x)) + (1 + exp(x)) ln(1 + exp(x)) - 1 - x
+
+         + exp(x) _C1 + _C2
+
+> b := unapply(a,x,_C1, _C2);
+
+  b := (x, _C1, _C2) -> -exp(x) ln(exp(x))
+
+         + (1 + exp(x)) ln(1 + exp(x)) - 1 - x + exp(x) _C1 + _C2
+
+> plot( [b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red, blue]);
+
+> e1:= diff(y(x), x) = 1+ y(x)^2;
+
+                            d                 2
+                      e1 := -- y(x) = 1 + y(x)
+                            dx
+
+> cond := y(0) = 1;
+
+                           cond := y(0) = 1
+
+> sol1 := dsolve( {e1, cond}, y(x));
+
+                                             Pi
+                     sol1 := y(x) = tan(x + ----)
+                                             4
+
+> a := rhs(sol1);
+
+                                        Pi
+                          a := tan(x + ----)
+                                        4
+
+> b := unapply(a,x);
+
+                                          Pi
+                       b := x -> tan(x + ----)
+                                          4
+
+> plot( b(x), x=-2*Pi..2*Pi, y=-20..20);
+
+> e2 := diff(y(x), x) = (1/(1-x^2)) * y(x) + 1 + x;
+
+                          d          y(x)
+                    e2 := -- y(x) = ------ + 1 + x
+                          dx             2
+                                    1 - x
+
+> cond := y(0) = 0;
+
+                           cond := y(0) = 0
+
+> s2 := dsolve( {e2, cond}, y(x) );
+
+                      /        2 1/2                \
+                      |x (1 - x )                   |
+                      |------------- + 1/2 arcsin(x)| (x + 1)
+                      \      2                      /
+         s2 := y(x) = ---------------------------------------
+                                          2 1/2
+                                    (1 - x )
+
+> a:= rhs(s2);
+
+                  /        2 1/2                \
+                  |x (1 - x )                   |
+                  |------------- + 1/2 arcsin(x)| (x + 1)
+                  \      2                      /
+             a := ---------------------------------------
+                                      2 1/2
+                                (1 - x )
+
+> b := unapply(a,x);
+
+                               2 1/2
+                  (1/2 x (1 - x )    + 1/2 arcsin(x)) (x + 1)
+        b := x -> -------------------------------------------
+                                        2 1/2
+                                  (1 - x )
+
+> plot( b(x), x=-4..4, y=-10..10);
+
+> e3 := diff(y(x), x,x) - 5*diff(y(x),x) + 4 * y(x) =0;
+> 
+
+                   / 2      \
+                   |d       |     /d      \
+             e3 := |--- y(x)| - 5 |-- y(x)| + 4 y(x) = 0
+                   |  2     |     \dx     /
+                   \dx      /
+
+> cond := y(0) = 5,  D(y)(0) = 8;
+
+                    cond := y(0) = 5, D(y)(0) = 8
+
+> s3 := dsolve( {e3,cond}, y(x));
+
+                   s3 := y(x) = 4 exp(x) + exp(4 x)
+
+> a := rhs(s3);
+
+                       a := 4 exp(x) + exp(4 x)
+
+> b := unapply(a,x);
+
+                    b := x -> 4 exp(x) + exp(4 x)
+
+> plot( b(x), x=-2..2, y=-10..10);
+
+> e4 := diff(y(x), x$2) - 4*diff(y(x),x) + 5*y(x) = 2*x^2*exp(x);
+
+              / 2      \
+              |d       |     /d      \               2
+        e4 := |--- y(x)| - 4 |-- y(x)| + 5 y(x) = 2 x  exp(x)
+              |  2     |     \dx     /
+              \dx      /
+
+> cond := y(0)=2, D(y)(0)=3;
+
+                    cond := y(0) = 2, D(y)(0) = 3
+
+> s4 := dsolve( {e4, cond}, y(x) );
+
+                                                            2
+ s4 := y(x) = -2 exp(2 x) sin(x) + exp(2 x) cos(x) + (x + 1)  exp(x)
+
+> a := rhs(s4);
+
+                                                        2
+     a := -2 exp(2 x) sin(x) + exp(2 x) cos(x) + (x + 1)  exp(x)
+
+> b := unapply(a,x);
+
+                                                           2
+   b := x -> -2 exp(2 x) sin(x) + exp(2 x) cos(x) + (x + 1)  exp(x)
+
+> plot( b(x), x=-2..2, y=-10..10);
+
+> ec := diff(y(x),x) + (k/x)*y(x) = x^3;
+
+                          /d      \   k y(x)    3
+                    ec := |-- y(x)| + ------ = x
+                          \dx     /     x
+
+> s := dsolve(ec, y(x));
+
+                                  4
+                                 x       (-k)
+                    s := y(x) = ----- + x     _C1
+                                4 + k
+
+> a := rhs(s);
+
+                               4
+                              x       (-k)
+                        a := ----- + x     _C1
+                             4 + k
+
+> b := unapply(a,x,k,_C1);
+
+                                      4
+                                     x       (-k)
+                b := (x, k, _C1) -> ----- + x     _C1
+                                    4 + k
+
+> plot( b(x,1,1), x=-2..2, y=-10..10);
+
+> with(DEtools);
+
+  [DEnormal, DEplot, DEplot3d, DEplot_polygon, DFactor, DFactorLCLM,
+
+        DFactorsols, Dchangevar, GCRD, LCLM, MeijerGsols,
+
+        PDEchangecoords, RiemannPsols, Xchange, Xcommutator, Xgauge,
+
+        abelsol, adjoint, autonomous, bernoullisol, buildsol,
+
+        buildsym, canoni, caseplot, casesplit, checkrank, chinisol,
+
+        clairautsol, constcoeffsols, convertAlg, convertsys,
+
+        dalembertsol, dcoeffs, de2diffop, dfieldplot, diffop2de,
+
+        dpolyform, dsubs, eigenring, endomorphism_charpoly, equinv,
+
+        eta_k, eulersols, exactsol, expsols, exterior_power, firint,
+
+        firtest, formal_sol, gen_exp, generate_ic, genhomosol, gensys,
+
+        hamilton_eqs, hypergeomsols, hyperode, indicialeq, infgen,
+
+        initialdata, integrate_sols, intfactor, invariants,
+
+        kovacicsols, leftdivision, liesol, line_int, linearsol,
+
+        matrixDE, matrix_riccati, maxdimsystems, moser_reduce,
+
+        muchange, mult, mutest, newton_polygon, normalG2, odeadvisor,
+
+        odepde, parametricsol, phaseportrait, poincare, polysols,
+
+        power_equivalent, ratsols, redode, reduceOrder, reduce_order,
+
+        regular_parts, regularsp, remove_RootOf, riccati_system,
+
+        riccatisol, rifread, rifsimp, rightdivision, rtaylor,
+
+        separablesol, solve_group, super_reduce, symgen,
+
+        symmetric_power, symmetric_product, symtest, transinv,
+
+        translate, untranslate, varparam, zoom]
+
+> k:=1;
+
+                                k := 1
+
+> DEplot(ec, y(x), x=-5..5, y=-10..10, stepsize =0.1);
+
+> k:=1;
+
+                                k := 1
+
+> ec := diff(y(x),x) + (k/x)*y(x) = x^3;
+
+                           /d      \   y(x)    3
+                     ec := |-- y(x)| + ---- = x
+                           \dx     /    x
+
+> cond := y(1) =0;
+
+                           cond := y(1) = 0
+
+> s := dsolve( {ec, cond}, y(x));
+
+                                      5
+                                     x
+                                    ---- - 1/5
+                                     5
+                        s := y(x) = ----------
+                                        x
+
+> b := unapply(rhs(s),x);
+
+                                       5
+                                  1/5 x  - 1/5
+                        b := x -> ------------
+                                       x
+
+> plot( b(x), x=-2..2, y=-10..10);
+
+> 

@@ -1,0 +1,7 @@
+adi sh 10
+bebe pr 7
+mar thr 8
+adi pr 9
+dan sh 8
+bebe sh 9
+mar sh 10

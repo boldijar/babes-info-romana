@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1333381569 source:d:\programare\c++\istvanlabs\lab3_2\arrmanip.cpp
+	<iostream>
+	<string>
+	<float.h>
+	"arrmanip.h"
+	"node.h"
+
+1333518411 d:\programare\c++\istvanlabs\lab3_2\arrmanip.h
+	"Node.h"
+
+1333211299 d:\programare\c++\istvanlabs\lab3_2\node.h
+
+1333485282 source:d:\programare\c++\istvanlabs\lab3_2\main.cpp
+	<iostream>
+	<string>
+	"node.h"
+	"arrmanip.h"
+	"userinterface.h"
+	"controller.h"
+
+1333485383 d:\programare\c++\istvanlabs\lab3_2\userinterface.h
+	"controller.h"
+
+1333519969 source:d:\programare\c++\istvanlabs\lab3_2\userinterface.cpp
+	<iostream>
+	<iomanip>
+	<sstream>
+	"userinterface.h"
+	"controller.h"
+
+1333520405 source:d:\programare\c++\istvanlabs\lab3_2\controller.cpp
+	<iostream>
+	<float.h>
+	"controller.h"
+
+1333482876 d:\programare\c++\istvanlabs\lab3_2\controller.h
+	"arrmanip.h"
+
+1333485282 source:c:\users\admin\desktop\lab3_2\main.cpp
+	<iostream>
+	<string>
+	"node.h"
+	"arrmanip.h"
+	"userinterface.h"
+	"controller.h"
+
+1333211299 c:\users\admin\desktop\lab3_2\node.h
+
+1333518411 c:\users\admin\desktop\lab3_2\arrmanip.h
+	"Node.h"
+
+1333485383 c:\users\admin\desktop\lab3_2\userinterface.h
+	"controller.h"
+
+1333482876 c:\users\admin\desktop\lab3_2\controller.h
+	"arrmanip.h"
+
+1333519969 source:c:\users\admin\desktop\lab3_2\userinterface.cpp
+	<iostream>
+	<iomanip>
+	<sstream>
+	"userinterface.h"
+	"controller.h"
+
+1333520832 source:c:\users\admin\desktop\lab3_2\controller.cpp
+	<iostream>
+	<float.h>
+	"controller.h"
+
+1335277646 source:c:\users\admin\desktop\lab3_2 - copy\main.cpp
+	<iostream>
+	<string>
+	"node.h"
+	"arrmanip.h"
+	"userinterface.h"
+	"controller.h"
+
+1334398308 c:\users\admin\desktop\lab3_2 - copy\node.h
+	<string>
+
+1335285006 c:\users\admin\desktop\lab3_2 - copy\arrmanip.h
+	<sstream>
+	"Node.h"
+	<string>
+
+1335179011 c:\users\admin\desktop\lab3_2 - copy\userinterface.h
+	"controller.h"
+
+1335278886 c:\users\admin\desktop\lab3_2 - copy\controller.h
+	"arrmanip.h"
+	<string>
+
+1335278881 source:c:\users\admin\desktop\lab3_2 - copy\userinterface.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<sstream>
+	<time.h>
+	"userinterface.h"
+	"controller.h"
+	"arrmanip.h"
+
+1335284669 source:c:\users\admin\desktop\lab3_2 - copy\controller.cpp
+	<iostream>
+	<float.h>
+	"controller.h"
+	"arrmanip.h"
+

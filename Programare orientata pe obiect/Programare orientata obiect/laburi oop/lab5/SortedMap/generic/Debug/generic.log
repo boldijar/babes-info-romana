@@ -1,0 +1,37 @@
+﻿Build started 4/18/2011 19:03:47.
+     1>Project "C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\SortedMap\generic\generic.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\generic.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sortMap.cpp test.cpp
+         test.cpp
+     1>c:\users\andra\dropbox\facultate\semestrul 2\programare orientata obiect\laburi oop\lab5\sortedmap\generic\test.cpp(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\andra\dropbox\facultate\semestrul 2\programare orientata obiect\laburi oop\lab5\sortedmap\generic\test.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\andra\dropbox\facultate\semestrul 2\programare orientata obiect\laburi oop\lab5\sortedmap\generic\test.cpp(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\andra\dropbox\facultate\semestrul 2\programare orientata obiect\laburi oop\lab5\sortedmap\generic\test.cpp(46): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\andra\dropbox\facultate\semestrul 2\programare orientata obiect\laburi oop\lab5\sortedmap\generic\test.cpp(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\andra\dropbox\facultate\semestrul 2\programare orientata obiect\laburi oop\lab5\sortedmap\generic\test.cpp(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\andra\dropbox\facultate\semestrul 2\programare orientata obiect\laburi oop\lab5\sortedmap\generic\test.cpp(171): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+         sortMap.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\SortedMap\Debug\generic.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\generic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\SortedMap\Debug\generic.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\SortedMap\Debug\generic.lib" /MACHINE:X86 Debug\sortMap.obj
+         Debug\test.obj
+         generic.vcxproj -> C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\SortedMap\Debug\generic.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\SortedMap\Debug\generic.exe;#1" /manifest Debug\generic.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\generic.unsuccessfulbuild".
+         Touching "Debug\generic.lastbuildstate".
+     1>Done Building Project "C:\Users\Andra\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\SortedMap\generic\generic.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.36

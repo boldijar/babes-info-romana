@@ -1,0 +1,4284 @@
+<?xml version="1.0"  encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.maplesoft.com/standards/MathML/XSL/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>l2.html</title>
+<!-- Created by Maple 8.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size="3">
+<a name="MapleAutoBookmark1" />
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">2+2;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=18 height=22 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mn>4</mn>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l21.gif" width="154" height="29" alt="y := proc (x) options operator, arrow; 2*x*(1+y^2) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec1:=diff(y(x),x) = 2*x*(1+y(x)^2);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=231 height=43 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec1</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mfrac>
+          <mo>&DifferentialD;</mo>
+          <mrow>
+            <mo>&DifferentialD;</mo>
+            <mi>x</mi>
+          </mrow>
+        </mfrac>
+        <mrow>
+          <mi>y</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mn>2</mn>
+          <mo>&InvisibleTimes;</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mfenced>
+          <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <msup>
+              <mrow>
+                <mi>y</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mi>x</mi>
+                </mfenced>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s1:=dsolve(ec1,y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=210 height=38 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s1</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mi>tan</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mrow>
+            <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>+</mo>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>_C1</mi>
+            </mrow>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a:=rhs(s1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=152 height=38 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mi>tan</mi>
+      <mo>&ApplyFunction;</mo>
+      <mfenced>
+        <mrow>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <mrow>
+            <mn>2</mn>
+            <mo>&InvisibleTimes;</mo>
+            <mi>_C1</mi>
+          </mrow>
+        </mrow>
+      </mfenced>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b:=unapply(a,x,_C1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l22.gif" width="230" height="29" alt="b := proc (x, _C1) options operator, arrow; tan(x^2+2*_C1) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [ b(x,1), b(x,2)], x=-2..2, y=-10..10, color=[red,blue] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l23.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec2:= (x^2-1) * diff(y(x),x) + 2*x*y(x)^2 = 0;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=293 height=43 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec2</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfenced>
+            <mrow>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </mfenced>
+          <mo>&InvisibleTimes;</mo>
+          <mfenced>
+            <mrow>
+              <mfrac>
+                <mo>&DifferentialD;</mo>
+                <mrow>
+                  <mo>&DifferentialD;</mo>
+                  <mi>x</mi>
+                </mrow>
+              </mfrac>
+              <mrow>
+                <mi>y</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mi>x</mi>
+                </mfenced>
+              </mrow>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mrow>
+            <mn>2</mn>
+            <mo>&InvisibleTimes;</mo>
+            <mi>x</mi>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mrow>
+              <mi>y</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <mi>x</mi>
+              </mfenced>
+            </mrow>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s2 :=dsolve(ec2, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=304 height=45 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s2</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mrow>
+            <mi>ln</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mi>x</mi>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+            </mfenced>
+          </mrow>
+          <mo>+</mo>
+          <mrow>
+            <mi>ln</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mi>x</mi>
+                <mo>+</mo>
+                <mn>1</mn>
+              </mrow>
+            </mfenced>
+          </mrow>
+          <mo>+</mo>
+          <mi>_C1</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a:=rhs(s2);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=247 height=45 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mfrac>
+      <mn>1</mn>
+      <mrow>
+        <mrow>
+          <mi>ln</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mi>x</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mi>ln</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mi>x</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>+</mo>
+        <mi>_C1</mi>
+      </mrow>
+    </mfrac>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b:=unapply(a,x,_C1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l24.gif" width="304" height="45" alt="b := proc (x, _C1) options operator, arrow; 1/(ln(x-1)+ln(x+1)+_C1) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [b(x,1), b(x,2)], x=-2..2, y=-10..10, color=[red, blue]);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l25.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec3 := 2*x^2*diff(y(x),x) = x^2 + y(x)^2;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=249 height=43 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec3</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mn>2</mn>
+          <mo>&InvisibleTimes;</mo>
+          <mfenced>
+            <mrow>
+              <mfrac>
+                <mo>&DifferentialD;</mo>
+                <mrow>
+                  <mo>&DifferentialD;</mo>
+                  <mi>x</mi>
+                </mrow>
+              </mfrac>
+              <mrow>
+                <mi>y</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mi>x</mi>
+                </mfenced>
+              </mrow>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <msup>
+          <mi>x</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <msup>
+          <mi>x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s3:=dsolve(ec3, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=254 height=48 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s3</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mi>x</mi>
+          <mo>&InvisibleTimes;</mo>
+          <mfenced>
+            <mrow>
+              <mn>-2</mn>
+              <mo>+</mo>
+              <mrow>
+                <mi>ln</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mi>x</mi>
+                </mfenced>
+              </mrow>
+              <mo>+</mo>
+              <mi>_C1</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mrow>
+          <mrow>
+            <mi>ln</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+          <mo>+</mo>
+          <mi>_C1</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a:=rhs(s3);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=196 height=48 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mfrac>
+      <mrow>
+        <mi>x</mi>
+        <mo>&InvisibleTimes;</mo>
+        <mfenced>
+          <mrow>
+            <mn>-2</mn>
+            <mo>+</mo>
+            <mrow>
+              <mi>ln</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <mi>x</mi>
+              </mfenced>
+            </mrow>
+            <mo>+</mo>
+            <mi>_C1</mi>
+          </mrow>
+        </mfenced>
+      </mrow>
+      <mrow>
+        <mrow>
+          <mi>ln</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+        <mo>+</mo>
+        <mi>_C1</mi>
+      </mrow>
+    </mfrac>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b:=unapply(a,x,_C1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l26.gif" width="265" height="45" alt="b := proc (x, _C1) options operator, arrow; x*(-2+ln(x)+_C1)/(ln(x)+_C1) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [b(x,1), b(x,2)], x=-2..2, y=-10..10, color=[red,blue] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l27.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec4:= diff(y(x),x) = -(x/y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=179 height=45 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec4</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mfrac>
+          <mo>&DifferentialD;</mo>
+          <mrow>
+            <mo>&DifferentialD;</mo>
+            <mi>x</mi>
+          </mrow>
+        </mfrac>
+        <mrow>
+          <mi>y</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mo>-</mo>
+        <mfrac>
+          <mi>x</mi>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s4 := dsolve(ec4, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=384 height=39 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s4</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <msqrt>
+        <mfenced>
+          <mrow>
+            <mrow>
+              <mo>-</mo>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+            <mo>+</mo>
+            <mi>_C1</mi>
+          </mrow>
+        </mfenced>
+      </msqrt>
+    </mrow>
+    <mo>,</mo>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mo>-</mo>
+        <msqrt>
+          <mfenced>
+            <mrow>
+              <mrow>
+                <mo>-</mo>
+                <msup>
+                  <mi>x</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+              <mo>+</mo>
+              <mi>_C1</mi>
+            </mrow>
+          </mfenced>
+        </msqrt>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a1 := rhs(s4[1]);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=153 height=39 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a1</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <msqrt>
+      <mfenced>
+        <mrow>
+          <mrow>
+            <mo>-</mo>
+            <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+          <mo>+</mo>
+          <mi>_C1</mi>
+        </mrow>
+      </mfenced>
+    </msqrt>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a2 := rhs(s4[2]);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=168 height=39 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a2</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mo>-</mo>
+      <msqrt>
+        <mfenced>
+          <mrow>
+            <mrow>
+              <mo>-</mo>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+            <mo>+</mo>
+            <mi>_C1</mi>
+          </mrow>
+        </mfenced>
+      </msqrt>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b1:=unapply(a1,x,_C1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l28.gif" width="221" height="32" alt="b1 := proc (x, _C1) options operator, arrow; (-x^2+_C1)^(1/2) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b2:=unapply(a2,x,_C1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l29.gif" width="230" height="32" alt="b2 := proc (x, _C1) options operator, arrow; -(-x^2+_C1)^(1/2) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [b1(x,1), b1(x,2)], x=-2..2, y=-10..10, color = [red, blue] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l210.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [b2(x,1), b2(x,2)], x=-2..2, y=-10..10, color = [red, blue] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l211.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec5 := diff(y(x), x, x) + y(x) = sin(x) + cos(x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=299 height=55 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec5</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <msup>
+              <mo>&DifferentialD;</mo>
+              <mn>2</mn>
+            </msup>
+            <msup>
+              <mrow>
+                <mo>&DifferentialD;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mi>y</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mi>sin</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s5:=dsolve(ec5, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=505 height=79 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s5</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mrow>
+            <mi>sin</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C2</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mrow>
+            <mi>cos</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C1</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>cos</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mrow>
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+            <mo>&InvisibleTimes;</mo>
+            <mrow>
+              <mi>sin</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <mi>x</mi>
+              </mfenced>
+            </mrow>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mrow>
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+            <mo>&InvisibleTimes;</mo>
+            <mrow>
+              <mi>cos</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <mi>x</mi>
+              </mfenced>
+            </mrow>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mi>x</mi>
+        </mrow>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(s5);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=456 height=40 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>sin</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C2</mi>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C1</mi>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+        <mo>&InvisibleTimes;</mo>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>sin</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mi>x</mi>
+      </mrow>
+      <mo>-</mo>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>cos</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mi>x</mi>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x,_C1, _C2);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l212.gif" width="555" height="45" alt="b := proc (x, _C1, _C2) options operator, arrow; sin(x)*_C2+cos(x)*_C1+1/2*cos(x)+1/2*sin(x)*x-1/2*cos(x)*x end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( &nbsp;[ b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red,blue]);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l213.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec6:=diff(y(x),x,x) - y(x) = exp(2*x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=227 height=55 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec6</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <msup>
+              <mo>&DifferentialD;</mo>
+              <mn>2</mn>
+            </msup>
+            <msup>
+              <mrow>
+                <mo>&DifferentialD;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mi>y</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+        <mi>&ExponentialE;</mi>
+        <mfenced>
+          <mrow>
+            <mn>2</mn>
+            <mo>&InvisibleTimes;</mo>
+            <mi>x</mi>
+          </mrow>
+        </mfenced>
+      </msup>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s6 := dsolve(ec6, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=296 height=40 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s6</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mfenced>
+              <mrow>
+                <mo>-</mo>
+                <mi>x</mi>
+              </mrow>
+            </mfenced>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C2</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mi>x</mi>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C1</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>3</mn>
+          </mfrac>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mfenced>
+              <mrow>
+                <mn>2</mn>
+                <mo>&InvisibleTimes;</mo>
+                <mi>x</mi>
+              </mrow>
+            </mfenced>
+          </msup>
+        </mrow>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(s6);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=238 height=40 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mfenced>
+            <mrow>
+              <mo>-</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </msup>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C2</mi>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mi>x</mi>
+        </msup>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C1</mi>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>3</mn>
+        </mfrac>
+        <mo>&InvisibleTimes;</mo>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mfenced>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </msup>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply (a,x,_C1, _C2);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l214.gif" width="368" height="45" alt="b := proc (x, _C1, _C2) options operator, arrow; exp(-x)*_C2+exp(x)*_C1+1/3*exp(2*x) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [ b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red,blue]);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l215.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec7 := diff(y(x),x,x) + 4*y(x) = 1/(cos(2*x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=268 height=55 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec7</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <msup>
+              <mo>&DifferentialD;</mo>
+              <mn>2</mn>
+            </msup>
+            <msup>
+              <mrow>
+                <mo>&DifferentialD;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mn>4</mn>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+      </mfrac>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s7 := dsolve(ec7, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=498 height=79 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s7</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mrow>
+            <mi>sin</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mn>2</mn>
+                <mo>&InvisibleTimes;</mo>
+                <mi>x</mi>
+              </mrow>
+            </mfenced>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C2</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mrow>
+            <mi>cos</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mn>2</mn>
+                <mo>&InvisibleTimes;</mo>
+                <mi>x</mi>
+              </mrow>
+            </mfenced>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C1</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mrow>
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+            <mo>&InvisibleTimes;</mo>
+            <mi>x</mi>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>sin</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mn>2</mn>
+                <mo>&InvisibleTimes;</mo>
+                <mi>x</mi>
+              </mrow>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mrow>
+            <mfrac>
+              <mn>1</mn>
+              <mn>4</mn>
+            </mfrac>
+            <mo>&InvisibleTimes;</mo>
+            <mrow>
+              <mi>ln</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <mrow>
+                  <mi>cos</mi>
+                  <mo>&ApplyFunction;</mo>
+                  <mfenced>
+                    <mrow>
+                      <mn>2</mn>
+                      <mo>&InvisibleTimes;</mo>
+                      <mi>x</mi>
+                    </mrow>
+                  </mfenced>
+                </mrow>
+              </mfenced>
+            </mrow>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>cos</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mn>2</mn>
+                <mo>&InvisibleTimes;</mo>
+                <mi>x</mi>
+              </mrow>
+            </mfenced>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(s7);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=496 height=40 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>sin</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C2</mi>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C1</mi>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+          <mo>&InvisibleTimes;</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mrow>
+          <mi>sin</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>4</mn>
+          </mfrac>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>ln</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mi>cos</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&InvisibleTimes;</mo>
+                    <mi>x</mi>
+                  </mrow>
+                </mfenced>
+              </mrow>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x,_C1, _C2);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l216.gif" width="602" height="45" alt="b := proc (x, _C1, _C2) options operator, arrow; sin(2*x)*_C2+cos(2*x)*_C1+1/2*x*sin(2*x)+1/4*ln(cos(2*x))*cos(2*x) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red, blue]);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l217.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec8:= diff(y(x),x,x) - diff(y(x),x) = 1/ ( 1+exp(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=262 height=55 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec8</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <msup>
+              <mo>&DifferentialD;</mo>
+              <mn>2</mn>
+            </msup>
+            <msup>
+              <mrow>
+                <mo>&DifferentialD;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mfrac>
+            <mo>&DifferentialD;</mo>
+            <mrow>
+              <mo>&DifferentialD;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mi>x</mi>
+          </msup>
+        </mrow>
+      </mfrac>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s8 := dsolve(ec8, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=488 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s8</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mo>-</mo>
+          <mrow>
+            <msup>
+              <mi>&ExponentialE;</mi>
+              <mi>x</mi>
+            </msup>
+            <mo>&InvisibleTimes;</mo>
+            <mrow>
+              <mi>ln</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <msup>
+                  <mi>&ExponentialE;</mi>
+                  <mi>x</mi>
+                </msup>
+              </mfenced>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mfenced>
+            <mrow>
+              <mn>1</mn>
+              <mo>+</mo>
+              <msup>
+                <mi>&ExponentialE;</mi>
+                <mi>x</mi>
+              </msup>
+            </mrow>
+          </mfenced>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>ln</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mrow>
+                <mn>1</mn>
+                <mo>+</mo>
+                <msup>
+                  <mi>&ExponentialE;</mi>
+                  <mi>x</mi>
+                </msup>
+              </mrow>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>-</mo>
+        <mn>1</mn>
+        <mo>-</mo>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mrow>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mi>x</mi>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C1</mi>
+        </mrow>
+        <mo>+</mo>
+        <mi>_C2</mi>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(s8);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=430 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mo>-</mo>
+        <mrow>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mi>x</mi>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>ln</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <msup>
+                <mi>&ExponentialE;</mi>
+                <mi>x</mi>
+              </msup>
+            </mfenced>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mfenced>
+          <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <msup>
+              <mi>&ExponentialE;</mi>
+              <mi>x</mi>
+            </msup>
+          </mrow>
+        </mfenced>
+        <mo>&InvisibleTimes;</mo>
+        <mrow>
+          <mi>ln</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mrow>
+              <mn>1</mn>
+              <mo>+</mo>
+              <msup>
+                <mi>&ExponentialE;</mi>
+                <mi>x</mi>
+              </msup>
+            </mrow>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mrow>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mi>x</mi>
+        </msup>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C1</mi>
+      </mrow>
+      <mo>+</mo>
+      <mi>_C2</mi>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x,_C1, _C2);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l218.gif" width="533" height="29" alt="b := proc (x, _C1, _C2) options operator, arrow; -exp(x)*ln(exp(x))+(1+exp(x))*ln(1+exp(x))-1-x+exp(x)*_C1+_C2 end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( [b(x,1,1), b(x,2,2)], x=-2..2, y=-10..10, color = [red, blue]);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l219.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">e1:= diff(y(x), x) = 1+ y(x)^2;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=189 height=40 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>e1</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mfrac>
+          <mo>&DifferentialD;</mo>
+          <mrow>
+            <mo>&DifferentialD;</mo>
+            <mi>x</mi>
+          </mrow>
+        </mfrac>
+        <mrow>
+          <mi>y</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mn>1</mn>
+        <mo>+</mo>
+        <msup>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">cond := y(0) = 1;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=125 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>cond</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mn>0</mn>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mn>1</mn>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">sol1 := dsolve( {e1, cond}, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=196 height=43 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>sol1</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mi>tan</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mrow>
+            <mi>x</mi>
+            <mo>+</mo>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>4</mn>
+              </mfrac>
+              <mo>&InvisibleTimes;</mo>
+              <mn>&pi;</mn>
+            </mrow>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(sol1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=125 height=43 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mi>tan</mi>
+      <mo>&ApplyFunction;</mo>
+      <mfenced>
+        <mrow>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mrow>
+            <mfrac>
+              <mn>1</mn>
+              <mn>4</mn>
+            </mfrac>
+            <mo>&InvisibleTimes;</mo>
+            <mn>&pi;</mn>
+          </mrow>
+        </mrow>
+      </mfenced>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l220.gif" width="149" height="45" alt="b := proc (x) options operator, arrow; tan(x+1/4*Pi) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( b(x), x=-2*Pi..2*Pi, y=-20..20);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l221.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">e2 := diff(y(x), x) = (1/(1-x^2)) * y(x) + 1 + x;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=224 height=48 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>e2</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mfrac>
+          <mo>&DifferentialD;</mo>
+          <mrow>
+            <mo>&DifferentialD;</mo>
+            <mi>x</mi>
+          </mrow>
+        </mfrac>
+        <mrow>
+          <mi>y</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+          <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mn>1</mn>
+        <mo>+</mo>
+        <mi>x</mi>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">cond := y(0) = 0;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=125 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>cond</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mn>0</mn>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s2 := dsolve( {e2, cond}, y(x) );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=369 height=74 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s2</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mfenced>
+            <mrow>
+              <mrow>
+                <mrow>
+                  <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                  </mfrac>
+                  <mo>&InvisibleTimes;</mo>
+                  <mi>x</mi>
+                </mrow>
+                <mo>&InvisibleTimes;</mo>
+                <msqrt>
+                  <mfenced>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>-</mo>
+                      <msup>
+                        <mi>x</mi>
+                        <mn>2</mn>
+                      </msup>
+                    </mrow>
+                  </mfenced>
+                </msqrt>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+                <mo>&InvisibleTimes;</mo>
+                <mrow>
+                  <mi>arcsin</mi>
+                  <mo>&ApplyFunction;</mo>
+                  <mfenced>
+                    <mi>x</mi>
+                  </mfenced>
+                </mrow>
+              </mrow>
+            </mrow>
+          </mfenced>
+          <mo>&InvisibleTimes;</mo>
+          <mfenced>
+            <mrow>
+              <mi>x</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <msqrt>
+          <mfenced>
+            <mrow>
+              <mn>1</mn>
+              <mo>-</mo>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+          </mfenced>
+        </msqrt>
+      </mfrac>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a:= rhs(s2);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=312 height=74 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mfrac>
+      <mrow>
+        <mfenced>
+          <mrow>
+            <mrow>
+              <mrow>
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+                <mo>&InvisibleTimes;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mo>&InvisibleTimes;</mo>
+              <msqrt>
+                <mfenced>
+                  <mrow>
+                    <mn>1</mn>
+                    <mo>-</mo>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                </mfenced>
+              </msqrt>
+            </mrow>
+            <mo>+</mo>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+              <mo>&InvisibleTimes;</mo>
+              <mrow>
+                <mi>arcsin</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mi>x</mi>
+                </mfenced>
+              </mrow>
+            </mrow>
+          </mrow>
+        </mfenced>
+        <mo>&InvisibleTimes;</mo>
+        <mfenced>
+          <mrow>
+            <mi>x</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+          </mrow>
+        </mfenced>
+      </mrow>
+      <msqrt>
+        <mfenced>
+          <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+        </mfenced>
+      </msqrt>
+    </mfrac>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l222.gif" width="317" height="82" alt="b := proc (x) options operator, arrow; (1/2*x*(1-x^2)^(1/2)+1/2*arcsin(x))*(x+1)/(1-x^2)^(1/2) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( b(x), x=-4..4, y=-10..10);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l223.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">e3 := diff(y(x), x,x) - 5*diff(y(x),x) + 4 * y(x) =0;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=300 height=55 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>e3</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <msup>
+              <mo>&DifferentialD;</mo>
+              <mn>2</mn>
+            </msup>
+            <msup>
+              <mrow>
+                <mo>&DifferentialD;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mn>5</mn>
+          <mo>&InvisibleTimes;</mo>
+          <mfenced>
+            <mrow>
+              <mfrac>
+                <mo>&DifferentialD;</mo>
+                <mrow>
+                  <mo>&DifferentialD;</mo>
+                  <mi>x</mi>
+                </mrow>
+              </mfrac>
+              <mrow>
+                <mi>y</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mi>x</mi>
+                </mfenced>
+              </mrow>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mn>4</mn>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">cond := y(0) = 5, &nbsp;D(y)(0) = 8;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=217 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>cond</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mn>0</mn>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mn>5</mn>
+    </mrow>
+    <mo>,</mo>
+    <mrow>
+      <mrow>
+        <mfenced>
+          <msup>
+            <mi>y</mi>
+            <mo>&prime;</mo>
+          </msup>
+        </mfenced>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mn>0</mn>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mn>8</mn>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s3 := dsolve( {e3,cond}, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=179 height=31 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s3</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mn>4</mn>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mi>x</mi>
+          </msup>
+        </mrow>
+        <mo>+</mo>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mfenced>
+            <mrow>
+              <mn>4</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </msup>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(s3);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=121 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mn>4</mn>
+        <mo>&InvisibleTimes;</mo>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mi>x</mi>
+        </msup>
+      </mrow>
+      <mo>+</mo>
+      <msup>
+        <mi>&ExponentialE;</mi>
+        <mfenced>
+          <mrow>
+            <mn>4</mn>
+            <mo>&InvisibleTimes;</mo>
+            <mi>x</mi>
+          </mrow>
+        </mfenced>
+      </msup>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l224.gif" width="165" height="33" alt="b := proc (x) options operator, arrow; 4*exp(x)+exp(4*x) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( b(x), x=-2..2, y=-10..10);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l225.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">e4 := diff(y(x), x$2) - 4*diff(y(x),x) + 5*y(x) = 2*x^2*exp(x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=336 height=55 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>e4</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <msup>
+              <mo>&DifferentialD;</mo>
+              <mn>2</mn>
+            </msup>
+            <msup>
+              <mrow>
+                <mo>&DifferentialD;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mn>4</mn>
+          <mo>&InvisibleTimes;</mo>
+          <mfenced>
+            <mrow>
+              <mfrac>
+                <mo>&DifferentialD;</mo>
+                <mrow>
+                  <mo>&DifferentialD;</mo>
+                  <mi>x</mi>
+                </mrow>
+              </mfrac>
+              <mrow>
+                <mi>y</mi>
+                <mo>&ApplyFunction;</mo>
+                <mfenced>
+                  <mi>x</mi>
+                </mfenced>
+              </mrow>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mn>5</mn>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mn>2</mn>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mo>&InvisibleTimes;</mo>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mi>x</mi>
+        </msup>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">cond := y(0)=2, D(y)(0)=3;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=217 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>cond</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mn>0</mn>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mn>2</mn>
+    </mrow>
+    <mo>,</mo>
+    <mrow>
+      <mrow>
+        <mfenced>
+          <msup>
+            <mi>y</mi>
+            <mo>&prime;</mo>
+          </msup>
+        </mfenced>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mn>0</mn>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mn>3</mn>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s4 := dsolve( {e4, cond}, y(x) );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=403 height=33 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s4</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <mo>-</mo>
+          <mrow>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <msup>
+                <mi>&ExponentialE;</mi>
+                <mfenced>
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&InvisibleTimes;</mo>
+                    <mi>x</mi>
+                  </mrow>
+                </mfenced>
+              </msup>
+            </mrow>
+            <mo>&InvisibleTimes;</mo>
+            <mrow>
+              <mi>sin</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <mi>x</mi>
+              </mfenced>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mfenced>
+              <mrow>
+                <mn>2</mn>
+                <mo>&InvisibleTimes;</mo>
+                <mi>x</mi>
+              </mrow>
+            </mfenced>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>cos</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <msup>
+            <mfenced>
+              <mrow>
+                <mi>x</mi>
+                <mo>+</mo>
+                <mn>1</mn>
+              </mrow>
+            </mfenced>
+            <mn>2</mn>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mi>&ExponentialE;</mi>
+            <mi>x</mi>
+          </msup>
+        </mrow>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(s4);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=345 height=33 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mo>-</mo>
+        <mrow>
+          <mrow>
+            <mn>2</mn>
+            <mo>&InvisibleTimes;</mo>
+            <msup>
+              <mi>&ExponentialE;</mi>
+              <mfenced>
+                <mrow>
+                  <mn>2</mn>
+                  <mo>&InvisibleTimes;</mo>
+                  <mi>x</mi>
+                </mrow>
+              </mfenced>
+            </msup>
+          </mrow>
+          <mo>&InvisibleTimes;</mo>
+          <mrow>
+            <mi>sin</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mfenced>
+            <mrow>
+              <mn>2</mn>
+              <mo>&InvisibleTimes;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfenced>
+        </msup>
+        <mo>&InvisibleTimes;</mo>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&ApplyFunction;</mo>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+        </mrow>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <msup>
+          <mfenced>
+            <mrow>
+              <mi>x</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+          </mfenced>
+          <mn>2</mn>
+        </msup>
+        <mo>&InvisibleTimes;</mo>
+        <msup>
+          <mi>&ExponentialE;</mi>
+          <mi>x</mi>
+        </msup>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l226.gif" width="383" height="33" alt="b := proc (x) options operator, arrow; -2*exp(2*x)*sin(x)+exp(2*x)*cos(x)+(x+1)^2*exp(x) end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( b(x), x=-2..2, y=-10..10);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l227.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec := diff(y(x),x) + (k/x)*y(x) = x^3;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=206 height=43 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <mo>&DifferentialD;</mo>
+            <mrow>
+              <mo>&DifferentialD;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mfrac>
+          <mrow>
+            <mi>k</mi>
+            <mo>&InvisibleTimes;</mo>
+            <mrow>
+              <mi>y</mi>
+              <mo>&ApplyFunction;</mo>
+              <mfenced>
+                <mi>x</mi>
+              </mfenced>
+            </mrow>
+          </mrow>
+          <mi>x</mi>
+        </mfrac>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+        <mi>x</mi>
+        <mn>3</mn>
+      </msup>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s := dsolve(ec, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=218 height=45 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mfrac>
+          <msup>
+            <mi>x</mi>
+            <mn>4</mn>
+          </msup>
+          <mrow>
+            <mn>4</mn>
+            <mo>+</mo>
+            <mi>k</mi>
+          </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+          <msup>
+            <mi>x</mi>
+            <mfenced>
+              <mrow>
+                <mo>-</mo>
+                <mi>k</mi>
+              </mrow>
+            </mfenced>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <mi>_C1</mi>
+        </mrow>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">a := rhs(s);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=169 height=45 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>a</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mfrac>
+        <msup>
+          <mi>x</mi>
+          <mn>4</mn>
+        </msup>
+        <mrow>
+          <mn>4</mn>
+          <mo>+</mo>
+          <mi>k</mi>
+        </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mrow>
+        <msup>
+          <mi>x</mi>
+          <mfenced>
+            <mrow>
+              <mo>-</mo>
+              <mi>k</mi>
+            </mrow>
+          </mfenced>
+        </msup>
+        <mo>&InvisibleTimes;</mo>
+        <mi>_C1</mi>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(a,x,k,_C1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l228.gif" width="266" height="54" alt="b := proc (x, k, _C1) options operator, arrow; x^4/(4+k)+x^(-k)*_C1 end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( b(x,1,1), x=-2..2, y=-10..10);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l229.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">with(DEtools);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=499 height=506 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mfenced open='[' close=']'>
+    <mi>DEnormal</mi>
+    <mi>DEplot</mi>
+    <mi>DEplot3d</mi>
+    <mi>DEplot_polygon</mi>
+    <mi>DFactor</mi>
+    <mi>DFactorLCLM</mi>
+    <mi>DFactorsols</mi>
+    <mi>Dchangevar</mi>
+    <mi>GCRD</mi>
+    <mi>LCLM</mi>
+    <mi>MeijerGsols</mi>
+    <mi>PDEchangecoords</mi>
+    <mi>RiemannPsols</mi>
+    <mi>Xchange</mi>
+    <mi>Xcommutator</mi>
+    <mi>Xgauge</mi>
+    <mi>abelsol</mi>
+    <mi>adjoint</mi>
+    <mi>autonomous</mi>
+    <mi>bernoullisol</mi>
+    <mi>buildsol</mi>
+    <mi>buildsym</mi>
+    <mi>canoni</mi>
+    <mi>caseplot</mi>
+    <mi>casesplit</mi>
+    <mi>checkrank</mi>
+    <mi>chinisol</mi>
+    <mi>clairautsol</mi>
+    <mi>constcoeffsols</mi>
+    <mi>convertAlg</mi>
+    <mi>convertsys</mi>
+    <mi>dalembertsol</mi>
+    <mi>dcoeffs</mi>
+    <mi>de2diffop</mi>
+    <mi>dfieldplot</mi>
+    <mi>diffop2de</mi>
+    <mi>dpolyform</mi>
+    <mi>dsubs</mi>
+    <mi>eigenring</mi>
+    <mi>endomorphism_charpoly</mi>
+    <mi>equinv</mi>
+    <mi>
+      &eta;_k
+    </mi>
+    <mi>eulersols</mi>
+    <mi>exactsol</mi>
+    <mi>expsols</mi>
+    <mi>exterior_power</mi>
+    <mi>firint</mi>
+    <mi>firtest</mi>
+    <mi>formal_sol</mi>
+    <mi>gen_exp</mi>
+    <mi>generate_ic</mi>
+    <mi>genhomosol</mi>
+    <mi>gensys</mi>
+    <mi>hamilton_eqs</mi>
+    <mi>hypergeomsols</mi>
+    <mi>hyperode</mi>
+    <mi>indicialeq</mi>
+    <mi>infgen</mi>
+    <mi>initialdata</mi>
+    <mi>integrate_sols</mi>
+    <mi>intfactor</mi>
+    <mi>invariants</mi>
+    <mi>kovacicsols</mi>
+    <mi>leftdivision</mi>
+    <mi>liesol</mi>
+    <mi>line_int</mi>
+    <mi>linearsol</mi>
+    <mi>matrixDE</mi>
+    <mi>matrix_riccati</mi>
+    <mi>maxdimsystems</mi>
+    <mi>moser_reduce</mi>
+    <mi>muchange</mi>
+    <mi>mult</mi>
+    <mi>mutest</mi>
+    <mi>newton_polygon</mi>
+    <mi>normalG2</mi>
+    <mi>odeadvisor</mi>
+    <mi>odepde</mi>
+    <mi>parametricsol</mi>
+    <mi>phaseportrait</mi>
+    <mi>poincare</mi>
+    <mi>polysols</mi>
+    <mi>power_equivalent</mi>
+    <mi>ratsols</mi>
+    <mi>redode</mi>
+    <mi>reduceOrder</mi>
+    <mi>reduce_order</mi>
+    <mi>regular_parts</mi>
+    <mi>regularsp</mi>
+    <mi>remove_RootOf</mi>
+    <mi>riccati_system</mi>
+    <mi>riccatisol</mi>
+    <mi>rifread</mi>
+    <mi>rifsimp</mi>
+    <mi>rightdivision</mi>
+    <mi>rtaylor</mi>
+    <mi>separablesol</mi>
+    <mi>solve_group</mi>
+    <mi>super_reduce</mi>
+    <mi>symgen</mi>
+    <mi>symmetric_power</mi>
+    <mi>symmetric_product</mi>
+    <mi>symtest</mi>
+    <mi>transinv</mi>
+    <mi>translate</mi>
+    <mi>untranslate</mi>
+    <mi>varparam</mi>
+    <mi>zoom</mi>
+  </mfenced>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">k:=1;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=50 height=22 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>k</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mn>1</mn>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">DEplot(ec, y(x), x=-5..5, y=-10..10, stepsize =0.1);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l230.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">k:=1;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=50 height=22 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>k</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mn>1</mn>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ec := diff(y(x),x) + (k/x)*y(x) = x^3;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=192 height=43 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>ec</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mfrac>
+            <mo>&DifferentialD;</mo>
+            <mrow>
+              <mo>&DifferentialD;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mfrac>
+          <mrow>
+            <mi>y</mi>
+            <mo>&ApplyFunction;</mo>
+            <mfenced>
+              <mi>x</mi>
+            </mfenced>
+          </mrow>
+          <mi>x</mi>
+        </mfrac>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+        <mi>x</mi>
+        <mn>3</mn>
+      </msup>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">cond := y(1) =0;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=125 height=26 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>cond</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mn>1</mn>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">s := dsolve( {ec, cond}, y(x));</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<applet code=com.maplesoft.mathmlviewer codebase="http://www.maplesoft.com/standards/MathML/applets/MathMLViewer/classes" width=160 height=50 align=middle>
+<param name="background" value="#FFFFFF">
+<param name="parser" value="mathml">
+<param name="controls" value="false">
+<param name="selection" value="true">
+<param name="align" value="left">
+<param name="padding" value="0">
+<param name="size" value="12">
+<param name="foreground" value="#0000FF">
+<param name="linebreak" value="true">
+<param name="valign" value="top">
+<param name="eq" value="
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+  <mrow>
+    <mi>s</mi>
+  </mrow>
+  <mo>:=</mo>
+  <mrow>
+    <mrow>
+      <mrow>
+        <mi>y</mi>
+        <mo>&ApplyFunction;</mo>
+        <mfenced>
+          <mi>x</mi>
+        </mfenced>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mfrac>
+              <mn>1</mn>
+              <mn>5</mn>
+            </mfrac>
+            <mo>&InvisibleTimes;</mo>
+            <msup>
+              <mi>x</mi>
+              <mn>5</mn>
+            </msup>
+          </mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mn>5</mn>
+          </mfrac>
+        </mrow>
+        <mi>x</mi>
+      </mfrac>
+    </mrow>
+  </mrow>
+</math>
+">
+</applet>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">b := unapply(rhs(s),x);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l231.gif" width="134" height="70" alt="b := proc (x) options operator, arrow; (1/5*x^5-1/5)/x end proc" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">plot( b(x), x=-2..2, y=-10..10);</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/l232.gif" width="271" height="271" alt="[Maple Plot]" / >
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="center">
+<font color="#AAAAAA" size="-1">
+Maple
+<sup>TM</sup>&nbsp;is a registered trademark of <a href="http://www.maplesoft.com" target="new"><font color="#AAAAAA" size="-1">Waterloo Maple Inc.</font></a><br />
+<font color="#AAAAAA" size="-2">Math rendered by 
+<a href="http://www.dessci.com" target="new">
+<font color="#AAAAAA" size="-2">
+WebEQ
+</font>
+</a>
+</font>
+</font>
+</p>
+</basefont>
+</body>
+</html>

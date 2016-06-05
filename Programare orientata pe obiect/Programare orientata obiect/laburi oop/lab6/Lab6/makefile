@@ -1,0 +1,15 @@
+a.out: main.o rational.o product.o complex.o customer.o
+	g++ main.o rational.o product.o complex.o customer.o -g
+rational.o : rational.cpp rational.h
+	g++ -c rational.cpp -g -o rational.o
+product.o: product.cpp product.h
+	g++ -c product.cpp -g -o product.o
+customer.o: customer.cpp customer.h
+	g++ -c customer.cpp -g -o customer.o
+complex.o: complex.cpp complex.h
+	g++ -c complex.cpp -g -o complex.o
+main.o: main.cpp rational.h product.h customer.h complex.h slist.h
+	g++ -c main.cpp -g -o main.o
+clean:
+	rm *.o
+	rm a.out

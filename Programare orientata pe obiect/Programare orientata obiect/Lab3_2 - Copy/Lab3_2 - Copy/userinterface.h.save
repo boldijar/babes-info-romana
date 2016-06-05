@@ -1,0 +1,27 @@
+#ifndef USERINTERFACE_H
+#define USERINTERFACE_H
+
+using namespace std;
+
+class UserInterface
+{
+    public:
+        /** Default constructor */
+        UserInterface();
+        /** Default destructor */
+        virtual ~UserInterface();
+        /** Show commands method **/
+        void DisplayMenu();
+        /** **/
+        void AnalyzeCommand(int);
+        /** **/
+        void GetCommand(double*,unsigned int&);
+        /** **/
+        //void GetUserData(string &UserData);
+        /** **/
+        void GetUserData(int* UserData, int &counter);
+    protected:
+    private:
+};
+
+#endif // USERINTERFACE_H

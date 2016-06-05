@@ -1,0 +1,44 @@
+Programre Shell
+---------------
+- comenzi multiple in aceeasi linie de comanda
+- redirectarea iesirilor
+- variabile
+- comenzi embedded `...` (apostroafe inverse shift/~)
+- variabile speciale/predefinite
+- structuri de control: for, if, while, case
+- personalizarea BASH
+
+Comenzi multiple
+----------------
+- concatenate cu:
+  - pipe: |
+  - and: &&
+  - or: ||
+  - punct virgula: ;
+
+- pipe - transfer iesirea standard (*) a programului
+         din stanga in intrarea standard a
+	 programului din dreapta
+
+AWK
+---
+- proceseaza fisiere text organizate tabelar:
+  liniile sunt randuri ale tabelului. un caractere
+  separator va defini coloanele fiecarei linii
+- codul este organizate in blocuri: { .... };
+  prefixate (optional) cu selectori de linie
+- fiecare bloc se executa asupra liniilor care se
+  potrivesc cu selectorul
+- doi selectori speciali: BEGIN si END, care se
+  executa inainte de a proces orice linie,
+  respectiv dupa ce toate liniile au fost
+  procesate.
+
+
+
+
+
+
+
+
+

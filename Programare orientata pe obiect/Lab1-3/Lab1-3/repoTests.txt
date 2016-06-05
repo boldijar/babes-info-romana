@@ -1,0 +1,10 @@
+1 Laptop v2.2 HP 2200 22.11.2009 69
+2 Laptop v3.2 Lenovo 5200 22.11.2016 69
+3 Laptop v2.5 Acer 800 22.11.2011 69
+4 Laptop v7.7 Dell 2800 22.11.2015 69
+5 Laptop v2.2 Dell 7200 22.11.2015 89
+6 Laptop v4.4 Lenovo 2500 22.11.2002 69
+7 Laptop v6.2 PI 2900 22.11.1994 69
+8 Laptop v4.2 HP 2600 22.11.2009 69
+9 Laptop v4.2 HP 2600 22.11.2009 69
+10 Laptop v12.3 HP 2200 22.11.2009 69

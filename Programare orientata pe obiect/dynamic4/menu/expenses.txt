@@ -1,0 +1,6 @@
+2 44 900 illuminat
+1 22 600 gas
+3 30 -30 water
+55 30 700 illuminat
+54 33 600 gas
+33 20 500 illuminat

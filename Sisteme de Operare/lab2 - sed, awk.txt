@@ -1,0 +1,38 @@
+
+
+sed  - ''search and replace''
+
+sed s/a/A/ abc.txt    - (s - subtitute) inlocuieste a cu A, doar primul caracter de pe linie
+
+sed s/a/A/g abc.txt - inlocuieste toate literele a cu A
+
+sed s/a/1/g abc.txt | sed s/b/2/g | sed s/c/3/g abc.txt   - inlocuieste a cu 1, b cu 								2, c cu 3
+
+sed y/abc/123/ abc.txt - inlocuieste a cu 1, b cu 2, c cu 3
+
+
+
+
+awk '{print NF, $3}' abc.txt   - afiseaza numarul de cuvinte de pe fiecare linie si 				apoi cuvantul al 3-lea de pe fiecare linie
+
+
+awk '$1 ~/b/' 1.txt    - afiseaza liniile ce contin litera ,,b" in primul cuvant
+
+awk '$1 !~/b/' 1.txt - afiseaza liniile ce nu contin litera ,,b" in primul cuvant
+
+
+
+
+
+
+intr-un fisier 1.awk avem { print NF, $3}
+apoi scriem: awk -f 1.awk abc.txt
+-afiseaza numarul de cuvinte de pe fiecare linie si 				apoi cuvantul al 3-lea de pe fiecare linie
+
+
+
+Tema:
+o expresie regulara care inlocuieste ana cu Ana, dar doar cuvintele de sine statatoare(fara ioana, oana)
+
+initializam o matrice de 5 dimensiuni in C(cu 1 sau 2), calculam suma elementelor matricei si sa afisam suma pe ecran (rulam cu ,,valgrind ./nume) - ne afiseaza numarul de octeti folositi.
+-facem cu malloc, free() sa alocam si sa eliberam memoria, 

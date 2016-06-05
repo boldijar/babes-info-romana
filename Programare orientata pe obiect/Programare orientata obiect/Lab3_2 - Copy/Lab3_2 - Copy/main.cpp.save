@@ -1,0 +1,89 @@
+/**
+    @author Daraban Cristian - Adrian
+    Grupa 212/1;
+*/
+/*
+        A math teacher needs a program in order to help students
+    to test different properties of numbers. The program manages a list
+    of numbers and also allows students to repeatedly execute the following
+    functionalities (each functionality is exemplified):
+
+    1. Add numbers into the list.
+        a. add 123 – adds 123 at the end of the list
+        b. insert 123 at 1 – insert number 123 at position 1 in the list;
+            positions are numbered from 0.
+
+    2. Modify  elements from the list.
+        a. remove 1 – removes the element at position 1.
+        b. remove from 1 to 3 – removes the elements at positions 1,2, and 3.
+        c. replace 1 3 5 with 5 3 – replaces all the occurrences of
+            sublist 1 3 5 with the sublist 5 3.
+
+    3. Write the numbers having different properties.
+        a. prime from 1 to 5 – writes the prime numbers between position
+            1 and 5 in the list.
+        b. odd from 1 to 5 – writes the odd numbers between position
+            1 and 5 in the list.
+
+    4. Obtain different characteristics of sublists.
+        a. sum from 1 to 5 – writes the sum numbers between position
+            1 and 5 in the list.
+        b. gcd from 1 to 5 -  writes the greatest common divisor of elements
+            between position 1 and 5 in the list.
+
+        c. max from 1 to 5 – writes the greater element of the sublist from
+            position 1 to 5.
+
+    5. Filter.
+        a. filter prime – retains only the prime numbers.
+        b. filter negative –retains only the negative numbers.
+
+    6. Undo the last operation.
+        a. undo – the last operation that has modified the list of numbers is
+            cancelled.
+*/
+
+#include <iostream>
+#include <string>
+
+#include "node.h"
+#include "arrmanip.h"
+#include "userinterface.h"
+#include "controller.h"
+using namespace std;
+
+int main()
+{
+    int cmd= -1;
+    Controller ctrl;
+    UserInterface UI;
+    UI.SetController(ctrl);
+    UI.DisplayMenu();
+    ctrl.AddToList(-1);
+    ctrl.AddToList(2);
+    ctrl.AddToList(-1);
+    ctrl.AddToList(2);
+    ctrl.AddToList(4);
+    ctrl.AddToList(-3);
+    ctrl.AddToList(3);
+    ctrl.AddToList(5);
+    ctrl.AddToList(5);
+    ctrl.AddToList(2.3);
+    ctrl.AddToList(-2.23);
+    UI.SetController(ctrl);
+    UI.GetController().AddToList(3)
+    List<double>::iterator it = ctrl.GetList().begin();
+    cout<<"TestData: "<<endl;
+    while(it.hasNext())
+    {
+        cout<<"Elem: "<<it.getElement()<<endl;
+        it.nextElement();
+    }
+    cout<<cout<<"Elem: "<<it.getElement()<<endl;
+    while(cmd != 0)
+    {
+        UI.GetCommand(cmd);
+        UI.AnalyzeCommand(cmd);
+    }
+    //cout<<"CMD:"<<cmd;
+}

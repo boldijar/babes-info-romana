@@ -1,0 +1,117 @@
+Programre Shell
+---------------
+- comenzi multiple in aceeasi linie de comanda
+- valori de adevar
+- redirectarea iesirilor
+- variabile
+- comenzi embedded `...` (apostroafe inverse shift/~)
+- variabile speciale/predefinite
+- structuri de control: for, if, while, case
+- personalizarea BASH
+
+Comenzi multiple
+----------------
+- concatenate cu:
+  - pipe: |
+  - and: &&
+  - or: ||
+  - punct virgula: ;
+
+- pipe - transfer iesirea standard (*) a programului
+         din stanga in intrarea standard a
+	 programului din dreapta
+
+- ; - separa o secventa de comenzi care vor fi
+      executate toate, indifferent de succesul sau
+      erorile lor
+
+- && si || - 
+
+Valori de adevar
+----------------
+- la terminarea programului main(...) intoarce o
+  valoare sau programul apeleaza exit cu o
+  valoare; aceea este valoare de adevar a
+  executiei
+- 0 = SUCCES sau TRUE
+- >0 = EROARE sau FALSE
+- este INVERS decat in C/C++
+
+Intrari si iesiri standard si de eroare
+---------------------------------------
+- /dev/null - orice se redirecteaza aici dispare
+            - orice se citeste de aici e vid
+
+- 0 - intrarea standard (stdin)
+- 1 - iesirea standard (stdout)
+- 2 - eroarea standard (stderr)
+    - folositi perror pentur a afisa erori
+
+- > - redirecteaza iesirea standard intr-un
+      fisier, suprascriindu-l
+    - NU redirectati intr-un fisier care est
+      efolosi tca si fiser de intrare in aceeasi
+      comanda
+
+- >> - redirectare ca si cu ">" dar adauga la
+       sfarsitul fisierului, fara a-l suprascrie
+
+- < - redirectare intrare standard
+
+- << - redirecate intrare standard din date scrise
+       in consola pana la un cuvant marker
+
+sort << EOF
+sadf
+bnm,
+eryt
+opqw
+EOF
+
+
+
+Interpretoare de comenzi
+------------------------
+- bash (Borne Again SHell)
+- sh (Borne Shell) il gasiti pe toate sistemele
+  (/bin/sh)
+- csh, tcsh, zsh, ksh
+
+
+Variabile
+---------
+A=5
+B=xyz
+
+echo $A $B ${C}
+
+
+
+
+
+
+
+
+
+AWK
+---
+- proceseaza fisiere text organizate tabelar:
+  liniile sunt randuri ale tabelului. un caractere
+  separator va defini coloanele fiecarei linii
+- codul este organizate in blocuri: { .... };
+  prefixate (optional) cu selectori de linie
+- fiecare bloc se executa asupra liniilor care se
+  potrivesc cu selectorul
+- doi selectori speciali: BEGIN si END, care se
+  executa inainte de a proces orice linie,
+  respectiv dupa ce toate liniile au fost
+  procesate.
+
+
+
+
+
+
+
+
+

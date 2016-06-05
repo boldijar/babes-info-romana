@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="queue">
+</Property><Property Name="Solution File" Value="C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\queue\queue.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\queue\queue.suo">
+</Property><Property Name="Date" Value="Friday, April 15, 2011">
+</Property><Property Name="Time" Value="7:44 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="queue.sln" Description="File successfully backed up as C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\queue\queue.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="queue.suo" Description="File successfully backed up as C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\queue\queue.suo.old">
+</Event><Event ErrorLevel="0" Project="queue" Source="queue\queue.vcproj" Description="Converting project file 'C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\queue\queue\queue.vcproj'.">
+</Event><Event ErrorLevel="1" Project="queue" Source="queue\queue.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="queue" Source="queue\queue.vcproj" Description="Done converting to new project file 'C:\Users\Andreispyes\Dropbox\facultate\Semestrul 2\Programare orientata obiect\laburi oop\lab5\queue\queue\queue.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="queue" Source="queue\queue.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="queue.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="queue.sln" Description="Converted">
+</Event></UpgradeLog>

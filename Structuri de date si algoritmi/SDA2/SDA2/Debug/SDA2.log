@@ -1,0 +1,33 @@
+﻿Build started 24.05.2015 11:14:19.
+     1>Project "C:\Users\Alex\Desktop\ProiectSDA Florea Alexandru grupa 213\SDA2\SDA2\SDA2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SDA2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Visual Studio Install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SDA2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt UI.cpp
+         UI.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Visual Studio Install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Desktop\ProiectSDA Florea Alexandru grupa 213\SDA2\Debug\SDA2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SDA2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alex\Desktop\ProiectSDA Florea Alexandru grupa 213\SDA2\Debug\SDA2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Desktop\ProiectSDA Florea Alexandru grupa 213\SDA2\Debug\SDA2.lib" /MACHINE:X86 Debug\SDA2.exe.embed.manifest.res
+         Debug\Controller.obj
+         Debug\Iterator.obj
+         Debug\Multime.obj
+         Debug\SDA2.obj
+         Debug\stdafx.obj
+         Debug\TElement.obj
+         Debug\UI.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SDA2.exe.embed.manifest" /manifest Debug\SDA2.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         SDA2.vcxproj -> C:\Users\Alex\Desktop\ProiectSDA Florea Alexandru grupa 213\SDA2\Debug\SDA2.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SDA2.unsuccessfulbuild".
+         Touching "Debug\SDA2.lastbuildstate".
+     1>Done Building Project "C:\Users\Alex\Desktop\ProiectSDA Florea Alexandru grupa 213\SDA2\SDA2\SDA2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01

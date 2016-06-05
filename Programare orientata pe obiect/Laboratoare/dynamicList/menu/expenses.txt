@@ -1,0 +1,6 @@
+31 44 900 lighting
+35 22 600 gas
+43 30 700 lighting
+46 33 600 gas
+33 20 500 lighting
+40 3 634 gas

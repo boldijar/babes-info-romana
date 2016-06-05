@@ -1,0 +1,17 @@
+﻿Build started 3/11/2011 10:17:59 AM.
+     1>Project "J:\My stuff\LAB22\LAB22\LAB22.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LAB22.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         LAB22.vcxproj -> J:\My stuff\LAB22\Debug\LAB22.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LAB22.unsuccessfulbuild".
+         Touching "Debug\LAB22.lastbuildstate".
+     1>Done Building Project "J:\My stuff\LAB22\LAB22\LAB22.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37

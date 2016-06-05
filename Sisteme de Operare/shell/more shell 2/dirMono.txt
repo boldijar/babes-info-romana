@@ -1,0 +1,31 @@
+# se scrie un script shell care monitorizeaza continutul unui director dat ca si parametru si semnaleaza aparitia sau disparitia de fisiere sau directoare din el. 
+#!/bin/bash
+if [ ! -d $1 ]
+then
+	echo Please pass a directory name
+	exit 2
+fi
+while [ 1 ]
+do
+	before=`ls $1`
+	after=`ls $1`
+	fileIn="The new files are: "
+	fileOut="The missing files are: "
+	for file in $before
+	do
+		if ! echo $after | grep -q $file 
+		then
+			fileOut="$fileOut $file"
+		fi
+	done
+	for file in $after:
+	do
+		if ! echo $before | grep -q $file
+		then
+			fileIn="$fileIn $file"
+		fi
+	done
+	echo $fileOut
+	echo $fileIn
+	sleep 1
+done

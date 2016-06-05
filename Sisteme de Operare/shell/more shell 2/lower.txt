@@ -1,0 +1,19 @@
+#sterge dintr-un fisier toate cuvintele ce contint cel putin o litere mare
+#!/bin/bash
+
+if [ -z $1 ]
+then
+	echo Please pass a param
+	exit 1
+else
+	a=`find $1`
+	if [ "$a" == "$1" ] 
+	then
+		read fis
+		
+		for word in `cat $1`
+		do
+			echo $word | grep "^[a-z]*$" >> $fis		
+		done		
+	fi
+fi

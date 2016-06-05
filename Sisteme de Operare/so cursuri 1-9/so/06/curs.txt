@@ -1,0 +1,42 @@
+Pipe si FIFO
+------------
+
+- sunt canale de comunicatie intre procese de pe
+  aceeasi masina
+
+- PIPE este o structura in memoria sistemului,
+  fara nume, care este accesibila doar proceselor
+  inrudite printr-un stramos care a creat pipe-ul
+
+- FIFO este un fisier pe disc accesibil oricaror
+  procese care ii stiu numele si au permisiuni de
+  acces (rw-)
+
+- Creare pipe:
+
+    int fd[2];
+    pipe(fd);
+
+  fd[0] - capatul prin care se poate citi din pipe
+  fd[1] - capatul prin care se poate scrie in pipe
+
+- Citirea si scriere ain PIPE/FIFO se face cu
+  aceleasi apeluri sistem sau functii folosite
+  pentru fisiere
+
+- Creare FIFO
+  - in linie de comanda "mkfifo nume.fifo"
+  - in C mkfifo("nume.fifo", 0666)
+
+
+
+
+
+
+
+
+
+
+
+
+

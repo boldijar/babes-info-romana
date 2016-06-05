@@ -1,0 +1,49 @@
+grep lorem .
+grep -n lorem lipsum.txt
+grep -n -A 3 -B 3 quam lipsum.txt
+grep -n concurency .
+grep -rn concurency .
+
+echo "ana are mere" | sed s/mere/pere/
+echo "ana are mere, pere, struguri" | sed s/mere/pere/
+echo "ana face suc de merisoare" | sed s/meri/peri/
+echo "unu plus unu face patru. Fals" | sed s/unu/doi/
+echo "unu plus unu face patru. Adevarat" | sed s/unu/doi/g
+
+echo "primul cuvant din linie" | sed 's/\([a-zA-Z]*\).*/\1/'
+echo "al doilea cuvant din linie" | sed 's/\([a-z]*\) \([a-z]*\).*/\2/'
+echo "rocada primele doua cuvinte" | sed 's/\([a-z]*\) \([a-z]*\).*/\2 \1/'
+
+#!/bin/sh
+# Linux users have to change $8 to $9
+awk '
+BEGIN { print "LS\trestrans" }
+{ print $9, "\t", $3}
+END { print "terminat" }
+'
+
+./1.sh
+ls -la | ./1.sh
+
+#!/bin/bash
+if [ $# -eq 0 ]; then
+    echo This command requires at least one parameter
+    exit 1
+fi
+
+for F; do
+    if [ ! -f $F ]; then
+        echo $F: File not found! 
+        exit 1
+    fi
+done
+
+awk 'FNR == 1 {noFiles++} \
+     {noWords += NF}\
+     END {mean = noWords / noFiles;
+         print "The number of files is: " noFiles
+         print "\nThe total number of words is: " noWords
+         print "\nThe mean number of words is: " mean}' $*
+
+./2.sh lipsum.txt
+./2.sh lipsum.txt folder/untitled.txt
