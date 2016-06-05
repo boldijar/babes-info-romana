@@ -1,0 +1,2 @@
+class Contact:
+    def __init__(self,id,name,phoneNr,group):

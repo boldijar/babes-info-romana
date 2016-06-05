@@ -1,0 +1,41 @@
+class AgendaController:
+    def __init__(self):
+        pass
+    def addContact(self,id,name,phoneNr,group):
+        """
+            Add a new contact to the database
+            id is the contact's id
+            name is the contact's name
+            phoneNr id the contact's phone number
+            group is the contacts group
+        """
+        pass
+    def lookup(self,name):
+        """
+            Look up for a contact by name
+            return the contact if found
+        """
+        pass
+    def lookUpAll(self,group):
+        """
+            Show all the contacts from a group
+            group is the group's name
+            the return is the list of the group members
+        """
+        pass
+    def exportCSV(self,group,outFile):
+        """
+            Export all the group members to a text file
+            group is a contact group chosen by the user
+            outFile is the output file where the members will appear, separated by comma
+        """
+        pass
+
+def testAgendaController():
+    ac=AgendaController()
+    ac.addContact(1,'Name','0740','group')
+    ac.lookUp('Name')
+    ac.lookUpAll('group')
+    ac.exportCVS('group','outfile.txt')
+
+testAgendaController()

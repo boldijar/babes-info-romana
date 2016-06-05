@@ -1,0 +1,11 @@
+MODULES_MANAGER_V2
+Domain.Word|D:\examfp\exams\src\Domain\Word.py
+Domain.WordValidator|D:\examfp\exams\src\Domain\WordValidator.py
+Domain.__init__|D:\examfp\exams\src\Domain\__init__.py
+Repository.WordsRepository|D:\examfp\exams\src\Repository\WordsRepository.py
+Repository.__init__|D:\examfp\exams\src\Repository\__init__.py
+SpellCheckerApp|D:\examfp\exams\src\SpellCheckerApp.py
+UI.SpellCheckerController|D:\examfp\exams\src\UI\SpellCheckerController.py
+UI.SpellCheckerUI|D:\examfp\exams\src\UI\SpellCheckerUI.py
+UI.__init__|D:\examfp\exams\src\UI\__init__.py
+print|D:\examfp\exams\src\print.py

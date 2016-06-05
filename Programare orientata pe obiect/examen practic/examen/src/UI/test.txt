@@ -1,0 +1,5 @@
+3 blin 984 prieteni
+4 c4 123 prieteni
+5 t 666 job
+5 tt 66 job
+7 444 555 job

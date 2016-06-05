@@ -1,0 +1,77 @@
+BILET 1
+
+1. semantica logiii propozitionale si explicatii pt decidabilitatea,
+coerenta si necontradictia logicii propozitiilor.
+de demonstrat ca legea separarii premiselor e teorema.
+2.de simplificat o functie booleana prin metoda lui quine si de
+construit circuitul pt functie si formele simplificate.
+3.de demonstrat distributivitatea cuantificatorului existential fata
+de disjunctie prin calculul secventelor. teorema de corectitudine si
+completitudine a metodei.
+4. algoritmul de scadere a doua numere intregi in baza b.
+sa se adune si sa se scada in cod complementar pe 8 biti 2 numere date
+
+biletul 2 
+
+1. se dadea o formula si trebuia verificata consistenta ei folosint 
+metoda tabelelor semantice, scrise toate modelele formulei, si teorema 
+de corectitudine si completitudine pentru metoda tabelelor semantice
+2. Algoritmul de determinare al celui mai general unificator + 1 
+exemple de atomi unificabili si unul de atomi care nu se pot unifica
+3. Trebuiau scrisi toti mintermii si maxtermii de 3 variabile, apoi 
+era de scris o functie f de 3 variabile data prin tabelul de valori, 
+FCC(f), FCD(f), si de implementat circuitul logic pentru fiecare forma 
+canonica
+4. reprezentarea in virgula mobila(teorie + exemple) , si de 
+transformat un numar cu virgula din baza 10 in baza 8
+
+biletul 3:
+
+    sa arat ca o formula ce mi-a dat-o pe foaie e tautologie si sa explic teorema de corectitudine si completitudine a metodei folosite(eu mi-am putut alege metoda)
+    de verificat daca are loc propr de disributivitate a cuantificatorului existential fata de conjunctie utilizan o metoda semantica
+    alg de impartire a unui nr intreg fara semn la o cifra in baza b.exemplu
+    de facut un circuit in care sa folosesc derivate si toate porcariile alea din carte d la circuite.sa simplific formula booleana
+
+Bilet 4
+
+1. metoda reducerii
+2. metoda rezolutiei pe o multime de functii/expresii. ex: {p(x,x), p(x,y)^p(x,z) , ~P(x,z), ~p(a,c)...}
+3. functii boolene, simplificare si circuit logic
+4. algoritmul de scadere a 2 intregi intr-o baza b, reprezentarea unui nr real in simpla precizie cu mantisa subunitara, virgula fixa sau mobila (nu mai stiu exact)
+
+
+
+
+
+
+Bilet 8.
+
+1. Folosind metoda rezolutiei sa se rezolve: p v q, r v p, U3 |- r ^ p v w ^ ....
+Rezolutia ca sistem formal.
+
+2. Definitia celui mai genaral unificator si a instantelor comune ale unificatorilor. Algoritmul de aflare al celui mai general unificator. Sa se afle unificatorii pt perechile de fomulele: P( a, x, g(?)) si P(y, f(x), f(x)), ... inca 2 perechi...
+
+3. Folosind diagramele lui Quine sa se simplifice 
+f(x1, x2, x3, x4) = ....( = m0 v m10 v m14 v m15 v m6 v m11 -deduceti voi).
+Sa se faca un circuit pt o fctie simplificata.
+
+4. Conversia nr (3021)4 in baza 7, calcule in baza 7.
+Reprezentare cu virgula mobila, simpla precizie, mantisa supraunitare a nr-ului: -143.52
+
+Bilet 10
+
+1. de scris la o formula FNC-ul si FND-ul, sa spunem dak formula era inconsistenta/ valida,si sa enuntam relatia dintre formele normale si validitate/inconsis tenta
+2. de enuntat teorema deductiei in logica predicatelor, sa precizam daca logica predicatelor este decidabila si sa ne argumentam raspunsul, si de trecut o formula in forma prenexa,skolem si forma normala clauzala
+3. de dat exemplu de circuit logic pentru adunarea a doua cifre binare,compararea a doua cifre binare si adunarea pe 4 biti
+4. de trecut 2 numere A si B subunitare in cod direct,invers si complementar si dupa am avut de facut A+B,A-B,A+A, B+B
+ 
+
+
+BILET 2
+ 
+1)cu metoda tabelelor semantice sa se afle daca o propozitzie (destul d ushoara) are modele si care sunt ele.
+2)problema nasoala nici n`am prea inteles`o cu unificatorii atomilor.
+3)trebuia sa itzi alegi tu singur o functie, sa o simplifici si sa faci circuitul logic
+4)de convertit un numar gen 432,62 din baza 10 in baza 8 cu precizie de 5 dupa virgula iar apoi sa explici reprezentarea cu virgula mobila ( teorie si exemplu)
+ 
+bafta !

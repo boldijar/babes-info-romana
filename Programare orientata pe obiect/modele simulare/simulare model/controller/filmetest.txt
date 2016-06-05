@@ -1,0 +1,2 @@
+47,De la speci,17,85
+49,De la speci,17.0,85

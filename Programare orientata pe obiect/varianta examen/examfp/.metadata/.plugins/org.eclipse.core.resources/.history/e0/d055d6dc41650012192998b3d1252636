@@ -1,0 +1,36 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+class Word:
+    def __init__(self,id,lang,word):
+        self.__id=id
+        self.__lang=lang
+        self.__word=word
+    
+    def get_id(self):
+        return self.__id
+
+
+    def get_lang(self):
+        return self.__lang
+
+
+    def get_word(self):
+        return self.__word
+
+
+    def set_id(self, value):
+        self.__id = value
+
+
+    def set_lang(self, value):
+        self.__lang = value
+
+
+    def set_word(self, value):
+        self.__word = value
+
+    def __str__ (self):
+        return str(self.get_id())+" "+str(self.get_lang())+" "+str(self.get_word())

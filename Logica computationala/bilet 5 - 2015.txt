@@ -1,0 +1,4 @@
+Biletul 5
+1. Era S = (p v r, not p v not r, not p v r). Sa se verifice inconsistenta prin rez liniara si sa se scrie teoria aferenta
+2. Verificati distributivitatea cuantificatorului existential fata de implicatie printr.o metoda semantica, si sa se scrie teoria de corect. si compl. a metodei alese
+3. Era o functie data prin valorile ei de 1, chiar nu mai stiu cum era. Se cerea sa se simplifice prin Quine si sa se construiasca circuitele formelor simplificate

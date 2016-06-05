@@ -1,0 +1,28 @@
+Controller:
+
+def __init__(self, repo, valid):
+        self.__repo = repo
+        self.__valid = valid
+	
+def update(self, id, titlu, pret ,nrlocuri)
+        fi = Film(id, titlu, pret, nrLocuri)
+        self.__valid.validare(fi)
+        self.__repo.modificare(fi)
+
+def get_all(self)
+ 	lista = self.__repo.getAll()
+        if lista == None:
+            raise ValueError("Fisierul este gol.")
+        return self.__repo.getAll()
+
+def testUpdateController():
+    open("filmetest.txt", 'w')
+    repo = RepoFilme("filmetest.txt")
+    repo.update(Film(47, 'De la specii', 15, 68))
+    repo.update(Film(49, 'De la speci', 17, 85))
+    valid = Validator()
+    
+    cont = ControllerFilm(repo, valid)
+    cont.update(47, 'De la speci', 17, 85)
+    lista = cont.getAll()
+    assert lista == [ Film(47, 'De la speci', 17, 85), Film(49, 'De la speci', 17, 85)]

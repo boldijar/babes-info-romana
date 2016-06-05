@@ -1,0 +1,2 @@
+subiectul 3 logica: primul era o insirire de variabile legate de diferite conective, trebuia sa arat prin tabel semantic, tipul formulei si sa scriu toate modelele si antimodelele formulei. Al doilea sub era "printr-o metoda sintactica , aratati propr de distributivitate a cuantificatorului universal fata de disjunctie", si al treilea era o functie booleana , trebuia simplificata prin diagrama Karnaugh si desenat circuitul coresp functiei simplificate. 
+Va da ea foi personalizate, nu aveti voie cu tel (a scos pe cineva din cauza asta din exam) Bafta!

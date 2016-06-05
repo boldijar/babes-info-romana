@@ -1,0 +1,14 @@
+1,Name1,0746181339,Friends
+2,Name2,0151515585,Friends
+3,Name3,0515115616,Friends
+4,Name4,5512564846,Family
+5,Name5,1511516156,Family
+6,Name6,20561516,Friends
+3,Name7,05514161561,Family
+3,Name11,26516,Family
+6,Name13,456151,Others
+5,Quffancs,0742638848,Family
+5,bgbf,676,Family
+746181339,Gullencs,0746181339,Family
+56,vhfbvhjd,1511,Others
+5,Darling,06445487844,Friends

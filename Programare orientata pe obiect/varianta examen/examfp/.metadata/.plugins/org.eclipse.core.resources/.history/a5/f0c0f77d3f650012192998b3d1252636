@@ -1,0 +1,20 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+from SpellCheckerController import SpellCheckerController
+class UI:
+    def __init__(self,control):
+        self.__control=control
+        
+    def Main(self):
+        print "1 add new word"
+        
+        while 1:
+            cmd=raw_input("give command")
+            if cmd=="1":
+                id=raw_input("give id")
+                lang=raw_input("give language")
+                word=raw_input("give word")
+                self.__control.addWord(,id,lang,word)

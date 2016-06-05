@@ -1,0 +1,14 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+class WordsRepository:
+    def __init__(self):
+        self.__wordlist=[]
+        
+    def add(self,Word):
+        self.__wordlist.append(Word)
+    
+    def getAll(self):
+        return self.__wordlist

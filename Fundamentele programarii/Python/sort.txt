@@ -1,0 +1,8 @@
+s = sorted(s, key = lambda x: (x[0], x[1]))
+
+
+import operator
+s = sorted(s, key = operator.itemgetter(1,2))
+
+
+s.sort(key = operator.itemgetter(1,2))

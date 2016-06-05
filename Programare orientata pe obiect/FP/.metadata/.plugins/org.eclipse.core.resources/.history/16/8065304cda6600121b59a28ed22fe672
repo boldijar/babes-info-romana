@@ -1,0 +1,17 @@
+class Contact:
+    def __init__(self,id,name,phoneNr,group):
+        """
+            Initialise the contact
+            id is the contact's id given by the user
+            name is the contact's name
+            phoneNr is the contact's phone number
+            group is the name of the group where the contact belongs
+        """
+        self.__ID=id
+        self.__Name=name
+        self.__PhoneNr=phoneNr
+        self.__Group=group
+    def getID(self):
+        """
+            Return the ID of the program
+        """

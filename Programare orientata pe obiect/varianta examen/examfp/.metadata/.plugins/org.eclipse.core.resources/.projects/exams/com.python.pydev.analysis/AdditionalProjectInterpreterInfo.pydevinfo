@@ -1,0 +1,66 @@
+-- VERSION_3
+-- START DISKCACHE
+D:\examfp\.metadata\.plugins\org.eclipse.core.resources\.projects\exams\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+Repository.WordsRepository|0|D:\examfp\exams\src\Repository\WordsRepository.py
+Repository.__init__|0|D:\examfp\exams\src\Repository\__init__.py
+UI.__init__|0|D:\examfp\exams\src\UI\__init__.py
+Domain.WordValidator|0|D:\examfp\exams\src\Domain\WordValidator.py
+SpellCheckerApp|0|D:\examfp\exams\src\SpellCheckerApp.py
+UI.SpellCheckerController|0|D:\examfp\exams\src\UI\SpellCheckerController.py
+Domain.__init__|0|D:\examfp\exams\src\Domain\__init__.py
+Domain.Word|0|D:\examfp\exams\src\Domain\Word.py
+print|0|D:\examfp\exams\src\print.py
+UI.SpellCheckerUI|0|D:\examfp\exams\src\UI\SpellCheckerUI.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+17=SpellCheckerController.__init__
+5=Domain.WordValidator
+3=UI.SpellCheckerController
+10=WordValidator
+18=Word.set_word
+6=Domain.Word
+16=Word.set_lang
+2=UI.SpellCheckerUI
+15=SpellCheckerUI
+4=Repository.WordsRepository
+11=Word
+7=SpellCheckerUI.__init__
+12=Word.set_id
+1=SpellCheckerApp
+8=WordsRepository.__init__
+13=Word.__init__
+14=SpellCheckerController
+9=WordsRepository
+-- END DICTIONARY
+-- START TREE 1
+6
+ctr|1|ctrl!11@
+rep|1|repo!11@
+spe|2|SpellCheckerUI!17@SpellCheckerController!25@
+tes|4|testFindW!34@testValidator!42@testWord!50@testRepository!34@
+ui|1|ui!11@
+wor|3|WordValidator!41@Word!49@WordsRepository!33@
+-- END TREE
+-- START TREE 2
+18
+__c|1|__control!7&19@
+__d|1|__Dfile!8&35@
+__i|7|__init__!9&34@__init__!10&42@__init__!11&50@__id!12&51@__id!13&51@__init__!14&26@__init__!15&18@
+__l|2|__lang!16&51@__lang!13&51@
+__s|1|__str__!11&50@
+__w|4|__wlist!17&27@__wordlist!8&35@__word!18&51@__word!13&51@
+add|2|addWord!14&26@add!9&34@
+che|2|check2!14&26@check!14&26@
+exi|1|existingword!10&42@
+fin|1|finds!9&34@
+get|5|get_id!11&50@getList!14&26@get_word!11&50@get_lang!11&50@getAll!9&34@
+goo|1|goodLanguage!10&42@
+loa|1|loadD!9&34@
+mai|1|Main!15&18@
+rea|1|readWords!9&34@
+set|3|set_lang!11&50@set_word!11&50@set_id!11&50@
+wor|1|wordempty!10&42@
+wri|1|writefile!9&34@
+-- END TREE

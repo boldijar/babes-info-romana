@@ -1,0 +1,11 @@
+from Domain.Contact import *
+
+class Validator:
+    def __init__(self):
+        pass
+    def validate(self,contact):
+        """
+            Verify if a contact is valid
+            A contact can be valid if the phone number is not empty, the name is not on the list and the group name is correct
+        """
+

@@ -1,0 +1,15 @@
+SUBIECTUL 4
+
+1. Sa se demonstreze utilizand metoda secventelor : p->q  |-  (q->r)->(p->r)
+   Teorema de corectitudine si completitudine a acestei metode.
+   
+2. Sa se demonstreze ca urmatoarea multime de clauze e inconsistenta utilizand metoda rezolutiei
+c={ p(x,x) , not p(x,y) v p(x,z) , not p(x,y) v not p(x,z) v p(y,z) , p(a,b) , p(a,c) , not p(b,c) }
+Descrieti pe scurt rafinarile rezolutiei.
+
+3. Simplificati urmatoarea functie booleana utilizand metoda diagramelor Karnaugh 
+f(x1,x2,x3)= m0 v m3 v m4 v m5 v m6 v m7 . Desenati circuitul logic pt functia initiala
+si pt ce simplificata.
+
+4. Algoritmul adunarii a doi intregi in baza b (b<=10)
+   Reprezentati in virgula fixa pe 16 biti numarul : -732,535

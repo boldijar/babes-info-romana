@@ -1,0 +1,14 @@
+assume cs:code, ds:data
+data segment
+	sir db 1,2,3,4
+
+data ends
+
+code segment
+start:
+	mov ax, data
+	mov ds, ax
+
+
+code ends
+end start

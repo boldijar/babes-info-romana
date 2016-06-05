@@ -1,0 +1,34 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+class WordValidator:
+    def __init__(self):
+        pass
+    
+    def wordempty(self,id,lang,word):
+        errorMsg=""
+        if id=="":
+            errorMsg+="id can not be empty"
+        if lang=="":
+            errorMsg+="language can not be empty"
+        if word=="":
+            errorMsg+="word can not be empty"
+        if errorMsg !="":
+            raise ValueError(errorMsg)
+        
+    def goodLanguage(self,lang):
+        exists=0
+        if (lang=="Ro" or lang=="En" or lang=="Fr"):
+            exists=1
+        if exists==0:
+            raise ValueError("not existing language")
+    
+    def existingword(self,repo,w,lang):
+        words=repo.getAll()
+        for i in range(0,len(words)):
+            if w==words[i].get_word() and lang==words[i].get_lang():
+                raise ValueError("the word exists")    
+        
+        

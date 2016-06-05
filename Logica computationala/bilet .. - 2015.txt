@@ -1,0 +1,4 @@
+Asta am avut azi la logica. Formulele din pacate nu le mai tin minte.
+1. Sa se treaca formula u= .. in FNC, FND; sa se decida tipul ei(valida, consistenta, inconsistenta). Sa se enunte legatura dintre FNC, FND si tipurile de formula(valida, inconsistenta).
+2. Se da multimea de formule predicative S=.. . Sa se demonstreze ca este inconsistenta prim metoda rezolutiei liniare.
+3. Se da functia booleana prin valorile de 0 - f(1, 0, 0)=f(0, 1, 1)=0. Sa se simplifice prin metoda diagramelor Veitch si sa se deseneze circuitul logic pentru fiecare varianta simplificata.

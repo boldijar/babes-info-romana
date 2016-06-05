@@ -1,0 +1,176 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\fswiss\fprq2\fcharset0 Calibri;}{\f2\fswiss\fprq2\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\nowidctlpar\f0\fs24\par
+\par
+Data \tab 27/10/2014\tab\tab\tab\tab\tab\tab Name: Ileni Tudor Alexandru\par
+\f1\fs22\par
+\pard\nowidctlpar\sb240\sa120\b\f2\fs28 Problem statement:\par
+\pard\nowidctlpar\b0\f1\fs22\par
+A family wants to mange its monthly expenses. In order to complete this task, the family needs an application to store, for a certain month, all the family\rquote sexpenses. Each expense will be store in the application through the following elements:  day(of the month in which it was made), amount of money and type of the expense (the family wants to group its expenses in the following categories: hause keeping, food, transport, clothing, telephone, other \endash  book, films, sports, etc).\f0\fs24\par
+\f1\fs22\par
+\pard\nowidctlpar\sb240\sa120\b\f2\fs28 Family expenses mangement - Feature list\par
+\pard\nowidctlpar\fi-360\li720\sl276\slmult1\b0\f1\fs22\par
+\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f0\fs24 F1. \f1\fs22 Adds to the current day an expense\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f0\fs24 F2. \f1\fs22 Adds to the other day an expense\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f0\fs24 F3\f1\fs22 .Removes all the expenses from a day\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F4.\f1\fs22  Removes all the expenses from a day until an other day\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F5.\f1\fs22  Removes all the expenses for a type from the current month\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F6.\f1\fs22  Replaces the expense for a type\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F7.\f1\fs22  Writes all expenses greater  than a specified amount\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F8.\f1\fs22  Writes all expenses less than an amount which were spent before a day\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F9.\f1\fs22  Writes all the expenses for a type\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F10. Writes the total expense for a type\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F11. Write the day with the maximum expenses\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F12. Writes the days within the month in which exactly a specified amount were spent\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F13. Sorts the total daily expense in a ascending order\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F14. Sorts the total daily expenses per category in a descending order\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F15. Retains only the expenses from a type\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F16. Retains only the expenses for a specified type greater than a specified amount\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F17. Undo\cell\row\pard\nowidctlpar\sl276\slmult1\par
+\pard\nowidctlpar\sb240\sa120\line\b\f2\fs28 Iteration plan\b0\f1\fs22\par
+\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1202\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\b\f0\fs24 Iteration\b0\f1\fs22\cell\b\f0\fs24 Planned features\b0\f1\fs22\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1202\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl I 1\cell\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1202\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\cell\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f0\fs24 F1. \f1\fs22 Adds to the current day an expense\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f0\fs24 F2. \f1\fs22 Adds to the other day an expense\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f0\fs24 F3\f1\fs22 .Removes all the expenses from a day\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F4.\f1\fs22  Removes all the expenses from a day until an other day\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F5.\f1\fs22  Removes all the expenses for a type from the current month\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F6.\f1\fs22  Replaces the expense for a type\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F7.\f1\fs22  Writes all expenses greater  than a specified amount\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F8.\f1\fs22  Writes all expenses less than an amount which were spent before a day\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F9.\f1\fs22  Writes all the expenses for a type\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F10. Writes the total expense for a type\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1202\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\f1\fs22 I 2\cell\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1202\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\cell\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F11. Write the day with the maximum expenses\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F12. Writes the days within the month in which exactly a specified amount were spent\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F13. Sorts the total daily expense in a ascending order\f0\fs24\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180\f1\fs22 F14. Sorts the total daily expenses per category in a descending order\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F15. Retains only the expenses from a type\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F16. Retains only the expenses for a specified type greater than a specified amount\cell\row\trowd\trgaph40\trrh1\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx8450\pard\intbl\nowidctlpar\li180\ri180 F17. Undo\cell\row\pard\nowidctlpar\sb240\sa120\b\i\f2\fs28\par
+\i0\par
+Iteration 1\par
+\pard\nowidctlpar\sl276\slmult1\b0\f1\fs22\par
+\par
+\pard\nowidctlpar\sb240\sa120\b\i\f2\fs28 Work items/tasks\par
+\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\b0\i0\f0\fs24 F1\f1\fs22\cell .Adds to the current day an expense\par
+           t1- Add a new expense\par
+           t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\cell  Adds to the other day an expense\par
+          t1-Add a new expense in a day\par
+          t2-Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\f0\fs24 F2\f1\fs22\cell .\f0\fs24  \f1\fs22 Removes all the expenses from a day\par
+          t1- Remove from a day\par
+          t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F3\cell  Removes all the expenses from a day until an other day          \par
+         t1 - Remove function\par
+         t2 - Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\f0\fs24 F4\cell\f1\fs22  Removes all the expenses for a type from the current month\par
+         t1 - Remove function\par
+         t2 - Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F5\cell  Replaces the expense \par
+          t1- Replace the amount from a specific day\par
+          t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\f0\fs24 F6\cell\f1\fs22  Writes all expenses greater than a specified amount\par
+         t1 - Select the required expenses\par
+         t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\f0\fs24 F7\cell\f1\fs22  Writes all expenses less than an amount which were spent before a day\par
+          t1- Select the required expenses \par
+          t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\f0\fs24 F8\cell\f1\fs22  Writes all the expenses for a type\par
+          t1- Select the expenses from the type\par
+          t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar\sb240\sa120\b\f2\fs20 F9\par
+Iteration 2\fs22\par
+\pard\intbl\nowidctlpar\b0\f1\cell  Writes the total expense for a type\par
+         t1 - Select the expenses from that type and add the amounts\par
+         t2 - Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F10\cell  Write the day with the maximum expenses\par
+          t1- For all days compute the maximum expense and return the day with the greater                         sum\par
+          t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F11\cell  Writes the days within the month in which exactly a specified amount were spent\par
+          t1- Select the day in which exactly a specified amount were spent\par
+          t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F12\cell . Sorts the total daily expense in a ascending order\par
+         t1- Get the days in which have expense\par
+         t2 - Compute the sum of all expense from a day\par
+         t3 - Sort the days in a ascending order\par
+         t4 - Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F13\cell  Sorts the total daily expenses per category in a descending order\par
+         t1 - Get category of expense from the list of expenses\par
+         t2 - Compute the sum of all expense from a day from a category\par
+         t3 - Sort the days from a category in a descending order\par
+         t4- Implement the user interface\par
+\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F14\cell  Retains only the expenses from a type\par
+         t1 - Select the expenses from a type\par
+         t2- Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F15\cell  Retains only the expenses for a specified type greater than a specified amount\par
+         t1 - Select the expenses from a type greater thea a specified amount\par
+         t2 - Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9380\pard\intbl\nowidctlpar F16\cell  Undo\par
+         t1- The last operation that has modified the list of expenses is cancelled\par
+         t2 - Implement the user interface\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx676\cellx9380\pard\intbl\nowidctlpar\cell\cell\row\pard\nowidctlpar\par
+\pard\nowidctlpar\sb240\sa120\b\f2\fs28\par
+\pard\nowidctlpar\sa160\sl252\slmult1\b0\f1\fs22\par
+\pard\nowidctlpar\sb240\sa120\b\i\f2\fs28\par
+\par
+Running scenario \par
+\par
+\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar\b0\i0\f1\fs22\cell\b User\cell Program\par
+[list]\cell Description\cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar\b0 A\cell\cell 1: Add a new expense\par
+2: Remove\par
+3: Write\par
+4: Characteristics\par
+5: Filter\par
+6: Undo\par
+0: Exit\cell Show the menu\cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar B\cell 4\cell 1:   Sum \par
+2:   Max day\par
+3:   Exact \par
+4:   Asc sort day\par
+5:   Desc sort type\cell Show the characteristic submenu \cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar C\cell 1\cell  Insert the type: \cell\cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar D\cell food\cell\cell\cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar E\cell\cell There is  100 expense of type:  food\cell Show the sum of all food expense\cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar F\cell\cell 1: Add a new expense\par
+2: Remove\par
+3: Write\par
+4: Characteristics\par
+5: Filter\par
+6: Undo\par
+0: Exit\cell Show the menu\cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar G\cell 5\cell 1:  Filter by type\par
+2:  Filter by type and amount\cell Show the filter submenu\cell\row\trowd\trgaph108\trleft-108\trrh566\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar H\cell 2\cell Insert the type:\par
+Insert the amount:\cell\cell\row\trowd\trgaph108\trleft-108\trrh275\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar I\cell Food \par
+40\cell 6 food 100\par
+8 food 200\cell Show the result of filter\cell\row\trowd\trgaph108\trleft-108\trrh275\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar J\cell\cell 1: Add a new expense\par
+2: Remove\par
+3: Write\par
+4: Characteristics\par
+5: Filter\par
+6: Undo\par
+0: Exit\cell Show the menu\cell\row\trowd\trgaph108\trleft-108\trrh275\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar K\cell\pard\intbl\nowidctlpar\tqr\tx2664 6\cell\pard\intbl\nowidctlpar\cell The last operation that has modified the list of expenses is cancelled\cell\row\trowd\trgaph108\trleft-108\trrh275\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar L\cell\cell 1: Add a new expense\par
+2: Remove\par
+3: Write\par
+4: Characteristics\par
+5: Filter\par
+6: Undo\par
+0: Exit\cell Show the menu\cell\row\trowd\trgaph108\trleft-108\trrh291\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx338\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3224\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx7102\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx13871\pard\intbl\nowidctlpar R\cell 0\cell Exit\cell Close the application\cell\row\pard\nowidctlpar\sa160\sl252\slmult1\par
+}
+ 

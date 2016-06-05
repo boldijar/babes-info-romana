@@ -1,0 +1,17 @@
+INSTUPRepository.WordsRepository
+D:\examfp\exams\src\Repository\WordsRepository.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&2|13|2|0&&2|14|2|0
+testFindW=14
+readWords=12
+finds=10
+add=7
+__wordlist=6
+Repository.WordsRepository=2
+writefile=11
+__init__=3
+testRepository=13
+WordsRepository.__init__=5
+loadD=9
+getAll=8
+__Dfile=4
+WordsRepository=1

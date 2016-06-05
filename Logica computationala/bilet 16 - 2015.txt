@@ -1,0 +1,6 @@
+biletul 16
+1. se da o multime S={...} demonstrati prin metoda rezolutiei blocarii inconsistenta multimii folosind 2 indexari+teoria aferenta
+2. transformati din limbaj natural explicand introducerea fiecarui predicat,functie,variabila si constanta urmatoarele:
+a) daca o dreapta d1 intr-un plan este perpendiculara pe o alta dreapta d2, atunci orice dreapta d3 paralela cu d1 este perpendiculara pe d2
+b) daca x si y, doua numere intregi, sunt divizibile cu 5 atunci si suma si diferenta lor sunt divizibile cu 5, iar produsul lor este divizibil cu 25
+3. se da functia f de 4 variabile sa se simplifice functia folosind diagrama veitch. sa se deseneze circuitele functiei f si a unei forme simplificate a acesteia. este logica predicatelor de ordinul 1 decidabila? argumentati.

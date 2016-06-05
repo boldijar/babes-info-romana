@@ -1,0 +1,29 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+from Domain.Word import Word
+from Repository.WordsRepository import WordsRepository
+from Domain.WordValidator import WordValidator
+
+class SpellCheckerController:
+    def __init__(self,wlist):
+        self.__wlist=wlist
+        
+    def addWord(self,id,lang,word):
+        val=WordValidator()
+        try:
+            val.wordempty(id, lang, word)
+        except ValueError:
+            return "empty fields"
+        
+        try:
+            val.goodLanguage(lang)
+        except ValueError:
+            return "not existing language"
+        newWord=Word(id,lang,word)
+        self.__wlist.add(newWord)
+        
+    def getList(self):
+        return self.__wlist.getAll()

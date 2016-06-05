@@ -1,0 +1,8 @@
+Biletul 2
+1. Sistemul formal asociat rezolutie propozitiilor. Folosindu-se rezolutia generala sa se arate ca are loc consecinta logica: r->pVq, ,pV!q, !rV!pVq |= r-> p^q
+2. nu mai stiu cum era exact, dar tin minte ca se dadea o interpretare I1 = <D1, m1>, D = Z ,m1(P)(x) = ' x divizibil cu 12' , m1(Q)(x) = ' x este impar'
+si functia ((oricare)P(x) -> (oricare)Q(x)) -> (exista)(P(x)^Q(x))
+si trebuia sa inlocuiesti in formula cu interpretarea I1.
+Se mai dadea un I2 cu |D2| = 2 si trebuie sa dai o valoarea pentru m(P)(x) si m(Q)(x) si sa vezi daca rezultatul este model sau anti-model.
+Tot la subiectul asta intreba: cate interpretari posibile exista? Definiti notiunea de model si anti-model.
+3.se da o functie de 3 variabile(x,y,z). nu mai stiu ce se cerea, dar stiu ca trebuia sa se deseneze un circuit logic pentru formulele: (m0 nor M4) ^ (m2 nand M5) si (m7 xor M3) V (m6 xor M1)

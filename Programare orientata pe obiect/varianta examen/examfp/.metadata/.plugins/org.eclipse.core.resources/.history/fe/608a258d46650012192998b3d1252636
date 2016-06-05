@@ -1,0 +1,41 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+from Domain.Word import Word
+class WordsRepository:
+    def __init__(self,Dfile):
+        self.__Dfile=Dfile
+        self.__wordlist=[]
+        self.loadD()
+        
+    def add(self,word):
+        self.__wordlist.append(word)
+    
+    def getAll(self):
+        return self.__wordlist
+    
+    def loadD(self):
+        fileObj=open(self.__Dfile,"r")
+        line=fileObj.readline().strip()
+        while line !="":
+            field=line.split(" ")
+            newWord=Word(field[0],field[1],field[2])
+            self.__wordlist.append(newWord)
+            line=fileObj.readline().strip()
+        fileObj.close()
+        
+    def find(self,lang,w):
+        for i in range (0,len(self.__wordlist)):
+            if self.__wordlist[i].get_lang()==lang and self.self.__wordlist[i].get_word()==w:
+                return True
+        return False
+        
+def testRepository():
+    repo=WordsRepository("D:\examfp\exams\src\dictionary.txt")
+    wordlist=repo.getAll()
+    assert wordlist[0].get_id()=="1"
+    assert wordlist[1].get_lang()=="En"
+    assert wordlist[2].get_word()=="salut"
+testRepository()

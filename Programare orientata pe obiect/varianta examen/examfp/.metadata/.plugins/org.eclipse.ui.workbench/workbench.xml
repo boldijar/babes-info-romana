@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="45" version="2.0">
+<workbenchAdvisor/>
+<window height="728" maximized="true" width="1024" x="50" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="89" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1358931720742" focus="true" label="Workspace - PyDev">
+<editors>
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@dc174b">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.internal.EditorStack@dc174b" ratio="0.53765327" ratioLeft="614" ratioRight="528" relationship="2" relative="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.python.pydev.editor.PythonEditor" name="print.py" partName="print (src)" path="D:/examfp/exams/src/print.py" title="print (src)" tooltip="exams/src/print.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/print.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="72" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Word.py" partName="Word" path="D:/examfp/exams/src/Domain/Word.py" title="Word" tooltip="exams/src/Domain/Word.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/Domain/Word.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1049" selectionTopPixel="0"/>
+</editor>
+<editor focus="true" id="org.python.pydev.editor.PythonEditor" name="WordsRepository.py" partName="WordsRepository" path="D:/examfp/exams/src/Repository/WordsRepository.py" title="WordsRepository" tooltip="exams/src/Repository/WordsRepository.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/Repository/WordsRepository.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="857" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="SpellCheckerController.py" partName="SpellCheckerController" path="D:/examfp/exams/src/UI/SpellCheckerController.py" title="SpellCheckerController" tooltip="exams/src/UI/SpellCheckerController.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/UI/SpellCheckerController.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="754" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="SpellCheckerUI.py" partName="SpellCheckerUI" path="D:/examfp/exams/src/UI/SpellCheckerUI.py" title="SpellCheckerUI" tooltip="exams/src/UI/SpellCheckerUI.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/UI/SpellCheckerUI.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="330" selectionTopPixel="280"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="WordValidator.py" partName="WordValidator" path="D:/examfp/exams/src/Domain/WordValidator.py" title="WordValidator" tooltip="exams/src/Domain/WordValidator.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/Domain/WordValidator.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1620" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="SpellCheckerApp.py" partName="SpellCheckerApp" path="D:/examfp/exams/src/SpellCheckerApp.py" title="SpellCheckerApp" tooltip="exams/src/SpellCheckerApp.py" workbook="org.eclipse.ui.internal.EditorStack@dc174b">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/SpellCheckerApp.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="350" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="dictionary.txt" partName="dictionary.txt" path="D:/examfp/exams/src/dictionary.txt" title="dictionary.txt" tooltip="exams/src/dictionary.txt" workbook="org.eclipse.ui.internal.EditorStack@dc174b">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/dictionary.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="102" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="exists.txt" partName="exists.txt" path="D:/examfp/exams/src/exists.txt" title="exists.txt" tooltip="exams/src/exists.txt" workbook="org.eclipse.ui.internal.EditorStack@dc174b">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/exists.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="words.txt" partName="words.txt" path="D:/examfp/exams/src/words.txt" title="words.txt" tooltip="exams/src/words.txt" workbook="org.eclipse.ui.internal.EditorStack@dc174b">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exams/src/words.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="41" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
+<expanded IMemento.internal.id="D:/examfp/exams"/>
+<expanded IMemento.internal.id="D:/examfp/exams/src"/>
+<expanded IMemento.internal.id="D:/examfp/exams/src/Domain"/>
+<expanded IMemento.internal.id="D:/examfp/exams/src/Repository"/>
+<expanded IMemento.internal.id="D:/examfp/exams/src/UI"/>
+<selected IMemento.internal.id="D:/examfp/exams/src/exists.txt"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.make.ui.makeTargetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.buildConfigActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CodingActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.cdt.ui.CView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.cdt.codan.internal.ui.views.ProblemDetails"/>
+<show_view_action id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.cdt.ui.includeBrowser"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.ConvertToMakeWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewMakeFromExisting"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewCWizard1"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewCWizard2"/>
+<new_wizard_action id="org.eclipse.linuxtools.cdt.autotools.ui.wizards.conversionWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@39b27b" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.74958813" ratioLeft="455" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<show_view_action id="org.python.pydev.views.PyCodeCoverageView"/>
+<show_view_action id="org.python.pydev.navigator.view"/>
+<show_view_action id="org.python.pydev.debug.pyunit.pyUnitView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonSourceFolderWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonPackageWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonModuleWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.python.pydev.navigator.view"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@cf0384" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.python.pydev.navigator.view" appearance="2" expanded="2">
+<page content="org.python.pydev.navigator.view" label="PyDev Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.13505535" ratioLeft="183" ratioRight="1172" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.5645161" ratioLeft="350" ratioRight="270" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cf0384" ratio="0.74925375" ratioLeft="753" ratioRight="252" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/SpellCheckerApp.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/Repository/WordsRepository.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/UI/SpellCheckerController.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/UI/SpellCheckerUI.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/exams/src/exists.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/Domain/WordValidator.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/exams/src/dictionary.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/exams/src/words.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/UI/SpellCheckerController.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/Domain/WordValidator.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/SpellCheckerApp.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/Domain/Word.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/Repository/WordsRepository.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/exams/src/words.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/exams/src/exists.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/exams/src/dictionary.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/exams/src/SpellCheckerApp.py"/>
+</editors>
+<item historyLabel="SpellCheckerUI" index="3">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="SpellCheckerController" index="2">
+<position info="not_deleted" x="843" y="0"/>
+</item>
+<item historyLabel="SpellCheckerController" index="2">
+<position info="not_deleted" x="678" y="0"/>
+</item>
+<item historyLabel="SpellCheckerController" index="2">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="SpellCheckerController" index="2">
+<position info="not_deleted" x="754" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="6">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="WordValidator" index="5">
+<position info="not_deleted" x="1620" y="0"/>
+</item>
+<item historyLabel="SpellCheckerUI" index="3">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WordValidator" index="5">
+<position info="not_deleted" x="1620" y="0"/>
+</item>
+<item historyLabel="SpellCheckerUI" index="3">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="WordsRepository" index="1">
+<position info="not_deleted" x="480" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="WordsRepository" index="1">
+<position info="not_deleted" x="883" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="6">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="6">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="6">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="6">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="words.txt" index="7">
+<position info="not_deleted" x="26" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="6">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="words.txt" index="7">
+<position info="not_deleted" x="26" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="6">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="words.txt" index="7">
+<position info="not_deleted" x="26" y="0"/>
+</item>
+<item historyLabel="WordsRepository" index="1">
+<position info="not_deleted" x="883" y="0"/>
+</item>
+<item historyLabel="SpellCheckerController" index="8">
+<position info="not_deleted" x="754" y="0"/>
+</item>
+<item historyLabel="WordsRepository" index="1">
+<position info="not_deleted" x="857" y="0"/>
+</item>
+<item historyLabel="WordValidator" index="9">
+<position info="not_deleted" x="1620" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="10">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="WordValidator" index="9">
+<position info="not_deleted" x="1620" y="0"/>
+</item>
+<item historyLabel="Word" index="11">
+<position info="not_deleted" x="1049" y="0"/>
+</item>
+<item historyLabel="WordsRepository" index="12">
+<position info="not_deleted" x="857" y="0"/>
+</item>
+<item historyLabel="words.txt" index="13">
+<position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="SpellCheckerApp" index="10">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="words.txt" index="13">
+<position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="exists.txt" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="dictionary.txt" index="15">
+<position info="not_deleted" x="90" y="0"/>
+</item>
+<item active="true" historyLabel="SpellCheckerApp" index="16">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@cf0384"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="words1.txt" tooltip="exams/src/UI/words1.txt">
+<persistable path="/exams/src/UI/words1.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="exists1.txt" tooltip="exams/src/UI/exists1.txt">
+<persistable path="/exams/src/UI/exists1.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="exists.txt" tooltip="exams/src/exists.txt">
+<persistable path="/exams/src/exists.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="words.txt" tooltip="exams/src/words.txt">
+<persistable path="/exams/src/words.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="WordValidator.py" tooltip="exams/src/Domain/WordValidator.py">
+<persistable path="/exams/src/Domain/WordValidator.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="dictionary.txt" tooltip="exams/src/dictionary.txt">
+<persistable path="/exams/src/dictionary.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="SpellCheckerUI.py" tooltip="exams/src/UI/SpellCheckerUI.py">
+<persistable path="/exams/src/UI/SpellCheckerUI.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="SpellCheckerController.py" tooltip="exams/src/UI/SpellCheckerController.py">
+<persistable path="/exams/src/UI/SpellCheckerController.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="WordsRepository.py" tooltip="exams/src/Repository/WordsRepository.py">
+<persistable path="/exams/src/Repository/WordsRepository.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Word.py" tooltip="exams/src/Domain/Word.py">
+<persistable path="/exams/src/Domain/Word.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="SpellCheckerApp.py" tooltip="exams/src/SpellCheckerApp.py">
+<persistable path="/exams/src/SpellCheckerApp.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="exams/src/UI/__init__.py">
+<persistable path="/exams/src/UI/__init__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="exams/src/Repository/__init__.py">
+<persistable path="/exams/src/Repository/__init__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="exams/src/Domain/__init__.py">
+<persistable path="/exams/src/Domain/__init__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="print.py" tooltip="exams/src/print.py">
+<persistable path="/exams/src/print.py"/>
+</file>
+</mruList>
+</workbench>

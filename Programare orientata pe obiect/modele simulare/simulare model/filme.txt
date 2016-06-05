@@ -1,0 +1,12 @@
+47,De la specii,15.0,68
+49,harry potter,15.0,50
+47,De la specii,15.0,68
+49,De la speci,85.0,85
+47,De la specii,15.0,68
+49,De la speci,85.0,85
+47,De la specii,15.0,68
+49,De la speci,85.0,85
+47,De la specii,15.0,68
+49,De la speci,85.0,85
+47,De la specii,15.0,68
+49,De la speci,85.0,85

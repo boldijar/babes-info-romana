@@ -1,0 +1,53 @@
+from Domain.Contact import *
+from Domain.Validator import *
+
+class ContactRepository:
+    def __init__(self):
+        self.__List=[]
+    def find(self,name):
+        """
+            Find a contact by name
+        """
+        for i in self.__List:
+            if i.getName()==name:
+                return i
+        return False
+    def add(self,contact):
+        """
+            Add a new contact to the database
+        """
+        v=Validator()
+        if v.validate(contact)==False or self.find(contact.getName())==None:
+            raise ValueError('invalid contact')
+        else:
+            self.__List.append(contact)
+
+def testContactRepository():
+    """
+        Test function for the ContactRepository
+    """
+    cr=ContactRepository()
+    cr.add(Contact(1,'Name','0987','Family'))
+    assert cr.find('Name')<>None
+    try:
+        cr.add(Contact(1,'Name1','0987654321','Family'))
+    except ValueError:
+        assert True
+    try:
+        cr.add(Contact(1,'Name2','','Family'))
+    except ValueError:
+        assert True
+    try:
+        cr.add(Contact(1,'Name3','0987654321','vvvfd'))
+    except ValueError:
+        assert True
+    try:
+        cr.add(Contact(1,'Name4','abc','Family'))
+    except ValueError:
+        assert True
+    try:
+        cr.add(Contact(2,'Name','098897','Family'))
+    except ValueError:
+        assert True
+
+testContactRepository()

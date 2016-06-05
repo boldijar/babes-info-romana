@@ -1,0 +1,46 @@
+assume CS:code, DS:data
+data segment
+a DB 5
+b DB 2
+c DB 4
+intermb DW ?
+intermc DW ?
+interma DW ?
+rez DW ?
+a1 DW ?
+b1 DW ?
+c1 DW ?
+op1 DW ?
+
+z DW ?
+data ends
+code segment
+start:
+mov ax,data
+mov ds,ax
+mov al,c ; al:=c
+imul c ; in ax avem c*c
+mov intermc,ax ; intermc:=ax=c*c
+mov al,b ; al:=b
+imul b ; in ax avem b*b
+mov intermb,ax ; intermb:=ax=b*b
+mov ax,6 ; ax:=6
+sub ax, intermb ; ax:=ax-intermb=6-b*b
+mov b1,ax ; b1:=ax
+mov ax,3 ; ax:=3
+add ax,intermc ; ax:=ax+intermc=3+c*c
+cwd
+idiv b1 ; ax:=ax/b1
+mov op1,ax ; op1:=ax
+mov ax,a ; a:=ax
+imul a ; ax:=a*a
+add intermc,ax; intermc:=intermc+ax
+sub intermb ; ax=ax-intermb
+cwd
+idiv intermc ; ax=ax/intermc
+add op1
+mov rez,ax ; mutam rezultatul in ax
+mov ax, 4C00h
+int 21h
+code ends
+end start

@@ -1,0 +1,5 @@
+Biletul 11
+1)Sistemul axiomatic al logicii propozitiilor. Trebuia sa mai demonstrezi ca p->q, (mai erau cateva)I-r.
+2)Sa se demonstreze folosind o metoda sintactica, distributivitatea cuantificatorului existential fata de implicatie. Sa se scrie TCC a metodei folosite
+3)Trebuia sa simplici o functie folosind Quine si sa desenezi circuitul logic al formulelor simplificate ale functiei.
+Ceva de genu era subiectul..

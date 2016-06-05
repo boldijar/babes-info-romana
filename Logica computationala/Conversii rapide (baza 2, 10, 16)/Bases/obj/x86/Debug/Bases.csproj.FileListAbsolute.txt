@@ -1,0 +1,36 @@
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\obj\x86\Debug\Bases.Form1.resources
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\obj\x86\Debug\Bases.Properties.Resources.resources
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\bin\Debug\Bases.exe
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\bin\Debug\Bases.pdb
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\obj\x86\Debug\Bases.exe
+C:\Users\Tudor\AppData\Local\Temporary Projects\Bases\obj\x86\Debug\Bases.pdb
+C:\Users\Tudor\Desktop\Bases\Bases\obj\x86\Debug\Bases.exe
+C:\Users\Tudor\Desktop\Bases\Bases\obj\x86\Debug\Bases.pdb
+C:\Users\Tudor\Desktop\Bases\Bases\bin\Debug\Bases.exe
+C:\Users\Tudor\Desktop\Bases\Bases\bin\Debug\Bases.pdb
+C:\Users\Tudor\Desktop\Bases\Bases\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tudor\Desktop\Bases\Bases\obj\x86\Debug\Bases.Form1.resources
+C:\Users\Tudor\Desktop\Bases\Bases\obj\x86\Debug\Bases.Properties.Resources.resources
+C:\Users\Tudor\Desktop\Bases\Bases\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Tudor\Desktop\Bases\Bases\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Bases\Bases\obj\x86\Debug\Bases.exe
+G:\Bases\Bases\obj\x86\Debug\Bases.pdb
+G:\Bases\Bases\bin\Debug\Bases.exe
+G:\Bases\Bases\bin\Debug\Bases.pdb
+G:\Bases\Bases\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Bases\Bases\obj\x86\Debug\Bases.Form1.resources
+G:\Bases\Bases\obj\x86\Debug\Bases.Properties.Resources.resources
+G:\Bases\Bases\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Bases\Bases\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Bases\Bases\obj\x86\Debug\Bases.exe
+F:\Bases\Bases\obj\x86\Debug\Bases.pdb
+F:\Bases\Bases\bin\Debug\Bases.exe
+F:\Bases\Bases\bin\Debug\Bases.pdb
+F:\Bases\Bases\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Bases\Bases\obj\x86\Debug\Bases.Form1.resources
+F:\Bases\Bases\obj\x86\Debug\Bases.Properties.Resources.resources
+F:\Bases\Bases\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Bases\Bases\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,47 @@
+1.
+''' nu mai stiu exact cum era, dar ceva foarte apropiat de asta '''
+Ce se afiseaza? Daca e eroare, precizati unde.
+
+x = [1, 2, 3]
+x1 = [1] + x[1:]
+x2 = x[:2] + [x[-1]]
+print (x1, id(x1) == id(x))
+print (x2, id(x2) == id(x))
+print ( id(x1) == id(x2) )
+
+
+2.
+Specificati si testati (white box testing) functia:
+''' era fix asa pe foaie, dar in Python 2.7 da eroare "index out of range" '''
+def f(n):
+	if n < 0:
+		raise ValueError()
+	x = [0]*(n+1)
+	x[0] = 0
+	x[1] = 1
+	for i in range(2, n + 1)
+		x[i] = x[i-1] + x[i-2]
+	return x[n]
+
+
+3.
+Complexitate de timp si spatiu pentru un algoritm (era un algoritm simplu, cu o singura structura repetitiva, complexitate n)
+
+
+4.
+Avem o lista.
+Folosind divide et impera, calculati produsul numerelor de pe pozitiile pare. Specificati si testati.
+
+
+5.
+Alege o metoda de programare pentru urmatoarea problema (greedy, backtracking, dinamica etc.)
+Motiveaza de ce e cea mai buna metoda de rezolvare si descrie cum se rezolva.
+Problema nu trebuie rezolvata, doar descris modul de rezolvare!
+problema: Afiseaza toate permutarile dintr-o lista cu proprietatea ca numerele
+din stanga elementului maxim sunt in ordine descrescatoare, iar cele din dreapta in ordine crescatoare
+ex: pt lista [1,2,5,3,7,6] o permutare valida este [2,1,7,3,5,6]
+
+
+
+
+  

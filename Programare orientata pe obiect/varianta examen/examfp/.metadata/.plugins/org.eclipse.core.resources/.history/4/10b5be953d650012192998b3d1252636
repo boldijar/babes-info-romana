@@ -1,0 +1,10 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+class Word:
+    def __init__(self,id,lang,word):
+        self.__id=id
+        self.__lang=lang
+        self.__word=word

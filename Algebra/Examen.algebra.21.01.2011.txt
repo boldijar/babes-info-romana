@@ -1,0 +1,20 @@
+SB 1. se da functia f:R^4->R^3, f(x,y,z,t)=(-x+y+z-t,-x+2y-t,-t+2z)
+	a) sa se arata ca f este liniara
+	b) sa se determine Kerf si Imf si cate o baza pentru Kerf si Imf
+	c) se dau b=[b1,b2,b3,b4] si e=[e1,e2,e3]
+    		se dadeau si b1,b2,b3 si b4 concret ca si vectori de 4 componente da imi mai aduc aminte exact
+		sa se arate ca b este o baza si sa se determine [f] in baza e
+SB 2. sa se calculeze vectorii si valorile proprii ale matricii
+
+		3  0  0
+		1  2  0
+		2  0  1 
+
+SB 3. 	a) sa se defineasca notiunile si sa se dea cate un exemplu pentru fiecare: independenta liniara,
+	   dimensiunea unui spatiu, matricea atasata unei aplicatii liniare
+	b) sa se demonstreze ca sistemul de vectori v1,v2,...,vn este o baza pentru x daca exista unici alfa1,alfa2,...,alfan
+	   a.i.       x=alfa1*v1+...+alfan*vn
+	c) sa se enunte teorema care exprima relatia dintre o partitie si o relatie de echivalenta
+
+* nu imi asum raspunderea pentru cei care se vor baza pe datele date de mine mai sus; am incercat sa redau continutul subiectelor
+deci cei care se vor baza pe datele scrise aici in vederea examenului o fac pe raspundere proprie

@@ -1,0 +1,13 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+from
+
+class SpellCheckerController:
+    def __init__(self,wlist):
+        self.__wlist=wlist
+        
+    def addWord(self,id,lang,word):
+        

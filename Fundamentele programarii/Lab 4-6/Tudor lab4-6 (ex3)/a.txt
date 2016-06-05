@@ -1,0 +1,9 @@
+1 50 house
+1 22 film
+1 100 house
+2 20 books
+2 500 sport
+2 100 sport
+2 20 film
+5 112 film
+6 100 food

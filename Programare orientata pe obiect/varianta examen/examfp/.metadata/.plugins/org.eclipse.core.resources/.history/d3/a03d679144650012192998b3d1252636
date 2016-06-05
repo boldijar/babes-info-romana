@@ -1,0 +1,18 @@
+'''
+Created on Jan 23, 2013
+
+@author: Maria
+'''
+from Domain.Word import Word
+from Repository.WordsRepository import WordsRepository
+
+class SpellCheckerController:
+    def __init__(self,wlist):
+        self.__wlist=wlist
+        
+    def addWord(self,id,lang,word):
+        newWord=Word(id,lang,word)
+        self.__wlist.add(newWord)
+        
+    def getList(self):
+        return self.__wlist.getAll()
