@@ -1,0 +1,10 @@
+Randul 10 suna in felul urmator:
+ 1. se da o secventa random de nr (x1,x2,..xn) . se cere sa se scrie un subalgoritm de complexitate minima pt a determina daca exista cel putin 2 valori consecutive in secventa .De ex : 2,7,10,3,23,5 apar 2 si 3 ca valori consecutive.
+2.1 se dadea o secventa si trebuia sa o adaug intr'o tabela de dispersie cu adresare deschisa folosind dispersia dubla . stiind ca d1(c)=c mod m, d2(c)=1+(c mod (m-1))
+2.2 aratati ca inaltimea unui heap e log2(n)
+2.3 se dadea un arbore binar la care trebuia sa scrisa postordinea , inordinea , preordinea , si latime pe ex dat +justificare
+
+La 3 au fost 6 grile legate de arbori , stiva si coada . Tin minte doar ca la una se cerea sa se calculeze factorul de incarcare al unei TD daca se stiu capacitatea maxima 811 si nr de elemente: 81.
+
+4. Dictionar ordonat. Se cerea sa se gaseasca o reprezentare a acestuia pt care operatia de stergere se face cu complexitate minima . De specificat si proiectat in pseudocod operatia + complexitate.
+5. Stiind preordinea si inordinea unui arbore se cere sa se descrie un subalgoritm de constructie al arborelui. + complexitate. 

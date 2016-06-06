@@ -1,0 +1,9 @@
+1. Ti se da o functie si un alg care o apeleaza, trebuie sa faci deductia completa a timpului de executie pt algoritm. (1.5 pct)
+ 
+2. Erau mai multe subpuncte: sa explici operatia de adaugare intr-un heap, pe un exemplu; sa „creezi” o tabela de dispersie cu rezolvarea coliziunilor prin arbori AVL, si sa arati cum se adauga sirul de chei din enunt; inaltimea maxima a unui heap cu 18 noduri; si inca 1 sau 2 subpct. (1.5 pct)
+ 
+3.Multe intrebari grila: complexitatea minima a unei operatii de adaugare intr-un vector sortat; nr maxim de elem. din stiva,atunci cand transformi o expresie din forma infixata in postfixata; o intr referitoare la asemanarile dintre un AVL si-un heap; adancimea unui nod dintr-un arbore (aveai arborele si nodul indicat); ce trebuie initializat la crearea unei TD cu adresare deschisa; si inca un subpunct pe care l-am uitat :). Trebuia justificata fiecare alegere, altfel nu era luata in considerare.(2 pct)
+ 
+4.Alegeti cea mai potrivita SD pt un dictionar, astfel incat operatia de cautare sa aiba complexitate minima. Reprezentare, specificare, pseudocod, complexitate(fara deductie completa) doar pt operatia de cautare. (1.5 pct)
+ 
+5.Operatia de adaugare, nerecursiv, intr-un ABC. Specificare, reprezentare, pseudocod, complexitate (fara deductie completa). (2.5 pct)
