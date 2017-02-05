@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="FamilyDoctorServer/FamilyDoctorServer.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FamilyDoctorClient/UI/GTK/MainWindow.cs">
+    <Files>
+      <File FileName="FamilyDoctorServer/Service/HelloServiceImplementation.cs" Line="13" Column="43" />
+      <File FileName="FamilyDoctorClient/UI/GTK/MainWindow.cs" Line="28" Column="10" />
+      <File FileName="FamilyDoctorClient/Program.cs" Line="24" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

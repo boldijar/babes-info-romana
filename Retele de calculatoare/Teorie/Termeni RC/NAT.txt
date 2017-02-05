@@ -1,0 +1,18 @@
+In computer networking, network address translation (NAT, also known as network masquerading, native address translation or IP masquerading) is a technique of transceiving network traffic through a router that involves re-writing the source and/or destination IP addresses and usually also the TCP/UDP port numbers of IP packets as they pass through. Checksums (both IP and TCP/UDP) must also be rewritten to take account of the changes. Most systems using NAT do so in order to enable multiple hosts on a private network to access the Internet using a single public IP address
+
+
+* Motivation: local network uses just one IP address as far as outside word is concerned:
+* no need to be allocated range of addresses from ISP: - just one IP address is used for all devices
+* can change addresses of devices in local network without notifying outside world
+* can change ISP without changing addresses of devices in local network
+* devices inside local net not explicitly addressable, visible by outside world (a security plus).
+
+* 16-bit port-number field: 
+* 60,000 simultaneous connections with a single LAN-side address!
+* NAT is controversial:
+* routers should only process up to layer 3
+* violates end-to-end argument
+* NAT possibility must be taken into account by app designers, e.g., P2P applications
+* address shortage should instead be solved by IPv6
+
+

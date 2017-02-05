@@ -1,0 +1,180 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 258 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+259 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "Courier" 
+0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "Courier" 0 1 
+255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 1 24 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 
+-1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" 
+-1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 
+1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 
+2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 268 55 "Numere exacte (rationale
+) si numere in virgula flotanta" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 30 "1. Numere int
+regi si rationale" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 41 "Maple poate l
+ucra cu intregi foarte mari:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "n1 := (3^4)^5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n1G\"+,Wy'[
+$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 52 "Sa observam ca plasarea para
+ntezelor este importanta" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 
+"n2 := 3^(4^5);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#n2G\"dil\"[c.rLB
+qg5\"oF'>u#\\()pF&)>(HClD**Q,2p+()G(*>QEEpTw%>`[&)R1PdPiGV&=H(=v-BYu?>
+9_LT$z<GX^iv))*eq_W@eIFW2yawB?Of]SNzaYG)e!feg*[$f7Ni/BnQ_\">;tulR)H<1M
+7!ow^DHS(z)G\"oY5/==d&G/k&>&*>q!)Q4eiUf[<>9t=4G)pL^8ee3;#faqs3\"e^ZJa1
+l(o/AxR!)Q*)o$**H7DlshS!z?sJpj]x+MPyw(4aA)em[=a(fH`V+-T([=Rt$" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Cel mai mare intreg in Maple V ave
+a " }{XPPEDIT 18 0 "2^19-9;" "6#,&*$\"\"#\"#>\"\"\"\"\"*!\"\"" }{TEXT 
+-1 59 " cifre. Incepand cu Maple 7, aceasta limita a fost ridicata" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "md := kernelopts(maxdigits)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#mdG\"*[aVo#" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 14 "huge := 10^md:" }}{PARA 8 "" 1 "" {TEXT 
+-1 66 "Error, Cannot reallocate memory (old_size=228 new_size=11324622
+0)\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "?maxdigits;" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 147 "Pentru numere foarte mari, Maple \+
+utilizeaza biblioteca cu precizie multipla GNU.  Desigur, consumul de \+
+memorie este una din problemele mari ale CA." }}{PARA 0 "" 0 "" {TEXT 
+-1 308 "Numerele mari sunt foarte utile in multe domenii. In teoria co
+mputationala a numerelor, cu aplicatii in teoria codurilor si criptogr
+afie, numerele prime joaca un rol important. De exemplu, sistemul crip
+tografic cu chei publice RSA se bazeaza pe dificultatea de a factoriza
+ in factori primi numerele intregi. " }}{PARA 0 "" 0 "" {TEXT -1 105 "
+Numerele prime sunt importante. Maple are algoritmi rapizi pentru a te
+sta daca un numar este prim sau nu." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "n := 2^301-1;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"
+nG\"fp^ZzmBTtm_*fi(3()*3Gs7]s=L(yOH5Ajv=oP\"*o`s@(*oE&>2uS" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "isprime(n);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "
+n1 := nextprime(n);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#n1G\"fpzZzmB
+Ttm_*fi(3()*3Gs7]s=L(yOH5Ajv=oP\"*o`s@(*oE&>2uS" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 12 "isprime(n1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%%trueG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 118 "Factorizarea unui n
+umar in produs de factori primi este foarte dificila. Dar  detectarea \+
+primalitatii este mai usoara." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 20 "n2 := nextprime(n1);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%#n2G\"fp<\\zmBTtm_*fi(3()*3Gs7]s=L(yOH5Ajv=oP\"*o`s@(
+*oE&>2uS" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "a := n1*n2;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"aG\"avV$Q$>D@,\\LOQmIoS)Q9Oun5&*o-
+^l![WzIf]Z$GNn[af*3I-,y*G))f&eK;lX7hi(=$HE)**fZ(p*G\\y\\SgWYwa9j\\S$=(
+R_vA1)f;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "ifactor(a);" }}
+{PARA 7 "" 1 "" {TEXT -1 33 "Warning, computation interrupted\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "isprime(a);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 264 "
+In timp ce algoritmii probabilisti pot decide foarte repede daca un nu
+mar este prim sau nu, la factorizarea unui numar trebuie incercat cu u
+n numar de factori primi egali cu radacina patrata a numarului. In ace
+st caz numarul de pasi pentru aceasta factorizare este" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "isqrt(n1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"OW@DRNP&)f2kEw#e*)fZ!*Q/L%=?" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 45 "De notat litera 'i' la inceputul  comenzilor " }{TEXT 
+264 7 "ifactor" }{TEXT -1 4 " si " }{TEXT 265 5 "isqrt" }{TEXT -1 124 
+" pentru a indica faptul ca ele opereaza asupra intregilor. O alta ope
+ratie importanta este c.m.m.d.c a doua numere intregi, " }{TEXT 257 4 
+"igcd" }{TEXT -1 33 ". O alta functie importanta este " }{TEXT 256 6 "
+igcdex" }{TEXT -1 2 ". " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "Maple \+
+simplifica automat numerele rationale:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "b := 1234/2480;  # 2 este divizor" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG#\"$<'\"%S7" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 23 "gcd(numer(b),denom(b));" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 76 "Simpl
+ificarea se realizeaza impartind numaratorul si numitorul cu c.m.m.d.c
+." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 43 "2. Nume
+re irationale si in virgula flotanta" }}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 39 "Maple este case sensitive, deci scriem " }{TEXT 258 2 "Pi" }
+{TEXT -1 7 " si nu " }{TEXT 259 2 "pi" }{TEXT -1 1 ":" }{MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(Pi);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#$\"+aEfTJ!\"*" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 58 "Implicit Maple afiseaza zece cifre zecimale semnificative
+:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "eva
+lf(Pi/10^80); # scientific notation" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#$\"+aEfTJ!#*)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "evalf(Pi/
+1000);  # writes the leading zeros" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$\"+aEfTJ!#7" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "Zerourile din fat
+a nu se considera ca cifre semnificative." }}{PARA 0 "" 0 "" {TEXT -1 
+90 "Radicalii sunt o alta aplicatie la care se utilizeaza aritmetica a
+proximativa si flotanta:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 13 "r := 5^(1/3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%\"rG*$)\"\"&#\"\"\"\"\"$F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "approximate_r := evalf(r);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.a
+pproximate_rG$\"+Zf(*4<!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "approximate_r^3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+.+++]!\"*
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 107 "Eroarea de aproximare este d
+e acelasi ordin de marime ca si precizia de lucru (implicit 10 cifre z
+ecimale)." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "U
+n prim mod de a o extinde este prin " }{TEXT 260 5 "evalf" }{TEXT -1 
+1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "
+r30 := evalf(r,30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$r30G$\"?as)3
+JN*)ppwm%f(*4<!#H" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 42 "Precizia est
+e valabila in comanda curenta:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 6 "r30^3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"
++.+++]!\"*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "Pentru a face ridic
+area la putere mai precisa avem nevoie de " }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "evalf[30](r30^3); # alt mod \+
+de a indica 30 de cifre zecimale" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"?(***************************\\!#H" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "evalf(5-%,40);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"
+\"$!#H" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 76 "Aceasta se poate face g
+lobal in foaia de lucru modificand variabila globala " }{TEXT 261 6 "D
+igits" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "Digits := 20; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'
+DigitsG\"#?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf(r30^3)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"5/++++++++]!#>" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "%-5;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"\"%!#>" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Al treilea mod
+ este de a utiliza " }{TEXT 262 16 "File/Preferences" }{TEXT -1 1 "." 
+}{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 263 5 "evalf" }
+{TEXT -1 96 "  este realizata prin software si este cu un ordin de mar
+ime mai lenta decat aritmetica masinii." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Digits := 10;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%'DigitsG\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 48 "evalhf(r30); # evaluare utilizand flotante lungi" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#$\"31(pwm%f(*4<!#<" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "evalhf(Digits);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"#9\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "?UseHardwareFl
+oats;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "UseHardwareFloats \+
+:= true; # cere flotante hardware" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%2UseHardwareFloatsG%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+39 "evalf(r); # afiseaza 10 cifre zecimale " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+Zf(*4<!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 51 "evalf(r30^3); # calculeaza cu 10 cifre zecimale ..." }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#$\"+.+++]!\"*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 184 "Experimentul urmator ilustreaza relevanta flotantelor hardware
+. Fragmentul de cod de mai jos ar putea fi o parte din esantionarea fu
+nctiei exponentiale in scopul reprezentarii grafice." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "N:=10000:  #nr. de valori
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "p:=20:     #precizia" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "Depinzand de viteza masinii, vom
+ mari valoarea lui " }{TEXT 266 1 "N" }{TEXT -1 4 " si " }{TEXT 267 1 
+"p" }{TEXT -1 70 " pentru a experimenta diferenta intre flotantele har
+dware si software." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 19 "start_time:=time():" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 50 "for i from 1 to N do\n  a:=evalf(exp(i),p):\nend do:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "elapsed:=time()-start_t
+ime;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(elapsedG$\"$F)!\"$" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Acum refacem executia cu flotantel
+e hardware." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "start_time:=
+time():" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "for i from 1 to N do\n  \+
+a:=evalhf(exp(i)):\nend do:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+27 "elapsed:=time()-start_time;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(
+elapsedG$\"\"!F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 66 "Observati diferenta de timp intre flotant
+ele software si hardware." }}}}{MARK "4" 0 }{VIEWOPTS 1 1 0 3 2 1804 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

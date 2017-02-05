@@ -1,0 +1,89 @@
+1. A layer should be created where a different abstraction is needed.
+2. Each layer should perform a well-defined function.
+3. The function of each layer should be chosen with an eye toward defining internationally standardized protocols.
+4. The layer boundaries should be chosen to minimize the information flow across the interfaces.
+5. The number of layers should be large enough that distinct functions need not be thrown together in the same layer out of necessity and small enough that the architecture does not become unwieldy.
+
+The Physical Layer
+* Raw bits over a communication channel
+* Data representation
+* 1–how many volts ?; 0 – how many volts ?
+* 1 bit – How many nanoseconds ?
+* Bidirectional simultaneous transmission?
+* Electrical, mechanical, timing interfaces
+
+Data Link layer
+* Turn the raw transmission into an error free communication line
+* Sets data in frames=thousands of bytes
+* Traffic regulation (flow control)
+* Access to the medium in broadcast shared communication lines
+
+The data link layer is layer two of the seven-layer OSI model as well as of the five-layer TCP/IP reference model. It responds to service requests from the network layer and issues service requests to the physical layer.
+This is the layer which transfers data between adjacent network nodes in a wide area network or between nodes on the same local area network segment. The data link layer provides the functional and procedural means to transfer data between network entities and might provide the means to detect and possibly correct errors that may occur in the Physical layer. 
+Data Link Layer Services
+* Framing and link access
+* Reliable delivery
+* Flow Control
+* Error Detection
+* Error Correction
+* Half-Duplex, Full-Duplex
+Framing
+* Character Count
+* Flag byte with stuffing
+* Starting and ending flags with bit stuffing;
+* Physical Layer coding violations
+
+
+Flow Control
+
+* Feedback based
+* Receiver sends information back to the sender allowing it to send more data
+* Rate-based
+* No feedback 
+Data Link Protocols
+* HDLC- High Level Data Link Protocol
+* PPP – Point to Point Protocol
+
+* All are bit oriented protocols
+* All differ only on minor yet irritating aspects
+
+
+The Network Layer
+* Controls the operation of a subnet
+* How packets are routed from source to destination
+* Quality of service – congestion control
+* Fragmentation and inter-network problems
+
+The Transport Layer
+* Accept data from upper layers and splits it into packets (small units)
+* Ensure that packets arrive correctly to the other end
+* Type of service: error free PtoP, preserve order or not, guarantees delivery or not, broadcast
+* True end-to-end layer
+
+The Session Layer
+* Allows for establishing sessions
+* Session
+* Dialog control
+* Token management
+* Synchronization
+
+The Presentation Layer
+* Syntax and semantics of data
+* Abstract data definitions/ encoding for information exchange between heterogeneous systems
+* Standard encoding “on the wire”
+* Exchange unit – record type 
+
+The Application Layer
+* Protocols needed by users: 
+* HTTP - www 
+* FTP – file exchange
+* TELNET – remote command
+* SSH – remote command
+* SMTP – mail exchange
+* Defines :
+* the types of messages exchanged, e.g., request messages and response messages
+* the syntax of the various message types, i.e., the fields in the message and how the fields are delineated
+* the semantics of the fields, i.e., the meaning of the information in the fields
+* rules for determining when and how a process sends messages and responds to messages
+
+

@@ -1,0 +1,7 @@
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Release/FamilyDoctorServer.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Release/FamilyDoctorServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Release/FamilyDoctorServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Release/FamilyDoctorServer.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Release/FamilyDoctorCommon.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Release/FamilyDoctorCommon.dll.mdb

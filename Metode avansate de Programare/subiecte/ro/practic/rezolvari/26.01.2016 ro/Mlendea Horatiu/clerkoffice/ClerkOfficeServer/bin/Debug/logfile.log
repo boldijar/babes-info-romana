@@ -1,0 +1,13 @@
+<17:05:31> Server is listening...
+<17:05:39> Received command: ticket
+<17:05:39> Added a Ticket: 2(ReleaseDate: 1/26/2016 5:05:39 PM; Expired: True)
+<17:05:44> Received command: ticket
+<17:05:44> Added a Ticket: 3(ReleaseDate: 1/26/2016 5:05:44 PM; Expired: True)
+<17:05:55> Received command: login csorescu parola123
+<17:05:59> Received command: next 3
+<17:06:09> Received command: deactivateticket 0
+<17:06:13> Received command: next 3
+<17:06:16> Received command: arrived 3
+<17:06:22> Received command: arrived 3
+<17:06:22> WARNING: Exception: Sequence contains no elements!
+<17:06:23> Received command: deactivateticket 0

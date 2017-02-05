@@ -1,0 +1,58 @@
+File Transfer Protocol (FTP) is a network protocol used to transfer data from one computer to another through a network, such as the Internet.
+
+FTP is a file transfer protocol for exchanging and manipulating files over any TCP-based computer network. A FTP client may connect to a FTP server to manipulate files on that server. As there are many FTP client and server programs available for different operating systems, FTP is a popular choice for exchanging files independent of the operating systems involved.
+
+FTP runs exclusively over TCP. FTP servers by default listen on port 21 for incoming connections from FTP clients. A connection to this port from the FTP Client forms the control stream on which commands are passed to the FTP server from the FTP client and on occasion from the FTP server to the FTP client. FTP uses out-of-band control, which means it uses a separate connection for control and data. Thus, for the actual file transfer to take place, a different connection is required which is called the data stream. Depending on the transfer mode, the process of setting up the data stream is different.
+
+
+In active mode, the FTP client opens a dynamic port (49152–65535), sends the FTP server the dynamic port number on which it is listening over the control stream and waits for a connection from the FTP server. When the FTP server initiates the data connection to the FTP client it binds the source port to port 20 on the FTP server.
+In order to use active mode, the client sends a PORT command, with the IP and port as argument. 
+
+
+In passive mode, the FTP server opens a dynamic port (49152–65535), sends the FTP client the server's IP address to connect to and the port on which it is listening (a 16 bit value broken into a high and low byte, like explained before) over the control stream and waits for a connection from the FTP client. In this case the FTP client binds the source port of the connection to a dynamic port between 49152 and 65535.
+To use passive mode, the client sends the PASV command to which the server would reply with something similar to "227 Entering Passive Mode (127,0,0,1,192,52)". 
+
+Commands:
+type
+
+         The data representation type used for data transfer and
+         storage.
+
+PASSWORD (PASS)
+
+            The argument field is a Telnet string specifying the user's
+            password.
+LOGOUT (QUIT)
+
+            This command terminates a USER and if file transfer is not
+            in progress, the server closes the control connection.  If
+            file transfer is in progress, the connection will remain
+            open for result response and the server will then close it.
+DATA PORT (PORT)- active mode
+PASSIVE (PASV)
+
+            This command requests the server-DTP to "listen" on a data
+            port (which is not its default data port) and to wait for a
+            connection rather than initiate one upon receipt of a
+            transfer command.  The response to this command includes the
+            host and port address this server is listening on.
+
+RETRIEVE (RETR)
+
+            This command causes the server-DTP to transfer a copy of the
+            file, specified in the pathname, to the server- or user-DTP
+            at the other end of the data connection.
+DELETE (DELE)
+
+            This command causes the file specified in the pathname to be
+            deleted at the server site.
+LIST (LIST)
+
+            This command causes a list to be sent from the server to the
+            passive DTP.
+USER NAME (USER)
+
+            The argument field is a Telnet string identifying the user.
+            The user identification is that which is required by the
+            server for access to its file system.
+

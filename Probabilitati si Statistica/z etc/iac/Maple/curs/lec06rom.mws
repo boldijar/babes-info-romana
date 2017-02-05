@@ -1,0 +1,180 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 2 
+1 2 0 0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "2D Output" -1 20 "Times" 0 1 0 0 255 1 0 0 2 2 2 2 
+0 0 0 1 }{CSTYLE "_cstyle1" -1 204 "Times" 0 1 0 0 0 0 0 0 0 2 2 2 0 
+0 0 1 }{CSTYLE "_cstyle2" -1 205 "Courier" 0 1 255 0 0 1 0 1 0 2 1 2 
+0 0 0 1 }{CSTYLE "_cstyle3" -1 206 "Times" 1 18 0 0 0 0 0 1 0 2 2 2 0 
+0 0 1 }{CSTYLE "_cstyle4" -1 207 "Times" 1 14 0 0 0 0 0 1 0 2 2 2 0 0 
+0 1 }{CSTYLE "" 204 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 265 "Courier" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 270 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 272 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 273 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 274 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 275 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 276 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 277 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 278 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 279 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 280 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 281 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 282 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" -1 8 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "_pstyle1" -1 200 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle2
+" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }
+1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle3" -1 202 1 {CSTYLE "" 
+-1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 
+2 0 1 }{PSTYLE "_pstyle4" -1 203 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle
+1" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 
+}3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 200 "" 0 "" {TEXT 204 96 "Vom explica evaluarea v
+ariabilelor si vom ilustra aplicatii ale apostrofurilor stangi si drep
+te." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 8 "restart;" }}}
+{SECT 0 {PARA 201 "" 0 "" {TEXT 206 12 "1. Evaluarea" }}{EXCHG {PARA 
+200 "" 0 "" {TEXT 204 51 "Am vazut cum se stabilesc legaturi intre var
+iabile." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 23 "a := b; b :=
+ c; c := 3;" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG%
+\"bG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG%\"cG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"cG\"\"$" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 
+1 205 6 "a;b;c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" 
+}}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 42 "Toate aceste trei variabile \+
+au valoarea 3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 7 "c := 4;" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"cG\"\"%" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 6 "a;b
+;c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}
+{EXCHG {PARA 200 "" 0 "" {TEXT -1 3 "In " }{URLLINK 17 "figura 1" 4 "f
+ile:///E:/Radu/maple/cursuri/cursurirom/fig6_1.jpg" "" }{TEXT -1 62 " \+
+se arata reprezentarea interna dupa prima linie de atribuiri." }}
+{PARA 200 "" 0 "" {TEXT 204 34 "Putem urmari legaturile cu comada " }
+{TEXT 256 4 "eval" }{TEXT 204 1 ":" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 10 "eval(a,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"bG
+" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 10 "eval(a,2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"cG" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 10 "eval(a,3);" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 17 "Legatu
+rile intre " }{TEXT 257 1 "a" }{TEXT 204 4 " si " }{TEXT 258 1 "b" }
+{TEXT 204 8 ", intre " }{TEXT 259 1 "b" }{TEXT 204 4 " si " }{TEXT 
+260 1 "c" }{TEXT 204 41 " s-au stabilit datorita atribuirii, cand " }
+{TEXT 261 1 "c" }{TEXT 204 68 " nu avea inca o valoare.  Presupunem ca
+ atribuim unei noi variabile " }{TEXT 262 1 "d" }{TEXT 204 11 " variab
+ila " }{TEXT 263 1 "a" }{TEXT 204 1 ":" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 7 "d := a;" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"dG\"\"%" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 10 "ev
+al(d,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 
+200 "" 0 "" {TEXT 204 72 "In membrul drept al unei atribuiri, Maple ev
+alueaza complet variabilele." }}{PARA 200 "" 0 "" {TEXT 204 129 "Pentr
+u a crea o legatura catre o variabila care are deja o valoare, si astf
+el sa evitam evaluarea vom utiliza apostrofuri drepte:" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 205 9 "d := 'a';" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"dG%\"aG" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 
+205 10 "eval(d,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"aG" }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 10 "eval(d,2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%\"bG" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 
+205 24 "d; # complete evaluation" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"%" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 8 "eval(d);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{SECT 0 {PARA 202 "" 0 "" 
+{TEXT 207 40 "O alta utilizare a apostrofurilor drepte" }}{EXCHG 
+{PARA 200 "" 0 "" {TEXT 204 201 "Pentru a atribui unei variabile rezul
+tatul unei proceduri, trebuie sa utilizam apostrofuri drepte, similar \+
+cu transmiterea unei adrese catre o functie C.  In C avem apel prin va
+loare si apel prin nume." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 
+205 29 "p := x^2 - x + 3; q := x - 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%\"pG,(*$)%\"xG\"\"#\"\"\"F*F(!\"\"\"\"$F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"qG,&%\"xG\"\"\"F'!\"\"" }}}{EXCHG {PARA 200 "" 0 "
+" {TEXT 204 54 "Presupunem ca dorim sa calculam restul impartirii lui \+
+" }{TEXT 264 1 "p" }{TEXT 204 4 " la " }{TEXT 265 1 "q" }{TEXT 204 1 "
+:" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 56 "quotient := 0;  # \+
+presupunem ca quotient este deja in uz" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%)quotientG\"\"!" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 41 "Vre
+m sa atribuim rezultatul (restul) lui " }{TEXT 266 4 "rest" }{TEXT 
+204 14 " si catul lui " }{TEXT 267 8 "quotient" }{TEXT 204 1 "." }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 28 "rest := rem(p,q,x,quotie
+nt);" }}{PARA 8 "" 1 "" {TEXT -1 50 "Error, (in rem) illegal use of a \+
+formal parameter\n" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 9 "qu
+otient;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 200 
+"> " 0 "" {MPLTEXT 1 205 30 "rest := rem(p,q,x,'quotient');" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%%restG\"\"$" }}}{EXCHG {PARA 200 "> " 0 "
+" {MPLTEXT 1 205 9 "quotient;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"xG
+" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 28 "Prima utilizarea a comenzi
+i " }{TEXT 269 3 "rem" }{TEXT 204 74 " a fost gresita deoarece Maple n
+u poate atribui valoarea curenta luata de " }{TEXT 268 8 "quotient" }
+{TEXT 204 25 ".  A doua oara am apelat " }{TEXT 270 3 "rem" }{TEXT 
+204 35 " cu numele (sau adresa) variabilei." }}}{EXCHG {PARA 200 "" 0 
+"" {TEXT 204 67 "Aceasta este a treia utilizare a parantezelor drepte;
+ prima a fost " }{TEXT 271 8 "unassign" }{TEXT 204 1 "." }}}}}{SECT 0 
+{PARA 201 "" 0 "" {TEXT 206 22 "2. Numele de variabile" }}{EXCHG 
+{PARA 200 "" 0 "" {TEXT 204 74 "Apostrofurile stangi se utilizeaza pen
+tru a da nume speciale variabilelor." }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 31 "`the day of today` := \"Friday\";" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%1the~day~of~todayGQ'Friday6\"" }}}{EXCHG {PARA 
+200 "" 0 "" {TEXT 204 89 "Pentru a avea nume de variabile cu spatii se
+ utilizeaza apostrofuri stangi (left quotes)." }}{PARA 200 "" 0 "" 
+{TEXT 204 151 "Simbolul vid contine doua apostrofuri stangi unul dupa \+
+altul.  Concatenarea cu simbolul vid este utila pentru a construi secv
+ente de nume de variabile." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 
+205 12 "x || (1..9);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6+%#x1G%#x2G%#x3
+G%#x4G%#x5G%#x6G%#x7G%#x8G%#x9G" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 
+204 86 "Tocmai am creat o secventa de variabile, concatenand simbolul \+
+x cu numerele 1, ..., 9." }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 82 "Pe
+ntru a crea o tabela bidimensionala de variabile, vom concatena cu sim
+bolul vid:" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 22 "``||(a,b,
+c) || (1..4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6.%#41G%#42G%#43G%#44GF
+#F$F%F&F#F$F%F&" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 51 "Ceea ce s-a
+ intamplat aici este ca Maple a evaluat " }{TEXT 272 1 "a" }{TEXT 204 
+2 ", " }{TEXT 273 1 "b" }{TEXT 204 2 ", " }{TEXT 274 1 "c" }{TEXT 204 
+1 ":" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 26 "``||('a','b','c
+')||(1..4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6.%#a1G%#a2G%#a3G%#a4G%#b
+1G%#b2G%#b3G%#b4G%#c1G%#c2G%#c3G%#c4G" }}}{EXCHG {PARA 200 "" 0 "" 
+{TEXT 204 80 "Apostroafele drepte previn evaluarea si conduc la secven
+ta corecta de variabile." }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 20 "Ut
+ilizam numele lui " }{TEXT 275 1 "a" }{TEXT 204 21 " fara a dezasigna \+
+pe " }{TEXT 276 1 "a" }{TEXT 204 61 ".  Un exemplu de utilizare locala
+ a numelui este la insumari." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 
+1 205 44 "sum(a,a=1..20); # aduna primele 20 de numere" }}{PARA 8 "" 
+1 "" {TEXT -1 97 "Error, (in sum) summation variable previously assign
+ed, second argument evaluates to 4 = 1 .. 20\n" }}}{EXCHG {PARA 200 ">
+ " 0 "" {MPLTEXT 1 205 19 "sum('a','a'=1..20);" }{TEXT -1 0 "" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$5#" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 204 20 "In aceasta comanda, " }{TEXT 281 1 "a" }{TEXT 204 62 " e
+ste tratat ca o variabila locala iar valoarea atribuita lui " }{TEXT 
+282 1 "a" }{TEXT 204 14 " este ignorata" }{TEXT -1 1 "." }}}{EXCHG 
+{PARA 200 "" 0 "" {TEXT 204 46 "Unele variabile sunt protejate, ca de \+
+exemplu " }{TEXT 277 2 "Pi" }{TEXT 204 4 " si " }{TEXT 278 5 "gamma" }
+{TEXT 204 1 ":" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 11 "gamma
+ := 3;" }}{PARA 8 "" 1 "" {TEXT -1 58 "Error, attempting to assign to \+
+`gamma` which is protected\n" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 
+1 205 44 "unprotect(gamma); # putem acum utiliza gamma" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 205 11 "gamma := 3;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%&gammaG\"\"$" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 
+204 1 "\"" }{TEXT 279 5 "gamma" }{TEXT 204 34 "\" este acum o variabil
+a obisnuita." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 17 "gamma :
+= 'gamma';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&gammaGF$" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 205 13 "evalf(gamma);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#$\"+\\m:sd!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 200 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 
+200 "" 0 "" {TEXT 204 52 "Ultima atribuire evita pierderea valorii con
+stantei " }{TEXT 280 5 "gamma" }{TEXT 204 1 "." }}}}{PARA 203 "" 0 "" 
+{TEXT -1 0 "" }}}{MARK "0 0 0" 6 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

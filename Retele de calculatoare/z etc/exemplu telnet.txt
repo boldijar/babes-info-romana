@@ -1,0 +1,16 @@
+telnet nessie.cs.ubbcluj.ro 25
+mail from: adresa expeditor
+---------------------------250 2.1.0 adresa expeditor ... Sender ok
+rcpt to: adresa destinatar
+---------------------------250 2.1.5 adresa destinatar... Recipient ok
+data
+---------------------------354 Enter mail, end with "." on a line by itself
+[From: adresa expeditor]
+[To: adresa destinatar]
+Subject: subiect mail
+continut mail
+.
+---------------------------250 2.0.0 t32BGJrO000428 Message accepted for delivery
+quit
+---------------------------221 2.0.0 nessie.cs.ubbcluj.ro closing connection
+---------------------------Connection closed by foreign host.

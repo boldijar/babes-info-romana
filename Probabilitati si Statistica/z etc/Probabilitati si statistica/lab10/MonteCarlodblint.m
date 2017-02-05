@@ -1,0 +1,9 @@
+N=100000;
+f=@(x,y) x.^2+y.^2;
+x=unifrnd(1/2,1,1,N);
+y=unifrnd(0,1,1,N);
+t=(y<2*x-1);
+vi=1/4*mean(f(x(t),y(t)))
+n=sum(t)
+delta=0.05;
+err=1/(2*sqrt(delta*N))

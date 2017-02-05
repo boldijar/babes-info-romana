@@ -1,0 +1,13 @@
+USE [OnlineLottery]
+GO
+/****** Object:  StoredProcedure [dbo].[ChangeType]    Script Date: 20.10.2015 19:51:59 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[ChangeType]
+AS
+BEGIN
+	ALTER TABLE Clients
+	ALTER COLUMN Name char(50)
+END

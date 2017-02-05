@@ -1,0 +1,12 @@
+High-Level Data Link Control (HDLC) is a bit-oriented synchronous data link layer protocol developed by the International Organization for Standardization (ISO). The original ISO standards for HDLC were:
+* ISO 3309 — Frame Structure 
+* ISO 4335 — Elements of Procedure 
+* ISO 6159 — Unbalanced Classes of Procedure 
+* ISO 6256 — Balanced Classes of Procedure 
+The current standard for HDLC is ISO 13239, which replaces all of those standards.
+HDLC provides both connection-oriented and connectionless service.
+Synchronous framing
+On synchronous links, this is done with bit stuffing. Any time that 5 consecutive 1-bits appear in the transmitted data, the data is paused and a 0-bit is transmitted. 
+Asynchronous framing
+When using asynchronous serial communication such as standard RS-232 serial ports, bits are sent in groups of 8, and bit-stuffing is inconvenient. Instead they use "control-octet transparency", also called "byte stuffing" or "octet stuffing". The frame boundary octet is 01111110, (7E in hexadecimal notation). A "control escape octet", has the bit sequence '01111101', (7D hexadecimal). If either of these two octets appears in the transmitted data, an escape octet is sent, followed by the original data octet with bit 5 inverted.
+

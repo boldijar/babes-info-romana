@@ -1,0 +1,47 @@
+Adrian Sergiu Darabant: da
+Lu: Vroiam sa te intreb despre examenul de Retele..cum o sa fie structurat? adica cata teorie , ce fel de probleme..
+Adrian Sergiu Darabant: pai o sa va dau un subiect de teorie sau unul jumate si 2 sau unul jumate de probleme 
+Adrian Sergiu Darabant: in care intra sau nu si ceva de programare 
+Adrian Sergiu Darabant: dar nu trebuie sa stiti pe de rost parametri la bind socket si alte chestii din astea 
+Adrian Sergiu Darabant: va dau eu tot ce tine de api daca e sa scrieti cod 
+Adrian Sergiu Darabant: voi trebuie sa stiti doar logica 
+Adrian Sergiu Darabant: de urmat in aplicatie 
+Adrian Sergiu Darabant: si in prinicpiu nu cred ca va dau un program complet - mai degraba secevnta 
+Adrian Sergiu Darabant: daca intra asa ceva 
+Adrian Sergiu Darabant: daca nu problemele o sa fie din rest 
+Adrian Sergiu Darabant: ip-uri 
+Adrian Sergiu Darabant: masti 
+Adrian Sergiu Darabant: ping/ traceroute 
+Adrian Sergiu Darabant: dns 
+Adrian Sergiu Darabant: la teorie din TCP/ip
+Lu: aha..si teoria o sa fie din toate cursurile si o  sa fie intreabri? sau grile
+Lu: ?
+Adrian Sergiu Darabant: nu grile 
+Adrian Sergiu Darabant: grilele alea vechi nu le-am mai dat 
+Lu: si doar din TCP/IP?
+Adrian Sergiu Darabant: ca le aveau deja toti si tot nu luau 10 decat putini 
+Lu: )
+Adrian Sergiu Darabant: doar partea de TCP 
+Adrian Sergiu Darabant: ah sau poate si ceva despre DNS, SMTP - dar nu comenzile lor 
+Adrian Sergiu Darabant: ci modul de functionare
+Adrian Sergiu Darabant: ftp sigur nu va vine - daca va dau din astea unde trebuie tinut minte comenzi 
+Adrian Sergiu Darabant: va dau de analizat o secventa de ceva 
+Adrian Sergiu Darabant: (aproape sigur )
+Lu: aha..sper sa nu fie greu  
+
+Adrian Sergiu Darabant: chestii despre ip 
+Adrian Sergiu Darabant: despre udp 
+Adrian Sergiu Darabant: despre TCP 
+Adrian Sergiu Darabant: cum se seteaza o conexiune 
+Adrian Sergiu Darabant: SYN , SYN+ ACk
+Adrian Sergiu Darabant: etc
+
+Adrian Sergiu Darabant: cum se rupe 
+Adrian Sergiu Darabant: fereastra aia glisanta 
+Adrian Sergiu Darabant: aveti ceva 
+Adrian Sergiu Darabant: acolo 
+Lu: da da tin minte
+Adrian Sergiu Darabant: adresare ip
+Adrian Sergiu Darabant: classfull 
+Adrian Sergiu Darabant is typing a message.
+Adrian Sergiu Darabant: si classlessBookmark

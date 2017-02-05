@@ -1,0 +1,227 @@
+Goal: determine “good” path
+(sequence of routers) thru 
+network from source to dest.
+
+Graph abstraction for routing algorithms:
+* graph nodes are routers
+* graph edges are physical links
+* link cost: delay, $ cost, or congestion level
+
+* “good” path:
+* typically means minimum cost path
+* other def’s possible
+
+
+Routing Algorithm classification
+Global or decentralized information?
+Global:
+* all routers have complete topology, link cost info
+* “link state” algorithms
+Decentralized: 
+* router knows physically-connected neighbors, link costs to neighbors
+* iterative process of computation, exchange of info with neighbors
+* “distance vector” algorithms
+
+Static or dynamic?
+Static: 
+* routes change slowly over time
+Dynamic: 
+* routes change more quickly
+* periodic update
+* in response to link cost changes
+
+
+A Link-State Routing Algorithm
+Dijkstra’s algorithm
+* net topology, link costs known to all nodes
+* accomplished via “link state broadcast” 
+* all nodes have same info
+* computes least cost paths from one node (‘source”) to all other nodes
+* gives routing table for that node
+* iterative: after k iterations, know least cost path to k dest.’s
+
+
+1  Initialization: 
+2    N = {A} 
+3    for all nodes v 
+4      if v adjacent to A 
+5        then D(v) = c(A,v) 
+6        else D(v) = infinity 
+7 
+8   Loop 
+9     find w not in N such that D(w) is a minimum 
+10    add w to N 
+11    update D(v) for all v adjacent to w and not in N: 
+12       D(v) = min( D(v), D(w) + c(w,v) ) 
+13    /* new cost to v is either old cost to v or known 
+14     shortest path cost to w plus cost from w to v */ 
+15  until all nodes in N 
+
+Dijkstra’s algorithm, discussion
+Algorithm complexity: n nodes
+* each iteration: need to check all nodes, w, not in N
+* n*(n+1)/2 comparisons: O(n**2)
+* more efficient implementations possible: O(nlogn)
+Oscillations possible:
+* e.g., link cost = amount of carried traffic
+
+Distance Vector Routing Algorithm
+iterative:
+* continues until no nodes exchange info.
+* self-terminating: no “signal” to stop
+asynchronous:
+* nodes need not exchange info/iterate in lock step!
+distributed:
+* each node communicates only with directly-attached neighbors
+
+Distance Table data structure 
+* each node has its own
+* row for each possible destination
+* column for each directly-attached neighbor to node
+* example: in node X, for dest. Y via neighbor Z: D(Y,Z) = c(X,Z) + min {Dz(Y,w)} pt orice w in muchii..
+
+Distance Vector Routing: overview
+Iterative, asynchronous: each local iteration caused by: 
+* local link cost change 
+* message from neighbor: its least cost path change from neighbor
+Distributed:
+* each node notifies neighbors only when its least cost path to any destination changes
+* neighbors then notify their neighbors if necessary
+Each node:
+
+wait for (change in local link cost of msg from neighbor)->
+
+recompute distance table->
+
+if least cost path to any dest has changed, notify neighbors 
+
+Distance Vector Algorithm:
+1  Initialization: 
+2   for all adjacent nodes v: 
+3      D  (*,v) = infinity        /* the * operator means "for all rows" */ 
+4      D  (v,v) = c(X,v) 
+5   for all destinations, y 
+6      send min  D  (y,w) to each neighbor  /* w over all X's neighbors */ 
+8  loop 
+9    wait (until I see a link cost change to neighbor V 
+10         or until I receive update from neighbor V) 
+11 
+12   if (c(X,V) changes by d) 
+13     /* change cost to all dest's via neighbor v by d */ 
+14     /* note: d could be positive or negative */ 
+15     for all destinations y:  D  (y,V) =  D  (y,V) + d 
+16 
+17   else if (update received from V wrt destination Y) 
+18     /* shortest path from V to some Y has changed  */ 
+19     /* V has sent a new value for its  min   DV(Y,w) */ 
+20     /* call this received new value is "newval"     */ 
+21     for the single destination y: D  (Y,V) = c(X,V) + newval 
+22 
+23   if we have a new min   D  (Y,w)for any destination Y 
+24      send new value of min   D  (Y,w) to all neighbors 
+25 
+26  forever 
+
+
+Link cost changes:
+* node detects local link cost change 
+* updates distance table (line 15)
+* if cost change in least cost path, notify neighbors (lines 23,24)
+
+
+Link cost changes:
+* good news travels fast 
+* bad news travels slow - “count to infinity” problem!
+
+
+Distance Vector: poisoned reverse
+If Z routes through Y to get to X :
+* Z tells Y its (Z’s) distance to X is infinite (so Y won’t route to X via Z)
+* will this completely solve count to infinity problem? 
+
+
+
+Comparison of LS and DV algorithms
+Message complexity
+* LS: with n nodes, E links, O(nE) msgs sent each 
+* DV: exchange between neighbors only
+* convergence time varies
+Speed of Convergence
+* LS: O(n2) algorithm requires O(nE) msgs
+* may have oscillations
+* DV: convergence time varies
+* may be routing loops
+* count-to-infinity problem
+
+Robustness: what happens if router malfunctions?
+LS: 
+* node can advertise incorrect link cost
+* each node computes only its own table
+DV:
+* DV node can advertise incorrect path cost
+* each node’s table used by others 
+* error propagate thru network
+
+
+
+What is mobility?
+* spectrum of mobility, from the network perspective:
+mobile user, using
+same access point
+
+mobile user, connecting/ disconnecting from network using DHCP.  
+
+mobile user, passing through multiple access point while maintaining ongoing connections (like cell phone) 
+
+
+Mobility: approaches
+* Let routing handle it: routers advertise permanent address of mobile-nodes-in-residence via usual routing table exchange.
+* routing tables indicate where each mobile located
+* no changes to end-systems
+(not 
+scalable
+ to millions of
+  mobiles
+)
+* Let end-systems handle it: 
+* indirect routing: communication from correspondent to mobile goes through home agent, then forwarded to remote
+* direct routing: correspondent gets foreign address of mobile, sends directly to mobile
+
+
+Indirect Routing: comments
+* Mobile uses two addresses:
+* permanent address: used by correspondent (hence mobile location is transparent to correspondent)
+* care-of-address: used by home agent to forward datagrams to mobile
+* foreign agent functions may be done by mobile itself
+* triangle routing: correspondent-home-network-mobile
+* inefficient when 
+correspondent, mobile 
+are in same network
+
+
+Indirect Routing: moving between networks
+* suppose mobile user moves to another network
+* registers with new foreign agent
+* new foreign agent registers with home agent
+* home agent update care-of-address for mobile
+* packets continue to be forwarded to mobile (but with new care-of-address)
+* Mobility, changing foreign networks transparent: on going connections can be maintained!
+
+
+Mobility via Direct Routing: comments
+* overcome triangle routing problem
+* non-transparent to correspondent: correspondent must get care-of-address from home agent
+* What happens if mobile changes networks?
+
+
+Mobile IP
+* RFC 3220
+* has many features we’ve seen: 
+* home agents, foreign agents, foreign-agent registration, care-of-addresses, encapsulation (packet-within-a-packet)
+* three components to standard:
+* agent discovery
+* registration with home agent
+* indirect routing of datagrams
+
+
+

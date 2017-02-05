@@ -1,0 +1,14 @@
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/Microsoft.Web.Infrastructure.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/System.Web.Razor.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/System.Web.Helpers.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/System.Web.WebPages.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/System.Web.WebPages.Deployment.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/System.Web.WebPages.Razor.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/System.Web.Mvc.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/FamilyDoctorCommon.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/FamilyDoctorCommon.dll.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/FamilyDoctorServer.dll.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/bin/FamilyDoctorServer.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/obj/Debug/FamilyDoctorServer.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/Web/FamilyDoctor/FamilyDoctorServer/obj/Debug/FamilyDoctorServer.dll.mdb

@@ -1,0 +1,5 @@
+A local-area network is a computer network covering a small geographic area, like a home, office, or group of buildings e.g. a school. The defining characteristics of LANs, in contrast to wide-area networks (WANs), include their much higher data-transfer rates, smaller geographic range, and lack of a need for leased telecommunication lines.
+
+Ethernet over unshielded twisted pair cabling, and Wi-Fi are the two most common technologies currently, but ARCNET, Token Ring and many others have been used in the past.
+
+Although switched Ethernet is now the most common data link layer protocol and IP as a network layer protocol, many different options have been used, and some continue to be popular in niche areas. Smaller LANs generally consist of a one or more switches linked to each other - often with one connected to a router, cable modem, or DSL modem for Internet access.

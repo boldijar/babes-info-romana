@@ -1,0 +1,78 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 
+-1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{SECT 0 {PARA 0 
+"" 0 "" {TEXT -1 32 "lec19 uic problema 1. Calculati " }{XPPEDIT 18 0 
+"Int(x^n*exp(x),x);" "6#-%$IntG6$*&)%\"xG%\"nG\"\"\"-%$expG6#F(F*F(" }
+{TEXT -1 26 " pentru un intreg general " }{TEXT 256 1 "n" }{TEXT -1 
+76 ". Verificati rezultatul pentru cateva valori ale lui n alese aleat
+or. (Heck)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 48 "Int(x^n*exp(x),x):%=value(%)assuming n::integer;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$IntG6$*&)%\"xG%\"nG\"\"\"-%$expG6#
+F)F+F)-%*PIECEWISEG6%7$F,/F*\"\"!7$*&-%$SumG6$**-%*factorialG6#F*F+)!
+\"\",&F*F+%\"iGF?F+-F<6#FAF?)F)FAF+/FA;F4F*F+F,F+2F4F*7$,&*(-F<6#,&F*F
+?F+F?F?-F86$*&FDF?-F<6#,&FAF+F+F?F+/FA;F+FMF+F,F+F?*&FKF?-%#EiG6$F+,$F
+)F?F+F?%*otherwiseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "VI:=
+unapply(rhs(%),n,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#VIGf*6$%\"n
+G%\"xG6\"6$%)operatorG%&arrowGF)-%*piecewiseG6'/9$\"\"!-%$expG6#9%2F2F
+1*&-%$SumG6$**-%*factorialG6#F1\"\"\")!\"\",&F1F@%\"iGFBF@-F>6#FDFB)F6
+FDF@/FD;F2F1F@F3F@,&*(-F>6#,&F1FBF@FBFB-F:6$*&FGFB-F>6#,&FDF@F@FBF@/FD
+;F@FNF@F3F@FB*&FLFB-%#EiG6$F@,$F6FBF@FBF)F)F)" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "vn:=rand(-5..5);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#vnGf*6\"F&F&F&,&-f*F&F&6#/%(builtinG%4RandNumberInterfaceGF&F
+&F&F&F&6%\"\"'\"#6\"\"%\"\"\"\"\"&!\"\"F&F&F&" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 29 "vvn:=[vn(),vn(), vn(), vn()];" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%$vvnG7&\"\"\"\"\"%\"\"!!\"%" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 35 "for k in vvn do value(VI(k,x)); od;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&,&\"\"\"!\"\"%\"xGF%F%-%$expG6#F'F%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,,\"#C\"\"\"*&F%F&%\"xGF&!\"\"*&\"#7
+F&)F(\"\"#F&F&*&\"\"%F&)F(\"\"$F&F)*$)F(F/F&F&F&-%$expG6#F(F&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$expG6#%\"xG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&#\"\"\"\"\"'F&*&,(*&F&F&%\"xG!\"\"F&*&F&F&*$)F+\"\"
+#F&F,F&*&F0F&F+!\"$F&F&-%$expG6#F+F&F&F,*&#F&F'F&-%#EiG6$F&,$F+F,F&F,
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "for k in vvn do testeq(
+value(VI(k,x)),int(x^k*exp(x),x)); od;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%tru
+eG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 0 {PARA 
+0 "" 0 "" {TEXT -1 26 "lec19 uic problema 2. Fie " }{XPPEDIT 18 0 "F;
+" "6#%\"FG" }{TEXT -1 23 " functia definita prin " }{XPPEDIT 18 0 "F(T
+) := int(exp(-t^2*T)/t,t = 1 .. T);" "6#>-%\"FG6#%\"TG-%$intG6$*&-%$ex
+pG6#,$*&)%\"tG\"\"#\"\"\"F'F4!\"\"F4F2F5/F2;F4F'" }{TEXT -1 46 ". \n(a
+) Definiti functia corespunzatoare Maple " }{XPPEDIT 18 0 "F;" "6#%\"F
+G" }{TEXT -1 35 " ce returneaza o aproximatie a lui " }{XPPEDIT 18 0 "
+F(T);" "6#-%\"FG6#%\"TG" }{TEXT -1 31 ". Utilizati-o pentru a calcula \+
+" }{XPPEDIT 18 0 "F(2);" "6#-%\"FG6#\"\"#" }{TEXT -1 25 ". Comparati v
+aloarea lui " }{XPPEDIT 18 0 "F(2);" "6#-%\"FG6#\"\"#" }{TEXT -1 4 " c
+u " }{XPPEDIT 18 0 "Int(exp(-2*t^2)/t,t = 1 .. 2);" "6#-%$IntG6$*&-%$e
+xpG6#,$*&\"\"#\"\"\"*$)%\"tGF,F-F-!\"\"F-F0F1/F0;F-F," }{TEXT -1 34 ".
+\n(b) Calculati derivata functiei " }{XPPEDIT 18 0 "F;" "6#%\"FG" }
+{TEXT -1 37 ". Cat este F'(2)? Comparati F'(2) cu " }{XPPEDIT 18 0 "(F
+(2+h)-F(2))/h;" "6#*&,&-%\"FG6#,&\"\"#\"\"\"%\"hGF*F*-F&6#F)!\"\"F*F+F
+." }{TEXT -1 23 " pentru valori ale lui " }{XPPEDIT 18 0 "h;" "6#%\"hG
+" }{TEXT -1 19 " suficient de mici." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "F:=T->evalf(Int(exp(-t^2*T)/
+t,t=1..T));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"FGf*6#%\"TG6\"6$%)o
+peratorG%&arrowGF(-%&evalfG6#-%$IntG6$*&-%$expG6#,$*&)%\"tG\"\"#\"\"\"
+9$F;!\"\"F;F9F=/F9;F;F<F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 5 "F(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+aA9VC!#6" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "evalf(Int(exp(-t^2*2)/t,t=1..2));" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+aA9VC!#6" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 8 "D(F)(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+
+%QA#eL!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "h:=1e-4; (F(2+
+h)-F(2))/h;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"hG$\"\"\"!\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+++)zN$!#6" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}}}{MARK "2 2 6 0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

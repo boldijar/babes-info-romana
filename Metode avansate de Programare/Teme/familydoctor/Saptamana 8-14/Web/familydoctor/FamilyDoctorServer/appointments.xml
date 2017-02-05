@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAppointment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Appointment>
+    <ID>csorescu_app1</ID>
+    <PatientID>csorescu</PatientID>
+    <Diagnostic>Pneumonia</Diagnostic>
+    <Date>2015-12-12T00:00:00</Date>
+    <IsEmergency>true</IsEmergency>
+  </Appointment>
+  <Appointment>
+    <ID>csorescu_app2</ID>
+    <PatientID>csorescu</PatientID>
+    <Diagnostic>Flu</Diagnostic>
+    <Date>2015-12-12T00:00:00</Date>
+    <IsEmergency>false</IsEmergency>
+  </Appointment>
+  <Appointment>
+    <ID>csorescu_app3</ID>
+    <PatientID>csorescu</PatientID>
+    <Diagnostic>Hiccups</Diagnostic>
+    <Date>2015-12-12T00:00:00</Date>
+    <IsEmergency>false</IsEmergency>
+  </Appointment>
+  <Appointment>
+    <ID>rcioban_app1</ID>
+    <PatientID>rcioban</PatientID>
+    <Diagnostic>Cold</Diagnostic>
+    <Date>2015-12-12T00:00:00</Date>
+    <IsEmergency>false</IsEmergency>
+  </Appointment>
+  <Appointment>
+    <ID>apetrea_app1</ID>
+    <PatientID>apetrea</PatientID>
+    <Diagnostic>Heat-stroke</Diagnostic>
+    <Date>2015-12-12T00:00:00</Date>
+    <IsEmergency>false</IsEmergency>
+  </Appointment>
+</ArrayOfAppointment>

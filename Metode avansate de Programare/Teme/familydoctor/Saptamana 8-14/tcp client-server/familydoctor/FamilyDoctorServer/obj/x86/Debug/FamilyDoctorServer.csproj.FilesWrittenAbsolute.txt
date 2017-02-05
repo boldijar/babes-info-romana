@@ -1,0 +1,18 @@
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctor.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctor.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/FamilyDoctor.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/FamilyDoctor.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorCommon.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorCommon.dll.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorServer.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/FamilyDoctorServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/MonoDevelop/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/FamilyDoctorServer.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/TCP Client-Server/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/TCP Client-Server/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorServer.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/TCP Client-Server/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/TCP Client-Server/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/FamilyDoctorServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/TCP Client-Server/FamilyDoctor/FamilyDoctorServer/obj/x86/Debug/FamilyDoctorServer.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/TCP Client-Server/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorCommon.dll
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/FamilyDoctor/Saptamana 8-14/TCP Client-Server/FamilyDoctor/FamilyDoctorServer/bin/Debug/FamilyDoctorCommon.dll.mdb

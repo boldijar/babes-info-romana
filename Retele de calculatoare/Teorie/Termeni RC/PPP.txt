@@ -1,0 +1,26 @@
+PPP – Point to Point Protocol
+* Provides
+* Framing + error detection
+* Link Control Protocol – brings lines up, tears down, etc
+* Network Control Protocol – negotiating network protocol
+
+
+In networking, the Point-to-Point Protocol, or PPP, is a data link protocol commonly used to establish a direct connection between two nodes over serial cable, phone line, trunk line, cellular telephone, specialized radio links, or fiber optic links. Most Internet service providers use PPP for customers' dial-up access to the Internet
+
+Automatic self configuration
+Link Control Protocol (LCP) is an integral part of PPP, and defined in the same standard specification. LCP provides automatic configuration of the interfaces at each end (such as setting datagram size, escaped characters, and magic numbers) and for selecting optional authentication. 
+
+[edit] Multiple network layer protocols
+PPP permits multiple network layer protocols to operate on the same communication link. For every network layer protocol used, a separate Network Control Protocol (NCP) is provided in order to encapsulate and negotiate options for the multiple network layer protocols.
+For example, Internet Protocol (IP) uses the IP Control Protocol (IPCP), and Internetwork Packet Exchange (IPX) uses the Novell IPX Control Protocol (IPXCP). NCPs include fields containing standardized codes to indicate the network layer protocol type that PPP encapsulates.
+
+Protocol 
+	bit 0=1 Negotiators: LCP, NCP
+	bit 0=0 network protocol – IP, IPX, etc
+
+
+Most important features
+* Link Control Protocol initiates and terminates connections gracefully, allowing hosts to negotiate connection options. It also supports both byte- and bit-oriented encodings[citation needed]. 
+* Network Control Protocol is used for negotiating network-layer information, e.g. network address or compression options, after the connection has been established. 
+
+

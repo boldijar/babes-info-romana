@@ -1,0 +1,68 @@
+Requirements for a broadcast channel:
+* Give everyone a chance to speaks
+* Don't speak until you are spoken to
+* Don't monopolize the conversation
+* Raise your hand if you have question
+* Don't interrupt when someone is speaking
+* Don't fall asleep when someone else is talking
+
+Channel Allocation Problem Model
+* Station Model – N stations generating frames within Dt with probab. Dlt.
+* Single Channel
+* Collision Assumption
+* Time
+* Continuous Time
+* Slotted Time
+* Carrier
+* Carrier Sense
+* No Carrier Sense
+
+
+Solution – Multiple Access Protocol
+Access protocol requirements for a R bps channel:
+* When only one node has data to send, that node has a throughput of R bps.
+* When M nodes have data to send, each of these nodes has an avg. throughput of  R/M bps
+* The protocol is decentralized, i.e., there are no master nodes that can fail and bring down the entire system
+* The protocol is simple, so that it is inexpensive to implement
+
+Multiple Access Protocols 
+
+
+* Channel Partitioning
+
+* Random Access Protocols
+
+
+Channel Partitioning
+FDM Frequency Division Multiplexing
+TDM Time Division Multiplexing
+
+Random Access Protocols
+* ALOHA
+* Pure Aloha 
+* Slotted Aloha
+* CSMA (Carrier Sense Multiple Access)
+* CSMA
+* CSMA/CD – with collision detection
+
+ALOHA
+Users send data whenever they want
+Two frames on the same channel – collision=> both frames are destroyed
+
+
+CSMA
+* 1-Persistent CSMA
+
+* Non-Persistent CSMA
+
+* P-persistent CSMA
+
+
+CSMA/CD
+* Sense the channel
+* Stop sending when detecting collision
+*  After collision wait a random amount of time and try again.
+
+
+
+

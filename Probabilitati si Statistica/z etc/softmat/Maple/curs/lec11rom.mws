@@ -1,0 +1,139 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 2 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 0 }1 0 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 
+-1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{SECT 0 
+{PARA 3 "" 0 "" {TEXT -1 22 "1. Expresii rationale " }}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 53 "Maple recunoaste polinoame rationale (tipul ratpo
+ly):" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "
+p := x^3 - 1; q := x^2 - 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,
+&*$)%\"xG\"\"$\"\"\"F*F*!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"q
+G,&*$)%\"xG\"\"#\"\"\"F*F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 9 "f := p/q;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*&,&*$)%\"xG
+\"\"$\"\"\"F+F+!\"\"F+,&*$)F)\"\"#F+F+F+F,F," }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 29 "whattype(f); type(f,ratpoly);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%\"*G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 116 "Maple simplifica automat numerele
+ rationale impartind numaratorul si numitorul cu cel mai mare divizor \+
+comun al lor:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "246/34;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$B\"\"#<
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 138 "Se face acest lucru  intotde
+auna deoarece rezultatul este intotdeauna mai simplu. Nu se procedeaza
+ la fel in cazul polinoamelor rationale." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "normal(f);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#*&,(*$)%\"xG\"\"#\"\"\"F)F'F)F)F)F),&F'F)F)F)!\"\"" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 87 "Forma normala a unui polinom ra
+tional se obtine dupa simplificarea cu divizorii comuni." }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "Exista mai multe formate
+:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "fac
+tor(numer(f))/denom(f);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"
+\"\"F&!\"\"F&,(*$)F%\"\"#F&F&F%F&F&F&F&,&F)F&F&F'F'" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 26 "numer(f)/factor(denom(f));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*(,&*$)%\"xG\"\"$\"\"\"F)F)!\"\"F),&F'F)F)F*F*,&
+F'F)F)F)F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "factor(numer(
+f))/factor(denom(f));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,(*$)%\"xG
+\"\"#\"\"\"F)F'F)F)F)F),&F'F)F)F)!\"\"" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 67 "In ultimul caz, impartirea cu factorul comun a fost o sim
+plificare." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "nf := factor(numer(f));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#nf
+G*&,&%\"xG\"\"\"F(!\"\"F(,(*$)F'\"\"#F(F(F'F(F(F(F(" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 34 "ff := freeze(nf)/factor(denom(f));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#ffG*(%*freeze/R0G\"\"\",&%\"xGF'F'!
+\"\"F*,&F)F'F'F'F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 13 "Prin comand
+a " }{TEXT 257 6 "freeze" }{TEXT -1 44 ", numaratorul ramane si nu est
+e impartit la " }{TEXT 256 3 "x-1" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "thaw(ff); # this \"unfree
+zes\" the numerator" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,(*$)%\"xG\"
+\"#\"\"\"F)F'F)F)F)F),&F'F)F)F)!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "q := (x^1000 - 1)/(x-1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"qG*&,&*$)%\"xG\"%+5\"\"\"F+F+!\"\"F+,&F)F+F+F,F," }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 160 "Acesta este un exemplu, in care
+ exponentul 1000 poate fi inlocuit cu ceva mai mare pentru a demonstra
+ de ce Maple nu normalizeaza automat polinoamele rationale." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "normal(
+q): # this leads to 1000 monomials" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 79 "Aceasta este o situatie in care Maple urmareste evitarea exploz
+iei expresiilor." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT -1 12 "2. Conversii" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 119 "Pent
+ru polinoame intr-o variabila, pentru a evalua eficient un polinom den
+s, il convertim in prealabil la forma Horner." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "p := randpoly(x,degree=7,den
+se);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,0\"#i!\"\"*&\"\"(\"\"\"
+)%\"xGF)F*F'*&\"#AF*)F,\"\"'F*F**&\"#bF*)F,\"\"&F*F'*&\"#%*F*)F,\"\"%F
+*F'*&\"#()F*)F,\"\"$F*F**&\"#cF*)F,\"\"#F*F'" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 17 "codegen[cost](p);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,&*&\"\"'\"\"\"%*additionsGF&F&*&\"#FF&%0multiplicationsGF&F&" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "h := convert(p,horner);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"hG,&\"#i!\"\"*&,&\"#cF'*&,&\"#()
+\"\"\"*&,&\"#%*F'*&,&\"#bF'*&,&\"#AF.*&\"\"(F.%\"xGF.F'F.F:F.F.F.F:F.F
+.F.F:F.F.F.F:F.F.F.)F:\"\"#F.F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "codegen[cost](h);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"'
+\"\"\"%*additionsGF&F&*&\"\"(F&%0multiplicationsGF&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "codegen[C](p,'optimized');" }}
+{PARA 6 "" 1 "" {TEXT -1 15 "      t1 = x*x;" }}{PARA 6 "" 1 "" {TEXT 
+-1 16 "      t2 = t1*x;" }}{PARA 6 "" 1 "" {TEXT -1 17 "      t3 = t1*
+t1;" }}{PARA 6 "" 1 "" {TEXT -1 73 "      t13 = -62.0-7.0*t3*t2+22.0*t
+3*t1-55.0*t3*x-94.0*t3+87.0*t2-56.0*t1;" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 413 "Aici generarea de cod \"optimizata\" prin ridicarea la p
+atrat repetata nu produced un mod optim de evaluare. In general, cand \+
+se sorteaza monoamele in ordine crescatoare, este nevoie de de doua or
+i mai multe inmultiri decat adunari.  Tehnica ridicarii la patrat repe
+tate pentru puteri este recomandata doar pentru polinoame \"rare\", cu
+ foarte putini termeni.  Pentru polinoame dense, schema lui Horner est
+e optimala." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 59 "r := randpoly(x,degree=5,dense)/randpoly(x,degree=5,dense):" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "codegen[cost](r);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"#5\"\"\"%*additionsGF&F&*&\"#IF&
+%0multiplicationsGF&F&%*divisionsGF&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 56 "rh := convert(numer(r),horner)/convert(denom(r),horne
+r):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "codegen[cost](rh);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"#5\"\"\"%*additionsGF&F&*&F%F&
+%0multiplicationsGF&F&%*divisionsGF&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "rc := convert(r,`confrac`,x):" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 18 "codegen[cost](rc);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&\"#5\"\"\"%*additionsGF&F&*&\"\"&F&%*divisionsGF&F&
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 125 "Prin fractii continue, compa
+ram inmultirea cu impartirea.  Deoarece inmultirea costa aproximatic c
+at inmultirea, am castigat." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 3 "rc;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,&#\"#(*
+\"##)!\"\"*(\"$())\"\"\"\"%iLF',(%\"xGF*#\"&Q(e\"&nj$F**(\"(xoN(F*\"(Q
+Nd\"F',(F-F*#\",o\"4s`<\"+**)\\b_'F'*(\"/`&o1eiB&F*\"0eiQysC3\"F',(F-F
+*#\"3&*y5#*4i?#Q\"\"3j8am$)3,VVF**(\"7]uy0)*=1q*p9'F*\"7hh2Qd?3j$\\[$F
+',(F-F*#\";465<z:&*=YVx==\";vDYOy9+(R1\\iY#F'*(\">zS&z88Y=0Nj;TQ\"*F*
+\"?D1B,a+HFOJ**eLX<F',&F-F*#\"0Ox8#eOb@\"0DMnu@x<%F*F'F'F'F*F'F'F'F*F'
+F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "convert(f,`confrac`,x
+); # a nice representation of our first f" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&%\"xG\"\"\"*&F%F%,&F$F%F%F%!\"\"F%" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 68 "Ultima forma pe care o vom vedea este conversia
+ in fractii partiale:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "convert(r,`parfrac`,x);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,&#\"#(*\"##)!\"\"*(F&F',,\"%\">#\"\"\"*&\"%u<F+)%\"xG\"\"%F+F'*
+&\"%'f%F+)F/\"\"$F+F+*&\"#\")F+)F/\"\"#F+F'*&\"%pCF+F/F+F+F+,.\"#vF+*&
+F&F+)F/\"\"&F+F+*&\"#!)F+F.F+F'*&\"#WF+F3F+F+*&\"#rF+F7F+F'*&\"#<F+F/F
++F+F'F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "Nu cerem prea mult deo
+arece polinoamele nu se factorizeaza peste numere rationale." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "convert
+(r,`parfrac`,x,complex); # numerical conversion" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#,.#\"#(*\"##)!\"\"*&^$$!+al%Q!Q!#6$!+(\\+***H!#5\"\"\",
+&%\"xGF0^$$!+=S.45!\"*$!+?@%fR%F/F0F'F0*&^$$!+gl%Q!QF,$\"+)\\+***HF/F0
+,&F2F0^$F4$\"+?@%fR%F/F0F'F0*&^$$!+mE**)o$F,$!+%**4s[\"!#>F0,&F2F0$\"+
+iQJSkF/F0F'F0*&^$$!+d(4Ka(F,$\"+/3$pq)F,F0,&F2F0^$$\"+pW8#*>F/$\"+9XEk
+5F6F0F'F0*&^$$!+`(4Ka(F,$!+13$pq)F,F0,&F2F0^$FU$!+9XEk5F6F0F'F0" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "fsolve(denom(r),x,complex);
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6'$!+iQJSk!#5^$$!+pW8#*>F%$!+9XEk5!
+\"*^$F'$\"+9XEk5F+^$$\"+=S.45F+$!+?@%fR%F%^$F0$\"+?@%fR%F%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{MARK "2 19 0 0" 6 }{VIEWOPTS 1 1 0 3 2 1804 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

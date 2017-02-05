@@ -1,0 +1,14 @@
+The ALOHA protocol is an OSI layer 2 protocol for LAN networks with broadcast topology.
+The first version of the protocol was basic:
+* If you have data to send, send the data 
+* If the message collides with another transmission, try resending "later"
+
+The difference between Aloha and Ethernet on a shared medium is that Ethernet uses CSMA/CD, which broadcasts a jamming signal to notify all computers connected to the channel that a collision occurred, forcing computers on the network to reject their current packet or frame.
+
+Pure Aloha had a maximum throughput of about 18.4%. This means that about 81.6% of the total available bandwidth was essentially wasted due to losses from packet collisions
+
+An improvement to the original Aloha protocol was Slotted Aloha, which introduced discrete timeslots and increased the maximum throughput to 36.8%.
+
+Users send data whenever they want
+Two frames on the same channel – collision=> both frames are destroyed
+

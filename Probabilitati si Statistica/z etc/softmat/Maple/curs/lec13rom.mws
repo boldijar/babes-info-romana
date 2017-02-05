@@ -1,0 +1,234 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "_cstyle1" -1 205 "Times" 0 1 0 0 0 0 0 0 0 2 2 2 0 0 0 1 }
+{CSTYLE "_cstyle2" -1 206 "Courier" 0 1 255 0 0 1 0 1 0 2 1 2 0 0 0 1 
+}{CSTYLE "_cstyle3" -1 207 "Times" 1 18 0 0 0 0 0 1 0 2 2 2 0 0 0 1 }
+{CSTYLE "" 205 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 270 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 272 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 273 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 274 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 275 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 276 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 277 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 278 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 279 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 280 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 281 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 282 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 283 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 284 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 285 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 286 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 287 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 288 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 289 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 290 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 291 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 292 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 293 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 294 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 295 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 296 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 297 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 205 298 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 
+18 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }
+{PSTYLE "_pstyle1" -1 200 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle2" -1 
+201 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 
+0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle3" -1 202 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 205 38 "Substitutii, dezvoltari \+
+si factorizari" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 8 "restar
+t;" }}}{SECT 0 {PARA 201 "" 0 "" {TEXT 207 35 "1. Substitutie formala \+
+si algebrica" }}{EXCHG {PARA 200 "" 0 "" {TEXT 205 38 "Substitutia pri
+n intermediul comenzii " }{TEXT 256 4 "subs" }{TEXT 205 57 " este un i
+nstrument puternic pentru tratarea expresiilor." }}}{EXCHG {PARA 200 "
+> " 0 "" {MPLTEXT 1 206 25 "p := (x+y)^2 + 1/(x+y)^2;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"pG,&*$),&%\"xG\"\"\"%\"yGF*\"\"#F*F**&F*F**$F'
+F*!\"\"F*" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 10 "normal(p);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,.*$)%\"xG\"\"%\"\"\"F)*(F(F))F'
+\"\"$F)%\"yGF)F)*(\"\"'F))F'\"\"#F))F-F1F)F)*(F(F)F'F))F-F,F)F)*$)F-F(
+F)F)F)F)F),&F'F)F-F)!\"#" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 66 "S-
+a pus expresia sub un numitor comun si s-a expandat numaratorul." }}}
+{EXCHG {PARA 200 "" 0 "" {TEXT 205 40 "Dorim ca Maple sa evite dezvolt
+area lui " }{TEXT 257 3 "x+y" }{TEXT 205 20 ".  Vom substitui in " }
+{TEXT 258 1 "p" }{TEXT 205 4 " pe " }{TEXT 259 3 "x+y" }{TEXT 205 4 " \+
+cu " }{TEXT 260 1 "z" }{TEXT 205 1 ":" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 206 19 "q := subs(x+y=z,p);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"qG,&*$)%\"zG\"\"#\"\"\"F**&F*F**$F'F*!\"\"F*" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 206 28 "nq := normal(q); # normalize" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#nqG*&,&*$)%\"zG\"\"%\"\"\"F+F+F+F+
+F)!\"#" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 56 "r := subs(z=x
++y,nq); # go back to the original variables" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"rG*&,&*$),&%\"xG\"\"\"%\"yGF+\"\"%F+F+F+F+F+F)!\"#
+" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 75 "Substitutia este unul din \+
+modurile prin care se evita dezvoltarea in Maple." }}}{EXCHG {PARA 
+200 "" 0 "" {TEXT 205 64 "Putem realiza substitutii partiale intr-o ex
+presie prin comanda " }{TEXT 261 6 "subsop" }{TEXT 205 1 "." }}}
+{EXCHG {PARA 200 "" 0 "" {TEXT 205 34 "Presupunem ca dorim sa substitu
+im " }{TEXT 262 3 "x+y" }{TEXT 205 4 " by " }{TEXT 263 3 "x-y" }{TEXT 
+205 29 ", dar numai in numitorul lui " }{TEXT 264 1 "r" }{TEXT 205 1 "
+." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 50 "op([2,1],r); # det
+erminam intai locul substitutiei" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&
+%\"xG\"\"\"%\"yGF%" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 21 "s
+ubsop([2,1]=x-y,r); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*$),&%\"xG
+\"\"\"%\"yGF)\"\"%F)F)F)F)F),&F(F)F*!\"\"!\"#" }}}{EXCHG {PARA 200 "" 
+0 "" {TEXT 205 3 "Cu " }{TEXT 265 6 "subsop" }{TEXT 205 45 " putem sub
+stitui un operand al unei expresii." }}}{EXCHG {PARA 200 "" 0 "" 
+{TEXT 205 66 "Uneori dorim sa facem substitutii simultane, de exemplu \+
+permutari:" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 19 "p := a + \+
+2*b + 3*c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(%\"aG\"\"\"*&\"
+\"#F'%\"bGF'F'*&\"\"$F'%\"cGF'F'" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 
+205 57 "Presupunem ca vrem sa permutam variabilele, transformand " }
+{TEXT 266 1 "p" }{TEXT 205 6 " into " }{TEXT 267 13 "c + 2*a + 3*b" }
+{TEXT 205 1 "." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 20 "subs(
+c=a,b=a,a=c,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"'\"\"\"%\"c
+GF&F&" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 63 "Substitutia de mai su
+s a fost o substitutie secventiala, intai " }{TEXT 268 1 "c" }{TEXT 
+205 4 " in " }{TEXT 269 1 "a" }{TEXT 205 4 " si " }{TEXT 270 13 "p = 4
+*a + 2*b" }{TEXT 205 7 ", apoi " }{TEXT 271 1 "b" }{TEXT 205 4 " in " 
+}{TEXT 272 1 "a" }{TEXT 205 4 " si " }{TEXT 273 1 "p" }{TEXT 205 16 " \+
+devine egal cu " }{TEXT 274 3 "6*a" }{TEXT 205 13 " si in final " }
+{TEXT 275 1 "a" }{TEXT 205 4 " in " }{TEXT 276 1 "c" }{TEXT 205 4 " si
+ " }{TEXT 277 1 "p" }{TEXT 205 8 " devine " }{TEXT 278 3 "6*c" }{TEXT 
+205 1 "." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 46 "subs(\{c=a,
+b=a,a=c\},p); # substitutii simultane" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,&%\"cG\"\"\"*&\"\"&F%%\"aGF%F%" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 206 55 "subs(\{c=b,b=a,a=c\},p); # aceasta este permutarea \+
+dorita" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(%\"cG\"\"\"*&\"\"#F%%\"aGF
+%F%*&\"\"$F%%\"bGF%F%" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 96 "Ultim
+ul tip de substitutie ilustrat este substitutia algebrica. Presupunem \+
+ca dorim sa inlocuim " }{TEXT 279 3 "a+b" }{TEXT 205 4 " cu " }{TEXT 
+280 1 "c" }{TEXT 205 13 ", eliminand  " }{TEXT 281 4 "pe a" }{TEXT 
+205 5 " din " }{TEXT 282 1 "p" }{TEXT 205 1 "." }}}{EXCHG {PARA 200 ">
+ " 0 "" {MPLTEXT 1 206 14 "subs(a+b=c,p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(%\"aG\"\"\"*&\"\"#F%%\"bGF%F%*&\"\"$F%%\"cGF%F%" }}}
+{EXCHG {PARA 200 "" 0 "" {TEXT 283 4 "subs" }{TEXT 205 35 " este o sub
+stitutie formala.  Daca " }{TEXT 284 3 "a+b" }{TEXT 205 28 " nu apare \+
+ca operand al lui " }{TEXT 285 1 "p" }{TEXT 205 20 ", nu va fi inlocui
+t." }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 3 "Cu " }{TEXT 286 7 "algsub
+s" }{TEXT 205 47 ", putem realiza eliminarea dorita din expresia " }
+{TEXT 287 1 "p" }{TEXT 205 1 ":" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 206 17 "algsubs(a+b=c,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#,&%\"bG\"\"\"*&\"\"%F%%\"cGF%F%" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 
+205 8 "Comanda " }{TEXT 288 7 "algsubs" }{TEXT 205 48 " recunoaste str
+uctura algebrica a unei expresii." }}}}{SECT 0 {PARA 201 "" 0 "" 
+{TEXT 207 47 "2. Dezvoltarea polinoamelor si numere algebrice" }}
+{EXCHG {PARA 200 "" 0 "" {TEXT 205 62 "Maple nu expandeaza automat. Pe
+ntru dezvoltare avem comenzile " }{TEXT 289 6 "expand" }{TEXT 205 4 " \+
+si " }{TEXT 290 6 "Expand" }{TEXT 205 1 "." }}}{EXCHG {PARA 200 "> " 
+0 "" {MPLTEXT 1 206 21 "p := (a+b+c)*(x+y+z);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"pG*&,(%\"aG\"\"\"%\"bGF(%\"cGF(F(,(%\"xGF(%\"yGF(%
+\"zGF(F(" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 10 "expand(p);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,4*&%\"aG\"\"\"%\"xGF&F&*&F%F&%\"y
+GF&F&*&F%F&%\"zGF&F&*&%\"bGF&F'F&F&*&F-F&F)F&F&*&F-F&F+F&F&*&%\"cGF&F'
+F&F&*&F1F&F)F&F&*&F1F&F+F&F&" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 
+110 "Substitutia previne expandarea. Putem realiza dezvoltari partiale
+, de exemplu dupa al doilea factor al al lui " }{TEXT 291 1 "p" }
+{TEXT 205 25 ", cur ar fi ceva de genul" }}}{EXCHG {PARA 200 "" 0 "" 
+{TEXT 292 33 "(a+b+c)*x + (a+b+c)*y + (a+b+c)*z" }{TEXT 205 1 "." }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 21 "q := subs(a+b+c=d,p);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG*&%\"dG\"\"\",(%\"xGF'%\"yGF'%
+\"zGF'F'" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 16 "eq := expan
+d(q);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#eqG,(*&%\"dG\"\"\"%\"xGF(F
+(*&F'F(%\"yGF(F(*&F'F(%\"zGF(F(" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 206 22 "r := subs(d=a+b+c,eq);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"rG,(*&,(%\"aG\"\"\"%\"bGF)%\"cGF)F)%\"xGF)F)*&F'F)%
+\"yGF)F)*&F'F)%\"zGF)F)" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 22 "Put
+em evita sa tastam " }{TEXT 293 5 "a+b+c" }{TEXT 205 20 ", utilizand c
+omanda " }{TEXT 294 6 "subsop" }{TEXT 205 1 ":" }}}{EXCHG {PARA 200 ">
+ " 0 "" {MPLTEXT 1 206 65 "q := subsop(1=d,p); # substituirea primului
+ operand al lui p cu d" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG*&%\"d
+G\"\"\",(%\"xGF'%\"yGF'%\"zGF'F'" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 206 16 "eq := expand(q);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%#eqG,(*&%\"dG\"\"\"%\"xGF(F(*&F'F(%\"yGF(F(*&F'F(%\"zGF(F(" }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 72 "r := subs(d=op(1,p),eq);
+ # substituirea lui d cu primul operand al lui p" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"rG,(*&,(%\"aG\"\"\"%\"bGF)%\"cGF)F)%\"xGF)F)*&F'F)%
+\"yGF)F)*&F'F)%\"zGF)F)" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 29 "Pen
+tru numere algebrice avem " }{TEXT 295 6 "Expand" }{TEXT 205 34 ", dar
+ numai penste campuri finite." }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 
+46 "Peste corpul numerelor rationale avem comanda " }{TEXT 296 5 "eval
+a" }{TEXT 205 1 ":" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 13 "r
+andomize(1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 206 26 "p := randpoly(x,degree=3);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,*\"#Q\"\"\"*&\"#iF')%\"xG\"\"$F
+'!\"\"*&\"#TF')F+\"\"#F'F'*&\"#FF'F+F'F-" }}}{EXCHG {PARA 200 "> " 0 "
+" {MPLTEXT 1 206 11 "irreduc(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%
+trueG" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 23 "alias(alpha=Ro
+otOf(p));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&alphaG" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 206 16 "factor(p,alpha);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,$*&,.*&\"#i\"\"\")%\"xG\"\"#F(F(*&\"#TF(F*F(!\"
+\"*(F'F(F*F(%&alphaGF(F(\"#FF(*&F-F(F0F(F.*&F'F()F0F+F(F(F(,&F*F(F0F.F
+(F." }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 23 "Vom lucra acum acum cu \+
+" }{TEXT 297 5 "alpha" }{TEXT 205 30 ", care este un numar algebric." 
+}}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 13 "n := alpha^8;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG*$)%&alphaG\"\")\"\"\"" }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 9 "evala(%);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,(*&#\"+F*Q\\7'\",%eN-!o&\"\"\"*$)%&alphaG\"\"#F(F
+(F(#\"+(GIgo%\",#z<,SGF(*&#\",L<>J\\\"F'F(F+F(F(" }}}{EXCHG {PARA 200 
+"" 0 "" {TEXT 205 52 "Peste un corp finit, de exemplu modulo 23, utili
+zam " }{TEXT 298 6 "Expand" }{TEXT 205 1 "." }}}{EXCHG {PARA 200 "> " 
+0 "" {MPLTEXT 1 206 18 "Irreduc(p) mod 23;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 
+22 "f := Factor(p) mod 23;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,$
+*(\"\"(\"\"\",&%\"xGF(\"\"$F(F(,(*$)F*\"\"#F(F(*&\"#;F(F*F(F(\"\"%F(F(
+F(" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 61 "#f3 := op(2,f); #
+ if f would be reducible, then select factor" }}}{EXCHG {PARA 200 "> \+
+" 0 "" {MPLTEXT 1 206 22 "alias(beta=RootOf(f));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$%&alphaG%%betaG" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 206 22 "Expand(beta^8) mod 23;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*&\"#?\"\"\")%%betaG\"\"#F&F&*&\"#8F&F(F&F&\"\"$F&" }
+}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 26 "Expand((beta+1)^8) mod
+ 23;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"#@\"\"\")%%betaG\"\"#F&F
+&*&\"#=F&F(F&F&\"\"'F&" }}}}{SECT 0 {PARA 201 "" 0 "" {TEXT 207 46 "3.
+ Factorizarea: exacta, simbolica si numerica" }}{EXCHG {PARA 200 "" 0 
+"" {TEXT 205 63 "Factorizarea exacta este peste corpul Q al numerelor \+
+rationale:" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 45 "f := (x -
+ rand()/rand())*(x - rand()/rand());" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"fG*&,&%\"xG\"\"\"#\"-Hu?ph()\"-;3T;.M!\"\"F(,&F'F(#\"-t=fy,i\"-F
+BRRy()F,F(" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 15 "p := expa
+nd(f);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*$)%\"xG\"\"#\"\"\"F
+**&#\"9^c*3%GCwqz#>!)*\"9K)3-8B'p7:V()HF*F(F*!\"\"#\"9<Xiq'*z0`Q\"QV&F
+.F*" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 206 10 "factor(p);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(\"9K)3-8B'p7:V()H!\"\",&*&\"-FBRRy
+()\"\"\"%\"xGF*F*\"-t=fy,iF&F*,&*&\"-;3T;.MF*F+F*F*\"-Hu?ph()F&F*F*" }
+}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 129 "Intr-o factorizare simbolica
+, extindem corpul numerelor rationale cu simboluri, care sunt radacini
+ ale polinoamelor ireductibile." }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 206 14 "factor(x^2+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+&*$)%\"xG\"\"#\"\"\"F(F'F(" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 
+206 26 "factor(x^2+2,\{I,sqrt(2)\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#*&,&%\"xG\"\"\"*&^#!\"\"F&\"\"##F&F*F&F&,&F%F&*&F*F+^#F&F&F&F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 11 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 205 53 "Putem spune Ma
+ple ce fel de factorizare sa realizeze." }}}{EXCHG {PARA 200 "> " 0 "
+" {MPLTEXT 1 206 22 "factor(x^2+2,complex);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&%\"xG\"\"\"^#$\"+iN@99!\"*F&F&,&F%F&^#$!+iN@99F*F&F
+&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 200 "
+" 0 "" {TEXT 205 84 "Factorizarea numerica se realizeaza intotdeauna p
+este corpul C al numerelor complexe" }}}}{PARA 202 "" 0 "" {TEXT -1 0 
+"" }}}{MARK "1 0 0" 8 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 
+0 1 2 33 1 1 }

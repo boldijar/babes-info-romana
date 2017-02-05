@@ -1,0 +1,64 @@
+* TTL (Time to live)
+=   DNS TTL     -   Timpul de viata a unei informatii cache-uita. Dupa ce trece timpul, server-ul va reimprospata valoarea
+
+    HTTP TTL    -   La fel ca la DNS
+
+    IP TTL      -   Folosit de routere pentru a preveni primirea pachetelor gresite care formeaza bucle infinite
+
+* Server de mail open-relay
+=   Este un server configurat astfel încât să permită oricui de pe Internet să trimită mail-uri prin el.
+    Aceasta a fost configurarea inițială în multe servere de mail, dar a devenit nepopulară datorită exploatării de către cei care trimiteau spam.
+
+* Un server DNS poate avea IP fals? Justificați!
+=   Nu, deoarece...
+
+* Două PC-uri aflate în aceeași rețea, pot avea default gateway-uri diferite?
+=   Nu, deoarece o rețea are un singur DG atașat unui echipament, pentru ca informația să poată părăsi rețeaua.
+    Astfel, orice pachet care trebuie să părăsească rețeaua va ști să se îndrepte către spre un punct, ...
+
+* Ce este RTO-ul (operatorul de retransmisie)?
+=   Este timpul maxim în care un calculator, sistem, rețea sau aplicație poate fi nefuncțională după eșec, sau un dezastru care poate să apară.
+    Acesta se măsoară în secunde.
+    (Din câte înțeleg: Când un pachet nu ajunge la destinație, sau a ajuns corupt, acesta va fi retrimis după #RTO secunde)
+
+* Două procese care rulează pe același PC pot folosi același port?
+=   Da, dacă folosesc IP-uri (placi de rețea) diferite (deci nu pe AF_INET) --- CRED?
+
+* Ce se întelege prin AS (sistem autonom)?
+=   Un sistem autonom este un set de router-e sub o singură administrație tehnică care se folosește de anumiți algoritmi de dirijare a pachetelor
+    pentru a ajunge dintr-o subrețea în alta.
+
+* Numiți cel puțin doi algoritmi de management al cozii de așteptare de la ... router-elor?
+=   Round Robin, Fair queueing, Weighted fair queueing, FIFO
+
+* DNS-urile responsabile pentru domeniul rădăcină (.) sunt interogate recursiv sau iterativ? Justificaţi răspunsul.
+=   Iterativ
+    Root domain-ul e cel mai important nivel al arborelui DNS și nu își permite să fie ocupat prea mult timp, iar o interogare recursiva
+    ar fi prea costisitoare din punct de vedere al timpului
+
+* Hub, switch, router (în ordine)
+=   1. HUB:     Dispozitiv de bază care conectează mai multe calculatoare sau alte dispozitive de rețea. Nu are tabelă de rutare.
+
+    2. SWITCH:  Dispozitiv care filtrează și transmite mai departe pachetele. Are tabelă de rutare.
+
+    3. ROUTER:  Dispozitiv care primește, analizează și mută pachete într-o altă rețea. Are tabelă de rutare.
+                Poate fi folosit pentru convertirea pachetelor la o altă interfață.
+
+    Diferența dintre SWITCH și ROUTER:  Switch-urile creează o rețea (intercomunică mai multe calculatoare)
+                                        Router-ele conectează rețele. Un router alege cea mai bună cale pentru călătoria informației,
+                                        în așa fel încât să fie primită cât mai rapid.
+
+* Default gateway, Domain name system
+=   DG:         Adresa IP a echipament-ului la care trebuie transmise datele pentru ca acestea să părăsească rețeaua locală.
+
+    DNS server: Permite introducerea de nume de sistem (am-site.ro), iar PC-ul să găsească automat adresa IP în internet.
+                Un DNS poate fi oricare PC înregistrat astfel.
+                El traduce numele de site-uri în adrese IP (ca o carte telefonica "Pagini Aurii", dar pentru internet)
+
+    HTTP:       E un protocol folosit în internet. Definește felul în care mesajele sunt formate și transmise, și ce acțiuni
+                ar trebui să ia server-ele web și browser-ele web.
+    
+    Web server: E un calculator care host-ează o pagină web. Orice server web are o adresă IP și un nume de domeniu.
+                Dacă introduci un URL (am-site.ro) în web browser, acesta trimite o cerere server-ului web care are adresa asociata cu
+                numele de domeniu am-site.ro. Server-ul aduce înapoi pagina numită "index.html" care va fi afișată de către browser.
+

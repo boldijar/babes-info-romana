@@ -1,0 +1,161 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 2 
+1 2 0 0 0 1 }{CSTYLE "2D Output" -1 20 "Times" 0 1 0 0 255 1 0 0 2 2 
+2 2 0 0 0 1 }{CSTYLE "_cstyle1" -1 204 "Times" 0 1 0 0 0 0 0 0 0 2 2 
+2 0 0 0 1 }{CSTYLE "_cstyle2" -1 205 "Courier" 0 1 255 0 0 1 0 1 0 2 
+1 2 0 0 0 1 }{CSTYLE "_cstyle3" -1 206 "Times" 1 18 0 0 0 0 0 1 0 2 2 
+2 0 0 0 1 }{CSTYLE "" 204 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" 204 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times
+" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }
+{PSTYLE "_pstyle1" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle2" -1 
+202 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 
+0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle3" -1 203 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 204 40 "Tipuri, atribute, propri
+etati si unitati" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 8 "rest
+art;" }}}{SECT 0 {PARA 202 "" 0 "" {TEXT 206 27 "1. Tipurile de date d
+e baza" }}{EXCHG {PARA 201 "" 0 "" {TEXT 204 76 "Tipurile de date de b
+aza: intregi, rationale, flotante, siruri de caractere." }}}{EXCHG 
+{PARA 201 "> " 0 "" {MPLTEXT 1 205 7 "a := 3;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"aG\"\"$" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 
+205 9 "b := 3.2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG$\"#K!\"\"" 
+}}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 25 "whattype(a); whattype
+(b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(integerG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%&floatG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+36 "c:=convert(b,fraction); whattype(c);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"cG#\"#;\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)fractionG
+" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 39 "Tipurile determina efectul
+ operatiilor." }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 27 "a + 10
+^(-20); b + 10^(-20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"6,++++++++
++$\"6++++++++++\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"#K!\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "In Maple exista si tipul sir de ca
+ractere (string)." }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 23 "s \+
+:= \"x*y + 3*x^3 - 8\";" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sGQ0x*y
+~+~3*x^3~-~86\"" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 12 "what
+type(s);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'stringG" }}}{EXCHG 
+{PARA 201 "> " 0 "" {MPLTEXT 1 205 46 "p := parse(s); # opposite to co
+nvert(p,string)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*&%\"xG\"\"
+\"%\"yGF(F(*&\"\"$F()F'F+F(F(\"\")!\"\"" }}}}{SECT 0 {PARA 202 "" 0 "
+" {TEXT 206 21 "2. Arbori de expresii" }}{EXCHG {PARA 201 "" 0 "" 
+{TEXT 204 34 "Sa examinam structura polinomului " }{TEXT 256 1 "p" }
+{TEXT 204 3 ".  " }{TEXT 257 2 "p " }{TEXT 204 50 "este o expresie, ad
+ica are un tip de date compus.." }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 28 "op(p); whattype(p); nops(p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%*&%\"xG\"\"\"%\"yGF%,$*&\"\"$F%)F$F)F%F%!\")" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%\"+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 204 12 "Observam ca " }{TEXT 258 
+2 "p " }{TEXT 204 56 "este de tipul \"+\" si este constituita din trei
+ operanzi." }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 51 "p1 := op(
+1,p); # selecteaza primul operand al lui p" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#p1G*&%\"xG\"\"\"%\"yGF'" }}}{EXCHG {PARA 201 "> " 0 
+"" {MPLTEXT 1 205 21 "op(p1); whattype(p1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$%\"xG%\"yG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"*G" }}
+}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 36 "p2 := op(2,p); op(p2); \+
+whattype(p2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p2G,$*&\"\"$\"\"\"
+)%\"xGF'F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$*$)%\"xGF#\"\"\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"*G" }}}{EXCHG {PARA 201 "> " 0 
+"" {MPLTEXT 1 205 78 "op([2,2],p); # x^3 este al 2-lea operand al celu
+i de-al 2-lea operand al lui p" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)%
+\"xG\"\"$\"\"\"" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 52 "op([
+2,2,1],p); op([2,2,2],p); whattype(op([2,2],p));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%\"xG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"^G" }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 52 "r := convert(p,`*`);  # convertim p din `+` in a `*
+`" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG,$*(\"#C\"\"\")%\"xG\"\"%F(
+%\"yGF(!\"\"" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 6 "op(r);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%!#C*$)%\"xG\"\"%\"\"\"%\"yG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 201 "> " 0 
+"" {MPLTEXT 1 205 20 "q := convert(r,`+`);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"qG,(\"#C!\"\"*$)%\"xG\"\"%\"\"\"F,%\"yGF," }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 120 "Este important de stiut ca nu tot
+i arborii de expresii sunt binari. Sunt atatea noduri pe primul nivel \+
+al arborelui lui " }{TEXT 259 2 "p " }{TEXT -1 18 "cati operanzi are \+
+" }{TEXT 260 1 "p" }{TEXT -1 8 " (adica " }{TEXT 261 7 "nops(p)" }
+{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 49 "Putem construi usor exp
+resii complicate in Maple:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "s := sum(x^'i','i'=1..10);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG,6%\"xG\"\"\"*$)F&\"\"#F'F'*$)F&
+\"\"$F'F'*$)F&\"\"%F'F'*$)F&\"\"&F'F'*$)F&\"\"'F'F'*$)F&\"\"(F'F'*$)F&
+\"\")F'F'*$)F&\"\"*F'F'*$)F&\"#5F'F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "op(s);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6,%\"xG*$)F#\"
+\"#\"\"\"*$)F#\"\"$F'*$)F#\"\"%F'*$)F#\"\"&F'*$)F#\"\"'F'*$)F#\"\"(F'*
+$)F#\"\")F'*$)F#\"\"*F'*$)F#\"#5F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "map(sin,s); #se aplica sin tuturor operanzilor" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,6-%$sinG6#%\"xG\"\"\"-F%6#*$)F'\"\"#F
+(F(-F%6#*$)F'\"\"$F(F(-F%6#*$)F'\"\"%F(F(-F%6#*$)F'\"\"&F(F(-F%6#*$)F'
+\"\"'F(F(-F%6#*$)F'\"\"(F(F(-F%6#*$)F'\"\")F(F(-F%6#*$)F'\"\"*F(F(-F%6
+#*$)F'\"#5F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "l:=[op(s)
+];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"lG7,%\"xG*$)F&\"\"#\"\"\"*$)
+F&\"\"$F**$)F&\"\"%F**$)F&\"\"&F**$)F&\"\"'F**$)F&\"\"(F**$)F&\"\")F**
+$)F&\"\"*F**$)F&\"#5F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "l
+s:=\{op(s)\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#lsG<,%\"xG*$)F&\"
+\"$\"\"\"*$)F&\"\"%F**$)F&\"\"#F**$)F&\"\"&F**$)F&\"\"'F**$)F&\"\"(F**
+$)F&\"\")F**$)F&\"\"*F**$)F&\"#5F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "ls1:=[op(s),x^5];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%$ls1G7-%\"xG*$)F&\"\"#\"\"\"*$)F&\"\"$F**$)F&\"\"%F**$)F&\"\"&F**$)F
+&\"\"'F**$)F&\"\"(F**$)F&\"\")F**$)F&\"\"*F**$)F&\"#5F*F1" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "ls1:=\{op(s),x^5\};" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%$ls1G<,%\"xG*$)F&\"\"$\"\"\"*$)F&\"\"%F**$)F&\"
+\"#F**$)F&\"\"&F**$)F&\"\"'F**$)F&\"\"(F**$)F&\"\")F**$)F&\"\"*F**$)F&
+\"#5F*" }}}}{SECT 0 {PARA 202 "" 0 "" {TEXT 206 11 "3. Atribute" }}
+{EXCHG {PARA 201 "" 0 "" {TEXT 204 197 "Atributele sunt caracteristici
+ ale variabilelor care pot fi adaugate de catre utilizator. Ele sunt m
+ai mult pentru uz uman si pot fi privite ca o adnotare sau un comentar
+iu adaugate unei variabile." }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 
+205 17 "p := x^2 + x + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*
+$)%\"xG\"\"#\"\"\"F*F(F*F*F*" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 
+1 205 23 "alias(alpha=RootOf(p));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+&alphaG" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 16 "whattype(alp
+ha);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)functionG" }}}{EXCHG {PARA 
+201 "" 0 "" {TEXT 204 79 "Pentru a asocia semnificati de radacina form
+la lui alpha ii adaugam un atribut:" }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 60 "alpha := setattribute(alpha,\"a formal root of x^2 \+
++ x + 1\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&alphaGK%'RootOfG6#,(
+*$)%#_ZG\"\"#\"\"\"F-F+F-F-F-Q=a~formal~root~of~x^2~+~x~+~16\"" }}}
+{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 50 "attributes(alpha); # que
+ry the attributes of alpha" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#Q=a~form
+al~root~of~x^2~+~x~+~16\"" }}}}{SECT 0 {PARA 202 "" 0 "" {TEXT 206 14 
+"4. Proprietati" }}{EXCHG {PARA 201 "" 0 "" {TEXT 204 171 "A proprieta
+te este tot o informatie adaugata de utilizator, dar spre deosebire de
+ un atribut este luata in considerare pe parcursul calculelor, in spec
+ial la simplificari." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sqr
+t(x^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$*$)%\"xG\"\"#\"\"\"#F(F'
+" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 15 "assume(x,real);" }}
+}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 20 "simplify(sqrt(x^2));" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$absG6#%#x|irG" }}}{EXCHG {PARA 
+201 "" 0 "" {TEXT 204 44 "Maple realizeaza simplificarea datorita lui \+
+" }{TEXT 262 6 "assume" }{TEXT 204 25 ". Caracterul \"~\" de dupa " }
+{TEXT 263 1 "x" }{TEXT 204 20 " indica acest lucru." }}}}{SECT 0 
+{PARA 202 "" 0 "" {TEXT 206 10 "5. Unitati" }}{EXCHG {PARA 201 "" 0 "
+" {TEXT 204 48 "Unitatile de masura dau semnificatie calculelor." }}}
+{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 26 "convert(1,units,km,miles
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"&Dc\"\"&Y^#" }}}{EXCHG {PARA 
+201 "> " 0 "" {MPLTEXT 1 205 9 "evalf(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+A>r8i!#5" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 
+205 22 "with(Units[Standard]):" }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 19 "a := 3*Unit(miles);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"aG,$*&\"\"$\"\"\"-%%UnitG6#7#%#miGF(F(" }}}{EXCHG {PARA 201 
+"> " 0 "" {MPLTEXT 1 205 16 "b := 7*Unit(km);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"bG,$*&\"\"(\"\"\"-%%UnitG6#7#%#kmGF(F(" }}}{EXCHG 
+{PARA 201 "> " 0 "" {MPLTEXT 1 205 9 "c := a+b;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"cG,$*&#\"(/&y9\"$D\"\"\"\"-%%UnitG6#7#%\"mGF*F*" }}
+}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 9 "evalf(c);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,$*&$\"++K!G=\"!\"&\"\"\"-%%UnitG6#7#%\"mGF(F(" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 201 "" 
+0 "" {TEXT 204 16 "Dupa incarcarea " }{TEXT 264 15 "Units[Standard]" }
+{TEXT 204 47 ", Maple converteste automat la sistemul metric." }}}}
+{PARA 203 "" 0 "" {TEXT -1 0 "" }}}{MARK "6 8 0 0" 0 }{VIEWOPTS 1 1 0 
+3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

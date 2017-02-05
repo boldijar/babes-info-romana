@@ -1,0 +1,212 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "_cstyle1" -1 204 "Times" 0 1 0 0 0 0 0 0 0 2 2 2 0 0 0 1 }
+{CSTYLE "_cstyle2" -1 205 "Courier" 0 1 255 0 0 1 0 1 0 2 1 2 0 0 0 1 
+}{CSTYLE "_cstyle3" -1 206 "Times" 1 18 0 0 0 0 0 1 0 2 2 2 0 0 0 1 }
+{CSTYLE "_cstyle4" -1 207 "Times" 1 14 0 0 0 0 0 1 0 2 2 2 0 0 0 1 }
+{CSTYLE "" 204 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 207 264 "Courier" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 270 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" 204 
+271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 272 "C
+ourier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 273 "Courier
+" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 
+2 2 0 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 
+255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" 0 
+18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 
+12 12 0 0 0 0 0 0 19 0 }{PSTYLE "_pstyle1" -1 200 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "_pstyle2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle3" -1 
+202 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 
+0 0 8 2 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle4" -1 203 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 270 31 "Definirea functiilor mat
+ematice" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 8 "restart;" }}}
+{SECT 0 {PARA 201 "" 0 "" {TEXT 206 21 "1. Functii matematice" }}
+{EXCHG {PARA 200 "" 0 "" {TEXT 204 53 "Vom vedea trei moduri de a defi
+ni functii matematice." }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 
+52 "expT := 30 + 40*exp(-0.2*t); # temperatura de racire" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%%expTG,&\"#I\"\"\"*&\"#SF'-%$expG6#,$*&$\"\"#!
+\"\"F'%\"tGF'F1F'F'" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 70 "Daca do
+rim sa evaluam aceasta formula pentru mai multe valori ale lui " }
+{TEXT 262 1 "t" }{TEXT 204 29 ", putem lucra in trei moduri:" }}}
+{SECT 0 {PARA 202 "" 0 "" {TEXT 207 27 "1.1. utilizarea unui macrou" }
+}{EXCHG {PARA 200 "" 0 "" {TEXT 204 33 "Am utilizat deja substitutia; \+
+in " }{TEXT 256 7 "t = 1.5" }{TEXT 204 6 " avem:" }}}{EXCHG {PARA 200 
+"> " 0 "" {MPLTEXT 1 205 17 "subs(t=1.5,expT);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&\"#I\"\"\"*&\"#SF%-%$expG6#$!#I!\"#F%F%" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 205 9 "evalf(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+$)GFjf!\")" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 
+1 205 55 "macro(mt = evalf @ subs); # aceeasi sintaxa ca la alias" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%#mtG" }}}{EXCHG {PARA 200 "" 0 "" 
+{TEXT 257 2 "mt" }{TEXT 204 36 " este definita ca o compunere a lui " 
+}{TEXT 258 4 "subs" }{TEXT 204 12 ", urmata de " }{TEXT 259 5 "evalf" 
+}{TEXT 204 1 "." }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 35 "Aplicam ace
+asta compunere formulei " }{TEXT 260 4 "expT" }{TEXT 204 30 ", cu argu
+mentul with argument " }{TEXT 261 7 "t = 1.5" }{TEXT 204 1 "." }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 15 "mt(t=1.5,expT);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+$)GFjf!\")" }}}{EXCHG {PARA 200 "
+" 0 "" {TEXT 204 137 "Avantajul acestei abordari este acela ca este le
+gat foarte mult de substitutie, cu o legatura explicita intre nume si \+
+parametrii formali." }}}}{SECT 0 {PARA 202 "" 0 "" {TEXT 207 17 "1.2. \+
+ca procedura" }}{EXCHG {PARA 200 "" 0 "" {TEXT -1 47 "Putem utiliza fo
+rmula sub forma unei proceduri." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 141 "proctemp := proc(x) #defini
+m o functie\n    description `temperatura de racire`;\n    global expT
+;\n    return evalf(subs(t=x, expT));\nend proc;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%)proctempGf*6#%\"xG6\"F(F(O-%&evalfG6#-%%subsG6$/%\"t
+G9$%%expTG6#%6temperatura~de~racireG6#F3F(" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 43 "Un mod mai simplu de a face asta este prin " }{TEXT 204 
+9 "pachetul " }{TEXT 263 7 "codegen" }{TEXT 204 1 "." }}}{EXCHG {PARA 
+200 "> " 0 "" {MPLTEXT 1 205 31 "f := codegen[makeproc](expT,t);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fGf*6#%\"tG6\"F(F(,&\"#I\"\"\"*&\"
+#SF+-%$expG6#,$*&$\"\"#!\"\"F+9$F+F5F+F+F(F(F(" }}}{EXCHG {PARA 200 ">
+ " 0 "" {MPLTEXT 1 205 7 "f(1.5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"+$)GFjf!\")" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 215 "Astfel avem \+
+o definitie conventionala de functie. Avem o valoare de intrare si una
+ de iesire.  Spre deosebire de un macrou, nu trebuie sa dam o ecuatie \+
+la intrare. Nici nu trebuie sa stim numele variabilei  formale." }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 8 "f(time);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,&\"#I\"\"\"*&\"#SF%-%$expG6#,$*&$\"\"#!\"\"F%%%ti
+meGF%F/F%F%" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 191 "Spre deosebire
+ de functiile conventionale, care primesc o valoare de intrare si retu
+rneaza o valoare de iesire, in calculul simbolic putem apela  functii \+
+cu simboluri si sa recuperam formula." }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 7 "f(3/2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+$)GFj
+f!\")" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 82 "Datorita prezentei lu
+i -0.2 in definitie, formula nu returneaza un rezultat exact." }{TEXT 
+205 1 " " }}}}{SECT 0 {PARA 202 "" 0 "" {TEXT -1 0 "" }{TEXT 207 16 "1
+.3. utilizarea " }{TEXT 264 7 "unapply" }}{EXCHG {PARA 200 "" 0 "" 
+{TEXT 204 81 "Probabil cel mai convenabil mod de a converti o formula \+
+intr-o functie este prin " }{TEXT 265 7 "unapply" }{TEXT 204 1 "." }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 21 "g := unapply(expT,t);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gGf*6#%\"tG6\"6$%)operatorG%&arro
+wGF(,&\"#I\"\"\"*&\"#SF.-%$expG6#,$*&$\"\"#!\"\"F.9$F.F8F.F.F(F(F(" }}
+}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 7 "g(1.5);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#$\"+$)GFjf!\")" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 
+204 91 "Putem recupera formula initiala evaluand functia cu un argumen
+t variabila formala (simbol):" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 
+1 205 52 "g(time); # se aplica functia variabilei formale time" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"#I\"\"\"*&\"#SF%-%$expG6#,$*&$\"\"
+#!\"\"F%%%timeGF%F/F%F%" }}}}}{SECT 0 {PARA 201 "" 0 "" {TEXT 206 21 "
+2. Operatorul sageata" }}{EXCHG {PARA 200 "" 0 "" {TEXT 204 133 "Opera
+torul sageata este foarte apropiat de notatia din matematica pentru fu
+nctii, similar cu modul cum o facem cu creionul si hartia:" }}}{EXCHG 
+{PARA 200 "" 0 "" {TEXT 204 0 "" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 30 "h := t -> 30 + 40*exp(-0.2*t);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"hGf*6#%\"tG6\"6$%)operatorG%&arrowGF(,&\"#I\"\"\"*&
+\"#SF.-%$expG6#,$*&$\"\"#!\"\"F.9$F.F8F.F.F(F(F(" }}}{EXCHG {PARA 200 
+"> " 0 "" {MPLTEXT 1 205 7 "h(1.5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#$\"+$)GFjf!\")" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 41 "Daca formul
+a este prea lunga putem tasta:" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 16 "h2 := t -> expT;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%#h2Gf*6#%\"tG6\"6$%)operatorG%&arrowGF(%%expTGF(F(F(" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 205 8 "h2(1.5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&\"#I\"\"\"*&\"#SF%-%$expG6#,$*&$\"\"#!\"\"F%%\"tGF%F/
+F%F%" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 62 "Problema cu aceasta ab
+ordare este ca, atunci cand s-a definit " }{TEXT 266 2 "h2" }{TEXT 
+204 10 ", formula " }{TEXT 267 4 "expT" }{TEXT 204 60 " nu a fost  eva
+luata, nu a fost legata de variabila formala " }{TEXT 0 1 "t" }{TEXT 
+204 52 ". Aceasta problema motiveaza existenta operatorului " }}}
+{EXCHG {PARA 200 "" 0 "" {TEXT 268 7 "unapply" }{TEXT 204 1 "." }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 33 "h3 := x -> evalf(subs(t=
+x,expT));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#h3Gf*6#%\"xG6\"6$%)ope
+ratorG%&arrowGF(-%&evalfG6#-%%subsG6$/%\"tG9$%%expTGF(F(F(" }}}{EXCHG 
+{PARA 200 "> " 0 "" {MPLTEXT 1 205 8 "h3(1.5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+$)GFjf!\")" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 
+3 "Cu " }{TEXT 0 4 "subs" }{TEXT 204 36 ", am fortat evaluarea formule
+i.  Cu " }{TEXT 0 5 "evalf" }{TEXT 204 197 ", am creat valoarea in vir
+gula flotanta. O ilustrare in mai multe variabile este evaluarea cu pr
+ecizie multipla. Sa presupunem ca dorim sa dam un parametru aditional,
+ numarul de cifre din rezultat." }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 38 "e := (x,n) -> evalf(subs(t=x,expT),n);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"eGf*6$%\"xG%\"nG6\"6$%)operatorG%&arrowGF)-
+%&evalfG6$-%%subsG6$/%\"tG9$%%expTG9%F)F)F)" }}}{EXCHG {PARA 200 "> " 
+0 "" {MPLTEXT 1 205 10 "e(1.5,20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$\"5VYros#)GFjf!#=" }}}}{SECT 0 {PARA 201 "" 0 "" {TEXT 206 31 "3. Fun
+ctii definite pe portiuni" }}{EXCHG {PARA 200 "" 0 "" {TEXT 204 32 "Pu
+tem defini functii cu acolada:" }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 14 "hat := proc(x)" }}{PARA 200 "> " 0 "" {MPLTEXT 1 
+205 38 "  description \"a simple hat function\":" }}{PARA 200 "> " 0 "
+" {MPLTEXT 1 205 15 "  if x < 1 then" }}{PARA 200 "> " 0 "" {MPLTEXT 
+1 205 13 "    return 0;" }}{PARA 200 "> " 0 "" {MPLTEXT 1 205 17 "  el
+if x < 2 then" }}{PARA 200 "> " 0 "" {MPLTEXT 1 205 13 "    return 1;
+" }}{PARA 200 "> " 0 "" {MPLTEXT 1 205 6 "  else" }}{PARA 200 "> " 0 "
+" {MPLTEXT 1 205 13 "    return 0;" }}{PARA 200 "> " 0 "" {MPLTEXT 1 
+205 9 "  end if;" }}{PARA 200 "> " 0 "" {MPLTEXT 1 205 9 "end proc;" }
+}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$hatGf*6#%\"xG6\"F(F(@'29$\"\"\"O\"
+\"!2F+\"\"#OF,OF.6#Q6a~simple~hat~functionF(F(F(" }}}{EXCHG {PARA 200 
+"> " 0 "" {MPLTEXT 1 205 35 "plot(hat,0..3,scaling=constrained);" }}
+{PARA 13 "" 1 "" {GLPLOT2D 508 508 508 {PLOTDATA 2 "6&-%'CURVESG6$7co7
+$$\"\"!F)F(7$$\"3s******\\i9Rl!#>F(7$$\"3/++vVA)GA\"!#=F(7$$\"3+++]Peu
+i=F1F(7$$\"3A++]i3&o]#F1F(7$$\"3%)***\\(oX*y9$F1F(7$$\"3z***\\P9CAu$F1
+F(7$$\"3!)***\\P*zhdVF1F(7$$\"31++v$>fS*\\F1F(7$$\"3$)***\\(=$f%GcF1F(
+7$$\"3Q+++Dy,\"G'F1F(7$$\"33++]7<zboF1F(7$$\"3`+++v4&G](F1F(7$$\"3!)**
+***\\7nD:)F1F(7$$\"3[+++D!*oy()F1F(7$$\"3=+]Pf$yH1*F1F(7$$\"3))***\\Pp
+nsM*F1F(7$$\"3n*\\i:X\"H;&*F1F(7$$\"3e+]P4_J&o*F1F(7$$\"3-^7G)3F)p(*F1
+F(7$$\"3O+v=n*QV&)*F1F(7$$\"3eD1k1\\f'*)*F1F(7$$\"3p\\P4Y3&)Q**F1F(7$$
+\"3w6.#e\")y*f**F1F(7$$\"3#\\(oa&y16)**F1F(7$$\"3\"QMFbZB-+\"!#<$\"\"
+\"F)7$$\"3,++]siL-5FapFbp7$$\"3,++DJL(4.\"FapFbp7$$\"3-+++!R5'f5FapFbp
+7$$\"3)***\\P/QBE6FapFbp7$$\"3!******\\\"o?&=\"FapFbp7$$\"31+]Pa&4*\\7
+FapFbp7$$\"33+]7j=_68FapFbp7$$\"33++vVy!eP\"FapFbp7$$\"34+](=WU[V\"Fap
+Fbp7$$\"3)****\\7B>&)\\\"FapFbp7$$\"3)***\\P>:mk:FapFbp7$$\"3'***\\iv&
+QAi\"FapFbp7$$\"31++vtLU%o\"FapFbp7$$\"3!******\\Nm'[<FapFbp7$$\"3\"**
+**\\(yb^6=FapFbp7$$\"3)***\\PMaKs=FapFbp7$$\"33+D\"G#\\31>FapFbp7$$\"3
+&****\\7TW)R>FapFbp7$$\"33+v=7;,b>FapFbp7$$\"3)***\\78)y,(>FapFbp7$$\"
+3%*\\Pf8Cwx>FapFbp7$$\"3!**\\iS,Y`)>FapFbp7$$\"3wuoH9y8*)>FapFbp7$$\"3
+%)\\7`9'HH*>FapFbp7$$\"3EP%[Y^D[*>FapFbp7$$\"3#\\ilZT@n*>FapFbp7$$\"3O
+7G)[J<')*>FapFbp7$$\"3z*****\\@80+#FapF(7$$\"3q***\\Pm,H.#FapF(7$$\"31
+++]7,Hl?FapF(7$$\"3()**\\P4w)R7#FapF(7$$\"3;++]x%f\")=#FapF(7$$\"3!)**
+\\P/-a[AFapF(7$$\"3/+](=Yb;J#FapF(7$$\"3')****\\i@OtBFapF(7$$\"3')**\\
+PfL'zV#FapF(7$$\"3>+++!*>=+DFapF(7$$\"3-++DE&4Qc#FapF(7$$\"3=+]P%>5pi#
+FapF(7$$\"39+++bJ*[o#FapF(7$$\"33++Dr\"[8v#FapF(7$$\"3++++Ijy5GFapF(7$
+$\"31+]P/)fT(GFapF(7$$\"31+]i0j\"[$HFapF(7$$\"\"$F)F(-%'COLOURG6&%$RGB
+G$\"*++++\"!\")F(F(-%(SCALINGG6#%,CONSTRAINEDG-%+AXESLABELSG6$Q!6\"Fiy
+-%%VIEWG6$;F(Fix%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 1 1.000000 45.000000 
+45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 82 "Des
+i aceasta procedura functioneaza pentru evaluare, ea nu merge pentru i
+ntegrare:" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 19 "int(hat(t)
+,t=0..3);" }}{PARA 8 "" 1 "" {TEXT -1 79 "`Error, (in hat) cannot dete
+rmine if this expression is true or false: t < 1\\n`" }}}{EXCHG {PARA 
+200 "> " 0 "" {MPLTEXT 1 205 16 "int(hat,x=0..3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*&\"\"$\"\"\"%$hatGF&F&" }}}{EXCHG {PARA 200 "> " 0 "
+" {MPLTEXT 1 205 12 "diff(hat,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"!" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 48 "Maple nu poate calcul
+a aria de sub graficul lui " }{TEXT 269 3 "hat" }{TEXT 204 45 " daca s
+e utilizeaza definitia prin procedura." }}}{EXCHG {PARA 200 "> " 0 "" 
+{MPLTEXT 1 205 33 "phat := piecewise(x<1,0,x<2,1,0);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%%phatG-%*PIECEWISEG6%7$\"\"!2%\"xG\"\"\"7$F,2F+\"
+\"#7$F)%*otherwiseG" }}}{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 17 "
+int(phat,x=0..3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 200 "> " 0 "" {MPLTEXT 1 205 13 "diff(phat,x);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%*PIECEWISEG6%7$%*undefinedG/%\"xG\"\"\"7$F
+'/F)\"\"#7$\"\"!%*otherwiseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 25 "Avantajul utilizarii \+
+lui " }{TEXT 271 9 "piecewise" }{TEXT 204 34 " este ca lucreaza in ope
+ratori ca " }{TEXT 272 4 "diff" }{TEXT 204 4 " si " }{TEXT 273 3 "int
+" }{TEXT 204 1 "." }}}{EXCHG {PARA 200 "" 0 "" {TEXT 204 98 "Pentru de
+rivarea unei proceduri avem operatorul de derivare automata, care se v
+a vedea mai tarziu." }}}}{PARA 203 "" 0 "" {TEXT -1 0 "" }}}{MARK "4 1
+2 0 0" 0 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 
+}

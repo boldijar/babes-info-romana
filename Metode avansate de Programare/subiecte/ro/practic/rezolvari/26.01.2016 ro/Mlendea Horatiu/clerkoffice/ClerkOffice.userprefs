@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="ClerkOfficeCommon/ClerkOfficeCommon.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClerkOfficeClient/UI/ClerkLoginWindow.cs">
+    <Files>
+      <File FileName="ClerkOfficeClient/Program.cs" Line="15" Column="13" />
+      <File FileName="ClerkOfficeClient/MainWindow.cs" Line="26" Column="14" />
+      <File FileName="ClerkOfficeClient/UI/ClerkLoginWindow.cs" Line="21" Column="41" />
+      <File FileName="ClerkOfficeClient/UI/ClerkOfficeWindow.cs" Line="57" Column="5" />
+      <File FileName="ClerkOfficeServer/Controllers/ClerkOfficeManager.cs" Line="63" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

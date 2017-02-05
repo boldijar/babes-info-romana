@@ -1,0 +1,84 @@
+* Server port is 25
+* The protocol is text
+*  Allows for offline message exchanging
+Mail system
+* SMTP – mail exchange protocol
+* Mail Reading
+* POP3 Post Office Protocol
+* IMAP Internet Mail Access Protocol
+It is very common for email software to use SMTP to send mail and POP3 to receive it, but SMTP can be used to receive mail.
+
+SMTP is a relatively simple, text-based protocol, in which one or more recipients of a message are specified (and in most cases verified to exist) along with the message text and possibly other encoded objects. The message is then transferred to a remote server using a procedure of queries and responses between the client and server.
+
+The SMTP client initiates a TCP connection to server's port 25 (unless overridden by configuration). It is quite easy to test an SMTP server using the telnet program (see below).
+SMTP is a "push" protocol that cannot "pull" messages from a remote server on demand. To retrieve messages only on demand, which is the most common requirement on a single-user computer, a mail client must use POP3 or IMAP. 
+
+Commands: Extended HELLO (EHLO) or HELLO (HELO) 
+   MAIL (MAIL) 
+   RECIPIENT (RCPT) 
+   DATA (DATA) 
+   RESET (RSET) 
+   VERIFY (VRFY) 
+   EXPAND (EXPN) 
+   HELP (HELP) 
+   NOOP (NOOP) 
+   QUIT (QUIT)
+
+MAIL (MAIL)
+
+   This command is used to initiate a mail transaction in which the mail
+   data is delivered to an SMTP server which may, in turn, deliver it to
+   one or more mailboxes or pass it on to another system (possibly using
+   SMTP).
+
+Syntax:
+
+      "MAIL FROM:" ("<>" / Reverse-Path)
+                       [SP Mail-parameters] CRLF
+RECIPIENT (RCPT)
+
+   This command is used to identify an individual recipient of the mail
+   data; multiple recipients are specified by multiple use of this
+   command.
+Syntax: RCPT TO:<@jkl.org:userc@d.bar.org>
+
+DATA
+354 End data with <CR><LF>.<CR><LF>
+   The receiver normally sends a 354 response to DATA, and then treats
+   the lines (strings ending in <CRLF> sequences
+
+RESET (RSET)
+
+   This command specifies that the current mail transaction will be
+   aborted.
+Syntax:
+      "RSET" CRLF
+VERIFY (VRFY)
+
+   This command asks the receiver to confirm that the argument
+   identifies a user or mailbox.
+Syntax:
+      "VRFY" SP String CRLF
+HELP (HELP)
+
+   This command causes the server to send helpful information to the
+   client.
+"HELP" [ SP String ] CRLF
+
+QUIT (QUIT)
+
+   This command specifies that the receiver MUST send an OK reply, and
+   then close the transmission channel.
+
+Syntax:
+      "QUIT" CRLF
+
+Extended HELLO (EHLO) or HELLO (HELO)
+
+   These commands are used to identify the SMTP client to the SMTP
+   server.  The argument field contains the fully-qualified domain name
+   of the SMTP client if one is available.
+Syntax:
+
+      ehlo            = "EHLO" SP Domain CRLF
+      helo            = "HELO" SP Domain CRLF

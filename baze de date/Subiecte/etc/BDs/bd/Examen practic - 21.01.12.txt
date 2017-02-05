@@ -1,0 +1,58 @@
+Examen practic BD ( gr 321/2 – Rand 1)
+
+
+
+Se da baza de date Cofetarie cu urmatoarea structura:
+
+
+
+Prajituri (idPrajitura, denumire, reteta)
+
+Comenzi (idComanda, idPrajitura, nume, data)
+
+
+
+unde tabelul Comenzi contine prajiturile comandate in cofetarie, numele persoanei care a facut comanda si data la care s-a facut comanda.
+
+
+
+1. Sa se creeze aceste tabele intr-o baza de date SQL Server si sa se insereze cateva inregistrari in acestea. Se va preda scriptul care efectueaza aceste operatii.
+
+
+2. Sa se creeze o aplicatie .Net (VB sau C#) in care sa se permita efectuarea operatiilor:
+
+	A. se verifica daca in tabelul Prajituri exista coloana reteta;
+ daca exista, se sterge (cu metode si proprietati ADO.Net, si nu se permite verificarea existentei coloanei cu prindere de exceptie!!!)
+-
+	B. afisarea prajiturilor (idPrajitura + denumire)
+-	C. stergerea comenzilor mai vechi de o anumita data ( data din interfata)
+-
+	D. afisare situatie (intr-un control oarecare al aplicatiei):pentru fiecare prajitura, numele persoanei (persoanelor) care a 
+comandat-o de cele mai multe ori, numarul de ori maxim, si ultima data la care a fost comandata.
+
+
+ 
+Ex:
+Cremes, Ionut, 20, 02/09/2011
+
+Cremes, Ana, 20, 02/10/2011
+	
+Tiramisu, Ana, 15, 03/04/2011
+
+Ecler, Maria, 5, 01/01/2012
+
+
+
+Obs:
+Estetica formei nu este un criteriu de apreciere.
+Nu se cere validarea datelor introduse de catre utilizator.
+	Timp de lucru: 1h 45 min
+
+
+Punctaj
+2p	oficiu
+2p	1.creare tabele + inserare inregistrari
+1.5p	2A.verificare existenta coloana (0.5p) + stergere coloana (1p)
+1p	2B.afisare
+1.5p	2C.stergere 
+2p	2D.situatie

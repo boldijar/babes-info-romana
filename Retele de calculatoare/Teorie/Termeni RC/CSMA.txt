@@ -1,0 +1,13 @@
+Carrier Sense Multiple Access (CSMA) is a probabilistic Media Access Control (MAC) protocol in which a node verifies the absence of other traffic before transmitting on a shared physical medium, such as an electrical bus, or a band of electromagnetic spectrum.
+"Carrier Sense" describes the fact that a transmitter listens for a carrier wave before trying to send. That is, it tries to detect the presence of an encoded signal from another station before attempting to transmit. If a carrier is sensed, the node waits for the transmission in progress to finish before initiating its own transmission.
+"Multiple Access" describes the fact that multiple nodes send and receive on the medium. Transmissions by one node are generally received by all other nodes using the medium.
+* 1-Persistent CSMA
+
+* Non-Persistent CSMA
+
+* P-persistent CSMA
+
+Carrier Sense Multiple Access With Collision Detection (CSMA/CD), in computer networking, is a network control protocol in which
+* a carrier sensing scheme is used. 
+* a transmitting data station that detects another signal while transmitting a frame, stops transmitting that frame, transmits a jam signal, and then waits for a random time interval (known as "backoff delay" and determined using the truncated binary exponential backoff algorithm) before trying to send that frame again. 
+

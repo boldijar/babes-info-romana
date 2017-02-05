@@ -1,0 +1,31 @@
+Made in:
+  - Java: - IntelliJ IDEA Community Edition 15 on Arch Linux x86_64
+  - C#:   - MonoDevelop 5.10 on Arch Linux x86_64
+          - Visual Studio 2015 Community on Windows 10 x64
+
+O aplicație care gestionează progrămările pacienților făcute la un doctor de familie.
+Entități: Programare, Pacient
+
+Entitatea Programare:
+    - ID
+    - Data
+    - PacientID
+    - Motiv/Diagnostic
+    - Status (Urmează, anulată, îndeplinită/terminată) - de tip enum
+    - Urgență - de tip bool
+
+Entitatea Pacient:
+    - ID
+    - Nume
+    - Vârstă
+
+Funcționalități posibile:
+    - Listarea programărilor dintr-o zi/lună cu un anumit status
+    - Listarea programărilor de tip urgență
+    - Listarea pacienților în ordine alfabetică, și numărul de programări
+    - Filtrarea programărilor după pacient
+    - Filtrarea programărilor după diagnostic
+    - Filtrarea pacienților după un interval de vârstă
+    - Găsirea celui mai des întâlnit diagnostic
+    - Găsirea mediei de vârstă a pacienților
+    - Etc...

@@ -1,0 +1,18 @@
+USE [OnlineLottery]
+GO
+/****** Object:  StoredProcedure [dbo].[AddDefault]    Script Date: 20.10.2015 19:51:32 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[AddDefault]
+AS
+BEGIN
+	ALTER TABLE Clients
+	ADD CONSTRAINT ccc DEFAULT 'Popescu' FOR Name
+END

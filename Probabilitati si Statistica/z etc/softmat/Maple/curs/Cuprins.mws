@@ -1,0 +1,79 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 
+0 0 1 }{CSTYLE "" -1 256 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 257 "" 1 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Time
+s" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 
+2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Title" -1 
+18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }3 1 0 
+0 12 12 1 0 1 0 2 2 19 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 8 8 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 2 }{PSTYLE "Normal" -1 257 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 257 20 "Introducere in Maple" }}
+{PARA 19 "" 0 "" {TEXT 256 14 "Radu Trimbitas" }{TEXT -1 0 "" }}{PARA 
+257 "" 0 "" {TEXT -1 21 "tradu@math.ubbcluj.ro" }}{PARA 257 "" 0 "" 
+{TEXT -1 22 "math.ubbcluj.ro/~tradu" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 0 {PARA 3 "" 0 "" {TEXT -1 23 "1. Introducere in Maple" }}{PARA 
+256 "" 0 "" {HYPERLNK 17 "S1.1" 1 "e:\\Radu\\maple\\cursuri\\cursuriro
+m\\lec01rom.mws" "" }{TEXT -1 32 " Introducere in Computer Algebra" }}
+{PARA 256 "" 0 "" {HYPERLNK 17 "S1.2" 1 "e:\\Radu\\maple\\cursuri\\cur
+surirom\\lec02rom.mws" "" }{TEXT -1 45 " Lansarea Maple, sistemul de h
+elp, biblioteca" }}{PARA 256 "" 0 "" {HYPERLNK 17 "S1.3" 1 "lec03rom.m
+ws" "" }{TEXT -1 46 " Numere in Maple: numere rationale si flotante" }
+}{PARA 256 "" 0 "" {HYPERLNK 17 "S1.4" 1 "lec04rom.mws" "" }{TEXT -1 
+46 " Numere in Maple: numere algebrice si complexe" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 25 "2. Variabile si \+
+atribuiri" }}{PARA 256 "" 0 "" {HYPERLNK 17 "S2.1" 1 "lec05rom.mws" "
+" }{TEXT -1 33 " Atribuire si anularea atribuirii" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "S2.2" 1 "lec06rom.mws" "" }{TEXT -1 33 " Evaluarea si nu
+mele de variabile" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S2.4" 1 "lec07rom.
+mws" "" }{TEXT -1 41 " Tipuri, atribute, proprietati si unitati" }}
+{PARA 15 "" 0 "" {HYPERLNK 17 "S2.5" 1 "lec08rom.mws" "" }{TEXT -1 37 
+" Formate de intrare/iesire si fisiere" }}{PARA 15 "" 0 "" {HYPERLNK 
+17 "S2.6" 1 "lec09rom.mws" "" }{TEXT -1 33 " Generare de cod si conect
+ivitate" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT -1 20 "3. Expresii in Maple" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S3
+.1" 1 "lec10rom.mws" "" }{TEXT -1 10 " Polinoame" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "S3.2" 1 "lec11rom.mws" "" }{TEXT -1 31 " Functii rationa
+le si conversii" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S3.3" 1 "lec12rom.mw
+s" "" }{TEXT -1 26 " Reprezentarea expresiilor" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "S3.4" 1 "lec13rom.mws" "" }{TEXT -1 36 " Substitutie, ex
+pandare, factorizare" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S3.5" 1 "lec14r
+om.mws" "" }{TEXT -1 34 " Normalizare, colectare si sortare" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 23 "4. Fun
+ctii si proceduri" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S4.1" 1 "programar
+e.mws" "" }{TEXT -1 20 " Programare in Maple" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "S4.2" 1 "lec15rom.mws" "" }{TEXT -1 32 " Definirea funct
+iilor matematice" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S4.3" 1 "lec16rom.m
+ws" "" }{TEXT -1 16 " Proceduri Maple" }}{PARA 15 "" 0 "" {HYPERLNK 
+17 "S4.4" 1 "lec17rom.mws" "" }{TEXT -1 18 " Lucrul cu functii" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 42 "
+5. Calcul diferential si integral in Maple" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "S5.1" 1 "lec18rom.mws" "" }{TEXT -1 31 " Derivare simbol
+ica si automata" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S5.2" 1 "lec19rom.mw
+s" "" }{TEXT -1 20 " Integrare si sumare" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "S5.3" 1 "lec20rom.mws" "" }{TEXT -1 26 " Serii, aproxima
+ri, limite" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "
+" {TEXT -1 20 "6. Structuri de date" }}{PARA 15 "" 0 "" {HYPERLNK 17 "
+S6.1" 1 "lec21rom.mws" "" }{TEXT -1 25 " Secvente, multimi, liste" }}
+{PARA 15 "" 0 "" {HYPERLNK 17 "S6.2" 1 "lec22rom.mws" "" }{TEXT -1 33 
+" Array-uri, tabele, si conversii " }}{PARA 15 "" 0 "" {HYPERLNK 17 "S
+6.3" 1 "lec23rom.mws" "" }{TEXT -1 23 " Assume si simplificare" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 19 "
+7. Grafica in Maple" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S7.1" 1 "lec24ro
+m.mws" "" }{TEXT -1 23 " Grafice bidimensionale" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "S7.2" 1 "lec25rom.mws" "" }{TEXT -1 24 " Grafice tridime
+nsionale" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT -1 19 "8. Ecuatii in Maple" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S8.
+1" 1 "lec26rom.mws" "" }{TEXT -1 22 " Rezolvarea ecuatiilor" }}{PARA 
+15 "" 0 "" {HYPERLNK 17 "S8.2" 1 "lec27rom.mws" "" }{TEXT -1 21 " Ecua
+tii diferentiale" }}{PARA 15 "" 0 "" {HYPERLNK 17 "S8.3" 1 "lec28rom.m
+ws" "" }{TEXT -1 16 " Algebra liniara" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}}{MARK "1 3 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 
+0 1 2 33 1 1 }

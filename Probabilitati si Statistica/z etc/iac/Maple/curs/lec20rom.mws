@@ -1,0 +1,368 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 0 2 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" 
+-1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }
+1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 
+2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Tit
+le" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 
+0 -1 12 12 0 0 0 0 0 0 19 0 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 0 "" }{TEXT 258 25 "Serii, ap
+roximari, limite" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 21 "1. Serii trunchiate  " }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 130 "Seriile sunt un mod important de \+
+aproximare. Unul dintre cele mai cunoscute tipuri de serii este seria \+
+Taylor in jurul unui punct:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "tf := taylor(f(x),x=a,10);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#t
+fG+9,&%\"xG\"\"\"%\"aG!\"\"-%\"fG6#F)\"\"!--%\"DG6#F,F-F(,$*&#F(\"\"#F
+(---%#@@G6$F1F6F2F-F(F(F6,$*&#F(\"\"'F(---F:6$F1\"\"$F2F-F(F(FD,$*&#F(
+\"#CF(---F:6$F1\"\"%F2F-F(F(FM,$*&#F(\"$?\"F(---F:6$F1\"\"&F2F-F(F(FV,
+$*&#F(\"$?(F(---F:6$F1F?F2F-F(F(F?,$*&#F(\"%S]F(---F:6$F1\"\"(F2F-F(F(
+Fao,$*&#F(\"&?.%F(---F:6$F1\"\")F2F-F(F(Fjo,$*&#F(\"'!)GOF(---F:6$F1\"
+\"*F2F-F(F(Fcp-%\"OG6#F(\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 13 "whattype(tf);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'seriesG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 60 "Observati cum structura unei serii
+ difera de a unui polinom:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+54 "dismantle(tf); # Maple are un tip separat pentru serii" }}{PARA 6 
+"" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 10 "SERIES(24)" }}
+{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "
+      NAME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }
+}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): a" }}{PARA 6 "" 1 "" 
+{TEXT -1 19 "      INTNEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 14 "   FU
+NCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): f" }}{PARA 6 
+"" 1 "" {TEXT -1 15 "      EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 19 " \+
+        NAME(4): a" }}{PARA 6 "" 1 "" {TEXT -1 6 "   [0]" }}{PARA 6 "
+" 1 "" {TEXT -1 14 "   FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 17 "   \+
+   FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 41 "         NAME(4): D #[p
+rotected, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 18 "         EXPSEQ(2)
+" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): f" }}{PARA 6 "" 
+1 "" {TEXT -1 15 "      EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 19 "    \+
+     NAME(4): a" }}{PARA 6 "" 1 "" {TEXT -1 6 "   [1]" }}{PARA 6 "" 1 
+"" {TEXT -1 9 "   SUM(3)" }}{PARA 6 "" 1 "" {TEXT -1 17 "      FUNCTIO
+N(3)" }}{PARA 6 "" 1 "" {TEXT -1 20 "         FUNCTION(3)" }}{PARA 6 "
+" 1 "" {TEXT -1 23 "            FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT 
+-1 50 "               NAME(4): `@@` #[protected, _syslib]" }}{PARA 6 "
+" 1 "" {TEXT -1 24 "               EXPSEQ(3)" }}{PARA 6 "" 1 "" {TEXT 
+-1 50 "                  NAME(4): D #[protected, _syslib]" }}{PARA 6 "
+" 1 "" {TEXT -1 30 "                  INTPOS(2): 2" }}{PARA 6 "" 1 "" 
+{TEXT -1 21 "            EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 25 "   \+
+            NAME(4): f" }}{PARA 6 "" 1 "" {TEXT -1 18 "         EXPSEQ
+(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): a" }}{PARA 6 
+"" 1 "" {TEXT -1 22 "      RATIONAL(3): 1/2" }}{PARA 6 "" 1 "" {TEXT 
+-1 21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 21 "         \+
+INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 6 "   [2]" }}{PARA 6 "" 1 "" 
+{TEXT -1 9 "   SUM(3)" }}{PARA 6 "" 1 "" {TEXT -1 17 "      FUNCTION(3
+)" }}{PARA 6 "" 1 "" {TEXT -1 20 "         FUNCTION(3)" }}{PARA 6 "" 
+1 "" {TEXT -1 23 "            FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 
+50 "               NAME(4): `@@` #[protected, _syslib]" }}{PARA 6 "" 
+1 "" {TEXT -1 24 "               EXPSEQ(3)" }}{PARA 6 "" 1 "" {TEXT 
+-1 50 "                  NAME(4): D #[protected, _syslib]" }}{PARA 6 "
+" 1 "" {TEXT -1 30 "                  INTPOS(2): 3" }}{PARA 6 "" 1 "" 
+{TEXT -1 21 "            EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 25 "   \+
+            NAME(4): f" }}{PARA 6 "" 1 "" {TEXT -1 18 "         EXPSEQ
+(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): a" }}{PARA 6 
+"" 1 "" {TEXT -1 22 "      RATIONAL(3): 1/6" }}{PARA 6 "" 1 "" {TEXT 
+-1 21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 21 "         \+
+INTPOS(2): 6" }}{PARA 6 "" 1 "" {TEXT -1 6 "   [3]" }}{PARA 6 "" 1 "" 
+{TEXT -1 9 "   SUM(3)" }}{PARA 6 "" 1 "" {TEXT -1 17 "      FUNCTION(3
+)" }}{PARA 6 "" 1 "" {TEXT -1 20 "         FUNCTION(3)" }}{PARA 6 "" 
+1 "" {TEXT -1 23 "            FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 
+50 "               NAME(4): `@@` #[protected, _syslib]" }}{PARA 6 "" 
+1 "" {TEXT -1 24 "               EXPSEQ(3)" }}{PARA 6 "" 1 "" {TEXT 
+-1 50 "                  NAME(4): D #[protected, _syslib]" }}{PARA 6 "
+" 1 "" {TEXT -1 30 "                  INTPOS(2): 4" }}{PARA 6 "" 1 "" 
+{TEXT -1 21 "            EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 25 "   \+
+            NAME(4): f" }}{PARA 6 "" 1 "" {TEXT -1 18 "         EXPSEQ
+(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): a" }}{PARA 6 
+"" 1 "" {TEXT -1 23 "      RATIONAL(3): 1/24" }}{PARA 6 "" 1 "" {TEXT 
+-1 21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 22 "         \+
+INTPOS(2): 24" }}{PARA 6 "" 1 "" {TEXT -1 6 "   [4]" }}{PARA 6 "" 1 "
+" {TEXT -1 9 "   SUM(3)" }}{PARA 6 "" 1 "" {TEXT -1 17 "      FUNCTION
+(3)" }}{PARA 6 "" 1 "" {TEXT -1 20 "         FUNCTION(3)" }}{PARA 6 "
+" 1 "" {TEXT -1 23 "            FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT 
+-1 50 "               NAME(4): `@@` #[protected, _syslib]" }}{PARA 6 "
+" 1 "" {TEXT -1 24 "               EXPSEQ(3)" }}{PARA 6 "" 1 "" {TEXT 
+-1 50 "                  NAME(4): D #[protected, _syslib]" }}{PARA 6 "
+" 1 "" {TEXT -1 30 "                  INTPOS(2): 5" }}{PARA 6 "" 1 "" 
+{TEXT -1 21 "            EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 25 "   \+
+            NAME(4): f" }}{PARA 6 "" 1 "" {TEXT -1 18 "         EXPSEQ
+(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): a" }}{PARA 6 
+"" 1 "" {TEXT -1 24 "      RATIONAL(3): 1/120" }}{PARA 6 "" 1 "" 
+{TEXT -1 21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 23 "   \+
+      INTPOS(2): 120" }}{PARA 6 "" 1 "" {TEXT -1 6 "   [5]" }}{PARA 6 
+"" 1 "" {TEXT -1 9 "   SUM(3)" }}{PARA 6 "" 1 "" {TEXT -1 17 "      FU
+NCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 20 "         FUNCTION(3)" }}
+{PARA 6 "" 1 "" {TEXT -1 23 "            FUNCTION(3)" }}{PARA 6 "" 1 "
+" {TEXT -1 50 "               NAME(4): `@@` #[protected, _syslib]" }}
+{PARA 6 "" 1 "" {TEXT -1 24 "               EXPSEQ(3)" }}{PARA 6 "" 1 
+"" {TEXT -1 50 "                  NAME(4): D #[protected, _syslib]" }}
+{PARA 6 "" 1 "" {TEXT -1 30 "                  INTPOS(2): 6" }}{PARA 
+6 "" 1 "" {TEXT -1 21 "            EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT 
+-1 25 "               NAME(4): f" }}{PARA 6 "" 1 "" {TEXT -1 18 "     \+
+    EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): a" 
+}}{PARA 6 "" 1 "" {TEXT -1 24 "      RATIONAL(3): 1/720" }}{PARA 6 "" 
+1 "" {TEXT -1 21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 
+23 "         INTPOS(2): 720" }}{PARA 6 "" 1 "" {TEXT -1 6 "   [6]" }}
+{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(3)" }}{PARA 6 "" 1 "" {TEXT -1 17 "
+      FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 20 "         FUNCTION(3)
+" }}{PARA 6 "" 1 "" {TEXT -1 23 "            FUNCTION(3)" }}{PARA 6 "
+" 1 "" {TEXT -1 50 "               NAME(4): `@@` #[protected, _syslib]
+" }}{PARA 6 "" 1 "" {TEXT -1 24 "               EXPSEQ(3)" }}{PARA 6 "
+" 1 "" {TEXT -1 50 "                  NAME(4): D #[protected, _syslib]
+" }}{PARA 6 "" 1 "" {TEXT -1 30 "                  INTPOS(2): 7" }}
+{PARA 6 "" 1 "" {TEXT -1 21 "            EXPSEQ(2)" }}{PARA 6 "" 1 "" 
+{TEXT -1 25 "               NAME(4): f" }}{PARA 6 "" 1 "" {TEXT -1 18 
+"         EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4
+): a" }}{PARA 6 "" 1 "" {TEXT -1 25 "      RATIONAL(3): 1/5040" }}
+{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 24 "         INTPOS(2): 5040" }}{PARA 6 "" 1 "" {TEXT -1 6 " \+
+  [7]" }}{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(3)" }}{PARA 6 "" 1 "" 
+{TEXT -1 17 "      FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 20 "       \+
+  FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 23 "            FUNCTION(3)
+" }}{PARA 6 "" 1 "" {TEXT -1 50 "               NAME(4): `@@` #[protec
+ted, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 24 "               EXPSEQ(3)
+" }}{PARA 6 "" 1 "" {TEXT -1 50 "                  NAME(4): D #[protec
+ted, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 30 "                  INTPOS
+(2): 8" }}{PARA 6 "" 1 "" {TEXT -1 21 "            EXPSEQ(2)" }}{PARA 
+6 "" 1 "" {TEXT -1 25 "               NAME(4): f" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "         EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "      \+
+      NAME(4): a" }}{PARA 6 "" 1 "" {TEXT -1 26 "      RATIONAL(3): 1/
+40320" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 1" }}{PARA 
+6 "" 1 "" {TEXT -1 25 "         INTPOS(2): 40320" }}{PARA 6 "" 1 "" 
+{TEXT -1 6 "   [8]" }}{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(3)" }}{PARA 
+6 "" 1 "" {TEXT -1 17 "      FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 
+20 "         FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 23 "            F
+UNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 50 "               NAME(4): `@@
+` #[protected, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 24 "              \+
+ EXPSEQ(3)" }}{PARA 6 "" 1 "" {TEXT -1 50 "                  NAME(4): \+
+D #[protected, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 30 "              \+
+    INTPOS(2): 9" }}{PARA 6 "" 1 "" {TEXT -1 21 "            EXPSEQ(2)
+" }}{PARA 6 "" 1 "" {TEXT -1 25 "               NAME(4): f" }}{PARA 6 
+"" 1 "" {TEXT -1 18 "         EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 
+22 "            NAME(4): a" }}{PARA 6 "" 1 "" {TEXT -1 27 "      RATIO
+NAL(3): 1/362880" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 1
+" }}{PARA 6 "" 1 "" {TEXT -1 26 "         INTPOS(2): 362880" }}{PARA 
+6 "" 1 "" {TEXT -1 6 "   [9]" }}{PARA 6 "" 1 "" {TEXT -1 14 "   FUNCTI
+ON(3)" }}{PARA 6 "" 1 "" {TEXT -1 29 "      NAME(4): O #[protected]" }
+}{PARA 6 "" 1 "" {TEXT -1 15 "      EXPSEQ(2)" }}{PARA 6 "" 1 "" 
+{TEXT -1 21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 7 "   [
+10]" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 48 "Cu ajutorul seriilor Taylor putem defini functii" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "g := z/(1-z-z^2); # functie generat
+oare" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG*&%\"zG\"\"\",(F'F'F&!\"
+\"*$)F&\"\"#F'F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "fib :
+= taylor(g,z=0,10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$fibG+7%\"zG
+\"\"\"F'F'\"\"#F(\"\"$F)\"\"%\"\"&F+\"\")\"\"'\"#8\"\"(\"#@F,\"#M\"\"*
+-%\"OG6#F'\"#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Coeficientii se
+riei Taylor a lui " }{XPPEDIT 18 0 "g;" "6#%\"gG" }{TEXT -1 29 " defin
+esc numerele Fibonacci." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "coeff(fib,z^6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "coeff(fib,z^30);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 8 "Comanda " }{TEXT 256 5 "coeff" }{TEXT -1 73 " ne da coefic
+ientul termenului de un anumit grad, exact ca la un polinom." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 142 "Dar seria \"
+fib\" este o serie trunchiata, care merge pana la gradul 9.  Acesta es
+te motivul pentru care se obtine zero pentru coeficientul lui " }
+{XPPEDIT 18 0 "z^30;" "6#*$%\"zG\"#I" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "coeftayl(g,z=0,30);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'S?$)" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 8 "Comanda " }{TEXT 257 8 "coeftayl" }{TEXT -1 254 " calculea
+za coeficientii unei serii Taylor, fara a expanda efectiv seria. Acest
+ mod este mai eficient decat dezvoltarea unei serii Taylor pana la un \+
+grad dat si mai eficient decat calculul seriei complete Taylor urmata \+
+de selectarea coeficientului dorit." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "fibfun := n -> coeftayl(g,z=0,n):" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "fibfun(30);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"'S?$)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 98 "
+Aceasta ilustreaza modul de a defini o noua functie din dezvoltarea Ta
+ylor a functiei generatoare." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 48 "Exista si o dezvoltare Taylor multidimensionala:" }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "mtaylor
+(f(x,y),[x=a,y=b],4);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,6-%\"fG6$%\"
+aG%\"bG\"\"\"*&--&%\"DG6#F)6#F%F&F),&%\"xGF)F'!\"\"F)F)*&--&F.6#\"\"#F
+0F&F),&%\"yGF)F(F3F)F)*&#F)F9F)*&--&F.6$F)F)F0F&F))F1F9F)F)F)*(F1F)--&
+F.6$F)F9F0F&F)F:F)F)*&F=F)*&--&F.6$F9F9F0F&F))F:F9F)F)F)*&#F)\"\"'F)*&
+)F1\"\"$F)--&F.6%F)F)F)F0F&F)F)F)*&F=F)*(FCF)--&F.6%F)F)F9F0F&F)F:F)F)
+F)*&F=F)*(F1F)FOF)--&F.6%F)F9F9F0F&F)F)F)*&FQF)*&)F:FUF)--&F.6%F9F9F9F
+0F&F)F)F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 111 "Comanda de mai sus \+
+ne da aproximarea Taylor de ordinul al patrulea a unei functii arbitra
+re in jurul lui (a,b)." }{MPLTEXT 1 0 1 "\n" }{TEXT -1 114 "In cazul i
+n care functiile nu au o dezvoltare Taylor in jurul unui punct conside
+rat se recomanda sa se foloseasca " }{TEXT 0 6 "series" }{TEXT -1 1 ".
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "series(exp(x)/x, x=0, 8 );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#+5%\"xG\"\"\"!\"\"F%\"\"!#F%\"\"#F%#F%\"\"'F)#F%\"#C\"
+\"$#F%\"$?\"\"\"%#F%\"$?(\"\"&#F%\"%S]F+-%\"OG6#F%\"\"(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "series(GAMMA(x), x=0, 2 );" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#++%\"xG\"\"\"!\"\",$%&gammaGF&\"\"!,&*
+&\"#7F&%#PiG\"\"#F%*&F.F&F(F.F%F%-%\"OG6#F%F." }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 8 "Comanda " }{TEXT 0 15 "asympt(f, x, n)" }{TEXT -1 42 " \+
+ne da dezvoltarea asimptotica de ordinul " }{TEXT 0 1 "n" }{TEXT -1 7 
+" a lui " }{TEXT 0 1 "f" }{TEXT -1 14 " in raport cu " }{TEXT 0 1 "x" 
+}{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "asympt(n!,n,3);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*(,**(\"\"##\"\"\"F&%#PiGF'*&F(F(%\"nG!\"\"#F,F&F(**\"#7F,F&F'F)
+F'F*F'F(**\"$)GF,F&F'F)F'F*#\"\"$F&F(-%\"OG6#*$)F*#\"\"&F&F(F(F()F*F+F
+,-%$expG6#F+F," }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 25 "2. Aproximare
+a functiilor" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 63 "Putem aproxima fun
+ctii complicate prin serii Taylor trunchiate." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "Ca examplu sa luam o functie defin
+ita printr-o integrala:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 34 "intfun := int(exp(sin(x)),x=0..t);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%'intfunG-%$intG6$-%$expG6#-%$sinG6#%\"xG/F.;\"\"
+!%\"tG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 28 "Variabila independenta \+
+este " }{XPPEDIT 18 0 "t;" "6#%\"tG" }{TEXT -1 47 ".  Functia ne da ar
+ia situata sub graficul lui " }{XPPEDIT 18 0 "exp(sin(x));" "6#-%$expG
+6#-%$sinG6#%\"xG" }{TEXT -1 8 " pentru " }{XPPEDIT 18 0 "x;" "6#%\"xG
+" }{TEXT -1 14 " intre 0 si t." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 82 "Pentru a aproxima aceasta functie, vom dezvolta in
+tegrala ca o serie in jurul lui " }{XPPEDIT 18 0 "t = 2;" "6#/%\"tG\"
+\"#" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "serfun := series(intfun,t=2,3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%'serfunG++,&%\"tG\"\"\"\"\"#!\"\"-%$intG6$-%$expG6#-%
+$sinG6#%\"xG/F4;\"\"!F)F7-F/6#-F26#F)F(,$*&#F(F)F(*&F8F(-%$cosGF;F(F(F
+(F)-%\"OG6#F(\"\"$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 53 "Aceasta con
+duce la un polinom de gradul al doilea in " }{XPPEDIT 18 0 "t;" "6#%\"
+tG" }{TEXT -1 80 ".  Inainte de a utiliza aceasta functie, trebuie sa \+
+o convertim intr-un polinom." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 64 "polfun := convert(serfun,`polynom`); # pad int
+ermediar important" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'polfunG,(-%$i
+ntG6$-%$expG6#-%$sinG6#%\"xG/F/;\"\"!\"\"#\"\"\"*&-F*6#-F-6#F3F4,&%\"t
+GF4F3!\"\"F4F4*&#F4F3F4*(F6F4-%$cosGF9F4)F:F3F4F4F4" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 76 "Doar acum, putem converti expresia pentru polfu
+n intr-o functie polinomiala." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 24 "pf := unapply(polfun,t);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#pfGf*6#%\"tG6\"6$%)operatorG%&arrowGF(,(-%$intG6$-%$
+expG6#-%$sinG6#%\"xG/F6;\"\"!\"\"#\"\"\"*&-F16#-F46#F:F;,&9$F;F:!\"\"F
+;F;*&#F;F:F;*(F=F;-%$cosGF@F;)FAF:F;F;F;F(F(F(" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 37 "Acesta este inca un polinom simbolic:" }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "pf(2.34);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,(-%$intG6$-%$expG6#-%$sinG6#%\"xG/F-;\"\"!
+\"\"#\"\"\"*&$\"#M!\"#F2-F(6#-F+6#F1F2F2*($\"++++!y&!#6F2F7F2-%$cosGF:
+F2F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "myfun := (n,t) -> e
+valf(pf(t),n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&myfunGf*6$%\"nG%
+\"tG6\"6$%)operatorG%&arrowGF)-%&evalfG6$-%#pfG6#9%9$F)F)F)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "myfun(30,2.34);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#$\"?\"o;xk(zr]fxHM*3-&!#H" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 64 "Am calculat o aproximare cu 30 de cifre a functiei
+ in  t = 2.34." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 62 "evalf(subs(t=2.34,intfun),30); # valoare exacta cu 30
+ de cifre" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?S7`x/d`7:iM=36]!#H" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "(2.34-2)^3; # evaluarea te
+rmenului trunchiat O((t-2)^3)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"&/
+$R!\"'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 96 "Putem inlocui functii c
+omplicate prin polinoame de gradul al doilea, dar precizia este limita
+ta." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 27 "3. Se
+rii formale de puteri " }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 72 "Putem de
+fini serii de puteri formal, fara a ne preocupa convergenta lor." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(po
+wseries);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#77%(composeG%(evalpowG%(i
+nverseG%*multconstG%)multiplyG%)negativeG%'powaddG%'powcosG%*powcreate
+G%(powdiffG%'powexpG%'powintG%'powlogG%(powpolyG%'powsinG%)powsolveG%(
+powsqrtG%)quotientG%*reversionG%)subtractG%(tpsformG" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 28 "powcreate(defexp(n) = 1/n!);" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 62 "Aceasta comanda defineste coeficientul lu
+i x^n din dezvoltare." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 28 "O putem dezvolta la o serie:" }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "serexp := tpsform(defexp,x,1
+0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'serexpG+9%\"xG\"\"\"\"\"!F'F
+'#F'\"\"#F*#F'\"\"'\"\"$#F'\"#C\"\"%#F'\"$?\"\"\"&#F'\"$?(F,#F'\"%S]\"
+\"(#F'\"&?.%\"\")#F'\"'!)GO\"\"*-%\"OG6#F'\"#5" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 55 "Aceasta este una din definitiile functiei exponentia
+le." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "Ca mai \+
+inainte, o putem converti intr-o functie." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "polexp := convert(serexp,`po
+lynom`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'polexpG,6\"\"\"F&%\"xGF
+&*&#F&\"\"#F&*$)F'F*F&F&F&*&#F&\"\"'F&*$)F'\"\"$F&F&F&*&#F&\"#CF&*$)F'
+\"\"%F&F&F&*&#F&\"$?\"F&*$)F'\"\"&F&F&F&*&#F&\"$?(F&*$)F'F/F&F&F&*&#F&
+\"%S]F&*$)F'\"\"(F&F&F&*&#F&\"&?.%F&*$)F'\"\")F&F&F&*&#F&\"'!)GOF&*$)F
+'\"\"*F&F&F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "Eroarea comisa ap
+roximand seria prin polinom este de ordinul  x^10." }{MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "funexp := unapply(polex
+p,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'funexpGf*6#%\"xG6\"6$%)ope
+ratorG%&arrowGF(,6\"\"\"F-9$F-*&#F-\"\"#F-*$)F.F1F-F-F-*&#F-\"\"'F-*$)
+F.\"\"$F-F-F-*&#F-\"#CF-*$)F.\"\"%F-F-F-*&#F-\"$?\"F-*$)F.\"\"&F-F-F-*
+&#F-\"$?(F-*$)F.F6F-F-F-*&#F-\"%S]F-*$)F.\"\"(F-F-F-*&#F-\"&?.%F-*$)F.
+\"\")F-F-F-*&#F-\"'!)GOF-*$)F.\"\"*F-F-F-F(F(F(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 22 "funexp(1.1); exp(1.1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+I_;/I!\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+Cg
+;/I!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "truncation_error
+ := .1^10;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%1truncation_errorG$\"
+\"\"!#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "Un exemplu mai interes
+ant este seria care calculeaza Pi:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "powcreate(f(n)=(-1)^n/(2*n+1));" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "fseries := tpsform(f,n,7);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(fseriesG+3%\"nG\"\"\"\"\"!#!\"
+\"\"\"$F'#F'\"\"&\"\"##F*\"\"(F+#F'\"\"*\"\"%#F*\"#6F-#F'\"#8\"\"'-%\"
+OG6#F'F0" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 41 "Ceea ce este interesa
+nt este suma seriei:" }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT -1 9 "4. Limite" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "s :
+= Sum('(-1)^n/(2*n+1)','n'=0..infinity);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"sG-%$SumG6$*&)!\"\"%\"nG\"\"\",&*&\"\"#F,F+F,F,F,F,F*/F+;\"
+\"!%)infinityG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(s);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"%!\"\"%#PiG\"\"\"F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "s1 := k -> sum('(-1)^n/(2*n+
+1)','n'=0..k);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#s1Gf*6#%\"kG6\"6$
+%)operatorG%&arrowGF(-%$sumG6$.*&)!\"\"%\"nG\"\"\",&*&\"\"#F4F3F4F4F4F
+4F2/.F3;\"\"!9$F(F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 55 "Putem ve
+dea cat de repede aproximeaza aceasta serie pe " }{XPPEDIT 18 0 "Pi/4;
+" "6#*&%#PiG\"\"\"\"\"%!\"\"" }{TEXT -1 26 " evaluand aceasta functie:
+" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "for \+
+i from 1 to 20 do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "  evalf(s1(i),
+30);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "end do;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"?nmmmmmmmmmmmmmm!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#$\"?nmmmmmmmmmmmmm')!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?5Q_4
+Q_4Q_4Q_4Qs!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?@\\j?\\j?\\j?\\j
+?\\$)!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?7Sa6Sa6Sa6Sa6Su!#I" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?N4iM4iM4iM4iM4#)!#I" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#$\"?oU&zEazEazEazEa(!#I" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"?Wa*3iOQ(*=(zO[\"48)!#I" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"?(\\;$*)Ry_0NKZ!*f/w!#I" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"?;TO3;$=<)R^B&*y!3)!#I" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"?!H;SISW&H$=[\"p+Yw!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"
+?!H;SISW&H$=[\"p+Y!)!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?`#zpE.u
+\"fzWWljvw!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?cBx!ovDd&[lITY?!)
+!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?FiD;wJSlN\\&[$)yp(!#I" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?IlG>zMVoQ_)y84+)!#I" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#$\"?fz&yM>>Fe4G]*>:x!#I" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"?')\\)[PY*)H&)zIxpa)z!#I" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"?X$fQt?zlfpm^f!Hx!#I" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"?%yhx(4J#o)Rpb>'H(z!#I" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+37 "Forma generala a comenzii limit este " }{TEXT 0 16 "limit(f,x=a,di
+r)" }{TEXT -1 7 ", unde " }{TEXT 0 3 "dir" }{TEXT -1 10 " poate fi " }
+{TEXT 0 4 "left" }{TEXT -1 2 ", " }{TEXT 0 5 "right" }{TEXT -1 2 ", " 
+}{TEXT 0 4 "real" }{TEXT -1 5 " sau " }{TEXT 0 7 "complex" }{TEXT -1 
+30 ". Comanda are si forma inerta." }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 23 "Sa vedem cateva exemple" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "restart; " }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 22 "ln(x)-ln(x+exp(-x));  " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&-%#lnG6#%\"xG\"\"\"-F%6#,&F'F(-%$expG6#,$F'!\"\"F(F0
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "series(%, x=infinity, 2
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"\"F%*&%\"xGF%-%$expG6#F'
+F%!\"\"F+*&-%\"OG6#*&F%F%*$)F'\"\"#F%F+F%F(!\"#F%" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 39 "Limit(%%, x=infinity):  % = value(%);  " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6$,&-%#lnG6#%\"xG\"\"\"-F)6#
+,&F+F,-%$expG6#,$F+!\"\"F,F4/F+%)infinityG\"\"!" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 27 "Limita de mai jos nu exista" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 44 "Limit(cos(x)^(1/x^3), x=0):  % = value(%);  " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6$)-%$cosG6#%\"xG*&\"\"\"F-*
+$)F+\"\"$F-!\"\"/F+\"\"!%*undefinedG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 26 "Sa vedem limitele laterale" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 53 "Limit(cos(x)^(1/x^3), x=0, 'right'):  % = value(%);  \+
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6%)-%$cosG6#%\"xG*&\"\"
+\"F-*$)F+\"\"$F-!\"\"/F+\"\"!%&rightGF3" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "Limit(cos(x)^(1/x^3), x=0 , 'left'):  % = value(%);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6%)-%$cosG6#%\"xG*&\"\"\"F
+-*$)F+\"\"$F-!\"\"/F+\"\"!%%leftG%)infinityG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}}{MARK "5 17 0 0" 0 }{VIEWOPTS 1 1 0 3 2 
+1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

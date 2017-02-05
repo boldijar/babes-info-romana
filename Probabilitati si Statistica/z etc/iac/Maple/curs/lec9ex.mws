@@ -1,0 +1,163 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+264 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "Cour
+ier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "Courier" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "Courier" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "Courier" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 269 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 270 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 272 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "Courier
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "Courier" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 "Courier" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 
+3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "
+Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" 
+-1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 
+1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "Generare de cod si conecti
+vitate" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 
+"restart;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 
+"" 0 "" {TEXT -1 19 "1. Generarea de cod" }}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 69 "Maple are doua pachete pentru generarea de code.  Cel mai
+ vechi este " }{TEXT 256 7 "codegen" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(codegen);" }}{PARA 7 "" 1 "" 
+{TEXT -1 70 "Warning, the protected name MathML has been redefined and
+ unprotected\n" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7=%\"CG%%GRADG%)GRAD
+IENTG%(HESSIANG%)JACOBIANG%'MathMLG%%costG%(declareG%+dontreturnG%$eqn
+G%(fortranG%'hornerG%-intrep2mapleG%*joinprocsG%+makeglobalG%*makepara
+mG%)makeprocG%)makevoidG%-maple2intrepG%)optimizeG%)packargsG%+packloc
+alsG%+packparamsG%+prep2transG%*renamevarG%&splitG%)swapargsG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 13 "Mai nou este " }{TEXT 258 14 "Code
+Generation" }{TEXT -1 2 ". " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "Pr
+ima aplicatie este derivarea automata in " }{TEXT 257 7 "codegen" }
+{TEXT -1 1 "." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "Functia de cost \+
+a evaluarii unei expresii este o facilitate frumoasa a " }{TEXT 259 7 
+"codegen" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 24 "p := x^128 - 3*x^64 - 9;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"pG,(*$)%\"xG\"$G\"\"\"\"F**&\"\"$F*)F(\"#kF*!\"\"\"
+\"*F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "cost(p);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"#\"\"\"%*additionsGF&F&*&\"$\">F&%0m
+ultiplicationsGF&F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 79 "Pentru a e
+valua acest polinom inafara Maple, sa zicem in C, putem genera codul:
+" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "C(p);
+" }}{PARA 6 "" 1 "" {TEXT -1 44 "      t0 = pow(x,128.0)-3.0*pow(x,64.
+0)-9.0;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "cost(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&%*additionsG\"\"\"*&\"\"#F%%0multipl
+icationsGF%F%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Motivul principa
+l pentru care consideram generarea de cod este optimizarea:" }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "C(p,opt
+imized);" }}{PARA 6 "" 1 "" {TEXT -1 15 "      t1 = x*x;" }}{PARA 6 "
+" 1 "" {TEXT -1 17 "      t2 = t1*t1;" }}{PARA 6 "" 1 "" {TEXT -1 17 "
+      t3 = t2*t2;" }}{PARA 6 "" 1 "" {TEXT -1 17 "      t4 = t3*t3;" }
+}{PARA 6 "" 1 "" {TEXT -1 17 "      t5 = t4*t4;" }}{PARA 6 "" 1 "" 
+{TEXT -1 17 "      t6 = t5*t5;" }}{PARA 6 "" 1 "" {TEXT -1 17 "      t
+7 = t6*t6;" }}{PARA 6 "" 1 "" {TEXT -1 25 "      t9 = t7-3.0*t6-9.0;" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "fortran(p,optimized);" }}
+{PARA 6 "" 1 "" {TEXT -1 15 "      t1 = x**2" }}{PARA 6 "" 1 "" {TEXT 
+-1 16 "      t2 = t1**2" }}{PARA 6 "" 1 "" {TEXT -1 16 "      t3 = t2*
+*2" }}{PARA 6 "" 1 "" {TEXT -1 16 "      t4 = t3**2" }}{PARA 6 "" 1 "
+" {TEXT -1 16 "      t5 = t4**2" }}{PARA 6 "" 1 "" {TEXT -1 16 "      \+
+t6 = t5**2" }}{PARA 6 "" 1 "" {TEXT -1 16 "      t7 = t6**2" }}{PARA 
+6 "" 1 "" {TEXT -1 20 "      t9 = t7-3*t6-9" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 35 "CodeGeneration[C](p,optimize=true);" }}{PARA 6 "" 
+1 "" {TEXT -1 11 "t1 = x * x;" }}{PARA 6 "" 1 "" {TEXT -1 13 "t2 = t1 \+
+* t1;" }}{PARA 6 "" 1 "" {TEXT -1 13 "t3 = t2 * t2;" }}{PARA 6 "" 1 "
+" {TEXT -1 13 "t4 = t3 * t3;" }}{PARA 6 "" 1 "" {TEXT -1 13 "t5 = t4 *
+ t4;" }}{PARA 6 "" 1 "" {TEXT -1 21 "t6 = (int) (t5 * t5);" }}{PARA 6 
+"" 1 "" {TEXT -1 39 "t7 = (int) ((double) t6 * (double) t6);" }}{PARA 
+6 "" 1 "" {TEXT -1 21 "t9 = t7 - 3 * t6 - 9;" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 29 "Observam ca pentru a calcula " }{TEXT 261 15 "x^128 = x
+^(2^7)" }{TEXT -1 48 ", este nevoie de doar 7 imultiri, in loc de 127.
+" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Putem conv
+erti proceduri Maple in C:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 59 "f := makeproc(p,x);  # nu uitati variabila indep
+endenta x !" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fGf*6#%\"xG6\"F(F(,
+(*$)9$\"$G\"\"\"\"F.*&\"\"$F.)F,\"#kF.!\"\"\"\"*F3F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "f(4);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"iofb+Dyh&=gu1\\'[x([cP\"\\A&y!zo3])4dBa>;tB*3#z:\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 46 "Putem salva programul nostru C intr-un fi
+sier:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 74 
+"writeto(\"C:\\\\Users\\\\Radu\\\\evaluate_p.c\"); # redirecting the o
+utput to file" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "C(p,optimi
+zed);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "writeto(terminal);
+ # restore the output direction to screen" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 8 "Comanda " }{TEXT 262 7 "ssystem" }{TEXT -1 54 " ne permite
+ sa dam comenzi pentru sistemul de operare." }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 54 "ssystem(\"dir C\\\\Users:\"); # see what is on the
+ C drive" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7$\"\"\"Q!6\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 56 "Acum, cand stim ca programul exista, il p
+utem vizualiza:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "ssystem(\"type C:\\\\Users\\\\Radu\\\\evaluate_p.c\")
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7$\"\"!Qay>~C(p,optimized);|+~~~~
+~~t1~=~x*x;|+~~~~~~t2~=~t1*t1;|+~~~~~~t3~=~t2*t2;|+~~~~~~t4~=~t3*t3;|+
+~~~~~~t5~=~t4*t4;|+~~~~~~t6~=~t5*t5;|+~~~~~~t7~=~t6*t6;|+~~~~~~t9~=~t7
+-3.0*t6-9.0;|+>~writeto(terminal);~#~restore~the~output~direction~to~s
+creen|+6\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 141 "Incepand cu Maple \+
+7, exista suport MathML (Mathematical Markup Language), un standard in
+ dezvoltare pentru matematica pe web. Iata cum arata:" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 10 "MathML(f);" }}{PARA 6 "" 1 "" {TEXT -1 49 "<math xmlns='http://w
+ww.w3.org/1998/Math/MathML'>" }}{PARA 6 "" 1 "" {TEXT -1 13 "  <semant
+ics>" }}{PARA 6 "" 1 "" {TEXT -1 25 "    <mi xref='id1'>f</mi>" }}
+{PARA 6 "" 1 "" {TEXT -1 46 "    <annotation-xml encoding='MathML-Cont
+ent'>" }}{PARA 6 "" 1 "" {TEXT -1 25 "      <ci id='id1'>f</ci>" }}
+{PARA 6 "" 1 "" {TEXT -1 21 "    </annotation-xml>" }}{PARA 6 "" 1 "" 
+{TEXT -1 47 "    <annotation encoding='Maple'>f</annotation>" }}{PARA 
+6 "" 1 "" {TEXT -1 14 "  </semantics>" }}{PARA 6 "" 1 "" {TEXT -1 7 "<
+/math>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 3 "" 
+0 "" {TEXT -1 33 "2. Apelul programelor C din Maple" }}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 108 "O interfacta primitiva cu alte programe ste prin
+ intermediul sirurilor de caractere (ca in comanda ssystem)." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 91 "Programul C a
+ccepta la intrare un sir si returneaza un sir care poate fi analizat d
+e Maple." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "ssystem(\"type \+
+C:\\\\Users\\\\Radu\\\\hello.c\");" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#
+7$\"\"!Q_s#include~<stdio.h>|+char*~hello(void)|+|fr|+~~~char*~hi;|+~~
+~hi~=~(char*)calloc(12,sizeof(char));|+~~~hi~=~\"Hello,~world\";|+~~~r
+eturn~hi;|+|hr|+6\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 145 "Puteti co
+mpila acest program -- cu un compilator C --  si sa creati un DLL (dyn
+amic link library), this would be the file hello.dll.  Iata pasii:" }}
+{PARA 0 "" 0 "" {TEXT 263 7 "Pasul 1" }{TEXT -1 39 ": pregatirea progr
+amului C. Sursa este:" }}{PARA 0 "" 0 "" {TEXT 264 18 "#include <stdio
+.h>" }}{PARA 0 "" 0 "" {TEXT 265 17 "char* hello(void)" }}{PARA 0 "" 
+0 "" {TEXT 266 1 "\{" }}{PARA 0 "" 0 "" {TEXT 267 12 "   char* hi;" }}
+{PARA 0 "" 0 "" {TEXT 268 39 "   hi = (char*)calloc(12,sizeof(char));
+" }}{PARA 0 "" 0 "" {TEXT 269 23 "   hi = \"Hello, world\";" }}{PARA 
+0 "" 0 "" {TEXT 270 13 "   return hi;" }}{PARA 0 "" 0 "" {TEXT 271 1 "
+\}" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "Acu
+m avem generarea DLL-ului" }}{PARA 0 "" 0 "" {TEXT 272 6 "hello:" }}
+{PARA 0 "" 0 "" {TEXT 273 38 "         c:/mingw32/bin/gcc -c hello.c" 
+}}{PARA 0 "" 0 "" {TEXT 274 56 "         c:/mingw32/bin/gcc -shared -o
+ hello.dll hello.o" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 8 "Tastand " }{TEXT 275 10 "make hello" }{TEXT -1 54 " la pro
+mpterul  linie de comanda  se va crea fisierul " }{TEXT 276 9 "hello.d
+ll" }{TEXT -1 26 " necesar la pasul urmator." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 277 7 "Pasul 2" }{TEXT -1 61 ": defini
+rea legaturilor externe. Aplicam acum define_external" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 85 "hi := de
+fine_external(`hello`,C,RETURN::string[],`LIB`=\"C:\\\\Users\\\\Radu\\
+\\hello.dll\");" }}{PARA 8 "" 1 "" {TEXT -1 124 "Error, external linki
+ng: error loading external library C:\\Users\\Radu\\hello.dll: The spe
+cified module could not be found.\n\n\n" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "hi();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#hiG6\"" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "9 1 0" 124 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

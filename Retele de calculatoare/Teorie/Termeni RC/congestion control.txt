@@ -1,0 +1,8 @@
+Congestion control concerns controlling traffic entry into a telecommunications network, so as to avoid congestive collapse by attempting to avoid oversubscription of any of the processing or link capabilities of the intermediate nodes and networks and taking resource reducing steps, such as reducing the rate of sending packets. It should not be confused with flow control, which prevents the sender from overwhelming the receiver.
+
+There are many ways to classify congestion control algorithms:
+* By the type and amount of feedback received from the network: Loss; delay; single-bit or multi-bit explicit signals 
+* By incremental deployability on the current Internet: Only sender needs modification; sender and receiver need modification; only router needs modification; sender, receiver and routers need modification. 
+* By the aspect of performance it aims to improve: high bandwidth-delay product networks; lossy links; fairness; advantage to short flows; variable-rate links 
+* By the fairness criterion it uses: max-min, proportional, "minimum potential delay" 
+

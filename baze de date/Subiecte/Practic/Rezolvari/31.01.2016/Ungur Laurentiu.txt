@@ -1,0 +1,82 @@
+SELECT TOP (100) PERCENT dbo.Angajati.Nume, COUNT(*) AS NrInchirieri
+FROM dbo.Evidente INNER JOIN
+dbo.Angajati ON dbo.Angajati.ID = dbo.Evidente.AngajatID INNER JOIN
+dbo.Autovehicule ON dbo.Evidente.AutovehiculID = dbo.Autovehicule.ID
+WHERE (MONTH(dbo.Evidente.DataOraInchiriere) = MONTH(GETDATE())) AND (YEAR(dbo.Evidente.DataOraInchiriere) = YEAR(GETDATE()))
+GROUP BY dbo.Angajati.Nume
+ORDER BY dbo.Angajati.Nume
+
+
+
+
+
+
+USE [Examen]
+GO
+/****** Object: UserDefinedFunction [dbo].[Libere] Script Date: 31-Jan-16 1:15:43 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author: <Author,,Name>
+-- Create date: <Create Date, ,>
+-- Description: <Description, ,>
+-- =============================================
+ALTER FUNCTION [dbo].[Libere] 
+(
+@DataOraLibera datetime
+)
+RETURNS TABLE
+AS
+RETURN(
+SELECT dbo.Autovehicule.NrInmatriculare, dbo.Autovehicule.TipMotorizare, dbo.Marci.Denumire
+FROM dbo.Evidente INNER JOIN
+dbo.Autovehicule ON dbo.Evidente.AutovehiculID = dbo.Autovehicule.ID INNER JOIN
+dbo.Marci ON dbo.Marci.ID = dbo.Autovehicule.Marca
+WHERE @DataOraLibera NOT BETWEEN dbo.Evidente.DataOraInchiriere AND dbo.Evidente.DataOraReturnare
+)
+
+
+
+
+
+USE master
+IF EXISTS (SELECT * FROM sys.databases WHERE name='Examen')
+DROP database Examen 
+CREATE DATABASE Examen
+GO
+USE Examen
+CREATE TABLE Marci(
+ID int PRIMARY KEY,
+Denumire nvarchar(30) NULL
+);
+GO
+CREATE TABLE Clienti(
+ID int PRIMARY KEY,
+Nume nvarchar(30) NULL,
+Prenume nvarchar(30) NULL
+);
+GO
+CREATE TABLE Angajati(
+ID int PRIMARY KEY,
+Nume nvarchar(30) NULL,
+Prenume nvarchar(30) NULL
+);
+GO
+CREATE TABLE Autovehicule(
+ID int PRIMARY KEY,
+TipMotorizare nvarchar(30) NULL,
+NrInmatriculare varchar(30) NULL,
+Marca int FOREIGN KEY REFERENCES Marci(ID)
+);
+GO
+CREATE TABLE Evidente(
+AngajatID int FOREIGN KEY REFERENCES Angajati(ID) ,
+ClientID int FOREIGN KEY REFERENCES Clienti(ID),
+AutovehiculID int FOREIGN KEY REFERENCES Autovehicule(ID),
+DataOraInchiriere Date,
+DataOraReturnare Date,
+PRIMARY KEY(AngajatID,ClientID,AutovehiculID)
+);
+GO

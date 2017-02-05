@@ -1,0 +1,1477 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 2 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 2 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 286 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 287 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 
+"Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "Courier
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 290 "Courier" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 293 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 294 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 295 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 299 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 
+0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+304 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 2 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 308 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+309 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 310 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 313 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+314 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 315 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 318 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+319 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 320 "" 0 1 0 0 
+0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 2 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 323 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+324 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 325 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 326 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 328 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+329 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 333 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+334 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 338 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+339 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 341 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 342 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 343 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+344 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 345 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 346 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 348 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+349 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 350 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 352 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 353 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+354 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 356 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 358 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+359 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 361 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 362 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 363 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+364 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 365 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 366 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 367 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 368 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+369 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 371 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1
+" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 
+1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 
+-1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 
+0 1 }{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+1 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output
+" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 
+1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" 
+-1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 1 1 }1 1 0 0 0 0 1 0 1 
+0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "
+Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" -1 18 1 
+{CSTYLE "" -1 -1 "Times" 1 24 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 12 
+12 1 0 1 0 2 2 19 1 }{PSTYLE "Title" -1 256 1 {CSTYLE "" -1 -1 "Times
+" 1 24 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 33 "1. Polinoame si functii r
+ationale" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 256 3 "1.1" }{TEXT -1 35 ".
+ Se considera expresia rationala  " }{XPPEDIT 18 0 "(x^4+x^3-4*x^2-4*x
+)/(x^4+x^3-x^2-x)" "6#*&,**$%\"xG\"\"%\"\"\"*$F&\"\"$F(*&F'F(*$F&\"\"#
+F(!\"\"*&F'F(F&F(F.F(,**$F&F'F(*$F&F*F(*$F&F-F.F&F.F." }{TEXT -1 27 ".
+ Transformati expresia in\n" }{TEXT 260 3 "(a)" }{TEXT -1 2 "  " }
+{XPPEDIT 18 0 "(x+2)*(x+1)*(x-2)/(x^3+x^2-x-1)" "6#**,&%\"xG\"\"\"\"\"
+#F&F&,&F%F&F&F&F&,&F%F&F'!\"\"F&,**$F%\"\"$F&*$F%F'F&F%F*F&F*F*" }
+{TEXT -1 2 "\n\n" }{TEXT 261 3 "(b)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "(
+x^4+x^3-4*x^2-4*x)/(x*(x-1)*(x+1)^2" "6#*&,**$%\"xG\"\"%\"\"\"*$F&\"\"
+$F(*&F'F(*$F&\"\"#F(!\"\"*&F'F(F&F(F.F(*(F&F(,&F&F(F(F.F(,&F&F(F(F(F-F
+." }{TEXT -1 2 "\n\n" }{TEXT 262 3 "(c)" }{TEXT -1 1 " " }{XPPEDIT 18 
+0 "(x+2)*(x-2)/(x-1)/(x+1)" "6#**,&%\"xG\"\"\"\"\"#F&F&,&F%F&F'!\"\"F&
+,&F%F&F&F)F),&F%F&F&F&F)" }{TEXT -1 2 "\n\n" }{TEXT 263 3 "(d)" }
+{TEXT -1 1 " " }{XPPEDIT 18 0 "x^2/(x-1)/(x+1) -4" "6#,&*(%\"xG\"\"#,&
+F%\"\"\"F(!\"\"F),&F%F(F(F(F)F(\"\"%F)" }{XPPEDIT 18 0 "1/(x-1)/(x+1)
+" "6#*(\"\"\"F$,&%\"xGF$F$!\"\"F',&F&F$F$F$F'" }{TEXT -1 2 "\n\n" }}
+{SECT 0 {PARA 5 "" 0 "" {TEXT 264 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 
+"expr := (x^4+x^3-4*x^2-4*x)/(x^4+x^3-x^2-x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%exprG*&,**$)%\"xG\"\"%\"\"\"F+*$)F)\"\"$F+F+*&F*F+)F
+)\"\"#F+!\"\"*&F*F+F)F+F2F+,*F'F+F,F+*$F0F+F2F)F2F2" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 32 "factor(numer(expr))/denom(expr);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#**,&%\"xG\"\"\"\"\"#!\"\"F&,&F%F&F'F&F
+&,&F%F&F&F&F&,**$)F%\"\"$F&F&*$)F%F'F&F&F%F(F&F(F(" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 265 3 "(
+b)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "expr := (x^4+x^3-4*x^2-4*x)/(x^4+x^
+3-x^2-x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG*&,**$)%\"xG\"\"%
+\"\"\"F+*$)F)\"\"$F+F+*&F*F+)F)\"\"#F+!\"\"*&F*F+F)F+F2F+,*F'F+F,F+*$F
+0F+F2F)F2F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "expand(numer
+(expr)) / factor(denom(expr));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**,*
+*$)%\"xG\"\"%\"\"\"F)*$)F'\"\"$F)F)*&F(F))F'\"\"#F)!\"\"*&F(F)F'F)F0F)
+F'F0,&F'F)F)F0F0,&F'F)F)F)!\"#" }}}{PARA 0 "" 0 "" {TEXT -1 23 "Un mod
+ ceva mai simplu:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "applyop
+(factor, 2, expr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**,**$)%\"xG\"\"
+%\"\"\"F)*$)F'\"\"$F)F)*&F(F))F'\"\"#F)!\"\"*&F(F)F'F)F0F)F'F0,&F'F)F)
+F0F0,&F'F)F)F)!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 0 {PARA 5 "" 0 "" {TEXT 266 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 
+"expr := (x^4+x^3-4*x^2-4*x)/(x^4+x^3-x^2-x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%exprG*&,**$)%\"xG\"\"%\"\"\"F+*$)F)\"\"$F+F+*&F*F+)F
+)\"\"#F+!\"\"*&F*F+F)F+F2F+,*F'F+F,F+*$F0F+F2F)F2F2" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 13 "factor(expr);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#**,&%\"xG\"\"\"\"\"#!\"\"F&,&F%F&F'F&F&,&F%F&F&F(F(,&F%
+F&F&F&F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 
+{PARA 5 "" 0 "" {TEXT 267 3 "(d)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "expr := \+
+(x^4+x^3-4*x^2-4*x)/(x^4+x^3-x^2-x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%%exprG*&,**$)%\"xG\"\"%\"\"\"F+*$)F)\"\"$F+F+*&F*F+)F)\"\"#F+!\"\"
+*&F*F+F)F+F2F+,*F'F+F,F+*$F0F+F2F)F2F2" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "factor(expr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**,&
+%\"xG\"\"\"\"\"#!\"\"F&,&F%F&F'F&F&,&F%F&F&F(F(,&F%F&F&F&F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#,&*(,&%\"xG\"\"\"F'!\"\"F(,&F&F'F'F'F(F&\"\"#F'*(\"
+\"%F'F%F(F)F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{PARA 0 "" 0 "" {TEXT -1 139 "Observatie:  ordinea termenilor poate fi
+ diferita deoarece Maple decide intern ordinea termenilor si nu exista
+ nici un mod de a o controla." }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 341 4 
+"1.2." }{TEXT -1 57 " Considerati aceeasi expresie ca in problema prec
+edenta.\n" }{TEXT 268 3 "(a)" }{TEXT -1 37 " Scrieti-o ca pe o fractie
+ continua.\n" }{TEXT 269 3 "(b)" }{TEXT -1 47 " Calculati o descompune
+re cu fractii partiale.\n" }}{SECT 0 {PARA 5 "" 0 "" {TEXT 270 3 "(a)
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "expr:= (x^4+x^3-4*x^2-4*x)/(x^4+x^3
+-x^2-x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG*&,**$)%\"xG\"\"%
+\"\"\"F+*$)F)\"\"$F+F+*&F*F+)F)\"\"#F+!\"\"*&F*F+F)F+F2F+,*F'F+F,F+*$F
+0F+F2F)F2F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "convert(expr
+, confrac, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"\"F$*&\"\"$F$,
+&*$)%\"xG\"\"#F$F$F$!\"\"F,F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 271 3 "(b)" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 43 "expr:= (x^4+x^3-4*x^2-4*x)/(x^4+x^3-x^2-x);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%%exprG*&,**$)%\"xG\"\"%\"\"\"F+*$)F)\"\"$F
++F+*&F*F+)F)\"\"#F+!\"\"*&F*F+F)F+F2F+,*F'F+F,F+*$F0F+F2F)F2F2" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "convert(expr, parfrac, x);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"\"F$*(\"\"$F$\"\"#!\"\",&%\"xG
+F$F$F$F(F$*(F&F$F'F(,&F*F$F$F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 342 4 "1.3." }
+{TEXT -1 5 " Fie " }{XPPEDIT 18 0 "f" "6#%\"fG" }{TEXT -1 12 " polinom
+ul  " }{XPPEDIT 18 0 "x^7+x^5+2*x^3+2*x^2+3*x+2" "6#,.*$%\"xG\"\"(\"\"
+\"*$F%\"\"&F'*&\"\"#F'*$F%\"\"$F'F'*&F+F'*$F%F+F'F'*&F-F'F%F'F'F+F'" }
+{TEXT -1 2 ".\n" }{TEXT 272 3 "(a)" }{TEXT -1 14 " Factorizati  " }
+{XPPEDIT 18 0 "f" "6#%\"fG" }{TEXT -1 8 " peste  " }{XPPEDIT 18 0 "Z[5
+]" "6#&%\"ZG6#\"\"&" }{TEXT -1 11 " si peste  " }{XPPEDIT 18 0 "Z[7]" 
+"6#&%\"ZG6#\"\"(" }{TEXT -1 2 ".\n" }{TEXT 273 3 "(b)" }{TEXT -1 160 "
+ Cum puteti argumenta din prima factorizare ca f este ireductibil pest
+e inelul intregilor? (Indicatie: uitati-va la gradul factorilor.) Veri
+ficati in Maple ca  " }{XPPEDIT 18 0 "f" "6#%\"fG" }{TEXT -1 37 " este
+ intr-adevar ireductibil peste  " }{XPPEDIT 18 0 "Z" "6#%\"ZG" }{TEXT 
+-1 2 ".\n" }}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 3 "(a)" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "f := x^7+x^5+2*x^3+2*x^2+3*x+2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG,.*$)%\"xG\"\"(\"\"\"F**$)F(\"\"&F*F**&\"\"#F*)F(
+\"\"$F*F**&F/F*)F(F/F*F**&F1F*F(F*F*F/F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "Factor(f) mod 5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*
+&,(*$)%\"xG\"\"#\"\"\"F)*&\"\"$F)F'F)F)\"\"%F)F),.*$)F'\"\"&F)F)*&F(F)
+)F'F,F)F)*$)F'F+F)F)*&F,F)F&F)F)F'F)F+F)F)" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "Factor(f) mod 7;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#*&,&%\"xG\"\"\"\"\"%F&F&,0*$)F%\"\"'F&F&*&\"\"$F&)F%\"\"&F&F&*&F-F&)F
+%F'F&F&*&\"\"#F&)F%F-F&F&*$)F%F3F&F&*&F/F&F%F&F&F'F&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 
+-1 3 "(b)" }}{PARA 0 "" 0 "" {TEXT -1 80 "Gradele factorilor din desco
+mpunerea de la punctul precedent sunt  2, 5 (peste  " }{XPPEDIT 18 0 "
+Z[5]" "6#&%\"ZG6#\"\"&" }{TEXT -1 18 "), si 1, 6 (peste " }{XPPEDIT 
+18 0 "Z[7]" "6#&%\"ZG6#\"\"(" }{TEXT -1 223 "). Presupunem ca polinomu
+l este reductibil peste Z. Atunci el are un factor de grad  1, 2, ori \+
+3. Un factor liniar  (grad = 1) ar putea fi prezent peste orice camp f
+init, dar dupa cum se vede nu apare in factorizarea peste " }{XPPEDIT 
+18 0 "Z[5]" "6#&%\"ZG6#\"\"&" }{TEXT -1 61 ". Un factor cuadratic nu e
+ste prezent in factorizarea peste  " }{XPPEDIT 18 0 "Z[6]" "6#&%\"ZG6#
+\"\"'" }{TEXT -1 106 " si  in aceasta factorizare exista un factor lin
+iar. Un factor cuadratic prezent intr-o factorizare peste " }{TEXT 
+284 1 "Z" }{TEXT -1 151 " ar trebui sa fie prezent intr-o factorizare \+
+peste orice camp finit sau sa se descompuna in doi factori  liniari. A
+sta nu apare in factorizarea peste  " }{XPPEDIT 18 0 "Z[7]" "6#&%\"ZG6
+#\"\"(" }{TEXT -1 357 ". Deci, nu putem avea factori cuadratici. Ne ra
+mane numai posibilitatea unui factor de gradul 3. Dar atunci ar apare \+
+din nou intr-o factorizare peste orice camp finit sau s-ar descompune \+
+in trei factori liniari sau intr-unul cuadratic sau unul liniar. Acest
+ lucru nu se intampla in factorizarile anterioare. Concluzia: polinomu
+l condiderat este ireductibil." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 10 "factor(f);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.*$)%\"xG\"\"(\"
+\"\"F(*$)F&\"\"&F(F(*&\"\"#F()F&\"\"$F(F(*&F-F()F&F-F(F(*&F/F(F&F(F(F-
+F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "irreduc(f);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 
+343 4 "1.4." }{TEXT -1 46 " Exemple de factorizari modulo un numar pri
+m.\n" }{TEXT 274 3 "(a)" }{TEXT -1 13 " Factorizati " }{XPPEDIT 18 0 "
+x^2-x" "6#,&*$%\"xG\"\"#\"\"\"F%!\"\"" }{TEXT -1 7 " peste " }
+{XPPEDIT 18 0 "Z[2]" "6#&%\"ZG6#\"\"#" }{TEXT -1 1 "\n" }{TEXT 275 3 "
+(b)" }{TEXT -1 13 " Factorizati " }{XPPEDIT 18 0 "x^3-x" "6#,&*$%\"xG
+\"\"$\"\"\"F%!\"\"" }{TEXT -1 7 " peste " }{XPPEDIT 18 0 "Z[3]" "6#&%
+\"ZG6#\"\"$" }{TEXT -1 1 "\n" }{TEXT 276 3 "(c)" }{TEXT -1 13 " Factor
+izati " }{XPPEDIT 18 0 "x^5-x" "6#,&*$%\"xG\"\"&\"\"\"F%!\"\"" }{TEXT 
+-1 7 " peste " }{XPPEDIT 18 0 "Z[5]" "6#&%\"ZG6#\"\"&" }{TEXT -1 1 "\n
+" }{TEXT 277 3 "(d)" }{TEXT -1 13 " Factorizati " }{XPPEDIT 18 0 "x^23
+-x" "6#,&*$%\"xG\"#B\"\"\"F%!\"\"" }{TEXT -1 7 " peste " }{XPPEDIT 18 
+0 "Z[23]" "6#&%\"ZG6#\"#B" }{TEXT -1 1 "\n" }{TEXT 278 3 "(e)" }{TEXT 
+-1 52 " Puteti deduce o regula despre cum se factorizeaza  " }
+{XPPEDIT 18 0 "x^p-x" "6#,&)%\"xG%\"pG\"\"\"F%!\"\"" }{TEXT -1 26 " pe
+ntru orice numar prim  " }{XPPEDIT 18 0 "p" "6#%\"pG" }{TEXT -1 98 "? \+
+Verificati ipoteza pentru un numar prim diferit de alegerile anterioar
+e. Intelegeti rezultatul?\n" }}{SECT 0 {PARA 5 "" 0 "" {TEXT 279 3 "(a
+)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "Factor(x^2-x) mod 2;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"F&F&F&F%F&" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 280 3 "(b)
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "Factor(x^3-x) mod 3;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"F&F&F&,&F%F&\"\"#F&F&F%F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "
+" {TEXT 281 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "Factor(x^5-x) mod 5;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#*,,&%\"xG\"\"\"\"\"$F&F&F%F&,&F%F&\"
+\"#F&F&,&F%F&F&F&F&,&F%F&\"\"%F&F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 282 3 "(d)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 22 "Factor(x^23-x) mod 23;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#*P%\"xG\"\"\",&F$F%\"\"&F%F%,&F$F%\"#9F%F%,&F$F%\"#<F%F
+%,&F$F%\"#8F%F%,&F$F%\"#6F%F%,&F$F%\"#?F%F%,&F$F%F%F%F%,&F$F%\"#7F%F%,
+&F$F%\"#=F%F%,&F$F%\"\"'F%F%,&F$F%\"\"(F%F%,&F$F%\"#>F%F%,&F$F%\"#:F%F
+%,&F$F%\"#5F%F%,&F$F%\"#;F%F%,&F$F%\"\"#F%F%,&F$F%\"\")F%F%,&F$F%\"\"*
+F%F%,&F$F%\"#@F%F%,&F$F%\"#AF%F%,&F$F%\"\"%F%F%,&F$F%\"\"$F%F%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "
+" {TEXT 283 3 "(e)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "for i from 1 to 10 do
+\nFactor(x^(ithprime(i))-x) mod ithprime(i) end do;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#*&%\"xG\"\"\",&F$F%F%F%F%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%\"xG\"\"\",&F$F%\"\"#F%F%,&F$F%F%F%F%" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*,%\"xG\"\"\",&F$F%\"\"#F%F%,&F$F%\"\"%F%F%,&F$F
+%F%F%F%,&F$F%\"\"$F%F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*0%\"xG\"\"
+\",&F$F%\"\"#F%F%,&F$F%\"\"%F%F%,&F$F%F%F%F%,&F$F%\"\"'F%F%,&F$F%\"\"$
+F%F%,&F$F%\"\"&F%F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*8,&%\"xG\"\"\"
+\"\"(F&F&F%F&,&F%F&\"\"#F&F&,&F%F&\"#5F&F&,&F%F&\"\")F&F&,&F%F&\"\"%F&
+F&,&F%F&F&F&F&,&F%F&\"\"'F&F&,&F%F&\"\"$F&F&,&F%F&\"\"*F&F&,&F%F&\"\"&
+F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*<,&%\"xG\"\"\"\"#7F&F&,&F%F&
+\"\"(F&F&F%F&,&F%F&\"\"#F&F&,&F%F&\"#5F&F&,&F%F&\"\")F&F&,&F%F&\"\"%F&
+F&,&F%F&F&F&F&,&F%F&\"#6F&F&,&F%F&\"\"'F&F&,&F%F&\"\"$F&F&,&F%F&\"\"*F
+&F&,&F%F&\"\"&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*D,&%\"xG\"\"\"
+\"#7F&F&,&F%F&\"#;F&F&,&F%F&\"\"(F&F&F%F&,&F%F&\"\"#F&F&,&F%F&\"#5F&F&
+,&F%F&\"\")F&F&,&F%F&\"\"%F&F&,&F%F&F&F&F&,&F%F&\"#8F&F&,&F%F&\"#6F&F&
+,&F%F&\"\"'F&F&,&F%F&\"\"$F&F&,&F%F&\"#9F&F&,&F%F&\"\"*F&F&,&F%F&\"#:F
+&F&,&F%F&\"\"&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*H,&%\"xG\"\"\"
+\"#7F&F&,&F%F&\"#;F&F&,&F%F&\"\"(F&F&F%F&,&F%F&\"\"#F&F&,&F%F&\"#5F&F&
+,&F%F&\"\")F&F&,&F%F&\"\"%F&F&,&F%F&\"#=F&F&,&F%F&F&F&F&,&F%F&\"#8F&F&
+,&F%F&\"#6F&F&,&F%F&\"#<F&F&,&F%F&\"\"'F&F&,&F%F&\"\"$F&F&,&F%F&\"#9F&
+F&,&F%F&\"\"*F&F&,&F%F&\"#:F&F&,&F%F&\"\"&F&F&" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#*P,&%\"xG\"\"\"\"#7F&F&,&F%F&\"#;F&F&,&F%F&\"\"(F&F&,&F
+%F&\"#>F&F&F%F&,&F%F&\"\"#F&F&,&F%F&\"#5F&F&,&F%F&\"\")F&F&,&F%F&\"\"%
+F&F&,&F%F&\"#=F&F&,&F%F&F&F&F&,&F%F&\"#8F&F&,&F%F&\"#?F&F&,&F%F&\"#6F&
+F&,&F%F&\"#<F&F&,&F%F&\"\"'F&F&,&F%F&\"\"$F&F&,&F%F&\"#9F&F&,&F%F&\"\"
+*F&F&,&F%F&\"#:F&F&,&F%F&\"#AF&F&,&F%F&\"#@F&F&,&F%F&\"\"&F&F&" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#*fn,&%\"xG\"\"\"\"#CF&F&,&F%F&\"#7F&F&
+,&F%F&\"#BF&F&,&F%F&\"#;F&F&,&F%F&\"\"(F&F&,&F%F&\"#>F&F&F%F&,&F%F&\"#
+GF&F&,&F%F&\"\"#F&F&,&F%F&\"#DF&F&,&F%F&\"#5F&F&,&F%F&\"\")F&F&,&F%F&
+\"\"%F&F&,&F%F&\"#=F&F&,&F%F&\"#EF&F&,&F%F&\"#FF&F&,&F%F&F&F&F&,&F%F&
+\"#8F&F&,&F%F&\"#?F&F&,&F%F&\"#6F&F&,&F%F&\"#<F&F&,&F%F&\"\"'F&F&,&F%F
+&\"\"$F&F&,&F%F&\"#9F&F&,&F%F&\"\"*F&F&,&F%F&\"#:F&F&,&F%F&\"#AF&F&,&F
+%F&\"#@F&F&,&F%F&\"\"&F&F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 63 "Ver
+ificand pentru primele 10 numere prime, formulam conjectura " }}{PARA 
+0 "" 0 "" {TEXT 257 10 "Conjectura" }{TEXT -1 2 "  " }{XPPEDIT 18 0 "x
+^p-x = product((x+k), k=0..p-1) mod p" "6#/,&)%\"xG%\"pG\"\"\"F&!\"\"-
+%$modG6$-%(productG6$,&F&F(%\"kGF(/F1;\"\"!,&F'F(F(F)F'" }{TEXT -1 3 "
+ .\n" }}{PARA 0 "" 0 "" {TEXT -1 15 "Presupunem ca  " }{XPPEDIT 18 0 "
+alpha" "6#%&alphaG" }{TEXT -1 46 " este o radacina a polinomului. Vom \+
+arata ca  " }{XPPEDIT 18 0 "alpha+1" "6#,&%&alphaG\"\"\"F%F%" }{TEXT 
+-1 28 " este de asemenea radacina:\n" }{XPPEDIT 18 0 "(alpha+1)^p - (a
+lpha+1)= alpha^p+p*alpha^(p-1)+ `...`+p*alpha+1-(alpha+1)" "6#/,&),&%&
+alphaG\"\"\"F(F(%\"pGF(,&F'F(F(F(!\"\",.)F'F)F(*&F)F()F',&F)F(F(F+F(F(
+%$...GF(*&F)F(F'F(F(F(F(,&F'F(F(F(F+" }{XPPEDIT 18 0 "``=alpha^p-alpha
+ mod p" "6#/%!G-%$modG6$,&)%&alphaG%\"pG\"\"\"F*!\"\"F+" }{XPPEDIT 18 
+0 "``=0" "6#/%!G\"\"!" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 55 "
+Deoarece  0 este radacina, orice intreg mai mic decat  " }{XPPEDIT 18 
+0 "p" "6#%\"pG" }{TEXT -1 27 " este de asemenea radacina." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" 
+{TEXT 258 4 "1.5." }{TEXT -1 5 " Fie " }{XPPEDIT 18 0 "f=2*x^4-3*x^2+x
++4" "6#/%\"fG,**&\"\"#\"\"\"*$%\"xG\"\"%F(F(*&\"\"$F(*$F*F'F(!\"\"F*F(
+F+F(" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "g=2*x^5-6*x^4-4*x^3+x^2-3*x-2
+" "6#/%\"gG,.*&\"\"#\"\"\"*$%\"xG\"\"&F(F(*&\"\"'F(*$F*\"\"%F(!\"\"*&F
+/F(*$F*\"\"$F(F0*$F*F'F(*&F3F(F*F(F0F'F0" }{TEXT -1 38 ". Interpretati
+-le ca polinoame peste  " }{XPPEDIT 18 0 "Z[7]" "6#&%\"ZG6#\"\"(" }
+{TEXT -1 33 " si calculati c.m.m.d.c. al lui  " }{XPPEDIT 18 0 "f" "6#
+%\"fG" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "g" "6#%\"gG" }{TEXT -1 27 ".
+ Determinati polinoamele  " }{XPPEDIT 18 0 "s" "6#%\"sG" }{TEXT -1 4 "
+ si " }{XPPEDIT 18 0 "t" "6#%\"tG" }{TEXT -1 7 " peste " }{XPPEDIT 18 
+0 "Z[7]" "6#&%\"ZG6#\"\"(" }{TEXT -1 14 " astfel incat " }{XPPEDIT 18 
+0 "s*f+t*g=gcd(f,g)" "6#/,&*&%\"sG\"\"\"%\"fGF'F'*&%\"tGF'%\"gGF'F'-%$
+gcdG6$F(F+" }{TEXT -1 29 " (desigur, gcd in raport cu  " }{XPPEDIT 18 
+0 "Z[7]" "6#&%\"ZG6#\"\"(" }{TEXT -1 3 ").\n" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+21 "f := 2*x^4-3*x^2+x+4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,**
+&\"\"#\"\"\")%\"xG\"\"%F(F(*&\"\"$F()F*F'F(!\"\"F*F(F+F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "g := 2*x^5-6*x^4-4*x^3+x^2-3*x-2;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG,.*&\"\"#\"\"\")%\"xG\"\"&F(F(
+*&\"\"'F()F*\"\"%F(!\"\"*&F/F()F*\"\"$F(F0*$)F*F'F(F(*&F3F(F*F(F0F'F0
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Gcd(f, g) mod 7;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"#\"\"\"F(*&\"\"%F(F&F(F(
+\"\"&F(" }}}{PARA 0 "" 0 "" {TEXT -1 52 "Calculul c.m.m.d.c estins va \+
+determina polinoamele  " }{XPPEDIT 18 0 "s" "6#%\"sG" }{TEXT -1 4 " si
+ " }{XPPEDIT 18 0 "t" "6#%\"tG" }{TEXT -1 15 " astfel incat  " }
+{XPPEDIT 18 0 "s*f + t*g = gcd(f,g) mod 7" "6#/,&*&%\"sG\"\"\"%\"fGF'F
+'*&%\"tGF'%\"gGF'F'-%$modG6$-%$gcdG6$F(F+\"\"(" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 31 "Gcdex(f, g, x, 's', 't') mod 7;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"#\"\"\"F(*&\"\"%F(F&F(F(\"\"&F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "s;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*&\"\"$\"\"\")%\"xG\"\"#F&F&*&\"\"'F&F(F&F&F+F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "t;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&\"\"%\"\"\"%\"xGF&F&\"\"'F&" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 24 "Expand(s*f + t*g) mod 7;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*$)%\"xG\"\"#\"\"\"F(*&\"\"%F(F&F(F(\"\"&F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "Sa facem calculele peste Q" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "gcd(f,g);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "
+gcdex(f, g, x, 's', 't');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "s;t;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,,#\"%6;\"%7k\"\"\"*&#\"%65\"&CG\"F'%\"xGF'!\"\"*&#\"#[
+\"$H#F'*$)F,\"\"#F'F'F'*&#\"$\"=\"%1KF'*$)F,\"\"$F'F'F-*&#F;F&F'*$)F,
+\"\"%F'F'F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,*#\"\"%\"%.;\"\"\"*&#
+\"$f%\"&CG\"F'%\"xGF'!\"\"*&#\"#`\"$;*F'*$)F,\"\"#F'F'F'*&#\"\"$\"%7kF
+'*$)F,F7F'F'F'" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 344 4 "1.6." }{TEXT 
+-1 34 " Daca cerem Maple sa factorizeze  " }{XPPEDIT 18 0 "x^2458+x^12
+29+1" "6#,(*$%\"xG\"%eC\"\"\"*$F%\"%H7F'F'F'" }{TEXT -1 7 " peste " }
+{XPPEDIT 18 0 "Z" "6#%\"ZG" }{TEXT -1 245 ", atunci sistemul va ajunge
+ la memorie insuficienta, sau dupa cateva ore va mai lucra fara sa fi \+
+gasit nici un raspuns. Sa examinam cu atentie problema si sa vedem dac
+a putem asista Maple. Intai, observam ca 1229 este numar prim (de exem
+plu, cu " }{TEXT 0 7 "isprime" }{TEXT -1 34 "). Deci, polinomul este d
+e  forma " }{XPPEDIT 18 0 "x^(2*p)+x^p+1" "6#,()%\"xG*&\"\"#\"\"\"%\"p
+GF(F()F%F)F(F(F(" }{TEXT -1 6 ", cu  " }{XPPEDIT 18 0 "p" "6#%\"pG" }
+{TEXT -1 97 " numar prim. Determinati factorizarea acestui polinom fol
+osind Maple pentru valori mici ale lui  " }{XPPEDIT 18 0 "p" "6#%\"pG
+" }{TEXT -1 166 " si propuneti o conjectura despre forma polinomului f
+actorizat in cazul general.\nUn matematician experimentat in algebra s
+i teoria numerelor ne va spune ca polinomul " }{XPPEDIT 18 0 "x^n-1" "
+6#,&)%\"xG%\"nG\"\"\"F'!\"\"" }{TEXT -1 8 ", unde  " }{XPPEDIT 18 0 "n
+" "6#%\"nG" }{TEXT -1 48 " este numar natural, poate fi factorizat pes
+te  " }{XPPEDIT 18 0 "Z" "6#%\"ZG" }{TEXT -1 26 " in polinoame cicloto
+mice " }{XPPEDIT 18 0 "phi[k](x)" "6#-&%$phiG6#%\"kG6#%\"xG" }{TEXT 
+-1 23 ".\n                     " }{XPPEDIT 18 0 "x^n-1=product(phi[k](
+x), `k|n`)" "6#/,&)%\"xG%\"nG\"\"\"F(!\"\"-%(productG6$-&%$phiG6#%\"kG
+6#F&%$k|grnG" }{TEXT -1 54 "\nAceste polinoame ciclotomice sunt ireduc
+tibile peste " }{XPPEDIT 18 0 "Z" "6#%\"ZG" }{TEXT -1 122 ". Cu aceste
+ cunostinte si in ipoteza corectitudinii conjecturii dumneavoastra, nu
+ va fi dificil sa demonstrati rezultatul." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 80 "for i to 10 do\n  p := ithprime(i):
+\n  print('p'=p, factor(x^(2*p)+x^p+1))\nend do:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$/%\"pG\"\"#*&,(*$)%\"xGF%\"\"\"F+F*!\"\"F+F+F+,(F(F+F*F
++F+F+F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/%\"pG\"\"$,(*$)%\"xG\"\"'
+\"\"\"F+*$)F)F%F+F+F+F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/%\"pG\"\"&
+*&,(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F,,0*$)F*\"\")F,F,*$)F*\"\"(F,!\"\"*$
+)F*F%F,F,*$)F*\"\"%F,F4*$)F*\"\"$F,F,F*F4F,F,F," }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$/%\"pG\"\"(*&,(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F,,4*$)F*\"
+#7F,F,*$)F*\"#6F,!\"\"*$)F*\"\"*F,F,*$)F*\"\")F,F4*$)F*\"\"'F,F,*$)F*
+\"\"%F,F4*$)F*\"\"$F,F,F*F4F,F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/
+%\"pG\"#6*&,(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F,,@*$)F*\"#?F,F,*$)F*\"#>F,
+!\"\"*$)F*\"#<F,F,*$)F*\"#;F,F4*$)F*\"#9F,F,*$)F*\"#8F,F4*$)F*F%F,F,*$
+)F*\"#5F,F4*$)F*\"\"*F,F,*$)F*\"\"(F,F4*$)F*\"\"'F,F,*$)F*\"\"%F,F4*$)
+F*\"\"$F,F,F*F4F,F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/%\"pG\"#8*&,
+(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F,,D*$)F*\"#CF,F,*$)F*\"#BF,!\"\"*$)F*\"
+#@F,F,*$)F*\"#?F,F4*$)F*\"#=F,F,*$)F*\"#<F,F4*$)F*\"#:F,F,*$)F*\"#9F,F
+4*$)F*\"#7F,F,*$)F*\"#5F,F4*$)F*\"\"*F,F,*$)F*\"\"(F,F4*$)F*\"\"'F,F,*
+$)F*\"\"%F,F4*$)F*\"\"$F,F,F*F4F,F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6$/%\"pG\"#<*&,(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F,,P*$)F*\"#KF,F,*$)F*\"
+#JF,!\"\"*$)F*\"#HF,F,*$)F*\"#GF,F4*$)F*\"#EF,F,*$)F*\"#DF,F4*$)F*\"#B
+F,F,*$)F*\"#AF,F4*$)F*\"#?F,F,*$)F*\"#>F,F4*$)F*F%F,F,*$)F*\"#;F,F4*$)
+F*\"#:F,F,*$)F*\"#8F,F4*$)F*\"#7F,F,*$)F*\"#5F,F4*$)F*\"\"*F,F,*$)F*\"
+\"(F,F4*$)F*\"\"'F,F,*$)F*\"\"%F,F4*$)F*\"\"$F,F,F*F4F,F,F," }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$/%\"pG\"#>*&,(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F
+,,TF,F,F*!\"\"*$)F*\"\"%F,F.*$)F*\"\"$F,F,*$)F*\"#5F,F.*$)F*\"\"*F,F,*
+$)F*\"\"'F,F,*$)F*\"\"(F,F.*$)F*\"#8F,F.*$)F*\"#7F,F,*$)F*\"#?F,F.*$)F
+*\"#;F,F.*$)F*\"#CF,F,*$)F*\"#@F,F,*$)F*\"#IF,F,*$)F*\"#FF,F,*$)F*\"#L
+F,F,*$)F*\"#OF,F,*$)F*\"#NF,F.*$)F*\"#EF,F.*$)F*\"#BF,F.*$)F*\"#=F,F,*
+$)F*\"#:F,F,*$)F*\"#HF,F.*$)F*\"#KF,F.F," }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6$/%\"pG\"#B*&,(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F,,jnF,F,*$)F*\"#WF,F
+,*$)F*\"#SF,!\"\"*$)F*\"#VF,F4*$)F*\"#TF,F,F*F4*$)F*\"\"%F,F4*$)F*\"\"
+$F,F,*$)F*\"#5F,F4*$)F*\"\"*F,F,*$)F*\"\"'F,F,*$)F*\"\"(F,F4*$)F*\"#8F
+,F4*$)F*\"#AF,F4*$)F*\"#7F,F,*$)F*\"#MF,F4*$)F*\"#;F,F4*$)F*\"#>F,F4*$
+)F*\"#@F,F,*$)F*\"#NF,F,*$)F*\"#EF,F,*$)F*\"#DF,F4*$)F*F%F,F,*$)F*\"#=
+F,F,*$)F*\"#:F,F,*$)F*\"#QF,F,*$)F*\"#PF,F4*$)F*\"#HF,F,*$)F*\"#KF,F,*
+$)F*\"#GF,F4*$)F*\"#JF,F4F," }}{PARA 12 "" 1 "" {XPPMATH 20 "6$/%\"pG
+\"#H*&,(*$)%\"xG\"\"#\"\"\"F,F*F,F,F,F,,joF,F,*$)F*\"#WF,F,*$)F*\"#SF,
+!\"\"*$)F*\"#VF,F4*$)F*\"#TF,F,*$)F*\"#`F,F,*$)F*\"#]F,F,*$)F*\"#ZF,F,
+*$)F*\"#cF,F,*$)F*\"#_F,F4*$)F*\"#bF,F4*$)F*\"#\\F,F4F*F4*$)F*\"\"%F,F
+4*$)F*\"\"$F,F,*$)F*\"#5F,F4*$)F*\"\"*F,F,*$)F*\"\"'F,F,*$)F*\"\"(F,F4
+*$)F*\"#8F,F4*$)F*\"#AF,F4*$)F*\"#7F,F,*$)F*\"#MF,F4*$)F*\"#;F,F4*$)F*
+\"#>F,F4*$)F*\"#CF,F,*$)F*\"#@F,F,*$)F*\"#FF,F,*$)F*\"#NF,F,*$)F*\"#DF
+,F4*$)F*\"#=F,F,*$)F*\"#:F,F,*$)F*\"#QF,F,*$)F*\"#PF,F4*$)F*F%F,F,*$)F
+*\"#KF,F,*$)F*\"#GF,F4*$)F*\"#JF,F4*$)F*\"#YF,F4F," }}}{PARA 0 "" 0 "
+" {TEXT 259 10 "Conjectura" }{TEXT -1 8 " Pentru " }{XPPEDIT 18 0 "p*`
+>`*3" "6#*(%\"pG\"\"\"%\">GF%\"\"$F%" }{TEXT -1 26 ", prim avem factor
+izarea  " }{XPPEDIT 18 0 "x^(2*p)+x^p+1=(x^2+x+1)*phi[3*p](x)" "6#/,()
+%\"xG*&\"\"#\"\"\"%\"pGF)F))F&F*F)F)F)*&,(*$F&F(F)F&F)F)F)F)-&%$phiG6#
+*&\"\"$F)F*F)6#F&F)" }{TEXT -1 7 ", unde " }{XPPEDIT 18 0 "phi[k](x) \+
+" "6#-&%$phiG6#%\"kG6#%\"xG" }{TEXT -1 36 " este al  k-lea  polinom ci
+clotomic." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+50 "Verificam conjectura in Maple, utilizand pachetul " }{TEXT 0 9 "nu
+mtheory" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "w
+ith(numtheory):" }}{PARA 7 "" 1 "" {TEXT -1 69 "Warning, the protected
+ name order has been redefined and unprotected\n" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 125 "\{ seq(\n testeq( factor(x^(2*ithprime(i))+x
+^ithprime(i)+1) =\n         (x^2+x+1)*cyclotomic(3*ithprime(i),x) ),\n
+ i = 3..25 ) \};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<#%%trueG" }}}
+{PARA 0 "" 0 "" {TEXT -1 25 "Demonstratia conjecturii:" }}{PARA 0 "" 
+0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "x^(3*p)-1 = (x^(2*p)+x^p+1)*(x^p-1
+)" "6#/,&)%\"xG*&\"\"$\"\"\"%\"pGF)F)F)!\"\"*&,()F&*&\"\"#F)F*F)F))F&F
+*F)F)F)F),&)F&F*F)F)F+F)" }{TEXT -1 34 ". Deci, factorizarea prima a l
+ui  " }{XPPEDIT 18 0 "x^(2*p)+x^p+1" "6#,()%\"xG*&\"\"#\"\"\"%\"pGF(F(
+)F%F)F(F(F(" }{TEXT -1 31 " coincide cu factorizarea lui  " }{XPPEDIT 
+18 0 "x^(3*p)-1" "6#,&)%\"xG*&\"\"$\"\"\"%\"pGF(F(F(!\"\"" }{TEXT -1 
+24 " impartita cu factorul  " }{XPPEDIT 18 0 "x^p-1)" "6#,&)%\"xG%\"pG
+\"\"\"F'!\"\"" }{TEXT -1 26 ". Deci,  factorizarea lui " }{XPPEDIT 18 
+0 "x^(2*p)+x^p+1" "6#,()%\"xG*&\"\"#\"\"\"%\"pGF(F()F%F)F(F(F(" }
+{TEXT -1 42 "  este produsul polinoamelor ciclotomice  " }{XPPEDIT 18 
+0 "phi[k](x)" "6#-&%$phiG6#%\"kG6#%\"xG" }{TEXT -1 7 " unde  " }
+{XPPEDIT 18 0 "k" "6#%\"kG" }{TEXT -1 8 " divide " }{XPPEDIT 18 0 "3*p
+" "6#*&\"\"$\"\"\"%\"pGF%" }{TEXT -1 8 " si nu  " }{XPPEDIT 18 0 "p" "
+6#%\"pG" }{TEXT -1 8 ". Deci, " }{XPPEDIT 18 0 "k=3" "6#/%\"kG\"\"$" }
+{TEXT -1 14 " (presupunand " }{XPPEDIT 18 0 "p<>3" "6#0%\"pG\"\"$" }
+{TEXT -1 6 ") sau " }{XPPEDIT 18 0 "k=3*p" "6#/%\"kG*&\"\"$\"\"\"%\"pG
+F'" }{TEXT -1 13 ". Deoarece   " }{XPPEDIT 18 0 "phi[3](x)=x^2+x+1" "6
+#/-&%$phiG6#\"\"$6#%\"xG,(*$F*\"\"#\"\"\"F*F.F.F." }{TEXT -1 29 " avem
+ formula din conjectura." }}{PARA 0 "" 0 "" {TEXT -1 30 "Verificam in \+
+cazul particular:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "p := 12
+29;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"%H7" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 36 "expand((x^2+x+1)*cyclotomic(3*p,x));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"\"F$*$)%\"xG\"%H7F$F$*$)F'\"%eCF
+$F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "sort(%);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"%eC\"\"\"F(*$)F&\"%H7F(F(F(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 345 2 "1." }{TEXT 346 2 "7." }{TEXT -1 49 " Dati comenzile Map
+le pentru a genera polinomul  " }{XPPEDIT 18 0 "w = (x-1)*(x-2);" "6#/
+%\"wG*&,&%\"xG\"\"\"F(!\"\"F(,&F'F(\"\"#F)F(" }{TEXT -1 4 "...(" }
+{XPPEDIT 18 0 "x-10;" "6#,&%\"xG\"\"\"\"#5!\"\"" }{TEXT -1 23 "). \n  \+
+  (a) Executati  " }{TEXT 0 15 "e := expand(w);" }{TEXT -1 61 " si pun
+eti Maple sa gaseasca radacinile polinomului expandat " }{TEXT 0 1 "e
+" }{TEXT -1 12 ", utilizand " }{TEXT 0 5 "solve" }{TEXT -1 20 ".\n    \+
+(b) Executati " }{TEXT 0 23 "f := convert(e; float);" }{TEXT -1 14 " s
+i aplicati  " }{TEXT 0 22 "fsolve(f; x; complex);" }{TEXT -1 69 " pent
+ru a gasi radacinile. Va asteptati la acest rezultat? Comparati " }
+{TEXT 0 6 "fsolve" }{TEXT -1 4 " cu " }{TEXT 0 5 "solve" }{TEXT -1 1 "
+." }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "w:=mul(x-i,i=1..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%\"wG*6,&%\"xG\"\"\"F(!\"\"F(,&F'F(\"\"#F)F(,&F'F(\"\"$F)F(,&F'F(
+\"\"%F)F(,&F'F(\"\"&F)F(,&F'F(\"\"'F)F(,&F'F(\"\"(F)F(,&F'F(\"\")F)F(,
+&F'F(\"\"*F)F(,&F'F(\"#5F)F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 13 "e:=expand(w);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"eG,8*$)%\"x
+G\"#5\"\"\"F**&\"#bF*)F(\"\"*F*!\"\"*&\"%?8F*)F(\"\")F*F**&\"&]\"=F*)F
+(\"\"(F*F/*&\"'tx:F*)F(\"\"'F*F**&\"'b?!*F*)F(\"\"&F*F/*&\"(IpT$F*)F(
+\"\"%F*F**&\"(+&4%)F*)F(\"\"$F*F/*&\")wNv7F*)F(\"\"#F*F**&\")S'G1\"F*F
+(F*F/\"(+)GOF*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(e,x
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6,\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'
+\"\"(\"\")\"\"*\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "f:=c
+onvert(e,float);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,8*$)%\"xG\"
+#5\"\"\"F**&$\"#b\"\"!F*)F(\"\"*F*!\"\"*&$\"%?8F.F*)F(\"\")F*F**&$\"&]
+\"=F.F*)F(\"\"(F*F1*&$\"'tx:F.F*)F(\"\"'F*F**&$\"'b?!*F.F*)F(\"\"&F*F1
+*&$\"(IpT$F.F*)F(\"\"%F*F**&$\"(+&4%)F.F*)F(\"\"$F*F1*&$\")wNv7F.F*)F(
+\"\"#F*F**&$\")S'G1\"F.F*F(F*F1$\"(+)GOF.F*" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 20 "fsolve(f,x,complex);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6,$\"+++++5!\"*$\"+++++?F%$\"+++++IF%$\"+++++SF%$\"+++++]F%$\"++++
++gF%$\"+++++qF%$\"+++++!)F%$\"+++++!*F%$F$!\")" }}}}}{SECT 1 {PARA 0 "
+" 0 "" {TEXT 347 2 "1." }{TEXT 348 2 "8." }{TEXT -1 41 " Se considera \+
+polinoamele\n               " }{XPPEDIT 18 0 "p = 2*x^5+11*x^4+14*x^3+
+11*x^2+12*x;" "6#/%\"pG,,*&\"\"#\"\"\"*$%\"xG\"\"&F(F(*&\"#6F(*$F*\"\"
+%F(F(*&\"#9F(*$F*\"\"$F(F(*&F-F(*$F*F'F(F(*&\"#7F(F*F(F(" }{TEXT -1 4 
+" si " }{XPPEDIT 18 0 "q = 2*x^5+5*x^4+7*x^3+8*x^2+5*x+3;" "6#/%\"qG,.
+*&\"\"#\"\"\"*$%\"xG\"\"&F(F(*&F+F(*$F*\"\"%F(F(*&\"\"(F(*$F*\"\"$F(F(
+*&\"\")F(*$F*F'F(F(*&F+F(F*F(F(F2F(" }{TEXT -1 77 ".\n   (a) Dati comm
+anda (comenzile) Maple pentru a calcula c.m.m.d.c. al lui  " }{TEXT 
+329 1 "p" }{TEXT -1 4 " si " }{TEXT 330 1 "q" }{TEXT -1 60 ".\n   (b) \+
+Cum puteti utiliza Maple pentru a gasi polinoamele " }{TEXT 331 1 "k" 
+}{TEXT -1 4 " si " }{TEXT 332 1 "l" }{TEXT -1 14 " astfel ca gcd" }
+{TEXT 333 16 "(p, q) = kp + lq" }{TEXT -1 40 "?\n   (c) Verificati in \+
+Maple relatia gcd" }{TEXT 334 14 "(p; q) = kp+lq" }{TEXT -1 8 " pentru
+ " }{TEXT 335 1 "k" }{TEXT -1 5 " si  " }{TEXT 336 1 "l" }{TEXT -1 65 
+" gasiti anterior.\nIndicatia: examinati pagina de help a comenzii " }
+{TEXT 0 5 "gcdex" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "p := 2*x^5 + 11*x^4 + 14*x^3
+ + 11*x^2 + 12*x;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,,*&\"\"#\"
+\"\")%\"xG\"\"&F(F(*&\"#6F()F*\"\"%F(F(*&\"#9F()F*\"\"$F(F(*&F-F()F*F'
+F(F(*&\"#7F(F*F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "q := \+
+ 2*x^5 + 5*x^4 + 7*x^3 + 8*x^2 + 5*x + 3;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"qG,.*&\"\"#\"\"\")%\"xG\"\"&F(F(*&F+F()F*\"\"%F(F(*
+&\"\"(F()F*\"\"$F(F(*&\"\")F()F*F'F(F(*&F+F(F*F(F(F2F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "g1:=gcd(p,q);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#g1G,**&\"\"#\"\"\")%\"xG\"\"$F(F(*&F+F()F*F'F(F(*&F'
+F(F*F(F(F+F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "g2:=gcdex(p
+,q,x,'s','t');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG,**$)%\"xG\"\"
+$\"\"\"F**&#F)\"\"#F**$)F(F-F*F*F*F(F*F,F*" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "2*expand(s*p+t*q);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,**&\"\"#\"\"\")%\"xG\"\"$F&F&*&F)F&)F(F%F&F&*&F%F&F(F&F&F)F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "testeq(2*expand(s*p+t*q),g1)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 349 2 "1." }{TEXT 350 
+2 "9." }{TEXT -1 56 "  Se considera polinomul\n                       \+
+        " }{XPPEDIT 18 0 "p = 2*x^5+9*x^4+16*x^3+15*x^2+12*x+9;" "6#/%
+\"pG,.*&\"\"#\"\"\"*$%\"xG\"\"&F(F(*&\"\"*F(*$F*\"\"%F(F(*&\"#;F(*$F*
+\"\"$F(F(*&\"#:F(*$F*F'F(F(*&\"#7F(F*F(F(F-F(" }{TEXT -1 10 ".\nScriet
+i " }{TEXT 338 1 "p" }{TEXT -1 146 " ca produs de factori liniari:\n  \+
+(a) simbolic, adaugand suficiente radacini formale;\n  (b) numeric, de
+terminand toate radacinile complexe ale lui " }{TEXT 337 1 "p" }{TEXT 
+-1 1 "." }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "p := 2*x^5 + 9*x^4 + 16*x^3
+ + 15*x^2 + 12*x + 9;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,.*&\"
+\"#\"\"\")%\"xG\"\"&F(F(*&\"\"*F()F*\"\"%F(F(*&\"#;F()F*\"\"$F(F(*&\"#
+:F()F*F'F(F(*&\"#7F(F*F(F(F-F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "factor(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,(*$)%\"xG\"\"
+#\"\"\"F)*&\"\"$F)F'F)F)F+F)F),**&F(F))F'F+F)F)*&F+F)F&F)F)F'F)F+F)F)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "alias(alpha=RootOf(x^2+
+3*x+3));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&alphaG" }}}{EXCHG {PARA 
+12 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "
+factor(p,alpha);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,**&\"\"#\"\"\")
+%\"xG\"\"$F'F'*&F*F')F)F&F'F'F)F'F*F'F',&F)F'%&alphaG!\"\"F',(F)F'F*F'
+F.F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "q:=%/((x-alpha)*(
+x+3+alpha));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG,**&\"\"#\"\"\")
+%\"xG\"\"$F(F(*&F+F()F*F'F(F(F*F(F+F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "alias(beta=RootOf(q));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6$%&alphaG%%betaG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "fa
+ctor(q,beta);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,.*&\"\"#\"\"\")%\"
+xGF&F'F'*&\"\"$F'F)F'F'*(F&F'F)F'%%betaGF'F'F'F'*&F+F'F-F'F'*&F&F')F-F
+&F'F'F',&F)F'F-!\"\"F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "r
+:=%/(x-beta);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG,.*&\"\"#\"\"\"
+)%\"xGF'F(F(*&\"\"$F(F*F(F(*(F'F(F*F(%%betaGF(F(F(F(*&F,F(F.F(F(*&F'F(
+)F.F'F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "alias(delta=Ro
+otOf(r));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%%&alphaG%%betaG%&deltaG" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "factor(r,delta);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,**&\"\"#\"\"\"%\"xGF'F'\"\"$F'*&F&F
+'%%betaGF'F'*&F&F'%&deltaGF'F'F',&F(F'F-!\"\"F'" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 23 "convert(alpha,radical);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&#\"\"$\"\"#!\"\"*&^##\"\"\"F&F+F%F*F+" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "convert(beta,radical);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,**&\"#7!\"\",&\"$i\"\"\"\"*&\"\"$F)\"%8H#F)\"
+\"#F)#F)F+F)*&F)F)*&\"\"%F))F'#F)F+F)F&F)#F)F.F&*(^##F&F.F)F+F-,&*&\"
+\"'F&F'F/F&*&F)F)*&F.F))F'#F)F+F)F&F)F)F)" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*
+(\"#7!\"\",,*$),&\"$i\"\"\"\"*(\"\"$F,F.#F,\"\"#\"$r*F/F,#F0F.F,F,F.F,
+*&\"\"'F,)F*#F,F.F,F&*(F.F/F)F,^#F,F,F,*&^#!\"$F,F.F/F,F,F*#F&F.F," }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "convert(delta,radical);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#,$*(\"#C!\"\",.*&\"#7\"\"\"),&\"$i\"F*
+*&\"\"$F*\"%8H#F*\"\"#F*#F*F/F*F&*$)F,#F2F/F*F&F/F&*&^#F/F*F/F1F**(^#F
+&F*F/F1F5F*F**&,$*&,,\"#aF&*&^#!#aF*F/F1F**&\"#sF*F5F*F&*&\"\"'F*)F,#
+\"\"%F/F*F&*(^#FFF*F/F1FGF*F*F*F,#!\"#F/F&F1F+F*F*F*F,#F&F/F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*(\"#7!\"\",,*&\"\"'\"\"\"),&\"$i\"F**(\"\"$F*F/
+#F*\"\"#\"$r*F0F*#F*F/F*F**$)F,#F1F/F*F&F/F&*&^#!\"$F*F/F0F**(F/F0F5F*
+^#F*F*F*F*F,#F&F/F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "fact
+or(p,complex);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*.$\"\"#\"\"!\"\"
+\",&%\"xGF($\"+%o?ur\"!\"*F(F(,&F*F(^$$\"+++++:F-$\"+QSDg')!#5F(F(,&F*
+F(^$F0$!+QSDg')F4F(F(,&F*F(^$$!+@M5(3\"F4$\"+b%f@G*F4F(F(,&F*F(^$F;$!+
+b%f@G*F4F(F(F(" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 351 2 "1." }{TEXT 
+352 3 "10." }{TEXT -1 24 " Se considera \n         " }{XPPEDIT 18 0 "f
+ = x^2*y*z+x^2*y-2*x^2+x*y^2*z-x*y^2-x*z+y*z+9;" "6#/%\"fG,2*(%\"xG\"
+\"#%\"yG\"\"\"%\"zGF*F**&F'F(F)F*F**&F(F**$F'F(F*!\"\"*(F'F**$F)F(F*F+
+F*F**&F'F**$F)F(F*F/*&F'F*F+F*F/*&F)F*F+F*F*\"\"*F*" }{TEXT -1 54 ".\n
+Dati comenzile Maple pentru a transforma f in \n     " }{XPPEDIT 18 0 
+"((z+1)*y-2)*x^2+((z-1)*y^2-z)*x+y*z+9;" "6#,**&,&*&,&%\"zG\"\"\"F)F)F
+)%\"yGF)F)\"\"#!\"\"F)*$%\"xGF+F)F)*&,&*&,&F(F)F)F,F)*$F*F+F)F)F(F,F)F
+.F)F)*&F*F)F(F)F)\"\"*F)" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "f := x^2*y*z + x^2*y - 2*x^2
+ + x*y^2*z - x*y^2 - x*z + y*z + 9;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"fG,2*()%\"xG\"\"#\"\"\"%\"yGF*%\"zGF*F**&F'F*F+F*F**&F)F*F'F*!\"
+\"*(F(F*)F+F)F*F,F*F**&F(F*F1F*F/*&F(F*F,F*F/*&F+F*F,F*F*\"\"*F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "sort(collect(f,[x,y,z]),[x,y
+,z],'plex');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&,&*&,&%\"zG\"\"\"F
+)F)F)%\"yGF)F)\"\"#!\"\"F))%\"xGF+F)F)*&,&*&,&F(F)F)F,F))F*F+F)F)F(F,F
+)F.F)F)*&F*F)F(F)F)\"\"*F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 353 2 "1." }{TEXT 354 3 "11." 
+}{TEXT -1 5 " Fie " }{XPPEDIT 18 0 "p = 2*y*z^2+x*z^3+2*x*z^4;" "6#/%
+\"pG,(*(\"\"#\"\"\"%\"yGF(%\"zGF'F(*&%\"xGF(*$F*\"\"$F(F(*(F'F(F,F(F*
+\"\"%F(" }{TEXT -1 78 ". Dati comenzile Maple care convertesc p in una
+ din urmatoarele forme:\n   (a) " }{XPPEDIT 18 0 "2*z^4*x+z^3*x+2*z^2*
+y;" "6#,(*(\"\"#\"\"\"*$%\"zG\"\"%F&%\"xGF&F&*&F(\"\"$F*F&F&*(F%F&*$F(
+F%F&%\"yGF&F&" }{TEXT -1 6 "; (b) " }{XPPEDIT 18 0 "2*x*z^4+x*z^3+2*z^
+2*y;" "6#,(*(\"\"#\"\"\"%\"xGF&%\"zG\"\"%F&*&F'F&*$F(\"\"$F&F&*(F%F&*$
+F(F%F&%\"yGF&F&" }{TEXT -1 6 "; (c) " }{XPPEDIT 18 0 "2*y*z^2+x*z^3+2*
+x*z^4;" "6#,(*(\"\"#\"\"\"%\"yGF&%\"zGF%F&*&%\"xGF&*$F(\"\"$F&F&*(F%F&
+F*F&F(\"\"%F&" }{TEXT -1 1 "." }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "S
+olutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 
+"p := 2*y*z^2 + x*z^3 + 2*x*z^4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"pG,(*(\"\"#\"\"\"%\"yGF()%\"zGF'F(F(*&%\"xGF()F+\"\"$F(F(*(F'F(F-F()
+F+\"\"%F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(a)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "sort(p,[z,x,y],'tdeg',descending);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*(\"\"#\"\"\")%\"zG\"\"%F&%\"xGF
+&F&*&)F(\"\"$F&F*F&F&*(F%F&)F(F%F&%\"yGF&F&" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 3 "(b)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "sort(p
+,[x,z,y],'tdeg',descending);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*(\"
+\"#\"\"\"%\"xGF&)%\"zG\"\"%F&F&*&F'F&)F)\"\"$F&F&*(F%F&)F)F%F&%\"yGF&F
+&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(c)" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 26 "sort(p,[y,x,z],ascending);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*(\"\"#\"\"\"%\"yGF&)%\"zGF%F&F&*&%\"xGF&)F)\"\"$F&F&
+*(F%F&F+F&)F)\"\"%F&F&" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 355 2 "1." 
+}{TEXT 356 3 "12." }{TEXT -1 14 " Se considera " }{XPPEDIT 18 0 "p = x
+*y-x*y^2+x^2*y^2*z-x^2*y^2*z-x^2*y*z;" "6#/%\"pG,,*&%\"xG\"\"\"%\"yGF(
+F(*&F'F(*$F)\"\"#F(!\"\"*(F'F,F)F,%\"zGF(F(*(F'F,F)F,F/F(F-*(F'F,F)F(F
+/F(F-" }{TEXT -1 29 ". \n     (a) Aplicand comanda " }{TEXT 0 2 "op" }
+{TEXT -1 5 " lui " }{TEXT 339 1 "p" }{TEXT -1 29 " desenati arborele e
+xpresiei " }{TEXT 340 1 "p" }{TEXT -1 21 ".\n     (b) Executati " }
+{TEXT 0 35 "q := collect(p; [x; z]; recursive);" }{TEXT -1 33 " si des
+enati arborele expresiei  " }{TEXT 0 1 "q" }{TEXT -1 21 ".\n     (c) E
+xecutati " }{TEXT 0 15 "r := factor(p);" }{TEXT -1 32 " si desenati ar
+borele expresiei " }{TEXT 0 2 " r" }{TEXT -1 34 ".\n     (d) Care dint
+re expresiile " }{TEXT 0 1 "p" }{TEXT -1 2 ", " }{TEXT 0 1 "q" }{TEXT 
+-1 6 ", sau " }{TEXT 0 1 "r" }{TEXT -1 162 ", necesita efort de calcul
+ mai mare pentru a fi evaluate? Justificati raspunsul punand Maple sa \+
+determine numarul de operatii aritmetice necesare pentru a evalua " }
+{TEXT 0 1 "p" }{TEXT -1 2 ", " }{TEXT 0 1 "q" }{TEXT -1 5 ", si " }
+{TEXT 0 1 "r" }{TEXT -1 1 "." }}{PARA 3 "" 0 "" {TEXT -1 0 "" }}{SECT 
+1 {PARA 4 "" 0 "" {TEXT -1 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "p := x*y - x*y^2 + x^2*y^2*z
+ - x^2*y*z;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,**&%\"xG\"\"\"%
+\"yGF(F(*&F'F()F)\"\"#F(!\"\"*()F'F,F(F+F(%\"zGF(F(*(F/F(F)F(F0F(F-" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "nops(p);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "op
+(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&*&%\"xG\"\"\"%\"yGF%,$*&F$F%)F
+&\"\"#F%!\"\"*()F$F*F%F)F%%\"zGF%,$*(F-F%F&F%F.F%F+" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 35 "op(1,p); op(2,p); op(3,p); op(4,p);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&%\"xG\"\"\"%\"yGF%" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#,$*&%\"xG\"\"\")%\"yG\"\"#F&!\"\"" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#*()%\"xG\"\"#\"\"\")%\"yGF&F'%\"zGF'" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*()%\"xG\"\"#\"\"\"%\"yGF(%\"zGF(!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "op([1,1],p); op([1,2],p);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"xG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%\"yG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "op([2,1],p);
+ op([2,2],p); op([2,3],p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"\"" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"xG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*$)%\"yG\"\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+38 "op([3,1],p); op([3,2],p); op([3,3],p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$)%\"xG\"\"#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+*$)%\"yG\"\"#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"zG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "op([4,1],p); op([4,2],p); op
+([4,3],p); op([4,4],p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)%\"xG\"\"#\"\"\"" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%\"yG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"zG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "op([4,2,1],p); op([4,2,2],p)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"xG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "dis
+mantle(p);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT 
+-1 6 "SUM(9)" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(5)" }}{PARA 6 "" 
+1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 18 "   \+
+   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): y" }}
+{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(5
+)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 16 "      \+
+NAME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 2" }}
+{PARA 6 "" 1 "" {TEXT -1 16 "   INTNEG(2): -1" }}{PARA 6 "" 1 "" 
+{TEXT -1 10 "   PROD(7)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4):
+ x" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 2" }}{PARA 6 "" 1 
+"" {TEXT -1 16 "      NAME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 18 "     \+
+ INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): z" }}
+{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(7
+)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 16 "      \+
+NAME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): z" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 16 "   INT
+NEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(b)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "q := collect
+(p, [x, z], recursive);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG,&*(,
+&*$)%\"yG\"\"#\"\"\"F,F*!\"\"F,%\"zGF,)%\"xGF+F,F,*&,&F*F,F(F-F,F0F,F,
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "dismantle(q);" }}{PARA 
+6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 6 "SUM(5)" }}{PARA 
+6 "" 1 "" {TEXT -1 10 "   PROD(7)" }}{PARA 6 "" 1 "" {TEXT -1 12 "    \+
+  SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "         PROD(3)" }}{PARA 6 "
+" 1 "" {TEXT -1 22 "            NAME(4): y" }}{PARA 6 "" 1 "" {TEXT 
+-1 24 "            INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 21 "      \+
+   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 19 "         NAME(4): y" }
+}{PARA 6 "" 1 "" {TEXT -1 22 "         INTNEG(2): -1" }}{PARA 6 "" 1 "
+" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 16 "    \+
+  NAME(4): z" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INT
+POS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(5)" }}{PARA 6 "" 1 "
+" {TEXT -1 12 "      SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 19 "         N
+AME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 16 "         PROD(3)" }}{PARA 6 "" 1 "" 
+{TEXT -1 22 "            NAME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 24 "  \+
+          INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 22 "         INTNEG
+(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 
+"" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 18 "
+      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "
+(c)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "r := factor(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"rG**%\"yG\"\"\"%\"xGF',&*&%\"zGF'F(F'F'F'!\"\"F',&F&F'F'F,F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "dismantle(r);" }}{PARA 6 "" 
+1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 7 "PROD(9)" }}{PARA 6 "
+" 1 "" {TEXT -1 13 "   NAME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 15 "   I
+NTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 13 "   NAME(4): x" }}{PARA 6 "
+" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 9 "   \+
+SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 13 "      PROD(5)" }}{PARA 6 "" 1 "
+" {TEXT -1 19 "         NAME(4): z" }}{PARA 6 "" 1 "" {TEXT -1 21 "   \+
+      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 19 "         NAME(4): x
+" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 1" }}{PARA 6 "" 
+1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 19 " \+
+     INTNEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1
+" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 9 "   SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): y
+" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "
+" {TEXT -1 19 "      INTNEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 18 "   \+
+   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(d)" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(codegen);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7=%\"CG%%GRADG%)GRADIENTG%(HESSIANG%)J
+ACOBIANG%'MathMLG%%costG%(declareG%+dontreturnG%$eqnG%(fortranG%'horne
+rG%-intrep2mapleG%*joinprocsG%+makeglobalG%*makeparamG%)makeprocG%)mak
+evoidG%-maple2intrepG%)optimizeG%)packargsG%+packlocalsG%+packparamsG%
++prep2transG%*renamevarG%&splitG%)swapargsG" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 8 "cost(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"
+\"$\"\"\"%*additionsGF&F&*&\"#5F&%0multiplicationsGF&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "cost(q);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&\"\"$\"\"\"%*additionsGF&F&*&\"\"'F&%0multiplicatio
+nsGF&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "cost(q);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"$\"\"\"%*additionsGF&F&*&\"\"'
+F&%0multiplicationsGF&F&" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 358 5 "1.
+13." }{TEXT -1 68 " Generati un polinom aleator de grad 5 intr-o varia
+bila ( utilizati " }{TEXT 0 32 "p := randpoly(x,degree=5,dense);" }
+{TEXT -1 174 "). Convertiti acest polinom in forma Horner si comparati
+ costul evaluarii lui p in forma originala cu costul evaluarii lui p i
+n forma Horner. Conteaza ordinea termenilor lui " }{TEXT 0 1 "p" }
+{TEXT -1 181 "? Ilustrati prin sortarea lui p crescator si descrescato
+r dupa puterle variabilei si calculati costul in fiecare caz. Scrieti \+
+o formula pentru costul evaluarii unui polinom de grad " }{TEXT 357 1 
+"d" }{TEXT -1 25 " si a formei sale Horner." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart; \+
+with(codegen);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7=%\"CG%%GRADG%)GRAD
+IENTG%(HESSIANG%)JACOBIANG%'MathMLG%%costG%(declareG%+dontreturnG%$eqn
+G%(fortranG%'hornerG%-intrep2mapleG%*joinprocsG%+makeglobalG%*makepara
+mG%)makeprocG%)makevoidG%-maple2intrepG%)optimizeG%)packargsG%+packloc
+alsG%+packparamsG%+prep2transG%*renamevarG%&splitG%)swapargsG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "p := randpoly(x,degree=5,den
+se);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,.\"#r\"\"\"*&\"#5F')%\"
+xG\"\"&F'!\"\"*&\"#iF')F+\"\"%F'F'*&\"##)F')F+\"\"$F'F-*&\"#!)F')F+\"
+\"#F'F'*&\"#WF'F+F'F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "p2
+ := randpoly(x,degree=5,dense);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#
+p2G,.\"#U\"\"\"*&\"#<F')%\"xG\"\"&F'!\"\"*&\"#vF')F+\"\"%F'F-*&\"#5F')
+F+\"\"$F'F-*&\"\"(F')F+\"\"#F'F-*&\"#SF'F+F'F-" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 25 "pos:=sort(p,x,ascending);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$posG,.\"#r\"\"\"*&\"#WF'%\"xGF'!\"\"*&\"#!)F')F*\"\"
+#F'F'*&\"##)F')F*\"\"$F'F+*&\"#iF')F*\"\"%F'F'*&\"#5F')F*\"\"&F'F+" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "pod:=sort(p,x,descending);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$podG,.*&\"#5\"\"\")%\"xG\"\"&F(
+!\"\"*&\"#iF()F*\"\"%F(F(*&\"##)F()F*\"\"$F(F,*&\"#!)F()F*\"\"#F(F(*&
+\"#WF(F*F(F,\"#rF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "ph:=c
+onvert(p,horner);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#phG,&\"#r\"\"
+\"*&,&\"#W!\"\"*&,&\"#!)F'*&,&\"##)F+*&,&\"#iF'*&\"#5F'%\"xGF'F+F'F7F'
+F'F'F7F'F'F'F7F'F'F'F7F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+25 "ph2:=convert(pod,horner);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$ph
+2G,&\"#r\"\"\"*&,&\"#W!\"\"*&,&\"#!)F'*&,&\"##)F+*&,&\"#iF'*&\"#5F'%\"
+xGF'F+F'F7F'F'F'F7F'F'F'F7F'F'F'F7F'F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "cost(p); cost(p2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,&*&\"\"&\"\"\"%*additionsGF&F&*&\"#:F&%0multiplicationsGF&F&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"&\"\"\"%*additionsGF&F&*&\"#:F
+&%0multiplicationsGF&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "
+cost(pos); cost(pod);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"&\"\"
+\"%*additionsGF&F&*&\"#:F&%0multiplicationsGF&F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&\"\"&\"\"\"%*additionsGF&F&*&\"#:F&%0multiplication
+sGF&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "cost(ph); cost(ph
+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"&\"\"\"%*additionsGF&F&
+*&F%F&%0multiplicationsGF&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"
+\"&\"\"\"%*additionsGF&F&*&F%F&%0multiplicationsGF&F&" }}}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 359 5 "1.14." }{TEXT -1 22 " Considerati expresi
+a " }{XPPEDIT 18 0 "r = (4*x^2+x)/(x^2+4);" "6#/%\"rG*&,&*&\"\"%\"\"\"
+*$%\"xG\"\"#F)F)F+F)F),&*$F+F,F)F(F)!\"\"" }{TEXT -1 41 ".  Desenati a
+rborele expresiei utilizand " }{TEXT 0 2 "op" }{TEXT -1 1 "." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "r := (4*
+x^2+x)/(x^2+4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG*&,&*&\"\"%\"
+\"\")%\"xG\"\"#F)F)F+F)F),&*$F*F)F)F(F)!\"\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "nops(r);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "op(r);op(0,r);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$,&*&\"\"%\"\"\")%\"xG\"\"#F&F&F(F&*&F&
+F&,&*$F'F&F&F%F&!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"*G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "nops(op(1,r));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+38 "op([1,0],r); op([1,1],r); op([1,2],r);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%\"+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"%\"\"
+\")%\"xG\"\"#F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"xG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "nops(op(2,r));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "op(
+[2,0],r); op([2,1],r); op([2,2],r);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%\"^G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$)%\"xG\"\"#\"\"\"F(\"\"%
+F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"\"" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 19 "nops(op([2,1],r)); " }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"+G" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 45 "op([2,1,0],r); op([2,1,1],r); op([2,1,2],
+r); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"+G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$)%\"xG\"\"#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "dismantle(r);" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 7 "PROD(5)" }
+}{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 13 
+"      PROD(3)" }}{PARA 6 "" 1 "" {TEXT -1 19 "         NAME(4): x" }}
+{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 2" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 4" }}{PARA 6 "" 1 "" {TEXT -1 16 "      \+
+NAME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT 
+-1 9 "   SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 13 "      PROD(3)" }}
+{PARA 6 "" 1 "" {TEXT -1 19 "         NAME(4): x" }}{PARA 6 "" 1 "" 
+{TEXT -1 21 "         INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 18 "   \+
+   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 4" }}
+{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 16 "   INTNEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 360 5 "1.15." }{TEXT -1 15 "  Se considera " }{XPPEDIT 18 0 "r
+ = (z^8+5*z^4+1)/(3*z^8+4*z^4+4);" "6#/%\"rG*&,(*$%\"zG\"\")\"\"\"*&\"
+\"&F**$F(\"\"%F*F*F*F*F*,(*&\"\"$F**$F(F)F*F**&F.F**$F(F.F*F*F.F*!\"\"
+" }{TEXT -1 333 ". \n(a) Cate operatii sunt necesare pentru a evalua r
+ in foema de mai sus. Dati comenzile Maple.\n(b) Convertiti r in forma
+ de fractie continua si determinati numarul de operatii necesare pentr
+u evaluare in aceasta forma. Dati comenzile Maple.\n(c) Care este cel \+
+mai eficient mod de a evalua r? Cate operatii sunt necesare in acest c
+az?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+-1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 33 "r:=(z^8+5*z^4+1)/(3*z^8+4*z^4+4);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"rG*&,(*$)%\"zG\"\")\"\"\"F+*&\"\"&F+)F)\"\"%F+F+F+F+F+,(*&\"
+\"$F+F(F+F+*&F/F+F.F+F+F/F+!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "with(codegen);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7=%
+\"CG%%GRADG%)GRADIENTG%(HESSIANG%)JACOBIANG%'MathMLG%%costG%(declareG%
++dontreturnG%$eqnG%(fortranG%'hornerG%-intrep2mapleG%*joinprocsG%+make
+globalG%*makeparamG%)makeprocG%)makevoidG%-maple2intrepG%)optimizeG%)p
+ackargsG%+packlocalsG%+packparamsG%+prep2transG%*renamevarG%&splitG%)s
+wapargsG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "cost(r);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"\"%\"\"\"%*additionsGF&F&*&\"#BF
+&%0multiplicationsGF&F&%*divisionsGF&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "rc:=convert(r,confrac,z);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#rcG,&#\"\"\"\"\"$F'*(\"#6F'\"\"*!\"\",(*$)%\"zG\"\"%
+F'F'#\"#Z\"#LF'*(\"$x\"F'\"$@\"F,,&F.F'#F'F*F,F,F'F,F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "cost(rc);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*&\"\"%\"\"\"%*additionsGF&F&*&\"\"#F&%*divisionsGF&F
+&*&\"\"'F&%0multiplicationsGF&F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 55 "rnn:=convert(denom(r),horner)/convert(numer(r),horner
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$rnnG*&,&\"\"%\"\"\"*&,&F'F(*&
+\"\"$F()%\"zGF'F(F(F(F-F(F(F(,&F(F(*&,&\"\"&F(*$F-F(F(F(F-F(F(!\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "cost(rnn);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,(*&\"\"%\"\"\"%*additionsGF&F&*&\"#:F&%0multiplic
+ationsGF&F&%*divisionsGF&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 361 5 "1.16." }{TEXT -1 12 " Con
+vertiti " }{XPPEDIT 18 0 "1/(2*x^3+x^2+2*x);" "6#*&\"\"\"F$,(*&\"\"#F$
+*$%\"xG\"\"$F$F$*$F)F'F$*&F'F$F)F$F$!\"\"" }{TEXT -1 4 " in " }
+{XPPEDIT 18 0 "1/30*(15/2-1/2*I*15^(1/2))/(-x-1/4+1/4*I*15^(1/2))+1/15
+*(-15/2-1/2*I*15^(1/2))/(2*x+1/2+1/2*I*15^(1/2))+1/(2*x);" "6#,(**\"\"
+\"F%\"#I!\"\",&*&\"#:F%\"\"#F'F%**F%F%F+F'%\"IGF%)F**&F%F%F+F'F%F'F%,(
+%\"xGF'*&F%F%\"\"%F'F'**F%F%F3F'F-F%)F**&F%F%F+F'F%F%F'F%**F%F%F*F',&*
+&F*F%F+F'F'**F%F%F+F'F-F%)F**&F%F%F+F'F%F'F%,(*&F+F%F1F%F%*&F%F%F+F'F%
+**F%F%F+F'F-F%)F**&F%F%F+F'F%F%F'F%*&F%F%*&F+F%F1F%F'F%" }{TEXT -1 1 "
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 
+7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+21 "r:=1/(2*x^3+x^2+2*x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG*&
+\"\"\"F&,(*&\"\"#F&)%\"xG\"\"$F&F&*$)F+F)F&F&*&F)F&F+F&F&!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "convert(r,parfrac,x,RootOf(2
+*x^2+x+2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&#\"\"\"\"#IF&*&,&*&
+\"\"#F&-%'RootOfG6#,(*&F+F&)%#_ZGF+F&F&F2F&F+F&F&!\"\"\"\"(F&F&,&%\"xG
+F3F,F&F3F&F&*&#F&\"#:F&*&,&\"\")F3*&F+F&F,F&F3F&,(*&F+F&F6F&F&F&F&*&F+
+F&F,F&F&F3F&F&*&F&F&*&F+F&F6F&F3F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "convert(%,radical);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#,(*(\"#I!\"\",&#\"#:\"\"#\"\"\"*&^##F&F*F+F)#F+F*F+F+,(%\"xGF&#F+\"
+\"%F&*&^##F+F3F+F)F/F+F&F+*(F)F&,&#F)F*F&F,F+F+,(*&F*F+F1F+F+F/F+*&^#F
+/F+F)F/F+F&F+*&F+F+*&F*F+F1F+F&F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 18 "" 0 "" {TEXT -1 49 "2. Reprezentarea interna a datelor si su
+bstitutie" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 291 4 "2.1." }{TEXT -1 68 
+" Descrieti in detaliu reprezentarea interna  in Maple a polinomului \+
+" }{XPPEDIT 18 0 "2*x*(y^2+1)^2" "6#*(\"\"#\"\"\"%\"xGF%,&*$%\"yGF$F%F
+%F%F$" }{TEXT -1 207 ". Desenati graful orientat aciclic (DAG) corespu
+nzator si arborele expresiei. Scrieti toate subexpresiile recunoscute \+
+ca atare de Maple. Cresteti increderea in raspunsul dumneavoastra util
+izand procedurile  " }{TEXT 0 8 "whattype" }{TEXT -1 2 ", " }{TEXT 0 
+4 "nops" }{TEXT -1 4 " si " }{TEXT 0 2 "op" }{TEXT -1 25 ". Utilizand \+
+procedurile  " }{TEXT 0 9 "dismantle" }{TEXT -1 2 ", " }{TEXT 0 9 "add
+ressof" }{TEXT -1 2 ", " }{TEXT 0 7 "pointto" }{TEXT -1 2 ", " }{TEXT 
+0 11 "disassemble" }{TEXT -1 5 ", si " }{TEXT 0 8 "assemble" }{TEXT 
+-1 64 " puteti face o verificare completa a raspunsului dumneavoastra.
+\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "poly := 2*x*(y^2+1)^2;" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%polyG,$*(\"
+\"#\"\"\"%\"xGF(),&*$)%\"yGF'F(F(F(F(F'F(F(" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 15 "whattype(poly);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%\"*G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "nops(poly);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "op(poly);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#%\"x
+G*$),&*$)%\"yGF#\"\"\"F+F+F+F#F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "op(3, poly);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$),&
+*$)%\"yG\"\"#\"\"\"F*F*F*F)F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "whattype(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"^G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "op(%%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$,&*$)%\"yG\"\"#\"\"\"F(F(F(F'" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 11 "op(1, %%%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+&*$)%\"yG\"\"#\"\"\"F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "whattype(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"+G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "op(%%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$*$)%\"yG\"\"#\"\"\"F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "op(1, %%%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)%\"
+yG\"\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "whattype(%
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"^G" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 7 "op(%%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"yG\"
+\"#" }}}{PARA 0 "" 0 "" {TEXT -1 24 "Reprezentarea arborelui " }}
+{PARA 0 "" 0 "" {TEXT 285 230 "  *--|--|--|\n     |  |  |\n     2  x  \+
+^--|--------------|\n              |              |\n              +--
+|--------|  2\n                 |        |      \n                 ^--
+|--|  1\n                    |  |\n                    y  2" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "Structura inter
+na de date a DAG se poate gasi astfel:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "dismantle(poly);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}
+{PARA 6 "" 1 "" {TEXT -1 6 "SUM(3)" }}{PARA 6 "" 1 "" {TEXT -1 10 "   \+
+PROD(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "
+" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 12 
+"      SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "         PROD(3)" }}
+{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): y" }}{PARA 6 "" 1 "
+" {TEXT -1 24 "            INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 
+21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INT
+POS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 2" }}{PARA 6 "" 1 "" 
+{TEXT -1 15 "   INTPOS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 86 "De exemplu, este clar ca structura de dat
+e interna la nivelul cel mai de sus este un  " }{TEXT 286 3 "SUM" }
+{TEXT -1 14 " cu sumandul  " }{XPPEDIT 18 0 "x*(y^2+1)^2" "6#*&%\"xG\"
+\"\"*$,&*$%\"yG\"\"#F%F%F%F*F%" }{TEXT -1 45 " si coeficientul 2. Sa v
+erificam acest lucru:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "add
+ressof(poly);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(C*3E" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "d := disassemble(%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"dG6%\"#;\")g)=S\"\"\"&" }}}{PARA 0 "" 0 "" 
+{TEXT 0 1 "d" }{TEXT -1 14 " este de tip  " }{TEXT 287 3 "SUM" }{TEXT 
+-1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "kernelopts(dagtag
+=d[1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%$SUMG" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 25 "pointto(d[2]);  # summand" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#*&%\"xG\"\"\"),&*$)%\"yG\"\"#F%F%F%F%F+F%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "pointto(d[3]);  # coefficient" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{PARA 0 "" 0 "" {TEXT -1 25 
+"Se poate continua astfel:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "e := disassemble(d[2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"eG6
+'\"#9\"(K8e#\"\"$\")[(>S\"\"\"&" }}}{PARA 0 "" 0 "" {TEXT 0 1 "e" }
+{TEXT -1 13 " este de tip " }{TEXT 288 4 "PROD" }{TEXT -1 1 "." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "kernelopts(dagtag=e[1]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%PRODG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "pointto(e[2]);  # base" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%\"xG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "pointto(e[3]
+);  # exponent" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "pointto(e[4]);  # base" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,&*$)%\"yG\"\"#\"\"\"F(F(F(" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 26 "pointto(e[5]);  # exponent" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "f := disassemble(e[4]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG6
+'\"#;\"(3*3E\"\"$F(F(" }}}{PARA 0 "" 0 "" {TEXT 0 1 "f" }{TEXT -1 12 "
+ are tipul  " }{TEXT 289 3 "SUM" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 24 "kernelopts(dagtag=f[1]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%$SUMG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "po
+intto(f[2]);  # summand" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)%\"yG\"
+\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "pointto(f[3]);
+  # coefficient" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "pointto(f[4]);  # summand" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "pointto(f[5]);  # coefficient" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "g \+
+:= disassemble(f[2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG6%\"#9
+\"(O7e#\"\"&" }}}{PARA 0 "" 0 "" {TEXT 0 1 "g" }{TEXT -1 9 " este un \+
+" }{TEXT 290 4 "PROD" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "kernelopts(dagtag=g[1]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%PRODG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "p
+ointto(g[2]);  # base" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"yG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "pointto(g[3]);  # exponent" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 45 "Subexpresiile recuno
+scute de Maple sunt: 2,  " }{XPPEDIT 18 0 "x*(y^2+1)^2" "6#*&%\"xG\"\"
+\"*$,&*$%\"yG\"\"#F%F%F%F*F%" }{TEXT -1 12 ",   x,  1,  " }{XPPEDIT 
+18 0 "y^2+1" "6#,&*$%\"yG\"\"#\"\"\"F'F'" }{TEXT -1 3 ",  " }{XPPEDIT 
+18 0 "y^2" "6#*$%\"yG\"\"#" }{TEXT -1 93 ", si  y. Le puteti gasi prin
+ inspectarea adreselor care apar cand dezasamblati subexpresiile." }}}
+{SECT 1 {PARA 0 "" 0 "" {TEXT 292 4 "2.2." }{TEXT -1 14 " Transformati
+ " }{XPPEDIT 18 0 "(x+y)^2 + 1/(x+y)" "6#,&*$,&%\"xG\"\"\"%\"yGF'\"\"#
+F'*&F'F',&F&F'F(F'!\"\"F'" }{TEXT -1 4 " in " }{XPPEDIT 18 0 "((x+y)^3
++1)/(x+y)" "6#*&,&*$,&%\"xG\"\"\"%\"yGF(\"\"$F(F(F(F(,&F'F(F)F(!\"\"" 
+}{TEXT -1 16 " si vice versa.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "expr := \+
+(x+y)^2 + 1/(x+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG,&*$),&%
+\"xG\"\"\"%\"yGF*\"\"#F*F**&F*F*F(!\"\"F*" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "subs(x+y=z, expr);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,&*$)%\"zG\"\"#\"\"\"F(*&F(F(F&!\"\"F(" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 10 "normal(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*
+$)%\"zG\"\"$\"\"\"F)F)F)F)F'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "subs(z=x+y,%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,
+&*$),&%\"xG\"\"\"%\"yGF)\"\"$F)F)F)F)F)F'!\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "expr := %;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%%exprG*&,&*$),&%\"xG\"\"\"%\"yGF+\"\"$F+F+F+F+F+F)!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "subs(x+y=z,%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&*$)%\"zG\"\"$\"\"\"F)F)F)F)F'!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*$)%\"zG\"\"#\"\"\"F(*&F(F(F&!\"\"F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "subs(z=x+y,%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*$),&%\"xG\"\"\"%\"yGF(\"\"#F(F(*&F(F(F&!\"\"F(" }}}
+{PARA 0 "" 0 "" {TEXT -1 43 "Alternativ, expandarea expresiei pastrand
+  " }{XPPEDIT 18 0 "x+y" "6#,&%\"xG\"\"\"%\"yGF%" }{TEXT -1 8 " intact
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "expand(expr, x+y);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$),&%\"xG\"\"\"%\"yGF(\"\"#F(F(*&F(
+F(F&!\"\"F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 
+1 {PARA 0 "" 0 "" {TEXT 295 4 "2.3." }{TEXT -1 40 " Tranformati  \n   \+
+                      " }{XPPEDIT 18 0 " x^2+2*x+1+1/(x^2+2*x+1)" "6#,
+**$%\"xG\"\"#\"\"\"*&F&F'F%F'F'F'F'*&F'F',(*$F%F&F'*&F&F'F%F'F'F'F'!\"
+\"F'" }{TEXT -1 29 " \nin\n                        " }{XPPEDIT 18 0 "(
+(x+1)^4+1)/(x+1)^2" "6#*&,&*$,&%\"xG\"\"\"F(F(\"\"%F(F(F(F(*$,&F'F(F(F
+(\"\"#!\"\"" }{TEXT -1 24 "       \nsi vice versa.\n " }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "expr := x^2+2*x+1+1/(x^2+2*x+1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%exprG,**$)%\"xG\"\"#\"\"\"F**&F)F*F(F*F*F*F**&F*F*,(
+F&F**&F)F*F(F*F*F*F*!\"\"F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+24 "algsubs(x^2+2*x+1=z, %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"
+\"\"F%%\"zG!\"\"F%F&F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "n
+ormal(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&\"\"\"F%*$)%\"zG\"\"#
+F%F%F%F(!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "subs(z=fac
+tor(x^2+2*x+1), %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&\"\"\"F%*$)
+,&%\"xGF%F%F%\"\"%F%F%F%F(!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "expr := %;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG*&,&\"\"
+\"F'*$),&%\"xGF'F'F'\"\"%F'F'F'F*!\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "expand(expr, x+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,&*&\"\"\"F%*$),&%\"xGF%F%F%\"\"#F%!\"\"F%*$F'F%F%" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 25 "map(normal, %, expanded);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,**$)%\"xG\"\"#\"\"\"F(*&F'F(F&F(F(F(F(*&F(F(,(F$F
+(*&F'F(F&F(F(F(F(!\"\"F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 296 4 "2.4." }{TEXT -1 46 " Explic
+ati rezultatul substitutiei urmatoare:\n" }{TEXT 0 22 "   > x^2-x+1/x-
+1/x^2;\n" }{TEXT -1 56 "                                              \+
+          " }{XPPEDIT 18 0 "x^2-x+1/x-1/x^2;" "6#,**$%\"xG\"\"#\"\"\"F
+%!\"\"*&F'F'F%F(F'*&F'F'*$F%F&F(F(" }{TEXT -1 1 "\n" }{TEXT 0 19 "   >
+ subs(-1=1,%);\n" }{TEXT -1 57 "                                      \+
+                   " }{XPPEDIT 18 0 "x^2+2*x+1/x^2" "6#,(*$%\"xG\"\"#
+\"\"\"*&F&F'F%F'F'*&F'F'*$F%F&!\"\"F'" }{TEXT -1 1 "\n" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "x^2-x+1/x-1/x^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,**$)%\"xG\"\"#\"\"\"F(F&!\"\"*&F(F(F&F)F(*&F(F(*$F%F(F)F)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "subs(-1=1,%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"#\"\"\"F(*&F'F(F&F(F(*&F(F(*$F%F(!
+\"\"F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 
+"" {TEXT -1 117 "Datorita reprezentarii interne a Maple, cu liniile de
+ comanda de mai sus, vom substitui toate aparitiile structurii  " }
+{TEXT 293 8 "intneg 1" }{TEXT -1 4 " cu " }{TEXT 294 8 "intpos 1" }
+{TEXT -1 22 ". Deci,  the termenii " }{XPPEDIT 18 0 "-x" "6#,$%\"xG!\"
+\"" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "-1/x^2" "6#,$*&\"\"\"F%*$%\"xG
+\"\"#!\"\"F)" }{TEXT -1 37 " se vor transforma in x si respectiv " }
+{XPPEDIT 18 0 "1/x^2" "6#*&\"\"\"F$*$%\"xG\"\"#!\"\"" }{TEXT -1 12 ". \+
+Mai mult, " }{XPPEDIT 18 0 "1/x" "6#*&\"\"\"F$%\"xG!\"\"" }{TEXT -1 
+25 " este  reprezentat prin  " }{XPPEDIT 18 0 "x^(-1)" "6#)%\"xG,$\"\"
+\"!\"\"" }{TEXT -1 42 "si exponentul se schimba in 1, rezultand  " }
+{XPPEDIT 18 0 "x" "6#%\"xG" }{TEXT -1 31 ". Asadar expresia finala est
+e  " }{XPPEDIT 18 0 "x^2+x+x+1/x^2" "6#,**$%\"xG\"\"#\"\"\"F%F'F%F'*&F
+'F'*$F%F&!\"\"F'" }{TEXT -1 9 ", adica, " }{XPPEDIT 18 0 "x^2+2x+1/x^2
+" "6#,(*$%\"xG\"\"#\"\"\"*&F&F'F%F'F'*&F'F'*$F%F&!\"\"F'" }{TEXT -1 1 
+"." }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 297 4 "2.5." }{TEXT -1 41 " Trans
+formati\n                           " }{XPPEDIT 18 0 "((x+1)^10-2*y)/(
+x+y)^10+1/(x+y)^9-x/(x+y)^10" "6#,(*&,&*$,&%\"xG\"\"\"F)F)\"#5F)*&\"\"
+#F)%\"yGF)!\"\"F)*$,&F(F)F-F)F*F.F)*&F)F)*$,&F(F)F-F)\"\"*F.F)*&F(F)*$
+,&F(F)F-F)F*F.F." }{TEXT -1 56 " \nin\n                               \+
+                    " }{XPPEDIT 18 0 "((x+1)^10-y)/(x+y)^10" "6#*&,&*$
+,&%\"xG\"\"\"F(F(\"#5F(%\"yG!\"\"F(*$,&F'F(F*F(F)F+" }{TEXT -1 5 " .\n
+  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "expr := ((x+1)^10-2*y)/(x+y)^10\n +
+ 1/(x+y)^9 - x/(x+y)^10;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG,(
+*&,&*$),&%\"xG\"\"\"F,F,\"#5F,F,*&\"\"#F,%\"yGF,!\"\"F,,&F+F,F0F,!#5F,
+*&F,F,*$)F2\"\"*F,F1F,*&F+F,F2F3F1" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "subs(\{x+1=a, x+y=b\}, expr);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*&,&*$)%\"aG\"#5\"\"\"F**&\"\"#F*%\"yGF*!\"\"F*%\"bG!
+#5F**&F*F**$)F/\"\"*F*F.F**&%\"xGF*F/F0F." }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 10 "normal(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&,
+**$)%\"aG\"#5\"\"\"!\"\"*&\"\"#F*%\"yGF*F*%\"bGF+%\"xGF*F*F/!#5F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "-(-numer(%)/denom(%));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,**$)%\"aG\"#5\"\"\"F)*&\"\"#F)%\"yG
+F)!\"\"%\"bGF)%\"xGF-F)F.!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 24 "subs(\{a=x+1, b=x+y\}, %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&
+,&*$),&%\"xG\"\"\"F)F)\"#5F)F)%\"yG!\"\"F),&F(F)F+F)!#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 
+362 4 "2.6." }{TEXT -1 18 " pentru polinomul " }{XPPEDIT 18 0 "p = x^3
+-8*x+1;" "6#/%\"pG,(*$%\"xG\"\"$\"\"\"*&\"\")F)F'F)!\"\"F)F)" }{TEXT 
+-1 143 ", dati comanda Maple (numai o comanda!) pentru a selecta coefi
+cientul -8. Desenati arborele de expresie pentru  p si DAG reprezentar
+ii interne." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "
+" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "p := x^3-8*x+1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"pG,(*$)%\"xG\"\"$\"\"\"F**&\"\")F*F(F*!\"\"F*F*" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 13 "coeff(p,x,1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#!\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "nops(p);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "op(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%*$)%\"xG\"\"
+$\"\"\",$*&\"\")F'F%F'!\"\"F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 47 "op(1,p); op([1,0],p); op([1,1],p); op([1,2],p);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*$)%\"xG\"\"$\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%\"^G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"xG" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "
+op([2,0],p); op([2,1],p); op([2,2],p);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%\"*G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\")" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%\"xG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "n
+ops(op(3,p));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "op(3,p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "di
+smantle[hex](p); " }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 14 "SUM(98545F4,7)" }}{PARA 6 "" 1 "" {TEXT -1 18 "   PROD(98
+54828,3)" }}{PARA 6 "" 1 "" {TEXT -1 24 "      NAME(9850718,4): x" }}
+{PARA 6 "" 1 "" {TEXT -1 20 "      INTPOS(7,2): 3" }}{PARA 6 "" 1 "" 
+{TEXT -1 17 "   INTPOS(3,2): 1" }}{PARA 6 "" 1 "" {TEXT -1 21 "   NAME
+(9850718,4): x" }}{PARA 6 "" 1 "" {TEXT -1 25 "   INTNEG(FFFFFFF1,2): \+
+-8" }}{PARA 6 "" 1 "" {TEXT -1 17 "   INTPOS(3,2): 1" }}{PARA 6 "" 1 "
+" {TEXT -1 17 "   INTPOS(3,2): 1" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 363 4 "2.7." }{TEXT -1 38 " Comparati reprezentarile interne a
+le " }{XPPEDIT 18 0 "p = x^8+2*x^4+3;" "6#/%\"pG,(*$%\"xG\"\")\"\"\"*&
+\"\"#F)*$F'\"\"%F)F)\"\"$F)" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "q = x^
+4*(x^4+2)+3;" "6#/%\"qG,&*&%\"xG\"\"%,&*$F'F(\"\"\"\"\"#F+F+F+\"\"$F+
+" }{TEXT -1 43 ". Desenati DAG-urile utilizand iesirea lui " }{TEXT 0 
+9 "dismantle" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "p := x^8+2*x^4+3;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*$)%\"xG\"\")\"\"\"F**&\"\"#F*)F(\"
+\"%F*F*\"\"$F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "q:=x^4*(x
+^4+2)+3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG,&*&)%\"xG\"\"%\"\"
+\",&*$F'F*F*\"\"#F*F*F*\"\"$F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "dismantle(p);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 
+"" {TEXT -1 6 "SUM(7)" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(3)" }}
+{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 8" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INT
+POS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(3)" }}{PARA 6 "" 1 "
+" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 18 "      \+
+INTPOS(2): 4" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 2" }}{PARA 
+6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 3" }}{PARA 6 "" 1 "" {TEXT -1 15 
+"   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 13 "dismantle(q);" }}{PARA 6 "" 1 "" {TEXT -1 0 "
+" }}{PARA 6 "" 1 "" {TEXT -1 6 "SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 10 
+"   PROD(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 
+6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 4" }}{PARA 6 "" 1 "" {TEXT -1 
+12 "      SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "         PROD(3)" }}
+{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): x" }}{PARA 6 "" 1 "
+" {TEXT -1 24 "            INTPOS(2): 4" }}{PARA 6 "" 1 "" {TEXT -1 
+21 "         INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INT
+POS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS
+(2): 3" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 
+1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 0 "" 0 "" {TEXT 364 4 "2.8." }{TEXT -1 11 " Executati " 
+}{TEXT 0 18 "dismantle[dec](p);" }{TEXT -1 6 " dupa " }{TEXT 0 21 "p :
+= x^8 + 2*x^4 + 3;" }{TEXT -1 47 ".\nExplicati cum se poate vedea din \+
+iesirea lui " }{TEXT 0 9 "dismantle" }{TEXT -1 11 " ca numele " }
+{TEXT 0 1 "x" }{TEXT -1 33 " este reprezentat o singura data." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+22 " p := x^8 + 2*x^4 + 3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(
+*$)%\"xG\"\")\"\"\"F**&\"\"#F*)F(\"\"%F*F*\"\"$F*" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 18 "dismantle[dec](p);" }}{PARA 6 "" 1 "" {TEXT 
+-1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 16 "SUM(159795268,7)" }}{PARA 6 "" 
+1 "" {TEXT -1 20 "   PROD(159821068,3)" }}{PARA 6 "" 1 "" {TEXT -1 26 
+"      NAME(159713048,4): x" }}{PARA 6 "" 1 "" {TEXT -1 21 "      INTP
+OS(17,2): 8" }}{PARA 6 "" 1 "" {TEXT -1 17 "   INTPOS(3,2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 20 "   PROD(159821084,3)" }}{PARA 6 "" 1 "" 
+{TEXT -1 26 "      NAME(159713048,4): x" }}{PARA 6 "" 1 "" {TEXT -1 
+20 "      INTPOS(9,2): 4" }}{PARA 6 "" 1 "" {TEXT -1 17 "   INTPOS(5,2
+): 2" }}{PARA 6 "" 1 "" {TEXT -1 17 "   INTPOS(7,2): 3" }}{PARA 6 "" 
+1 "" {TEXT -1 17 "   INTPOS(3,2): 1" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Observam ca NAME(159713048,4): x
+ apare de doua ori, dar adresa este comuna." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 256 "
+" 0 "" {TEXT -1 53 "3. Manipularea polinoamelor si expresiilor rationa
+le\n" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 298 4 "3.1." }{TEXT -1 99 " Des
+crieti o simplificare canonica a functiilor rationale cu coeficienti r
+ationali de o variabila.\n" }}{PARA 0 "" 0 "" {TEXT -1 66 "Realizati u
+rmatorii pasi pentru a obtine forma canonica expandata:" }}{PARA 0 "" 
+0 "" {TEXT -1 28 "(i) convertiti expresia in  " }{XPPEDIT 18 0 "numara
+tor/numitor;" "6#*&%*numaratorG\"\"\"%(numitorG!\"\"" }{TEXT -1 2 " ;
+" }}{PARA 0 "" 0 "" {TEXT -1 19 "(ii) simplificati  " }{XPPEDIT 18 0 "
+numarator;" "6#%*numaratorG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "numit
+or;" "6#%(numitorG" }{TEXT -1 64 " astfel ca ele sa devina prime intre
+ ele (cu c.m.m.d.c. al lor);" }}{PARA 0 "" 0 "" {TEXT -1 18 "(iii) con
+vertiti  " }{XPPEDIT 18 0 "numarator;" "6#%*numaratorG" }{TEXT -1 4 " \+
+si " }{XPPEDIT 18 0 "numitor;" "6#%(numitorG" }{TEXT -1 29 " in forma \+
+canonica expandata;" }}{PARA 0 "" 0 "" {TEXT -1 38 "(iv) impartiti fie
+care coeficient din " }{XPPEDIT 18 0 "numarator;" "6#%*numaratorG" }
+{TEXT -1 4 " si " }{XPPEDIT 18 0 "numitor;" "6#%(numitorG" }{TEXT -1 
+29 " cu coeficientul dominant al " }{XPPEDIT 18 0 "numarator;" "6#%*nu
+maratorG" }{TEXT -1 3 " ( " }{XPPEDIT 18 0 "numarator;" "6#%*numarator
+G" }{TEXT -1 15 " devine monic)." }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 
+323 4 "3.2." }{TEXT -1 63 " Se considera expresia rationala \n        \+
+                     " }{XPPEDIT 18 0 "(x^4+x^3-4*x^2-4*x)/(x^4+x^3-x^
+2-x);" "6#*&,**$%\"xG\"\"%\"\"\"*$F&\"\"$F(*&F'F(*$F&\"\"#F(!\"\"*&F'F
+(F&F(F.F(,**$F&F'F(*$F&F*F(*$F&F-F.F&F.F." }{TEXT -1 28 ". \nTransform
+ati expresia in\n" }{TEXT 327 3 "(a)" }{TEXT -1 2 "  " }{XPPEDIT 18 0 
+"(x^2-4)/(x^2-1);" "6#*&,&*$%\"xG\"\"#\"\"\"\"\"%!\"\"F(,&*$F&F'F(F(F*
+F*" }{TEXT -1 2 ".\n" }{TEXT 328 3 "(b)" }{TEXT -1 1 " " }{XPPEDIT 18 
+0 "(x-2)*(x+2)/(x^2-1);" "6#*(,&%\"xG\"\"\"\"\"#!\"\"F&,&F%F&F'F&F&,&*
+$F%F'F&F&F(F(" }{TEXT -1 3 ".\n\n" }}{SECT 0 {PARA 5 "" 0 "" {TEXT 
+299 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "expr := (x^4+x^3-4*x^2-4*x)/
+(x^4+x^3-x^2-x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG*&,**$)%\"
+xG\"\"%\"\"\"F+*$)F)\"\"$F+F+*&F*F+)F)\"\"#F+!\"\"*&F*F+F)F+F2F+,*F'F+
+F,F+*$F0F+F2F)F2F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "norma
+l(expr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*$)%\"xG\"\"#\"\"\"F)
+\"\"%!\"\"F),&F%F)F)F+F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 300 3 "(b)" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 44 "expr := (x^4+x^3-4*x^2-4*x)/(x^4+x^3-x^2-x);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%%exprG*&,**$)%\"xG\"\"%\"\"\"F+*$)F)\"\"$F+F+*&F*F+
+)F)\"\"#F+!\"\"*&F*F+F)F+F2F+,*F'F+F,F+*$F0F+F2F)F2F2" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "normal(expr);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&*$)%\"xG\"\"#\"\"\"F)\"\"%!\"\"F),&F%F)F)F+F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "factor(numer(%)) / denom(%);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"\"\"#!\"\"F&,&F%F&F
+'F&F&,&*$)F%F'F&F&F&F(F(" }}}{PARA 0 "" 0 "" {TEXT -1 20 "Intr-o instr
+uctiune:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "applyop(factor, \+
+1, normal(expr));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"\"
+\"#!\"\"F&,&F%F&F'F&F&,&*$)F%F'F&F&F&F(F(" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 324 4 "3.3." }
+{TEXT -1 37 " Se considera expresia rationala:  \n " }{XPPEDIT 18 0 "2
+*((x^3-y*x^2-y*x+y^2)/(x^3-y*x^2-x+y))" "6#*&\"\"#\"\"\"*&,**$%\"xG\"
+\"$F%*&%\"yGF%*$F)F$F%!\"\"*&F,F%F)F%F.*$F,F$F%F%,**$F)F*F%*&F,F%*$F)F
+$F%F.F)F.F,F%F.F%" }{TEXT -1 20 "\nTransformati-o in:\n" }{TEXT 301 3 
+"(a)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "2*((x^2-y)/(x^2-1))" "6#*&\"\"
+#\"\"\"*&,&*$%\"xGF$F%%\"yG!\"\"F%,&*$F)F$F%F%F+F+F%" }{TEXT -1 2 "\n
+\n" }{TEXT 302 3 "(b)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "2*((x^2-y)/((
+x-1)*(x+1))" "6#*&\"\"#\"\"\"*&,&*$%\"xGF$F%%\"yG!\"\"F%*&,&F)F%F%F+F%
+,&F)F%F%F%F%F+F%" }{TEXT -1 2 "\n\n" }{TEXT 303 3 "(c)" }{TEXT -1 3 " \+
+  " }{XPPEDIT 18 0 "2-(y-1)/(x-1) + (y-1)/(x+1)" "6#,(\"\"#\"\"\"*&,&%
+\"yGF%F%!\"\"F%,&%\"xGF%F%F)F)F)*&,&F(F%F%F)F%,&F+F%F%F%F)F%" }{TEXT 
+-1 2 "\n\n" }{TEXT 304 3 "(d)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "2-2*(
+(y-1)/(x^2-1))" "6#,&\"\"#\"\"\"*&F$F%*&,&%\"yGF%F%!\"\"F%,&*$%\"xGF$F
+%F%F*F*F%F*" }{TEXT -1 1 "\n" }}{SECT 1 {PARA 5 "" 0 "" {TEXT 305 3 "(
+a)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "expr := 2*(x^3-y*x^2-y*x+y^2)/(x^3-
+y*x^2-x+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG,$*(\"\"#\"\"\"
+,**$)%\"xG\"\"$F(F(*&%\"yGF()F,F'F(!\"\"*&F/F(F,F(F1*$)F/F'F(F(F(,*F*F
+(F.F1F,F1F/F(F1F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "normal
+(expr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(\"\"#\"\"\",&*$)%\"xGF%
+F&F&%\"yG!\"\"F&,&F(F&F&F,F,F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 306 3 "(b)" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "expr := 2*(x^3-y*x^2-y*x+y^2)/(x^3-y*x^2-x+y);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG,$*(\"\"#\"\"\",**$)%\"xG\"\"$
+F(F(*&%\"yGF()F,F'F(!\"\"*&F/F(F,F(F1*$)F/F'F(F(F(,*F*F(F.F1F,F1F/F(F1
+F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "factor(expr);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,$**\"\"#\"\"\",&*$)%\"xGF%F&F&%\"yG!
+\"\"F&,&F*F&F&F,F,,&F*F&F&F&F,F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 307 3 "(c)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 46 "expr := 2*(x^3-y*x^2-y*x+y^2)/(x^3-y*x^2-x+y
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG,$*(\"\"#\"\"\",**$)%\"x
+G\"\"$F(F(*&%\"yGF()F,F'F(!\"\"*&F/F(F,F(F1*$)F/F'F(F(F(,*F*F(F.F1F,F1
+F/F(F1F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "convert(expr, p
+arfrac, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"#\"\"\"*&,&%\"yG!
+\"\"F%F%F%,&%\"xGF%F%F)F)F%*&,&F(F%F%F)F%,&F+F%F%F%F)F%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 
+308 3 "(d)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "expr := 2*(x^3-y*x^2-y*x+y^2
+)/(x^3-y*x^2-x+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG,$*(\"\"
+#\"\"\",**$)%\"xG\"\"$F(F(*&%\"yGF()F,F'F(!\"\"*&F/F(F,F(F1*$)F/F'F(F(
+F(,*F*F(F.F1F,F1F/F(F1F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 
+"convert(expr, parfrac, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"#
+\"\"\"*&,&%\"yG!\"\"F%F%F%,&%\"xGF%F%F)F)F%*&,&F%F)F(F%F%,&F+F%F%F%F)F
+%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "2 - normal(2-%, expand
+ed);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"#\"\"\"*&,&F$!\"\"*&F$F%
+%\"yGF%F%F%,&*$)%\"xGF$F%F%F%F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 325 4 "3.4." }
+{TEXT -1 25 " Se considera polinomul  " }{XPPEDIT 18 0 "(2*x^2-x)*(2*x
+^2+x)" "6#*&,&*&\"\"#\"\"\"*$%\"xGF&F'F'F)!\"\"F',&*&F&F'*$F)F&F'F'F)F
+'F'" }{TEXT -1 21 ".\nTransformati-l in:\n" }{TEXT 309 3 "(a)" }{TEXT 
+-1 3 "   " }{XPPEDIT 18 0 "(-1+4*x^2)*x^2" "6#*&,&\"\"\"!\"\"*&\"\"%F%
+*$%\"xG\"\"#F%F%F%*$F*F+F%" }{TEXT -1 2 "\n\n" }{TEXT 310 3 "(b)" }
+{TEXT -1 3 "   " }{XPPEDIT 18 0 "x^2*(2*x-1)*(2*x+1)" "6#*(%\"xG\"\"#,
+&*&F%\"\"\"F$F(F(F(!\"\"F(,&*&F%F(F$F(F(F(F(F(" }{TEXT -1 2 "\n\n" }
+{TEXT 311 3 "(c)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "(2*x^3+x^2)*(2*x-1
+)" "6#*&,&*&\"\"#\"\"\"*$%\"xG\"\"$F'F'*$F)F&F'F',&*&F&F'F)F'F'F'!\"\"
+F'" }{TEXT -1 1 "\n" }}{SECT 1 {PARA 5 "" 0 "" {TEXT 312 3 "(a)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 28 "expr := (2*x^2-x)*(2*x^2+x);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%%exprG*&,&*&\"\"#\"\"\")%\"xGF(F)F)F+!\"\"F),&*&
+F(F)F*F)F)F+F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "expand(
+expr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"%\"\"\")%\"xGF%F&F&*
+$)F(\"\"#F&!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "algsubs
+(x^2=y, %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"%\"\"\")%\"yG\"
+\"#F&F&F(!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(%)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&%\"yG\"\"\",&*&\"\"%F%F$F%F%F%!
+\"\"F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "subs(y=x^2, %);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&)%\"xG\"\"#\"\"\",&*&\"\"%F'F$F'F'
+F'!\"\"F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 
+{PARA 5 "" 0 "" {TEXT 313 3 "(b)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "expr := \+
+(2*x^2-x)*(2*x^2+x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG*&,&*&
+\"\"#\"\"\")%\"xGF(F)F)F+!\"\"F),&*&F(F)F*F)F)F+F)F)" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 13 "factor(expr);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*()%\"xG\"\"#\"\"\",&*&F&F'F%F'F'F'!\"\"F',&*&F&F'F%F'F
+'F'F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 
+{PARA 5 "" 0 "" {TEXT 314 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "expr := \+
+(2*x^2-x)*(2*x^2+x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%exprG*&,&*&
+\"\"#\"\"\")%\"xGF(F)F)F+!\"\"F),&*&F(F)F*F)F)F+F)F)" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 13 "factor(expr);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*()%\"xG\"\"#\"\"\",&*&F&F'F%F'F'F'!\"\"F',&*&F&F'F%F'F
+'F'F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "subs(2*x-1=y, %)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*()%\"xG\"\"#\"\"\"%\"yGF',&*&F&F
+'F%F'F'F'F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "collect(%,
+ y, expand);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*&\"\"#\"\"\")%\"x
+G\"\"$F'F'*$)F)F&F'F'F'%\"yGF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "subs(y=2*x-1, %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*&\"
+\"#\"\"\")%\"xG\"\"$F'F'*$)F)F&F'F'F',&*&F&F'F)F'F'F'!\"\"F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 326 4 "3.5." }{TEXT -1 24 " Se considera polinomul " }
+{XPPEDIT 18 0 "(x^2 + x * y + x + y) * (x + y)" "6#*&,**$%\"xG\"\"#\"
+\"\"*&F&F(%\"yGF(F(F&F(F*F(F(,&F&F(F*F(F(" }{TEXT -1 22 ". \nTransform
+ati-l in:\n" }{TEXT 315 3 "(a)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "x^3+
+2*x^2*y+x*y^2+x^2+2*x*y+y^2" "6#,.*$%\"xG\"\"$\"\"\"*(\"\"#F'*$F%F)F'%
+\"yGF'F'*&F%F'*$F+F)F'F'*$F%F)F'*(F)F'F%F'F+F'F'*$F+F)F'" }{TEXT -1 2 
+"\n\n" }{TEXT 316 3 "(b)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "(x+1)*(x+y
+)^2" "6#*&,&%\"xG\"\"\"F&F&F&*$,&F%F&%\"yGF&\"\"#F&" }{TEXT -1 2 "\n\n
+" }{TEXT 317 3 "(c)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "y^2+(2*y+y^2)*x
++(1+2*y)*x^2+x^3" "6#,**$%\"yG\"\"#\"\"\"*&,&*&F&F'F%F'F'*$F%F&F'F'%\"
+xGF'F'*&,&F'F'*&F&F'F%F'F'F'*$F,F&F'F'*$F,\"\"$F'" }{TEXT -1 2 "\n\n" 
+}{TEXT 318 3 "(d)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "x^3+x^2+(2*x^2+2*
+x)*y+(x+1)*y" "6#,**$%\"xG\"\"$\"\"\"*$F%\"\"#F'*&,&*&F)F'*$F%F)F'F'*&
+F)F'F%F'F'F'%\"yGF'F'*&,&F%F'F'F'F'F/F'F'" }{TEXT -1 1 "\n" }}{SECT 1 
+{PARA 5 "" 0 "" {TEXT 319 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "poly := \+
+(x^2+x*y+x+y)*(x+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%polyG*&,**$
+)%\"xG\"\"#\"\"\"F+*&F)F+%\"yGF+F+F)F+F-F+F+,&F)F+F-F+F+" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "expand(poly);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,.*$)%\"xG\"\"$\"\"\"F(*(\"\"#F()F&F*F(%\"yGF(F(*&F&F()
+F,F*F(F(*$F+F(F(*(F*F(F&F(F,F(F(*$F.F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 320 3 "(b)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 28 "poly := (x^2+x*y+x+y)*(x+y);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%%polyG*&,**$)%\"xG\"\"#\"\"\"F+*&F)F+%\"yGF+F+F)
+F+F-F+F+,&F)F+F-F+F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fac
+tor(poly);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"F&F&F&),&
+F%F&%\"yGF&\"\"#F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 5 "" 0 "" {TEXT 321 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 
+"poly := (x^2+x*y+x+y)*(x+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%po
+lyG*&,**$)%\"xG\"\"#\"\"\"F+*&F)F+%\"yGF+F+F)F+F-F+F+,&F)F+F-F+F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "collect(poly, x, expand);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$)%\"xG\"\"$\"\"\"F(*&,&*&\"\"#F(%
+\"yGF(F(F(F(F()F&F,F(F(*&,&*&F,F(F-F(F(*$)F-F,F(F(F(F&F(F(F2F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "series(%, x); # reordering" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#++%\"xG*$)%\"yG\"\"#\"\"\"\"\"!,&*&F
+(F)F'F)F)F%F)F),&*&F(F)F'F)F)F)F)F(F)\"\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 322 3 "(d)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 28 "poly := (x^2+x*y+x+y)*(x+y);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%%polyG*&,**$)%\"xG\"\"#\"\"\"F+*&F)F+%\"yGF+F+F)
+F+F-F+F+,&F)F+F-F+F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "col
+lect(poly, y, expand);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&,&%\"xG
+\"\"\"F'F'F')%\"yG\"\"#F'F'*&,&*&F*F')F&F*F'F'*&F*F'F&F'F'F'F)F'F'*$)F
+&\"\"$F'F'*$F.F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "serie
+s(%, y); # reordering" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#+)%\"yG,&*$)%
+\"xG\"\"$\"\"\"F**$)F(\"\"#F*F*\"\"!,&*&F-F*F,F*F**&F-F*F(F*F*F*,&F(F*
+F*F*F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 366 4 "3.6." }{TEXT -1 54 " Transformati in Mapl
+e expresia\n                      " }{XPPEDIT 18 0 "x^3-x*y^2-y*x^2+y^
+3+x^2-y^2;" "6#,.*$%\"xG\"\"$\"\"\"*&F%F'*$%\"yG\"\"#F'!\"\"*&F*F'*$F%
+F+F'F,*$F*F&F'*$F%F+F'*$F*F+F," }{TEXT -1 29 "\nin \n                 \+
+       " }{XPPEDIT 18 0 "(x^2-y^2)*(x-y+1);" "6#*&,&*$%\"xG\"\"#\"\"\"
+*$%\"yGF'!\"\"F(,(F&F(F*F+F(F(F(" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "p:=x^3-x*y^2-y*x^2
++y^3+x^2-y^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,.*$)%\"xG\"\"$
+\"\"\"F**&F(F*)%\"yG\"\"#F*!\"\"*&F-F*)F(F.F*F/*$)F-F)F*F**$F1F*F**$F,
+F*F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "fp:=expand(factor(p
+)/(x+1-y));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#fpG,&*$)%\"xG\"\"#\"
+\"\"F**$)%\"yGF)F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "
+fp*(x+1-y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*$)%\"xG\"\"#\"\"\"
+F)*$)%\"yGF(F)!\"\"F),(F'F)F)F)F,F-F)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 11 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 11 
+"" 1 "" {TEXT -1 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 367 4 "3.7." 
+}{TEXT -1 55 " Transformati in Maple expresia\n                       \+
+" }{XPPEDIT 18 0 "(x+z^2+1)*(y-z^2-1);" "6#*&,(%\"xG\"\"\"*$%\"zG\"\"#
+F&F&F&F&,(%\"yGF&*$F(F)!\"\"F&F-F&" }{TEXT -1 27 "\nin\n              \+
+         " }{XPPEDIT 18 0 "x*y-x*(z^2+1)+(z^2+1)*x-(z^2+1)^2;" "6#,**&
+%\"xG\"\"\"%\"yGF&F&*&F%F&,&*$%\"zG\"\"#F&F&F&F&!\"\"*&,&*$F+F,F&F&F&F
+&F%F&F&*$,&*$F+F,F&F&F&F,F-" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 1 "\n" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "p:=(x+z^2+1)*(y-z^2-1);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG*&,(%\"xG\"\"\"*$)%\"zG\"\"#
+F(F(F(F(F(,(%\"yGF(F)!\"\"F(F/F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "algsubs(z^2+1=u,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#*&,&%\"xG\"\"\"%\"uGF&F&,&%\"yGF&F'!\"\"F&" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,*
+*&%\"xG\"\"\"%\"yGF&F&*&F%F&%\"uGF&!\"\"*&F)F&F'F&F&*$)F)\"\"#F&F*" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "subs(" }}}}}{SECT 1 {PARA 0 
+"" 0 "" {TEXT 368 4 "3.8." }{TEXT -1 23 " Consideram polinomul  " }
+{XPPEDIT 18 0 "92-93*x-x^2;" "6#,(\"##*\"\"\"*&\"#$*F%%\"xGF%!\"\"*$F(
+\"\"#F)" }{TEXT -1 13 ". Convertiti " }{TEXT 365 1 "p" }{TEXT -1 55 " \+
+in\n                                                   " }{XPPEDIT 18 
+0 "-8*(x+93/16-1/16*11593^(1/2))*(x+93/16+1/16*11593^(1/2));" "6#,$*(
+\"\")\"\"\",(%\"xGF&*&\"#$*F&\"#;!\"\"F&*(F&F&F+F,)\"&$f6*&F&F&\"\"#F,
+F&F,F&,(F(F&*&F*F&F+F,F&*(F&F&F+F,)F/*&F&F&F1F,F&F&F&F," }{TEXT -1 1 "
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 
+7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "with(PolynomialTools, Split):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+25 "Split(92-93*x-8*x^2, x); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(
+\"\")\"\"\",&%\"xGF&-%'RootOfG6#,(\"##*!\"\"*&\"#$*F&%#_ZGF&F&*&F%F&)F
+1\"\"#F&F&F.F&,(F(F&#F0F%F&F)F&F&F." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "convert(%,radical);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#,$*(\"\")\"\"\",(%\"xGF&#\"#$*\"#;F&*&F+!\"\"\"&$f6#F&\"\"#F-F&,(F(F
+&F)F&*&F+F-F.F/F&F&F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT -1 12 "Bibliografie" }}{PARA 0 "" 0 "" {TEXT -1 13 "[1] A. Heck.
+ " }{TEXT 369 21 "Introduction to Maple" }{TEXT -1 38 ". Third edition
+. Springer-Verlag 2003." }}{PARA 0 "" 0 "" {TEXT -1 19 "[2] R. M. Corl
+ess. " }{TEXT 370 61 "Essential Maple 7. An introduction for Scientifi
+c Programmers" }{TEXT -1 24 ". Springer-Verlag, 2002." }}{PARA 0 "" 0 
+"" {TEXT -1 15 "[3] V. Anisiu. " }{TEXT 371 25 "Calcul simbolic cu Map
+le." }{TEXT -1 47 " Presa Universitara Clujeana, Cluj-Napoca, 2007" }}
+}}{MARK "22 0 6" 12 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

@@ -1,0 +1,25 @@
+R(	FacturaID,	Nr,	Data,	Platita,	SumaPlatita)
+	1			100	-		0			Null
+	2			200	-		1			5
+	3			300	-		0			Null
+	4			400	-		1			7
+	
+1.) In ce forma normala se afla? Denormalizata, FN1, FN2, FN3
+2.) De ce?
+3.) Daca nu se afla in FN3, normalizati-o in FN3
+4.) Explicati pct 3
+
+
+1.)
+FN2
+
+2.)
+E in FN1 pt ca toate valorile sunt scalare, toate campurile atomice
+E in FN2 pt ca in cheia primara are un singur camp
+Nu e in FN3 pt ca SumaPlatita depinde de Platita -> dependenta intre doua atribute neprime
+
+3.)
+
+
+
+OBS: Cat timp nu avem campuri neprime, clar e in FN2

@@ -1,0 +1,387 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "_cstyle1" -1 204 "Times" 0 1 0 0 0 0 0 0 0 2 2 2 0 0 0 1 }
+{CSTYLE "_cstyle2" -1 205 "Courier" 0 1 255 0 0 1 0 1 0 2 1 2 0 0 0 1 
+}{CSTYLE "_cstyle3" -1 206 "Times" 1 18 0 0 0 0 0 1 0 2 2 2 0 0 0 1 }
+{CSTYLE "" 204 256 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" 204 
+257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 258 "C
+ourier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 259 "Courier
+" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 260 "Courier" 0 1 
+255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 261 "Courier" 0 1 255 0 
+0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 262 "Courier" 0 1 255 0 0 1 0 
+1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 }{CSTYLE "" 204 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "N
+ormal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" 
+-1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 
+2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 
+1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 0 1 }{PSTYLE "Text Outp
+ut" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 
+3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" 
+-1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 
+0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "
+Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 
+18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }3 1 0 0 12 12 2 0 2 0 2 2 0 1 }
+{PSTYLE "_pstyle1" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle2" -1 
+203 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 
+0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle3" -1 204 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 256 35 "Proprietati, assume si s
+implificare" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 8 "restart;
+" }}}{SECT 0 {PARA 203 "" 0 "" {TEXT 206 21 "1. Facilitatea assume" }}
+{EXCHG {PARA 202 "" 0 "" {TEXT 204 48 "Maple cunoaste tipurile obiecte
+lor. Constructia " }{TEXT 257 6 "assume" }{TEXT 204 36 " poate adauga \+
+proprietati tipurilor." }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 
+45 "int(exp(a*t),t=0..infinity);# assuming a > 0;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%&limitG6$*&%\"aG!\"\",&-%$expG6#*&F'\"\"\"%\"tGF.F.F.
+F(F./F/%)infinityG" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 25 "In funct
+ie de semnul lui " }{TEXT 258 1 "a" }{TEXT 204 44 ", vom obtine valori
+ diferite ale integralei." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "int(exp(a*t),t=0..infinity) assumin
+g a > 0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)infinityG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "int(exp(a*t),t=0..infinity) assumin
+g a < 0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"\"F%%\"aG!\"\"F'" 
+}}}{EXCHG {PARA 202 "" 0 "" {TEXT 259 8 "assuming" }{TEXT 204 64 " de \+
+mai sus este local, fiind valid doar la calculul integralei." }}}
+{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 12 "assume(a>0);" }}}{EXCHG 
+{PARA 202 "> " 0 "" {MPLTEXT 1 205 41 "a; # verificam daca s-a facut a
+ssume pe a" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#a|irG" }}}{EXCHG 
+{PARA 202 "" 0 "" {TEXT 204 21 "Cu ajutorul comenzii " }{TEXT 0 6 "ass
+ume" }{TEXT 204 39 " putem adauga o proprietate variabilei " }{TEXT 
+260 1 "a" }{TEXT 204 73 ", iar proprietatea va fi luata in considerare
+ in toate calculele in care " }{TEXT 261 1 "a" }{TEXT 204 15 " este im
+plicat." }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 9 "about(a);" }}
+{PARA 6 "" 1 "" {TEXT -1 25 "Originally a, renamed a~:" }}{PARA 6 "" 
+1 "" {TEXT -1 47 "  is assumed to be: RealRange(Open(0),infinity)" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 3 
+"Cu " }{TEXT 262 12 "additionally" }{TEXT 204 39 " putem adauga propri
+etati suplimentare:" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 20 "
+additionally(a < 4);" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 9 "
+about(a);" }}{PARA 6 "" 1 "" {TEXT -1 25 "Originally a, renamed a~:" }
+}{PARA 6 "" 1 "" {TEXT -1 46 "  is assumed to be: RealRange(Open(0),Op
+en(4))" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 202 "" 0 "" 
+{TEXT 204 60 "Observam ca  nu au fost incluse capetele intervalului (0
+,4)." }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 21 "additionally(a \+
+<= 2);" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 9 "about(a);" }}
+{PARA 6 "" 1 "" {TEXT -1 25 "Originally a, renamed a~:" }}{PARA 6 "" 
+1 "" {TEXT -1 40 "  is assumed to be: RealRange(Open(0),2)" }}{PARA 6 
+"" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 33 "Acum a
+ este in intervalul  (0,2]." }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 90 
+"Putem acum utiliza aceste proprietati la executia algoritmului injuma
+tatirii intervalului." }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 
+25 "plot(cos(x)-x^2,x=0..Pi);" }}{PARA 13 "" 1 "" {GLPLOT2D 604 604 
+604 {PLOTDATA 2 "6%-%'CURVESG6$7S7$$\"\"!F)$\"\"\"F)7$$\"3%)eD2LzxZo!#
+>$\"3Yondm5nH**!#=7$$\"3)\\$px*G*f!G\"F2$\"3efjL:=7a(*F27$$\"3+5@exGm]
+>F2$\"3!*R?Dk'R)H%*F27$$\"3[99!=3o^i#F2$\"3aL#G4@[#o*)F27$$\"35!\\D0[n
+kH$F2$\"3M2OG[x*[P)F27$$\"37\"=Za&z%)=RF2$\"38hSBq9<1xF27$$\"3edXa()oG
+jXF2$\"3o@bMYXS%*oF27$$\"3W%3**Hbm(H_F2$\"3;:SMVrJGfF27$$\"37PRr4)3T*e
+F2$\"3!**fa96J'Q[F27$$\"3y\"[)yykYxlF2$\"3]aZh+9T(e$F27$$\"3[s'ocGo$zr
+F2$\"39K[&)=EJxBF27$$\"3UQ0;gr'p&yF2$\"3Ih0m`6jd*)F/7$$\"3vFMt?$[t`)F2
+$!3k`mwF?0prF/7$$\"3u\"p30k@I>*F2$!3QX>G.ET(Q#F27$$\"3#*R7\\HeV)y*F2$!
+3,(o<Y%=_,SF27$$\"3#G[))*)3W'\\5!#<$!3V\"R**prH(QgF27$$\"30'[@XS@'46Ff
+p$!3KezL!p!fiyF27$$\"3G9w$3G*Qz6Ffp$!3+=<&ykp%45Ffp7$$\"3>%3*3tc9T7Ffp
+$!3p&e'ep+t;7Ffp7$$\"3Ey0DBA!*38Ffp$!3)*\\Wq(\\9VX\"Ffp7$$\"3qjE.#[AMP
+\"Ffp$!3uLhXsW>!p\"Ffp7$$\"3*R:_MgU2W\"Ffp$!3qH+&p$=0Y>Ffp7$$\"3\"Qu#)
+**[jD]\"Ffp$!3%Qv!zPr^*=#Ffp7$$\"3=hw\"ymX#p:Ffp$!3q*p3wI\")4Y#Ffp7$$
+\"3mwM!*4(4&Q;Ffp$!3SUR&*=dP_FFfp7$$\"3CDL:iU!))p\"Ffp$!3#H6LCb%f8IFfp
+7$$\"3o(R1/.CRw\"Ffp$!3n$\\[%ptN.LFfp7$$\"32Id)H7*>J=Ffp$!3\"3S_s,g2h$
+Ffp7$$\"3Gfb7wY,(*=Ffp$!3V!Q['*zF\">RFfp7$$\"3cM5'zg%pg>Ffp$!3m\\H<ywT
+CUFfp7$$\"3**oJ8:.SJ?Ffp$!3k!=Q:Zw5d%Ffp7$$\"3)**p!zPD$\\4#Ffp$!3e3(p$
+)p2#*)[Ffp7$$\"3k<!fhumF;#Ffp$!3\\:!*pTsbN_Ffp7$$\"3wak3@YBCAFfp$!33b%
+\\JkR^b&Ffp7$$\"39/b<W_V\"H#Ffp$!3QV,Nd.a5fFfp7$$\"3#*z_V$zlYN#Ffp$!3q
+K[J-gZ]iFfp7$$\"3cmjYO*f2U#Ffp$!32)**Rw0N8h'Ffp7$$\"3)eq)=U!z`[#Ffp$!3
+c4*4]/<%ppFfp7$$\"3#Q'HHd#HIb#Ffp$!3sG[E![(p\\tFfp7$$\"3z^r&[X%==EFfp$
+!3E3b9;0,@xFfp7$$\"3'=BS\\0:[o#Ffp$!33F.-,.r0\")Ffp7$$\"3[gN,?R*3v#Ffp
+$!3[P?&Gag?\\)Ffp7$$\"3@/0LMNh6GFfp$!3!426gx>7&))Ffp7$$\"3w#oUX107)GFf
+p$!31y\"*)y)Gjn#*Ffp7$$\"3W46xe&[M%HFfp$!3nL$R$>IKW'*Ffp7$$\"3H.6)e58)
+4IFfp$!3x(\\*fc/.05!#;7$$\"3Kt2RXCLtIFfp$!3<*[M'\\VIW5F_z7$$\"3!)***\\
+/l#fTJFfp$!3_Xh8Q/'p3\"F_z-%'COLOURG6&%$RGBG$\"*++++\"!\")F(F(-%+AXESL
+ABELSG6$%\"xGQ!6\"-%%VIEWG6$;F($\"+aEfTJ!\"*%(DEFAULTG" 1 2 0 1 10 0 
+2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 
+202 "" 0 "" {TEXT 204 89 "Se poate vedea din reprezentarea grafica ca \+
+aceasta functie are o radacina intre 0 si Pi." }}}{EXCHG {PARA 202 "> \+
+" 0 "" {MPLTEXT 1 205 21 "f := x -> cos(x)-x^2:" }}}{EXCHG {PARA 202 "
+" 0 "" {TEXT 204 50 "Vom nota cu r radacina lui f, situata intre  0 si
+ " }{XPPEDIT 18 0 "Pi;" "6#%#PiG" }{TEXT 204 1 ":" }}}{EXCHG {PARA 
+202 "> " 0 "" {MPLTEXT 1 205 17 "assume(r>0,r<Pi);" }}}{EXCHG {PARA 
+202 "> " 0 "" {MPLTEXT 1 205 9 "about(r);" }}{PARA 6 "" 1 "" {TEXT -1 
+25 "Originally r, renamed r~:" }}{PARA 6 "" 1 "" {TEXT -1 47 "  is ass
+umed to be: RealRange(Open(0),Open(Pi))" }}{PARA 6 "" 1 "" {TEXT -1 0 
+"" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 82 "Exercitiu: adaugati lui r
+ atributul \"este o radacina a ecuatiei cos(x) - x^2 = 0\"." }}}
+{EXCHG {PARA 202 "" 0 "" {TEXT 204 162 "Metoda injumatatirii micsoreaz
+a intervalul in care este localizata radacina luand mijlocul intervalu
+lui si apoi verificand semnul functiei in mijloc si in capete." }}}
+{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 21 "midpoint := (0+Pi)/2;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)midpointG,$*&\"\"#!\"\"%#PiG\"\"\"
+F*" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 23 "is(f(midpoint)*f(
+0)<0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 
+202 "> " 0 "" {MPLTEXT 1 205 24 "is(f(midpoint)*f(Pi)<0);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 
+204 130 "Comanda \"is\" se utilizeaza pentru a lucra cu proprietati.  \+
+Maple decide asupra semnului fara a evalua produsul valorilor functiei
+." }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 82 "Pastram aici capatul stan
+g al intervalului, iar cel drept il inlocuim cu mijlocul:" }}}{EXCHG 
+{PARA 202 "> " 0 "" {MPLTEXT 1 205 25 "additionally(r<midpoint);" }}}
+{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 9 "about(r);" }}{PARA 6 "" 
+1 "" {TEXT -1 25 "Originally r, renamed r~:" }}{PARA 6 "" 1 "" {TEXT 
+-1 51 "  is assumed to be: RealRange(Open(0),Open(1/2*Pi))" }}{PARA 6 
+"" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 264 "Aici \+
+este o analogie cu numerele algebrice.  Am declarat numerele algebrice
+ cu  RootOf, deoarece ele sunt radacini ale polinoamelor.  Aici adauga
+m proprietati unei variabile si facem calcule cu aceste proprietati, u
+tilizand faptul ca avem o aproximare a radacinii." }}}}{SECT 0 {PARA 
+203 "" 0 "" {TEXT 206 16 "2. Simplificarea" }}{EXCHG {PARA 202 "" 0 "
+" {TEXT 204 15 "Avem nevoie de " }{TEXT 0 6 "assume" }{TEXT 204 90 " p
+entru simplificarea expresiilor. Am vazut deja cum lucreaza in cazul n
+umerelor complexe." }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 61 "e
+ln := expand(ln(x*y)) assuming x>0,y>0; # \"local\" assumption" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$elnG,&-%#lnG6#%\"xG\"\"\"-F'6#%\"yG
+F*" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 56 "combine(eln); # n
+u lucreaza deoarece x si y pot fi orice" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,&-%#lnG6#%\"xG\"\"\"-F%6#%\"yGF(" }}}{EXCHG {PARA 202 "> " 0 "
+" {MPLTEXT 1 205 45 "assume(x>0,y>0); # make a \"global\" assumption" 
+}}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 13 "combine(eln);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#lnG6#*&%#x|irG\"\"\"%#y|irGF(" }}}
+{EXCHG {PARA 202 "" 0 "" {TEXT 204 3 "Cu " }{TEXT 0 6 "expand" }{TEXT 
+204 4 " si " }{TEXT 0 7 "combine" }{TEXT 204 45 " am verificat ca Mapl
+e cunoaste identitatea  " }{XPPEDIT 18 0 "ln(x*y) = ln(x)+ln(y);" "6#/
+-%#lnG6#*&%\"xG\"\"\"%\"yGF),&-F%6#F(F)-F%6#F*F)" }{TEXT 204 33 ", car
+e este valabila doar pentru " }{TEXT 263 1 "x" }{TEXT 204 4 " si " }
+{TEXT 264 1 "y" }{TEXT 204 10 " pozitive." }}}{EXCHG {PARA 202 "" 0 "
+" {TEXT 204 3 "Cu " }{TEXT 0 6 "expand" }{TEXT 204 4 " si " }{TEXT 0 
+7 "combine" }{TEXT 204 61 " putem transforma expresii generale. Care e
+ste analogul lui  " }{TEXT 0 7 "combine" }{TEXT 204 17 ", sau opusul l
+ui " }{TEXT 0 6 "expand" }{TEXT 204 29 "pentru polinoame?  Retineti, \+
+" }{TEXT 0 6 "factor" }{TEXT 204 1 "." }}}{EXCHG {PARA 202 "" 0 "" 
+{TEXT 204 58 "Vom lucra aici cu expresii mai generale decat polinoamel
+e:" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 41 "x := 'x': y := 'y
+': # elimina assumptions" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 
+205 54 "expression := exp(x)*exp(y) + (sin(x))^2 + (cos(x))^2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+expressionG,(*&-%$expG6#%\"xG\"\"\"
+-F(6#%\"yGF+F+*$)-%$sinGF)\"\"#F+F+*$)-%$cosGF)F3F+F+" }}}{EXCHG 
+{PARA 202 "> " 0 "" {MPLTEXT 1 205 21 "simplify(expression);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,&-%$expG6#,&%\"xG\"\"\"%\"yGF)F)F)F)" }}}
+{EXCHG {PARA 202 "" 0 "" {TEXT 204 46 "Putem decide sa simplificam doa
+r exponentiala:" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 25 "simp
+lify(expression,exp);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(-%$expG6#,&
+%\"xG\"\"\"%\"yGF)F)*$)-%$sinG6#F(\"\"#F)F)*$)-%$cosGF/F0F)F)" }}}
+{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 56 "simplify(expression,trig
+); # simplificare trigonometrica" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&
+*&-%$expG6#%\"xG\"\"\"-F&6#%\"yGF)F)F)F)" }}}{EXCHG {PARA 202 "" 0 "" 
+{TEXT 204 36 "Alte argumente pentru simplify sunt " }{TEXT 0 8 "symbol
+ic" }{TEXT 204 4 " si " }{TEXT 0 5 "delay" }{TEXT 204 1 ":" }}}{EXCHG 
+{PARA 202 "> " 0 "" {MPLTEXT 1 205 24 "sqrtsquare := sqrt(x^2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+sqrtsquareG*$*$)%\"xG\"\"#\"\"\"#F*
+F)" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 21 "simplify(sqrtsqua
+re);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%%csgnG6#%\"xG\"\"\"F'F(" }
+}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 303 "Iesirea lui simplify poate f
+i inteleasa daca tinem cont ca radacina patrata a unui numar complex c
+onsta din doua valori (este multivoca). Depinzand de o functie semn co
+mplex, vom selecta fie ramura pozitive, fie cea negativa a functiei ra
+dical. Daca ni se pare greu, putem face o simplificare simbolica:" }}}
+{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 58 "simplify(sqrtsquare,symb
+olic); # sqrt este inversa lui x^2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%\"xG" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 73 "simplify(sqrts
+quare,delay); # do not simplify unless assumption are known" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*$*$)%\"xG\"\"#\"\"\"#F(F'" }}}{EXCHG {PARA 
+202 "" 0 "" {TEXT 204 70 "Maple are un set de reguli pentru conversia \+
+expresiilor trigonometice:" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 
+205 19 "trigsubs(cos(x+y));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7+-%$co
+sG6#,&%\"xG\"\"\"%\"yGF)-F%6#,&F(!\"\"F*F.,&*&\"\"#F))-F%6#,&*&F1F.F(F
+)F)*&F1F.F*F)F)F1F)F)F)F.,&F)F)*&F1F))-%$sinGF4F1F)F.,&*$F2F)F)*$F:F)F
+.*&F)F)-%$secGF&F.*&F)F)-FBF,F.*&,&F)F)*$)-%$tanGF4F1F)F.F),&F)F)FGF)F
+.,&*&#F)F1F)-%$expG6#*&F'F)^#F)F)F)F)*&FNF)-FP6#*&^#F.F)F'F)F)F)" }}}
+{EXCHG {PARA 202 "" 0 "" {TEXT 204 100 "Iesirea lui trigsubs contine m
+ai multe alternative de inlocuire a cosinusului sumei a doua unghiuri.
+" }}}}{SECT 0 {PARA 203 "" 0 "" {TEXT 206 48 "3. Simplificarea in rapo
+rt cu o lista de relatii" }}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 
+32 "simplify(x^3+y^2,\{x^2+y^2 = 1\});" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,(*$)%\"xG\"\"$\"\"\"F(F(F(*$)F&\"\"#F(!\"\"" }}}{EXCHG {PARA 
+202 "" 0 "" {TEXT 204 139 "Aceasta simplificare este o parte a unui me
+canism mai general de rescriere.  Vom ilustra aceasta cu minimizarea c
+u multiplicatori Lagrange." }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 
+205 44 "f := x^2 + 2*y*z*x - z^2: # functia obiectiv" }}}{EXCHG {PARA 
+202 "> " 0 "" {MPLTEXT 1 205 38 "g := x^2 + y^2 + z^2 - 1: # restricti
+i" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 138 "Problema este de a deter
+mina valorile extreme (minime si maxime) ale functiei f, pentru puncte
+le (x,y,z) ce satisfac ecuatia g(x,y,z) = 0." }}}{EXCHG {PARA 202 "> \+
+" 0 "" {MPLTEXT 1 205 92 "sys := \{g,diff(g,x)-lambda*diff(f,x),diff(g
+,y)-lambda*diff(f,y),diff(g,z)-lambda*diff(f,z)\};" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%$sysG<&,**$)%\"xG\"\"#\"\"\"F+*$)%\"yGF*F+F+*$)%\"z
+GF*F+F+F+!\"\",&*&F*F+F)F+F+*&%'lambdaGF+,&*&F*F+F)F+F+*(F*F+F.F+F1F+F
++F+F2,&*&F*F+F.F+F+**F*F+F6F+F1F+F)F+F2,&*&F*F+F1F+F+*&F6F+,&*(F*F+F.F
++F)F+F+*&F*F+F1F+F2F+F2" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 
+47 "gb := grobner[gbasis](sys,[x,y,z,lambda],plex);" }}{PARA 7 "" 1 "
+" {TEXT -1 54 "Warning, grobner is deprecated. Please, use Groebner.\n
+" }}{PARA 7 "" 1 "" {TEXT -1 69 "Warning, grobner[gbasis] is deprecate
+d. Please, use Groebner[Basis].\n" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>
+%#gbG7+,,\"\"\"!\"\"*&\"\"#F')%'lambdaGF*F'F(F,F(*&F*F')F,\"\"$F'F(*&
+\"\"'F')%\"xGF*F'F',(*(F*F'F,F'%\"zGF'F(*(F*F'F+F'F6F'F(*(F/F'%\"yGF'F
+3F'F',&*(F*F'F,F'F9F'F(*(F/F'F6F'F3F'F',(F3F(*&F,F'F3F'F'*(F,F'F9F'F6F
+'F',(F*F(*&F*F'F+F'F'*&F/F')F9F*F'F',&*&F/F'F9F'F(*(F*F'F+F'F9F'F',,F'
+F(*&F*F'F+F'F(F,F'*&F*F'F.F'F'*&F1F')F6F*F'F',**&F/F'F6F'F(*(F/F'F,F'F
+6F'F(*(F*F'F+F'F6F'F'*(F*F'F.F'F6F'F',(F/F'*&\"\"&F'F+F'F(*&F*F')F,\"
+\"%F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "gbn := Groebner[
+Basis](sys,plex,[x,y,z,lambda]);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%
+$gbnG7+,(\"\"$\"\"\"*&\"\"&F()%'lambdaG\"\"#F(!\"\"*&F-F()F,\"\"%F(F(,
+**&F'F(%\"zGF(F.*(F'F(F,F(F4F(F.*(F-F(F+F(F4F(F(*(F-F()F,F'F(F4F(F(,,F
+(F.*&F-F(F+F(F.F,F(*&F-F(F8F(F(*&\"\"'F()F4F-F(F(,&*&F'F(%\"yGF(F.*(F-
+F(F+F(FAF(F(,(F-F.*&F-F(F+F(F(*&F'F()FAF-F(F(,(%\"xGF.*&F,F(FHF(F(*(F,
+F(FAF(F4F(F(,&*(F-F(F,F(FAF(F.*(F'F(F4F(FHF(F(,(*(F-F(F,F(F4F(F.*(F-F(
+F+F(F4F(F.*(F'F(FAF(FHF(F(,,F(F.*&F-F(F+F(F.F,F.*&F-F(F8F(F.*&F=F()FHF
+-F(F(" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 204 223 "\"gb\" (baza Groebne
+r) este o simplificare a problemei originale.  Observam ca ultima ecua
+tie este doar in lambda.  Aceeasta se intampla intotdeauna in ordinea \+
+pura lexicografica; intotdeauna se obtine un sistem triunghiular:" }}}
+{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 31 "ss:=solve(gb[nops(gb)],l
+ambda);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#ssG6&\"\"\"!\"\",$*&\"\"
+#F'\"\"'#F&F*F&,$*&F*F'F+F,F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 26 "ss2:=solve(gbn[1],lambda);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+$ss2G6&\"\"\"!\"\",$*&\"\"#F'\"\"'#F&F*F&,$*&F*F'F+F,F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 
+204 173 "Observam ca avem patru candidati.  Facand substitutia inversa
+ a acestor valori in celelalte ecuatii, se obtin valorile corespunzato
+are ale coordonatelor punctelor de extrem." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "ss[1];" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "eq1:=subs(lambda=ss[1],gb);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$eq1G7+,&\"\"'!\"\"*&F'\"\"\")%\"xG\"\"#F*F*,&*&\"\"%
+F*%\"zGF*F(*(\"\"$F*F,F*%\"yGF*F*,&*(F3F*F1F*F,F*F**&F-F*F4F*F(*&F4F*F
+1F*,$*&F3F*)F4F-F*F*,$F4F(,$*&F'F*)F1F-F*F*,$*&F-F*F1F*F(\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 149 "for k to 4 do \n  eq1:=subs
+(lambda=ss[k],gb):\n  pe:=solve([seq(eq1[j]=0,j=1..nops(eq1)-1)],[x,y,
+z]):\n  pe:=convert(pe,radical): print(op(pe));\nend do:" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$7%/%\"xG\"\"\"/%\"yG\"\"!/%\"zGF)7%/F%!\"\"F'F*
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$7%/%\"xG\"\"!/%\"yGF&/%\"zG\"\"\"7
+%F$F'/F*!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%/%\"xG**^##!\"\"\"
+\"$\"\"\"F*#F+\"\"#,&#F-F*F+*&F*F)\"\"'F,F)F,,&*$F1F,F+F*F+F+/%\"yG*&^
+##F+F*F+F*F,/%\"zG*$F.F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%/%\"xG**
+^##\"\"\"\"\"$F)F*#F)\"\"#,&#F,F*F)*&F*!\"\"\"\"'F+F)F+,&*$F1F+F)F*F0F
+)/%\"yG*&F'F)F*F+/%\"zG*$F-F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "
+Alt exemplu: sa calculam " }{XPPEDIT 18 0 "x[1]^5+x[2]^5+x[3]^5;" "6#,
+(*$&%\"xG6#\"\"\"\"\"&F(*$&F&6#\"\"#F)F(*$&F&6#\"\"$F)F(" }{TEXT -1 7 
+", unde " }{XPPEDIT 18 0 "x[1],x[2],x[3];" "6%&%\"xG6#\"\"\"&F$6#\"\"#
+&F$6#\"\"$" }{TEXT -1 26 " sunt radacinile ecuatiei " }{XPPEDIT 18 0 "
+x^3+p*x^2+q*x+r = 0;" "6#/,**$%\"xG\"\"$\"\"\"*&%\"pGF(*$F&\"\"#F(F(*&
+%\"qGF(F&F(F(%\"rGF(\"\"!" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "simplify(x^5+y^5+z^5
+,[x+y+z=-p, x*y+x*z+y*z=q, x*y*z=-r]);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,,*$)%\"pG\"\"&\"\"\"!\"\"*(F'F(%\"qGF(%\"rGF(F(*(F'F(F&F()F+\"
+\"#F(F)*(F'F()F&\"\"$F(F+F(F(*(F'F()F&F/F(F,F(F)" }}}}{PARA 204 "" 0 "
+" {TEXT -1 0 "" }}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 24 "4. Interface sh
+owassumed" }}{PARA 0 "" 0 "" {TEXT -1 400 "Parametrul showassumed in i
+nterface poate avea valorile 0, 1, sau 2. El indica modul de afisare a
+l variabilelor care au facut obiectul unui assume. Valoarea 0 ascunde \+
+toate proprietatile. Valoarea 1 are ca efect afisarea variabilelor car
+e au facut obiectul unui assume urmate de un caracter tilda. Valoarea \+
+2 va provoca afisarea variabilelor care au facut obiectul unui assume \+
+la sfarsitul expresiei." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "interface(showassumed=2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 61 "eln := expand(ln(x*y)) assuming x>0,y>0; # \"local\" \+
+assumption" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$elnG,&-%#lnG6#%\"xG\"
+\"\"-F'6#%\"yGF*" }}}{EXCHG {PARA 202 "> " 0 "" {MPLTEXT 1 205 45 "ass
+ume(x>0,y>0); # make a \"global\" assumption" }}}{EXCHG {PARA 202 "> \+
+" 0 "" {MPLTEXT 1 205 13 "combine(eln);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%#lnG6#*&%#x|irG\"\"\"%#y|irGF(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 3 
+"" 0 "" {TEXT -1 40 "5. Rezumat al comenzilor de simplificare" }}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 4 "5.1 " }{TEXT 0 8 "simplify" }}
+{PARA 0 "" 0 "" {TEXT -1 20 "Forma generala este " }{TEXT 0 31 "simpli
+fy(expr, opt1, ..., optn)" }{TEXT -1 5 " sau " }{TEXT 0 27 "simplify(e
+xpr, ecuatii, lv)" }{TEXT -1 6 ". Vezi" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "?simplify" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT 
+-1 4 "5.2 " }{TEXT 0 6 "expand" }}{PARA 0 "" 0 "" {TEXT -1 20 "Forma g
+enerala este " }{TEXT 0 25 "expand(expr, u1, ..., un)" }{TEXT -1 358 "
+. Este aplicata recursiv distributivitatea inmultirii fata de adunare \+
+in expr (se desfac parantezele), iar pentru expresii irationale se fac
+e expandare bazata pe identitati matematice cunoscute. u1,...,un indic
+a expresii ce vor fi exceptate de la dezvoltare. In cazul expresiilor \+
+rationale nu se face aducerea la acelasi numitor (pentru aceasta se fo
+loseste " }{TEXT 0 6 "normal" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(sin(x
++y));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&-%$sinG6#%\"xG\"\"\"-%$co
+sG6#%\"yGF)F)*&-F+F'F)-F&F,F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 4 "5.3 " }{TEXT 0 7 "com
+bine" }}{PARA 0 "" 0 "" {TEXT -1 13 "Sintaxa este " }{TEXT 0 17 "combi
+ne(expr,opt)" }{TEXT -1 63 ". Realizeaza in general transformari inver
+se celor obtinute cu " }{TEXT 0 6 "expand" }{TEXT -1 27 ". Pentru deta
+lii a se vedea" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "?combine" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "E
+xemple:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "combine(Int(x,x=
+a..b)-Int(x^2,x=a..b));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$,&
+*$)%\"xG\"\"#\"\"\"!\"\"F)F+/F);%\"aG%\"bG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 31 "combine(arctan(x)+arctan(1/x));" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,$*&#\"\"\"\"\"#F&*&-%'signumG6#%\"xGF&%#PiGF&F&F&" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 
+"" {TEXT -1 4 "5.4 " }{TEXT 0 7 "collect" }}{PARA 0 "" 0 "" {TEXT -1 
+8 "Comanda " }{TEXT 0 24 "collect(expr, x, opt, f)" }{TEXT -1 21 " tra
+nsforma expresia " }{TEXT 0 4 "expr" }{TEXT -1 55 ", privita ca un pol
+inom generalizat in nedeterminatele " }{TEXT 0 1 "x" }{TEXT -1 103 ", \+
+dand factor comun puterile egale ale nedeterminatelor, dupa care coefi
+cientilor li se aplica functia " }{TEXT 0 1 "f" }{TEXT -1 31 ", daca e
+ste prezenta. Optiunea " }{TEXT 0 3 "opt" }{TEXT -1 10 " poate fi " }
+{TEXT 0 11 "distributed" }{TEXT -1 5 " sau " }{TEXT 0 9 "recursive" }
+{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 8 "Exemple:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "p:=(x+1
+)*(y+2)*(x*y-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG*(,&%\"xG\"
+\"\"F(F(F(,&%\"yGF(\"\"#F(F(,&*&F*F(F'F(F(F(!\"\"F(" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 17 "collect(p,[x,y]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,**&,&*$)%\"yG\"\"#\"\"\"F**&F)F*F(F*F*F*)%\"xGF)F*F**&
+,(F)!\"\"F&F*F(F*F*F-F*F*F(F0F)F0" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "collect(p,[x,y],distributed);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,0*&)%\"yG\"\"#\"\"\")%\"xGF'F(F(*(F'F(F&F(F)F(F(*&F*F(
+F%F(F(*&F&F(F*F(F(*&F'F(F*F(!\"\"F&F/F'F/" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "collect(p,[x,y],recursive);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,**&,&*$)%\"yG\"\"#\"\"\"F**&F)F*F(F*F*F*)%\"xGF)F*F**&
+,(F)!\"\"F&F*F(F*F*F-F*F*F(F0F)F0" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "collect(p,y,recursive,factor);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,**(,&%\"xG\"\"\"F'F'F'F&F')%\"yG\"\"#F'F'*(F%F',&*&F*F
+'F&F'F'F'!\"\"F'F)F'F'*&F*F'F&F'F.F*F." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 4 "5.5 " }
+{TEXT 0 6 "factor" }}{PARA 0 "" 0 "" {TEXT -1 89 "Factorizarea unei ex
+presii peste inelul K[ext] unde K este inelul generat de coeficienti.
+" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 4 "5.6 " }{TEXT 0 6 "normal" }}
+{PARA 0 "" 0 "" {TEXT -1 8 "Comanda " }{TEXT 0 21 "normal(expr,expande
+d)" }{TEXT -1 143 " este destinata in principal aducerii expresiilor r
+ationale la forma normala: aducere la numitor comun si simplificarea c
+u c.m.m.d.c. Optiunea " }{TEXT 0 8 "expanded" }{TEXT -1 52 " provoaca \+
+expandarea numaratorului si a numitorului." }}}{SECT 0 {PARA 4 "" 0 "
+" {TEXT -1 4 "5.7 " }{TEXT 0 4 "sort" }}{PARA 0 "" 0 "" {TEXT -1 106 "
+Sortarea polinoamelor in ordine crescatoare sau descrescatoare a monoa
+melor componente. Sorteaza si liste." }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 4 "5.8 " }{TEXT 0 7 "convert" }}{PARA 0 "" 0 "" {TEXT -1 43 "
+Comanda universala si deosebit de complexa " }{TEXT 0 21 "convert(expr
+,optiune)" }{TEXT -1 86 " transforma o expresie fie in forma echivalen
+ta matematic, fie in forma neechivalenta." }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 23 "5.9 Alti simplificatori" }}{PARA 0 "" 0 "" {TEXT 0 9 "rad
+normal" }{TEXT -1 46 " aduce la forma normala expresii cu radicali. " 
+}{TEXT 0 11 "rationalize" }{TEXT -1 31 " rationalizeaza numitorul, iar
+ " }{TEXT 0 7 "radsimp" }{TEXT -1 63 " simplifica expresii cu radicali
+ (chiar si suprapusi). Exemple:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "rationalize(1/(2^(1/3)-1));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"\"F$*$)\"\"##F$\"\"$F$F$*$)F
+'#F'F)F$F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 78 "radsimp(sqrt(
+x*sqrt(x*sqrt(x)))+sqrt(y*sqrt(y*sqrt(y)))) assuming x>0 and y>0;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$*$)%\"xG#\"\"(\"\"%\"\"\"#F+\"\"#F
++*$*$)%\"yGF(F+F,F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "alia
+s(alpha=RootOf(z^3-z-1)):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+31 "radnormal(1/(sqrt(2)+alpha)^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#*&\"\"\"F$,(\"\"#F$*(F&F$F&#F$F&%&alphaGF$F$*$)F)F&F$F$!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "radnormal(1/(sqrt(2)+alpha)^
+2,rationalized);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.*&\"#:\"\"\")%&a
+lphaG\"\"#F&F&*(\"#5F&F'F&F)#F&F)!\"\"*(\"#9F&F)F,F(F&F-*&\"#>F&F(F&F&
+\"#6F&*&\"\")F&F)F,F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}}}}{MARK "7 9 8 0 0" 0 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

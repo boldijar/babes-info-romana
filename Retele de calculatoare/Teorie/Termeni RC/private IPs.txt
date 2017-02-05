@@ -1,0 +1,9 @@
+Computers may be allocated addresses from this address space when it is necessary for them to communicate with other computing devices on an internal (not public Internet) network.
+Private networks are quite common in home and office local area network (LAN) designs, as many organizations do not see a need for globally unique IP addresses for every computer, printer and other device that the organizations use. Another reason for the extensive use of private IP addresses is the shortage of publicly registered IP addresses
+Class A -  10.0.0.0 - 10.255.255.255
+Class B – 172.16.0.0 - 172.31.255.255 
+Class C – 192.168.0.0 - 192.168.255.255
+
+Routers on the Internet should be configured to discard any packets containing private IP addresses in the IP header. This isolation gives private networks a basic form of security as it is not usually possible for the outside world to establish a connection directly to a machine using these addresses
+
+If a device on a private network needs to communicate with other networks, a "mediating gateway" is needed to ensure that the outside network is presented with an address that is "real" (or publicly reachable) so that Internet routers allow the communication. This gateway is typically a network address translation (NAT) device or a proxy server.

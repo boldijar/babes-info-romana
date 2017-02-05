@@ -1,0 +1,238 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "" 1 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "Courier" 0 
+1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "Courier" 0 1 255 
+0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "Courier" 0 1 255 0 0 1 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "Courier" 0 1 255 0 0 1 0 1 0 
+0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Hea
+ding 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 
+1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courie
+r" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 
+"Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 
+19 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 263 25 "Reprezentarea expresiilo
+r" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 199 "Dam detalii despre reprezentarea interna
+ a expresiilor. Utilizarea grafelor orientate aciclice are implicatii \+
+asupra efectelor substitutiei, unul dintre elementele majore pentru tr
+atarea expresiilor." }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 39 "1. Reprez
+entarea interna a polinoamelor" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 102 
+"Exista trei niveluri de selectie a datelor pentru un polinom. La nive
+lul cel mai inalt avem comenzile " }{MPLTEXT 1 0 6 "degree" }{TEXT -1 
+2 ", " }{MPLTEXT 1 0 6 "coeffs" }{TEXT -1 4 " si " }{MPLTEXT 1 0 5 "co
+eff" }{TEXT -1 43 ". Pe nivelul urmator in jos avem comenzile " }
+{MPLTEXT 1 0 4 "nops" }{TEXT -1 4 " si " }{MPLTEXT 1 0 2 "op" }{TEXT 
+-1 94 "; ele ne permit sa desenam arborele unui polinom. In fine, pe n
+ivelul cel mai de jos, comanda " }{MPLTEXT 1 0 9 "dismantle" }{TEXT 
+-1 60 " ne permite sa obtinem graful aciclic orientat al expresiei." }
+}{PARA 0 "" 0 "" {TEXT -1 431 "Folosirea grafelor aciclice orientate e
+ste motivata de utilizarea eficienta a memoriei; fiecare obiect este m
+emorat o singura data. Deci, frunzele arborelui de expresie cu acelasi
+ continut sunt memorate in acelasi nod final. De asemenea, substitutia
+ poate fi executata eficient: inlocuirea aceluiasi simbol (sau numar) \+
+intr-o expresie are loc o singura data, chiar daca simbolul (sau numar
+ul) apare in mai multe locuri in expresie." }}{PARA 0 "" 0 "" {TEXT 
+-1 28 "Am vazut arbori de expresii:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "p := x^10 + 2*x^4 + 9;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"pG,(*$)%\"xG\"#5\"\"\"F**&\"\"#F*)F(\"\"%F*
+F*\"\"*F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 72 "Avem comenzi de nive
+l inalt pentru a interoga componentele polinoamelor:" }{MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "degree(p,x); coeffs(p)
+; coeff(p,x,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"\"*\"\"\"\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "whattype(p);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"+G" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 10 "Tipul lui " }{TEXT 265 1 "p" }{TEXT -1 71 " este +, iar s
+electorii de pe al doilea nivel lucreaza in mod obisnuit:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "nops(p);        #numarul de operanz
+i" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 36 "op(p);          #secventa de termeni" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%*$)%\"xG\"#5\"\"\",$*&\"\"#F')F%\"\"%F'F'\"\"*" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "op(1,p);        #selectea
+za primul termen" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)%\"xG\"#5\"\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "op([2,1],p);    #select
+eaza factorul 1 al termenului 2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"#" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 17 "Aplicand comanda " }{TEXT 
+256 2 "op" }{TEXT -1 65 " in continuare operanzilor putem desena arbor
+ele expresiei, vezi " }{URLLINK 17 "figura 12.1" 4 "Figura 12.htm#bm1
+" "" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 55 "Totusi, Maple nu memoreaza expresiile ca arbori, ci ca " 
+}{TEXT 264 24 "grafe orientate aciclice" }{TEXT -1 56 " (DAG). Graful \+
+unei expresii se poate obtine cu comanda " }{TEXT 266 9 "dismantle" }
+{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "dismantle(p);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}
+{PARA 6 "" 1 "" {TEXT -1 6 "SUM(7)" }}{PARA 6 "" 1 "" {TEXT -1 10 "   \+
+PROD(3)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "
+" 1 "" {TEXT -1 19 "      INTPOS(2): 10" }}{PARA 6 "" 1 "" {TEXT -1 
+15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(3)" }}
+{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 4" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INT
+POS(2): 2" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 9" }}{PARA 6 "
+" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "Maple memoreaza acest polinom ca
+ o suma de produse monoame-coeficienti." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 25 "Graful returnat apare in " }{URLLINK 17 "
+figura 12.2" 4 "Figura 12.htm/#bm2" "" }{TEXT -1 1 "." }}}}{SECT 0 
+{PARA 3 "" 0 "" {TEXT -1 38 "2. Efectul colateral al substitutiilor" }
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "Presupunem ca dorim sa inlocuim c
+oeficientul dominant al lui " }{TEXT 257 1 "p" }{TEXT -1 4 " cu " }
+{TEXT 258 2 "Pi" }{TEXT -1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "q := subs(1=Pi,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG,(
+*&)%\"xG\"#5\"\"\"%#PiGF*F**&\"\"#F*)F(\"\"%F*F**&\"\"*F*F+F*F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "dismantle(q);" }}{PARA 6 "" 
+1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 6 "SUM(7)" }}{PARA 6 "" 
+1 "" {TEXT -1 10 "   PROD(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAM
+E(4): x" }}{PARA 6 "" 1 "" {TEXT -1 19 "      INTPOS(2): 10" }}{PARA 
+6 "" 1 "" {TEXT -1 30 "      NAME(4): Pi #[protected]" }}{PARA 6 "" 1 
+"" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 15 "   \+
+INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PROD(3)" }}{PARA 6 "" 
+1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 18 "   \+
+   INTPOS(2): 4" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 2" }}
+{PARA 6 "" 1 "" {TEXT -1 27 "   NAME(4): Pi #[protected]" }}{PARA 6 "
+" 1 "" {TEXT -1 15 "   INTPOS(2): 9" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 250 "Deoarece fiecare simbol este me
+morat o singura data, efectul substitutiei este ca s-a schimbat si ter
+menul liber al polinomului.  Pentru a explica aceasta, trebuie sa cuno
+astem reprezentarea interna a unui polinom ca suma de produse monom-co
+eficient." }}{PARA 0 "" 0 "" {TEXT -1 14 "Se observa ca " }{MPLTEXT 1 
+0 2 "Pi" }{TEXT -1 15 " are atributul " }{MPLTEXT 1 0 9 "protected" }
+{TEXT -1 52 ". Cand o variabila nu are nici un atribut (cum este " }
+{MPLTEXT 1 0 0 "" }{TEXT 267 1 "x" }{TEXT -1 83 "), campul de valoare \+
+pointeaza pe NULL. Graful expresiei dupa substitutie apare in " }
+{URLLINK 17 "figura 12.3" 4 "file:///E:/Radu/maple/cursuri/cursurirom/
+fig12_3.jpg" "" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 
+3 "" 0 "" {TEXT -1 53 "3. Grafe orientate aciclice pentru expresii rat
+ionale" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "Pentru expresii rational
+e -1 este special deoarece " }{TEXT 259 3 "1/x" }{TEXT -1 17 " este me
+morat ca " }{TEXT 260 6 "x^(-1)" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "r := (x^3 - 1)/(x-1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG*&,&*$)%\"xG\"\"$\"\"\"F+F+!\"\"
+F+,&F)F+F+F,F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "dismantle
+(r);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 7 "PR
+OD(5)" }}{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(5)" }}{PARA 6 "" 1 "" 
+{TEXT -1 13 "      PROD(3)" }}{PARA 6 "" 1 "" {TEXT -1 19 "         NA
+ME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 3" }}
+{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 19 "      INTNEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 18 "     \+
+ INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "
+      NAME(4): x" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }
+}{PARA 6 "" 1 "" {TEXT -1 19 "      INTNEG(2): -1" }}{PARA 6 "" 1 "" 
+{TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 16 "   INT
+NEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 12 "Observam ca " }{TEXT 261 1 "r" }{TEXT -1 41 " este memora
+t ca produsul a doua puteri: " }{TEXT 262 22 "(x^3-1)^1 * (x-1)^(-1)" 
+}{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+101 "Deoarece -1 este utilizat ca exponent pentru a reprezenta imparti
+rea, avem urmatorul efect colateral:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "subs(-1=Pi,r);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&*$)%\"xG\"\"$\"\"\"F)%#PiGF)F)),&F'F)F*F)F*F)" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 90 "Efectul acestei  substitutii este \+
+explicat prin modul in care Maple memoreaza impartirile." }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 20 "Dam inca un exemplu." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "pcos:=subs(x=cos(x),p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%pc
+osG,(*$)-%$cosG6#%\"xG\"#5\"\"\"F-*&\"\"#F-)F(\"\"%F-F-\"\"*F-" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "whattype(pcos); type(pcos,po
+lynom);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"+G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 66 "Desi e
+xpresia nu mai este un polinom ii putem obtine coeficientii:" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "c
+oeffs(pcos);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"*\"\"\"\"\"#" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "Expresia nu mai poate fi factoriza
+ta direct:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 21 "factor(pcos,complex);" }}{PARA 8 "" 1 "" {TEXT -1 
+153 "Error, (in factor) invalid input: evalf/Factor expects its 1st ar
+gument, a, to be of type polynom(complex(numeric)), but received cos(x
+)^10+2*cos(x)^4+9\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "Putem totu
+si rezolva problema indirect: factorizam intai " }{TEXT 268 1 "p" }
+{TEXT -1 27 " si apoi facem substitutia:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "fp := factor(p,compl
+ex);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#fpG*6,&%\"xG\"\"\"^$$\"+Ee#
+p=\"!\"*$\"+'o4^^%!#5F(F(,&F'F(^$F*$!+'o4^^%F/F(F(,&F'F(^$$\"+VyHDtF/$
+\"+w8\"*)R*F/F(F(,&F'F(^$F6$!+w8\"*)R*F/F(F(,&F'F(^#$\"+5^158F,F(F(,&F
+'F(^#$!+5^158F,F(F(,&F'F(^$$!+VyHDtF/F8F(F(,&F'F(^$FHF<F(F(,&F'F(^$$!+
+Ee#p=\"F,F-F(F(,&F'F(^$FNF2F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 27 "fpcos := subs(x=cos(x),fp);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#>%&fpcosG*6,&-%$cosG6#%\"xG\"\"\"^$$\"+Ee#p=\"!\"*$\"+'o4^^%!#5F+F+,&
+F'F+^$F-$!+'o4^^%F2F+F+,&F'F+^$$\"+VyHDtF2$\"+w8\"*)R*F2F+F+,&F'F+^$F9
+$!+w8\"*)R*F2F+F+,&F'F+^#$\"+5^158F/F+F+,&F'F+^#$!+5^158F/F+F+,&F'F+^$
+$!+VyHDtF2F;F+F+,&F'F+^$FKF?F+F+,&F'F+^$$!+Ee#p=\"F/F0F+F+,&F'F+^$FQF5
+F+F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 69 "Expresiile rationale gene
+ralizate sunt polinoame rationale deghizate:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "rp := ((sin(y))^2
+-1)/(sin(y)-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#rpG*&,&*$)-%$sin
+G6#%\"yG\"\"#\"\"\"F.F.!\"\"F.,&F)F.F.F/F/" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 31 "whattype(rp); type(rp,ratpoly);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%\"*G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "factor(numer(rp)); " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&-%$sinG6#%\"yG\"\"\"F)!\"\"F),&F%F
+)F)F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "normal(rp);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&-%$sinG6#%\"yG\"\"\"F(F(" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 35 "Structura interna este interesanta:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "dismantle(rp);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "
+" {TEXT -1 7 "PROD(5)" }}{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(5)" }}
+{PARA 6 "" 1 "" {TEXT -1 13 "      PROD(3)" }}{PARA 6 "" 1 "" {TEXT 
+-1 20 "         FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 46 "          \+
+  NAME(4): sin #[protected, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 21 " \+
+           EXPSEQ(2)" }}{PARA 6 "" 1 "" {TEXT -1 25 "               NA
+ME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 21 "         INTPOS(2): 2" }}
+{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 19 "      INTNEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 18 "     \+
+ INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 9 "   SUM(5)" }}{PARA 6 "" 1 "" {TEXT -1 17 "
+      FUNCTION(3)" }}{PARA 6 "" 1 "" {TEXT -1 43 "         NAME(4): si
+n #[protected, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 18 "         EXPSE
+Q(2)" }}{PARA 6 "" 1 "" {TEXT -1 22 "            NAME(4): y" }}{PARA 
+6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 
+19 "      INTNEG(2): -1" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2
+): 1" }}{PARA 6 "" 1 "" {TEXT -1 16 "   INTNEG(2): -1" }}{PARA 6 "" 1 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 19 "Pentru grafic \+
+vezi " }{URLLINK 17 "figura 12.4" 4 "Fig12.htm/#bm4" "" }{TEXT -1 1 ".
+" }}{PARA 0 "" 0 "" {TEXT -1 61 "Procedura dismantle este puternica; p
+utem lucra si cu adrese:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "dismantle[dec](rp); #afisaza adrese
+le in zecimal" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 17 "PROD(181194132,5)" }}{PARA 6 "" 1 "" {TEXT -1 19 "   SUM(
+181170524,5)" }}{PARA 6 "" 1 "" {TEXT -1 23 "      PROD(181522216,3)" 
+}}{PARA 6 "" 1 "" {TEXT -1 30 "         FUNCTION(181522232,3)" }}
+{PARA 6 "" 1 "" {TEXT -1 56 "            NAME(160232092,4): sin #[prot
+ected, _syslib]" }}{PARA 6 "" 1 "" {TEXT -1 31 "            EXPSEQ(160
+825440,2)" }}{PARA 6 "" 1 "" {TEXT -1 35 "               NAME(16023309
+2,4): y" }}{PARA 6 "" 1 "" {TEXT -1 23 "         INTPOS(5,2): 2" }}
+{PARA 6 "" 1 "" {TEXT -1 20 "      INTPOS(3,2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 22 "      INTNEG(-1,2): -1" }}{PARA 6 "" 1 "" {TEXT -1 20 "  \+
+    INTPOS(3,2): 1" }}{PARA 6 "" 1 "" {TEXT -1 17 "   INTPOS(3,2): 1" 
+}}{PARA 6 "" 1 "" {TEXT -1 19 "   SUM(181159244,5)" }}{PARA 6 "" 1 "" 
+{TEXT -1 27 "      FUNCTION(181522232,3)" }}{PARA 6 "" 1 "" {TEXT -1 
+53 "         NAME(160232092,4): sin #[protected, _syslib]" }}{PARA 6 "
+" 1 "" {TEXT -1 28 "         EXPSEQ(160825440,2)" }}{PARA 6 "" 1 "" 
+{TEXT -1 32 "            NAME(160233092,4): y" }}{PARA 6 "" 1 "" 
+{TEXT -1 20 "      INTPOS(3,2): 1" }}{PARA 6 "" 1 "" {TEXT -1 22 "    \+
+  INTNEG(-1,2): -1" }}{PARA 6 "" 1 "" {TEXT -1 20 "      INTPOS(3,2): \+
+1" }}{PARA 6 "" 1 "" {TEXT -1 19 "   INTNEG(-1,2): -1" }}{PARA 6 "" 1 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "uu:=addr
+essof(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#uuG\"*+r7g\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "pointto(uu);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,(*$)%\"xG\"#5\"\"\"F(*&\"\"#F()F&\"\"%F(F(\"\"*F(
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{MARK "3 15 0 1" 
+4 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

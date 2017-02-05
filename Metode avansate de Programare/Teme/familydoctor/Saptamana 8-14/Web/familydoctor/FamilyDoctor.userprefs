@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="FamilyDoctorServer/FamilyDoctorServer.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="gedit" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FamilyDoctorClient/Program.cs">
+    <Files>
+      <File FileName="FamilyDoctorClient/UI/CLI/Menu.cs" Line="10" Column="2" />
+      <File FileName="FamilyDoctorCommon/Utils/Log.cs" Line="12" Column="59" />
+      <File FileName="FamilyDoctorClient/UI/CLI/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="FamilyDoctorClient/Program.cs" Line="1" Column="1" />
+      <File FileName="FamilyDoctorServer/Repositories/AppointmentRepository.cs" Line="1" Column="1" />
+      <File FileName="FamilyDoctorServer/Repositories/RepositoryException.cs" Line="18" Column="77" />
+      <File FileName="FamilyDoctorServer/Controllers/FamilyDoctorManager.cs" Line="13" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

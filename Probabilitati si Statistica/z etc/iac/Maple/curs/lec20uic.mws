@@ -1,0 +1,185 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 
+-1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple O
+utput" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 
+1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{SECT 0 {PARA 0 
+"" 0 "" {TEXT -1 59 "lec20 uic problema 2. Utilizati Maple pentru a ve
+rifica ca " }{XPPEDIT 18 0 "1/sqrt(1-4*x) = Sum(binomial(2*n,n)*x^n,n \+
+= 0 .. infinity);" "6#/*&\"\"\"F%-%%sqrtG6#,&F%F%*&\"\"%F%%\"xGF%!\"\"
+F--%$SumG6$*&-%)binomialG6$*&\"\"#F%%\"nGF%F7F%)F,F7F%/F7;\"\"!%)infin
+ityG" }{TEXT -1 121 ". Dati comenzile Maple\n(a) pentru a calcula dezv
+oltarea Taylor de ordinul 5 a membrului stang al egalitatii in jurul l
+ui " }{XPPEDIT 18 0 "x = 0;" "6#/%\"xG\"\"!" }{TEXT -1 49 ". \n(b) pen
+tru a crea o functie care pentru orice " }{TEXT 256 1 "n" }{TEXT -1 
+33 " returneaza the coeficientul lui " }{XPPEDIT 18 0 "x^n;" "6#)%\"xG
+%\"nG" }{TEXT -1 30 " in seria Taylor in jurul lui " }{XPPEDIT 18 0 "x
+ = 0;" "6#/%\"xG\"\"!" }{TEXT -1 23 ";\n(c) a compara pentru " }
+{XPPEDIT 18 0 "n = 40;" "6#/%\"nG\"#S" }{TEXT -1 40 " rezultatul funct
+iei create cu comanda  " }{XPPEDIT 18 0 "binomial(2*n,n);" "6#-%)binom
+ialG6$*&\"\"#\"\"\"%\"nGF(F)" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "ms:=1/sqrt(1-4*x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#msG*&\"\"\"F&*$,&F&F&*&\"\"%F&%\"xG
+F&!\"\"#F&\"\"#F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "taylor
+(ms,x=0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#+1%\"xG\"\"\"\"\"!\"\"#F%
+\"\"'F'\"#?\"\"$\"#q\"\"%\"$_#\"\"&-%\"OG6#F%F(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 25 "coef:=n->binomial(2*n,n);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%coefGf*6#%\"nG6\"6$%)operatorG%&arrowGF(-%)binomialG
+6$,$*&\"\"#\"\"\"9$F2F2F3F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "coef(0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "coef(1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "coef
+(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 56 "coefb:=n->coeftayl(taylor(1/sqrt(1-4*x),x=0,n+1)
+,x=0,n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&coefbGf*6#%\"nG6\"6$%)o
+peratorG%&arrowGF(-%)coeftaylG6%-%'taylorG6%*&\"\"\"F3-%%sqrtG6#,&F3F3
+*&\"\"%F3%\"xGF3!\"\"F;/F:\"\"!,&9$F3F3F3F<F?F(F(F(" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 9 "coefb(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "coef(5), coefb(
+5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"$_#F#" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 16 "with(powseries);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#77%(composeG%(evalpowG%(inverseG%*multconstG%)multiplyG%)negativ
+eG%'powaddG%'powcosG%*powcreateG%(powdiffG%'powexpG%'powintG%'powlogG%
+(powpolyG%'powsinG%)powsolveG%(powsqrtG%)quotientG%*reversionG%)subtra
+ctG%(tpsformG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "powcreate(
+f(n)=binomial(2*n,n));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "t
+psform(f, x, 6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#+1%\"xG\"\"\"\"\"!
+\"\"#F%\"\"'F'\"#?\"\"$\"#q\"\"%\"$_#\"\"&-%\"OG6#F%F(" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 30 "verificam primii 40 de termeni" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "t
+psform(f, x, 41)-series(ms,x=0,41);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 0 
+{PARA 0 "" 0 "" {TEXT -1 44 "lec20 uic problema 3. Coeficientul binomi
+al " }{XPPEDIT 18 0 "MATRIX([[n+k], [k]]);" "6#-%'MATRIXG6#7$7#,&%\"nG
+\"\"\"%\"kGF*7#F+" }{TEXT -1 77 " poate fi definit ca fiind al k-lea c
+oeficient al dezvoltarii in serie a lui " }{XPPEDIT 18 0 "g(z) = 1/((1
+-z)^(n+1));" "6#/-%\"gG6#%\"zG*&\"\"\"F)),&F)F)F'!\"\",&%\"nGF)F)F)F,
+" }{TEXT -1 14 " in jurul lui " }{XPPEDIT 18 0 "z = 0;" "6#/%\"zG\"\"!
+" }{TEXT -1 55 ". Utilizati aceasta dezvoltare pentru a defini functia
+ " }{XPPEDIT 18 0 "b(k);" "6#-%\"bG6#%\"kG" }{TEXT -1 69 ", care retur
+neaza coeficientul binomial pentru variabila n. Deoarece " }{XPPEDIT 
+18 0 "b(k);" "6#-%\"bG6#%\"kG" }{TEXT -1 40 " returneaza o formula, pe
+ntru un anumit " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 12 ", utiliza
+ti " }{XPPEDIT 18 0 "b(k);" "6#-%\"bG6#%\"kG" }{TEXT -1 17 " pentru a \+
+defini " }{XPPEDIT 18 0 "c(n,k);" "6#-%\"cG6$%\"nG%\"kG" }{TEXT -1 60 
+" care returneaza o formula, cand este apelat ca in exemplul " }
+{XPPEDIT 18 0 "c(5,3);" "6#-%\"cG6$\"\"&\"\"$" }{TEXT -1 15 ". Compara
+ti cu " }{TEXT 0 13 "binomial(5,3)" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "g:=1/(1-z)^(n+1);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG*&\"\"\"F&),&F&F&%\"zG!\"\",
+&%\"nGF&F&F&F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "taylor(g,
+z=0);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#+1%\"zG\"\"\"\"\"!,&%\"nGF%F%
+F%F%,&*(\"\"#!\"\",&F(F,F%F,F%F(F%F%*$)F-F+F%F%F+,(*(F+F,F-F+F(F%F,**
+\"\"'F,F-F%F(F%,&F(F%F%F,F%F,*&,(*&#F%F+F%*$)F(F+F%F%F,*&#\"\"$F+F%F(F
+%F,F%F,F%F-F%F%F=,***F3F,F-F+F(F%F4F%F%*,\"#CF,F-F%F(F%F4F%,&F(F%F+F,F
+%F%**F+F,F6F%F-F%F(F%F,*&,**&#F%F3F%*$)F(F=F%F%F,F9F,*&#\"#6F3F%F(F%F,
+F%F,F%F-F%F%\"\"%,,*,FAF,F-F+F(F%F4F%FBF%F,*.\"$?\"F,F-F%F(F%F4F%FBF%,
+&F(F%F=F,F%F,*,F3F,F6F%F-F%F(F%F4F%F%**F+F,FEF%F-F%F(F%F,*&,,*&#F%FAF%
+*$)F(FMF%F%F,*&#\"\"&\"#7F%FHF%F,*&#\"#NFAF%F9F%F,*&#\"#DFhnF%F(F%F,F%
+F,F%F-F%F%Fgn-%\"OG6#F%F3" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#+/%\"zG\"\"\"\"\"!
+,&%\"nGF%F%F%F%,(*&#F%\"\"#F%*$)F(F,F%F%F%*&#\"\"$F,F%F(F%F%F%F%F,,**&
+#F%\"\"'F%*$)F(F1F%F%F%F-F%*&#\"#6F5F%F(F%F%F%F%F1,,*&#F%\"#CF%*$)F(\"
+\"%F%F%F%*&#\"\"&\"#7F%F6F%F%*&#\"#NF>F%F-F%F%*&#\"#DFEF%F(F%F%F%F%FA-
+%\"OG6#F%FD" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(powseri
+es);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#77%(composeG%(evalpowG%(invers
+eG%*multconstG%)multiplyG%)negativeG%'powaddG%'powcosG%*powcreateG%(po
+wdiffG%'powexpG%'powintG%'powlogG%(powpolyG%'powsinG%)powsolveG%(powsq
+rtG%)quotientG%*reversionG%)subtractG%(tpsformG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 32 "powcreate(f(k)=binomial(n+k,k));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "tpsform(f,z,5);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#+/%\"zG\"\"\"\"\"!,&%\"nGF%F%F%F%-%)binomialG6$,&F(F%
+\"\"#F%F-F--F*6$,&F(F%\"\"$F%F1F1-F*6$,&F(F%\"\"%F%F5F5-%\"OG6#F%\"\"&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#+/%\"zG\"\"\"\"\"!,&%\"nGF%F%F%F%,(*&#F%\"\"#F%
+*$)F(F,F%F%F%*&#\"\"$F,F%F(F%F%F%F%F,,**&#F%\"\"'F%*$)F(F1F%F%F%F-F%*&
+#\"#6F5F%F(F%F%F%F%F1,,*&#F%\"#CF%*$)F(\"\"%F%F%F%*&#\"\"&\"#7F%F6F%F%
+*&#\"#NF>F%F-F%F%*&#\"#DFEF%F(F%F%F%F%FA-%\"OG6#F%FD" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 40 "b:=k->coeftayl(taylor(g,z=0,k+1),z=0,k);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bGf*6#%\"kG6\"6$%)operatorG%&a
+rrowGF(-%)coeftaylG6%-%'taylorG6%%\"gG/%\"zG\"\"!,&9$\"\"\"F8F8F3F7F(F
+(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "b(1);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,&%\"nG\"\"\"F%F%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "b(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*(\"\"#!\"
+\",&%\"nGF&\"\"\"F&F%F(F)F&**\"\"'F&F'F)F(F),&F(F)F)F&F)F&*&,(*&#F)F%F
+)*$)F(F%F)F)F&*&#\"\"$F%F)F(F)F&F)F&F)F'F)F)" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+,**&#\"\"\"\"\"'F&*$)%\"nG\"\"$F&F&F&*$)F*\"\"#F&F&*&#\"#6F'F&F*F&F&F&
+F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "c:=(m,k)->eval(b(k),n
+=m);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cGf*6$%\"mG%\"kG6\"6$%)ope
+ratorG%&arrowGF)-%%evalG6$-%\"bG6#9%/%\"nG9$F)F)F)" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 7 "c(5,3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"#c" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "binomial(5+3,3);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#c" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{SECT 0 {PARA 0 "" 0 "" {TEXT -1 122 "lec20 uic
+ problema 4. Se considera expresia\n                                  \+
+                                            " }{XPPEDIT 18 0 "Limit(su
+m(x^i,i = 0 .. n),n = infinity);" "6#-%&LimitG6$-%$sumG6$)%\"xG%\"iG/F
++;\"\"!%\"nG/F/%)infinityG" }{TEXT -1 94 ".\n(a) Dati comenzile Maple \+
+pentru generarea acestei expresii. Atribuiti rezultatul variabilei " }
+{TEXT 0 6 "explim" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 41 "(b) \+
+Dati comanda Maple pentru a converti " }{TEXT 0 6 "explim" }{TEXT -1 
+22 " intr-o functie de x, " }{TEXT 0 6 "funlim" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 12 "(c)Evaluati " }{TEXT 0 6 "funlim" }{TEXT 
+-1 8 " pentru " }{XPPEDIT 18 0 "x = .3;" "6#/%\"xG-%&FloatG6$\"\"$!\"
+\"" }{TEXT -1 49 " si dati rezultatul cu o precizie de 20 de cifre." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "S
+olutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 
+"explim:=Limit(Sum(x^i,i=0..n),n=infinity);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%'explimG-%$SumG6$)%\"xG%\"iG/F*;\"\"!%)infinityG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "funlim:=unapply(explim,x);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'funlimGf*6#%\"xG6\"6$%)operatorG%
+&arrowGF(-%$SumG6$)9$%\"iG/F1;\"\"!%)infinityGF(F(F(" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 22 "evalf(funlim(0.3),20);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#$\"59dG9dG9dG9!#>" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "value(funlim(x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+,$*&\"\"\"F%,&%\"xGF%F%!\"\"F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 
+0 "" 0 "" {TEXT -1 44 "lec20 uic problema 5. Se considera expresia " }
+{XPPEDIT 18 0 "Sum((-1)^n*exp(beta*n)/(n^2),n = 1 .. infinity);" "6#-%
+$SumG6$*(),$\"\"\"!\"\"%\"nGF)-%$expG6#*&%%betaGF)F+F)F)*$)F+\"\"#F)F*
+/F+;F)%)infinityG" }{TEXT -1 125 ". Dati comenzile Maple\n(a) pentru a
+ calcula valoarea simbolica a sumei;\n(b) pentru a gasi o aproximare c
+u 15 zecimale pentru " }{XPPEDIT 18 0 "beta = -2;" "6#/%%betaG,$\"\"#!
+\"\"" }{TEXT -1 131 ";\n(c) pentru a defini o functie care returneaza \+
+o aproximatie numerica a sumei (cu precizia implicita), pentru orice v
+aloare a lui " }{XPPEDIT 18 0 "beta;" "6#%%betaG" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "So
+lutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 
+"suma:=Sum((-1)^n*exp(beta*n)/n^2,n=1..infinity);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%sumaG-%$SumG6$*()!\"\"%\"nG\"\"\"-%$expG6#*&%%betaGF
+,F+F,F,F+!\"#/F+;F,%)infinityG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "eval(%,beta=-2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$SumG6$*
+()!\"\"%\"nG\"\"\"-%$expG6#,$*&\"\"#F*F)F*F(F*F)!\"#/F);F*%)infinityG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%(polylogG6$\"\"#,$-%$expG6#!\"#!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "evalf(%,15);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#$!0CWr%[758!#:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "ff:=unapply(suma,beta);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#ffGf*6#%%betaG6\"6$%)operatorG%&arrowGF(-%$SumG6$*()!\"\"%\"n
+G\"\"\"-%$expG6#*&9$F3F2F3F3F2!\"#/F2;F3%)infinityGF(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "ff(-2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$SumG6$*()!\"\"%\"nG\"\"\"-%$expG6#,$*&\"\"#F*F)F*F(F
+*F)!\"#/F);F*%)infinityG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "
+evalf(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+Z[758!#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "ff(1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%$SumG6$*()!\"\"%\"nG\"\"\"-%$expG6#F)F*F)!\"#/F);F*%)infinityG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#$!+qgG1=!\"*" }}}{EXCHG {PARA 11 "" 1 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}}{MARK "4 2
+ 13 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 
+1 }

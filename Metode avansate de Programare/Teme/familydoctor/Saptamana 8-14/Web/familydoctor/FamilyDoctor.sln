@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyDoctorCommon", "FamilyDoctorCommon\FamilyDoctorCommon.csproj", "{69E52CF1-3443-4836-9E77-5AEE529CDE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyDoctorClient", "FamilyDoctorClient\FamilyDoctorClient.csproj", "{B529064D-212B-43C4-AA91-6BD15D1F7062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyDoctorServer", "FamilyDoctorServer\FamilyDoctorServer.csproj", "{17B06C61-4E84-4DDA-973C-8E7AF170E5B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B06C61-4E84-4DDA-973C-8E7AF170E5B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17B06C61-4E84-4DDA-973C-8E7AF170E5B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{17B06C61-4E84-4DDA-973C-8E7AF170E5B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{17B06C61-4E84-4DDA-973C-8E7AF170E5B3}.Release|x86.Build.0 = Release|Any CPU
+		{69E52CF1-3443-4836-9E77-5AEE529CDE3E}.Debug|x86.ActiveCfg = Debug|x86
+		{69E52CF1-3443-4836-9E77-5AEE529CDE3E}.Debug|x86.Build.0 = Debug|x86
+		{69E52CF1-3443-4836-9E77-5AEE529CDE3E}.Release|x86.ActiveCfg = Release|x86
+		{69E52CF1-3443-4836-9E77-5AEE529CDE3E}.Release|x86.Build.0 = Release|x86
+		{B529064D-212B-43C4-AA91-6BD15D1F7062}.Debug|x86.ActiveCfg = Debug|x86
+		{B529064D-212B-43C4-AA91-6BD15D1F7062}.Debug|x86.Build.0 = Debug|x86
+		{B529064D-212B-43C4-AA91-6BD15D1F7062}.Release|x86.ActiveCfg = Release|x86
+		{B529064D-212B-43C4-AA91-6BD15D1F7062}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

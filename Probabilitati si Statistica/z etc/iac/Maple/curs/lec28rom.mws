@@ -1,0 +1,505 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 
+1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 3 "" 0 "" {TEXT -1 25 "Algebra liniara in Maple \+
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }{TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "with(LinearAlgebra);" }
+}{PARA 12 "" 1 "" {XPPMATH 20 "6#7dr%#&xG%$AddG%(AdjointG%3BackwardSub
+stituteG%+BandMatrixG%&BasisG%-BezoutMatrixG%/BidiagonalFormG%-Bilinea
+rFormG%5CharacteristicMatrixG%9CharacteristicPolynomialG%'ColumnG%0Col
+umnDimensionG%0ColumnOperationG%,ColumnSpaceG%0CompanionMatrixG%0Condi
+tionNumberG%/ConstantMatrixG%/ConstantVectorG%%CopyG%2CreatePermutatio
+nG%-CrossProductG%-DeleteColumnG%*DeleteRowG%,DeterminantG%)DiagonalG%
+/DiagonalMatrixG%*DimensionG%+DimensionsG%+DotProductG%6EigenCondition
+NumbersG%,EigenvaluesG%-EigenvectorsG%&EqualG%2ForwardSubstituteG%.Fro
+beniusFormG%4GaussianEliminationG%2GenerateEquationsG%/GenerateMatrixG
+%(GenericG%2GetResultDataTypeG%/GetResultShapeG%5GivensRotationMatrixG
+%,GramSchmidtG%-HankelMatrixG%,HermiteFormG%3HermitianTransposeG%/Hess
+enbergFormG%.HilbertMatrixG%2HouseholderMatrixG%/IdentityMatrixG%2Inte
+rsectionBasisG%+IsDefiniteG%-IsOrthogonalG%*IsSimilarG%*IsUnitaryG%2Jo
+rdanBlockMatrixG%+JordanFormG%(LA_MainG%0LUDecompositionG%-LeastSquare
+sG%,LinearSolveG%$MapG%%Map2G%*MatrixAddG%2MatrixExponentialG%/MatrixF
+unctionG%.MatrixInverseG%5MatrixMatrixMultiplyG%+MatrixNormG%,MatrixPo
+werG%5MatrixScalarMultiplyG%5MatrixVectorMultiplyG%2MinimalPolynomialG
+%&MinorG%(ModularG%)MultiplyG%,NoUserValueG%%NormG%*NormalizeG%*NullSp
+aceG%3OuterProductMatrixG%*PermanentG%&PivotG%*PopovFormG%0QRDecomposi
+tionG%-RandomMatrixG%-RandomVectorG%%RankG%6RationalCanonicalFormG%6Re
+ducedRowEchelonFormG%$RowG%-RowDimensionG%-RowOperationG%)RowSpaceG%-S
+calarMatrixG%/ScalarMultiplyG%-ScalarVectorG%*SchurFormG%/SingularValu
+esG%*SmithFormG%8StronglyConnectedBlocksG%*SubMatrixG%*SubVectorG%)Sum
+BasisG%0SylvesterMatrixG%/ToeplitzMatrixG%&TraceG%*TransposeG%0Tridiag
+onalFormG%+UnitVectorG%2VandermondeMatrixG%*VectorAddG%,VectorAngleG%5
+VectorMatrixMultiplyG%+VectorNormG%5VectorScalarMultiplyG%+ZeroMatrixG
+%+ZeroVectorG%$ZipG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 148 "LinearAlg
+ebra este un pachet cuprinzator. Comparativ cu MATLAB, Maple are avant
+ajul de a permite operatii simbolice asupra vectorilor si matricelor.
+" }{MPLTEXT 1 0 0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 29 "1. Ecuati
+i liniare si matrice" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "A :=
+ RandomMatrix(3,3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'RTABLE
+G6%\"*_uKU\"-%'MATRIXG6#7%7%\"#F\"#**\"##*7%\"\")\"#H!#J7%\"#p\"#W\"#n
+%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "b := convert(R
+andomMatrix(3,1),Vector);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG-%'
+RTABLEG6%\"*KhTU\"-%'MATRIXG6#7%7#!#K7#!#u7#!\"%&%'VectorG6#%'columnG
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "Vom defini sistemul liniar " 
+}{XPPEDIT 18 0 "Ax = b;" "6#/%#AxG%\"bG" }{TEXT -1 28 ".  Alegem intai
+ variabilele:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "X := [seq(x[i],i=1..3)];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"XG7%&%\"xG6#\"\"\"&F'6#\"\"#&F'6#\"\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "eqs := GenerateEquations(A,X,b);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eqsG7%/,(*&\"#F\"\"\"&%\"xG6#F*F*F
+**&\"#**F*&F,6#\"\"#F*F**&\"##*F*&F,6#\"\"$F*F*!#K/,(*&\"\")F*F+F*F**&
+\"#HF*F0F*F**&\"#JF*F5F*!\"\"!#u/,(*&\"#pF*F+F*F**&\"#WF*F0F*F**&\"#nF
+*F5F*F*!\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 149 "Aceasta este vizi
+unea simbolica a unui sistem de ecuatii liniare. Pentru a lucra cu un \+
+sistem liniar, vom lucra de regula cu matricea coeficientilor " }
+{XPPEDIT 18 0 "A;" "6#%\"AG" }{TEXT -1 34 " si cu vectorul termenilor \+
+liberi " }{XPPEDIT 18 0 "b;" "6#%\"bG" }{TEXT -1 1 "." }{MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "AA,bb := GenerateMat
+rix(eqs,X);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>6$%#AAG%#bbG6$-%'RTABL
+EG6%\"*wvR$=-%'MATRIXG6#7%7%\"#F\"#**\"##*7%\"\")\"#H!#J7%\"#p\"#W\"#n
+%'MatrixG-F)6%\"*Kfp#=-F-6#7%7#!#K7#!#u7#!\"%&%'VectorG6#%'columnG" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "AA; bb;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'RTABLEG6%\"*wvR$=-%'MATRIXG6#7%7%\"#F\"#**\"##*7%\"
+\")\"#H!#J7%\"#p\"#W\"#n%'MatrixG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%'RTABLEG6%\"*Kfp#=-%'MATRIXG6#7%7#!#K7#!#u7#!\"%&%'VectorG6#%'columnG
+" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 38 "2. Aritmetica vectoriala si
+ matriciala" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "Am observat distinc
+tia intre tipul Vector si tipul Matrix:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "whattype(bb); whattype(AA);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#&%'VectorG6#%'columnG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 39 "mb := convert(bb,Matrix); whattype(mb);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#mbG-%'RTABLEG6%\"*SjV$=-%'MATRIXG6#7%7#!#K7#!#u7#!\"
+%%'MatrixG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'MatrixG" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 21 "Inca nu putem adauga " }{XPPEDIT 18 0 "AA
+;" "6#%#AAG" }{TEXT -1 4 " la " }{XPPEDIT 18 0 "mb;" "6#%#mbG" }{TEXT 
+-1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+7 "AA+mb; " }}{PARA 8 "" 1 "" {TEXT -1 41 "Error, (in rtable/Sum) inva
+lid arguments\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "MatrixAd
+d(AA,mb);" }}{PARA 8 "" 1 "" {TEXT -1 83 "Error, (in LinearAlgebra:-Ma
+trixAdd) matrix dimensions don't match: 3 x 3 vs 3 x 1\n" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 105 "Sunt doua erori; prima supaincarcarea lu
+i \"+\" nu functioneaza.  MatrixAdd detecteza dimensiuni ilegale.  " }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "B := Ra
+ndomMatrix(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"BG-%'RTABLEG6%\"
+*s:Q$=-%'MATRIXG6#7%7%\"#L\"#d!#w7%!#)*\"#F!#s7%!#x!#$*!\"#%'MatrixG" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "C := MatrixAdd(A,B);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"CG-%'RTABLEG6%\"*'*)zL=-%'MATRIXG6
+#7%7%\"#g\"$c\"\"#;7%!#!*\"#c!$.\"7%!\")!#\\\"#l%'MatrixG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "MatrixMatrixMultiply(A,mb);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*/FEU\"-%'MATRIXG6#7%7#!
+%e&)7#!%yA7#!%Kd%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+27 "MatrixVectorMultiply(A,bb);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'
+RTABLEG6%\"*%yaF=-%'MATRIXG6#7%7#!%e&)7#!%yA7#!%Kd&%'VectorG6#%'column
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "A+B;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%'RTABLEG6%\"*)3,M=-%'MATRIXG6#7%7%\"#g\"$c\"\"#;7%!
+#!*\"#c!$.\"7%!\")!#\\\"#l%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "A.bb;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%
+\"*cS3V\"-%'MATRIXG6#7%7#!%e&)7#!%yA7#!%Kd&%'VectorG6#%'columnG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 186 "Nota asupra dimensiunilor.  Daca \+
+inmultim o matrice  3-pe-3 cu o matrice 3-pe-1, vom obtine ca rezultat
+ o matrice 3-pe-1.  De notat ca un vector nu este convertit automat in
+tr-o matrice." }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 29 "3. Functii mat
+riceale de baza" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 99 "Pentru a determ
+ina daca o matrice este singulara sau nu, daca un sistem cu matricea c
+oeficientilor " }{XPPEDIT 18 0 "A;" "6#%\"AG" }{TEXT -1 47 " are o sol
+utie unica, vom calcula determinatul:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "Determinant(A);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#!'WsK" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "Pentru \+
+a rezolva sistemul " }{XPPEDIT 18 0 "Ax = b;" "6#/%#AxG%\"bG" }{TEXT 
+-1 29 " vom aplica descompunerea LU:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "P,L,U := LUDecomposition(A);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>6%%\"PG%\"LG%\"UG6%-%'RTABLEG6%\"*+fd
+$=-%'MATRIXG6#7%7%\"\"\"\"\"!F37%F3F2F37%F3F3F2%'MatrixG-F*6%\"*3wa$=-
+F.6#7%F17%#\"\")\"#FF2F37%#\"#B\"\"*\"$F'F2F6-F*6%\"*oIb$=-F.6#7%7%F@
+\"#**\"##*7%F3#!\"\"\"\"$#!%t:F@7%F3F3#\"'WsKFDF6" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 30 "MatrixMatrixMultiply(L,U) - A;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*#pbO=-%'MATRIXG6#7%7%\"\"!F,F,F+F
++%'MatrixG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Cu aceasta descompu
+nere LU  sistemul " }{XPPEDIT 18 0 "Ax = b;" "6#/%#AxG%\"bG" }{TEXT 
+-1 8 " devine " }{XPPEDIT 18 0 "LUx = b;" "6#/%$LUxG%\"bG" }{TEXT -1 
+6 ", sau " }{XPPEDIT 18 0 "L(Ux) = b;" "6#/-%\"LG6#%#UxG%\"bG" }{TEXT 
+-1 55 ".  Vom rezolva intai sistemul triunghiular inferior in " }
+{XPPEDIT 18 0 "y;" "6#%\"yG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "Ly = b;
+" "6#/%#LyG%\"bG" }{TEXT -1 9 " si apoi " }{XPPEDIT 18 0 "Ux = y;" "6#
+/%#UxG%\"yG" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 44 "y := ForwardSubstitute(L,b); # solve L*y = b" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG-%'RTABLEG6%\"*7Wh$=-%'MATRIXG
+6#7%7#!#K7##!%U<\"#F7##\"'yZO\"\"*&%'VectorG6#%'columnG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "sol := BackwardSubstitute(U,y); # s
+olve U*x = y" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$solG-%'RTABLEG6%\"*
+[Uk$=-%'MATRIXG6#7%7##!&2U&\"'AO;7##!'(f2#F07##\"'*Q#=F0&%'VectorG6#%'
+columnG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "MatrixVectorMult
+iply(A,sol); b; # verify if sol is a solution" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'RTABLEG6%\"*g'GG=-%'MATRIXG6#7%7#!#K7#!#u7#!\"%&%'Ve
+ctorG6#%'columnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*KhT
+U\"-%'MATRIXG6#7%7#!#K7#!#u7#!\"%&%'VectorG6#%'columnG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "fA := convert(A,float);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#fAG-%'RTABLEG6%\"*;?%G=-%'MATRIXG6#7%7%$
+\"#F\"\"!$\"#**F0$\"##*F07%$\"\")F0$\"#HF0$!#JF07%$\"#pF0$\"#WF0$\"#nF
+0%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "P,L,U := LUDe
+composition(fA);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>6%%\"PG%\"LG%\"UG
+6%-%'RTABLEG6%\"*)=BH=-%'MATRIXG6#7%7%\"\"!\"\"\"F27%F2F2F37%F3F2F2%'M
+atrixG-F*6%\"*gC\"H=-F.6#7%7%$\"#5!\"\"$F2F2FA7%$\"3tp3EyM/8R!#=F>FA7%
+$\"3[s]&)*G?%f6FE$\"3Op=:,X?AHFEF>F6-F*6%\"*%)f\"H=-F.6#7%7%$\"#pF2$\"
+#WF2$\"#nF27%FA$\"3A<_cp3Ey\")!#;$\"3A<_cp3EylFen7%FAFA$!3_nB[YR6*z&Fe
+nF6" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 149 "Daca intrarile sunt numer
+e in virgula flotanta, rezultatul arata chiar diferit. Pentru stabilit
+ate numerica, Maple a permutat prima si a treia linie." }{MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "y := ForwardSubstitu
+te(L,MatrixVectorMultiply(P,b));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"yG-%'RTABLEG6%\"*%[QH=-%'MATRIXG6#7%7#$!+++++u!\")7#$\"+u@l&\\#F07#$
+!+(e482$F0&%'VectorG6#%'columnG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 32 "nsol := BackwardSubstitute(U,y);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%%nsolG-%'RTABLEG6%\"*3***G=-%'MATRIXG6#7%7#$!3^ysYE'o'4:!#<7#$
+!3bH^MvgX37!#=7#$\"3MLoXT/<'H&F4&%'VectorG6#%'columnG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "MatrixVectorMultiply(A,nsol); b;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*[t1$=-%'MATRIXG6#7%7#$
+!3eN/8********R!#<7#$!3aGb()*******>$!#;7#$!#u\"\"!&%'VectorG6#%'colum
+nG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*KhTU\"-%'MATRIXG6
+#7%7#!#K7#!#u7#!\"%&%'VectorG6#%'columnG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 41 "Am obtinut solutia pana la o permutare..." }{MPLTEXT 1 0 
+0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 22 "4. Operatii vectoriale" 
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 64 "Vom incerca sa aplicam procedura
+ de ortogonalizare Gram-Schmidt:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 15 "GramSchmidt(A);" }}{PARA 8 "" 1 "" {TEXT 
+-1 220 "Error, (in LinearAlgebra:-GramSchmidt) invalid input: LinearAl
+gebra:-GramSchmidt expects its 1st argument, V, to be of type \{list(V
+ector), set(Vector)\} but received Matrix(3, 3, [[...],[...],[...]], d
+atatype = anything)\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "v \+
+:= seq(Column(A,i),i=1..ColumnDimension(A));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"vG6%-%'RTABLEG6%\"*wF5$=-%'MATRIXG6#7%7#\"#F7#\"\")
+7#\"#p&%'VectorG6#%'columnG-F'6%\"*O?7$=-F+6#7%7#\"#**7#\"#H7#\"#WF4-F
+'6%\"*Sq7$=-F+6#7%7#\"##*7#!#J7#\"#nF4" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 59 "Aplicam acum procedura Gram-Schmidt unei multimi de vecto
+ri" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "basis := GramSchmidt(
+\{v\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&basisG<%-%'RTABLEG6%\"*g
+;-$=-%'MATRIXG6#7%7#\"#F7#\"\")7#\"#p&%'VectorG6#%'columnG-F'6%\"*o#)>
+$=-F+6#7%7##\"'R%*Q\"%ab7##\"&pn&\"%xF7##!'`b;FAF4-F'6%\"*W#=K=-F+6#7%
+7##\"*c`iR&\")JFcM7##!+#*yjY=FR7##\"('>XHFRF4" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 68 "Colectia de vectori returnata este ortogonala. Verific
+am aceasta cu " }{TEXT 0 10 "DotProduct" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "Matrix(3,3,(i,j) -> DotProduct(basis[i],basis[j]));" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*)G^K=-%'MATRIXG6#7%7%
+\"%ab\"\"!F-7%F-#\")JFcMF,F-7%F-F-#\"-Obj)32\"F0%'MatrixG" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 109 "Vectorii sunt ortogonali, dar nu ortonor
+mali. Impartim fiecare vecor cu norma sa si facem din nou verificarea
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "ob:=map(x->x/Norm(x,2),
+basis);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#obG<%-%'RTABLEG6%\"*Geu$
+=-%'MATRIXG6#7%7#,$*(\"#F\"\"\"\"%ab!\"\"F3#F2\"\"#F27#,$*(\"\"%F2\"%x
+FF4F3F5F27#,$*(\"#pF2F3F4F3F5F2&%'VectorG6#%'columnG-F'6%\"*_))y$=-F+6
+#7%7#,$*(\"'R%*QF2\"-uzSh>>F4FNF5F27#,$*(\"&pn&F2\",()Rq!)f*F4FNF5F27#
+,$*(\"'`b;F2FNF4FNF5F4F@-F'6%\"*S%GQ=-F+6#7%7#,$*(\"%\\;F2\"-nTjRH7F4
+\"0>?tyiHP%F5F27#,$*(\"%VcF2F\\oF4F]oF5F47#,$*(\"\"*F2F\\oF4F]oF5F2F@
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "Matrix(3,3,(i,j) -> Dot
+Product(ob[i],ob[j]));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%
+\"*7l&Q=-%'MATRIXG6#7%7%\"\"\"\"\"!F-7%F-F,F-7%F-F-F,%'MatrixG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 98 "Ortogonalizarea Gram-Schmidt poate
+ fi folosita la determinarea unei descompuneri QR a unei matrice" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "Q,R:=QRDecomposition(A);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>6$%\"QG%\"RG6$-%'RTABLEG6%\"*gj)R=-%'
+MATRIXG6#7%7%,$*(\"#F\"\"\"\"%ab!\"\"F5#F4\"\"#F4,$*(\"'R%*QF4\"-uzSh>
+>F6F<F7F4,$*(\"%\\;F4\"-nTjRH7F6\"0>?tyiHP%F7F47%,$*(\"\"%F4\"%xFF6F5F
+7F4,$*(\"&pn&F4\",()Rq!)f*F6F<F7F4,$*(\"%VcF4F@F6FAF7F67%,$*(\"#pF4F5F
+6F5F7F4,$*(\"'`b;F4F<F6F<F7F6,$*(\"\"*F4F@F6FAF7F4%'MatrixG-F)6%\"*G1)
+R=-F-6#7%7%*$F5F7,$*(\"%TfF4F5F6F5F7F4,$*(\"%foF4F5F6F5F7F47%\"\"!,$*&
+F5F6F<F7F4,$*(\")fm@@F4F<F6F<F7F47%FboFbo,$*(\"##*F4\")JFcMF6FAF7F4FX
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 29 "Intro astfel de descompunere \+
+" }{XPPEDIT 18 0 "Q;" "6#%\"QG" }{TEXT -1 18 " este ortogonala, " }
+{XPPEDIT 18 0 "R;" "6#%\"RG" }{TEXT -1 31 " este triunghiulara superio
+r si" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "A=Q.R;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/-%'RTABLEG6%\"*_uKU\"-%'MATRIXG6#7%7%\"#F\"#**
+\"##*7%\"\")\"#H!#J7%\"#p\"#W\"#n%'MatrixG-F%6%\"*_S0%=F(F8" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 126 "In numerical analysis QR decompos
+ition is a numerically more stable alternative to solve linear systems
+ than LU decomposition." }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 29 "5. F
+orma normala Smith si SVD" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 224 "In \+
+mod obisnuit lucram cu matrice de numere reale, dar putem lucra si cu \+
+matrice de intregi. In teoria controlului matricele de polinoame apar \+
+frecvent ca modele. De exemplu, analogul discret al SVD este forma nor
+mala Smith." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 42 "S,U,V:=SmithForm(A, output=['S','U','V']);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>6%%\"SG%\"UG%\"VG6%-%'RTABLEG6%\"*[I:
+%=-%'MATRIXG6#7%7%\"\"\"\"\"!F37%F3F2F37%F3F3\"'WsK%'MatrixG-F*6%\"*CI
+;%=-F.6#7%7%\"\"$!#5F37%!$K(\"%0D!\"%7%\"%\\;!%Vc\"\"*F7-F*6%\"*OJd$=-
+F.6#7%7%F2!\"(!(bu,\"7%F3F2\"'n_97%F3F3F2F7" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 63 "Proprietatea formei normale Smith se verifica dupa cum \+
+urmeaza:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "S=U.A.V;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%'RTABLE
+G6%\"*[I:%=-%'MATRIXG6#7%7%\"\"\"\"\"!F.7%F.F-F.7%F.F.\"'WsK%'MatrixG-
+F%6%\"*SM>%=F(F2" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 41 "Pentru comple
+titudine vom ilustra cu SVD:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "U:='U': S:='S':" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "S,
+U,Vt := SingularValues(fA, output=['S','U','Vt']);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>6%%\"SG%\"UG%#VtG6%-%'RTABLEG6%\"*sj3%=-%'MATRIXG6#7
+%7#$\"3#GZa@!o_v;!#:7#$\"3&f9hK:')R%[!#;7#$\"3iN=`*=r>.%F8&%'VectorG6#
+%'columnG-F*6%\"*CPTU\"-F.6#7%7%$!3aKsNha[k!)!#=$!33gXM+wU?[FI$!3B$)G^
+c8bCMFI7%$!3Pv!oC[*H8;!#?$!3C`[&yjiNx&FI$\"3O\")>A#[2\\;)FI7%$!3`gS\\9
+2-8fFI$\"37^<I&f-,f'FI$\"3![mo>S/$[YFI%'MatrixG-F*6%\"*?'eC9-F.6#7%7%$
+!33o9$z:a`t$FI$!3&z&H`C%[0K'FI$!3w*H\"RSe`*y'FI7%$\"3A=;Jd&eou&FI$!3@%
+*H&>p)HAtFI$\"3O>&[4R*zaOFI7%$\"3'z)3b$fM:G(FI$\"3_rTJ/KlODFI$!3-ZK]mw
+YnjFIFgn" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "Intai trebuie sa elib
+eram variabilele " }{TEXT 0 1 "U" }{TEXT -1 4 " si " }{TEXT 0 1 "S" }
+{TEXT -1 16 " si sa utilizam " }{TEXT 0 2 "fA" }{TEXT -1 15 ", obtinut
+ prin " }{TEXT 0 20 "fA:=convert(A,float)" }{TEXT -1 49 ".  Apoi verif
+icam descompunerea dupa cum urmeaza:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "dS:=DiagonalMatrix(S);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#dSG-%'RTABLEG6%\"*7=F(>-%'MATRIXG6#7%7%$\"3#GZa@!o_v;!#:\"\"!
+F17%F1$\"3&f9hK:')R%[!#;F17%F1F1$\"3iN=`*=r>.%F5%'MatrixG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "U.dS.Vt;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'RTABLEG6%\"*CsI(>-%'MATRIXG6#7%7%$\"3E/++++++F!#;$\"
+3;(*************)*F.$\"3!H************>*F.7%$\"3IP++++++!)!#<$\"3O++++
++++HF.$!3#R++++++5$F.7%$\"3!H*************oF.$\"3U,++++++WF.$\"3E/++++
+++nF.%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 81 "In limita erorilor de rotunjire, r
+ezultatul ultimei comenzi coincide cu matricea " }{TEXT 0 1 "A" }
+{TEXT -1 1 "." }}}}{MARK "19 0 0" 0 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 
+}{PAGENUMBERS 0 1 2 33 1 1 }{RTABLE_HANDLES 142327452 142416132 
+183397576 182695932 183436340 183381572 183379896 142262704 182754784 
+183401088 143084056 183575900 183547608 183553068 183655692 183614412 
+183644248 182828660 182842016 182923188 182912460 182915984 182938484 
+182899908 183067348 183102776 183122036 183127040 183021660 183198268 
+183218244 183251288 183745828 183788852 183828440 183856512 183986360 
+183980628 184054052 184153048 184163024 183573136 184193440 184086372 
+142413724 142458620 197271812 197307224 }{RTABLE 
+M7R0
+I6RTABLE_SAVE/142327452X,%)anythingG6"6"[gl!"%!!!#*"$"$"#F"")"#p"#**"#H"#W"##*!
+#J"#nF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/142416132X*%)anythingG6"6"[gl!#%!!!"$"$!#K!#u!"%F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183397576X,%)anythingG6"6"[gl!"%!!!#*"$"$"#F"")"#p"#**"#H"#W"##*!
+#J"#nF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182695932X*%)anythingG6"6"[gl!#%!!!"$"$!#K!#u!"%F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183436340X,%)anythingG6"6"[gl!"%!!!#$"$""!#K!#u!"%F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183381572X,%)anythingG6"6"[gl!"%!!!#*"$"$"#L!#)*!#x"#d"#F!#$*!#w!
+#s!"#F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183379896X,%)anythingG6"6"[gl!"%!!!#*"$"$"#g!#!*!")"$c""#c!#\"#;!
+$.""#lF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/142262704X,%)anythingG6"6"[gl!"%!!!#$"$""!%e&)!%yA!%KdF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182754784X*%)anythingG6"6"[gl!#%!!!"$"$!%e&)!%yA!%KdF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183401088X,%)anythingG6"6"[gl!"%!!!#*"$"$"#g!#!*!")"$c""#c!#\"#;!
+$.""#lF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/143084056X*%)anythingG6"6"[gl!#%!!!"$"$!%e&)!%yA!%KdF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183575900X/%)anythingG6"6"[gl#"!!!!#*"$"$$$!"#$!!!!!!"#$!!!!!!"""
+!!!!!!F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183547608X,%)anythingG6#&%+triangularG6#%&lowerG6"[gl!")!!!#'"$"$
+"""#"")"#F#"#B""*F+"$F'F+F*
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183553068X,%)anythingG6"6"[gl!"%!!!#*"$"$"#F""!F("#**#!""""$F("##
+*#!%t:F'#"'WsK""*F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183655692X,%)anythingG6"6"[gl!"%!!!#*"$"$""!F'F'F'F'F'F'F'F'F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183614412X*%)anythingG6"6"[gl!#%!!!"$"$!#K#!%U<"#F#"'yZO""*F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183644248X*%)anythingG6"6"[gl!#%!!!"$"$#!&2U&"'AO;#!'(f2#F)#"'*Q#
+=F)F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182828660X*%)anythingG6"6"[gl!#%!!!"$"$!#K!#u!"%F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182842016X,%)anythingG6"6"[gl!"%!!!#*"$"$$"#F""!$"")F)$"#pF)$"#**
+F)$"#HF)$"#WF)$"##*F)$!#JF)$"#nF)F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182923188X/%)anythingG6"6"[gl#"!!!!#*"$"$"$!$"#!!!!!!"#$!!!!!!"""
+!!!!!!F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182912460X,%)anythingG6#&%+triangularG6$%&lowerG%%unitG6"[gl'"*!!
+!#$"$"$3FD90B21642C85913FBDAE6076B981DB3FD2B3BD671DE56AF+
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182915984X,%)anythingG6#&%+triangularG6#%&upperG6"[gl'"&!!!#'"$"$
+405140000000000040460000000000004054721642C8590B4050C000000000004050721642C8590
+BC04CFEDDA87198A8F*
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182938484X*%)anythingG6"6"[gl!#%!!!"$"$$!+++++u!")$"+u@l&\#F)$!+(
+e482$F)F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/182899908X*%)anythingG6"6"[gl'#%!!!"$"$BFF8279A4A279654BFBEEFBCDC
+39DA1C3FE0F29F71805116F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183067348X*%)anythingG6"6"[gl'#%!!!"$"$C00FFFFFFFE21F3BC03FFFFFFF
+FAA76CC052800000000000F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183102776X*%)anythingG6"6"[gl!#%!!!"$"$"#F"")"#pF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183122036X*%)anythingG6"6"[gl!#%!!!"$"$"#**"#H"#WF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183127040X*%)anythingG6"6"[gl!#%!!!"$"$"##*!#J"#nF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183021660X*%)anythingG6"6"[gl!#%!!!"$"$"#F"")"#pF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183198268X*%)anythingG6"6"[gl!#%!!!"$"$#"'R%*Q"%ab#"&pn&"%xF#!'`b
+;F)F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183218244X*%)anythingG6"6"[gl!#%!!!"$"$#"*c`iR&")JFcM#!+#*yjY=F)#
+"('>XHF)F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183251288X,%)anythingG6"6"[gl!"%!!!#*"$"$"%ab""!F(F(#")JFcMF'F(F(
+F(#"-Obj)32"F*F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183745828X*%)anythingG6"6"[gl!#%!!!"$"$,$*$"%ab#"""""##"#FF),$F(#
+""%"%xF,$F(#"#pF)F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183788852X*%)anythingG6"6"[gl!#%!!!"$"$,$*$"-uzSh>>#"""""##"'R%*Q
+F),$F(#"&pn&",()Rq!)f*,$F(#!'`b;F)F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183828440X*%)anythingG6"6"[gl!#%!!!"$"$,$*$"0>?tyiHP%#"""""##"%\;
+"-nTjRH7,$F(#!%VcF/,$F(#""*F/F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183856512X,%)anythingG6"6"[gl!"%!!!#*"$"$"""""!F(F(F'F(F(F(F'F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183986360X,%)anythingG6"6"[gl!"%!!!#*"$"$,$*$"%ab#"""""##"#FF),$F
+(#""%"%xF,$F(#"#pF),$*$"-uzSh>>F*#"'R%*QF8,$F7#"&pn&",()Rq!)f*,$F7#!'`b;F8,$*$"
+0>?tyiHP%F*#"%\;"-nTjRH7,$FC#!%VcFG,$FC#""*FGF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183980628X,%)anythingG6"6"[gl!"%!!!#*"$"$*$"%ab#"""""#""!F,,$F'#"
+%TfF(,$*$"-uzSh>>F)#F*F(F,,$F'#"%foF(,$F1#")fm@@F2,$*$"0>?tyiHP%F)#"##*")JFcMF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/184054052X,%)anythingG6"6"[gl!"%!!!#*"$"$"#F"")"#p"#**"#H"#W"##*!
+#J"#nF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/184153048X,%(integerG6"6"[gl!"%!!!#*"$"$"""""!F(F(F'F(F(F("'WsKF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/184163024X,%(integerG6"6"[gl!"%!!!#*"$"$""$!$K("%\;!#5"%0D!%Vc""!
+!"%""*F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/183573136X,%(integerG6"6"[gl!"%!!!#*"$"$"""""!F(!"(F'F(!(bu,""'n_
+9F'F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/184193440X,%)anythingG6"6"[gl!"%!!!#*"$"$"""""!F(F(F'F(F(F("'WsKF
+&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/184086372X*%)anythingG6"6"[gl'#%!!!"$"$4064F1AF8E6B4FC14048384D61
+F8AAD6404428EC51C3446BF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/142413724X,%)anythingG6"6"[gl'"%!!!#*"$"$BFE9CE6D2E71E8E3BF5A6EAB
+2103C0F4BFE2EBF2525DD507BFDED9C9E067C7B6BFE279B3D7E32E5B3FE5169CAF0D236DBFD5EAC
+8F1FE0CBB3FEA20B134A33AAA3FDDBFC82CB52C3EF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/142458620X,%)anythingG6"6"[gl'"%!!!#*"$"$BFD7E80116AEAD4D3FE263D3
+977ADA063FE74D087BCCC7A7BFE439CB13B3B0D9BFE76E6D55AB24333FD03C0D77D8778FBFE5B9F
+CDDDE66D13FD76405F87069DBBFE4603AC15319B5F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/197271812X,%)anythingG6#%)diagonalG6"[gl!"#!!!#$"$"$$"3#GZa@!o_v;
+!#:$"3&f9hK:')R%[!#;$"3iN=`*=r>.%F-F'
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/197307224X,%)anythingG6"6"[gl'"%!!!#*"$"$403B00000000000C40200000
+0000001540513FFFFFFFFFFB4058BFFFFFFFFFFE403D00000000000140460000000000024056FFF
+FFFFFFFFBC03F00000000000B4050C00000000003F&
+}
+

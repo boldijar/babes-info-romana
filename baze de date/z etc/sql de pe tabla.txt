@@ -1,0 +1,37 @@
+CREATE/ALTER PROCEDURE NumeProcedura
+	@var1 type
+AS
+	DECLARE @var1 type
+	SET @var1 value
+
+	
+	
+IF (condition)
+	---
+ELSE (IF)
+	---
+ELSE
+	---
+
+	
+WHILE condition
+
+__________
+Executarea procedurii:
+EXEC NumeProcedura param
+
+__________
+INSERT INTO NumeTabela(PersID, Nume, Prenume)
+	VALUES(2, "Pop", "Jon")
+	
+__________
+UPDATE NumeTabela
+SET
+	Nume = "Popescu"
+	Prenuma = "Jon"
+WHERE
+	PersID = 2
+	
+__________
+DELETE * FROM NumeTabela
+WHERE PersID = 3

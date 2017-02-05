@@ -1,0 +1,616 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 1 12 0 0 0 0 0 2 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 260 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 2 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 
+4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 8 2 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "
+Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" 
+-1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 
+1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 
+2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Title" -1 
+18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }3 1 0 
+0 12 12 1 0 1 0 2 2 19 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 22 "Variabile si atribuiri" }
+}}{SECT 1 {PARA 0 "" 0 "" {TEXT 256 2 "1." }{TEXT -1 115 " Presupunem \+
+ca avem o aproximatie a solutiei unei ecuatii si ca vrem sa o verifica
+m inainte de a rezolva ecuatia:\n " }{TEXT 0 64 " > restart;\n > equ :
+= x^2-2;\n > x :=1.4;\n > equ;\n > solve(equ);\n" }{TEXT -1 84 "Explic
+ati ce s-a intamplat rau. Care este comanda care trebuie executata ina
+inte de " }{TEXT 0 11 "solve(equ);" }{TEXT -1 49 " pentru a vedea solu
+tia exacta a acestei ecuatii." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "equ := x^2-2;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%$equG,&*$)%\"xG\"\"#\"\"\"F*F)!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "x :=1.4;\n" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"xG$\"#9!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 4 "equ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!\"%!\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(equ);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "x:='x';" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"xGF$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "
+solve(equ);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$*$\"\"##\"\"\"F$,$F#!\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "subs(x=1.4,equ);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$!\"%!\"#" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 258 2 "2." }{TEXT -1 35 " Se considera secventa \+
+de comenzi:\n" }{MPLTEXT 1 0 0 "" }{TEXT 0 2 "  " }{MPLTEXT 1 0 0 "" }
+{TEXT 0 6 "  > re" }{MPLTEXT 1 0 0 "" }{TEXT 0 35 "start;\n    > x := \+
+y;\n    > y:=x+1;\n" }{MPLTEXT 1 0 0 "" }{TEXT -1 122 "Maple va semnal
+a atribuire recursiva. Cum se poate modifica ultima instructiune pentr
+u a evita eroarea? Explicati solutia." }}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "x:='y';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"xG%\"yG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "y:='x'+1;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"yG,&%\"xG\"\"\"F'F'" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 257 37 "3. R
+ealizati urmatorul experiment \n  " }{TEXT 0 74 "  > restart; \n   > a
+ := b; a := 3; a; b; \n   > x := y; assign(x,3); x; y;\n" }{TEXT 259 
+23 "Comparati valoarea lui " }{TEXT 0 1 "a" }{TEXT 260 17 " cu valoare
+a lui " }{TEXT 0 1 "b" }{TEXT 261 10 " si a lui " }{TEXT 0 1 "x" }
+{TEXT 262 4 " cu " }{TEXT 0 1 "y" }{TEXT 263 67 ". Se observa vreo dif
+erenta? Descrieti diferenta intre efectul lui " }{TEXT 0 12 "assign(x,
+3);" }{TEXT 264 4 " si " }{TEXT 0 5 "x:=3;" }{TEXT 265 35 "\nConsultat
+i help-ul pentru assign (" }{MPLTEXT 1 0 0 "" }{TEXT 0 7 "?assign" }
+{TEXT 266 46 "). Va da o explicatie despre ce s-a intamplat?" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "a := b; \+
+a:=3; a; b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG%\"bG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"bG" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 24 "x:=y; assign(x,3); x; y;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"xG%\"yG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 39 "assign isi evalueaza argumentul x la y." }}}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT -1 30 "4. Explicat
+i diferenta dintre " }{TEXT 0 9 "f := sin;" }{TEXT -1 4 " si " }{TEXT 
+0 12 "alias(f=sin)" }{TEXT -1 109 ". Care este instructiunea de prefer
+at pentru a exprima in Maple propozitia matematica \"fie f functia sin
+us\"?." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "f:=sin;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG%$sin
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "f;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%$sinG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "f(P
+i);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 13 "alias(g=sin);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+2 "g;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"gG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%\"gG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "g(Pi
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 19 "about(f); about(g);" }}{PARA 6 "" 1 "" {TEXT -1 2 
+"g:" }}{PARA 6 "" 1 "" {TEXT -1 74 "  is assumed to be: AndProp(OddMap
+,Non(constant),InfinitelyDifferentiable)" }}{PARA 6 "" 1 "" {TEXT -1 
+0 "" }}{PARA 6 "" 1 "" {TEXT -1 2 "g:" }}{PARA 6 "" 1 "" {TEXT -1 74 "
+  is assumed to be: AndProp(OddMap,Non(constant),InfinitelyDifferentia
+ble)" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 8 "alias-ul" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 280 2 "5." }{TEXT 
+-1 124 " Aratati cum puteti evalua in virgula flotanta cu 3 cifre toat
+e variabilele pe care utilizatorul le-a asignat. Ilustrati cu " }
+{TEXT 0 34 "restart; a,b,c := Pi,exp(1),gamma;" }{TEXT -1 19 ". Trebui
+e utilizat " }{TEXT 0 6 "anames" }{TEXT -1 1 "." }}{SECT 1 {PARA 4 "" 
+0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "a,b,c:=Pi,exp(1),gamma;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>6%%\"aG%\"bG%\"cG6%%#PiG-%$expG6#\"\"\"%&gammaG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "anames();" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6(%*interfaceG%3type/interfaceargsG%$expG%\"bG%\"aG%\"c
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "xx:=[anames(user)]; y:
+=eval(xx,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#xxG7%%\"bG%\"aG%\"c
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG7%%\"bG%\"aG%\"cG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "for i from 1 to nops(xx) do \+
+eval(xx[i],1)=evalf(xx[i],3); od;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+-%$expG6#\"\"\"$\"$s#!\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%#PiG$\"
+$9$!\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%&gammaG$\"$x&!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 279 2 "6." }{TEXT -1 65 " Care este diferenta la utilizarea va
+riabilelor a si b in  in\n   " }{TEXT 0 44 "> a := 'a';   b := 'b';   \+
+a := b;   b := 10;" }{TEXT -1 7 "\nsi\n   " }{TEXT 0 44 "> a := 'a';  \+
+ b := 'b';   b := 10;   a := b;" }{TEXT -1 159 "\nSe poate adauga o at
+ribuire suplimentara la linia de mai jos astfel ca efectul global  al \+
+instructiunilor de mai jos sa fie la fel ca al celor de mai sus?\n   \+
+" }{TEXT 0 34 "> a := 'a';   b := 'b';   b := 10;" }{TEXT -1 1 "\n" }}
+{PARA 0 "" 0 "" {TEXT -1 55 "Dupa executarea primei secvente de comenz
+i, variabila  " }{TEXT 0 1 "a" }{TEXT -1 37 " se evalueaza la aceeasi \+
+valoare ca  " }{TEXT 0 1 "b" }{TEXT -1 34 ", indiferent ce i se atribu
+ie lui " }{TEXT 0 1 "b" }{TEXT -1 105 " dupa aceea pe parcursul sesiun
+ii Maple. Dupa executarea celeilate secvente, daca schimbam valoarea l
+ui  " }{TEXT 0 1 "b" }{TEXT -1 2 ", " }{TEXT 0 1 "a" }{TEXT -1 72 " co
+ntinua sa se evalueze la 10, because, deoarece in timpul atribuirii, \+
+" }{TEXT 0 1 "a" }{TEXT -1 45 " primeste valoare egala cu valoarea la \+
+care  " }{TEXT 0 1 "b" }{TEXT -1 29 " se evalueaza in acel moment." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 42 "a := 'a';   b := 'b';   a := b;   b := 10;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aGF$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"bGF$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG%\"bG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG\"#5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 5 "a, b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#5F#
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "b := 20;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"bG\"#?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 5 "a, b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#?F#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "a := 'a';   b := 'b';   b := 10;   \+
+a := b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aGF$" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"bGF$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG\"#
+5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"#5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 5 "a, b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#5F#
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "b := 20;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"bG\"#?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 5 "a, b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#5\"#?" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 39 "Atribuirea care se adauga ar putea fi  " 
+}{TEXT 0 8 "a := 'b'" }{TEXT -1 63 ". Efectul utilizarii apostrofurilo
+r este ca Maple nu evalueaza " }{TEXT 0 1 "b" }{TEXT -1 24 " la 10, ci
+ la variabila " }{TEXT 0 1 "b" }{TEXT -1 47 " insasi. Ori de cate ori \+
+schimbam valoarea lui " }{TEXT 0 1 "b" }{TEXT -1 2 ", " }{TEXT 0 1 "a
+" }{TEXT -1 38 " se va evalua automat la acea valoare." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "a := 'a';   b := 'b';   b := 10;   \+
+a := 'b';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aGF$" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"bGF$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG
+\"#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG%\"bG" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 5 "a, b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"#5F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "b := 20;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"bG\"#?" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "a, b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#?F#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 267 2 "7." }{TEXT -1 73 "  Explicati detaliat ce se intampla c
+and introduceti comenzile urmatoare\n" }{TEXT 0 96 "  > p := 'p' ; q :
+= 'q' ;\n  > 7 * 5 ;\n  > p = 10 ;\n  > q : 3 ;\n  > %%% ; %%% ; %%% ;
+\n  > p ; q ;" }}{PARA 0 "" 0 "" {TEXT 0 2 "  " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 21 "p := 'p' ; q := 'q' ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pGF
+$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qGF$" }}}{PARA 0 "" 0 "" 
+{TEXT -1 29 "Intai dezasignam variabilele " }{TEXT 0 1 "p" }{TEXT -1 
+4 " si " }{TEXT 0 1 "q" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "7 * 5 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#N" }}}
+{PARA 0 "" 0 "" {TEXT -1 36 "Maple afisaza rezultatul produsului " }
+{TEXT 0 8 "7*5 = 35" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "p = 10 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%\"pG\"#5
+" }}}{PARA 0 "" 0 "" {TEXT -1 20 "Mai sus, am scris o " }{TEXT 268 7 "
+ecuatie" }{TEXT -1 29 ", dar nu am atribuit 10 lui  " }{TEXT 0 1 "p" }
+{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "q : 3 ;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{PARA 0 "" 0 "" {TEXT -1 26 
+"Nu am afisat valoarea lui " }{TEXT 0 1 "q" }{TEXT -1 86 " (care nu ar
+e nici o valoare) datorita separatorului : si am afisat 3, rezultatul \+
+lui " }{TEXT 0 2 "3;" }{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "%%% ; %%% ; %%% ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/%\"pG\"#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"qG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"$" }}}{PARA 0 "" 0 "" {TEXT -1 59 "Maple afisaza \+
+rezultatul antepenultimei comenzi executate (" }{TEXT 20 6 "p = 10" }
+{TEXT -1 9 "). Apoi  " }{TEXT 0 4 "%%%;" }{TEXT -1 13 " returneaza  " 
+}{TEXT 20 1 "q" }{TEXT -1 28 ", si apoi din acelasi motiv " }{TEXT 20 
+1 "3" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "p ; q
+ ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"pG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%\"qG" }}}{PARA 0 "" 0 "" {TEXT -1 44 "In final, deoare
+ce nu am atribuit nimic lui " }{TEXT 0 1 "p" }{TEXT -1 4 " si " }
+{TEXT 0 1 "q" }{TEXT -1 36 ", Maple doar returneaza simbolurile " }
+{TEXT 20 1 "p" }{TEXT -1 4 " si " }{TEXT 20 1 "q" }{TEXT -1 1 "." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 269 2 "8." }{TEXT -1 44 " Explicati rezultatele comenzilor Map
+le:\n   " }{TEXT 0 4 "x*y;" }{TEXT -1 3 ",  " }{TEXT 0 4 "x.y;" }
+{TEXT -1 1 "," }{TEXT 0 5 " x||y" }{TEXT -1 4 " si " }{TEXT 0 4 "x\\y;
+" }{TEXT -1 2 ".\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "x*y;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#*&%\"xG\"\"\"%\"yGF%" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 22 "Produsul variabilelor " }{XPPEDIT 18 0 "x" "6#%\"xG" }
+{TEXT -1 4 " si " }{XPPEDIT 18 0 "y" "6#%\"yG" }{TEXT -1 1 "." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "x||y;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#xyG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "x\\y
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#xyG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 41 "Ambele expresii concateneaza variabilele " }{XPPEDIT 18 
+0 "x" "6#%\"xG" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "y" "6#%\"yG" }
+{TEXT -1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "x.y;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\".G6$%\"xG%\"yG" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 50 "Operatorul punct este necunoscut in acest context
+." }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 270 2 "9." }{TEXT -1 125 " Descri
+eti in detaliu diferenta dintre sesiunile Maple de mai jos (e.g., dese
+nand imagini ale structurilor de date interne).\n" }{TEXT 0 50 "  > a \+
+:= b;\n  > b := 3;\n  > a;\n  > b := 4;\n  > a;\n" }{TEXT -1 3 "si\n" 
+}{TEXT 0 50 "  > b := 3;\n  > a := b;\n  > a;\n  > b := 4;\n  > a;\n" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 7 "a := b;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"aG%\"bG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "b := 3;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG\"\"$" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 2 "a;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "b := 4;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"bG\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+2 "a;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{PARA 0 "" 0 "" 
+{TEXT -1 13 "Valoarea lui " }{TEXT 0 1 "a" }{TEXT -1 16 " este egala c
+u  " }{TEXT 0 1 "b" }{TEXT -1 4 " si " }{TEXT 0 1 "a" }{TEXT -1 30 " s
+e evalueaza la valoarea lui " }{TEXT 0 1 "b" }{TEXT -1 70 ". Urmatoare
+le doua instructiuni si rezultatele lor ilustreaza aceasta." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "eval(a,1), eval(b,1); # valorile lu
+i a si b" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"bG\"\"%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "eval(a,2); # evaluare pe doua nivel
+uri" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{PARA 0 "" 0 "" 
+{TEXT -1 28 "Acum schimbam valoarea lui  " }{TEXT 0 1 "b" }{TEXT -1 
+40 ". Deoarece nu am schimbat valoarea lui  " }{TEXT 0 1 "a" }{TEXT 
+-1 28 ", evaluarea completa a lui  " }{TEXT 0 1 "a" }{TEXT -1 38 " va \+
+returna rezultatul evaluarii lui  " }{TEXT 0 1 "b" }{TEXT -1 28 ", i.e
+., noua valoare a lui  " }{TEXT 0 1 "b" }{TEXT -1 1 "." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "b := 4;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"bG\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+2 "a;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "Discutam a doua sesiune, \+
+in care atribuirea  " }{TEXT 0 4 "b:=3" }{TEXT -1 27 " apare inaintea \+
+atribuirii " }{TEXT 0 4 "a:=b" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 7 "b := 3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG\"\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "a := b;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"aG\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+2 "a;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 14 "Valoarea lui  " }{TEXT 0 1 "a" }{TEXT -1 34 " este 3
+, deoarece, in atribuirea  " }{MPLTEXT 1 0 7 "a := b;" }{TEXT -1 96 ",
+  membrul drept se evalueaza intai la intregul 3. Verificam aceasta in
+ instructiunea urmatoare." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"
+\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "eval(a, 1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"aG" }}}{PARA 0 "" 0 "" {TEXT -1 29 
+"Daca schimbati valaorea lui  " }{TEXT 0 1 "b" }{TEXT -1 52 ", aceasta
+ nu are nici un efect asupra evaluarii lui " }{TEXT 0 1 "a" }{TEXT -1 
+125 " deoarece aceasta variabila se refera la intregul 3 si nu stie ni
+mic despre modul cum acesta s-a creat prin intermediul lui  " }{TEXT 
+0 1 "b" }{TEXT -1 1 ";" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "b :
+= 4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG\"\"%" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 2 "a;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "
+" 0 "" {TEXT 271 3 "10." }{TEXT -1 97 " Care vor fi rezultatele urmato
+arelor comenzi Maple? Verificati raspunsul executandu-le efectiv.\n" }
+{TEXT 0 75 "  > X1 := 5;  j := 1;\n  > X || j;\n  > 'X || j';\n  > 'X'
+ || j;\n  > `X || j`;" }{TEXT -1 1 "\n" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 
+"X1 := 5; j:=1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#X1G\"\"&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"jG\"\"\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 5 "X||j;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"&" }
+}}{PARA 0 "" 0 "" {TEXT -1 29 "Aceasta comanda concateneaza " }{TEXT 
+0 1 "X" }{TEXT -1 29 " cu rezultatul evaluarii lui " }{TEXT 0 1 "j" }
+{TEXT -1 12 ".  Deoarece " }{TEXT 0 1 "j" }{TEXT -1 70 " a primit valo
+area 1, Maple va afisa rezultatul evaluarii variabilei  " }{TEXT 0 2 "
+X1" }{TEXT -1 36 ", care anterior a primit valoarea 5." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "'X||j';" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#(%\"XG%\"jG" }}}{PARA 0 "" 0 "" {TEXT -1 58 "Deoarece e
+xpresia este intre apostrofuri, doar le elimina." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 7 "`X`||j;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+&" }}}{PARA 0 "" 0 "" {TEXT -1 80 "Apostrofurile stangi nu au nici un \+
+efect asupra evaluarii: comanda concateneaza " }{TEXT 0 1 "X" }{TEXT 
+-1 18 " cu evaluarea lui " }{TEXT 0 1 "j" }{TEXT -1 12 ".  Deoarece " 
+}{TEXT 0 1 "j" }{TEXT -1 69 " a primit valoarea 1, Maple afiseaza rezu
+ltatul evaluarii variabilei " }{TEXT 0 2 "X1" }{TEXT -1 36 ", care a p
+rimit anterior valoarea 5." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 
+"`X||j`;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%X|gr|grjG" }}}{PARA 0 "
+" 0 "" {TEXT -1 96 "Aici apostrofurile stangi desemneaza un nume ce co
+ntine caractere speciale (doua bare verticale)" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 275 3 "11." }
+{TEXT -1 28 " Presupunem ca variabilele  " }{TEXT 0 2 "v1" }{TEXT -1 
+2 ", " }{TEXT 0 2 "v2" }{TEXT -1 4 " si " }{TEXT 0 2 "v3" }{TEXT -1 
+63 " sunt legate. De ce nu le putem dezasigna prin ciclul urmator?\n" 
+}{TEXT 0 37 "   > for i to 3 do v||i := 'v||i' od:" }{TEXT -1 53 "\nGa
+siti doua moduri de a le dezasigna intr-un ciclu.\n" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "v1 := 1; v2 := 2; v3 := 3;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#v1G\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v2G
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v3G\"\"$" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 32 "for i to 3 do v||i := 'v||i' od;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v1G(%\"vG%\"iG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#v2G(%\"vG%\"iG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+#v3G(%\"vG%\"iG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "v1; v2; \+
+v3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v4G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#v4G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v4G" }}}
+{PARA 0 "" 0 "" {TEXT -1 37 "Cand Maple incearca sa atribuie lui  " }
+{TEXT 0 4 "v||i" }{TEXT -1 4 " pe " }{TEXT 0 6 "'v||i'" }{TEXT -1 145 
+", el realizeaza concatenarea din partea stanga a atribuirii. Partea d
+reapta contine apostrofuri care doar sunt inlaturate la evaluare. Deci
+, lui " }{TEXT 0 2 "v1" }{TEXT -1 2 ", " }{TEXT 0 2 "v2" }{TEXT -1 4 "
+ si " }{TEXT 0 2 "v3" }{TEXT -1 16 " li se atribuie " }{TEXT 0 4 "v||i
+" }{TEXT -1 23 ". Apoi, cand executati " }{TEXT 0 3 "v3;" }{TEXT -1 
+21 ", ea se evalueaza la " }{TEXT 0 2 "v4" }{TEXT -1 38 ", deoarece du
+pa ciclul for variabila  " }{TEXT 0 1 "i" }{TEXT -1 48 " are valoarea \+
+4 (condition de iesire din ciclu)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT 272 14 "Prima solutie:" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 26 "v1 := 1; v2 := 2; v3 := 3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+#v1G\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v2G\"\"#" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%#v3G\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 45 "for i to 3 do \n  v||i := evaln(v||i) \nend do;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v1GF$" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#v2GF$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v3GF$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "v1;\nv2;\nv3;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#v1G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v2G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v3G" }}}{PARA 15 "" 0 "" {TEXT 273 
+15 "A doua solutie:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restar
+t;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "v1 := 1; v2 := 2; v3 \+
+:= 3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v1G\"\"\"" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#v2G\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#
+v3G\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "for i to 3 do \+
+\n  v||i := cat(v,i)\nend do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v1
+GF$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v2GF$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#v3GF$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "
+v1;\nv2;\nv3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v1G" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%#v2G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v3G" }}
+}{PARA 0 "" 0 "" {TEXT 274 23 "Solutii alternative cu " }{TEXT 0 8 "un
+assign" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "v1 := 1; v2 := 2; v3 := 3;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v1G\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#v2G\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v3G\"
+\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "for i to 3 do \n  un
+assign(evaln(v||i))\nend do;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 11 "v1;\nv2;\nv3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v1G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%#v2G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v
+3G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "v1 := 1; v2 := 2; v3 := 3;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v1G\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#v2G\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v3G\"
+\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "for i to 3 do \n  un
+assign(cat(v,i))\nend do;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "v1;\nv2;\nv3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v1G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%#v2G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#v
+3G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 
+"" 0 "" {TEXT 276 3 "12." }{TEXT -1 50 " Explicati ce nu este bine in \+
+urmatoarele comenzi\n" }{TEXT 0 35 "     > gcd(x^2-1, x-1, x)\n     > \+
+x;" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 0 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 34 "Al treilea argument al procedurii " }
+{TEXT 0 3 "gcd" }{TEXT -1 121 " trebuie sa fie o variabila careia i se
+ va catul primului argument impartit la c.m.m.d.c. calculat. In cazul \+
+nostru, lui " }{TEXT 0 1 "x" }{TEXT -1 15 " i se atribuie " }{TEXT 0 
+3 "x+1" }{TEXT -1 53 ". Deci, se va ajunge la o definitie recursiva a \+
+lui  " }{TEXT 0 1 "x" }{TEXT -1 16 ". Cand executam " }{TEXT 0 2 "x;" 
+}{TEXT -1 80 ", va apare o evaluare recursiva infinita (pana cand Mapl
+e isi consuma memoria).\n" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 281 3 "13.
+" }{TEXT -1 112 " Examinati instructiunile urmatoare, incercati sa pre
+vedeti rezultatul si comparati-l cu cel returnat de Maple.\n" }{TEXT 
+0 5 "  > i" }{TEXT -1 0 "" }{TEXT 0 231 ":= 3:  x:= 4:\n  > sum( x^i, \+
+i=1..5 );\n  > sum( x^i, 'i'=1..5 );\n  > sum( 'x^i', 'i'=1..5 );\n  >
+ sum( 'x'^i, 'i'=1..5 );\n  > sum( x^'i', 'i'=1..5 );\n  > sum( 'x'^`i
+`, 'i'=1..5 );\n  > sum( `x^i`, 'i'=1..5 );\n  > 'sum( x^i, i=1..5 )';
+" }{TEXT -1 1 "\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "i := 3: x := 4:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "sum( x^i, i = 1..5);" }}
+{PARA 8 "" 1 "" {TEXT -1 96 "Error, (in sum) summation variable previo
+usly assigned, second argument evaluates to 3 = 1 .. 5\n" }}}{PARA 0 "
+" 0 "" {TEXT -1 59 "Maple da un mesaj de eroare, deoarece variabilei d
+e sumare " }{TEXT 0 1 "i" }{TEXT -1 132 " i s-a atribuit deja o valoar
+e (3). Deci, Maple evalueaza indicele de sumare la 3 si datorita acest
+ui fapt nu poate realiza sumarea." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "sum( x^i, 'i' = 1..5);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$?$" }}}{PARA 0 "" 0 "" {TEXT -1 94 "Maple realizeaza acum sum
+area, deoarece apostrofurile intarzie evaluarea variabilei de sumare \+
+" }{TEXT 0 1 "i" }{TEXT -1 15 ". Deoarece lui " }{TEXT 0 1 "x" }{TEXT 
+-1 39 " i s-a atribuit deja valoarea 4 si lui " }{TEXT 0 1 "i" }{TEXT 
+-1 33 " the valoarea 3, primul argument " }{TEXT 0 3 "x^i" }{TEXT -1 
+67 " se evalueaza la 64. Rezultatul inseamna suma a 5 de 64, adica 320
+." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "sum( 'x^i', 'i' = 1..5)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%k8" }}}{PARA 0 "" 0 "" {TEXT 
+-1 115 "Procesul de sumare are doi pasi distincti: in primul, Maple cr
+eaza expresia de insumat variind variabila de sumare " }{TEXT 0 1 "i" 
+}{TEXT -1 88 ". In acest caz, datorita intarzierii evaluarii cauzate d
+e apostrofuri,  returneaza suma " }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "x+x
+^2+x^3+x^4+x^5" "6#,,%\"xG\"\"\"*$F$\"\"#F%*$F$\"\"$F%*$F$\"\"%F%*$F$
+\"\"&F%" }{TEXT -1 19 ", fara a substitui " }{TEXT 0 1 "x" }{TEXT -1 
+123 " cu valoarea 4. Apoi, a doua parte consta in evaluarea expresiei \+
+intermediare si returnarea rezultatului acestei evaluari: " }{XPPEDIT 
+18 0 "4+4^2+4^3+4^4+4^5=1364" "6#/,,\"\"%\"\"\"*$F%\"\"#F&*$F%\"\"$F&*
+$F%F%F&*$F%\"\"&F&\"%k8" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "sum( 'x'^i, 'i' = 1..5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*&\"\"&\"\"\")%\"xG\"\"$F&F&" }}}{PARA 0 "" 0 "" 
+{TEXT -1 14 "Maple sumeaza " }{XPPEDIT 18 0 "x^3" "6#*$%\"xG\"\"$" }
+{TEXT -1 69 "  de 5 ori datorita apostrofurilor (primul argument se ev
+alueaza la  " }{XPPEDIT 18 0 "x^3" "6#*$%\"xG\"\"$" }{TEXT -1 39 " dat
+orita apostrofurilor in jurul lui  " }{XPPEDIT 18 0 "x" "6#%\"xG" }
+{TEXT -1 2 ")." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "sum( x^'i'
+, 'i' = 1..5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%k8" }}}{PARA 0 "
+" 0 "" {TEXT -1 17 "Maple insumeaza  " }{XPPEDIT 18 0 "4+4^2+4^3+4^4+4
+^5" "6#,,\"\"%\"\"\"*$F$\"\"#F%*$F$\"\"$F%*$F$F$F%*$F$\"\"&F%" }{TEXT 
+-1 40 " datorita apostrofurilor din jurul lui  " }{TEXT 0 1 "i" }
+{TEXT -1 20 " in primul argument." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "sum( 'x'^`i`, 'i' = 1..5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*&\"\"&\"\"\")%\"xG\"\"$F&F&" }}}{PARA 0 "" 0 "" 
+{TEXT -1 36 "Apostrofurile stangi din jurul lui  " }{TEXT 0 1 "i" }
+{TEXT -1 75 " din primul argument nu au nici un efect. Rezultatul este
+ la fel ca al lui " }{TEXT 0 23 "sum( 'x'^i, 'i'=1..5 );" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "sum( `x^i`, 'i' = 1..5);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"&\"\"\"%$x^iGF&F&" }}}{PARA 0 "" 0 "
+" {TEXT -1 22 "Maple sumeaza numele  " }{TEXT 0 3 "x^i" }{TEXT -1 81 "
+ de 5 ori, deoarece apostrofurile stangi marcheaza un nume cu caracter
+e speciale." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "'sum( x^i, i \+
+= 1..5)';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$sumG6$)%\"xG%\"iG/F(;
+\"\"\"\"\"&" }}}{PARA 0 "" 0 "" {TEXT -1 99 "Datorita apostrofurilor d
+in jurul expresiei, Maple doar elimina apostrofurile in pasul de evalu
+are." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 
+0 "" 0 "" {TEXT 277 3 "14." }{TEXT -1 33 " Transformati succesiv expre
+sia  " }{XPPEDIT 18 0 "a+b+c" "6#,(%\"aG\"\"\"%\"bGF%%\"cGF%" }{TEXT 
+-1 4 " in " }{XPPEDIT 18 0 "a*b*c" "6#*(%\"aG\"\"\"%\"bGF%%\"cGF%" }
+{TEXT -1 5 ", si " }{XPPEDIT 18 0 "[a,b,c]" "6#7%%\"aG%\"bG%\"cG" }
+{TEXT -1 2 ".\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "a+b+c;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,(%\"aG\"\"\"%\"bGF%%\"cGF%" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "convert(%, `*`);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*(%\"aG\"\"\"%\"bGF%%\"cGF%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "convert(%, list);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+7%%\"aG%\"bG%\"cG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "conver
+t(a+b+c,`*`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"aG\"\"\"%\"bGF%%
+\"cGF%" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 278 3 "15." }{TEXT -1 70 " U
+tilizati Maple pentru a gasi dezvoltarea in fractii continue a lui  " 
+}{XPPEDIT 18 0 "sqrt(2)" "6#-%%sqrtG6#\"\"#" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "e-1" "6#,&%\"eG\"\"\"F%!\"\"" }{TEXT -1 34 ", si respec
+tiv a sectiunii de aur " }{XPPEDIT 18 0 "(1+sqrt(5))/2" "6#*&,&\"\"\"F
+%-%%sqrtG6#\"\"&F%F%\"\"#!\"\"" }{TEXT -1 2 ".\n" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "with(numtheory):" }}{PARA 7 "" 1 "" {TEXT -1 69 "Warning, the \+
+protected name order has been redefined and unprotected\n" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "cfrac(sqrt(2));" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,&\"\"\"F$*&F$F$,&\"\"#F$*&F$F$,&F'F$*&F$F$,&F'F$*&F$
+F$,&F'F$*&F$F$,&F'F$*&F$F$,&F'F$*&F$F$,&F'F$*&F$F$,&F'F$*&F$F$,&F'F$*&
+F$F$,&F'F$%$...GF$!\"\"F$F;F$F;F$F;F$F;F$F;F$F;F$F;F$F;F$F;F$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "cfrac(exp(1)-1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,&\"\"\"F$*&F$F$,&F$F$*&F$F$,&\"\"#F$*&F$F$,
+&F$F$*&F$F$,&F$F$*&F$F$,&\"\"%F$*&F$F$,&F$F$*&F$F$,&F$F$*&F$F$,&\"\"'F
+$*&F$F$,&F$F$*&F$F$,&F$F$%$...GF$!\"\"F$F=F$F=F$F=F$F=F$F=F$F=F$F=F$F=
+F$F=F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "cfrac(exp(1)-1, 5
+0, 'quotients');    " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7V\"\"\"F$\"\"
+#F$F$\"\"%F$F$\"\"'F$F$\"\")F$F$\"#5F$F$\"#7F$F$\"#9F$F$\"#;F$F$\"#=F$
+F$\"#?F$F$\"#AF$F$\"#CF$F$\"#EF$F$\"#GF$F$\"#IF$F$\"#KF$F$\"#M%$...G" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "cfrac((1+sqrt(5))/2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"\"F$*&F$F$,&F$F$*&F$F$,&F$F$*&F$
+F$,&F$F$*&F$F$,&F$F$*&F$F$,&F$F$*&F$F$,&F$F$*&F$F$,&F$F$*&F$F$,&F$F$*&
+F$F$,&F$F$*&F$F$,&F$F$%$...GF$!\"\"F$F:F$F:F$F:F$F:F$F:F$F:F$F:F$F:F$F
+:F$" }}}{PARA 0 "" 0 "" {TEXT -1 161 "Structurile fractiilor continue \+
+de mai sus sunt evidente. De fapt, pentru primul si ultimul numar, Map
+le poate determina perioada dezvoltarii in fractii continue" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "cfrac(sqrt(2), 'periodic');" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"\"F$*&F$F$,&\"\"#F$*&F$F$,&F'F$%
+$...GF$!\"\"F$F+F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "cfrac
+(sqrt(2), 'periodic', 'quotients');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#7$7#\"\"\"7#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "cfrac
+((1+sqrt(5))/2, 'periodic');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"
+\"F$*&F$F$,&F$F$%$...GF$!\"\"F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 46 "cfrac((1+sqrt(5))/2, 'periodic', 'quotients');" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#7$7\"7#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 282 3 "16." }
+{TEXT -1 91 " Explicati diferenta intre variabilele Zeta si zeta. Ilus
+trati diferenta printr-un exemplu." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 11 "" 1 "" {XPPMATH 20 "6#%%ZetaG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 8 "Zeta(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*
+&\"\"'!\"\"%#PiG\"\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+8 "zeta(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%zetaG6#\"\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%%zetaG6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "about(zeta);" }}{PARA 6 "" 1 "" {TEXT -1 5 "zeta:" }}
+{PARA 6 "" 1 "" {TEXT -1 33 "  nothing known about this object" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "about(Zeta);" }}{PARA 6 "" 1 "" {TEXT -1 5 "Zeta:" }}{PARA 6 "" 
+1 "" {TEXT -1 63 "  is assumed to be: AndProp(Non(constant),OrProp(bin
+ary,unary))" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 62 "Zeta este functia lui Riemann, iar zeta este un nume (s
+imbol)." }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 283 3 "17." }{TEXT 287 28 
+" Explicati diferenta dintre " }{TEXT 0 20 "product(x||i,i=1..8)" }
+{TEXT 284 4 " si " }{TEXT 0 24 "product('x||i','i'=1..8)" }{TEXT 285 
+8 ". \nDati " }{TEXT 0 8 "restart;" }{TEXT 286 91 " si executati acest
+e comenzi Maple. \nExplicati cum interpreteaza Maple aceste doua comen
+zi." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+-1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "product(x||i,i=1..8); \n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)%
+#xiG\"\")\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "product(
+'x||i','i'=1..8);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*2%#x1G\"\"\"%#x2
+GF%%#x3GF%%#x4GF%%#x5GF%%#x6GF%%#x7GF%%#x8GF%" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 26 "Prima inmulteste simbolul " }{TEXT 0 2 "xi" }{TEXT -1 
+12 ", afisat ca " }{XPPEDIT 18 0 "xi;" "6#%#xiG" }{TEXT -1 25 ", cu el
+ insusi de 8 ori (" }{TEXT 0 1 "i" }{TEXT -1 38 " nu are valoare). A d
+oua concateneaza " }{TEXT 0 1 "x" }{TEXT -1 17 " cu valorile lui " }
+{TEXT 0 1 "i" }{TEXT -1 25 " si apoi face inmultirea." }}}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 288 3 "18." }{TEXT -1 48 " Desenati arborele de \+
+expresie pentru polinomul " }{XPPEDIT 18 0 "34+18*x^2-13*x*y;" "6#,(\"
+#M\"\"\"*&\"#=F%*$%\"xG\"\"#F%F%*(\"#8F%F)F%%\"yGF%!\"\"" }{TEXT -1 
+84 ". Dati comenzile Maple cu iesiri, pentru a justifica pozitia fieca
+rui nod in arbore." }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "pol:=34+18*x
+^2-13*x*y;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$polG,(\"#M\"\"\"*&\"#
+=F')%\"xG\"\"#F'F'*(\"#8F'F+F'%\"yGF'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "whattype(pol);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+\"+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "nops(pol);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "op(pol);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#M,$*&\"
+#=\"\"\")%\"xG\"\"#F'F',$*(\"#8F'F)F'%\"yGF'!\"\"" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 14 "op([2,1],pol);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#=" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "op([2,2],pol)
+; whattype(op(2,pol));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)%\"xG\"\"
+#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"*G" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 33 "op([2,2,1],pol); op([2,2,2],pol);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%\"xG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "op(3,pol);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,$*(\"#8\"\"\"%\"xGF&%\"yGF&!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "op([3,1],pol);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#!#8" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "op([3,2],pol);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"xG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "op([3,3],pol);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%\"yG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "dismantle(pol);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "
+" {TEXT -1 6 "SUM(7)" }}{PARA 6 "" 1 "" {TEXT -1 16 "   INTPOS(2): 34
+" }}{PARA 6 "" 1 "" {TEXT -1 15 "   INTPOS(2): 1" }}{PARA 6 "" 1 "" 
+{TEXT -1 10 "   PROD(3)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4):
+ x" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 2" }}{PARA 6 "" 1 
+"" {TEXT -1 16 "   INTPOS(2): 18" }}{PARA 6 "" 1 "" {TEXT -1 10 "   PR
+OD(5)" }}{PARA 6 "" 1 "" {TEXT -1 16 "      NAME(4): x" }}{PARA 6 "" 
+1 "" {TEXT -1 18 "      INTPOS(2): 1" }}{PARA 6 "" 1 "" {TEXT -1 16 " \+
+     NAME(4): y" }}{PARA 6 "" 1 "" {TEXT -1 18 "      INTPOS(2): 1" }}
+{PARA 6 "" 1 "" {TEXT -1 17 "   INTNEG(2): -13" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}
+{SECT 1 {PARA 0 "" 0 "" {TEXT 289 3 "19." }{TEXT -1 97 " Dati exact o \+
+comanda  Maple pentru a face expresia \n                              \+
+              " }{XPPEDIT 18 0 "sum(sin(x^i),i = 1 .. 20);" "6#-%$sumG
+6$-%$sinG6#)%\"xG%\"iG/F+;\"\"\"\"#?" }{TEXT -1 90 ", \nodata ca o sum
+a formala si o data ca suma de sinusuri. Raspunsul va fi o combinatie \+
+de " }{TEXT 0 3 "sum" }{TEXT -1 20 " in forma inerta si " }{TEXT 0 3 "
+sum" }{TEXT -1 8 " activa." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 
+{PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 44 "Sum(sin(x^i),i=1..20)=sum(sin(x^i),i=1..20)
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/-%$SumG6$-%$sinG6#)%\"xG%\"iG/F,
+;\"\"\"\"#?,J-F(6#F+F/-F(6#*$)F+\"\"#F/F/-F(6#*$)F+\"\"$F/F/-F(6#*$)F+
+\"\"%F/F/-F(6#*$)F+\"\"&F/F/-F(6#*$)F+\"\"'F/F/-F(6#*$)F+\"\"(F/F/-F(6
+#*$)F+\"\")F/F/-F(6#*$)F+\"\"*F/F/-F(6#*$)F+\"#5F/F/-F(6#*$)F+\"#6F/F/
+-F(6#*$)F+\"#7F/F/-F(6#*$)F+\"#8F/F/-F(6#*$)F+\"#9F/F/-F(6#*$)F+\"#:F/
+F/-F(6#*$)F+\"#;F/F/-F(6#*$)F+\"#<F/F/-F(6#*$)F+\"#=F/F/-F(6#*$)F+\"#>
+F/F/-F(6#*$)F+F0F/F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 293 2 "20" }{TEXT -1 86 ". Utilizati \+
+Maple pentru a converti 73 de grade Fahrenheit in grade Celsius si Kel
+vin." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+-1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 56 "convert(73, temperature, Fahrenheit, Celsius); evalf(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$0#\"\"*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+yxxxA!\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 55 "convert(73, temperature, Fahrenheit, kelvin); evalf(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"&nK&\"$!=" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+yxFfH!\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 3 "
+" 0 "" {TEXT -1 12 "Bibliografie" }}{PARA 0 "" 0 "" {TEXT -1 13 "[1] A
+. Heck. " }{TEXT 290 21 "Introduction to Maple" }{TEXT -1 38 ". Third \+
+edition. Springer-Verlag 2003." }}{PARA 0 "" 0 "" {TEXT -1 19 "[2] R. \+
+M. Corless. " }{TEXT 291 61 "Essential Maple 7. An introduction for Sc
+ientific Programmers" }{TEXT -1 24 ". Springer-Verlag, 2002." }}{PARA 
+0 "" 0 "" {TEXT -1 15 "[3] V. Anisiu. " }{TEXT 292 25 "Calcul simbolic
+ cu Maple." }{TEXT -1 47 " Presa Universitara Clujeana, Cluj-Napoca, 2
+007" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{MARK "7" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

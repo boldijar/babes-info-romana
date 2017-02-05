@@ -1,0 +1,8 @@
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\bin\Debug\FamilyDoctorTest.dll
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\bin\Debug\FamilyDoctorTest.pdb
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\bin\Debug\FamilyDoctor.exe
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\bin\Debug\FamilyDoctor.pdb
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\obj\Debug\FamilyDoctorTest.csprojResolveAssemblyReference.cache
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\obj\Debug\FamilyDoctorTest.dll
+C:\Users\mlend\Documents\Visual Studio 2015\Projects\FamilyDoctor\FamilyDoctorTest\obj\Debug\FamilyDoctorTest.pdb

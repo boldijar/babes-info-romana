@@ -1,0 +1,13 @@
+enable
+conf t
+router rip
+no auto-summery
+ver 2
+network 10.0.1.0
+network 10.0.2.0
+
+
+
+
+exit
+show ip route

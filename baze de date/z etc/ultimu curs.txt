@@ -1,0 +1,148 @@
+20  intrebari cu 4 rasp, 1 singur e bun     20%
+3   probleme                                30%
+    laborator/test                          50%
+
+Nota e media dintre nota scris si practic. Trebuie sa fie >= 5
+
+Cursuri - o zis ca alea in romana is mai importante (deci alea in engleza nu is >:) )
+    Curs 1  - Introducere in baze de date (engleza)
+    Curs 2  - Modelul relational
+    Curs 3  - Dependente functionale
+    Curs 4  - Forme normale
+    Curs 5  - Proiectarea bazelor de date
+    Curs 6  - Algebra Relationala
+    Curs 7  - Structura fizica a bazelor de date (engleza)
+    Curs 8  - Indecsi (engleza)
+    Curs 9  - Fisiere cu structura arborescenta
+    Curs 10 - Fisiere cu acces direct (engleza)
+    Curs 11 - Baze de date orientate-obiect (engleza)
+    Curs 12 - Probleme examen scris
+
+Rezultatul unei interogari este o multime de elemente
+    Daca una are order by, si alta nu, ele defapt is aceeasi interogare
+
+4.) Find the names of the actors who played Superman and Clark Kent in the same production of a movie
+
+SELECT DISTINCT Actors.Name
+FROM Actors
+    INNER JOIN Casting as C1
+        ON C1.ActorID = Actors.ID
+    INNER JOIN Casting as C2
+        ON C2.ActorID = Actors.ID
+WHERE   C1.Charac = 'Superman'
+    AND C2.Charac = 'Clark Kent'
+    AND C1.MovieID = C2.MovieID
+
+5.) Find the names of the actors who played two different characters in the same production of a movie
+Nu avem nici numele caracterului si nici cel al filmului
+
+SELECT DISTINCT Actors.Name
+FROM Actors
+    INNER JOIN Casting as C1
+        ON C1.ActorID = Actors.ID
+    INNER JOIN Casting as C2
+        ON C2.ActorID = Actors.ID
+WHERE   C1.Charac <> C2.Charac
+    AND C1.MovieID = C2.MovieID
+
+6.) Find the paris of names of the different actors who played the same character in different productions of the same movie
+
+SELECT  A1.Name, A2.Name
+FROM    Actors A1, Actors A2
+INNER JOIN  Casting C1
+    ON C1.ActorID = A1.ID
+INNER JOIN Movies M1
+    ON C1.MovieID = M1.ID
+INNER JOIN Casting C2
+    ON C2.ActorID = A2.ID
+INNER JOIN Movies M2
+    ON C2.MovieID = M2.ID
+WHERE   M1.Title = M2.Title
+    AND M1.Year <> M2.Year
+    AND C1.Charac = C2.Charac
+    AND A1.ID <> A2.ID
+
+Problema minora: Intotdeauna da numar par
+
+7.) Find the name of the actors who played in a movie with Victoria Abril and were born after she played her first movie
+
+SELECT Actors.Name FROM Actors
+WHERE Actors.ID
+    IN (    SELECT A1.ID FROM Actors A1, Actors A2
+            INNER JOIN Casting C1
+                ON C1.ActorID = A1.ID
+            INNER JOIN Casting C2
+                ON C2.ActorID = A2.ID
+            WHERE   A2.Name = 'Victoria Abril'
+                AND C2.MovieID = C1.MovieID
+                AND ...
+
+==========
+Suppliers   ([sid], sname, adress)
+Products    ([pid], pname, color)
+Catalog     ([sid, pid], cost)
+
+1.) Pi sname ( Pi sid ((Sigma color = 'red' Products) (x) (Sigma cost < 100 Catalog)) (x) Suppliers)
+
+Numele furnizorilor care distribuie produse rosii cu costul mai mic decat 100
+
+Sigma selecteaza
+Pi proiecteaza - ne da ca rezultat cateva din campuri/atribute (SELECT **NUME** FROM Students)
+
+(x) e un JOIN natural, un fel de INNER
+
+2.) Pi sname ( PI sid ((Sigma color = 'red' Products) (x) (Sigma cost < 100 Catalog ) (x) Suppliers))
+
+E gresita pt ca vrea sa ia din ea Numele, si nu e
+
+The RA statement does not return anything because of the sequence of projection operator. Once the sid is projected ...
+
+5.) (PI sid,pid Catalog) / PIpid Products
+
+(R1/R2 contains all x such that for every y in R2, there is an xy in R1)
+
+Furnizorii care distribuie toate produsele din baza de date
+Find the sids of suppliers who supply every product
+
+x e sid care se afla in combinatie cu y in toate ... posibil
+
+6.)
+p(Rp, Catalog), p(R2, Catalog)
+PI R1.pid ( ( SIGMA (R1.pid = R2.pid ^ R1.sid <> R2.sid) (R1 X R2) ) )
+
+Find pids of products that are supplied by at least two different suppliers
+
+===============
+
+Suppose that we have the following three tuples in a legal instance of a relation schema S with three attributes A, B, C listed in order:
+    (1,2,3)
+    (4,2,3)
+    (5,3,3)
+
+1.) Which of the following dependencies can you infer does not hold over shcema S?
+a.) A -> B
+b.) BC -> A
+c.) B -> C
+
+2.) Can you identify any dependencies that hold over S?
+
+
+=======
+
+1.) Find all keys of R
+
+F = {AB -> CDE; AC -> BDE; B -> C; C -> B; C -> D; B -> E}
+
+A+ = A
+B+ = BCED
+
+- it is not possible to deduce A from the other attributes => A belongs to keys
+
+AB+ = ABCDE - a candidate keys
+AC+ = ACBDE - a candidate keys
+AD+ = AD
+AE+ = AD
+AE+ = AR
+ADE+ = ADE
+
+

@@ -1,0 +1,8 @@
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/obj/x86/Debug/ClerkOffice.gtk-gui.gui.stetic
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/bin/Debug/ClerkOfficeCommon.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/bin/Debug/ClerkOfficeCommon.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/bin/Debug/ClerkOfficeClient.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/bin/Debug/ClerkOfficeClient.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/obj/x86/Debug/ClerkOfficeClient.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeClient/obj/x86/Debug/ClerkOfficeClient.exe.mdb

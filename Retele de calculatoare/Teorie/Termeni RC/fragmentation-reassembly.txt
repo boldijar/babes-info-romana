@@ -1,0 +1,9 @@
+Fragmentation/Reassembly
+
+* network links have MTU (max.transfer size) - largest possible link-level frame.
+* different link types, different MTUs 
+* large IP datagram divided (“fragmented”) within net
+* one datagram becomes several datagrams
+* “reassembled” only at final destination
+* IP header bits used to identify, order related fragments
+

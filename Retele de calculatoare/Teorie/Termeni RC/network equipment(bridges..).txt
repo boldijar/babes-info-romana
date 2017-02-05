@@ -1,0 +1,28 @@
+Network Adapters
+A network card, network adapter, LAN Adapter or NIC (network interface card) is a piece of computer hardware designed to allow computers to communicate over a computer network. It is both an OSI layer 1 (physical layer) and layer 2 (data link layer) device, as it provides physical access to a networking medium and provides a low-level addressing system through the use of MAC addresses. It allows users to connect to each other either by using cables or wirelessly.
+
+Every Ethernet network card has a unique 48-bit serial number called a MAC address, which is stored in ROM carried on the card. Every computer on an Ethernet network must have a card with a unique MAC address. No two cards ever manufactured share the same address. This is accomplished by the Institute of Electrical and Electronics Engineers (IEEE), which is responsible for assigning unique MAC addresses to the vendors of network interface controllers.
+
+HUBS
+A network hub or concentrator is a device for connecting multiple twisted pair or fiber optic Ethernet devices together, making them act as a single network segment. Hubs work at the physical layer (layer 1) of the OSI model, and the term layer 1 switch is often used interchangeably with hub. The device is thus a form of multiport repeater. Network hubs are also responsible for forwarding a jam signal to all ports if it detects a collision.
+Hubs also often come with a BNC and/or AUI connector to allow connection to legacy 10BASE2 or 10BASE5 network segments. The availability of low-priced network switches has largely rendered hubs obsolete but they are still seen in older installations and more specialized applications.
+
+A network hub or repeater, is a fairly unsophisticated broadcast device. Hubs do not manage any of the traffic that comes through them, and any packet entering any port is broadcast out on every other port (other than the port of entry). Since every packet is being sent out through every other port, packet collisions result--which greatly impedes the smooth flow of traffic.
+
+
+BRIDGES
+A network bridge connects multiple network segments at the data link layer (layer 2) of the OSI model, and the term layer 2 switch is often used interchangeably with bridge. Bridges are similar to repeaters or network hubs, devices that connect network segments at the physical layer, however a bridge works by using bridging where traffic from one network is managed rather than simply rebroadcast to adjacent network segments.
+
+Transparent bridging – This method uses a forwarding database to send frames across network segments. The forwarding database is initially empty and entries in the database are built as the bridge receives frames. If an address entry is not found in the forwarding database, the frame is rebroadcast to all ports of the bridge, forwarding the frame to all segments except the source address
+Source route bridging – With source route bridging two frame types are used in order to find the route to the destination network segment.
+The Spanning Tree Protocol is an OSI layer-2 protocol which ensures a loop free topology for any bridged LAN. Spanning tree allows a network design to include spare (redundant) links to provide automatic backup paths if an active link fails, without the danger of bridge loops, or the need for manual enabling/disabling of these backup links. Bridge loops must be avoided because they result in flooding the network.
+
+SWITCHES
+Switch = Bridge with many interfaces (> 4)
+Full duplex mode
+Dedicated Access – no collision
+
+A network switch is a small hardware device that joins multiple computers together within one local area network (LAN). Technically, network switches operate at layer two (Data Link Layer) of the OSI model. 
+Network switches appear nearly identical to network hubs, but a switch generally contains more "intelligence" (and a slightly higher price tag) than a hub. Unlike hubs, network switches are capable of inspecting data packets as they are received, determining the source and destination device of that packet, and forwarding it appropriately. By delivering each message only to the connected device it was intended for, a network switch conserves network bandwidth and offers generally better performance than a hub. 
+neither hubs nor switches are capable of joining multiple networks or sharing an Internet connection
+

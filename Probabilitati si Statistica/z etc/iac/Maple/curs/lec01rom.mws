@@ -1,0 +1,170 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 1 24 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 
+-1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple O
+utput" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 
+1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 265 31 "Introducere in Computer \+
+Algebra" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{SECT 0 {PARA 3 "" 0 "" {TEXT -1 29 "1.1 Ce este Computer Algebra?" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 284 "Algebra computationala (Computer \+
+algebra) este disciplina care studiaza algoritmi pentru calculul simbo
+lic (symbolic computation). In calculul simbolic se calculeaza cu simb
+oluri in loc de numere. Algebra computationala este o colectie de algo
+ritmi ce implementeaza calculul simbolic." }}}}{SECT 0 {PARA 3 "" 0 "
+" {TEXT -1 37 "1.2 Sisteme de algebra computationala" }}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 238 "Sistemele de CA se impart in generale si speci
+ale. Maple este un sistem general, conceput pentru a rezolva o mare va
+rietate de probleme. Un alt sistem general este Mathematica. Spre deos
+ebire de Maple si Mathematica care sunt comerciale, " }{TEXT 256 5 "Ax
+iom" }{TEXT -1 171 " este liber. Sistemele speciale au fost create pen
+tru a rezolva probleme dintr-o ramura specifica a matematicii, fizicii
+ sau tehnicii. Exemple: CoCoA, SINGULAR, Macaulay. " }{MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 253 "Sistemele CA sunt interactiv
+e si isi focalizeaza atentia pe exactitatea calculelor, sau cand aceas
+ta nu poate fi atinsa pe precizie inalta. Alte proprietati sunt facili
+tatile de manipulare a expresiilor, bogatia de algoritmi si facilitati
+le de grafica. " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "f := exp
+(-x^2)*sin(Pi*x^3): # suppress the output with a :" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 136 "Daca atribuim un grafic unei variabile, am putea
+ dori sa suprimam iesirea, daca suntem interesati numai de aspectul fi
+nal al graficului." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "save_plot := plot(f,x=-2..2):" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 51 "envelope_top := plot(exp(-x^2),x=-2..2,color=b
+lue):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "envelope_bottom :=
+ plot(-exp(-x^2),x=-2..2,color=blue):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 55 "plots[display](envelope_top,envelope_bottom,save_plot
+);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 297 "Scopul CA este de a automatiza calculele complicate (nu de a i
+nlocui rationamentele prin calcule). Maple asigura accesul la instrume
+nte matematice avansate. In loc sa implementeze tehnicile matematice i
+ntr-un limbaj de nivel scazut,  Maple ofera o interfata placuta, prin \+
+nucleul si biblioteca sa." }}{PARA 0 "" 0 "" {TEXT -1 187 "Vom vedea i
+n continuare cum se poate crea o foaie de lucru (worksheet). Cu oareca
+re efort si disciplina, aceste foi de lucru pot fi utilizate eficient \+
+si efectiv pentru a face matematica." }}{PARA 0 "" 0 "" {TEXT -1 237 "
+Uneori Maple trebuie asistat pentru a se ajunge la rezultate \"bune\".
+ O alta problema este \"expression swell\". Vom da un exemplu, de test
+are a unei teoreme fundamentale a calculului diferential: integrarea e
+ste operatia inversa derivarii." }}{PARA 0 "" 0 "" {TEXT -1 34 "Sa con
+sideram urmatoarele comenzi:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 22 "formula := (x^2+1)^25;" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 29 "integrand := diff(formula,x);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 27 "integral:=Int(integrand,x);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "answer := value(integral);" }{TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 161 "Rezultatul nu este chi
+ar cel asteptat. Se observa ca nu este nici un termen constant in expr
+esia de mai sus. O problema este si alegerea constantei de integrare.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "factor(answer+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+*$),&*$)%\"xG\"\"#\"\"\"F*F*F*\"#DF*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 222 "Exemplul de mai sus este o ilustrare a cresterii expresiilor i
+n raspunsurile intermediare ale calculului. Rezultatul integrarii poat
+e fi reprezentat printr-o formula compacta, cu alegerea corecta a cons
+tantei de integrare." }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 67 "1.3 Uti
+lizarea Maple in modurile foaie de lucru si linie de comanda" }}{PARA 
+0 "" 0 "" {TEXT -1 365 "In Maple 10 avem posibilitatea de a alege intr
+e foaia de lucru clasica (icon-ul portocaliu) si noua foaie de lucru s
+tandard. Foaia de lucru standard are o interfata grafica mai avansata,
+ se observa paletele, dar necesita mai multa memorie. Comparativ cu fo
+aia clasica, lansarea Maple cu foaia de lucru standard este vizibil ma
+i lenta pe cele mai multe calculatoare." }}{PARA 0 "" 0 "" {TEXT -1 
+302 "O facilitate noua a Maple 10 este modul document. Acesta da unei \+
+foi Maple aspectul unui document matematic pe hartie, dar permite acce
+sul la toate facilitatile matematice, astfel ca documentul este viu, c
+a un program pe calculator. In orice moment se poate comuta intre modu
+rile worksheet si document." }}{PARA 0 "" 0 "" {TEXT -1 413 "La partea
+ opusa este modul linie de comanda. De notat ca in acest mod este uneo
+ri necesar sa modificam variabila de mediu PATH. Acest mod linie de co
+manda ar pute fi foarte util cand rulam Maple pe un server aflat la di
+stanta, printr-o linie telefonica lenta si cand interfata grafica este
+ costisitor de utilizat. O alta aplicatie a acestui mod este rularea i
+n mod batch, care nu necesita interactiune utilizator." }}}{SECT 0 
+{PARA 3 "" 0 "" {TEXT -1 42 "1.4 Proiectarea Maple si a foilor de lucr
+u" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+211 "Maple consta din patru parti: nucleu (kernel), interfata, bibliot
+eca si biblioteca partajata. Biblioteca partajata colecteaza contribut
+iile utilizatorilor si este disponibila online la Maple Application Ce
+nter, " }{URLLINK 17 "http://www.mapleapps.com" 4 "http://www.mapleapp
+s.com" "" }{TEXT -1 173 ".  In timp ce din motive de eficienta cele ma
+i multe rutine ale nucleului sunt scrise in C, procedurile Maple sunt \+
+scrise in limbajul propriu al Maple si pot fi vizualizate." }{MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "interface(verbos
+eproc=3):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "print(gcd);" }
+}{PARA 12 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 30 
+"Unele rutine sunt predefinite:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "
+print(diff);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*6\"F$6$/%(builtinG%)
+appendtoG%)rememberGF$6\"F$F$F$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+58 "Codul comenzii  diff nu este accesibil pentru vizualizare." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 233 "Una dintre c
+ele mai puternice facilitati ale Maple este foaia de lucru (worksheet)
+. O foaie de lucru poate fi vazuta ca un document obisnuit, dar extins
+ cu faciltati de calcul, cu nivele de structurare sau cu referinte tip
+ hipertext." }}{PARA 0 "" 0 "" {TEXT 257 11 "Organizarea" }{TEXT -1 
+103 ": Vom organiza foile de lucru in sectiuni si subsectiuni, la fel \+
+ca pentru un raport tehnic. Cu meniul " }{TEXT 258 6 "Insert" }{TEXT 
+-1 52 " vom putea plasa antete de sectiune sau subsectiune." }}{PARA 
+0 "" 0 "" {TEXT -1 63 "Text si comenzi: Cand Maple asteapta o comanda \+
+apare prompterul" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "  #aste
+apta comanda" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 186 "Daca in loc de c
+omanda, dorim sa introducem un text, putem inlatura prompterul cu back
+space, sa selectam text din Toolbar, sa folosim Insert sau CTRL-T. Tex
+tele se pot formata cu meniul " }{TEXT 260 6 "Format" }{TEXT -1 1 "." 
+}}{PARA 0 "" 0 "" {TEXT 259 38 "Grupuri de executie (execution groups)
+" }{TEXT -1 227 ": La fel cum un paragraf este o colectie de propoziti
+i care trebuie citite si intelese in acelasi context, un grup de execu
+tie in Maple este o secventa de instructiuni executate ca un tot. Cu o
+ptiunile Split si Join din meniul " }{TEXT 261 4 "Edit" }{TEXT -1 43 "
+ putem sparge sau lipi grupuri de executie." }}{PARA 0 "" 0 "" {TEXT 
+262 19 "Ordinea de executie" }{TEXT -1 224 ": Cand incarcam o foaie de
+ lucru Maple in memorie (vezi optiunile din meniul File) foaia este co
+nsiderata ca un text obisnuit. Trebuie sa executam instructiunile (via
+ Execute din meniul Edit) pentru a da valori variabilelor." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 99 "Worksheet-urile v
+or urma regulile de buna igiena din [2, pag. 26-27]. Iata o scurta ada
+ptare a lor:" }}{PARA 0 "" 0 "" {TEXT -1 39 "1. Vom incepe intotdeauna
+ cu o comanda " }{MPLTEXT 1 0 7 "restart" }{TEXT -1 119 ". Cand se va \+
+executa o foaie intreaga vom avea garantia ca variabilele sunt libere \+
+de valorile sau setarile precedente." }}{PARA 0 "" 0 "" {TEXT -1 175 "
+2. Desi comenzile din foaie se pot executa in orice ordine, vom utiliz
+a ordinea stricta de sus in jos. Executia unei intregi foi este astfel
+ similara cu executia unui program." }}{PARA 0 "" 0 "" {TEXT -1 408 "3
+. Foaia va fi considerata ca o lucrare de cercetare si se vor utiliza \+
+titluri, sectiuni si subtitluri pentru a da o structura documentului s
+i ordinii de calcul. O structura tipica ar putea fi, de exemplu, deduc
+erea ecuatiilor ce guverneaza modelul matematic, o alegere adecvata a \+
+algoritmilor, rezultatele executiei algoritmilor pe diverse date, graf
+ice ce vizualizeaza rezultatele, incheierea cu concluzii." }}{PARA 0 "
+" 0 "" {TEXT -1 79 "4. Utilizati text pentru a explica ipotezele si sc
+opurile calculului d-voastra." }}{PARA 0 "" 0 "" {TEXT -1 84 "5. In lo
+c sa incarcati un intreg pachet in foaie, utilizati forma lunga, de ex
+emplu " }{MPLTEXT 1 0 19 "plots[display](...)" }{TEXT -1 26 " atunci c
+and doar comanda " }{MPLTEXT 1 0 7 "display" }{TEXT -1 14 " din pachet
+ul " }{MPLTEXT 1 0 5 "plots" }{TEXT -1 16 " este necesara. " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 12 "Bibli
+ografie" }}{PARA 0 "" 0 "" {TEXT -1 13 "[1] A. Heck. " }{TEXT 263 21 "
+Introduction to Maple" }{TEXT -1 38 ". Third edition. Springer-Verlag \+
+2003." }}{PARA 0 "" 0 "" {TEXT -1 19 "[2] R. M. Corless. " }{TEXT 264 
+61 "Essential Maple 7. An introduction for Scientific Programmers" }
+{TEXT -1 24 ". Springer-Verlag, 2002." }}{PARA 0 "" 0 "" {TEXT -1 15 "
+[3] V. Anisiu. " }{TEXT 266 25 "Calcul simbolic cu Maple." }{TEXT -1 
+47 " Presa Universitara Clujeana, Cluj-Napoca, 2007" }}}}{MARK "6 3 2
+" 47 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

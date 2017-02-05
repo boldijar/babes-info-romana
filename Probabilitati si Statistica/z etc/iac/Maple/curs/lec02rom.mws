@@ -1,0 +1,154 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 1 24 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 
+0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 270 34 "Lansarea Maple si sistem
+ul de help" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "restart; " }}}
+{SECT 0 {PARA 3 "" 0 "" {TEXT -1 11 "1. Lansarea" }}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 116 "La nivelul de baza introducem comenzi si Maple afis
+eaza rezultatul. Orice comanda introdusa trebuie terminata cu \";\"" }
+{MPLTEXT 1 0 1 " " }{TEXT -1 260 "sau \":\". Daca se tasteaza punct-vi
+rgula, rezultatul se afiseaza, iar daca se tasteaza doua puncte afisar
+ea se suprima. Maple este case-sensitive, adica este important daca se
+ introduce litera mare sau mica. Pentru inceput vom utiliza Maple ca p
+e un calculator." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "34^328;
+" }{TEXT -1 0 "" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"bjl'pLN,vE1Y`nXuh
+C'fN#R-W7kj:vJpWw=%yJ6L]H)\\9%*=_$[5-8&GykORZ4hOw@%Rp2VP4(31z)*pG&fNEY
+%[aPbtx=fFHN$)e#Rd0e1a:)pEG#p+;ZS#>R`%f2.![yeT))GN.h%*HVCBMiO![]vb\\)
+\\+!o0Yi%)R7#G\"fJ7L$>o&yuHpk+S$RN5=@NpZ-NqM*Q;'Hxsn'>UX(euKW(yM;\"\\
+\\JL#GEfQbhl_WJ`u'GTdA$o\"y%>Hnl!fMj_$HFsGng0m!R&Q5d9?q4?%)*3<!R6#" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 63 "Pentru a introduce numere, nume s
+au simboluri lungi folosim \"\\\"" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 5 "3421\\" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+4 "234;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(M7U$" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 48 "b := %; # atribuim ultimul rezultat variabi
+lei b" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG\"(M7U$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "a := %%%; # antepenultimul rezultat
+" }{TEXT -1 0 "" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"aG\"bjl'pLN,vE1
+Y`nXuhC'fN#R-W7kj:vJpWw=%yJ6L]H)\\9%*=_$[5-8&GykORZ4hOw@%Rp2VP4(31z)*p
+G&fNEY%[aPbtx=fFHN$)e#Rd0e1a:)pEG#p+;ZS#>R`%f2.![yeT))GN.h%*HVCBMiO![]
+vb\\)\\+!o0Yi%)R7#G\"fJ7L$>o&yuHpk+S$RN5=@NpZ-NqM*Q;'Hxsn'>UX(euKW(yM;
+\"\\\\JL#GEfQbhl_WJ`u'GTdA$o\"y%>Hnl!fMj_$HFsGng0m!R&Q5d9?q4?%)*3<!R6#
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "Cu " }{TEXT 261 1 "%" }{TEXT 
+-1 158 " obtinem ultimul rezultat, dar acesta este rezultatul ultimei \+
+comenzi executate, care nu este neaparat comanda situata imediat inain
+tea celei care utilizeaza " }{TEXT 262 1 "%" }{TEXT -1 78 ".  Ca regul
+a (pentru acest curs), vom executa intotdeauna foile de sus in jos." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "a;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#\"bjl'pLN,vE1Y`nXuhC'fN#R-W7kj:vJpWw=%
+yJ6L]H)\\9%*=_$[5-8&GykORZ4hOw@%Rp2VP4(31z)*pG&fNEY%[aPbtx=fFHN$)e#Rd0
+e1a:)pEG#p+;ZS#>R`%f2.![yeT))GN.h%*HVCBMiO![]vb\\)\\+!o0Yi%)R7#G\"fJ7L
+$>o&yuHpk+S$RN5=@NpZ-NqM*Q;'Hxsn'>UX(euKW(yM;\"\\\\JL#GEfQbhl_WJ`u'GTd
+A$o\"y%>Hnl!fMj_$HFsGng0m!R&Q5d9?q4?%)*3<!R6#" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "c := a+b;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"
+cG\"bjlI\\&p,vE1Y`nXuhC'fN#R-W7kj:vJpWw=%yJ6L]H)\\9%*=_$[5-8&GykORZ4hO
+w@%Rp2VP4(31z)*pG&fNEY%[aPbtx=fFHN$)e#Rd0e1a:)pEG#p+;ZS#>R`%f2.![yeT))
+GN.h%*HVCBMiO![]vb\\)\\+!o0Yi%)R7#G\"fJ7L$>o&yuHpk+S$RN5=@NpZ-NqM*Q;'H
+xsn'>UX(euKW(yM;\"\\\\JL#GEfQbhl_WJ`u'GTdA$o\"y%>Hnl!fMj_$HFsGng0m!R&Q
+5d9?q4?%)*3<!R6#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "a; b; c;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%\"aG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"bG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"cG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 8 "Comanda " }{TEXT 271 7 "restart" }{TEXT -1 40 " a sters to
+ate variabilele asociate lui " }{TEXT 263 1 "a" }{TEXT -1 2 ", " }
+{TEXT 264 1 "b" }{TEXT -1 4 " si " }{TEXT 265 1 "c" }{TEXT -1 50 ". Es
+te o buna practica de a incepe orice foaie cu " }{TEXT 266 7 "restart
+" }{TEXT -1 72 ", deoarece toate variabilele sunt partajate intre foil
+e de lucru. Daca  " }{TEXT 267 7 "restart" }{TEXT -1 55 " apare la inc
+eputul unei foi de lucru, atunci optiunea " }{TEXT 256 17 "Execute Wor
+ksheet" }{TEXT -1 12 " din meniul " }{TEXT 257 4 "Edit" }{TEXT -1 62 "
+ va sterge memoria inainte de a executa toate instructiunile. " }}
+{PARA 0 "" 0 "" {TEXT -1 282 "Desi Maple este un produs caruia ii plac
+e sa lucreze exact, numerele transcendente nu au nici o reprezentare n
+umerica finita. Deci, avem nevoie sa le aproximam. In Maple, putem luc
+ra cu aritmetica extinsa in virgula flotanta. De exemplu, pentru a obt
+ine primele 30 de cifre ale lui " }{XPPEDIT 18 0 "Pi;" "6#%#PiG" }
+{TEXT -1 14 ", putem tasta:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "evalf(Pi,30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?G$QVEYQKz*e`E
+fTJ!#H" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 93 "Totusi, uneori nu este \+
+bine sa ne grabim sa aproximam, deoarece Maple calculeaza cu simboluri
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "sin(%);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#$!+:w1-T!#>" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+16 "Din iesirea lui " }{TEXT 268 6 "sin(%)" }{TEXT -1 75 ", se poate o
+bserva ca pricizia implicita a Maple este de 10 cifre zecimale." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Pi30 :=
+ evalf(Pi,30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%Pi30G$\"?G$QVEYQK
+z*e`EfTJ!#H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "evalf(sin(Pi
+30),30); # evaluez sinus cu 30 de cifre zecimale" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$!?g]-zT*[i+1$G!e6(\\!#g" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 71 "Putem vedea ca este mai apropiata de zero decat cu zece c
+ifre zecimale." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "sin(Pi); #valoarea exacta" }}}}{SECT 0 {PARA 3 "" 0 "
+" {TEXT -1 19 "2. Sistemul de Help" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+56 "Maple are facilitati extensive de help. Exista un meniu " }{TEXT 
+258 4 "Help" }{TEXT -1 16 ", dar si comanda" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 7 "?help; " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 157 "Pr
+in intermediul Help Browser, putem selecta calea adecvata de la stanga
+ la dreapta, terminand intr-o frunza, care corespunde paginii de help \+
+a unei comenzi." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 103 "Modul cel mai
+ scurt de a obtine pagina de help a unei comenzi este tastand \"?\" ur
+mat de numele comenzii" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "?factor;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+39 "example(factor); # arata doar exemplele" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 44 "usage(factor); # arata doar sintaxa comenzii" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "related(factor); " }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Un alt instrument puternic de a ac
+cesa sistemul de help este prin optiunea " }{TEXT 260 12 "Topic Search
+" }{TEXT -1 12 " a meniului " }{TEXT 259 4 "Help" }{TEXT -1 213 ". Lan
+sati aceasta optiune si tipariti f in caseta Topic si veti vedea toate
+ comenzile care incep cu f. Selectand comanda dorita se ajunge la pagi
+na de help. Tastand mai multe litere se ingusteaza plaja de cautare." 
+}}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 19 "3. Biblioteca Maple" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 204 "Maple ofera o mare bogatie de cun
+ostinte matematice in biblioteca sa standard, prin intermediul diverse
+lor pachete si a bibliotecii partajate cu contributiile utilizatorilor
+. Pentru o trecere in revista: " }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 17 "?index, packages;" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 127 "Cu comanda \"with\" se incarca un pachet intr-o foaie \+
+de lucru Maple, ceea ce inseamna ca putem utiliza functii din acest pa
+chet." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"with(orthopoly);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7(%\"GG%\"HG%\"LG
+%\"PG%\"TG%\"UG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "T(4,x);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"\"F$*&\"\")F$)%\"xG\"\"%F$F$*&
+F&F$)F(\"\"#F$!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Dupa incar
+care, \"T\" inseamna polinom Cebisev." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 23 "Daca dorim sa utilizam " }{TEXT 269 1 "T" }{TEXT -1 61 " \+
+ca nume pentru o variabila, atunci putem utiliza forma lunga" }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "T(4,x);
+ orthopoly[T](4,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"\"F$*&\"
+\")F$)%\"xG\"\"%F$F$*&F&F$)F(\"\"#F$!\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(\"\"\"F$*&\"\")F$)%\"xG\"\"%F$F$*&F&F$)F(\"\"#F$!\"\"
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 46 "O varianta mai buna este sa u
+tilizam un alias:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "alias(cheby=orthopoly[T]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&chebyG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "
+cheby(4,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(\"\"\"F$*&\"\")F$)%\"
+xG\"\"%F$F$*&F&F$)F(\"\"#F$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}
+{MARK "4 14 0 0" 0 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

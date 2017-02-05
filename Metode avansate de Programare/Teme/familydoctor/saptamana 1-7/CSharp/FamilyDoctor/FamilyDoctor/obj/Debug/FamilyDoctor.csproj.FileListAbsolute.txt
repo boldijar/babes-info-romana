@@ -1,0 +1,6 @@
+c:\users\mlend\documents\visual studio 2015\Projects\FamilyDoctor\FamilyDoctor\bin\Debug\FamilyDoctor.exe.config
+c:\users\mlend\documents\visual studio 2015\Projects\FamilyDoctor\FamilyDoctor\bin\Debug\FamilyDoctor.exe
+c:\users\mlend\documents\visual studio 2015\Projects\FamilyDoctor\FamilyDoctor\bin\Debug\FamilyDoctor.pdb
+c:\users\mlend\documents\visual studio 2015\Projects\FamilyDoctor\FamilyDoctor\obj\Debug\FamilyDoctor.csprojResolveAssemblyReference.cache
+c:\users\mlend\documents\visual studio 2015\Projects\FamilyDoctor\FamilyDoctor\obj\Debug\FamilyDoctor.exe
+c:\users\mlend\documents\visual studio 2015\Projects\FamilyDoctor\FamilyDoctor\obj\Debug\FamilyDoctor.pdb

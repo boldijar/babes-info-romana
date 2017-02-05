@@ -1,0 +1,215 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" -1 20 "Times" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "_cstyle2" -1 201 "Courier" 1 12 255 0 0 1 2 1 2 2 1 2 0 0 0 
+1 }{CSTYLE "_cstyle1" -1 209 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 
+}{CSTYLE "_cstyle3" -1 210 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" 209 
+257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 209 258 "C
+ourier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 209 259 "Courier
+" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 2 0 2 0 
+2 2 0 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 
+255 1 2 2 2 2 2 1 1 1 1 1 }1 1 0 0 0 0 2 0 2 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 1 0 0 0 0 2 0 2 0 2 2 0 1 }{PSTYLE "Left Justified Maple Outp
+ut" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 
+}1 1 0 0 0 0 2 0 2 0 2 2 0 1 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 
+"" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }
+{PSTYLE "_pstyle1" -1 203 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 2 0 2 0 2 2 0 1 }{PSTYLE "_pstyle2" -1 
+206 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 
+0 0 8 4 2 0 2 0 2 2 0 1 }{PSTYLE "_pstyle5" -1 207 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 2 0 2 0 2 2 0 1 
+}}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 256 25 "ARRAY, TABLE si conversi
+i" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 8 "restart;" }}}{SECT 
+0 {PARA 206 "" 0 "" {TEXT 210 8 "1. Array" }}{EXCHG {PARA 203 "" 0 "" 
+{TEXT 209 405 "La fel ca alte limbaje de programare, Maple ofera tablo
+uri uni- si multidimensionale. Un tablou este o structura de date comp
+usa. Comparativ cu o lista, un tablou are lungime fixa. Vom utiliza o \+
+lista atunci cand nu stim dinainte de cate elemente este nevoie.  In a
+lgebra liniara, unde se lucreaza cu vectori si matrice, dimensiunile s
+e cunosc dinainte si deci este mai bine sa utilizam tablouri (arrays).
+" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 36 "A := array(0..1,1..
+2,[[a,b],[c,d]]);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"AGK%&ARRAYG6$
+7$;\"\"!\"\"\";F+\"\"#7&/6$F*F+%\"aG/6$F*F-%\"bG/6$F+F+%\"cG/6$F+F-%\"
+dGQ(pprint06\"" }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 111 "Am declarat
+ un tablou bidimensional (matrice), cu indicii de linii de la 0 to 1 s
+i cei de coloana de la 1 la 2." }}}{EXCHG {PARA 203 "> " 0 "" 
+{MPLTEXT 1 201 15 "A[0,1]; A[0,2];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%\"aG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"bG" }}}{EXCHG {PARA 203 "
+" 0 "" {TEXT 209 251 "Deoarece aceasta este o structura de baza, putem
+ alege propria indexare. Motivul de a nu continua utilizarea acestor t
+ablouri este dat de operatiile din algebra lineara.  Presupunem ca dor
+im sa calculam determinantul acestei matrice 2 pe 2, utilizand:" }}}
+{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 30 "LinearAlgebra[Determinan
+t](A);" }}{PARA 8 "" 1 "" {TEXT -1 154 "Error, (in LinearAlgebra:-Dete
+rminant) invalid input: LinearAlgebra:-Determinant expects its 1st arg
+ument, A, to be of type Matrix(square) but received A\n" }}}{EXCHG 
+{PARA 203 "> " 0 "" {MPLTEXT 1 201 23 "M := convert(A,Matrix);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG-%'RTABLEG6%\"*#*QJf\"-%'MATRIXG
+6#7$7$%\"aG%\"bG7$%\"cG%\"dG%'MatrixG" }}}{EXCHG {PARA 203 "> " 0 "" 
+{MPLTEXT 1 201 41 "M[1,1]; # remarcati diferenta la indexare" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%\"aG" }}}{EXCHG {PARA 203 "> " 0 "" 
+{MPLTEXT 1 201 32 "M1 := Matrix(2,2,[[a,b],[c,d]]);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#M1G-%'RTABLEG6%\"*'z74=-%'MATRIXG6#7$7$%\"aG%\"bG7
+$%\"cG%\"dG%'MatrixG" }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 240 "Daca \+
+declaram un obiect Matrix, ii putem specifica doar dimensiunile, nu si
+ domeniul de indexare.  Obiectele de tipul Matrix incep indexarea lini
+ilor si coloanelor cu 1. La conversia din array in Matrix, Maple conve
+rteste automat domeniile." }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 
+201 30 "LinearAlgebra[Determinant](M);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,&*&%\"aG\"\"\"%\"dGF&F&*&%\"bGF&%\"cGF&!\"\"" }}}{EXCHG {PARA 
+203 "" 0 "" {TEXT 209 34 "Putem defini matrice prin formule." }}}
+{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 25 "hf := (i,j) -> 1/(i+j-1)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#hfGf*6$%\"iG%\"jG6\"6$%)operat
+orG%&arrowGF)*&\"\"\"F.,(9$F.9%F.F.!\"\"F2F)F)F)" }}}{EXCHG {PARA 203 
+"" 0 "" {TEXT 209 8 "Functia " }{TEXT 0 2 "hf" }{TEXT 209 1 " " }
+{TEXT -1 19 "defineste matricea " }{TEXT 209 53 "Hilbert, spunandu-ne \+
+cine este elementul cu indicii (" }{XPPEDIT 18 0 "i,j;" "6$%\"iG%\"jG
+" }{TEXT 209 62 "). Acesta este un exemplu de asa-numita \"functie de \+
+indexare\"." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "#;" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 21 "
+h4 := Matrix(4,4,hf);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#h4G-%'RTAB
+LEG6%\"*7f+\"=-%'MATRIXG6#7&7&\"\"\"#F.\"\"##F.\"\"$#F.\"\"%7&F/F1F3#F
+.\"\"&7&F1F3F6#F.\"\"'7&F3F6F9#F.\"\"(%'MatrixG" }}}{EXCHG {PARA 203 "
+> " 0 "" {MPLTEXT 1 201 46 "hfdata := [seq([seq(hf(i,j),j=1..4)],i=1..
+4)];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'hfdataG7&7&\"\"\"#F'\"\"##F
+'\"\"$#F'\"\"%7&F(F*F,#F'\"\"&7&F*F,F/#F'\"\"'7&F,F/F2#F'\"\"(" }}}
+{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 31 "h4a := array(1..4,1..4,h
+fdata);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$h4aGK%'matrixG6#7&7&\"\"
+\"#F*\"\"##F*\"\"$#F*\"\"%7&F+F-F/#F*\"\"&7&F-F/F2#F*\"\"'7&F/F2F5#F*
+\"\"(Q(pprint06\"" }}}}{SECT 0 {PARA 206 "" 0 "" {TEXT 210 8 "2. Table
+" }}{EXCHG {PARA 203 "" 0 "" {TEXT 209 113 "Un obiect array este un ca
+z special de table. Am intalnit deja tabele in cazul procedurilor cu o
+ptiunea remember:" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 22 "di
+ff(exp(sin(a*x)),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(-%$cosG6#*&%
+\"aG\"\"\"%\"xGF)F)F(F)-%$expG6#-%$sinGF&F)" }}}{EXCHG {PARA 203 "> " 
+0 "" {MPLTEXT 1 201 22 "T := op(4,eval(diff));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"TGK%&TABLEG6#7%/6$*&%\"aG\"\"\"%\"xGF-F.F,/6$-%$exp
+G6#-%$sinG6#F+F.*(-%$cosGF6F-F,F-F1F-/6$F4F.*&F8F-F,F-Q(pprint06\"" }}
+}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 11 "indices(T);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%7$*&%\"aG\"\"\"%\"xGF&F'7$-%$expG6#-%$sinG6#
+F$F'7$F,F'" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 11 "entries(T
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7#%\"aG7#*(-%$cosG6#*&F$\"\"\"%
+\"xGF+F+F$F+-%$expG6#-%$sinGF)F+7#*&F'F+F$F+" }}}{EXCHG {PARA 203 "" 
+0 "" {TEXT 209 105 "Tabela remember (remember table) a unei proceduri \+
+Maple este indexata cu argumentele apelului de functie." }}}{EXCHG 
+{PARA 203 "" 0 "" {TEXT 209 85 "Intrarile (datele) sunt rezultatele pr
+ocedurilor Maple pentru indicii corespunzatori." }}}{EXCHG {PARA 203 "
+> " 0 "" {MPLTEXT 1 201 37 "T[a*x,x]; # cautare directa in tabele" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"aG" }}}{EXCHG {PARA 203 "" 0 "" 
+{TEXT 209 85 "Obiectele table se utilizeaza ca tabele de cautare, de e
+xemplu la conversii monetare." }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 
+1 201 44 "T[a*x,x] := b; # schimbarea tabelei remember" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>&%\"TG6$*&%\"aG\"\"\"%\"xGF)F*%\"bG" }}}{EXCHG 
+{PARA 203 "> " 0 "" {MPLTEXT 1 201 60 "diff(exp(sin(a*x)),x); # aceast
+a se reduce la cautare simpla" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(-%$
+cosG6#*&%\"aG\"\"\"%\"xGF)F)F(F)-%$expG6#-%$sinGF&F)" }}}{EXCHG {PARA 
+203 "> " 0 "" {MPLTEXT 1 201 72 "diff(a*x,x); # aici se poate vedea re
+zultatul modificarii remember table" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%\"bG" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 22 "diff(exp(cos(
+a*x)),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(-%$sinG6#*&%\"aG\"\"
+\"%\"xGF*F*%\"bGF*-%$expG6#-%$cosGF'F*!\"\"" }}}{EXCHG {PARA 203 "" 0 
+"" {TEXT 209 103 "Observati schimbarea in rezultate. Ultimul rezultat \+
+este eronat datorita atribuirii in tabela remember." }}}}{SECT 0 
+{PARA 206 "" 0 "" {TEXT 210 23 "3. Last Name Evaluation" }}{EXCHG 
+{PARA 203 "" 0 "" {TEXT 209 76 "Last name evaluation a devenit un pic \+
+depasita prin introducerea pachetului " }{TEXT 257 13 "LinearAlgebra" 
+}{TEXT 209 84 " incepand cu Maple 7.  Last name evaluation este releva
+nta la utilizarea pachetului " }{TEXT 258 6 "linalg" }{TEXT 209 11 " m
+ai vechi." }}}}{SECT 0 {PARA 206 "" 0 "" {TEXT 210 20 "4. Apelul de fu
+nctie" }}{EXCHG {PARA 203 "" 0 "" {TEXT 209 128 "Aceasta este o struct
+ura de date compusa care este probabil executia intarziata tipica din \+
+calculul simbolic.  Am intalnit deja " }{TEXT 0 6 "RootOf" }{TEXT 209 
+66 ".  Depinzand de tipul aplicatiei, putem calcula cu continutul lui \+
+" }{TEXT 0 6 "RootOf" }{TEXT 209 37 " simbolic (formal), sau putem apl
+ica " }{TEXT 0 5 "evalf" }{TEXT 209 51 " si sa lucram cu o aproximare \+
+numerica a radacinii." }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 
+19 "a := interval(3,5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG-%)in
+tervalG6$\"\"$\"\"&" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 12 "
+whattype(a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)functionG" }}}
+{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 26 "op(1,a); op(2,a); op(0,a
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)intervalG" }
+}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 104 "Utilizand apelul de functie \+
+ca un tip de date compus, utilizatorul poate defini aritmetica interva
+lelor." }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 62 "Un alt exemplu este \+
+reprezentarea polara a numerelor complexe." }}}{EXCHG {PARA 203 "> " 
+0 "" {MPLTEXT 1 201 19 "c := polar(3,Pi/3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"cG-%&polarG6$\"\"$,$*&F(!\"\"%#PiG\"\"\"F-" }}}
+{EXCHG {PARA 203 "" 0 "" {TEXT 209 10 "Variabila " }{TEXT 0 1 "c" }
+{TEXT 209 50 " este un numar complex cu modulul 3 si argumentul " }
+{XPPEDIT 18 0 "Pi/3;" "6#*&%#PiG\"\"\"\"\"$!\"\"" }{TEXT 209 1 "." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 203 "> " 0 "" 
+{MPLTEXT 1 201 60 "d := evalc(c); # reprezentare algebrica (carteziana
+) a lui c" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"dG,&#\"\"$\"\"#\"\"\"
+*&^#F&F)F'#F)F(F)" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 12 "wh
+attype(c);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)functionG" }}}{EXCHG 
+{PARA 203 "> " 0 "" {MPLTEXT 1 201 17 "convert(d,polar);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%&polarG6$\"\"$,$*&F&!\"\"%#PiG\"\"\"F+" }}}
+{EXCHG {PARA 203 "" 0 "" {TEXT 209 112 "In conversia reprezentarii alg
+ebrice a unui numar complex, Maple a calculat raza (sau modulul numaru
+lui complex " }{TEXT 0 1 "d" }{TEXT -1 1 ")" }{TEXT 209 16 " si  argum
+entul." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 203 "> \+
+" 0 "" {MPLTEXT 1 201 25 "interface(verboseproc=3);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 
+15 "print(convert);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*6\"F$6#/%(bui
+ltinG%(convertGF$F$F$F$F$" }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 8 "Fu
+nctia " }{TEXT 0 7 "convert" }{TEXT 209 67 " recunoaste tipul complex \+
+si converteste in reprezentarea polara.  " }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 
+{PARA 206 "" 0 "" {TEXT 210 12 "5. Conversii" }}{EXCHG {PARA 203 "" 0 
+"" {TEXT 209 107 "Putem converti -- asa cum am convertit listele si mu
+ltimile in secvente -- in matrice si tablouri de liste." }}}{EXCHG 
+{PARA 203 "> " 0 "" {MPLTEXT 1 201 14 "whattype(h4a);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%'symbolG" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 
+1 201 20 "whattype(eval(h4a));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&ar
+rayG" }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 25 "Putem forta evaluarea \+
+cu " }{TEXT 0 4 "eval" }{TEXT 209 2 ". " }{TEXT 0 3 "h4a" }{TEXT 209 
+33 " este doar un nume pentru tablou." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 22 "convert(h4a,listlis
+t);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&7&\"\"\"#F%\"\"##F%\"\"$#F%\"
+\"%7&F&F(F*#F%\"\"&7&F(F*F-#F%\"\"'7&F*F-F0#F%\"\"(" }}}{EXCHG {PARA 
+203 "> " 0 "" {MPLTEXT 1 201 12 "whattype(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%listG" }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 88 "Aces
+te conversii in listlist sunt utile pentru manipulari de nivel inferio
+r ale datelor." }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 167 "Ca aplicati
+e, presupunem ca dorim sa stim numarul de elemente diferite al matrice
+i Hilbert de ordinul 4.  Putem rezolva aceasta problema prin conversia
+ intr-o multime:" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 26 "l :
+= convert(h4,listlist);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"lG7&7&
+\"\"\"#F'\"\"##F'\"\"$#F'\"\"%7&F(F*F,#F'\"\"&7&F*F,F/#F'\"\"'7&F,F/F2
+#F'\"\"(" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 12 "s1 := op(l)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#s1G6&7&\"\"\"#F'\"\"##F'\"\"$#
+F'\"\"%7&F(F*F,#F'\"\"&7&F*F,F/#F'\"\"'7&F,F/F2#F'\"\"(" }}}{EXCHG 
+{PARA 203 "" 0 "" {TEXT 209 63 "Este necesar sa convertim acum listele
+ in secvente de secvente." }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 
+201 25 "s2 := map(t->op(t),[s1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%#s2G72\"\"\"#F&\"\"##F&\"\"$#F&\"\"%F'F)F+#F&\"\"&F)F+F-#F&\"\"'F+F-F
+/#F&\"\"(" }}}{EXCHG {PARA 203 "" 0 "" {TEXT 209 59 "Un mod mai scurt \+
+este de a evita prima conversie, deoarece " }{TEXT 0 3 "map" }{TEXT 
+209 25 " opereaza numai pe liste." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 22 "sl := map(t->op(t)
+,l);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#slG72\"\"\"#F&\"\"##F&\"\"$
+#F&\"\"%F'F)F+#F&\"\"&F)F+F-#F&\"\"'F+F-F/#F&\"\"(" }}}{EXCHG {PARA 
+203 "> " 0 "" {MPLTEXT 1 201 14 "s := \{op(sl)\};" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG<)\"\"\"#F&\"\"##F&\"\"$#F&\"\"%#F&\"\"&#F&\"\"'#
+F&\"\"(" }}}{EXCHG {PARA 203 "> " 0 "" {MPLTEXT 1 201 8 "nops(s);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"(" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 209 28 "Am convertit intai matricea " }{TEXT 0 2 "h4" }{TEXT 
+209 23 " intr-o lista de liste " }{TEXT 0 1 "l" }{TEXT 209 30 ".  Am a
+plicat apoi operatorul " }{TEXT 0 2 "op" }{TEXT 209 1 " " }{TEXT -1 
+25 "pentru a converti fiecare" }{TEXT 209 11 " lista din " }{TEXT 0 1 
+"l" }{TEXT 209 1 " " }{TEXT -1 34 "intr-o secventa, utilizand comanda
+" }{TEXT 209 1 " " }{TEXT 0 3 "map" }{TEXT 209 64 ".  Apoi convertim a
+ceasta lista intr-o multime printr-o comanda " }{TEXT 0 2 "op" }{TEXT 
+209 33 " delimitata de acolade.  Comanda " }{TEXT 259 4 "nops" }{TEXT 
+209 75 " pe o multime ne da elementele distincte din matricea Hilbert \+
+de ordinul 4." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 207 "" 0 "" {TEXT -1 0 "" }}}{MARK "2
+ 1 0 0" 121 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 
+1 1 }

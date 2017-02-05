@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>Cristian Sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs>
+      <string>csorescu_app1</string>
+      <string>csorescu_app2</string>
+    </AppointmentIDs>
+  </Patient>
+  <Patient>
+    <ID>rcioban</ID>
+    <Name>Radu Cioban</Name>
+    <Age>32</Age>
+    <AppointmentIDs>
+      <string>rcioban_app1</string>
+    </AppointmentIDs>
+  </Patient>
+</ArrayOfPatient>

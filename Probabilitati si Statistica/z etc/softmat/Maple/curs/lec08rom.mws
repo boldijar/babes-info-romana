@@ -1,0 +1,239 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+264 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "Courier" 0 
+1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "Courier" 0 1 255 
+0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "Courier" 0 1 255 0 0 1 
+0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" 
+-1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }
+1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" 
+-1 -1 "Courier" 1 10 64 128 64 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 
+1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Formate de intrare-iesire \+
+si fisiere" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 23 "1. Intrari-iesiri Maple" 
+}}{PARA 0 "" 0 "" {TEXT -1 128 "Maple scrie rezultatele in asa-numitul
+ format pretty-printing; daca comenzile se termina cu \":\" se suprima
+ afisarea. Cu comanda " }{TEXT 257 6 "lprint" }{TEXT -1 53 " se realiz
+eaza afisarea in format liniar. Modificand " }{TEXT 256 10 "printlevel
+" }{TEXT -1 34 " putem face Maple mai comunicativ." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "p := a*x^2 +
+ b*x + c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*&%\"aG\"\"\")%\"
+xG\"\"#F(F(*&%\"bGF(F*F(F(%\"cGF(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "sols := solve(p,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%%solsG6$,$*(\"\"#!\"\",&%\"bG\"\"\"*$,&*$)F+F(F,F,*(\"\"%F,%\"aGF,
+%\"cGF,F)#F,F(F)F,F3F)F),$*(F(F),&F+F,F-F,F,F3F)F)" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 61 "In anumite situatii, formatul liniar poate fi mai
+ convenabil:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "lprint(sols
+);" }}{PARA 6 "" 1 "" {TEXT -1 58 "-1/2*(b-(b^2-4*a*c)^(1/2))/a, -1/2*
+(b+(b^2-4*a*c)^(1/2))/a" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 170 "Forma
+tul liniar poate fi utilizat pentru a compacta iesirile mari produse d
+e Maple. Pentru a face ca Maple sa scrie totul in acest format, putem \+
+proceda in modul urmator:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+55 "interface(prettyprint=0); #valoarea 0 utilizeaza lprint" }}{PARA 
+6 "" 1 "" {TEXT -1 1 "3" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "
+p; sols;                  #imprimare liniara" }}{PARA 6 "" 1 "" {TEXT 
+-1 11 "a*x^2+b*x+c" }}{PARA 6 "" 1 "" {TEXT -1 58 "-1/2*(b-(b^2-4*a*c)
+^(1/2))/a, -1/2*(b+(b^2-4*a*c)^(1/2))/a" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 52 "interface(prettyprint=3); #reface valoarea implicita
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 49 "Putem realiza acelasi lucru prin conversia in sir" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "convert(sols[1],string);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#Q=-1/2*(b-(b^2-4*a*c)^(1/2))/a6\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "s1:=parse(%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%#s1G,$*(\"\"#!\"\",&%\"bG\"\"\"*$,&*$)F*F'F+F+
+*(\"\"%F+%\"aGF+%\"cGF+F(#F+F'F(F+F2F(F(" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 185 "Conversia datelor matematice in siruri de caractere este
+ un format util pentru o interfata umana lizibila intre diferite siste
+me de CA  sau cu alte programe ce permit intrari simbolice." }}{PARA 
+0 "" 0 "" {TEXT -1 61 "Daca sunteti curios sa vedeti detaliile interne
+ ale comenzii " }{TEXT 258 5 "solve" }{TEXT -1 40 " (sau ale altei com
+enzi) putem mpdifica " }{TEXT 259 10 "printlevel" }{TEXT -1 1 "." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "default_printlevel:=printlev
+el; #salvat pentru restaurare ulterioara" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%3default_printlevelG\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "printlevel:=5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+
+printlevelG\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(p
+,x);" }}{PARA 9 "" 1 "" {TEXT -1 39 "\{--> enter solve, args = a*x^2+b
+*x+c, x" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%2Variables_is_listG%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%,solve/splitG%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%4_SolutionsMayBeLostGF$" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"tG<\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"tG<\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#ROG<\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%%ArgsG7$,(*&%\"aG\"\"\")%\"xG\"\"#F)F)*&%\"bGF)F+F
+)F)%\"cGF)F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3solve/rec/rememberG
+F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*solve/recGf*6%%&oeqnsG%&ineqs
+G%%varsG63%%eqnsG%&eqns2G%'ineqs2G%&vars2G%\"zG%\"rG%#nvG%)subsforwG%)
+subsbackG%\"iG%&eqns1G%'ineqs1G%'labelsG%%indsG%&condsG%&tosubG%&nosub
+G6$%)rememberG%ipCopyright~(c)~1993~Gaston~Gonnet,~Wissenschaftliches~
+Rechnen,~ETH~Zurich.~All~rights~reserved.G6\"C(>8$-%'removeG6$f*6#%\"x
+GF?6$%)operatorG%&arrowGF?/-%&evalbG6#/9$\"\"!%%trueGF?F?F?FQ>83-%%sor
+tG6$7#-%#opG6#-%&unionG6$9&-%'indetsG6$-Fhn6$FB9%.%(indexedGf*6$%\"aG%
+\"bGF?FIF?2-%'lengthG6#F`o-Fio6#FQF?F?F?@(-%$hasG6$FB%%FAILGO7\"5/FB<
+\"/FB<#FRC$>6$8&82-%-selectremoveG6%%%typeGF`o.%#<>G@%5-%'memberG6$FS-
+%$mapG6$%'testeqG-Fjq6$,&%$lhsG\"\"\"%$rhsG!\"\"F\\q-Fgq6$%&falseG-Fjq
+6$%*coulditbeGF]qOFcpO7#Ffp4-Faq6$FU-.%%listG6#.%'symbolGC->8%FB>F\\qF
+`o>8'Fjn>8,-%,SimpleStackGF?>8+F^t>81-F\\o6$-Fhn6$FhsF\\q-.%(patfuncG6
+$.%*algebraicG.%)anythingG?&8(FUFSC$>84Ffr@$4-Faq6$FauFdsC$?&8)FctFS@$
+3-F_p6$-Fen6$FarF[vFau-%#isG6$-Fen6$FRF[v%*LinearMapG@%-Fgq6$FauFjnY6&
+Q)true,~%0F?QHcannot~solve~expressions~with~%1~for~%2F?F[vFau>FduFS@$4
+FduC%>8*-%-solve/newvarGF?-_Fat%%pushG6#/FauFdw-_F]tFiw6#/FdwFau>Fhs-%
+%subsG6$-Fen6#-_Fat%'toListGF?Fhs>F\\q-Fbx6$FdxF\\q>F[t-Fbx6$FdxF[tO-F
+bx6$-Fen6#-_F]tFhxF?-%+solve/rec2G6%FhsF\\qF[t>F[v-Fgy6%FBF`oFjn>&%3so
+lve/rec/rememberG6$8.8/FRF[vF?6%%4_SolutionsMayBeLostGF^z%0solve/ElimC
+ountGF?" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+_EnvFloatsG%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%A_EnvSimplifyRootOf_DoNotMultiplyG%%
+trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)TestzeroGf*6#%\"xG6\"6$%)o
+peratorG%&arrowGF(-%&evalbG6#/-%'normalG6#-_%+SolveToolsG%/CancelInver
+sesG6#9$\"\"!F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG7#<#/%\"x
+G-%'RootOfG6#,(*&%\"aG\"\"\")%#_ZG\"\"#F/F/*&%\"bGF/F1F/F/%\"cGF/" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG7#<#/%\"xG-%'RootOfG6#,(*&%\"aG
+\"\"\")%#_ZG\"\"#F/F/*&%\"bGF/F1F/F/%\"cGF/" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"rG7$<#/%\"xG,$*(\"\"#!\"\",&%\"bG\"\"\"*$,&*$)F.F+F
+/F/*(\"\"%F/%\"aGF/%\"cGF/F,#F/F+F,F/F6F,F,<#/F(,$*(F+F,,&F.F/F0F/F/F6
+F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG7$<#/%\"xG,$*(\"\"#!\"\"
+,&%\"bG\"\"\"*$,&*$)F.F+F/F/*(\"\"%F/%\"aGF/%\"cGF/F,#F/F+F,F/F6F,F,<#
+/F(,$*(F+F,,&F.F/F0F/F/F6F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"r
+G7$<#/%\"xG,$*(\"\"#!\"\",&%\"bG\"\"\"*$,&*$)F.F+F/F/*(\"\"%F/%\"aGF/%
+\"cGF/F,#F/F+F,F/F6F,F,<#/F(,$*(F+F,,&F.F/F0F/F/F6F,F," }}{PARA 9 "" 
+1 "" {TEXT -1 95 "<-- exit solve (now at top level) = -1/2*(b-(b^2-4*a
+*c)^(1/2))/a, -1/2*(b+(b^2-4*a*c)^(1/2))/a\}" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$,$*(\"\"#!\"\",&%\"bG\"\"\"*$,&*$)F(F%F)F)*(\"\"%F)%\"a
+GF)%\"cGF)F&#F)F%F&F)F0F&F&,$*(F%F&,&F(F)F*F)F)F0F&F&" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 73 "Modificarea printlevel este foarte utila \+
+la depanarea procedurilor Maple." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "printlevel:=default_printlevel;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%+printlevelG\"\"\"" }}}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT -1 22 "2. Exportul imaginilor" }}{PARA 0 "" 0 "" {TEXT -1 92 "Da
+ca dorim sa listam o imagine la imprimanta sau sa o includem intr-un d
+ocument, vom folosi " }{TEXT 260 9 "plotsetup" }{TEXT -1 1 "." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "plotsetup(ps,plotoutput=`plo
+t.ps`,plotoptions=`portrait,noborder`);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "plot(x^2,x=-1..1);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 48 "plotsetup(default); #revine la setarea implicita" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "
+" {TEXT -1 33 "3. Citirea si scrierea fisierelor" }}{PARA 0 "" 0 "" 
+{TEXT -1 146 "Dorim uneori sa utilizam proceduri Maple si date importa
+nte in mai multe worksheet-uri. Vom ilustra intai cum se pot salva dat
+ele din sectiunea 1." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "save
+ p, sols, \"C:\\\\Users\\\\Radu\\\\myfile\";" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 65 "p := 'p': sols := 'sols': #sterge datele pentru \+
+a testa regasirea" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "p; sols
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"pG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%solsG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "r
+ead \"C:\\\\Users\\\\Radu\\\\myfile\":" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "p; sols;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&%\"aG
+\"\"\")%\"xG\"\"#F&F&*&%\"bGF&F(F&F&%\"cGF&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$,$*(\"\"#!\"\",&%\"bG\"\"\"*$,&*$)F(F%F)F)*(\"\"%F)%\"a
+GF)%\"cGF)F&#F)F%F&F)F0F&F&,$*(F%F&,&F(F)F*F)F)F0F&F&" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 17 "O alternativa la " }{TEXT 261 4 "save" }
+{TEXT -1 51 " este de a redirecta iesirea Maple intr-un fisier: " }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "writeto(\"C:\\\\Users\\\\Rad
+u\\\\myfile\");" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "p;      \+
+                            #scrie p in fisier" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 64 "writeto(terminal);                  #revine la
+ scrierea pe ecran" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Putem adaug
+a la un fisier cu comanda " }{TEXT 262 8 "appendto" }{TEXT -1 129 ". A
+ceasta este iesirea Maple asa cum apare pe ecran. Acest format este ma
+i potrivit pentru tiparire si nu pentru procesare Maple." }}{PARA 0 "
+" 0 "" {TEXT -1 43 "Al doilea exemplu se refera la o procedura:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "sum_list := proc(l::list)" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "  description `returns sum of elem
+ents in the list l`:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "  local i,s
+:                      #variabile locale" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 61 "  s:=0:                           #initializarea rezu
+ltatelor" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "  for i from 1 to nops(
+l) do      #ciclu dupa operanzii din l" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 60 "     s := s + l[i]:               #aduna a i-a intrare din l" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "  end do;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 49 "  return s;                       #retur explicit" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "end proc;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%)sum_listGf*6#'%\"lG%%listG6$%\"iG%\"sG6\"F-C%>8%\"\"
+!?(8$\"\"\"F4-%%nopsG6#9$%%trueG>F0,&F0F4&F86#F3F4OF06#%Freturns~sum~o
+f~elements~in~the~list~lGF-F-" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 212 
+"Sa observam pe moment paranteza patrata mare din stanga procedurii. A
+ceasta indica faptul ca intreaga procedra formeaza un grup de executie
+. Cand tiparim procedura nu apasam return, ci utilizam optiunea de men
+iu " }{TEXT 263 41 "Insert -> Execution Group -> After Cursor" }{TEXT 
+-1 76 ". Putem sa utilizam echivalent si Ctrl/J. La sfarsitul procedur
+ii, utilizam " }{TEXT 264 45 "Edit -> Split or Join -> Join Execution \+
+Group" }{TEXT -1 44 " (sau F4) pentru a crea un grup de executie." }}
+{PARA 0 "" 0 "" {TEXT -1 184 "Calculul simbolic a deschis drumul pentr
+u \"programarea generica\": putem utiliza acelasi fragment de cod pent
+ru a insuma intregi, polinoame sau simboluri. Sa vedem cum lucreaza ac
+easta:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "sum_list([1, 2, 3
+]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "sum_list([a, b, c]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(%\"aG\"\"\"%\"bGF%%\"cGF%" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 42 "save sum_list, \"C:\\\\Users\\\\Radu\\\\sumproc\";
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "sum_list := 'sum_list':
+ sum_list; #stergere pentru a testa regasirea" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%)sum_listG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+32 "read \"C:\\\\Users\\\\Radu\\\\sumproc\";" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%)sum_listGf*6#'%\"lG%%listG6$%\"iG%\"sG6\"F-C%>8%\"\"
+!?(8$\"\"\"F4-%%nopsG6#9$%%trueG>F0,&F0F4&F86#F3F4OF06#%Freturns~sum~o
+f~elements~in~the~list~lGF-F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 31 "4. Importul si exportu
+l datelor" }}{PARA 0 "" 0 "" {TEXT -1 108 "Datele numerice in forma ma
+tricelor de numere flotante pot fi citite sau scrise (importate si exp
+ortate) cu " }{TEXT 265 8 "readdata" }{TEXT -1 4 " si " }{TEXT 266 9 "
+writedata" }{TEXT -1 27 ". Sa cream intai o matrice:" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 45 "indfun := (i,j)-> 1/(i+j-1);   #functia i
+ndex" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'indfunGf*6$%\"iG%\"jG6\"6$%
+)operatorG%&arrowGF)*&\"\"\"F.,(9$F.9%F.F.!\"\"F2F)F)F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "data := matrix(3,5,indfun);    #mat
+rice Hilbert 3x5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%dataGK%'matrixG
+6#7%7'\"\"\"#F*\"\"##F*\"\"$#F*\"\"%#F*\"\"&7'F+F-F/F1#F*\"\"'7'F-F/F1
+F4#F*\"\"(Q(pprint06\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "D
+igits:=20;                    #aproximatie cu 20 de cifre " }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%'DigitsG\"#?" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "writedata(terminal, data, float);" }}{PARA 6 "" 1 "" 
+{TEXT -1 37 "1\0110.5\0110.33333333333333333333\0110.25\0110.2" }}
+{PARA 6 "" 1 "" {TEXT -1 58 "0.5\0110.33333333333333333333\0110.25\011
+0.2\0110.16666666666666666667" }}{PARA 6 "" 1 "" {TEXT -1 77 "0.333333
+33333333333333\0110.25\0110.2\0110.16666666666666666667\0110.142857142
+85714285714" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "writedata(\"
+C:\\\\Users\\\\Radu\\\\mydata\",data,float);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "data := 'data';" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 14 "Matricele din " }{TEXT 267 8 "readdata" }{TEXT -1 106 " s
+e considera organizate pe coloane. Pe langa fisier, dam si numarul de \+
+coloane pe care dorim sa le citim:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "data := readdata(\"C:\\\\Users\\\\Radu\\\\mydata\",5)
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%dataG7%7'$\"\"\"\"\"!$\"\"&!\"
+\"$\"5LLLLLLLLLL!#?$\"#D!\"#$\"\"#F,7'F*F-F0F3$\"5nmmmmmmmm;F/7'F-F0F3
+F6$\"59dG9dG9dG9F/" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 35 "5. Intrar
+i-iesiri de nivel inferior" }}{PARA 0 "" 0 "" {TEXT -1 58 "Se pot trat
+a fisierele la fel ca in C. Iata niste exemple:" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 39 "ourfile := \"C:\\\\Users\\\\Radu\\\\testfile\"
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "fopen(ourfile, WRITE, \+
+TEXT);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 45 "n := writeline(ourfile, `this is some text`);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"#=" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 16 "fclose(ourfile);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "fopen(ourfile, READ, TEXT);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "re
+adline(ourfile);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#Q2this~is~some~tex
+t6\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "fclose(ourfile);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "fopen(ourfile, APPEND, TEX
+T);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 66 "fprintf(ourfile, \"number of characters on previ
+ous line: %d\\n\",n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#U" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "fclose(ourfile);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{MARK "7 12 0 0" 0 }
+{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

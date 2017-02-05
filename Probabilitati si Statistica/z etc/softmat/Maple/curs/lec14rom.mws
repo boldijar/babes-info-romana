@@ -1,0 +1,143 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "Co
+urier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "Courier" 
+0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "Courier" 0 1 
+255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "Courier" 0 1 255 0 
+0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "Courier" 0 1 255 0 0 1 0 
+1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "Courier" 0 1 255 0 0 1 0 1 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" 0 
+18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 
+12 12 0 0 0 0 0 0 19 0 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 31 "Normalizare, colectare, s
+ortare" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 
+"restart;" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 28 "1. Forma canonica s
+i normala" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "e1 := x*(1 + y)
+; e2 := x + x*y;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#e1G*&%\"xG\"\"
+\",&F'F'%\"yGF'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#e2G,&%\"xG\"\"
+\"*&F&F'%\"yGF'F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Egalitatea l
+or se poate testa astfel:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 42 "e1 = e2; # Maple repeats just the equality" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&%\"xG\"\"\",&F&F&%\"yGF&F&,&F%F&*&F
+%F&F(F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "evalb(%); # as
+k Maple to evaluate the equality" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&
+falseG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 123 "Desi din punct de vede
+re matematic ele sunt echivalente, pentru Maple ele nu sunt, deoarece \+
+se compara structurile de date." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 23 "evalb(expand(e1) = e2);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 72 "Pentr
+u polinoame intr-o variabila, putem defini forma canonica. Ea este " }
+{TEXT 256 5 "unica" }{TEXT -1 131 " si se obtine dupa ce polinomul a f
+ost expandat, s-au redus termenii asemenea si s-au sortat descrescator
+ dupa puterile variabilei." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 58 "Pentru polinoame rationale intr-o variabila, avem coma
+nda " }{TEXT 257 6 "normal" }{TEXT -1 153 ".  Ea inlatura factorii com
+uni. Dar chiar pentru polinoame rationale avem mai multe posibilitati;
+ putem alege sa factorizam numaratorul si/sau numitorul." }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 136 "Pentru polinoame in mai
+ multe variabile, sunt mai multe moduri de a defini ordinea monoamelor
+. In acest caz avem mai multe forme normale" }}{PARA 0 "" 0 "" {TEXT 
+-1 1 "." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 25 "2
+. Colectarea si sortarea" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 129 "Colec
+tarea si sortarea sunt doua instrumente pentru normalizarea polinoamel
+or de mai multe variabile. Comenzile de mai jos scriu " }{TEXT 259 2 "
+e1" }{TEXT -1 4 " si " }{TEXT 260 2 "e2" }{TEXT -1 21 " ca pe un polin
+om in " }{TEXT 261 1 "x" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "collect(e1,x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&%\"xG\"\"\",&F%F%%\"yGF%F%" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 14 "collect(e2,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+*&%\"xG\"\"\",&F%F%%\"yGF%F%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "Co
+manda " }{TEXT 258 7 "collect" }{TEXT -1 70 " colecteaza termenii in r
+aport cu o variabila considerata dominanta.  " }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "p := randpoly([x,y,z],degree
+=3,dense);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"pG,J\"#u\"\"\"*&\"\"
+%F')%\"xG\"\"$F'!\"\"*(\"#$)F')F+\"\"#F'%\"yGF'F-*(\"#5F'F0F'%\"zGF'F-
+*&\"#iF'F0F'F'*(\"##)F'F+F')F2F1F'F-**\"#!)F'F+F'F2F'F5F'F'*(\"#WF'F+F
+'F2F'F-*(\"#rF'F+F')F5F1F'F'*(\"#<F'F+F'F5F'F-*&\"#vF'F+F'F-*&F4F')F2F
+,F'F-*(\"\"(F'F:F'F5F'F-*&\"#SF'F:F'F-*(\"#UF'F2F'FAF'F'*(\"#]F'F2F'F5
+F'F-*&\"#BF'F2F'F'*&FEF')F5F,F'F'*&\"##*F'FAF'F-*&\"\"'F'F5F'F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "pxy := collect(p,[x,y]);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$pxyG,6*&\"\"%\"\"\")%\"xG\"\"$F(!\"
+\"*&,(*&\"#5F(%\"zGF(F,\"#iF(*&\"#$)F(%\"yGF(F,F()F*\"\"#F(F(*&,,*&\"#
+#)F()F5F7F(F,*&,&\"#WF,*&\"#!)F(F1F(F(F(F5F(F(\"#vF,*&\"#rF()F1F7F(F(*
+&\"#<F(F1F(F,F(F*F(F(*&F0F()F5F+F(F,*&,&*&\"\"(F(F1F(F,\"#SF,F(F<F(F(*
+&,(\"#BF(*&\"#UF(FEF(F(*&\"#]F(F1F(F,F(F5F(F(\"#uF(*&\"##*F(FEF(F,*&\"
+\"'F(F1F(F(*&FBF()F1F+F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+24 "pyz := collect(p,[y,z]);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$pyz
+G,6*&\"#5\"\"\")%\"yG\"\"$F(!\"\"*&,(*&\"\"(F(%\"zGF(F,\"#SF,*&\"##)F(
+%\"xGF(F,F()F*\"\"#F(F(*&,,*&\"#UF()F1F7F(F(*&,&\"#]F,*&\"#!)F(F5F(F(F
+(F1F(F(*&\"#WF(F5F(F,*&\"#$)F()F5F7F(F,\"#BF(F(F*F(F(*&\"#vF()F1F+F(F(
+*&,&\"##*F,*&\"#rF(F5F(F(F(F<F(F(*&,(*&F'F(FFF(F,\"\"'F(*&\"#<F(F5F(F,
+F(F1F(F(\"#uF(*&\"\"%F()F5F+F(F,*&FIF(F5F(F,*&\"#iF(FFF(F(" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 43 "Acestea sunt diverse forme normale ale lu
+i " }{TEXT 262 1 "p" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "hxy := convert(p,`horner`,[x,y,z]);
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$hxyG,*\"#u\"\"\"*&,&\"\"'F'*&,&
+\"##*!\"\"*&\"#vF'%\"zGF'F'F'F1F'F'F'F1F'F'*&,(\"#BF'*&,&\"#]F.*&\"#UF
+'F1F'F'F'F1F'F'*&,(*&\"\"(F'F1F'F.\"#SF.*&\"#5F'%\"yGF'F.F'FAF'F'F'FAF
+'F'*&,*F0F.*&,&\"#<F.*&\"#rF'F1F'F'F'F1F'F'*&,(\"#WF.*&\"#!)F'F1F'F'*&
+\"##)F'FAF'F.F'FAF'F'*&,**&F@F'F1F'F.\"#iF'*&\"#$)F'FAF'F.*&\"\"%F'%\"
+xGF'F.F'FXF'F'F'FXF'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "h
+yz := convert(p,`horner`,[y,z,x]);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#
+>%$hyzG,*\"#u\"\"\"*&,&\"#v!\"\"*&,&\"#iF'*&\"\"%F'%\"xGF'F+F'F1F'F'F'
+F1F'F'*&,(\"\"'F'*&,&\"#<F+*&\"#5F'F1F'F+F'F1F'F'*&,(\"##*F+*&\"#rF'F1
+F'F'*&F*F'%\"zGF'F'F'F@F'F'F'F@F'F'*&,*\"#BF'*&,&\"#WF+*&\"#$)F'F1F'F+
+F'F1F'F'*&,(\"#]F+*&\"#!)F'F1F'F'*&\"#UF'F@F'F'F'F@F'F'*&,**&\"\"(F'F@
+F'F+\"#SF+*&\"##)F'F1F'F+*&F9F'%\"yGF'F+F'FXF'F'F'FXF'F'" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 250 "Aceste sunt forme de evaluare a polinoam
+elor care prezinta interes. Pentru un polinom dens de gradul 2, ordine
+a variabilelor nu conteaza, dar in general, daca gradul unor variabile
+ este mai mare decat al altora, ordinea in schema lui Horner conteaza.
+" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "Putem sort
+a polinoamele dupa grad sau in ordinea lexicografica pura." }{MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "q := randpoly([x
+,y,z],degree=5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG,.\"#B!\"\"*
+(\"#5\"\"\"%\"xGF*%\"yGF*F**(\"#hF*F,F*%\"zGF*F'*(\"\")F*)F+\"\"#F*F/F
+*F'*(\"#HF*F+F*)F/F3F*F'**\"#&*F*F2F*F,F*F6F*F*" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 48 "sort(q,[z,y,x],plex); # pure lexicographic ord
+er" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.**\"#&*\"\"\")%\"zG\"\"#F&%\"y
+GF&)%\"xGF)F&F&*(\"#HF&F'F&F,F&!\"\"*(\"#hF&F(F&F*F&F/*(\"\")F&F(F&F+F
+&F/*(\"#5F&F*F&F,F&F&\"#BF/" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 12 "Ob
+servam ca " }{TEXT 263 3 "z*y" }{TEXT -1 34 " precede monomul de grad \+
+mai mare " }{TEXT 264 5 "z*x^2" }{TEXT -1 22 " deoarece am declarat " 
+}{TEXT 265 3 "y>x" }{TEXT -1 46 " si am sortat in ordinea lexicografic
+a pura.  " }{TEXT 266 3 "x^2" }{TEXT -1 21 " se interpreteaza ca " }
+{TEXT 267 2 "xx" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 42 "sort(q,[z,y,x],tdeg); # total degree order
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.**\"#&*\"\"\")%\"zG\"\"#F&%\"yGF
+&)%\"xGF)F&F&*(\"#HF&F'F&F,F&!\"\"*(\"\")F&F(F&F+F&F/*(\"#hF&F(F&F*F&F
+/*(\"#5F&F*F&F,F&F&\"#BF/" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 37 "3.
+ Un test probabilistic de egalitate" }}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 102 "Putem genera numere aleatoare si sa le folosim ca argumente al
+e expresiilor pentru a testa egalitatea." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "r1x,r1y := stats[random,unif
+orm[0,1]](2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>6$%$r1xG%$r1yG6$$\"+
+`-gO))!#5$\"+4ijv@F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "sub
+s(x=r1x,y=r1y,e1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"++B\"f2\"!\"*
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "subs(x=r1x,y=r1y,e2);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"++B\"f2\"!\"*" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 132 "Dearece am ales numere aleatoare, putem afiram c
+u o anumita probabiltate egalitatea sau neegalitatea expresiilor. Mapl
+e are comanda " }{TEXT 269 11 "testeq(a=b)" }{TEXT -1 156 " care teste
+aza in mod probabilistic egalitatea. Desi exista o probabilitate (mica
+) de a gresi, acest test are avantajul ca se poate rula in timp polino
+mial." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 47 "Pentru expresii cu numer
+e in virgula flotanta, " }{TEXT 268 7 "fnormal" }{TEXT -1 67 " inlatur
+a termenii cu coeficientii mai mici decat o toleranta data." }
+{MPLTEXT 1 0 0 "" }}}}}{MARK "4 4 1 0" 0 }{VIEWOPTS 1 1 0 3 2 1804 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,7 @@
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeServer/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeServer/bin/Debug/ClerkOfficeCommon.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeServer/bin/Debug/ClerkOfficeCommon.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeServer/bin/Debug/ClerkOfficeServer.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeServer/bin/Debug/ClerkOfficeServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeServer/obj/x86/Debug/ClerkOfficeServer.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Exam/ClerkOffice/ClerkOfficeServer/obj/x86/Debug/ClerkOfficeServer.exe.mdb

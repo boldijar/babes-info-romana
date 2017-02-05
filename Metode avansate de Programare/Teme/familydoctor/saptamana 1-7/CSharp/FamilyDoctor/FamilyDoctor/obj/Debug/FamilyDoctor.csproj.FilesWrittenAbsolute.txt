@@ -1,0 +1,4 @@
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/MedicDeFamilie/CSharp/Visual Studio 2015/FamilyDoctor/FamilyDoctor/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/MedicDeFamilie/CSharp/Visual Studio 2015/FamilyDoctor/FamilyDoctor/obj/Debug/FamilyDoctor.exe
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/MedicDeFamilie/CSharp/Visual Studio 2015/FamilyDoctor/FamilyDoctor/bin/Debug/FamilyDoctor.exe.config
+/home/horatiu/Documents/Facultate/Anul 2/Semestrul 1/Metode avansate de Programare/Teme/MedicDeFamilie/CSharp/Visual Studio 2015/FamilyDoctor/FamilyDoctor/bin/Debug/FamilyDoctor.exe

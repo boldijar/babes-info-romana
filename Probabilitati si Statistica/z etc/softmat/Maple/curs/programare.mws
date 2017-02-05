@@ -1,0 +1,324 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times
+" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "List Item" -1 14 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 14 5 }
+{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 
+2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 20 "Programarea in Maple" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 0 "Ma
+ple programare" {TEXT -1 1 " " }}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 23 "
+1. Structuri de control" }}{PARA 0 "" 0 "" {TEXT -1 119 "Aceasta secti
+une este o introducere in programarea in Maple. Intelegerea ei necesit
+a cunostinte generale de programare." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 234 "Maple are cele mai multe dintre facili
+tatile generale intalnite in limbaje de programare: instructiuni de at
+ribuire, o structura repetitiva foarte versatila, o instructiune condi
+tionala, proceduri si multe tipuri de date predefinite. " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 129 "Am vazut deja mul
+te exemple de instructiuni de atribuire in Maple; ele sunt instructiun
+i care utilizeaza operatori de atribuire (" }{TEXT 0 2 ":=" }{TEXT -1 
+3 "). " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 54 
+"Forma de baza a instructiunii de ciclare in Maple este" }}{PARA 0 "" 
+0 "" {TEXT -1 25 "                         " }{TEXT 0 3 "for" }{TEXT 
+-1 2 "  " }{TEXT 256 15 "index_variable " }{TEXT -1 1 " " }{TEXT 0 4 "
+from" }{TEXT -1 2 "  " }{TEXT 257 13 "initial_value" }{TEXT -1 2 "  " 
+}{TEXT 0 2 "to" }{TEXT 262 1 " " }{TEXT -1 1 " " }{TEXT 258 11 "final_
+value" }{TEXT -1 2 "  " }{TEXT 0 2 "by" }{TEXT -1 1 " " }{TEXT 261 9 "
+step_size" }{TEXT -1 1 " " }{TEXT 0 2 "do" }}{PARA 0 "" 0 "" {TEXT -1 
+29 "                             " }{TEXT 260 26 "sequence_of_Maple_co
+mmands" }}{PARA 0 "" 0 "" {TEXT -1 25 "                         " }
+{TEXT 0 6 "end do" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "Iata \+
+doua exemple." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "for i from \+
+0 to 8 do (1+x)^i end do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"\"F$%\"xGF$" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"\"#F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"\"$F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"\"%F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"\"&F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"\"'F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"\"(F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"\")F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 41 "for i from 0 to 8 by 2 do (1+x)^i end do;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$
+),&\"\"\"F&%\"xGF&\"\"#F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$),&\"\"
+\"F&%\"xGF&\"\"%F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$),&\"\"\"F&%\"
+xGF&\"\"'F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$),&\"\"\"F&%\"xGF&\"
+\")F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 36 "Urmatoarele doua comenzi deriveaza  " }{TEXT 0 8 "x*cos
+(x)" }{TEXT -1 13 " de zece ori." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "f := x*cos(x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*&%\"x
+G\"\"\"-%$cosG6#F&F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "for
+ n from 1 to 10 do f := diff(f, x) end do;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG,&-%$cosG6#%\"xG\"\"\"*&F)F*-%$sinGF(F*!\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&*&\"\"#\"\"\"-%$sinG6#%\"xGF(!
+\"\"*&F,F(-%$cosGF+F(F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&*&
+\"\"$\"\"\"-%$cosG6#%\"xGF(!\"\"*&F,F(-%$sinGF+F(F(" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"fG,&*&\"\"%\"\"\"-%$sinG6#%\"xGF(F(*&F,F(-%$cosGF
++F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&*&\"\"&\"\"\"-%$cosG6
+#%\"xGF(F(*&F,F(-%$sinGF+F(!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"fG,&*&\"\"'\"\"\"-%$sinG6#%\"xGF(!\"\"*&F,F(-%$cosGF+F(F-" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&*&\"\"(\"\"\"-%$cosG6#%\"xGF(!\"\"*&
+F,F(-%$sinGF+F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&*&\"\")\"
+\"\"-%$sinG6#%\"xGF(F(*&F,F(-%$cosGF+F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG,&*&\"\"*\"\"\"-%$cosG6#%\"xGF(F(*&F,F(-%$sinGF+F
+(!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&*&\"#5\"\"\"-%$sinG6
+#%\"xGF(!\"\"*&F,F(-%$cosGF+F(F-" }}}{PARA 0 "" 0 "" {TEXT -1 57 "Desi
+ se calculeaza fiecare din cele 10 derivate ale lui  " }{TEXT 0 8 "x*c
+os(x)" }{TEXT -1 60 ", nu ne putem referi la ele deoarece toate au ace
+lasi nume  " }{TEXT 0 1 "f" }{TEXT -1 66 ". Putem corecta aceasta gene
+rand automat nume distincte utilizand " }{TEXT 263 25 "operatorul de c
+oncatenare" }{TEXT -1 2 " (" }{TEXT 0 2 "||" }{TEXT -1 2 ")." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "f0 := x*cos(x);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%#f0G*&%\"xG\"\"\"-%$cosG6#F&F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "for n from 1 to 10 do f||n := diff(
+f||(n-1), x) end do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f1G,&-%$cos
+G6#%\"xG\"\"\"*&F)F*-%$sinGF(F*!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%#f2G,&*&\"\"#\"\"\"-%$sinG6#%\"xGF(!\"\"*&F,F(-%$cosGF+F(F-" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f3G,&*&\"\"$\"\"\"-%$cosG6#%\"xGF(!
+\"\"*&F,F(-%$sinGF+F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f4G,&*&
+\"\"%\"\"\"-%$sinG6#%\"xGF(F(*&F,F(-%$cosGF+F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#f5G,&*&\"\"&\"\"\"-%$cosG6#%\"xGF(F(*&F,F(-%$sinGF+F
+(!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f6G,&*&\"\"'\"\"\"-%$sinG
+6#%\"xGF(!\"\"*&F,F(-%$cosGF+F(F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%#f7G,&*&\"\"(\"\"\"-%$cosG6#%\"xGF(!\"\"*&F,F(-%$sinGF+F(F(" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#f8G,&*&\"\")\"\"\"-%$sinG6#%\"xGF(F(*&F,F
+(-%$cosGF+F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f9G,&*&\"\"*\"\"
+\"-%$cosG6#%\"xGF(F(*&F,F(-%$sinGF+F(!\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$f10G,&*&\"#5\"\"\"-%$sinG6#%\"xGF(!\"\"*&F,F(-%$cosG
+F+F(F-" }}}{PARA 0 "" 0 "" {TEXT -1 38 "De notat ca operatorul de conc
+atenare " }{TEXT 0 2 "||" }{TEXT -1 183 "nu face parte din numele vari
+abilei. Operatorul separa litera din numele variabilei care este fixa \+
+de partea numerica a numelui pe care Maple o genereaza si actualizeaza
+. De exemplu, " }{TEXT 0 2 "f7" }{TEXT -1 39 " este numele derivatei a
+ saptea a lui  " }{TEXT 0 8 "x*cos(x)" }{TEXT -1 1 "." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 3 "f7;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*
+&\"\"(\"\"\"-%$cosG6#%\"xGF&!\"\"*&F*F&-%$sinGF)F&F&" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 179 "Exista si alte forme ale instructiunii d
+e ciclare in Maple. Forma urmatoare parcurge toate elementele unei str
+ucturi de date si pentru fiecare element executa secventa de comenzi.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "     \+
+                    " }{TEXT 0 3 "for" }{TEXT -1 1 " " }{TEXT 256 14 "
+index_variable" }{TEXT -1 1 " " }{TEXT 0 2 "in" }{TEXT -1 1 " " }
+{TEXT 257 14 "data_structure" }{TEXT -1 1 " " }{TEXT 0 2 "do" }{TEXT 
+-1 1 " " }{TEXT 258 26 "sequence_of_Maple_commands" }{TEXT -1 1 " " }
+{TEXT 0 6 "end do" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 67 "Comanda urmatoare numara literele din fiecare cuvant dint
+r-o lista." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 83 "for fruit in [
+plum, apple, pineapple, grape, watermelon] do\n  length(fruit)\nend do
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"#5" }}}{PARA 0 "" 0 "" {TEXT -1 65 "Comanda urmatoare deriveaza t
+ermenii unui polinom unul cate unul." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 71 "for term in 1 + 3*x + 12*x^2 + x^3 + 7*x^4 do \n  dif
+f(term, x) \nend do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,$*&\"#C\"\"\"%\"xGF&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"
+$\"\"\")%\"xG\"\"#F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"#G\"\"
+\")%\"xG\"\"$F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "Maple are
+ un ciclu while." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 25 "                         " }{TEXT 0 5 "while" }{TEXT -1 
+1 " " }{TEXT 257 18 "boolean_expression" }{TEXT -1 1 " " }{TEXT 0 2 "d
+o" }{TEXT -1 1 " " }{TEXT 256 26 "sequence_of_Maple_commands" }{TEXT 
+-1 1 " " }{TEXT 0 6 "end do" }}{PARA 0 "" 0 "" {TEXT -1 55 "Forma gene
+rala a instructiunii de ciclare in Maple este" }}{PARA 0 "" 0 "" 
+{TEXT 0 13 "          for" }{TEXT -1 2 "  " }{TEXT 266 15 "index_varia
+ble " }{TEXT -1 1 " " }{TEXT 0 4 "from" }{TEXT -1 2 "  " }{TEXT 267 
+13 "initial_value" }{TEXT -1 2 "  " }{TEXT 0 2 "to" }{TEXT 271 1 " " }
+{TEXT -1 1 " " }{TEXT 268 11 "final_value" }{TEXT -1 2 "  " }{TEXT 0 
+2 "by" }{TEXT -1 1 " " }{TEXT 270 9 "step_size" }{TEXT -1 1 " " }
+{TEXT 0 5 "while" }{TEXT -1 1 " " }{TEXT 272 18 "boolean_expression" }
+{TEXT 0 3 " do" }}{PARA 0 "" 0 "" {TEXT -1 29 "                       \+
+      " }{TEXT 269 26 "sequence_of_Maple_commands" }}{PARA 0 "" 0 "" 
+{TEXT -1 24 "                        " }{TEXT 0 6 "end do" }{TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "Iata un exemplu: sa se gaseasca su
+ma tuturor numerelor impare de doua cifre. " }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 76 "tot := 0:\nfor i from 11 by 2 while i < 100 do\n   \+
+tot := tot + i\nend do:\ntot;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%vC
+" }}}{PARA 14 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 30 "Pe
+ntru detalii si exemple vezi" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+4 "?for" }}}{PARA 0 "" 0 "" {TEXT -1 58 "Iata forma generala a instruc
+tiunii conditionale in Maple." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 25 "                         " }{TEXT 0 2 "if
+" }{TEXT -1 2 "  " }{TEXT 257 18 "boolean_expression" }{TEXT -1 1 " " 
+}{TEXT 0 4 "then" }}{PARA 0 "" 0 "" {TEXT -1 30 "                     \+
+         " }{TEXT 256 26 "sequence_of_Maple_commands" }}{PARA 0 "" 0 "
+" {TEXT -1 24 "                        " }{TEXT 0 4 "elif" }{TEXT -1 
+1 " " }{TEXT 259 18 "boolean expression" }{TEXT -1 1 " " }{TEXT 0 4 "t
+hen" }}{PARA 0 "" 0 "" {TEXT -1 30 "                              " }
+{TEXT 260 26 "sequence_of_Maple_commands" }}{PARA 0 "" 0 "" {TEXT -1 
+24 "                        " }{TEXT 0 4 "else" }}{PARA 0 "" 0 "" 
+{TEXT -1 30 "                              " }{TEXT 258 26 "sequence_o
+f_Maple_commands" }}{PARA 0 "" 0 "" {TEXT -1 24 "                     \+
+   " }{TEXT 0 6 "end if" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 25 "Pot sa fie atatea clauze " }{TEXT 0 4 "elif" }{TEXT 
+-1 1 "/" }{TEXT 0 4 "then" }{TEXT -1 34 " cate este nevoie. Totusi, pa
+rtea " }{TEXT 0 4 "elif" }{TEXT -1 1 "/" }{TEXT 0 4 "then" }{TEXT -1 
+11 " si partea " }{TEXT 0 4 "else" }{TEXT -1 108 " a instructiuni cond
+itionale este optionala. Deci avem doua forme mai simple ale instructi
+unii conditionale." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 25 "                         " }{TEXT 0 2 "if" }{TEXT -1 2 " \+
+ " }{TEXT 257 18 "boolean_expression" }{TEXT -1 1 " " }{TEXT 0 4 "then
+" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 30 "                     \+
+         " }{TEXT 256 26 "sequence_of_Maple_commands" }}{PARA 0 "" 0 "
+" {TEXT -1 24 "                        " }{TEXT 0 4 "else" }}{PARA 0 "
+" 0 "" {TEXT -1 30 "                              " }{TEXT 258 26 "seq
+uence_of_Maple_commands" }}{PARA 0 "" 0 "" {TEXT -1 24 "              \+
+          " }{TEXT 0 6 "end if" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 2 "si" }}{PARA 0 "" 0 "" {TEXT -1 24 "                       \+
+ " }{TEXT 0 2 "if" }{TEXT -1 2 "  " }{TEXT 257 18 "boolean_expression
+" }{TEXT -1 1 " " }{TEXT 0 4 "then" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 29 "                             " }{TEXT 258 28 "sequence_of
+_Maple_statements" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{TEXT 256 19 
+"                   " }{TEXT 0 6 "end if" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 92 "Iata un exemplu de instructiune co
+nditionala care calculeaza o functie definita pe portiuni." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "x := 3/2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"xG#\"\"$\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 79 "if   x <= 0 then x^2\nelif x <= 1 then x^3\nelif x <=
+ 2 then x^4\nelse x^5\nend if;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#
+\")\"#;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 33 "Combinatia urmatoare de ciclu si " }{TEXT 0 2 "if" }
+{TEXT -1 150 " listeaza toate numerele prime mai mici decat 100. Obser
+vati modul in care este folosita indentarea, pentru a face codul mai u
+sor de citit si inteles." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 83 "
+for i from 1 while i <= 100 do \n  if isprime(i) then\n    print(i)\n \+
+ end if;\nend do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#8" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#<" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#>
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#B" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#H" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#J" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#P" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#T" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#V" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"#Z" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#`" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#f" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#h" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#r
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#t" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#z" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#$)" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#*)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#(*" }}}
+{PARA 0 "" 0 "" {TEXT -1 184 "Modificati exemplul de mai sus pentru a \+
+numara cate numere prime sunt mai mici decat 100. Cum procedati daca d
+oriti sa stiti cate numere prime sunt mai mici sau egale decat  1,000,
+000?" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT -1 9 "Proceduri" }}{PARA 0 "" 0 "" {TEXT -1 28 "Maple permite ut
+ilizarea de " }{TEXT 264 8 "procedur" }{TEXT 265 1 "i" }{TEXT -1 111 "
+ pentru a grupa instructiunile si a le transmite parametrii. Procedura
+ urmatoare gaseste maximul a doua numere." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 69 "bigger := proc(x, y)\n   if x > y then x\n   else y\n
+   end if\nend proc;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'biggerGf*6$
+%\"xG%\"yG6\"F)F)@%29%9$F-F,F)F)F)" }}}{PARA 0 "" 0 "" {TEXT -1 5 "Aic
+i " }{TEXT 0 6 "bigger" }{TEXT -1 60 " este numele dat procedurii. Def
+initia procedurii incepe cu " }{TEXT 0 4 "proc" }{TEXT -1 20 " si se s
+farseste cu " }{TEXT 0 3 "end" }{TEXT -1 60 ". Parametrii formali apar
+ intre parantezele din dreapta lui " }{TEXT 0 4 "proc" }{TEXT -1 185 "
+. Procedura are doi parametrii formali. Procedura contine doar o instr
+uctiune in corpul sau, dar pot fi oricate. Valoarea de retur este valo
+are ultimei expresii calculate de procedura. " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 107 "Sa exemplificam apelul p
+rocedurii. Parametrii actuali din apel se dau in paranteze, dupa numel
+e procedurii." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "bigger( 10,
+ 11 );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#6" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 95 "Procedurile pot avea variabile locale. Urmatoarea \+
+procedura gaseste media unei liste de numere." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 306 "avg := proc( L )\n   local N, sum, x;    # decl
+ara trei variabile locale   \n   N := nops( L );     # numara operanzi
+i din lista L\n   sum := 0;           # initializeaza sum\n   for x in
+ L do\n      sum := sum + x;  # calculeaza totalul\n   end do;\n   sum
+/N;              # calculeaza media si o returneaza\nend;" }}{PARA 12 
+"" 1 "" {XPPMATH 20 "6#>%$avgGf*6#%\"LG6%%\"NG%$sumG%\"xG6\"F,C&>8$-%%
+nopsG6#9$>8%\"\"!?&8&F3%%trueG>F5,&F5\"\"\"F8F<*&F5F<F/!\"\"F,F,F," }}
+}{PARA 0 "" 0 "" {TEXT -1 90 "Remarcati utilizarea indentarii si a com
+entariilor care fac procedura mai usor de inteles." }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 18 "L := [1, 1, 3, 4];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"LG7&\"\"\"F&\"\"$\"\"%" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 9 "avg( L );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"*
+\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 129 "Aproape toate comenzil
+e Maple sunt de fapt proceduri Maple scrise in limbajul de programare \+
+al Maple. Sa luam ca exemplu comanda " }{TEXT 0 7 "isprime" }{TEXT -1 
+59 ". Sa o incercam si sa examinam definitia acestei proceduri." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "print( isprime );" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#f*6#%\"nG6&%%btorG%#nrG%\"pG%\"rG6%%)remembe
+rG%'systemG%ipCopyright~(c)~1993~Gaston~Gonnet,~Wissenschaftliches~Rec
+hnen,~ETH~Zurich.~All~rights~reserved.GE\\s_q\"#&)%&falseG\"\"\"F1\"#%
+)F1\"\"#%%trueG\"#()F1\"\"$F5\"#')F1\"\"&F5\"#!)F1\"\"%F1\"#\")F1\"\"(
+F5\"##)F1\"\"'F1\"#$)F5\"#5F1\"#&*F1\"#6F5\"#%*F1\"\")F1\"#$*F1\"\"*F1
+\"##*F1\"#:F1\"#!*F1\"#9F1\"#\"*F1\"#8F5\"#))F1\"#7F1\"#*)F5\"#@F1\"#k
+F1\"#?F1\"#lF1\"#BF5\"#mF1\"#AF1\"#nF5\"#;F1\"#pF1\"#<F5\"#oF1\"#=F1\"
+#rF5\"#>F5\"#qF1\"#JF5\"#uF1\"#IF1\"#vF1\"#HF5\"#sF1\"#GF1\"#tF5\"#EF1
+\"#zF5\"#FF1\"#yF1\"#CF1\"#xF1\"#DF1\"#wF1\"#UF1\"#VF5\"#SF1\"#TF5\"#Z
+F5\"#YF1\"#XF1\"#WF1\"#KF1\"#LF1\"#MF1\"#NF1\"#PF5\"#OF1\"#RF1\"#QF1\"
+#jF1\"#iF1\"#hF5\"#gF1\"#eF1\"#fF5\"#cF1\"#dF1\"#`F5\"#'*F1\"#_F1\"#(*
+F5\"#bF1\"#)*F1\"#aF1\"#**F1\"#[F1\"#\\F1\"$+\"F1\"#]F1\"#^F1C$@$4-%%t
+ypeG6$9$.%(integerG@%-Fdr6$Ffr.%(numericGYQ<argument~must~be~an~intege
+r6\"O.-%(isprimeG6#Ffr@/2FfrF4F1-%'memberG6$Ffr%*isprime/wGF50-%%igcdG
+6$\"FqgvJt9-JvC%=b%R'zc0BFfrF2F12Ffr\"&,-\"F50-F^t6$\"fbl8r'y#f\"*GXCx
+/v@mp?Z1qWkXfJ,j*fAg*>DM'y$oi+bGAA[))H7vW?spIY$o&fDh'en;3EvQ!ROOPaRFE-
+CtD\\\\i[/iyk18JjIP*)pp=d\")ySk$*yltE68uwvmI'H'zt$)Hs'Q#o(4DQL*\\h)G!o
+'=r\"py4v84&4tZp!44Rp2F$*Q?UjUX:hOF$*[meig#f'*\\t=4*RB`5\"=MB*[pp\\)Ff
+rF2F12Ffr\"(\"3=5F5O-%,gmp_isprimeGFesF`sF`sF`s" }}}{PARA 0 "" 0 "" 
+{TEXT -1 63 "Aceasta nu ne spune mare lucru. Sa facem Maple mai comuni
+cativ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "interface(verbosep
+roc=2);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "print( isprime );" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "interface(verboseproc=1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*
+6#%\"nG6&%%btorG%#nrG%\"pG%\"rG6%%)rememberG%'systemG%ipCopyright~(c)~
+1993~Gaston~Gonnet,~Wissenschaftliches~Rechnen,~ETH~Zurich.~All~rights
+~reserved.G6\"C$@$4-%%typeG6$9$.%(integerG@%-F46$F6.%(numericGYQ<argum
+ent~must~be~an~integerF/O.-%(isprimeG6#F6@/2F6\"\"#%&falseG-%'memberG6
+$F6%*isprime/wG%%trueG0-%%igcdG6$\"FqgvJt9-JvC%=b%R'zc0BF6\"\"\"FH2F6
+\"&,-\"FM0-FP6$\"fbl8r'y#f\"*GXCx/v@mp?Z1qWkXfJ,j*fAg*>DM'y$oi+bGAA[))
+H7vW?spIY$o&fDh'en;3EvQ!ROOPaRFE-CtD\\\\i[/iyk18JjIP*)pp=d\")ySk$*yltE
+68uwvmI'H'zt$)Hs'Q#o(4DQL*\\h)G!o'=r\"py4v84&4tZp!44Rp2F$*Q?UjUX:hOF$*
+[meig#f'*\\t=4*RB`5\"=MB*[pp\\)F6FSFH2F6\"(\"3=5FMO-%,gmp_isprimeGFDF/
+F/F/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{PARA 0 "" 0 "" 
+{TEXT -1 189 "Definitia este complexa. Ea ne arata doua lucruri. Comen
+zile Maple sunt programe scrise in limbajul Maple si putem examina si \+
+chiar modifica aceste comenzi daca stim suficient despre Maple." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 125 "Ultima piesa majora din puzzle
+-ul programarii in Maple este constituita din tipurile predefinite si \+
+din structurile de date. " }}{PARA 0 "" 0 "" {TEXT -1 136 "Acest subie
+ct este prea mare pentru a-l sumariza aici. Vom mai reveni intr-o lect
+ie speciala despre tipuri de date si structuri de date." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 103 "Comanda urmatoare a
+fiseaza o pagina de help cu toate cuvintele cheie utilizate in instruc
+tiunile Maple." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "?statement
+" }}}{PARA 0 "" 0 "" {TEXT -1 135 "Informatia de baza despre scrierea \+
+de proceduri poate fi gasita in urmatoarele doua pagini de help. (Din \+
+nefericire nu se citesc usor.)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 10 "?procedure" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "?parame
+ter" }}}{PARA 0 "" 0 "" {TEXT -1 99 "Legaturi catre informatii suplime
+ntare despre programarea in Maple se pot gasi in pagina urmatoare." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "?index,procedure" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}}{MARK "5 24 0" 5 }{VIEWOPTS 1 1 0 3 2 1804 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

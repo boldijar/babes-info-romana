@@ -1,0 +1,165 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 0 2 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Error" -1 8 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" 
+-1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }3 
+1 0 0 12 12 1 0 1 0 2 2 19 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 258 24 "Secvente, multimi, liste
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 385 "O multime este o secventa delimitata de \+
+acolade, pe cand o lista este delimitata de paranteze patrate. Mai sun
+t diferente intre multimi si liste. Intai, un element al unei multimi \+
+apare o singura data, in timp ce elementele unei liste se pot repeta. \+
+In al doilea rand, ordinea elementelor unei multimi este stabilita int
+ern de Maple, pe cand ordinea elementelor unei liste este fixata." }
+{MPLTEXT 1 0 0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 11 "1. Secvente
+" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 73 "Am vazut cum se construiesc se
+cvente pentru derivatele de ordin superior:" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 10 "X := x$10;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+XG6,%\"xGF&F&F&F&F&F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "whattype(X);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(exprseqG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "Inafara de " }{TEXT 0 8 "expr $ n
+" }{TEXT -1 13 ", operatorul " }{TEXT 0 1 "$" }{TEXT -1 31 " mai poate
+ fi apelat sub forma " }{TEXT 0 13 "expr $ i=m..n" }{TEXT -1 4 " si " 
+}{TEXT 0 6 "$ m..n" }{TEXT -1 1 "." }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 51 "Putem crea sevente de elemente indexate cu comanda " }{TEXT 
+256 3 "seq" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 23 "Y := seq(y[i],i=1..10);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"YG6,&%\"yG6#\"\"\"&F'6#\"\"#&F'6#\"\"$&F'6#\"\"%&F'
+6#\"\"&&F'6#\"\"'&F'6#\"\"(&F'6#\"\")&F'6#\"\"*&F'6#\"#5" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 76 "Pentru a accesa elementele unei secvente,
+ se utilizeaza parantezele patrate:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "Y[6];" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#&%\"yG6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "op(6
+,[Y]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"yG6#\"\"'" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 139 "Comanda de mai sus este un mod alternati
+v de selectie a unui element al unei secvente: convertim secventa Y in
+ lista [Y], deoarece comanda " }{TEXT 257 2 "op" }{TEXT -1 43 " lucrea
+za doar pe liste, nu si pe secvente." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 53 "Comanda de mai jos creaza o secventa pr
+in concatenare" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Z := Y||(
+1..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"ZG6,%#Y1G%#Y2G%#Y3G%#Y4
+G%#Y5G%#Y6G%#Y7G%#Y8G%#Y9G%$Y10G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+25 "Diferenta intre secventa " }{TEXT 0 1 "Y" }{TEXT -1 13 " si secven
+ta " }{TEXT 0 1 "Z" }{TEXT -1 23 " este este aceea ca in " }{TEXT 0 1 
+"Y" }{TEXT -1 28 " avem indexare mai naturala." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "Z[6];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#Y6G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Al sasele
+a element al secventei  " }{TEXT 0 1 "Z" }{TEXT -1 6 " este " }{TEXT 
+0 2 "Y6" }{TEXT -1 4 " nu " }{MPLTEXT 1 0 4 "y[6]" }{TEXT -1 3 ":  " }
+{MPLTEXT 1 0 2 "Y6" }{TEXT -1 59 " este concatenarea a doua simboluri:
+ litera Y si numarul 6." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 5 "Y[6];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"yG6#\"
+\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "op(Y[6])= op(y[6]);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"\"'F$" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "op(Z[6]);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%#Y6G" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 10 "Variabila " }{MPLTEXT 1 0 2 "y " }{TEXT -1 42 "este o var
+iabila indexata, iar cu comanda " }{MPLTEXT 1 0 2 "op" }{TEXT -1 24 " \+
+recuperam indicele sau." }}{PARA 0 "" 0 "" {TEXT -1 89 "Pentru a obtin
+e numarul de elemente dintr-o secventa trebuie sa o convertim intr-o l
+ista:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "nops([Y]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 79 "Presupunem ca dorim sa construim secventa a1, a2, ..., b1, b2, \+
+..., c1,c2, ...:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "a||(1..
+5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'%#a1G%#a2G%#a3G%#a4G%#a5G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "(a,b,c)||(1..5);" }}{PARA 8 
+"" 1 "" {TEXT -1 23 "Error, `||` unexpected\n" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 101 "Ultima comanda ne-a dat un mesaj de eroare. Remediul \+
+este sa concatenam la stanga cu simbolul nul ``:" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 20 "``||(a,b,c)||(1..5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "61%#a1G%#a2G%#a3G%#a4G%#a5G%#b1G%#b2G%#b3G%#b4G%#b5G%#c1G
+%#c2G%#c3G%#c4G%#c5G" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 10 "2. Mult
+imi" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 164 "Multimea din Maple corespu
+nde notiunii matematice de multime: nu avem ordine si nu avem duplicat
+e. O multime se creaza dintr-o secventa, punand acolade in jurul ei:" 
+}{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "S := \{
+Y\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"SG<,&%\"yG6#\"\"\"&F'6#\"
+\"#&F'6#\"\"$&F'6#\"\"%&F'6#\"\"&&F'6#\"\"'&F'6#\"\"(&F'6#\"\")&F'6#\"
+\"*&F'6#\"#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 98 "Motivul acestei c
+onversii din secventa in multime este acela ca avem operatii speciale \+
+pe multimi." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "T := S union \{Z\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"TG<
+6%#Y1G%#Y2G%#Y3G%#Y4G%#Y5G%#Y6G%#Y7G%#Y8G%#Y9G%$Y10G&%\"yG6#\"\"\"&F16
+#\"\"#&F16#\"\"$&F16#\"\"%&F16#\"\"&&F16#\"\"'&F16#\"\"(&F16#\"\")&F16
+#\"\"*&F16#\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "sZ := T \+
+intersect \{Z\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#sZG<,%#Y1G%#Y2G
+%#Y3G%#Y4G%#Y5G%#Y6G%#Y7G%#Y8G%#Y9G%$Y10G" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 48 "Cum se poate converti o multime intr-o secventa?" }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 154 "Un motiv bun
+ de a realiza o astfel de conversie este de a impune o ordine a elemen
+telor, deoarece Maple poate ordona elementele unei multimi in orice mo
+d." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "op(
+sZ);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6,%#Y1G%#Y2G%#Y3G%#Y4G%#Y5G%#Y6G
+%#Y7G%#Y8G%#Y9G%$Y10G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "wh
+attype(%); whattype(sZ);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(exprseqG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%$setG" }}}{EXCHG {PARA 11 "" 1 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Multimea partil
+or se construieste cu " }{MPLTEXT 1 0 8 "powerset" }{TEXT -1 14 " din \+
+pachetul " }{MPLTEXT 1 0 8 "combinat" }{TEXT -1 1 ":" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 38 "S:=\{a,b,c\}; pS:=combinat[powerset](S);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"SG<%%\"aG%\"bG%\"cG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#pSG<*<\"<%%\"aG%\"bG%\"cG<$F)F*<#F*<$F(F*
+<#F(<#F)<$F(F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "Daca dorim elem
+ente care sa se repete, avem nevoie de o lista" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 11 "L:=[a,a,b];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"LG7%%\"aGF&%\"bG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "pL
+:=combinat[powerset](L);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#pLG7(7
+\"7#%\"aG7#%\"bG7$F(F*7$F(F(7%F(F(F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 54 "Datorita repetitiilor avem mai putin de 8 elemente in " }
+{MPLTEXT 1 0 2 "pL" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 106 "De
+ notat ca putem usor elimina duplicatele dintr-o lista convertind-o in
+ multime si apoi din nou in lista:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "LL:=[op(\{op(L)\})];" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%#LLG7$%\"aG%\"bG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 126 "Deci co
+nversia din lista in multime si din multime in lista se realizeaza pri
+n intermediul secventelor (utilizand de doua ori " }{MPLTEXT 1 0 2 "op
+" }{TEXT -1 2 ")." }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 8 "3. Liste" }
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 73 "Putem crea o lista dintr-o secven
+ta, incadrand-o intre paranteze patrate:" }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "L := [Y];" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"LG7,&%\"yG6#\"\"\"&F'6#\"\"#&F'6#\"\"$&F'6#\"\"%&
+F'6#\"\"&&F'6#\"\"'&F'6#\"\"(&F'6#\"\")&F'6#\"\"*&F'6#\"#5" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 78 "Putem converti o lista intr-o multime eli
+minand parantezele patrate printr-un " }{MPLTEXT 1 0 2 "op" }{TEXT -1 
+50 " si apoi punand acolade in jurul rezultatelor lui " }{MPLTEXT 1 0 
+2 "op" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "S := \{op(L)\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"SG<,&%\"yG6#\"\"\"&F'6#\"\"#&F'6#\"\"$&F'6#\"\"%&F'6#\"\"&&F'6#\"\"'
+&F'6#\"\"(&F'6#\"\")&F'6#\"\"*&F'6#\"#5" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 34 "Putem combina doua liste; le cream" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 22 "i := [seq(k,k=1..10)];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"iG7,\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")\"\"*
+\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "d := [stats[random,
+uniform[-1,1]](10)];" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"dG7,$!+!zA
+c3#!#5$!+sO?PhF($!+\"f;:b*F($\"*p\\P+'!\"*$!+i)e*[9F($\"*p`C&oF/$!+%Gu
+Uv\"F($\"*GW$G**F/$!+_Q$=F#F($\"*zV@*QF/" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 40 "Sa cream o lista de coordonate de forma " }{MPLTEXT 1 0 
+8 "[i,d[i]]" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 24 "zip((x,y) -> [x,y],i,d);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#7,7$\"\"\"$!+!zAc3#!#57$\"\"#$!+sO?PhF(7$\"\"$$!+\"f;:b
+*F(7$\"\"%$\"*p\\P+'!\"*7$\"\"&$!+i)e*[9F(7$\"\"'$\"*p`C&oF57$\"\"($!+
+%GuUv\"F(7$\"\")$\"*GW$G**F57$\"\"*$!+_Q$=F#F(7$\"#5$\"*zV@*QF5" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "Sa cream acum o lista cu elemente \+
+de forma " }{MPLTEXT 1 0 6 "d[i]^i" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "zip((x,y) -> y^x,i,d);
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7,$!+!zAc3#!#5$\"+\"*o_mPF&$!+;*))
+Rr)F&$\"+qFC*H\"F&$!++`v'Q'!#9$\"+\"*[KN5F&$!+D(yI6&!#:$\"+en#4W*F&$!+
+9$*37;F4$\"+7K!z(zF/" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 134 "Motivul \+
+conversiei unei secvente sau multimi intr-o lista  este acela ca eleme
+ntelor unei liste li se pot aplica functii anonime prin " }{MPLTEXT 1 
+0 3 "map" }{TEXT -1 2 ", " }{MPLTEXT 1 0 6 "select" }{TEXT -1 5 " sau \+
+" }{MPLTEXT 1 0 3 "zip" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}}}{MARK 
+"4 10 0 0" 0 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 
+1 1 }

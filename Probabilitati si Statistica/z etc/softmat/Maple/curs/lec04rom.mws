@@ -1,0 +1,198 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "Co
+urier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "Courier" 
+0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "Courier" 0 1 
+255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "Courier" 0 1 255 0 
+0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "Courier" 0 1 255 0 0 1 0 
+1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "Courier" 0 1 255 0 0 1 0 1 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 1 24 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 
+-1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 
+255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" 0 18 1 {CSTYLE "" 
+-1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 
+19 0 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 272 28 "Numere algebrice si comp
+lexe" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "r
+estart;" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 19 "1. Numere algebrice" 
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 157 "Un numar algebric este o radaci
+na a unui polinom.  Trebuie sa vedem intai cum se lucreaza cu astfel d
+e numere peste un camp finit.  Consideram,  de exemplu, " }{XPPEDIT 
+18 0 "Z[7];" "6#&%\"ZG6#\"\"(" }{TEXT -1 63 " = \{0,1,2,3,4,5,6\}.  Pu
+tem considera aritmetica modulara peste " }{XPPEDIT 18 0 "Z[7];" "6#&%
+\"ZG6#\"\"(" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "4+8 mod 7;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "4*8 mod 7;" }
+{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "4/8 mod 7;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 150 "Spre deo
+sebire de intregi, in campuri finite, orice element nenul are un inver
+s fata de inmultire. Comenzile urmatoare genereaza tabela inmultirii i
+n " }{XPPEDIT 18 0 "Z[7];" "6#&%\"ZG6#\"\"(" }{TEXT -1 1 ":" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 30 "printf(\"* : 0 1 2 3 4 5 6\\n\"):" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "for i from 0 to 6 do" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "  printf(\"%d :\",i);" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 22 "  for j from 0 to 6 do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 " \+
+   printf(\"%2d\", i*j mod 7);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "  \+
+end do;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "  printf(\"\\n\");" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "end do;" }}{PARA 6 "" 1 "" {TEXT -1 
+17 "* : 0 1 2 3 4 5 6" }}{PARA 6 "" 1 "" {TEXT -1 17 "0 : 0 0 0 0 0 0 \+
+0" }}{PARA 6 "" 1 "" {TEXT -1 17 "1 : 0 1 2 3 4 5 6" }}{PARA 6 "" 1 "
+" {TEXT -1 17 "2 : 0 2 4 6 1 3 5" }}{PARA 6 "" 1 "" {TEXT -1 17 "3 : 0
+ 3 6 2 5 1 4" }}{PARA 6 "" 1 "" {TEXT -1 17 "4 : 0 4 1 5 2 6 3" }}
+{PARA 6 "" 1 "" {TEXT -1 17 "5 : 0 5 3 1 6 4 2" }}{PARA 6 "" 1 "" 
+{TEXT -1 17 "6 : 0 6 5 4 3 2 1" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 23 
+"Am vazut deja comanda  " }{TEXT 257 6 "Factor" }{TEXT -1 60 " (cu F) \+
+pentru factorizare unui polinom peste un camp finit." }{MPLTEXT 1 0 0 
+"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "Vom extinde acest camp
+ considerand radacini ale polinoamelor:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "p := x^2 + 3*x + 5;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"pG,(*$)%\"xG\"\"#\"\"\"F**&\"\"$F*F(F*F*\"\"&F
+*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "Factor(p) mod 7;  # to
+ factor over Z_7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"#\"
+\"\"F(*&\"\"$F(F&F(F(\"\"&F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 50 "factor(p);   # to factor over the rational numbers" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"#\"\"\"F(*&\"\"$F(F&F(F(\"\"&F(" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Factor(p) mod 11;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*$),&%\"xG\"\"\"\"\"(F'\"\"#F'" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "Polinomul nu se poate factoriza pe
+ste " }{XPPEDIT 18 0 "Z[7];" "6#&%\"ZG6#\"\"(" }{TEXT -1 45 ". Spunem \+
+ca polinomul este ireductibil peste " }{XPPEDIT 18 0 "Z[7];" "6#&%\"ZG
+6#\"\"(" }{TEXT -1 23 ". Verificam aceasta cu " }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 17 "Irreduc(p) mod 7;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 28 "El se p
+oate factoriza peste " }{XPPEDIT 18 0 "Z[11];" "6#&%\"ZG6#\"#6" }
+{TEXT -1 12 ", sub forma " }{XPPEDIT 18 0 "(x-4)^2;" "6#*$,&%\"xG\"\"
+\"\"\"%!\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "subs(x
+=4,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#L" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 9 "% mod 11;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"!" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "Polinomul este reductibil \+
+peste " }{XPPEDIT 18 0 "Z[3];" "6#&%\"ZG6#\"\"$" }{TEXT -1 1 "." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Factor(p) mod 3;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"\"\"#F&F&,&F%F&F&F&F&" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "Putem declara " }{XPPEDIT 18 0 "al
+pha;" "6#%&alphaG" }{TEXT -1 27 " ca radacina formala a lui " }
+{XPPEDIT 18 0 "p;" "6#%\"pG" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "alias(alpha=RootOf(p));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&alphaG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "y := subs(x=alpha,p);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"yG,(*$)%&alphaG\"\"#\"\"\"F**&\"\"$F*F(F*F*\"\"&F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evala(y);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "Comanda \+
+" }{TEXT 256 5 "evala" }{TEXT -1 40 " evalueaza expresii cu numere alg
+ebrice." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+17 "q := p/(x-alpha);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG*&,(*$)
+%\"xG\"\"#\"\"\"F+*&\"\"$F+F)F+F+\"\"&F+F+,&F)F+%&alphaG!\"\"F1" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "f2 := simplify(q);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#f2G,(\"\"$\"\"\"%\"xGF'%&alphaGF'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "r := (x-alpha)*(x-6*alpha-4)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG*&,&%\"xG\"\"\"%&alphaG!\"
+\"F(,(F'F(*&\"\"'F(F)F(F*\"\"%F*F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 15 "Radacinile lui " }{XPPEDIT 18 0 "p;" "6#%\"pG" }{TEXT -1 6 " su
+nt " }{XPPEDIT 18 0 "alpha;" "6#%&alphaG" }{TEXT -1 4 " si " }
+{XPPEDIT 18 0 "4+6*alpha;" "6#,&\"\"%\"\"\"*&\"\"'F%%&alphaGF%F%" }
+{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "p = Expand(r) mod 7;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/,(*$)%\"xG\"\"#\"\"\"F)*&\"\"$F)F'F)F)\"\"&F)F$" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 48 "Numerele algebrice din acest camp sunt de forma
+ " }{XPPEDIT 18 0 "a+b*alpha;" "6#,&%\"aG\"\"\"*&%\"bGF%%&alphaGF%F%" 
+}{TEXT -1 7 ", unde " }{XPPEDIT 18 0 "alpha;" "6#%&alphaG" }{TEXT -1 
+68 " este o radacina a unui polinom ireductibil peste campul ce contin
+e " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "b
+;" "6#%\"bG" }{TEXT -1 14 ". Observam ca " }{XPPEDIT 18 0 "alpha^2;" "
+6#*$%&alphaG\"\"#" }{TEXT -1 40 " se simplifica la o expresie liniara \+
+in " }{XPPEDIT 18 0 "alpha;" "6#%&alphaG" }{TEXT -1 2 ". " }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "evala(alpha^2) mod 7;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,&\"\"#\"\"\"*&\"\"%F%%&alphaGF%F%" }}}{PARA 0 "
+" 0 "" {TEXT -1 6 "Defim " }{XPPEDIT 18 0 "Z[7](alpha);" "6#-&%\"ZG6#
+\"\"(6#%&alphaG" }{TEXT -1 2 "=\{" }{XPPEDIT 18 0 "a+b*alpha;" "6#,&%
+\"aG\"\"\"*&%\"bGF%%&alphaGF%F%" }{TEXT -1 2 "| " }{XPPEDIT 18 0 "a,b;
+" "6$%\"aG%\"bG" }{TEXT -1 4 " in " }{XPPEDIT 18 0 "Z[7];" "6#&%\"ZG6#
+\"\"(" }{TEXT -1 31 "\}. Putem calcula in acest camp " }{XPPEDIT 18 0 
+"Z[7](alpha);" "6#-&%\"ZG6#\"\"(6#%&alphaG" }{TEXT -1 14 " la fel ca i
+n " }{XPPEDIT 18 0 "Z[7];" "6#&%\"ZG6#\"\"(" }{TEXT -1 12 ", utilizand
+ " }{TEXT 258 5 "evala" }{TEXT -1 4 " si " }{TEXT 259 14 "expand() mod
+ 7" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}{EXCHG {PARA 11 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "b := alpha+
+3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG,&%&alphaG\"\"\"\"\"$F'" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "c := -b mod 7;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"cG,&*&\"\"'\"\"\"%&alphaGF(F(\"\"%F(" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "1/c mod 7;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*&\"\"\"F$,&*&\"\"'F$%&alphaGF$F$\"\"%F$!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evala(%) mod 7;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,$*&\"\"$\"\"\"%&alphaGF&F&" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 23 "d := Expand(1/c) mod 7;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"dG,$*&\"\"$\"\"\"%&alphaGF(F(" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 18 "Expand(d*c) mod 7;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 19 "2. Num
+bere complexe" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Unitatea imaginar
+a se noteaza cu " }{TEXT 260 1 "I" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "I^2;  # I is sqrt(-1)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "z := 3 + 7*I;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+zG^$\"\"$\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "polar_z :
+= abs(z)*exp(I*argument(z)); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(po
+lar_zG^$\"\"$\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "abs(z
+);  # length of the number or modulus" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#*$\"#e#\"\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "ar
+gument(z); # argument of the number" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%'arctanG6##\"\"(\"\"$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 59 "Pentr
+u evaluarea functiilor in argumente complexe utilizam " }{TEXT 261 5 "
+evalc" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "sin(z);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$sinG6#^$\"\"$\"\"(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "evalc(sin(z));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&-%$sinG6#\"\"$\"\"\"-%%coshG6#\"\"(F)F)*(-%$cosGF'F
+)-%%sinhGF,F)^#F)F)F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 47 "Atentie,
+ unele functii complexe sunt multivoce:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sqrt(x^2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$*$)%\"xG\"\"#\"\"\"#F(F'" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-
+%%csgnG6#%\"xG\"\"\"F'F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Din a
+ceasta simplificare observam ca " }{TEXT 262 9 "sqrt(x^2)" }{TEXT -1 
+17 " nu este egal cu " }{TEXT 263 2 "x " }{TEXT -1 5 "cand " }{TEXT 
+264 1 "x" }{TEXT -1 14 " este complex." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "a := (-1+I)^2; b := (1-I)^2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG^#!\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"bG^#!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+17 "sqrt(a); sqrt(b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#^$\"\"\"!\"\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#^$\"\"\"!\"\"" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 18 "Numerele complexe " }{TEXT 265 4 "-1+I" }{TEXT -1 
+4 " si " }{TEXT 266 3 "1-I" }{TEXT -1 41 " sunt cele doua radacini pat
+rate ale lui " }{TEXT 267 4 "-2*I" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 8 "Functia " }{TEXT 268 4 "sqrt" }{TEXT -1 36 " in complex es
+te multivoca. Comanda " }{TEXT 269 4 "sqrt" }{TEXT -1 72 " nu recunoas
+te aceasta, dar avem o alternativa in Maple, utilizarea lui " }{TEXT 
+270 6 "RootOf" }{TEXT -1 13 " cu optiunea " }{TEXT 271 5 "index" }
+{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "r1 := Root
+Of(x^2 - a, index=1); # first root" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%#r1G-%'RootOfG6$,&*$)%#_ZG\"\"#\"\"\"F-^#F,F-/%&indexGF-" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "r2 := RootOf(x^2 - a, index=2); # s
+econd root" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#r2G-%'RootOfG6$,&*$)%
+#_ZG\"\"#\"\"\"F-^#F,F-/%&indexGF," }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "evalf(r1); evalf(r2);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#^$$\"#5!\"\"$!+++++5!\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#^$$!
+#5!\"\"$\"+++++5!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 12 "In general: " }{XPPEDIT 18 0 "x^n-c = 0;" "6#/,&)%\"xG%
+\"nG\"\"\"%\"cG!\"\"\"\"!" }{TEXT -1 5 " are " }{XPPEDIT 18 0 "n;" "6#
+%\"nG" }{TEXT -1 19 " radacini complexe." }}}}{MARK "2 19 0 0" 26 }
+{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,34 @@
+Cursoarele sunt niste structuri/obiecte
+
+
+
+Position e ordinea de parcurgee. Facem simplu SELECT, ORDER BY Position -> ASC sau DESC
+
+Tests:
+1   Test1
+2	Test2
+3	Test3
+
+
+TestTables
+TestID  TableID Nr      Position
+1       1       10000
+2       1       50000   3
+2       2       500000  2
+2       3       100000  1
+3       1       -       1
+3       3       -       2
+
+Tables
+1   T1
+2   T2
+3   T3
+
+Cursoare
+
+
+
+DataStart
+Delete
+Insert
+DataStop

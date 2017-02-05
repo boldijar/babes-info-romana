@@ -1,0 +1,1117 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 
+0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "Courier" 0 1 
+255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "Courier" 0 1 255 0 
+0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "Courier" 0 1 255 0 0 1 0 
+1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "Courier" 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 268 "Courier" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 273 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 274 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 278 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 279 "Courier" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 280 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 281 "" 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 284 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 285 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 287 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+289 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+294 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+299 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+304 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+309 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 
+0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 313 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+314 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 318 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+319 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 
+4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 8 2 1 0 1 0 2 2 0 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courie
+r" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 
+2 1 1 2 2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 19 "Probleme - Lectia 1" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 291 2 "
+1." }{TEXT -1 153 " Urmand New User's Tour (al treia intrare din meniu
+l help). Copiati intr-un worksheet separat instructiunile necesare pen
+tru a desena figura de mai jos. " }{GLPLOT3D 595 595 595 {PLOTDATA 3 "
+6^p-%)POLYGONSG6&7&7%$\"+GU?.')!#5$!+%y*e$G\"!\"*$!+CewQ<F-7%$\"+o[fC#
+*F*$!+#eNLN\"F-$!+*zTq&>F-7%$\"+Ri>dzF*$!+Bhs*f'F*$!+V/&yx#F*7%$\"+D`G
+*e(F*$!+yS**)G(F*$!+,Ug`RF*7&F>F77%$\"+-R8r6F*$!+w:^+5F-$!+t#*e@OF*7%$
+\"+caVg@F*$!+z0L,5F-$!+l_fGYF*7&FMFFF0F'-%&STYLEG6#%,PATCHNOGRIDG-F$6&
+7&7%$\"+\"p)ytyF*$!+(>y$y7F-$!+O5vw<F-F0FF7%$\"+=*>5V\"F*$!+=**=h**F*$
+!+!RZ%3]F*7&F]oFF7%$!+Co.%)HF*$!+r!))z\"eF*$!+;Bjv%)F*7%$!+jm6$*=F*$!+
+nx[6mF*$!+D=o\"*))F*7&F\\pFeoF0FfnFU-F$6&7&7%$\"+;!zz(yF*$!++&40@\"F-$
+!+bh[B=F-F0Feo7%$!+Qj#*))=F*$!+'z+G$fF*$!+6I.f$*F*7&F^qFeo7%$\"+v())RB
+\"F*$\"+!)z)=v\"!#6$!+2d=j5F-7%$\"+TT\\&[\"F*$!+,$f#Q6F*$!+\"G,%36F-7&
+F^rFfqF0FgpFU-F$6&7&7%$\"+;V)*4')F*$!+Dfxt6F-$!+M[Q9=F-F0Ffq7%$\"+U%*
+\\<AF*$!*cN#4xF*$!+h**H*4\"F-7&F`sFfq7%$\"+(oUg*zF*$!+#))=&zIF[r$!+5UV
+5rF*7%$\"+sD9FwF*$!+/hVd6F*$!+?8'e<)F*7&F_tFhsF0FirFU-F$6&7&7%$\"+[\")
+>e!*F*$!+C?%*=7F-$!+!zC?w\"F-F0Fhs7%$\"+.kNv!)F*$!+*4(44;F*$!+x3E_wF*7
+&FauFhsF77%$\"+X#zU/)F*$!+([;Dk'F*$!+kQ>'=%F*7&FiuF7F0FjtFU-F$6&7&7%$!
++UvB,7F-$\"+`YZV=F*$!+LyX$)>F-7%$!+'[jBI\"F-$\"+\"4_QG\"F*$!+k4&3>#F-7
+%$!+7^lD')F*$\"+#foVW%F*$!+i5c?XF*7%$!+E;*R\\)F*$\"+ay)=P%F*$!+q%>U#fF
+*7&FiwFbw7%$!+zIs_AF*$\"+?Sn<lF*$!+1')[(=)F*7%$!++gk&R$F*$\"+'>K0.'F*$
+!+0:wd))F*7&FhxFaxF[wFdvFU-F$6&7&7%$!+$e1b8\"F-$\"+nE')e:F*$!+2)*>C?F-
+F[wFax7%$!+2kLQFF*$\"+5-#fu&F*$!+R7=l#*F*7&FjyFaxFfq7%$\")wI.^F*$\"*K?
+$>nF*$!+,w1A6F-7&FbzFfqF[wFcyFU-F$6&7&7%$!+3?QS6F-$\"*%>&[O(F*$!+l27E?
+F-F[wFfq7%$\"(F)yAF*$!*SaW]\"F*$!+f&))R7\"F-7&Fd[lFfqFeo7%$!+`;9sLF*$!
++Op)\\%\\F*$!+*y0\\^*F*7&F\\\\lFeoF[wF][lFU-F$6&7&7%$!+Yh747F-$\"*^*RG
+^F*$!+4gc')>F-F[wFeo7%$!+HIefSF*$!+z@jo^F*$!+H#e$>\"*F*7&F^]lFeo7%$!+j
+=jx!*F*$!+a)*[zJF*$!+pOk)p%F*7%$!+g!fW$*)F*$!+0O$y0$F*$!+6tw(4'F*7&F]^
+lFf]lF[wFg\\lFU-F$6&7&7%$!+MptY7F-$\"+hq*p>\"F*$!+n))>g>F-F[wFf]l7%$!+
+Ypc5$*F*$!+&\\wOP#F*$!+$*e4MeF*7&F__lFf]lFbw7%$!+Yb)*[*)F*$\"+i-TDPF*$
+!+3)H;p&F*7&Fg_lFbwF[wFh^lFU-F$6&7&7%$\"+'=s1,\"F-$\"+e`^_7F-$!+wf_z;F
+-7%$\"+mX@\"3\"F-$\"++^^C8F-$!+v4\\%*=F-7%$\"+*RCWN#F*$\"+vZSa**F*$!+d
+HObJF*7%$\"+b[aSLF*$\"+.mb#*)*F*$!+GBijTF*7&FgalF`al7%$\"+&)*4&)o)F*$
+\"+pf$ft&F*$!+Lnq*[#F*7%$\"+CL\"yS)F*$\"+f:y<lF*$!+\\t4JOF*7&FfblF_blF
+i`lFb`lFU-F$6&7&7%$\"+vHG[5F-$\"+Z'*4%=\"F-$!+=J*eq\"F-Fi`lF_bl7%$\"+5
+7#Ry)F*$\"+ZWiLeF*$!+m(oZ*QF*7&FhclF_blFhs7%$\"+st%*H#)F*$\"*iT^)**F*$
+!+Z2N\"f(F*7&F`dlFhsFi`lFaclFU-F$6&7&7%$\"+p;'e)**F*$\"+**z-Z6F-$!+?T<
+g<F-Fi`lFhs7%$\"+\"HzHt(F*$\"*%o(zF'F*$!+q2;M\")F*7&FbelFhsFfq7%$\"+hh
+LBBF*$\"+K-J95F*$!+1*H^4\"F-7&FjelFfqFi`lF[elFU-F$6&7&7%$\"+>1h-$*F*$
+\"+s@`#>\"F-$!+$[atw\"F-Fi`lFfq7%$\"+6^3S;F*$\"+g>Np9F*$!+o-J-6F-7&F\\
+glFfqFax7%$!+sVG\\6F*$\"+P,MVlF*$!+8zgn!*F*7&FdglFaxFi`lFeflFU-F$6&7&7
+%$\"+FjIx$*F*$\"+Xpsd7F-$!+*=6vr\"F-Fi`lFax7%$!+l')eu5F*$\"+pyG&>(F*$!
++t\\<p&)F*7&FfhlFaxF`al7%$\"+=$H6h#F*$\"+tCnW**F*$!+aWZVXF*7&F^ilF`alF
+i`lF_hlFU-F$6&7&7%$\"+!yj*>BF-$!+b!o8N\"F*$!+7a&z-\"F*7%$\"+a@qSDF-$!+
+oC(>Y\"F*$!+$*>F&*=F*7%$\"+j=jx!*F*$\"+a)*[zJF*$\"+pOk)p%F*7%$\"+1Eh85
+F-$\"+.=!=O#F*$\"+=r<ZUF*7&F^[mFgjl7%$\"+7^lD')F*$!+#foVW%F*$\"+i5c?XF
+*7%$\"+eYau(*F*$!+a\\GPPF*$\"+K5r/TF*7&F]\\mFf[mF`jlFiilFU-F$6&7&7%$\"
++4U\\7BF-$!+'y:L+#F*$!+`$)QE:F*F`jlFf[m7%$\"+]*[)*p*F*$!+'oK#*Q%F*$\"+
+\"4yig$F*7&F_]mFf[mF77%$\"+^=3l\"*F*$!+5(=N6'F*$!+86XKAF*7&Fg]mF7F`jlF
+h\\mFU-F$6&7&7%$\"+$z'H3BF-$!+tYbF<F*$!+Q!)y,BF*F`jlF77%$\"+*o2J7*F*$!
++(fdx$eF*$!+)z]y+$F*7&Fi^mF7Fhs7%$\"+[[=a\"*F*$!*4#QV!)F*$!+6y\"RZ'F*7
+&Fa_mFhsF`jlFb^mFU-F$6&7&7%$\"+=A<8BF-$!*+s<0*F*$!+d%yDG#F*F`jlFhs7%$
+\"+)4RH?*F*$\")k#R!=F*$!+J#3ZX'F*7&Fc`mFhsF_bl7%$\"+OH\"pv*F*$\"+\\&\\
+J&[F*$!+\\i7eFF*7&F[amF_blF`jlF\\`mFU-F$6&7&7%$\"+7GQ?BF-$!*%3\"os'F*$
+!+)f1`\\\"F*F`jlF_bl7%$\"+!))=!H)*F*$\"+mck&3&F*$!+!Ra3(>F*7&F]bmF_blF
+gjl7%$\"+Q;.95F-$\"+u()[SIF*$\"+Jf#)zPF*7&FebmFgjlF`jlFfamFU-F$6&7&7%$
+\"+dvSs\"*F*$!+,4#41#F-$\"+;gXxcF*7%$\"+Oq8f5F-$!+ctF^AF-$\"+WPQycF*7%
+$\"+zIs_AF*$!+?Sn<lF*$\"+1')[(=)F*7%$\"+L(*[,DF*$!+u$HJ\"yF*$\"+0*RZo(
+F*7&FedmF^dm7%$!+*RCWN#F*$!+vZSa**F*$\"+dHObJF*7%$!+]#GU=\"F*$!+)R^i0
+\"F-$\"+'QR!fOF*7&FdemF]emFgcmF`cmFU-F$6&7&7%$\"+7;I+\"*F*$!+70<%3#F-$
+\"+dT=!*[F*FgcmF]em7%$!+&>MjD\"F*$!+45]z5F-$\"+FvwrGF*7&FffmF]emFF7%$
+\"+YC6k:F*$!+))yb$3\"F-$!+dUz\\DF*7&F^gmFFFgcmF_fmFU-F$6&7&7%$\"+))Hu(
+y*F*$!+))f!=1#F-$\"+(fOY\\%F*FgcmFF7%$\"+AQb^AF*$!+kL>h5F-$!+<=MXHF*7&
+F`hmFFF77%$\"+\"p./o(F*$!+G>i()yF*$!+`2NqAF*7&FhhmF7FgcmFigmFU-F$6&7&7
+%$\"+26ZG5F-$!+SVtC?F-$\"+>mWP]F*FgcmF77%$\"+s<Px\")F*$!+]a!p^(F*$!+I2
+aF<F*7&FjimF7Ff[m7%$\"+q)Q@r)F*$!+E%>Ez&F*$\"+u%)=6TF*7&FbjmFf[mFgcmFc
+imFU-F$6&7&7%$\"+eGT/**F*$!+Et=C?F-$\"+B#p%odF*FgcmFf[m7%$\"+g1%=L)F*$
+!+'G\\ry&F*$\"+y5@U[F*7&Fd[nFf[mF^dm7%$\"+L]\\LKF*$!+GOzXuF*$\"+8JvvxF
+*7&F\\\\nF^dmFgcmF][nFU-F$6&7&7%$!+U8)*e7F-$!+j(oM'=F-$!+ahnXfF*7%$!+]
+\"3gJ\"F-$!+mgd\"3#F-$!+OtZ!p'F*7%$!+&)*4&)o)F*$!+pf$ft&F*$\"+Lnq*[#F*
+7%$!+5ib7!*F*$!+uy#3d'F*$\"+-6Z)R\"F*7&F\\^nFe]nFf]l7%$!+7P&QK*F*$!+#)
+4nDXF*$!+?#4AN%F*7&Fd^nFf]lF^]nFg\\nFU-F$6&7&7%$!+@:&4A\"F-$!+xd,k=F-$
+!+d()pwmF*F^]nFf]l7%$!+-bbV*)F*$!+A69JXF*$!+B=B$3&F*7&Ff_nFf]lFeo7%$!+
+r%z'oSF*$!+&pR>k'F*$!+TF#[5)F*7&F^`nFeoF^]nF__nFU-F$6&7&7%$!+;ki_6F-$!
++\\*>&4>F-$!+I^*[g'F*F^]nFeo7%$!+@%GaQ$F*$!+B9)p4(F*$!+9\">I.)F*7&F`an
+FeoFF7%$!)S=HhF*$!+d$oY/\"F-$!+!o%y\\TF*7&FhanFFF^]nFi`nFU-F$6&7&7%$!+
++!H%[6F-$!+hg4P>F-$!+Ya\\HeF*F^]nFF7%$!)ywJ>F*$!+pWCs5F-$!+&*\\QuLF*7&
+FjbnFFF]em7%$!+>VwRGF*$!+!f(=o5F-$\"+*ywr/#F*7&FbcnF]emF^]nFcbnFU-F$6&
+7&7%$!+f*fT@\"F-$!+i[j3>F-$!+7d2AaF*F^]nF]em7%$!+6R2(\\$F*$!+\"RE(R5F-
+$\"+BlfaCF*7&FddnF]emFe]n7%$!+!QUVc)F*$!+p))[AqF*$\"+V:2A>F*7&F\\enFe]
+nF^]nF]dnFU-F$6&7&7%$!+FjIx$*F*$!+Ypsd7F-$\"+)=6vr\"F-7%$!+mX@\"3\"F-$
+!+,^^C8F-$\"+u4\\%*=F-F]em7%$!+=$H6h#F*$!+tCnW**F*$\"+aWZVXF*7&FefnF]e
+mF^dm7%$\"+l')eu5F*$!+pyG&>(F*$\"+t\\<p&)F*7&F]gnF^dmF^fnFgenFU-F$6&7&
+7%$!+=1h-$*F*$!+t@`#>\"F-$\"+#[atw\"F-F^fnF^dm7%$\"+tVG\\6F*$!+Q,MVlF*
+$\"+8zgn!*F*7&F_hnF^dm7%$!+v())RB\"F*$!+!)z)=v\"F[r$\"+2d=j5F-7%$!+5^3
+S;F*$!+g>Np9F*$\"+o-J-6F-7&F^inFghnF^fnFhgnFU-F$6&7&7%$!+q;'e)**F*$!++
+!Gq9\"F-$\"+>T<g<F-F^fnFghn7%$!+ihLBBF*$!+L-J95F*$\"+1*H^4\"F-7&F`jnFg
+hn7%$!+(oUg*zF*$\"+#))=&zIF[r$\"+5UV5rF*7%$!+#HzHt(F*$!*%o(zF'F*$\"+q2
+;M\")F*7&F_[oFhjnF^fnFiinFU-F$6&7&7%$!+vHG[5F-$!+['*4%=\"F-$\"+<J*eq\"
+F-F^fnFhjn7%$!+st%*H#)F*$!*iT^)**F*$\"+Z2N\"f(F*7&Fa\\oFhjnFe]n7%$!+67
+#Ry)F*$!+[WiLeF*$\"+l(oZ*QF*7&Fi\\oFe]nF^fnFj[oFU-F$6&7&7%$!+'=s1,\"F-
+$!+f`^_7F-$\"+vf_z;F-F^fnFe]n7%$!+CL\"yS)F*$!+f:y<lF*$\"+[t4JOF*7&F[^o
+Fe]nF]em7%$!+b[aSLF*$!+/mb#*)*F*$\"+GBijTF*7&Fc^oF]emF^fnFd]oFU-F$6&7&
+7%$\"+MptY7F-$!+hq*p>\"F*$\"+n))>g>F-7%$\"+'[jBI\"F-$!+\"4_QG\"F*$\"+k
+4&3>#F-Ff[m7%$\"+Yb)*[*)F*$!+i-TDPF*$\"+3)H;p&F*7&F\\`oFf[mFgjl7%$\"+Y
+pc5$*F*$\"+&\\wOP#F*$\"+$*e4MeF*7&Fd`oFgjlFe_oF^_oFU-F$6&7&7%$\"+Yh747
+F-$!*^*RG^F*$\"+4gc')>F-Fe_oFgjl7%$\"+g!fW$*)F*$\"+0O$y0$F*$\"+6tw(4'F
+*7&FfaoFgjl7%$\"+Co.%)HF*$\"+r!))z\"eF*$\"+;Bjv%)F*7%$\"+HIefSF*$\"+z@
+jo^F*$\"+H#e$>\"*F*7&FeboF^boFe_oF_aoFU-F$6&7&7%$\"+3?QS6F-$!*%>&[O(F*
+$\"+l27E?F-Fe_oF^bo7%$\"+`;9sLF*$\"+Op)\\%\\F*$\"+*y0\\^*F*7&FgcoF^boF
+ghn7%$!(F)yAF*$\"*SaW]\"F*$\"+f&))R7\"F-7&F_doFghnFe_oF`coFU-F$6&7&7%$
+\"+$e1b8\"F-$!+nE')e:F*$\"+2)*>C?F-Fe_oFghn7%$!)wI.^F*$!*K?$>nF*$\"+,w
+1A6F-7&FaeoFghnF^dm7%$\"+2kLQFF*$!+5-#fu&F*$\"+R7=l#*F*7&FieoF^dmFe_oF
+jdoFU-F$6&7&7%$\"+UvB,7F-$!+`YZV=F*$\"+LyX$)>F-Fe_oF^dm7%$\"++gk&R$F*$
+!+'>K0.'F*$\"+0:wd))F*7&F[goF^dmFf[m7%$\"+E;*R\\)F*$!+ay)=P%F*$\"+q%>U
+#fF*7&FcgoFf[mFe_oFdfoFU-F$6&7&7%$\"+f*fT@\"F-$\"+i[j3>F-$\"+<d2AaF*7%
+$\"+]\"3gJ\"F-$\"+mgd\"3#F-$\"+UtZ!p'F*F_bl7%$\"+!QUVc)F*$\"+p))[AqF*$
+!+V:2A>F*7&F\\ioF_blF`al7%$\"+6R2(\\$F*$\"+\"RE(R5F-$!+AlfaCF*7&FdioF`
+alFehoF^hoFU-F$6&7&7%$\"++!H%[6F-$\"+hg4P>F-$\"+^a\\HeF*FehoF`al7%$\"+
+>VwRGF*$\"+!f(=o5F-$!+)ywr/#F*7&FfjoF`al7%$!+-R8r6F*$\"+w:^+5F-$\"+t#*
+e@OF*7%$\")ywJ>F*$\"+pWCs5F-$\"+'*\\QuLF*7&Fe[pF^[pFehoF_joFU-F$6&7&7%
+$\"+;ki_6F-$\"+\\*>&4>F-$\"+O^*[g'F*FehoF^[p7%$\")S=HhF*$\"+d$oY/\"F-$
+\"+\"o%y\\TF*7&Fg\\pF^[pF^bo7%$\"+@%GaQ$F*$\"+B9)p4(F*$\"+:\">I.)F*7&F
+_]pF^boFehoF`\\pFU-F$6&7&7%$\"+@:&4A\"F-$\"+xd,k=F-$\"+i()pwmF*FehoF^b
+o7%$\"+r%z'oSF*$\"+&pR>k'F*$\"+TF#[5)F*7&Fa^pF^boFgjl7%$\"+-bbV*)F*$\"
++A69JXF*$\"+C=B$3&F*7&Fi^pFgjlFehoFj]pFU-F$6&7&7%$\"+U8)*e7F-$\"+j(oM'
+=F-$\"+fhnXfF*FehoFgjl7%$\"+7P&QK*F*$\"+#)4nDXF*$\"+?#4AN%F*7&F[`pFgjl
+F_bl7%$\"+5ib7!*F*$\"+uy#3d'F*$!+,6Z)R\"F*7&Fc`pF_blFehoFd_pFU-F$6&7&7
+%$!+eGT/**F*$\"+Et=C?F-$!+C#p%odF*7%$!+Oq8f5F-$\"+ctF^AF-$!+YPQycF*Fax
+7%$!+L]\\LKF*$\"+GOzXuF*$!+7JvvxF*7&F\\bpFaxFbw7%$!+g1%=L)F*$\"+'G\\ry
+&F*$!+x5@U[F*7&FdbpFbwFeapF^apFU-F$6&7&7%$!+26ZG5F-$\"+SVtC?F-$!+@mWP]
+F*FeapFbw7%$!+q)Q@r)F*$\"+E%>Ez&F*$!+u%)=6TF*7&FfcpFbw7%$!+Ri>dzF*$\"+
+Bhs*f'F*$\"+V/&yx#F*7%$!+s<Px\")F*$\"+]a!p^(F*$\"+I2aF<F*7&FedpF^dpFea
+pF_cpFU-F$6&7&7%$!+))Hu(y*F*$\"+))f!=1#F-$!+*fOY\\%F*FeapF^dp7%$!+\"p.
+/o(F*$\"+G>i()yF*$\"+_2NqAF*7&FgepF^dpF^[p7%$!+AQb^AF*$\"+kL>h5F-$\"+;
+=MXHF*7&F_fpF^[pFeapF`epFU-F$6&7&7%$!+7;I+\"*F*$\"+70<%3#F-$!+fT=!*[F*
+FeapF^[p7%$!+YC6k:F*$\"+))yb$3\"F-$\"+cUz\\DF*7&FagpF^[pF`al7%$\"+&>Mj
+D\"F*$\"+45]z5F-$!+GvwrGF*7&FigpF`alFeapFjfpFU-F$6&7&7%$!+dvSs\"*F*$\"
++,4#41#F-$!+<gXxcF*FeapF`al7%$\"+]#GU=\"F*$\"+)R^i0\"F-$!+'QR!fOF*7&F[
+ipF`alFax7%$!+L(*[,DF*$\"+u$HJ\"yF*$!+0*RZo(F*7&FcipFaxFeapFdhpFU-F$6&
+7&7%$!+7GQ?BF-$\"*%3\"os'F*$\"+)f1`\\\"F*7%$!+a@qSDF-$\"+oC(>Y\"F*$\"+
+$*>F&*=F*Ff]l7%$!+Q;.95F-$!+u()[SIF*$!+Jf#)zPF*7&F\\[qFf]lFe]n7%$!+!))
+=!H)*F*$!+mck&3&F*$\"+!Ra3(>F*7&Fd[qFe]nFejpF^jpFU-F$6&7&7%$!+=A<8BF-$
+\"*+s<0*F*$\"+d%yDG#F*FejpFe]n7%$!+OH\"pv*F*$!+\\&\\J&[F*$\"+\\i7eFF*7
+&Ff\\qFe]nFhjn7%$!+)4RH?*F*$!)k#R!=F*$\"+J#3ZX'F*7&F^]qFhjnFejpF_\\qFU
+-F$6&7&7%$!+$z'H3BF-$\"+tYbF<F*$\"+Q!)y,BF*FejpFhjn7%$!+[[=a\"*F*$\"*4
+#QV!)F*$\"+6y\"RZ'F*7&F`^qFhjnF^dp7%$!+*o2J7*F*$\"+(fdx$eF*$\"+)z]y+$F
+*7&Fh^qF^dpFejpFi]qFU-F$6&7&7%$!+4U\\7BF-$\"+'y:L+#F*$\"+`$)QE:F*FejpF
+^dp7%$!+^=3l\"*F*$\"+5(=N6'F*$\"+86XKAF*7&Fj_qF^dpFbw7%$!+]*[)*p*F*$\"
++'oK#*Q%F*$!+\"4yig$F*7&Fb`qFbwFejpFc_qFU-F$6&7&7%$!+!yj*>BF-$\"+b!o8N
+\"F*$\"+7a&z-\"F*FejpFbw7%$!+eYau(*F*$\"+a\\GPPF*$!+K5r/TF*7&FdaqFbwFf
+]l7%$!+1Eh85F-$!+.=!=O#F*$!+=r<ZUF*7&F\\bqFf]lFejpF]aqFU-F$6&7&7%$!+[
+\")>e!*F*$\"+C?%*=7F-$\"+!zC?w\"F-7%$!+o[fC#*F*$\"+#eNLN\"F-$\"+*zTq&>
+F-F^dp7%$!+X#zU/)F*$\"+([;Dk'F*$\"+kQ>'=%F*7&FecqF^dpFhjn7%$!+.kNv!)F*
+$\"+*4(44;F*$\"+x3E_wF*7&F]dqFhjnF^cqFgbqFU-F$6&7&7%$!+<V)*4')F*$\"+Df
+xt6F-$\"+M[Q9=F-F^cqFhjn7%$!+sD9FwF*$\"+/hVd6F*$\"+?8'e<)F*7&F_eqFhjnF
+ghn7%$!+V%*\\<AF*$\"*cN#4xF*$\"+h**H*4\"F-7&FgeqFghnF^cqFhdqFU-F$6&7&7
+%$!+:!zz(yF*$\"++&40@\"F-$\"+bh[B=F-F^cqFghn7%$!+TT\\&[\"F*$\"+,$f#Q6F
+*$\"+\"G,%36F-7&FifqFghnF^bo7%$\"+Qj#*))=F*$\"+'z+G$fF*$\"+6I.f$*F*7&F
+agqF^boF^cqFbfqFU-F$6&7&7%$!+\"p)ytyF*$\"+(>y$y7F-$\"+O5vw<F-F^cqF^bo7
+%$\"+jm6$*=F*$\"+nx[6mF*$\"+D=o\"*))F*7&FchqF^boF^[p7%$!+=*>5V\"F*$\"+
+=**=h**F*$\"+!RZ%3]F*7&F[iqF^[pF^cqF\\hqFU-F$6&7&7%$!+GU?.')F*$\"+%y*e
+$G\"F-$\"+CewQ<F-F^cqF^[p7%$!+caVg@F*$\"+z0L,5F-$\"+l_fGYF*7&F]jqF^[pF
+^dp7%$!+D`G*e(F*$\"+yS**)G(F*$\"+,Ug`RF*7&FejqF^dpF^cqFfiqFU-F$6&7&7%$
+\"++u)QY(F*$!+a(4(R8F-$!+eI$)Q>F-7%$\"+)[*e[$*F*$!+qn_r8F-$!+\\yM$)>F-
+7%$!+?&p)>8F-$\"+*H46I\"F*$!+;)*H?AF-7%$!+q')\\E7F-$!)mnxDF-$!+Hg;Y@F-
+7&Fe\\rF^\\r7%$!+#f(pL8F-$!+tgb4@F-$!+4!4/y'F*7%$!+L#)fQ7F-$!+%R&[&)>F
+-$!+&y%*o'zF*7&Fd]rF]]rFg[rF`[rFU-F$6&7&7%$\"+'QchZ)F*$!+I;)e>\"F-$!+I
+&z0*>F-Fg[r7%$\"+tzu&4\"F-$\"+!*)=BM\"F-$!+Ki&*>>F-7%$\"+[`$R))*F*$\"+
+ALty6F-$!+l=6N>F-7&F]_rFf^rF^\\r7%$!+s<FD6F-$\"+uN^!=\"F*$!+,D\"z>#F-7
+&Fe_rF^\\rFg[rF_^rFU-F$6&7&7%$\"+pd*)45F-$!+_jZ27F-$!+a,21>F-Fg[r7%$\"
++:O&[d#F-$!+CRi\"[\"F*$!+\\xu?>F*7%$\"+-6*[W#F-$!+9_Kq8F*$!*9iqQ$F-7&F
+^arFg`rFf^r7%$\"+lOn]6F-$\"+,'Qr;\"F-$!+*[-1&=F-7&FfarFf^rFg[rF``rFU-F
+$6&7&7%$\"+2N'*35F-$!+2/Ze8F-$!+9S4-=F-Fg[r7%$\"+#otL2\"F-$!+W%Q:G#F-$
+\"+76radF*7%$\"+**Q;I6F-$!+A1ta@F-$\"+edsoVF*7&F_crFhbrFg`r7%$\"+S)eRW
+#F-$!+mdE!)GF*$!+W2IZBF*7&FgcrFg`rFg[rFabrFU-F$6&7&7%$\"+o?2h%)F*$!+W^
+>S9F-$!+.EMA=F-Fg[rF]]r7%$!+m(z)Q6F-$!+%yqf3#F-$!+K-*>!oF*7&FidrF]]rFh
+br7%$\"+%)f2t'*F*$!+f`XOAF-$\"+t)Ri;%F*7&FaerFhbrFg[rFbdrFU-F$6&7&7%$!
++J\"[*37F-$\"+\"3CEq#F*$!+r4DR@F-F^\\rFf^r7%$\"+`<<Z!*F*$\"+tV%4L\"F-$
+!+N.Xw=F-7&FcfrFf^r7%$!+#otL2\"F-$\"+W%Q:G#F-$!+76radF*7%$!+IFkK**F*$
+\"+$[hF:#F-$!+R&e-+(F*7&FbgrF[grF^\\rF\\frFU-F$6&7&7%$!+%pOFP\"F-$\"*d
+hVv$F*$!+?M_b?F-F^\\r7%$!+:O&[d#F-$\"+CRi\"[\"F*$\"+\\xu?>F*7%$!+xx%3Z
+#F-$\"*akQL&F*$\"*pM/`&F*7&F[irFdhrF]]r7%$!+di$[Q\"F-$!+7];A>F-$!+#po/
+1(F*7&FcirF]]rF^\\rF]hrFU-F$6&7&7%$!+k)*)=O\"F-$\"+t)e]?#F*$!+z'\\70#F
+-F^\\rF[gr7%$!+1g?Y6F-$\"+i\\+.@F-$!+?cC?hF*7&FejrF[grFdhr7%$!+Z4+gCF-
+$\"+p\"4IO#F*$\"*#)3y&fF*7&F][sFdhrF^\\rF^jrFU-F$6&7&7%$\"+U>Hn6F-$\"+
+>P=78F-$!+\"H6(R<F-Ff^rFg`r7%$\"+z$4:Y#F-$\"()f7!)F-$!+e,:yAF*7&F_\\sF
+g`r7%$\"+#f(pL8F-$\"+tgb4@F-$\"+4!4/y'F*7%$\"+fy\\v8F-$\"+ai^$)>F-$\"+
+5?ON`F*7&F^]sFg\\sFf^rFh[sFU-F$6&7&7%$\"+sCG:5F-$\"+a7U89F-$!+Qhob<F-F
+f^rFg\\s7%$\"+)Q)[B7F-$\"+*y`Z3#F-$\"+LNhv^F*7&F`^sFg\\sF[gr7%$!+q(*)p
+#))F*$\"+k$Q_B#F-$!+ulh#z&F*7&Fh^sF[grFf^rFi]sFU-F$6&7&7%$\"+Z4+gCF-$!
++p\"4IO#F*$!*#)3y&fF*Fg`rFhbr7%$\"+1g?Y6F-$!+i\\+.@F-$\"+?cC?hF*7&Fj_s
+Fhbr7%$\"+?&p)>8F-$!+*H46I\"F*$\"+;)*H?AF-7%$\"+k)*)=O\"F-$!+t)e]?#F*$
+\"+z'\\70#F-7&Fi`sFb`sFg`rFc_sFU-F$6&7&7%$\"+xx%3Z#F-$!*akQL&F*$!*pM/`
+&F*Fg`rFb`s7%$\"+%pOFP\"F-$!*dhVv$F*$\"+?M_b?F-7&F[bsFb`sFg\\s7%$\"+di
+$[Q\"F-$\"+7];A>F-$\"+#po/1(F*7&FcbsFg\\sFg`rFdasFU-F$6&7&7%$\"+q(*)p#
+))F*$!+k$Q_B#F-$\"+ulh#z&F*FhbrF]]r7%$!+)Q)[B7F-$!+*y`Z3#F-$!+LNhv^F*7
+&FecsF]]r7%$!+tzu&4\"F-$!+!*)=BM\"F-$\"+Ki&*>>F-7%$!+sCG:5F-$!+a7U89F-
+$\"+Qhob<F-7&FddsF]dsFhbrF^csFU-F$6&7&7%$\"+IFkK**F*$!+$[hF:#F-$\"+R&e
+-+(F*FhbrF]ds7%$!+`<<Z!*F*$!+tV%4L\"F-$\"+N.Xw=F-7&FfesF]dsFb`s7%$\"+J
+\"[*37F-$!+\"3CEq#F*$\"+r4DR@F-7&F^fsFb`sFhbrF_esFU-F$6&7&7%$!+fy\\v8F
+-$!+ai^$)>F-$!+5?ON`F*F]]rFdhr7%$!+z$4:Y#F-$!()f7!)F-$\"+e,:yAF*7&F`gs
+FdhrF]ds7%$!+U>Hn6F-$!+>P=78F-$\"+\"H6(R<F-7&FhgsF]dsF]]rFifsFU-F$6&7&
+7%$!+'QchZ)F*$\"+I;)e>\"F-$\"+I&z0*>F-7%$!+)[*e[$*F*$\"+qn_r8F-$\"+\\y
+M$)>F-Fb`s7%$\"+s<FD6F-$!+uN^!=\"F*$\"+,D\"z>#F-7&FaisFb`sF]ds7%$!+[`$
+R))*F*$!+ALty6F-$\"+l=6N>F-7&FiisF]dsFjhsFchsFU-F$6&7&7%$!+pd*)45F-$\"
++_jZ27F-$\"+a,21>F-FjhsF]ds7%$!+lOn]6F-$!+,'Qr;\"F-$\"+*[-1&=F-7&F[[tF
+]dsFdhr7%$!+-6*[W#F-$\"+9_Kq8F*$\"*9iqQ$F-7&Fc[tFdhrFjhsFdjsFU-F$6&7&7
+%$!+2N'*35F-$\"+2/Ze8F-$\"+9S4-=F-FjhsFdhr7%$!+S)eRW#F-$\"+mdE!)GF*$\"
++W2IZBF*7&Fe\\tFdhrF[gr7%$!+**Q;I6F-$\"+A1ta@F-$!+edsoVF*7&F]]tF[grFjh
+sF^\\tFU-F$6&7&7%$!+o?2h%)F*$\"+W^>S9F-$\"+.EMA=F-FjhsF[gr7%$!+%)f2t'*
+F*$\"+f`XOAF-$!+t)Ri;%F*7&F_^tF[grFg\\s7%$\"+m(z)Q6F-$\"+%yqf3#F-$\"+K
+-*>!oF*7&Fg^tFg\\sFjhsFh]tFU-F$6&7&7%$!++u)QY(F*$\"+a(4(R8F-$\"+eI$)Q>
+F-FjhsFg\\s7%$\"+L#)fQ7F-$\"+%R&[&)>F-$\"+&y%*o'zF*7&Fi_tFg\\sFb`s7%$
+\"+q')\\E7F-$\")mnxDF-$\"+Hg;Y@F-7&Fa`tFb`sFjhsFb_tFU-%(SCALINGG6#%,CO
+NSTRAINEDG-%&TITLEG6#Q1Nested~Polyhedra6\"" 1 2 0 1 10 0 2 1 1 1 1 
+1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" "Curve 3" "Curve \+
+4" "Curve 5" "Curve 6" "Curve 7" "Curve 8" "Curve 9" "Curve 10" "Curve
+ 11" "Curve 12" "Curve 13" "Curve 14" "Curve 15" "Curve 16" "Curve 17
+" "Curve 18" "Curve 19" "Curve 20" "Curve 21" "Curve 22" "Curve 23" "C
+urve 24" "Curve 25" "Curve 26" "Curve 27" "Curve 28" "Curve 29" "Curve
+ 30" "Curve 31" "Curve 32" "Curve 33" "Curve 34" "Curve 35" "Curve 36
+" "Curve 37" "Curve 38" "Curve 39" "Curve 40" "Curve 41" "Curve 42" "C
+urve 43" "Curve 44" "Curve 45" "Curve 46" "Curve 47" "Curve 48" "Curve
+ 49" "Curve 50" "Curve 51" "Curve 52" "Curve 53" "Curve 54" "Curve 55
+" "Curve 56" "Curve 57" "Curve 58" "Curve 59" "Curve 60" "Curve 61" "C
+urve 62" "Curve 63" "Curve 64" "Curve 65" "Curve 66" "Curve 67" "Curve
+ 68" "Curve 69" "Curve 70" "Curve 71" "Curve 72" "Curve 73" "Curve 74
+" "Curve 75" "Curve 76" "Curve 77" "Curve 78" "Curve 79" "Curve 80" }}
+{TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "with(plots): with(
+plottools):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "p := seq( cu
+tout(v, 4/5), v=stellate(dodecahedron(), 3) ):" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 47 "q := cutout(icosahedron([0, 0, 0], 2.2), 7/8):\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "display( p, q, scaling=CONST
+RAINED, title=\"Nested Polyhedra\" );\n" }}{PARA 13 "" 1 "" {GLPLOT3D 
+595 595 595 {PLOTDATA 3 "6^p-%)POLYGONSG6&7&7%$\"+GU?.')!#5$!+%y*e$G\"
+!\"*$!+CewQ<F-7%$\"+o[fC#*F*$!+#eNLN\"F-$!+*zTq&>F-7%$\"+Ri>dzF*$!+Bhs
+*f'F*$!+V/&yx#F*7%$\"+D`G*e(F*$!+yS**)G(F*$!+,Ug`RF*7&F>F77%$\"+-R8r6F
+*$!+w:^+5F-$!+t#*e@OF*7%$\"+caVg@F*$!+z0L,5F-$!+l_fGYF*7&FMFFF0F'-%&ST
+YLEG6#%,PATCHNOGRIDG-F$6&7&7%$\"+\"p)ytyF*$!+(>y$y7F-$!+O5vw<F-F0FF7%$
+\"+=*>5V\"F*$!+=**=h**F*$!+!RZ%3]F*7&F]oFF7%$!+Co.%)HF*$!+r!))z\"eF*$!
++;Bjv%)F*7%$!+jm6$*=F*$!+nx[6mF*$!+D=o\"*))F*7&F\\pFeoF0FfnFU-F$6&7&7%
+$\"+;!zz(yF*$!++&40@\"F-$!+bh[B=F-F0Feo7%$!+Qj#*))=F*$!+'z+G$fF*$!+6I.
+f$*F*7&F^qFeo7%$\"+v())RB\"F*$\"+!)z)=v\"!#6$!+2d=j5F-7%$\"+TT\\&[\"F*
+$!+,$f#Q6F*$!+\"G,%36F-7&F^rFfqF0FgpFU-F$6&7&7%$\"+;V)*4')F*$!+Dfxt6F-
+$!+M[Q9=F-F0Ffq7%$\"+U%*\\<AF*$!*cN#4xF*$!+h**H*4\"F-7&F`sFfq7%$\"+(oU
+g*zF*$!+#))=&zIF[r$!+5UV5rF*7%$\"+sD9FwF*$!+/hVd6F*$!+?8'e<)F*7&F_tFhs
+F0FirFU-F$6&7&7%$\"+[\")>e!*F*$!+C?%*=7F-$!+!zC?w\"F-F0Fhs7%$\"+.kNv!)
+F*$!+*4(44;F*$!+x3E_wF*7&FauFhsF77%$\"+X#zU/)F*$!+([;Dk'F*$!+kQ>'=%F*7
+&FiuF7F0FjtFU-F$6&7&7%$!+UvB,7F-$\"+`YZV=F*$!+LyX$)>F-7%$!+'[jBI\"F-$
+\"+\"4_QG\"F*$!+k4&3>#F-7%$!+7^lD')F*$\"+#foVW%F*$!+i5c?XF*7%$!+E;*R\\
+)F*$\"+ay)=P%F*$!+q%>U#fF*7&FiwFbw7%$!+zIs_AF*$\"+?Sn<lF*$!+1')[(=)F*7
+%$!++gk&R$F*$\"+'>K0.'F*$!+0:wd))F*7&FhxFaxF[wFdvFU-F$6&7&7%$!+$e1b8\"
+F-$\"+nE')e:F*$!+2)*>C?F-F[wFax7%$!+2kLQFF*$\"+5-#fu&F*$!+R7=l#*F*7&Fj
+yFaxFfq7%$\")wI.^F*$\"*K?$>nF*$!+,w1A6F-7&FbzFfqF[wFcyFU-F$6&7&7%$!+3?
+QS6F-$\"*%>&[O(F*$!+l27E?F-F[wFfq7%$\"(F)yAF*$!*SaW]\"F*$!+f&))R7\"F-7
+&Fd[lFfqFeo7%$!+`;9sLF*$!+Op)\\%\\F*$!+*y0\\^*F*7&F\\\\lFeoF[wF][lFU-F
+$6&7&7%$!+Yh747F-$\"*^*RG^F*$!+4gc')>F-F[wFeo7%$!+HIefSF*$!+z@jo^F*$!+
+H#e$>\"*F*7&F^]lFeo7%$!+j=jx!*F*$!+a)*[zJF*$!+pOk)p%F*7%$!+g!fW$*)F*$!
++0O$y0$F*$!+6tw(4'F*7&F]^lFf]lF[wFg\\lFU-F$6&7&7%$!+MptY7F-$\"+hq*p>\"
+F*$!+n))>g>F-F[wFf]l7%$!+Ypc5$*F*$!+&\\wOP#F*$!+$*e4MeF*7&F__lFf]lFbw7
+%$!+Yb)*[*)F*$\"+i-TDPF*$!+3)H;p&F*7&Fg_lFbwF[wFh^lFU-F$6&7&7%$\"+'=s1
+,\"F-$\"+e`^_7F-$!+wf_z;F-7%$\"+mX@\"3\"F-$\"++^^C8F-$!+v4\\%*=F-7%$\"
++*RCWN#F*$\"+vZSa**F*$!+dHObJF*7%$\"+b[aSLF*$\"+.mb#*)*F*$!+GBijTF*7&F
+galF`al7%$\"+&)*4&)o)F*$\"+pf$ft&F*$!+Lnq*[#F*7%$\"+CL\"yS)F*$\"+f:y<l
+F*$!+\\t4JOF*7&FfblF_blFi`lFb`lFU-F$6&7&7%$\"+vHG[5F-$\"+Z'*4%=\"F-$!+
+=J*eq\"F-Fi`lF_bl7%$\"+57#Ry)F*$\"+ZWiLeF*$!+m(oZ*QF*7&FhclF_blFhs7%$
+\"+st%*H#)F*$\"*iT^)**F*$!+Z2N\"f(F*7&F`dlFhsFi`lFaclFU-F$6&7&7%$\"+p;
+'e)**F*$\"+**z-Z6F-$!+?T<g<F-Fi`lFhs7%$\"+\"HzHt(F*$\"*%o(zF'F*$!+q2;M
+\")F*7&FbelFhsFfq7%$\"+hhLBBF*$\"+K-J95F*$!+1*H^4\"F-7&FjelFfqFi`lF[el
+FU-F$6&7&7%$\"+>1h-$*F*$\"+s@`#>\"F-$!+$[atw\"F-Fi`lFfq7%$\"+6^3S;F*$
+\"+g>Np9F*$!+o-J-6F-7&F\\glFfqFax7%$!+sVG\\6F*$\"+P,MVlF*$!+8zgn!*F*7&
+FdglFaxFi`lFeflFU-F$6&7&7%$\"+FjIx$*F*$\"+Xpsd7F-$!+*=6vr\"F-Fi`lFax7%
+$!+l')eu5F*$\"+pyG&>(F*$!+t\\<p&)F*7&FfhlFaxF`al7%$\"+=$H6h#F*$\"+tCnW
+**F*$!+aWZVXF*7&F^ilF`alFi`lF_hlFU-F$6&7&7%$\"+!yj*>BF-$!+b!o8N\"F*$!+
+7a&z-\"F*7%$\"+a@qSDF-$!+oC(>Y\"F*$!+$*>F&*=F*7%$\"+j=jx!*F*$\"+a)*[zJ
+F*$\"+pOk)p%F*7%$\"+1Eh85F-$\"+.=!=O#F*$\"+=r<ZUF*7&F^[mFgjl7%$\"+7^lD
+')F*$!+#foVW%F*$\"+i5c?XF*7%$\"+eYau(*F*$!+a\\GPPF*$\"+K5r/TF*7&F]\\mF
+f[mF`jlFiilFU-F$6&7&7%$\"+4U\\7BF-$!+'y:L+#F*$!+`$)QE:F*F`jlFf[m7%$\"+
+]*[)*p*F*$!+'oK#*Q%F*$\"+\"4yig$F*7&F_]mFf[mF77%$\"+^=3l\"*F*$!+5(=N6'
+F*$!+86XKAF*7&Fg]mF7F`jlFh\\mFU-F$6&7&7%$\"+$z'H3BF-$!+tYbF<F*$!+Q!)y,
+BF*F`jlF77%$\"+*o2J7*F*$!+(fdx$eF*$!+)z]y+$F*7&Fi^mF7Fhs7%$\"+[[=a\"*F
+*$!*4#QV!)F*$!+6y\"RZ'F*7&Fa_mFhsF`jlFb^mFU-F$6&7&7%$\"+=A<8BF-$!*+s<0
+*F*$!+d%yDG#F*F`jlFhs7%$\"+)4RH?*F*$\")k#R!=F*$!+J#3ZX'F*7&Fc`mFhsF_bl
+7%$\"+OH\"pv*F*$\"+\\&\\J&[F*$!+\\i7eFF*7&F[amF_blF`jlF\\`mFU-F$6&7&7%
+$\"+7GQ?BF-$!*%3\"os'F*$!+)f1`\\\"F*F`jlF_bl7%$\"+!))=!H)*F*$\"+mck&3&
+F*$!+!Ra3(>F*7&F]bmF_blFgjl7%$\"+Q;.95F-$\"+u()[SIF*$\"+Jf#)zPF*7&Febm
+FgjlF`jlFfamFU-F$6&7&7%$\"+dvSs\"*F*$!+,4#41#F-$\"+;gXxcF*7%$\"+Oq8f5F
+-$!+ctF^AF-$\"+WPQycF*7%$\"+zIs_AF*$!+?Sn<lF*$\"+1')[(=)F*7%$\"+L(*[,D
+F*$!+u$HJ\"yF*$\"+0*RZo(F*7&FedmF^dm7%$!+*RCWN#F*$!+vZSa**F*$\"+dHObJF
+*7%$!+]#GU=\"F*$!+)R^i0\"F-$\"+'QR!fOF*7&FdemF]emFgcmF`cmFU-F$6&7&7%$
+\"+7;I+\"*F*$!+70<%3#F-$\"+dT=!*[F*FgcmF]em7%$!+&>MjD\"F*$!+45]z5F-$\"
++FvwrGF*7&FffmF]emFF7%$\"+YC6k:F*$!+))yb$3\"F-$!+dUz\\DF*7&F^gmFFFgcmF
+_fmFU-F$6&7&7%$\"+))Hu(y*F*$!+))f!=1#F-$\"+(fOY\\%F*FgcmFF7%$\"+AQb^AF
+*$!+kL>h5F-$!+<=MXHF*7&F`hmFFF77%$\"+\"p./o(F*$!+G>i()yF*$!+`2NqAF*7&F
+hhmF7FgcmFigmFU-F$6&7&7%$\"+26ZG5F-$!+SVtC?F-$\"+>mWP]F*FgcmF77%$\"+s<
+Px\")F*$!+]a!p^(F*$!+I2aF<F*7&FjimF7Ff[m7%$\"+q)Q@r)F*$!+E%>Ez&F*$\"+u
+%)=6TF*7&FbjmFf[mFgcmFcimFU-F$6&7&7%$\"+eGT/**F*$!+Et=C?F-$\"+B#p%odF*
+FgcmFf[m7%$\"+g1%=L)F*$!+'G\\ry&F*$\"+y5@U[F*7&Fd[nFf[mF^dm7%$\"+L]\\L
+KF*$!+GOzXuF*$\"+8JvvxF*7&F\\\\nF^dmFgcmF][nFU-F$6&7&7%$!+U8)*e7F-$!+j
+(oM'=F-$!+ahnXfF*7%$!+]\"3gJ\"F-$!+mgd\"3#F-$!+OtZ!p'F*7%$!+&)*4&)o)F*
+$!+pf$ft&F*$\"+Lnq*[#F*7%$!+5ib7!*F*$!+uy#3d'F*$\"+-6Z)R\"F*7&F\\^nFe]
+nFf]l7%$!+7P&QK*F*$!+#)4nDXF*$!+?#4AN%F*7&Fd^nFf]lF^]nFg\\nFU-F$6&7&7%
+$!+@:&4A\"F-$!+xd,k=F-$!+d()pwmF*F^]nFf]l7%$!+-bbV*)F*$!+A69JXF*$!+B=B
+$3&F*7&Ff_nFf]lFeo7%$!+r%z'oSF*$!+&pR>k'F*$!+TF#[5)F*7&F^`nFeoF^]nF__n
+FU-F$6&7&7%$!+;ki_6F-$!+\\*>&4>F-$!+I^*[g'F*F^]nFeo7%$!+@%GaQ$F*$!+B9)
+p4(F*$!+9\">I.)F*7&F`anFeoFF7%$!)S=HhF*$!+d$oY/\"F-$!+!o%y\\TF*7&FhanF
+FF^]nFi`nFU-F$6&7&7%$!++!H%[6F-$!+hg4P>F-$!+Ya\\HeF*F^]nFF7%$!)ywJ>F*$
+!+pWCs5F-$!+&*\\QuLF*7&FjbnFFF]em7%$!+>VwRGF*$!+!f(=o5F-$\"+*ywr/#F*7&
+FbcnF]emF^]nFcbnFU-F$6&7&7%$!+f*fT@\"F-$!+i[j3>F-$!+7d2AaF*F^]nF]em7%$
+!+6R2(\\$F*$!+\"RE(R5F-$\"+BlfaCF*7&FddnF]emFe]n7%$!+!QUVc)F*$!+p))[Aq
+F*$\"+V:2A>F*7&F\\enFe]nF^]nF]dnFU-F$6&7&7%$!+FjIx$*F*$!+Ypsd7F-$\"+)=
+6vr\"F-7%$!+mX@\"3\"F-$!+,^^C8F-$\"+u4\\%*=F-F]em7%$!+=$H6h#F*$!+tCnW*
+*F*$\"+aWZVXF*7&FefnF]emF^dm7%$\"+l')eu5F*$!+pyG&>(F*$\"+t\\<p&)F*7&F]
+gnF^dmF^fnFgenFU-F$6&7&7%$!+=1h-$*F*$!+t@`#>\"F-$\"+#[atw\"F-F^fnF^dm7
+%$\"+tVG\\6F*$!+Q,MVlF*$\"+8zgn!*F*7&F_hnF^dm7%$!+v())RB\"F*$!+!)z)=v
+\"F[r$\"+2d=j5F-7%$!+5^3S;F*$!+g>Np9F*$\"+o-J-6F-7&F^inFghnF^fnFhgnFU-
+F$6&7&7%$!+q;'e)**F*$!++!Gq9\"F-$\"+>T<g<F-F^fnFghn7%$!+ihLBBF*$!+L-J9
+5F*$\"+1*H^4\"F-7&F`jnFghn7%$!+(oUg*zF*$\"+#))=&zIF[r$\"+5UV5rF*7%$!+#
+HzHt(F*$!*%o(zF'F*$\"+q2;M\")F*7&F_[oFhjnF^fnFiinFU-F$6&7&7%$!+vHG[5F-
+$!+['*4%=\"F-$\"+<J*eq\"F-F^fnFhjn7%$!+st%*H#)F*$!*iT^)**F*$\"+Z2N\"f(
+F*7&Fa\\oFhjnFe]n7%$!+67#Ry)F*$!+[WiLeF*$\"+l(oZ*QF*7&Fi\\oFe]nF^fnFj[
+oFU-F$6&7&7%$!+'=s1,\"F-$!+f`^_7F-$\"+vf_z;F-F^fnFe]n7%$!+CL\"yS)F*$!+
+f:y<lF*$\"+[t4JOF*7&F[^oFe]nF]em7%$!+b[aSLF*$!+/mb#*)*F*$\"+GBijTF*7&F
+c^oF]emF^fnFd]oFU-F$6&7&7%$\"+MptY7F-$!+hq*p>\"F*$\"+n))>g>F-7%$\"+'[j
+BI\"F-$!+\"4_QG\"F*$\"+k4&3>#F-Ff[m7%$\"+Yb)*[*)F*$!+i-TDPF*$\"+3)H;p&
+F*7&F\\`oFf[mFgjl7%$\"+Ypc5$*F*$\"+&\\wOP#F*$\"+$*e4MeF*7&Fd`oFgjlFe_o
+F^_oFU-F$6&7&7%$\"+Yh747F-$!*^*RG^F*$\"+4gc')>F-Fe_oFgjl7%$\"+g!fW$*)F
+*$\"+0O$y0$F*$\"+6tw(4'F*7&FfaoFgjl7%$\"+Co.%)HF*$\"+r!))z\"eF*$\"+;Bj
+v%)F*7%$\"+HIefSF*$\"+z@jo^F*$\"+H#e$>\"*F*7&FeboF^boFe_oF_aoFU-F$6&7&
+7%$\"+3?QS6F-$!*%>&[O(F*$\"+l27E?F-Fe_oF^bo7%$\"+`;9sLF*$\"+Op)\\%\\F*
+$\"+*y0\\^*F*7&FgcoF^boFghn7%$!(F)yAF*$\"*SaW]\"F*$\"+f&))R7\"F-7&F_do
+FghnFe_oF`coFU-F$6&7&7%$\"+$e1b8\"F-$!+nE')e:F*$\"+2)*>C?F-Fe_oFghn7%$
+!)wI.^F*$!*K?$>nF*$\"+,w1A6F-7&FaeoFghnF^dm7%$\"+2kLQFF*$!+5-#fu&F*$\"
++R7=l#*F*7&FieoF^dmFe_oFjdoFU-F$6&7&7%$\"+UvB,7F-$!+`YZV=F*$\"+LyX$)>F
+-Fe_oF^dm7%$\"++gk&R$F*$!+'>K0.'F*$\"+0:wd))F*7&F[goF^dmFf[m7%$\"+E;*R
+\\)F*$!+ay)=P%F*$\"+q%>U#fF*7&FcgoFf[mFe_oFdfoFU-F$6&7&7%$\"+f*fT@\"F-
+$\"+i[j3>F-$\"+<d2AaF*7%$\"+]\"3gJ\"F-$\"+mgd\"3#F-$\"+UtZ!p'F*F_bl7%$
+\"+!QUVc)F*$\"+p))[AqF*$!+V:2A>F*7&F\\ioF_blF`al7%$\"+6R2(\\$F*$\"+\"R
+E(R5F-$!+AlfaCF*7&FdioF`alFehoF^hoFU-F$6&7&7%$\"++!H%[6F-$\"+hg4P>F-$
+\"+^a\\HeF*FehoF`al7%$\"+>VwRGF*$\"+!f(=o5F-$!+)ywr/#F*7&FfjoF`al7%$!+
+-R8r6F*$\"+w:^+5F-$\"+t#*e@OF*7%$\")ywJ>F*$\"+pWCs5F-$\"+'*\\QuLF*7&Fe
+[pF^[pFehoF_joFU-F$6&7&7%$\"+;ki_6F-$\"+\\*>&4>F-$\"+O^*[g'F*FehoF^[p7
+%$\")S=HhF*$\"+d$oY/\"F-$\"+\"o%y\\TF*7&Fg\\pF^[pF^bo7%$\"+@%GaQ$F*$\"
++B9)p4(F*$\"+:\">I.)F*7&F_]pF^boFehoF`\\pFU-F$6&7&7%$\"+@:&4A\"F-$\"+x
+d,k=F-$\"+i()pwmF*FehoF^bo7%$\"+r%z'oSF*$\"+&pR>k'F*$\"+TF#[5)F*7&Fa^p
+F^boFgjl7%$\"+-bbV*)F*$\"+A69JXF*$\"+C=B$3&F*7&Fi^pFgjlFehoFj]pFU-F$6&
+7&7%$\"+U8)*e7F-$\"+j(oM'=F-$\"+fhnXfF*FehoFgjl7%$\"+7P&QK*F*$\"+#)4nD
+XF*$\"+?#4AN%F*7&F[`pFgjlF_bl7%$\"+5ib7!*F*$\"+uy#3d'F*$!+,6Z)R\"F*7&F
+c`pF_blFehoFd_pFU-F$6&7&7%$!+eGT/**F*$\"+Et=C?F-$!+C#p%odF*7%$!+Oq8f5F
+-$\"+ctF^AF-$!+YPQycF*Fax7%$!+L]\\LKF*$\"+GOzXuF*$!+7JvvxF*7&F\\bpFaxF
+bw7%$!+g1%=L)F*$\"+'G\\ry&F*$!+x5@U[F*7&FdbpFbwFeapF^apFU-F$6&7&7%$!+2
+6ZG5F-$\"+SVtC?F-$!+@mWP]F*FeapFbw7%$!+q)Q@r)F*$\"+E%>Ez&F*$!+u%)=6TF*
+7&FfcpFbw7%$!+Ri>dzF*$\"+Bhs*f'F*$\"+V/&yx#F*7%$!+s<Px\")F*$\"+]a!p^(F
+*$\"+I2aF<F*7&FedpF^dpFeapF_cpFU-F$6&7&7%$!+))Hu(y*F*$\"+))f!=1#F-$!+*
+fOY\\%F*FeapF^dp7%$!+\"p./o(F*$\"+G>i()yF*$\"+_2NqAF*7&FgepF^dpF^[p7%$
+!+AQb^AF*$\"+kL>h5F-$\"+;=MXHF*7&F_fpF^[pFeapF`epFU-F$6&7&7%$!+7;I+\"*
+F*$\"+70<%3#F-$!+fT=!*[F*FeapF^[p7%$!+YC6k:F*$\"+))yb$3\"F-$\"+cUz\\DF
+*7&FagpF^[pF`al7%$\"+&>MjD\"F*$\"+45]z5F-$!+GvwrGF*7&FigpF`alFeapFjfpF
+U-F$6&7&7%$!+dvSs\"*F*$\"+,4#41#F-$!+<gXxcF*FeapF`al7%$\"+]#GU=\"F*$\"
++)R^i0\"F-$!+'QR!fOF*7&F[ipF`alFax7%$!+L(*[,DF*$\"+u$HJ\"yF*$!+0*RZo(F
+*7&FcipFaxFeapFdhpFU-F$6&7&7%$!+7GQ?BF-$\"*%3\"os'F*$\"+)f1`\\\"F*7%$!
++a@qSDF-$\"+oC(>Y\"F*$\"+$*>F&*=F*Ff]l7%$!+Q;.95F-$!+u()[SIF*$!+Jf#)zP
+F*7&F\\[qFf]lFe]n7%$!+!))=!H)*F*$!+mck&3&F*$\"+!Ra3(>F*7&Fd[qFe]nFejpF
+^jpFU-F$6&7&7%$!+=A<8BF-$\"*+s<0*F*$\"+d%yDG#F*FejpFe]n7%$!+OH\"pv*F*$
+!+\\&\\J&[F*$\"+\\i7eFF*7&Ff\\qFe]nFhjn7%$!+)4RH?*F*$!)k#R!=F*$\"+J#3Z
+X'F*7&F^]qFhjnFejpF_\\qFU-F$6&7&7%$!+$z'H3BF-$\"+tYbF<F*$\"+Q!)y,BF*Fe
+jpFhjn7%$!+[[=a\"*F*$\"*4#QV!)F*$\"+6y\"RZ'F*7&F`^qFhjnF^dp7%$!+*o2J7*
+F*$\"+(fdx$eF*$\"+)z]y+$F*7&Fh^qF^dpFejpFi]qFU-F$6&7&7%$!+4U\\7BF-$\"+
+'y:L+#F*$\"+`$)QE:F*FejpF^dp7%$!+^=3l\"*F*$\"+5(=N6'F*$\"+86XKAF*7&Fj_
+qF^dpFbw7%$!+]*[)*p*F*$\"+'oK#*Q%F*$!+\"4yig$F*7&Fb`qFbwFejpFc_qFU-F$6
+&7&7%$!+!yj*>BF-$\"+b!o8N\"F*$\"+7a&z-\"F*FejpFbw7%$!+eYau(*F*$\"+a\\G
+PPF*$!+K5r/TF*7&FdaqFbwFf]l7%$!+1Eh85F-$!+.=!=O#F*$!+=r<ZUF*7&F\\bqFf]
+lFejpF]aqFU-F$6&7&7%$!+[\")>e!*F*$\"+C?%*=7F-$\"+!zC?w\"F-7%$!+o[fC#*F
+*$\"+#eNLN\"F-$\"+*zTq&>F-F^dp7%$!+X#zU/)F*$\"+([;Dk'F*$\"+kQ>'=%F*7&F
+ecqF^dpFhjn7%$!+.kNv!)F*$\"+*4(44;F*$\"+x3E_wF*7&F]dqFhjnF^cqFgbqFU-F$
+6&7&7%$!+<V)*4')F*$\"+Dfxt6F-$\"+M[Q9=F-F^cqFhjn7%$!+sD9FwF*$\"+/hVd6F
+*$\"+?8'e<)F*7&F_eqFhjnFghn7%$!+V%*\\<AF*$\"*cN#4xF*$\"+h**H*4\"F-7&Fg
+eqFghnF^cqFhdqFU-F$6&7&7%$!+:!zz(yF*$\"++&40@\"F-$\"+bh[B=F-F^cqFghn7%
+$!+TT\\&[\"F*$\"+,$f#Q6F*$\"+\"G,%36F-7&FifqFghnF^bo7%$\"+Qj#*))=F*$\"
++'z+G$fF*$\"+6I.f$*F*7&FagqF^boF^cqFbfqFU-F$6&7&7%$!+\"p)ytyF*$\"+(>y$
+y7F-$\"+O5vw<F-F^cqF^bo7%$\"+jm6$*=F*$\"+nx[6mF*$\"+D=o\"*))F*7&FchqF^
+boF^[p7%$!+=*>5V\"F*$\"+=**=h**F*$\"+!RZ%3]F*7&F[iqF^[pF^cqF\\hqFU-F$6
+&7&7%$!+GU?.')F*$\"+%y*e$G\"F-$\"+CewQ<F-F^cqF^[p7%$!+caVg@F*$\"+z0L,5
+F-$\"+l_fGYF*7&F]jqF^[pF^dp7%$!+D`G*e(F*$\"+yS**)G(F*$\"+,Ug`RF*7&Fejq
+F^dpF^cqFfiqFU-F$6&7&7%$\"++u)QY(F*$!+a(4(R8F-$!+eI$)Q>F-7%$\"+)[*e[$*
+F*$!+qn_r8F-$!+\\yM$)>F-7%$!+?&p)>8F-$\"+*H46I\"F*$!+;)*H?AF-7%$!+q')
+\\E7F-$!)mnxDF-$!+Hg;Y@F-7&Fe\\rF^\\r7%$!+#f(pL8F-$!+tgb4@F-$!+4!4/y'F
+*7%$!+L#)fQ7F-$!+%R&[&)>F-$!+&y%*o'zF*7&Fd]rF]]rFg[rF`[rFU-F$6&7&7%$\"
++'QchZ)F*$!+I;)e>\"F-$!+I&z0*>F-Fg[r7%$\"+tzu&4\"F-$\"+!*)=BM\"F-$!+Ki
+&*>>F-7%$\"+[`$R))*F*$\"+ALty6F-$!+l=6N>F-7&F]_rFf^rF^\\r7%$!+s<FD6F-$
+\"+uN^!=\"F*$!+,D\"z>#F-7&Fe_rF^\\rFg[rF_^rFU-F$6&7&7%$\"+pd*)45F-$!+_
+jZ27F-$!+a,21>F-Fg[r7%$\"+:O&[d#F-$!+CRi\"[\"F*$!+\\xu?>F*7%$\"+-6*[W#
+F-$!+9_Kq8F*$!*9iqQ$F-7&F^arFg`rFf^r7%$\"+lOn]6F-$\"+,'Qr;\"F-$!+*[-1&
+=F-7&FfarFf^rFg[rF``rFU-F$6&7&7%$\"+2N'*35F-$!+2/Ze8F-$!+9S4-=F-Fg[r7%
+$\"+#otL2\"F-$!+W%Q:G#F-$\"+76radF*7%$\"+**Q;I6F-$!+A1ta@F-$\"+edsoVF*
+7&F_crFhbrFg`r7%$\"+S)eRW#F-$!+mdE!)GF*$!+W2IZBF*7&FgcrFg`rFg[rFabrFU-
+F$6&7&7%$\"+o?2h%)F*$!+W^>S9F-$!+.EMA=F-Fg[rF]]r7%$!+m(z)Q6F-$!+%yqf3#
+F-$!+K-*>!oF*7&FidrF]]rFhbr7%$\"+%)f2t'*F*$!+f`XOAF-$\"+t)Ri;%F*7&Faer
+FhbrFg[rFbdrFU-F$6&7&7%$!+J\"[*37F-$\"+\"3CEq#F*$!+r4DR@F-F^\\rFf^r7%$
+\"+`<<Z!*F*$\"+tV%4L\"F-$!+N.Xw=F-7&FcfrFf^r7%$!+#otL2\"F-$\"+W%Q:G#F-
+$!+76radF*7%$!+IFkK**F*$\"+$[hF:#F-$!+R&e-+(F*7&FbgrF[grF^\\rF\\frFU-F
+$6&7&7%$!+%pOFP\"F-$\"*dhVv$F*$!+?M_b?F-F^\\r7%$!+:O&[d#F-$\"+CRi\"[\"
+F*$\"+\\xu?>F*7%$!+xx%3Z#F-$\"*akQL&F*$\"*pM/`&F*7&F[irFdhrF]]r7%$!+di
+$[Q\"F-$!+7];A>F-$!+#po/1(F*7&FcirF]]rF^\\rF]hrFU-F$6&7&7%$!+k)*)=O\"F
+-$\"+t)e]?#F*$!+z'\\70#F-F^\\rF[gr7%$!+1g?Y6F-$\"+i\\+.@F-$!+?cC?hF*7&
+FejrF[grFdhr7%$!+Z4+gCF-$\"+p\"4IO#F*$\"*#)3y&fF*7&F][sFdhrF^\\rF^jrFU
+-F$6&7&7%$\"+U>Hn6F-$\"+>P=78F-$!+\"H6(R<F-Ff^rFg`r7%$\"+z$4:Y#F-$\"()
+f7!)F-$!+e,:yAF*7&F_\\sFg`r7%$\"+#f(pL8F-$\"+tgb4@F-$\"+4!4/y'F*7%$\"+
+fy\\v8F-$\"+ai^$)>F-$\"+5?ON`F*7&F^]sFg\\sFf^rFh[sFU-F$6&7&7%$\"+sCG:5
+F-$\"+a7U89F-$!+Qhob<F-Ff^rFg\\s7%$\"+)Q)[B7F-$\"+*y`Z3#F-$\"+LNhv^F*7
+&F`^sFg\\sF[gr7%$!+q(*)p#))F*$\"+k$Q_B#F-$!+ulh#z&F*7&Fh^sF[grFf^rFi]s
+FU-F$6&7&7%$\"+Z4+gCF-$!+p\"4IO#F*$!*#)3y&fF*Fg`rFhbr7%$\"+1g?Y6F-$!+i
+\\+.@F-$\"+?cC?hF*7&Fj_sFhbr7%$\"+?&p)>8F-$!+*H46I\"F*$\"+;)*H?AF-7%$
+\"+k)*)=O\"F-$!+t)e]?#F*$\"+z'\\70#F-7&Fi`sFb`sFg`rFc_sFU-F$6&7&7%$\"+
+xx%3Z#F-$!*akQL&F*$!*pM/`&F*Fg`rFb`s7%$\"+%pOFP\"F-$!*dhVv$F*$\"+?M_b?
+F-7&F[bsFb`sFg\\s7%$\"+di$[Q\"F-$\"+7];A>F-$\"+#po/1(F*7&FcbsFg\\sFg`r
+FdasFU-F$6&7&7%$\"+q(*)p#))F*$!+k$Q_B#F-$\"+ulh#z&F*FhbrF]]r7%$!+)Q)[B
+7F-$!+*y`Z3#F-$!+LNhv^F*7&FecsF]]r7%$!+tzu&4\"F-$!+!*)=BM\"F-$\"+Ki&*>
+>F-7%$!+sCG:5F-$!+a7U89F-$\"+Qhob<F-7&FddsF]dsFhbrF^csFU-F$6&7&7%$\"+I
+FkK**F*$!+$[hF:#F-$\"+R&e-+(F*FhbrF]ds7%$!+`<<Z!*F*$!+tV%4L\"F-$\"+N.X
+w=F-7&FfesF]dsFb`s7%$\"+J\"[*37F-$!+\"3CEq#F*$\"+r4DR@F-7&F^fsFb`sFhbr
+F_esFU-F$6&7&7%$!+fy\\v8F-$!+ai^$)>F-$!+5?ON`F*F]]rFdhr7%$!+z$4:Y#F-$!
+()f7!)F-$\"+e,:yAF*7&F`gsFdhrF]ds7%$!+U>Hn6F-$!+>P=78F-$\"+\"H6(R<F-7&
+FhgsF]dsF]]rFifsFU-F$6&7&7%$!+'QchZ)F*$\"+I;)e>\"F-$\"+I&z0*>F-7%$!+)[
+*e[$*F*$\"+qn_r8F-$\"+\\yM$)>F-Fb`s7%$\"+s<FD6F-$!+uN^!=\"F*$\"+,D\"z>
+#F-7&FaisFb`sF]ds7%$!+[`$R))*F*$!+ALty6F-$\"+l=6N>F-7&FiisF]dsFjhsFchs
+FU-F$6&7&7%$!+pd*)45F-$\"+_jZ27F-$\"+a,21>F-FjhsF]ds7%$!+lOn]6F-$!+,'Q
+r;\"F-$\"+*[-1&=F-7&F[[tF]dsFdhr7%$!+-6*[W#F-$\"+9_Kq8F*$\"*9iqQ$F-7&F
+c[tFdhrFjhsFdjsFU-F$6&7&7%$!+2N'*35F-$\"+2/Ze8F-$\"+9S4-=F-FjhsFdhr7%$
+!+S)eRW#F-$\"+mdE!)GF*$\"+W2IZBF*7&Fe\\tFdhrF[gr7%$!+**Q;I6F-$\"+A1ta@
+F-$!+edsoVF*7&F]]tF[grFjhsF^\\tFU-F$6&7&7%$!+o?2h%)F*$\"+W^>S9F-$\"+.E
+MA=F-FjhsF[gr7%$!+%)f2t'*F*$\"+f`XOAF-$!+t)Ri;%F*7&F_^tF[grFg\\s7%$\"+
+m(z)Q6F-$\"+%yqf3#F-$\"+K-*>!oF*7&Fg^tFg\\sFjhsFh]tFU-F$6&7&7%$!++u)QY
+(F*$\"+a(4(R8F-$\"+eI$)Q>F-FjhsFg\\s7%$\"+L#)fQ7F-$\"+%R&[&)>F-$\"+&y%
+*o'zF*7&Fi_tFg\\sFb`s7%$\"+q')\\E7F-$\")mnxDF-$\"+Hg;Y@F-7&Fa`tFb`sFjh
+sFb_tFU-%(SCALINGG6#%,CONSTRAINEDG-%&TITLEG6#Q1Nested~Polyhedra6\"" 1 
+2 0 1 10 0 2 1 1 1 1 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve
+ 2" "Curve 3" "Curve 4" "Curve 5" "Curve 6" "Curve 7" "Curve 8" "Curve
+ 9" "Curve 10" "Curve 11" "Curve 12" "Curve 13" "Curve 14" "Curve 15" 
+"Curve 16" "Curve 17" "Curve 18" "Curve 19" "Curve 20" "Curve 21" "Cur
+ve 22" "Curve 23" "Curve 24" "Curve 25" "Curve 26" "Curve 27" "Curve 2
+8" "Curve 29" "Curve 30" "Curve 31" "Curve 32" "Curve 33" "Curve 34" "
+Curve 35" "Curve 36" "Curve 37" "Curve 38" "Curve 39" "Curve 40" "Curv
+e 41" "Curve 42" "Curve 43" "Curve 44" "Curve 45" "Curve 46" "Curve 47
+" "Curve 48" "Curve 49" "Curve 50" "Curve 51" "Curve 52" "Curve 53" "C
+urve 54" "Curve 55" "Curve 56" "Curve 57" "Curve 58" "Curve 59" "Curve
+ 60" "Curve 61" "Curve 62" "Curve 63" "Curve 64" "Curve 65" "Curve 66
+" "Curve 67" "Curve 68" "Curve 69" "Curve 70" "Curve 71" "Curve 72" "C
+urve 73" "Curve 74" "Curve 75" "Curve 76" "Curve 77" "Curve 78" "Curve
+ 79" "Curve 80" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 292 2 "
+2." }{TEXT -1 163 " Cum puteti vedea in Maple daca o functie este part
+e a nucleului, sau este scrisa in limbajul Maple? \nIndicatie: incerca
+ti sa vedeti codul Maple pentru  comenzile " }{TEXT 256 4 "diff" }
+{TEXT -1 5 " sau " }{TEXT 257 3 "int" }{TEXT -1 2 ". " }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "print(diff);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*6\"F$6$/%(builti
+nG%%diffG%)rememberGF$F$F$F$F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 11 "print(int);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*6\"6#%'answer
+G6#%fnCopyright~(c)~1997~Waterloo~Maple~Inc.~All~rights~reserved.GF$C)
+@$3/9#\"\"#-%%typeG6$&9\"6#F.-%\"=G6$.%%nameG.<$;%*algebraicG-%(comple
+xG6#%&floatG;F>F=Z%C$>8$-%&evalfG6#-.%$intG6#F3@$-F06$FF.F>OFFF$F$>%/_
+EnvIntWarningG-%&evalbG6#51-%+kerneloptsG6#.%&levelG\"#B31FZ\"#\\/%>_E
+nv_assuming_recursion_levelG\"\"!@$FT>FT-%,SimpleQueueGF$@$-%$hasG6$7#
+F3<$.%-AllSolutionsG/Fjo%%trueG>%1_EnvAllSolutionsGF]p>FF-%(int/intG6'
+Fho%'DigitsG%9_EnvCauchyPrincipalValueGF_p%/_EnvContinuousG@$/FF%%FAIL
+GYQDwrong~number~(or~type)~of~argumentsF$FFF$F$F$" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 25 "interface(verboseproc=2);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "
+print(int);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*6\"6#%'answerG6#%fnCo
+pyright~(c)~1997~Waterloo~Maple~Inc.~All~rights~reserved.GF$C)@$3/9#\"
+\"#-%%typeG6$&9\"6#F.-%\"=G6$.%%nameG.<$;%*algebraicG-%(complexG6#%&fl
+oatG;F>F=Z%C$>8$-%&evalfG6#-.%$intG6#F3@$-F06$FF.F>OFFF$F$>%/_EnvIntWa
+rningG-%&evalbG6#51-%+kerneloptsG6#.%&levelG\"#B31FZ\"#\\/%>_Env_assum
+ing_recursion_levelG\"\"!@$FT>FT-%,SimpleQueueGF$@$-%$hasG6$7#F3<$.%-A
+llSolutionsG/Fjo%%trueG>%1_EnvAllSolutionsGF]p>FF-%(int/intG6'Fho%'Dig
+itsG%9_EnvCauchyPrincipalValueGF_p%/_EnvContinuousG@$/FF%%FAILGYQDwron
+g~number~(or~type)~of~argumentsF$FFF$F$F$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 293 2 "3." }
+{TEXT -1 28 " Explicati diferenta dintre " }{TEXT 258 3 "int" }{TEXT 
+-1 4 " si " }{TEXT 259 3 "Int" }{TEXT -1 26 ". Ilustrati cu un exemplu
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 
+7 "Solutie" }}{PARA 0 "" 0 "" {TEXT 260 4 "Int " }{TEXT 261 24 "este f
+orma inerta a lui " }{TEXT 262 3 "int" }{TEXT 263 2 ". " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Int(x*s
+in(x),x=0..Pi)=int(x*sin(x),x=0..Pi);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/-%$IntG6$*&%\"xG\"\"\"-%$sinG6#F(F)/F(;\"\"!%#PiGF0" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" 
+{TEXT 294 2 "4." }{TEXT -1 10 " Vizitati " }{URLLINK 17 "http://www.ma
+ppleapps.com" 4 "http://www.mappleapps.com" "" }{TEXT -1 198 " si inca
+rcati un worksheet. Executati-l si raportati dupa experienta dumneavoa
+stra, raspunzand la urmatoarele intrebari: de ce ati ales acest worksh
+eet si ce invatati dupa executarea worksheet-ului?" }}}{SECT 1 {PARA 
+0 "" 0 "" {TEXT 295 2 "5." }{TEXT -1 89 " Faceti un worksheet cu conti
+nutul acestei teme. Folositi sectiuni si instructiuni Maple." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 296 2 "6." }
+{TEXT -1 339 " Comanda kernelopts(bytesalloc) returneaza numarul total
+ de octeti alocati de nucleul matematic Maple. Executati aceasta coman
+da intr-un worksheet standard, intr-unul clasic si in versiunea linie \+
+de comanda Maple. Comparati valorile returnate de aceasta comanda si e
+xplicati de ce lansarea Maple in modul Standard Worksheet este mai len
+ta." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT 
+-1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 23 "kernelopts(bytesalloc);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"(;yA#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}}}{SECT 1 {PARA 12 "" 0 "" {TEXT 297 2 "7." }{TEXT -1 34 " Se consi
+dera sesiunea Maple:\n    " }{TEXT 0 10 "> 4^2;    " }{TEXT -1 123 "  \+
+                                                     \n               \+
+                                             16\n    " }{TEXT 0 6 "> 2
+^3;" }{TEXT -1 66 "\n                                                 \+
+           8\n   " }{TEXT 0 7 "> %+%%;" }{TEXT -1 199 "\n             \+
+                                               24\nExplicati cum a fos
+t obtinut rezultatul 24 la executia ultimei instructiuni. Ce se intamp
+la daca executati repetat ultima instructiune?" }}{SECT 1 {PARA 4 "" 
+0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 11 "%=8; %%=16;" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 4 "4^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 4 "2^3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\")
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "%+%%;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#C" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "%+%
+%;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#K" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 5 "%+%%;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#c" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 111 "Se aduna ultimele doua expresii 2
+4+8, 32+24, 56+32, ... un fel de sir Fibonacci cu valorile de pornire \+
+8 si 24." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 298 2 "8." }{TEXT -1 76 " Explicati rezultatele diferite obtin
+ute dupa urmatoarel comenzi Maple: (a) " }{TEXT 264 3 "x:y" }{TEXT 
+267 1 ";" }{TEXT -1 5 " (b) " }{TEXT 265 3 "x/y" }{TEXT 268 1 ";" }
+{TEXT -1 5 " (c) " }{TEXT 266 3 "x\\y" }{TEXT -1 1 ";" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+4 "x:y;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"yG" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 60 "Secventa x evaluat, dar nu listat, apoi y evaluat \+
+si listat." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 4 "x/y;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&%\"xG\"\"
+\"%\"yG!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "x\\y;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%#xyG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 23 "Concatenare, continuare" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 299 2 "9." }{TEXT -1 101 " Explicat
+i diferenta dintre Pi si pi in Maple. Dati comenzi Maple care evidenti
+aza aceasta diferenta." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 
+{PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 18 "Pi
+ este constanta " }{XPPEDIT 18 0 "Pi;" "6#%#PiG" }{TEXT -1 51 ". pi es
+te variabila simbolica, afisata in Maple ca " }{XPPEDIT 18 0 "Pi;" "6#
+%#PiG" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "Pi; pi;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#PiG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#piG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "evalf(Pi); evalf(pi);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+aEfTJ!\"*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#piG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "sin
+(Pi); sin(pi);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%$sinG6#%#piG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 300 3 "10." }
+{TEXT -1 21 " Executati comenzile " }{TEXT 269 16 "evalf(tan(Pi/2))" }
+{TEXT -1 4 " si " }{TEXT 270 16 "tan(evalf(Pi/2))" }{TEXT -1 146 " si \+
+interpretati rezultatele. De ce dau aceste comenzi rezultate diferite?
+ Care din cele doua comenzi da rezultatul corect? Comparati de asemene
+a " }{TEXT 271 14 "evalf(tan(Pi))" }{TEXT -1 4 " cu " }{TEXT 272 14 "t
+an(evalf(Pi))" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "evalf(tan(Pi/2));
+" }}{PARA 8 "" 1 "" {TEXT -1 52 "Error, (in tan) numeric exception: di
+vision by zero\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "tan(eva
+lf(Pi/2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+P+fv[\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "tan(Pi/2);" }}{PARA 8 "" 1 "
+" {TEXT -1 52 "Error, (in tan) numeric exception: division by zero\n" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(tan(Pi));" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#$\"\"!F$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "tan(evalf(Pi));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"+:w1-T!#>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 
+1 {PARA 0 "" 0 "" {TEXT 318 3 "11." }{TEXT -1 290 " Un \"scurt-circuit
+\" este o combinatie de taste ce furnizeaza un acces rapid la facilita
+tile oferite de meniu. Cum puteti gasi o trecere in revista in sistemu
+l de help a tuturor scurtcircuitelor din Windows? Dati calea in help b
+rowser care conduce la frunza Shortcut Key Summary for Windows." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "So
+lutie" }}{PARA 0 "" 0 "" {TEXT -1 52 "De exemplu Help=>Topic search->s
+hortcut_keys,windows" }}{PARA 0 "" 0 "" {TEXT -1 81 "Calea in Help Bro
+wser: Advanced features->Shortcuts->Worksheet Interface->Windows" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 319 3 
+"12." }{TEXT -1 270 " Dati comanda (sau comenzile) Maple de vizualizar
+e a paginii de help pentru conversia unei expresii algebrice in forma \+
+de fractie continua. Scrieti titlurile subiectelor evidentiate in cele
+ 5 coloane de la varful Maple's Help Browser cand se vizualizeaza acea
+sta pagina." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 16 "?convert/confrac" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 80 "Mathematics->Numerical Computations->Aproximations->Co
+ntinued Fractions->confrac" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}}
+{SECT 1 {PARA 0 "" 0 "" {TEXT 320 3 "13." }{TEXT -1 137 " Tema urmatoa
+re are ca scop dezvoltarea abilitatilor dumneavoastra de a folosi sist
+emul de help Maple:\n(a) Dandu-se o ecuatie, cum ar fi " }{XPPEDIT 18 
+0 "ln(10*x) = x*ln(10);" "6#/-%#lnG6#*&\"#5\"\"\"%\"xGF)*&F*F)-F%6#F(F
+)" }{TEXT -1 117 ", cum se poate selecta membrul stang si membrul drep
+t?\n(b) O aproximatie cu fractii continue de ordinul patru al lui " }
+{XPPEDIT 18 0 "exp(x);" "6#-%$expG6#%\"xG" }{TEXT -1 5 " este" }}
+{PARA 0 "" 0 "" {TEXT -1 38 "                                      " }
+{XPPEDIT 18 0 "1+x/(1+x/(-2-x/3));" "6#,&\"\"\"F$*&%\"xGF$,&F$F$*&F&F$
+,&\"\"#!\"\"*&F&F$\"\"$F+F+F+F$F+F$" }{TEXT -1 1 "." }}{PARA 0 "" 0 "
+" {TEXT -1 70 "Gasiti comanda Maple pentru a determina acest rezultat.
+\n(c) Polinomul " }{XPPEDIT 18 0 "p(x) = 2*x^5+x+4;" "6#/-%\"pG6#%\"xG
+,(*&\"\"#\"\"\"*$F'\"\"&F+F+F'F+\"\"%F+" }{TEXT -1 131 " se factorizea
+za peste   Z7 = \{0; 1; 2; 3; 4; 5; 6\}.\nGasiti o factorizare a lui p
+(x) peste Z7.\n(d) Fie S = \{1; 2; 3; 4; 5\}, gasiti " }{XPPEDIT 18 0 
+"2^S;" "6#)\"\"#%\"SG" }{TEXT -1 71 ", adica multimea partilor lui S (
+multimea tuturor submultimilor lui S)." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(a)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "ln(10*x)=x*ln(10);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/-%#lnG6#,$*&\"#5\"\"\"%\"xGF*F**&F+F*-F%6#F
+)F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "lhs(%); rhs(%%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#lnG6#,$*&\"#5\"\"\"%\"xGF)F)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&%\"xG\"\"\"-%#lnG6#\"#5F%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(b)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "convert(exp(
+x),confrac,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"\"F$*&%\"xGF$,
+&F$F$*&F&F$,&\"\"#!\"\"*&F&F$,&\"\"$F+*&F&F$,&F*F$*&\"\"&F+F&F$F$F+F$F
++F$F+F$F+F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "convert(exp(
+x),confrac,x,4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"\"F$*&%\"xGF
+$,&F$F$*&F&F$,&\"\"#!\"\"*&\"\"$F+F&F$F+F+F$F+F$" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(c)
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "p:=2*x^5+x+4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*&\"
+\"#\"\"\")%\"xG\"\"&F(F(F*F(\"\"%F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "Factor(p) mod 7;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+$**\"\"#\"\"\",(*$)%\"xGF%F&F&*&\"\"&F&F*F&F&\"\"$F&F&),&F*F&F,F&F%F&,
+&F*F&\"\"'F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(d
+)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 
+"with(combinat):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "Sunt doua mod
+uri de a calcula multimea partilor:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "powerset(5);" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#<B<\"<'\"\"\"\"\"#\"\"$\"\"%\"\"&<&F'F(F)F*<%F(F
+)F*<&F&F(F)F*<$F)F*<%F&F)F*<%F'F)F*<&F&F'F)F*<#F*<$F&F*<$F'F*<%F&F'F*<
+$F(F*<%F&F(F*<%F'F(F*<&F&F'F(F*<#F&<#F'<$F&F'<#F(<$F&F(<$F'F(<%F&F'F(<
+#F)<$F&F)<$F'F)<%F&F'F)<$F(F)<%F&F(F)<%F'F(F)<&F&F'F(F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "powerset(\{1,2,3,4,5\});" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#<B<\"<'\"\"\"\"\"#\"\"$\"\"%\"\"&<&F'F(F)F*<
+%F(F)F*<&F&F(F)F*<$F)F*<%F&F)F*<%F'F)F*<&F&F'F)F*<#F*<$F&F*<$F'F*<%F&F
+'F*<$F(F*<%F&F(F*<%F'F(F*<&F&F'F(F*<#F&<#F'<$F&F'<#F(<$F&F(<$F'F(<%F&F
+'F(<#F)<$F&F)<$F'F)<%F&F'F)<$F(F)<%F&F(F)<%F'F(F)<&F&F'F(F)" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 34 "A way to step through all subsets:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 74 "S := subsets(\{1,2,3,4,5\}):\nwhile not S[finished] d
+o S[nextvalue]() end do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#<#\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<#\"\"$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#<#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<#\"
+\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$\"\"\"\"\"#" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#<$\"\"\"\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$
+\"\"\"\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$\"\"\"\"\"&" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#<$\"\"#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#<$\"\"#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$\"\"#\"\"&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<$\"\"$\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#<$\"\"$\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$\"\"%
+\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<%\"\"\"\"\"#\"\"$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#<%\"\"\"\"\"#\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#<%\"\"\"\"\"#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<
+%\"\"\"\"\"$\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<%\"\"\"\"\"$\"\"
+&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<%\"\"\"\"\"%\"\"&" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#<%\"\"#\"\"$\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#<%\"\"#\"\"$\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<%\"\"#\"\"
+%\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<%\"\"$\"\"%\"\"&" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#<&\"\"\"\"\"#\"\"$\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#<&\"\"\"\"\"#\"\"$\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#<&\"\"\"\"\"#\"\"%\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<&\"
+\"\"\"\"$\"\"%\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<&\"\"#\"\"$\"
+\"%\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<'\"\"\"\"\"#\"\"$\"\"%\"
+\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 
+0 "" 0 "" {TEXT 317 3 "14." }{TEXT -1 9 " Comanda " }{TEXT 273 30 "sta
+ts[random,uniform[0,1]](20)" }{TEXT -1 138 " returneaza 20 de numere a
+leatoare, distribuite uniform pe [0,1]. Deoarece aceasta comanda este \+
+prea lunga, dorim sa cream o prescurtare: " }{TEXT 274 2 "ud" }{TEXT 
+-1 35 ". Dati comanda Maple pentru a crea " }{TEXT 275 2 "ud" }{TEXT 
+-1 12 ", astfel ca " }{TEXT 276 6 "ud(20)" }{TEXT -1 23 " sa fie echiv
+alenta cu " }{TEXT 277 30 "stats[random,uniform[0,1]](20)" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+-1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 37 "alias(ud=stats[random,uniform[0,1]]);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%#udG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 7 "ud(20);" }}{PARA 12 "" 1 "" {XPPMATH 20 "66$\"+0')=dR!#5$\"+k\"
+)RJ>F%$\"+YqTUA!#6$\"+X[(=+)F%$\"+p0_vUF%$\"+WoAE%)F%$\"+eG'G7%F%$\"+U
+@<k**F%$\"+uI3kQF%$\"+$*=2YpF%$\"++)H,t(F%$\"+HH;1tF%$\"+P02l5F%$\"+Is
+7kRF%$\"++N8\\%*F%$\"+*Gk$4@F%$\"+A2s+vF%$\"+qRWZXF%$\"+Bi-mtF%$\"+=fW
+)H$F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 316 3 "15." }{TEXT -1 29 " Ce se intampla daca t
+astam  " }{TEXT 278 5 "3^4^5" }{TEXT -1 86 "; intr-o sesiune Maple? De
+ ce reactioneaza Maple in acest mod?\n(Indicatie: consultati " }{TEXT 
+279 22 "?operators[precedence]" }{TEXT -1 2 ".)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "3^4
+^5;" }}{PARA 8 "" 1 "" {TEXT -1 52 "Error, ambiguous use of `^`, pleas
+e use parentheses\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "3^(4^
+5);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"dil\"[c.rLBqg5\"oF'>u#\\()pF&
+)>(HClD**Q,2p+()G(*>QEEpTw%>`[&)R1PdPiGV&=H(=v-BYu?>9_LT$z<GX^iv))*eq_
+W@eIFW2yawB?Of]SNzaYG)e!feg*[$f7Ni/BnQ_\">;tulR)H<1M7!ow^DHS(z)G\"oY5/
+==d&G/k&>&*>q!)Q4eiUf[<>9t=4G)pL^8ee3;#faqs3\"e^ZJa1l(o/AxR!)Q*)o$**H7
+DlshS!z?sJpj]x+MPyw(4aA)em[=a(fH`V+-T([=Rt$" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 22 "?operators[precedence]" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 18 "^ este neasociativ" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 
+315 3 "16." }{TEXT -1 20 " Incarcati pachetul " }{TEXT 0 9 "numtheory
+" }{TEXT -1 12 " cu comanda " }{TEXT 0 16 "with(numtheory);" }{TEXT 
+-1 142 " puteti recunoaste anumite functii din teoria numerelor; unele
+ rutine din acest pachet sunt utile pentru a raspunde la intrebarile u
+rmatoare.\n" }{TEXT 280 4 "\n(a)" }{TEXT -1 70 " Construiti lista tutu
+ror intregilor care divid 9876543210123456789.\n\n" }{TEXT 281 3 "(b)
+" }{TEXT -1 63 " Gasiti numarul prim cel mai apropiat de 9876543210123
+456789.\n\n" }{TEXT 282 3 "(c)" }{TEXT -1 48 " Care este descompunerea
+ in factori primi a lui " }{XPPEDIT 18 0 "5^(5^(5^5)):" "6#)\"\"&)F$*$
+F$F$" }{TEXT -1 3 "?\n\n" }{TEXT 283 3 "(d)" }{TEXT -1 99 " Dezvoltati
+ baza exp(1) a logaritmilor naturali intr-o fractie continua ce 10 niv
+eluri de adancime." }}{PARA 0 "" 0 "" {TEXT -1 1 "\n" }}{SECT 1 {PARA 
+4 "" 0 "" {TEXT -1 3 "(a)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "with(numtheory);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7
+Q%&GIgcdG%)bigomegaG%&cfracG%)cfracpolG%+cyclotomicG%)divisorsG%)facto
+rEQG%*factorsetG%'fermatG%)imagunitG%&indexG%/integral_basisG%)invcfra
+cG%'invphiG%*issqrfreeG%'jacobiG%*kroneckerG%'lambdaG%)legendreG%)mcom
+bineG%)mersenneG%(migcdexG%*minkowskiG%(mipolysG%%mlogG%'mobiusG%&mroo
+tG%&msqrtG%)nearestpG%*nthconverG%)nthdenomG%)nthnumerG%'nthpowG%&orde
+rG%)pdexpandG%$phiG%#piG%*pprimrootG%)primrootG%(quadresG%+rootsunityG
+%*safeprimeG%&sigmaG%*sq2factorG%(sum2sqrG%$tauG%%thueG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "divisors(9876543210123456789);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#<R\"\"\"\"\"$\"\"*\"#8\"#R\"$<\"\"%`j
+\"%p*)\"&f!>\"&2p#\"&xr&\"&@2)\"&*e#)\"'(f;\"\"'nxC\"'\"z\\$\"',Lu\"(t
+$\\5\")d+)p&\"4*ycM75Kaw)*\"1\"y3jm'=,6\"0d,C'HOF<\"2<W#=B**[T%)\"+BAA
+AA\".$z[=&=T*\"+\"[\"[\"[\"\"+VWWWW\",HLLLL\"\",`#f#f#>\",fxxxx&\"-xKL
+LL<\"+pmmmm\"/*3.uS(G8\"/zjabbBG\"/P\"Rmm1Z)\"04V.uSNA\"\"0FH5AA1n$\"/
+n#4AAi)R\"0,yimme>\"\"0r/s)))3#=&\"189;mmia:\"3^KZ&p(pWKD\"3`(>k3$4M(f
+(\"4@ur8+p$R(4\"\"4jA:T+2\"=#H$\"*r,%4<\"*80#G^\"*T2uS(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "sort(convert(%, list));" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#7R\"\"\"\"\"$\"\"*\"#8\"#R\"$<\"\"%`j\"%p*)
+\"&f!>\"&2p#\"&xr&\"&@2)\"&*e#)\"'(f;\"\"'nxC\"'\"z\\$\"',Lu\"(t$\\5\"
+)d+)p&\"*r,%4<\"*80#G^\"*T2uS(\"+\"[\"[\"[\"\"+BAAAA\"+VWWWW\"+pmmmm\"
+,HLLLL\"\",`#f#f#>\",fxxxx&\"-xKLLL<\".$z[=&=T*\"/*3.uS(G8\"/zjabbBG\"
+/n#4AAi)R\"/P\"Rmm1Z)\"0,yimme>\"\"04V.uSNA\"\"0d,C'HOF<\"0FH5AA1n$\"0
+r/s)))3#=&\"1\"y3jm'=,6\"189;mmia:\"2<W#=B**[T%)\"3^KZ&p(pWKD\"3`(>k3$
+4M(f(\"4@ur8+p$R(4\"\"4jA:T+2\"=#H$\"4*ycM75Kaw)*" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(b)
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(numtheory);
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7Q%&GIgcdG%)bigomegaG%&cfracG%)cfr
+acpolG%+cyclotomicG%)divisorsG%)factorEQG%*factorsetG%'fermatG%)imagun
+itG%&indexG%/integral_basisG%)invcfracG%'invphiG%*issqrfreeG%'jacobiG%
+*kroneckerG%'lambdaG%)legendreG%)mcombineG%)mersenneG%(migcdexG%*minko
+wskiG%(mipolysG%%mlogG%'mobiusG%&mrootG%&msqrtG%)nearestpG%*nthconverG
+%)nthdenomG%)nthnumerG%'nthpowG%&orderG%)pdexpandG%$phiG%#piG%*pprimro
+otG%)primrootG%(quadresG%+rootsunityG%*safeprimeG%&sigmaG%*sq2factorG%
+(sum2sqrG%$tauG%%thueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "p
+ := 9876543210123456789;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"4*
+ycM75Kaw)*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "Calculam cel mai ma
+re numar prim mai mare decat  " }{XPPEDIT 18 0 "p" "6#%\"pG" }{TEXT 
+-1 23 " si calculam diferenta." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "nextprime(p);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"4.oXB,@Vl()*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 4 "%-p;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#9" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "Vom calcula cel mai mare numar pri
+m mai mic decat  " }{XPPEDIT 18 0 "p" "6#%\"pG" }{TEXT -1 23 " si calc
+ulam diferenta." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 13 "prevprime(p);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"4\"ycM75Kaw)*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "p - %;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\")" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 69 "Conchidem ca 9876543210123456781 este numarul prim cel ma
+i mic decat " }{XPPEDIT 18 0 "p" "6#%\"pG" }{TEXT -1 1 "." }}{PARA 0 "
+" 0 "" {TEXT -1 20 "Intr-o instructiune:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 108 "if nextprime(p)-p >
+ p-prevprime(p) then \n  closest := prevprime(p) \nelse \n  closest :=
+ nextprime(p) \nend if;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(closestG
+\"4\"ycM75Kaw)*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 3 "(c)" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 16 "with(numtheory):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "5^(5^(5^5)):" }}{PARA 8 "" 1 "" {TEXT -1 35 "Error, n
+umeric exception: overflow\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 91 "U
+n caz tipic in care gandirea inaintea actiunii ajuta. Intrarea este 5 \+
+cu un exponent mare " }{XPPEDIT 18 0 "e" "6#%\"eG" }{TEXT -1 44 ". Dec
+i, o factorizare in factori primi este " }{XPPEDIT 18 0 "5^e" "6#)\"\"
+&%\"eG" }{TEXT -1 51 ". Exponentul este un intreg cu 2185 cifre zecima
+le." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "e := 5^(5^5):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "length(e);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%&=#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 3 "(d)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 8 "restart;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"with(numtheory);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7Q%&GIgcdG%)bigom
+egaG%&cfracG%)cfracpolG%+cyclotomicG%)divisorsG%)factorEQG%*factorsetG
+%'fermatG%)imagunitG%&indexG%/integral_basisG%)invcfracG%'invphiG%*iss
+qrfreeG%'jacobiG%*kroneckerG%'lambdaG%)legendreG%)mcombineG%)mersenneG
+%(migcdexG%*minkowskiG%(mipolysG%%mlogG%'mobiusG%&mrootG%&msqrtG%)near
+estpG%*nthconverG%)nthdenomG%)nthnumerG%'nthpowG%&orderG%)pdexpandG%$p
+hiG%#piG%*pprimrootG%)primrootG%(quadresG%+rootsunityG%*safeprimeG%&si
+gmaG%*sq2factorG%(sum2sqrG%$tauG%%thueG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "cfrac(exp(1), 10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,&\"\"#\"\"\"*&F%F%,&F%F%*&F%F%,&F$F%*&F%F%,&F%F%*&F%F%,&F%F%*&F%F%,&
+\"\"%F%*&F%F%,&F%F%*&F%F%,&F%F%*&F%F%,&\"\"'F%*&F%F%,&F%F%*&F%F%,&F%F%
+%$...GF%!\"\"F%F=F%F=F%F=F%F=F%F=F%F=F%F=F%F=F%F=F%" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 314 
+3 "17." }{TEXT -1 39 " In Maple, care este diferenta dintre  " }
+{XPPEDIT 18 0 "1/3+1/3+1/3" "6#,(*&\"\"\"F%\"\"$!\"\"F%*&F%F%F&F'F%*&F
+%F%F&F'F%" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "`1.0`/`3.0`+`1.0`/`3.0`+
+`1.0`/`3.0`;" "6#,(*&%$1.0G\"\"\"%$3.0G!\"\"F&*&F%F&F'F(F&*&F%F&F'F(F&
+" }{XPPEDIT 18 0 "%?;" "6#%#%?G" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "1/3 + 1/3 + 1/3;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "1.0/3.0 + 1.0/3.0 + 1.0/3.0;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+**********!#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+246 "In primul calcul, Maple calculeaza cu numere rationale in aritmet
+ica exacta. In al doilea calcul se calculeaza aproximativ cu numere in
+ virgula flotanta (cu erori de rotunjire). O ilustrare in continuare a
+ calculelor aproximative este urmatoarea:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "% + 1.0;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#$\"+++++?!\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 313 3 "18." }
+{TEXT -1 9 " Scrieti " }{XPPEDIT 18 0 "5^(4^3)-1;" "6#,&)\"\"&*$\"\"%
+\"\"$\"\"\"F)!\"\"" }{TEXT -1 28 " ca produs de factori primi." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "So
+lutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "ifactor(5^(4^3)-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#*8)-%!G6#\"\"#\"\")\"\"\"-F&6#\"\"$F*-F&6#\"#8F*-F&6#\"#<F*-F&6#\"$8
+$F*-F&6#\"$T'F*-F&6#\")TIUHF*-F&6#\"-,;+J>CF*-F&6#\")$**o](F*-F&6#\"&*
+[6F*-F&6#\"%$f#F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 312 3 "
+19." }{TEXT -1 47 " Gasiti aproximatia in virgula flotanta a lui  " }
+{XPPEDIT 18 0 "exp(1)^(Pi*sqrt(163))-262537412640768744;" "6#,&)-%$exp
+G6#\"\"\"*&%#PiGF(-%%sqrtG6#\"$j\"F(F(\"3W(o2k7u`i#!\"\"" }{TEXT -1 
+59 " utilizand o precizie de  15, 25 si respectiv 35 de cifre.\n" }}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "H:=exp(Pi*sqrt(163))-2625374
+12640768744;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"HG,&-%$expG6#*&%#P
+iG\"\"\"\"$j\"#F+\"\"#F+\"3W(o2k7u`i#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "evalf[15](H);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!
+\"&\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf[25](H);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!#O!\"(" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "evalf[35](H);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!
+&?](!#<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 311 3 "20." }{TEXT -1 11 " Calculati " }
+{XPPEDIT 18 0 "Pi^(Pi^Pi))" "6#)%#PiG)F$F$" }{TEXT -1 24 " cu noua cif
+re zecimale." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "x := Pi^(Pi^Pi);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%\"xG)%#PiG)F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "evalf[9
+](x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"*mj,M\"\"#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf[10](x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+SU;S8\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 27 "seq(evalf[k](x), k=11..15);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'$
+\",W=k,M\"\"\")$\"-+$=k,M\"\"\"($\".GI=k,M\"\"\"'$\"/m+$=k,M\"\"\"&$\"
+0)f+$=k,M\"\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 123 "In mod clar,
+ trebuie sa ridicam precizia la 12 sau 13 pentru a vedea convergenta i
+n primele noua zecimale ale aproximatiei." }}}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 309 3 "21." }{TEXT 310 1 " " }{TEXT -1 33 "Va amintiti care di
+ntre numerele " }{XPPEDIT 18 0 "19/6" "6#*&\"#>\"\"\"\"\"'!\"\"" }
+{TEXT -1 2 ", " }{XPPEDIT 18 0 "22/7" "6#*&\"#A\"\"\"\"\"(!\"\"" }
+{TEXT -1 5 ", si " }{XPPEDIT 18 0 "25/8" "6#*&\"#D\"\"\"\"\")!\"\"" }
+{TEXT -1 30 " este o buna aproximare a lui " }{XPPEDIT 18 0 "Pi" "6#%#
+PiG" }{TEXT -1 106 "? Utilizati Maple pentru a gasi pe cel mai bun din
+tre aceste trei numere. Gasiti cea mai buna aproximare  " }{XPPEDIT 
+18 0 "a/b" "6#*&%\"aG\"\"\"%\"bG!\"\"" }{TEXT -1 7 " a lui " }
+{XPPEDIT 18 0 "Pi" "6#%#PiG" }{TEXT -1 8 ", unde  " }{XPPEDIT 18 0 "a
+" "6#%\"aG" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "b" "6#%\"bG" }{TEXT -1 
+91 " sunt numere naturale <  1000 (Indicatie: examinati dezvoltarea in
+ fractie continua a lui  " }{XPPEDIT 18 0 "Pi" "6#%#PiG" }{TEXT -1 3 "
+).\n" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "convert(evalf(Pi), confrac, cvgts)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7'\"\"$\"\"(\"#:\"\"\"\"$$H" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "cvgts;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7'\"\"$#\"#A\"\"(#\"$L$\"$1\"#\"$b$\"$8\"#\"'[V5\"&:K$
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 6 "Deci, " }{XPPEDIT 18 0 "22/7" 
+"6#*&\"#A\"\"\"\"\"(!\"\"" }{TEXT -1 53 " este cea mai buna aproximare
+ dintre cele date, iar  " }{XPPEDIT 18 0 "355/113" "6#*&\"$b$\"\"\"\"$
+8\"!\"\"" }{TEXT -1 37 " este cea mai buna cu intregi < 1000." }}
+{PARA 0 "" 0 "" {TEXT -1 68 "Acelasi rezultat se poate obtine cu proce
+duri adecvate din pachetul " }{TEXT 0 9 "numtheory" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(numtheory):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "piv := cfrac(Pi);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%$pivG,&\"\"$\"\"\"*&F'F',&\"\"(F'*&F'F',&\"#:F'*&F
+'F',&F'F'*&F'F',&\"$#HF'*&F'F',&F'F'*&F'F',&F'F'*&F'F',&F'F'*&F'F',&\"
+\"#F'*&F'F',&F'F'*&F'F',&F&F'%$...GF'!\"\"F'FAF'FAF'FAF'FAF'FAF'FAF'FA
+F'FAF'FAF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "seq(nthconver
+(piv,k), k=1..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6,#\"#A\"\"(#\"$L$
+\"$1\"#\"$b$\"$8\"#\"'$*R5\"&-J$#\"'[V5\"&:K$#\"'T$3#\"&<j'#\"'*o7$\"&
+K&**#\"'>P$)\"'\"Ql##\"(3k9\"\"'8\\O#\"(VHF%\"(?,O\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 1 {PARA 0 "" 0 "" {TEXT 308 3 "22." }{TEXT -1 16 " Verificati ca
+  " }{XPPEDIT 18 0 "sqrt(2*sqrt(19549)+286)" "6#-%%sqrtG6#,&*&\"\"#\"
+\"\"-F$6#\"&\\&>F)F)\"$'GF)" }{TEXT -1 14 " este egal cu " }{XPPEDIT 
+18 0 "sqrt(113)+sqrt(173)" "6#,&-%%sqrtG6#\"$8\"\"\"\"-F%6#\"$t\"F(" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 
+"" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 26 "'sqrt(2*sqrt(19549)+286)';" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%%sqrtG6#,&*&\"\"#\"\"\"-F$6#\"&\\&>F)F)\"$'GF)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "%;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*$\"$t\"#\"\"\"\"\"#F'*$\"$8\"F&F'" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 14 "Functia Maple " }{TEXT 0 4 "sqrt" }{TEXT -1 95 
+" simplifica automat radicalii dublii. Daca s-ar fi utilizat puteri ra
+tionale in locul functiei " }{TEXT 0 4 "sqrt" }{TEXT -1 43 " ar fi fos
+t necesara utilizarea procedurii " }{TEXT 0 8 "simplify" }{TEXT -1 1 "
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "(2*(19549)^(1/2)+286)^(1/2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$,&*&\"\"#\"\"\"\"&\\&>#F'F&F'\"$'GF'F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*$\"$t\"#\"\"\"\"\"#F'*$\"$8\"F&F'" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 1 {PARA 0 "" 0 "" {TEXT 307 2 "23" }{TEXT -1 25 ". In Maple, tra
+nsformati " }{XPPEDIT 18 0 "1/(sqrt(3)+1)" "6#*&\"\"\"F$,&-%%sqrtG6#\"
+\"$F$F$F$!\"\"" }{TEXT -1 26 " intr-o expresie de forma " }{XPPEDIT 
+18 0 "a+b*sqrt(3)" "6#,&%\"aG\"\"\"*&%\"bGF%-%%sqrtG6#\"\"$F%F%" }
+{TEXT -1 6 ", cu  " }{XPPEDIT 18 0 "a" "6#%\"aG" }{TEXT -1 4 " si " }
+{XPPEDIT 18 0 "b" "6#%\"bG" }{TEXT -1 18 " numere rationale." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "1/(sqrt(
+3)+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"\"F$,&*$\"\"$#F$\"\"#F
+$F$F$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "rationalize(%
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&#\"\"\"\"\"#!\"\"*&F&F'\"\"$#F
+%F&F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 306 3 "24." }{TEXT -1 5 " Fie " }{XPPEDIT 18 0 "
+theta" "6#%&thetaG" }{TEXT -1 26 " o radacina a polinomului " }
+{XPPEDIT 18 0 "theta^3-theta-1" "6#,(*$%&thetaG\"\"$\"\"\"F%!\"\"F'F(
+" }{TEXT -1 57 " si consideram extensia campului numerelor rationale c
+u  " }{XPPEDIT 18 0 "theta" "6#%&thetaG" }{TEXT -1 37 ". Deci, conside
+ram expresii de forma " }{XPPEDIT 18 0 "a+b*theta+c*theta^2" "6#,(%\"a
+G\"\"\"*&%\"bGF%%&thetaGF%F%*&%\"cGF%*$F(\"\"#F%F%" }{TEXT -1 7 ", und
+e " }{XPPEDIT 18 0 "a" "6#%\"aG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "b" "
+6#%\"bG" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "c" "6#%\"cG" }{TEXT -1 78 
+" sunt numere rationale si in calculele cu aceste expresii aplicam ide
+ntitatea " }{XPPEDIT 18 0 "theta^3=theta+1" "6#/*$%&thetaG\"\"$,&F%\"
+\"\"F(F(" }{TEXT -1 25 ". Transformati in  Maple " }{XPPEDIT 18 0 "1/(
+theta^2+1)" "6#*&\"\"\"F$,&*$%&thetaG\"\"#F$F$F$!\"\"" }{TEXT -1 29 " \+
+intr-o an expresie de forma " }{XPPEDIT 18 0 "a+b*theta+c*theta^2" "6#
+,(%\"aG\"\"\"*&%\"bGF%%&thetaGF%F%*&%\"cGF%*$F(\"\"#F%F%" }{TEXT -1 8 
+", unde  " }{XPPEDIT 18 0 "a" "6#%\"aG" }{TEXT -1 2 ", " }{XPPEDIT 18 
+0 "b" "6#%\"bG" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "c" "6#%\"cG" }
+{TEXT -1 24 " sunt numere rationale.\n" }}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+43 "alias(theta=RootOf(theta^3-theta-1,theta));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&thetaG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "
+1/(theta^2+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"\"F$,&*$)%&the
+taG\"\"#F$F$F$F$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "si
+mplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(#\"\"%\"\"&\"\"\"*&#\"
+\"#F&F'*$)%&thetaGF*F'F'!\"\"*&#F'F&F'F-F'F'" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "sort(%, theta);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,(*&#\"\"#\"\"&\"\"\"*$)%&thetaGF&F(F(!\"\"*&#F(F'F(F+F(F(#\"\"%F'F
+(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 305 3 "25." }{TEXT -1 
+175 " Aratati ca Maple stie ca exponentiala unui numar complex se poat
+e scrie cu ajutorul cosinusului si sinusului partii reale si imaginare
+ a acelui numar. De asemenea, calculati " }{XPPEDIT 18 0 "exp(Pi*I/12)
+" "6#-%$expG6#*(%#PiG\"\"\"%\"IGF(\"#7!\"\"" }{TEXT -1 19 " in aceasta
+ forma.\n" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restar
+t;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "exp(x+I*y);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%$expG6#,&%\"xG\"\"\"*&%\"yGF(^#F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalc(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&-%$expG6#%\"xG\"\"\"-%$cosG6#%\"yGF)F)*(F%F)-%$sinG
+F,F)^#F)F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "exp(Pi*I/12
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$expG6#*&^##\"\"\"\"#7F)%#PiGF
+)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalc(%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,&-%$cosG6#,$*&\"#7!\"\"%#PiG\"\"\"F,F,*&-%$sinG
+F&F,^#F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "convert(%, \+
+radical);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*(\"\"%!\"\"\"\"##\"\"
+\"F',&F)F)*$\"\"$F(F)F)F)*(^##F)F%F)F'F(,&F+F)F)F&F)F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" 
+{TEXT 304 3 "26." }{TEXT -1 28 " Aratati folosind Maple ca  " }
+{XPPEDIT 18 0 "tanh(z/2) = (sinh(x)+I*sin(y))/(cosh(x)+cos(y));" "6#/-
+%%tanhG6#*&%\"zG\"\"\"\"\"#!\"\"*&,&-%%sinhG6#%\"xGF)*&%\"IGF)-%$sinG6
+#%\"yGF)F)F),&-%%coshG6#F1F)-%$cosG6#F7F)F+" }{TEXT -1 29 ", pentru or
+ice numar complex " }{XPPEDIT 18 0 "z=x+y*I" "6#/%\"zG,&%\"xG\"\"\"*&%
+\"yGF'%\"IGF'F'" }{TEXT -1 5 " cu  " }{XPPEDIT 18 0 "x" "6#%\"xG" }
+{TEXT -1 4 " si " }{XPPEDIT 18 0 "y;" "6#%\"yG" }{TEXT -1 7 " reale." 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 7 "
+Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "tanh(z/
+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%tanhG6#,$*&\"\"#!\"\"%\"zG\"
+\"\"F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "expand(%, sincos)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&-%%coshG6#%\"zG\"\"\"F)!\"\"F
+)-%%sinhGF'F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "subs(z=x+I
+*y, %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&-%%coshG6#,&%\"xG\"\"\"
+*&%\"yGF*^#F*F*F*F*F*!\"\"F*-%%sinhGF'F." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*(,&*
+&-%%sinhG6#%\"xG\"\"\"-%$cosG6#%\"yGF+F+*(-%%coshGF)F+-%$sinGF.F+^#F+F
++F+!\"\"F1F+F,F+F+**F%F6F'F+F3F+F5F+F+*&F+F+F%F6F6" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 9 "evalc(%);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#,***-%%sinhG6#%\"xG\"\"\"-%$cosG6#%\"yG\"\"#,&*&)F%F.F))F*F.F)F)*&)-%
+%coshGF'F.F))-%$sinGF,F.F)F)!\"\"F5F)F)**F5F)F8F.F/F:F%F)F)*(F%F)F*F)F
+/F:F:*&,(**F5F.F8F)F/F:F*F)F:**F%F.F*F)F/F:F8F)F)*(F5F)F8F)F/F:F)F)^#F
+)F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&-%%sinhG6#%\"xG\"\"\"*&-%$sinG6#%
+\"yGF)^#F)F)F)F),&-%$cosGF-F)-%%coshGF'F)!\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 303 3 "27.
+" }{TEXT -1 11 " Calculati " }{XPPEDIT 18 0 "exp(sqrt(Pi));" "6#-%$exp
+G6#-%%sqrtG6#%#PiG" }{TEXT -1 49 " cu o pecizie de 10, 20, si 30 de ci
+fre zecimale." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 
+"" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "EE:=exp(sqrt(Pi));" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#EEG-%$expG6#*$%#PiG#\"\"\"\"\"#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf(EE,10);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+^sF&)e!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "evalf[20](EE);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"5m()G!=+Dx_
+)e!#>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "evalf[30](EE);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?S`=w6m()G!=+Dx_)e!#H" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" 
+{TEXT 302 3 "28." }{TEXT -1 249 " Implicit, precizia de lucru este de \+
+10 cifre. Stabiliti cum se poate face aceasta global, fara a se utiliz
+a Digits. (Indicatie: sub Windows, uitati-va la File/Preferences; in U
+nix, la Tools/Options.) Setati-o la valoaea mai rezonabila returnata d
+e " }{TEXT 284 14 "evalhf(Digits)" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 7 "Solutie" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "ev
+alhf(Digits);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"#9\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 301 3 "29." }{TEXT -1 147 " Cand se calculeaza cu precizie ina
+lta, dorim sa restrictionam iesirea. Numarul de cifre zecimale afisate
+ este controlat de variabila de interfata " }{TEXT 285 16 "displayprec
+ision" }{TEXT -1 13 " (consultati " }{TEXT 286 17 "?displayprecision" 
+}{TEXT -1 57 "). Setati numarul de cifre afisate la patru si executati
+ " }{TEXT 287 14 "sin(evalf(Pi))" }{TEXT -1 107 ". Explicati cum putet
+i vedea din iesirea acestei comenzi ca precizia de lucru este mai mare
+ de patru cifre." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "
+" 0 "" {TEXT -1 7 "Solutie" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "?displayprecision" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 30 "interface(displayprecision=4);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "sin(evalf(Pi));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+:w1-T!#>
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "abs(%);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#$\"+:w1-T!#<" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "sin(evalf(Pi,5));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$!+2-TYt!#:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 
+0 {PARA 3 "" 0 "" {TEXT -1 12 "Bibliografie" }}{PARA 0 "" 0 "" {TEXT 
+-1 13 "[1] A. Heck. " }{TEXT 288 21 "Introduction to Maple" }{TEXT -1 
+38 ". Third edition. Springer-Verlag 2003." }}{PARA 0 "" 0 "" {TEXT 
+-1 19 "[2] R. M. Corless. " }{TEXT 289 61 "Essential Maple 7. An intro
+duction for Scientific Programmers" }{TEXT -1 24 ". Springer-Verlag, 2
+002." }}{PARA 0 "" 0 "" {TEXT -1 15 "[3] V. Anisiu. " }{TEXT 290 25 "C
+alcul simbolic cu Maple." }{TEXT -1 47 " Presa Universitara Clujeana, \+
+Cluj-Napoca, 2007" }}}}{MARK "13 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

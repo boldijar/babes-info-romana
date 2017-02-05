@@ -1,0 +1,17 @@
+IP
+Netmask
+Gateway
+DHCP prin router
+DHCP prin server
+DNS
+HTTP
+Rutare statica
+Rutare dinamica
+NAT
+Wireless (AP, WR, Devices)
+
+Trebuie sa demonstram fiecare concept. Primim pentru fiecare un anumit punctaj, din care se formeaza nota finala.
+
+Sa fim atenti sa avem clase diferite pentru fiecare retea. Netmask-uri diferite (nu doar /24) ca sa se vada ca stim sa le folosim
+
+Test grila sapt. 13-14

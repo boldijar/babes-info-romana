@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClerk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Clerk>
+    <Username>csorescu</Username>
+    <Password>parola123</Password>
+  </Clerk>
+  <Clerk>
+    <Username>apopescu</Username>
+    <Password>parola123</Password>
+  </Clerk>
+</ArrayOfClerk>

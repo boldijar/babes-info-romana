@@ -1,0 +1,30 @@
+Classful networking is obsolete on the modern Internet. There is no longer any such thing as a class A/B/C network. The correct modern representation for what would have been referred to as a "Class B" prior to 1993 would be "a set of /16 addresses", under the Classless Inter-Domain Routing (CIDR) system.
+
+the definition of IP addresses was changed to allow three different sizes of the network number field (and the associated rest field), as specified in the table below:
+
+Class- Leading Bit -String Size of Network
+Number Bit field* -Size of Rest
+Bit field 
+Class A     0     8     24 
+Class B     10     16     16 
+Class C     110     24     8 
+Class D (multicast)     1110 not defined not defined 
+Class E (reserved)     1111 not defined not defined
+
+
+The address ranges used for each class are given in the following table, in the standard dotted decimal notation.
+Class A 1.0.0.0 127.255.255.255
+Class B 128.0.0.0 to 191.255.255.255
+Class C 192.0.0.0 to 223.255.255.255
+Class D 224.0.0.0 to 239.255.255.255
+Class E 240.0.0.0 to 255.255.255.255
+
+Some addresses are reserved for special uses:
+Class A -  10.0.0.0 - 10.255.255.255
+Class B – 172.16.0.0 - 172.31.255.255 
+Class C – 192.168.0.0 - 192.168.255.255
+
+* Classful addressing: 
+* inefficient use of address space, address space exhaustion
+* e.g., class B net allocated enough addresses for 65K hosts, even if only 2K hosts in that network
+

@@ -1,0 +1,20 @@
+conf t
+interface fast 0/0
+ip nat inside
+exit
+interface fast 0/1
+ip nat outside
+ip nat inside source static ip_sursa ip_router
+
+
+
+1 p - adrese si netmask
+gateway prin minim 2 rute 
+ping intre calc din retele diferite 1p
+ping server dhcp serv si router 1p
+nat
+wireless si ap 1p
+config dns client si server 1p
+server http 1p
+RIP si daca stergem o legatura sa cont sa mearga 1p
+1p pe ceva de dinainte

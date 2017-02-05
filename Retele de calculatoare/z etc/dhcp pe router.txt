@@ -1,0 +1,7 @@
+conf t
+ip dhcp pool DHCP1
+network 192.168.0.0 255.255.255.0
+default-router 192.168.0.1
+c^z
+wr_mem
+

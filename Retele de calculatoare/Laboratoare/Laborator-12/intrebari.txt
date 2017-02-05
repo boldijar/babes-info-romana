@@ -1,0 +1,39 @@
+Cerințe:
+
+1.) Care e adresă IP validă? De ce?
+a) 80.81.82.0
+b) 192.168.1.255
+c) 223.256.245.17
+
+2.) Scrieți în format adresă de rețea/netmask:
+91.126.191.192 ... 93.4.192.223
+
+3.) Care este adresa de rețea a rețelei de dimensiune minimă care conține adresa 71.72.73.74 și are netmask-ul 255.252.0.0
+
+4.) Găsiți rețeaua de dimensiune minimă, care conține următoarele două IP-uri, si are netmask 255.252.0.0
+IP 1: 88.17.42.12
+IP 2: 88.23.43.21
+
+5.) Găsiți adresa de broadcast pentru:
+IP: 73.91.52.33
+Rețea: 8192 IP-uri
+
+
+<==================----------=#=----------==================>
+
+
+Rezolvari:
+
+4.)
+88(10) = 01011000(2)
+
+IP1: 01011000.00010001.00101010.00001100
+IP2: 01011000.00010111.????????.????????
+
+Partea comuna e 01011000.00010 => partea de rețea
+=> 11111111.11111000.00000000.00000000 => /13 (netmask)
+
+5.)
+8192 = 2^8 * 2^5 = 2^13 => /19
+11111111.11111111.11100000.00000000
+73.91.52.33 SAU 00000000.00000000.00011111.11111111 = 73.91.63.255

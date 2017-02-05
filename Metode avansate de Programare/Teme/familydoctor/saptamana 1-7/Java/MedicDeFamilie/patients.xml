@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_66" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="familydoctor.model.Patient">
+    <void property="age">
+     <int>1</int>
+    </void>
+    <void property="id">
+     <string>1</string>
+    </void>
+    <void property="name">
+     <string>1</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

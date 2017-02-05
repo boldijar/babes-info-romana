@@ -1,0 +1,26 @@
+* ICMP- internet control message protocol
+ 
+
+ 
+* Used by hosts, routers, gateways to communication network-level information
+* error reporting: unreachable host, network, port, protocol
+* echo request/reply (used by ping)
+* Network-layer “above” IP:ICMP msgs carried in IP datagrams
+* ICMP message: type, code plus first 8 bytes of IP datagram causing error
+
+
+The Internet Control Message Protocol (ICMP) is one of the core protocols of the Internet protocol suite. It is chiefly used by networked computers' operating systems to send error messages—indicating, for instance, that a requested service is not available or that a host or router could not be reached.
+
+Header
+The ICMP header starts after bit 160 of the IP header (unless IP options are used).
+
+Bits 160-167 168-175 176-183 184-191 
+160 Type Code           Checksum 
+192 ID                  Sequence
+
+* Type - ICMP type as specified below. 
+* Code - further specification of the ICMP type; e.g. : an ICMP Destination Unreachable might have this field set to 1 through 15 each bearing different meaning. 
+* Checksum - This field contains error checking data calculated from the ICMP header+data, with value 0 for this field. 
+* ID - This field contains an ID value, should be returned in case of ECHO REPLY. 
+* Sequence - This field contains a sequence value, should be returned in case of ECHO REPLY. 
+

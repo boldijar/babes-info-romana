@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+  <Patient>
+    <ID>csorescu</ID>
+    <Name>c sorescu</Name>
+    <Age>48</Age>
+    <AppointmentIDs />
+  </Patient>
+</ArrayOfPatient>

@@ -1,0 +1,39 @@
+* Byte stream interpreted as series of numbers (16 bit integers)
+* Integers are added =>checksum appended to the frame.
+* Receiver calculates again the checksum and discovers the errors.
+* 
+* 
+* Second bit inverted for each value
+* Checksum is the same
+
+
+Cyclic Redundancy Check (CRC)
+* Bit strings represented as polynomials with coef. 0 and 1.
+* K bit frame =>x^k-1+…+1 (first and last coef must be 1)
+* Example
+* 110001 => x^5+x^4+1
+* Polynomial arithmetic is done module 2 i.e. <=> addition/subtraction = XOR operation 
+
+* Sender (S) and Receiver (R) agree on a generator polynomial G(x)
+* Frame – m bits => M(X) – the checksum of m is the remaining of R(x)=M(x)/G(x)
+* Checksum added to frame.
+* (R) Gets the frame M’(x)=[M(x)-R(x)]
+* If M’(x)/G(x) has remainder => error
+
+* Frame m bits.   Generator r bits.
+* Calculate:  xr M(x) – m+r bits
+*  xrM(x) / G(x) – take remainder R(x)
+* Send: T(x) = xrM(x) – R(x)
+
+
+* Receiver: T(x) should be divisible with G(x). If not we have transmission errors.
+
+* (S) – sends T(x)=M(x)-R(x)
+* (R) – receives T(x)+E(x). T(x)/G(x)=0 and E(x)/G(x) – gives the error.
+* If E(x)=P(x)G(x) – undetected error !!!!
+* E(x)=xi , G(x) multiple term => E(x)/G(x)¹0 all Single-Bit errors detected
+* E(x)=xi+xj=xj(xi-j+1) – detected 
+* E(x) – has odd number of terms. If G(x)=(x+1)G’(x) => any odd number of errors are detected.
+
+
+

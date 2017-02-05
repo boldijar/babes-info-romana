@@ -1,0 +1,149 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 273 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 274 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 278 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 279 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }{PSTYLE "" 18 256 1 {CSTYLE "
+" -1 -1 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 
+0 -1 0 }}
+{SECT 0 {EXCHG {PARA 256 "" 0 "" {TEXT -1 17 "Lucrul cu functii" }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 18 "1. Functii anonime" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "Functiile anonime se utilizeaza in
+ combinatie cu comanda " }{TEXT 256 3 "map" }{TEXT -1 1 "." }{MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "Comanda " }{TEXT 257 3 
+"map" }{TEXT -1 153 " aplica o operatie unei liste.  Aceasta operatie \+
+se defineste de obicei printr-o procedura, dar deoarece de multe ori o
+ utilizam doar in interiorul unui " }{TEXT 258 3 "map" }{TEXT -1 63 " \+
+nu este nevoie sa-i dam un nume, deci va fi o functie anonima." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "s := se
+q(x[i],i=0..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6-&%\"xG6#\"
+\"!&F'6#\"\"\"&F'6#\"\"#&F'6#\"\"$&F'6#\"\"%&F'6#\"\"&&F'6#\"\"'&F'6#
+\"\"(&F'6#\"\")&F'6#\"\"*&F'6#\"#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 60 "Presupunem ca dorim sa ridicam fiecare element al secventei " }
+{TEXT 259 1 "s" }{TEXT -1 16 " la puterea a 3:" }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "map(x->x^3,[s]);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#7-*$)&%\"xG6#\"\"!\"\"$\"\"\"*$)&F'6#F+F*F+*
+$)&F'6#\"\"#F*F+*$)&F'6#F*F*F+*$)&F'6#\"\"%F*F+*$)&F'6#\"\"&F*F+*$)&F'
+6#\"\"'F*F+*$)&F'6#\"\"(F*F+*$)&F'6#\"\")F*F+*$)&F'6#\"\"*F*F+*$)&F'6#
+\"#5F*F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 20 "Deoarece operatorul \+
+" }{TEXT 260 3 "map" }{TEXT -1 48 " lucreaza pe liste, am convertit in
+tai secventa " }{TEXT 261 1 "s" }{TEXT -1 10 " in lista " }{TEXT 262 
+3 "[s]" }{TEXT -1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 8 "Functia " }{TEXT 263 8 "x -> x^3" }{TEXT -1 25 " este o fu
+nctie anonima. " }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 57 "Alte utilizari ale functiilor anonime apar in operatiile " }
+{TEXT 264 6 "select" }{TEXT -1 4 " si " }{TEXT 265 6 "remove" }{TEXT 
+-1 1 "." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "Sa \+
+selectam din secventa " }{TEXT 266 1 "s" }{TEXT -1 36 ", toate variabi
+lele cu un index par." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "op(x[4]) mod 2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"!" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "Comanda de mai sus ilustre
+aza modul de selectie a indexului si testarea paritatii." }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "select(t->(op(t) m
+od 2 = 0),[s]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7(&%\"xG6#\"\"!&F%6
+#\"\"#&F%6#\"\"%&F%6#\"\"'&F%6#\"\")&F%6#\"#5" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 23 "Primul argument al lui " }{TEXT 267 6 "select" }{TEXT 
+-1 55 " este o functie anonima care returneaza true sau false." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 128 "Se selecteaz
+a numai acele elemente din lista (in exemplu [s]) pentru care functia \+
+anonima retureneaza true.  De notat ca numele " }{TEXT 268 1 "t" }
+{TEXT -1 26 " este arbitrar.  Operatia " }{TEXT 270 6 "remove" }{TEXT 
+-1 29 " este foarte asemenatoare cu " }{TEXT 269 6 "select" }{TEXT -1 
+94 ", dar de aceasta data se elimina acele elemente din lista pentru c
+are functia returneaza true." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 35 "remove(t -> (op(t) mod 2 = 1),[s]);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#7(&%\"xG6#\"\"!&F%6#\"\"#&F%6#\"\"%&F%6#\"\"
+'&F%6#\"\")&F%6#\"#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Comanda d
+e mai sus a inlaturat din lista toate variabilele cu indice impar." }
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 24 "2. Compuner
+ea functiilor" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "Pentru compunerea
+ functiilor se utilizeaza operatorul @." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 77 "f := cos; # aceasta este functia co
+sinus, a nu se confunda cu valoarea cos(x)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG%$cosG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "g := x -> x^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gGf*6#%\"xG6
+\"6$%)operatorG%&arrowGF(*$)9$\"\"#\"\"\"F(F(F(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 30 "h := f@g; # h := x -> cos(x^2)" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"hG-%\"@G6$%$cosG%\"gG" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 11 "Am definit " }{TEXT 271 1 "h" }{TEXT -1 35 " ca fiind \+
+rezultatul evaluarii lui " }{TEXT 272 1 "f" }{TEXT -1 19 " pe rezultat
+ul lui " }{TEXT 273 1 "g" }{TEXT -1 21 " (remarcati prezenta " }{TEXT 
+274 1 "@" }{TEXT -1 2 ")." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 7 "h(3.0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+>EI
+6\"*!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "h(z);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%$cosG6#*$)%\"zG\"\"#\"\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 61 "Presupunem acum ca dorim sa descriem misc
+area unui proiectil." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 45 "In spatiu el descrie o parabola: la momentul " }{TEXT 
+275 3 "t=0" }{TEXT -1 54 ", este lansat de la sol (inaltimea  0) si la
+ momentul " }{TEXT 276 6 "t = 45" }{TEXT -1 118 ", atinge solul cu 120
+ de mile mai departe.  Ignorand intai timpul, stim traiectoria spatial
+a din radacinile parabolei:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 20 "y := x -> x*(120-x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"yGf*6#%\"xG6\"6$%)operatorG%&arrowGF(*&9$\"\"\",&\"
+$?\"F.F-!\"\"F.F(F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "Functia \+
+" }{TEXT 0 1 "y" }{TEXT -1 74 " ne da inaltimea proiectilului in fieca
+re punct, incepand cu originea (in " }{TEXT 0 3 "t=0" }{TEXT -1 43 "),
+ si terminand cu 120 de mile mai departe." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "Dorim sa stim in fiecare moment in
+altimea in functie de timp." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 20 "xt := t -> 120/45*t;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#xtGf*6#%\"tG6\"6$%)operatorG%&arrowGF(,$*&#\"\")\"\"
+$\"\"\"9$F1F1F(F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "Functia " }
+{TEXT 277 2 "xt" }{TEXT -1 126 " da relatia intre timp si spatiu, timp
+ul mergand de la 0 la 45 si x variind intre 0 (la momentul t=0) si 120
+ (la momentul 45)." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "xt(0); xt(45);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$?\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "h := y@xt;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"hG-%\"@G6$%\"yG%#xtG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Compune
+rea lui " }{TEXT 278 1 "y" }{TEXT -1 4 " cu " }{TEXT 279 2 "xt" }
+{TEXT -1 99 " descrie inaltimea unui proiectil ce se misca cu viteza c
+onstanta, urmand o traiectorie parabolica." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "h(34); h(34.0); h(z);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"&OR#\"\"*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+bbbfE!\"'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$**\"
+\")\"\"\"\"\"$!\"\"%\"zGF&,&\"$?\"F&*(F%F&F'F(F)F&F(F&F&" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 86 "Ultima evaluare ne da o formula expandata
+, care poate conduce la dilatarea expresiei. " }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "Cu operatorul " }{TEXT 280 1 "@" }
+{TEXT -1 111 " putem construi foarte rapid functii complicate, care po
+t deveni si mai complicate cand sunt evaluate simbolic." }{MPLTEXT 1 
+0 1 " " }{TEXT -1 43 "Compunerea se poate aplica si procedurilor." }}
+{PARA 0 "" 0 "" {TEXT -1 11 "Operatorul " }{TEXT 0 2 "@@" }{TEXT -1 
+49 " este operatorul de compunere repetata (iterare)." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "(sin@@2)(x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#--%#@@G6$%$sinG\"\"#6#%\"xG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}{MARK "3 22 0 0" 0 }{VIEWOPTS 1 1 0 3 2 1804 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

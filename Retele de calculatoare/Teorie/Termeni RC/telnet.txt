@@ -1,0 +1,3 @@
+TELNET (TELecommunication NETwork) is a network protocol used on the Internet or local area network (LAN) connections
+TELNET is a client-server protocol, based on a reliable connection-oriented transport. Typically this protocol used to establish a connection to TCP port 23, where a getty-equivalent program (telnetd) is listening, although TELNET predates TCP/IP and was originally run on NCP.
+it is sometimes used in debugging network services such as an SMTP, IRC, HTTP, FTP or POP3 server, by serving as a simple way to send commands to the server and examine the responses.

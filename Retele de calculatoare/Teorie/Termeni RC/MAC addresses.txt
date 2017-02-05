@@ -1,0 +1,21 @@
+* MAC address – 6 bytes –248 addresses
+* 281.474.976.710.656 distinct addresses
+* MAC addresses are burned into the network adapter’s ROM
+* Each Net. Adapt. Has a UNIQUE MAC
+* Address space managed by IEEEE
+* 224 – company ID
+* 224 – adapter ID
+
+
+Why MAC addresses ?
+* To accommodate different protocols (not just IP)
+* Why not store IP addresses as MAC ?
+* Need to rewrite the addresses whenever the computer moves
+* Broadcast media – why not pass every frame to the node ?
+* To much processing….
+
+In computer networking a Media Access Control address (MAC address) or Ethernet Hardware Address (EHA) or hardware address or adapter address is a quasi-unique identifier attached to most network adapters (NIC or Network Interface Card).
+
+MAC addresses, unlike IP addresses and IPX addresses, are not divided into "host" and "network" portions. Therefore, a host cannot determine from the MAC address of another host whether that host is on the same layer 2 network segment as the sending host or a network segment bridged to that network segment.
+
+ARP is commonly used to convert from addresses in a layer 3 protocol such as Internet Protocol (IP) to the layer 2 MAC address. On broadcast networks, such as Ethernet, the MAC address allows each host to be uniquely identified and allows frames to be marked for specific hosts. It thus forms the basis of most of the layer 2 networking upon which higher OSI Layer protocols are built to produce complex, functioning networks.

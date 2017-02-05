@@ -1,0 +1,454 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1
+" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 
+1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 
+-1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple O
+utput" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 
+1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 30 "Rezolvarea ecuatiilor in \+
+Maple" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "Comanda " }{TEXT 0 5 "solve" }
+{TEXT -1 54 " este probabil una dintre cele mai utilizate in Maple." }
+{MPLTEXT 1 0 0 "" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 29 "1. Ecuatii i
+ntr-o necunoscuta" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "Puterea unui \+
+sistem CA consta si in faptul ca putem lucra cu probleme parametrice.
+" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "equ \+
+:= a^2*(x^2 + x + 1) - a*(2*x - 3) - x^2 -3*x+2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$equG,,*&)%\"aG\"\"#\"\"\",(*$)%\"xGF)F*F*F.F*F*F*F*F
+**&F(F*,&*&F)F*F.F*F*\"\"$!\"\"F*F3F,F3*&F2F*F.F*F3F)F*" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 35 "Aceasta ecuatie este in variabila  " }
+{TEXT 256 1 "x" }{TEXT -1 6 ", iar " }{TEXT 257 1 "a" }{TEXT -1 19 " e
+ste un parametru." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "equ := expand(equ);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%$equG,2*&)%\"aG\"\"#\"\"\")%\"xGF)F*F**&F'F*F,F*F**$F'F*F**(F)F*F(
+F*F,F*!\"\"*&\"\"$F*F(F*F**$F+F*F0*&F2F*F,F*F0F)F*" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 21 "sols := solve(equ,x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%solsG6$,$*(\"\"#!\"\",(%\"aG\"\"\"\"\"$F)*$,(*&F-F,)
+F+F(F,F)*&\"#5F,F+F,F)\"#<F,#F,F(F)F,,&F+F,F,F)F)F),$*(F(F),(F+F,F-F)F
+.F,F,F6F)F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Totusi, pentru " }
+{XPPEDIT 18 0 "a = 1;" "6#/%\"aG\"\"\"" }{TEXT -1 29 ", formula nu mai
+ este valida." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "equ1 := subs(a=1,equ); # tratam cazul a = 1 separat" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%equ1G,&*&\"\"%\"\"\"%\"xGF(!\"\"
+\"\"'F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 7 "Pentru " }{XPPEDIT 18 
+0 "a = 1;" "6#/%\"aG\"\"\"" }{TEXT -1 13 " avem solutia" }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "solve(equ1,x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"$\"\"#" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 57 "In acest prim caz special avem mai putin de doua soluti
+i." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 88 "Pentru a
+ studia un al doilea caz special, sa consideram ecuatia noastra ca o e
+cuatie in " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 1 ":" }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "collect(equ,x);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,*&,&*$)%\"aG\"\"#\"\"\"F*F*!\"\"F*)
+%\"xGF)F*F**&,(F&F*\"\"$F+*&F)F*F(F*F+F*F-F*F**&F0F*F(F*F*F&F*F)F*" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "subs(a=-1,equ);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 5 
+"Deci " }{XPPEDIT 18 0 "a = -1;" "6#/%\"aG,$\"\"\"!\"\"" }{TEXT -1 43 
+" este un alt caz special pentru parametrul " }{XPPEDIT 18 0 "a;" "6#%
+\"aG" }{TEXT -1 36 ".  In acest caz orice valoare a lui " }{XPPEDIT 
+18 0 "x;" "6#%\"xG" }{TEXT -1 45 " este solutie (avem o infinitate de \+
+solutii)." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 121 "
+Pentru acest tip de problema, in cazul ecuatiilor cuadratice, putem de
+scoperi valorile speciale ale parametrului automat:" }{MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve(equ,a);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$!\"\"*&,(*$)%\"xG\"\"#\"\"\"F**&\"\"$F*F(F*F
+*F)F#F*,(F&F*F(F*F*F*F#" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 28 "Vedem \+
+aici si cazul special." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "
+" {TEXT -1 54 "2. Dificultati la interpretarea rezultatului lui solve
+" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 70 "In aceasta sectiune vom consid
+era ecuatii mai generale, nepolinomiale." }{MPLTEXT 1 0 0 "" }}}{SECT 
+0 {PARA 4 "" 0 "" {TEXT -1 50 "iesirea lui solve necesita prelucrari s
+uplimentare" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "eq := x = cos
+(x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#eqG/%\"xG-%$cosG6#F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "s := solve(eq,x);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"sG-%'RootOfG6#,&%#_ZG\"\"\"-%$cosG6#F)!
+\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 131 "RootOf  este util pentru
+ a declara radacinile formale ale polinoamelor, dar nu sunt de mare ut
+ilitate in cazul ecuatiilor generale." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(s);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+K8&3R(!#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 93 "P
+entru acest tip de ecuatii, singura iesire care are sens o constituie \+
+aproximarile numerice." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "
+" {TEXT -1 19 "prea putine solutii" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "eq := sin(x) - 1/2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%#eqG,&-%$sinG6#%\"xG\"\"\"#F*\"\"#!\"\"" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 12 "solve(eq,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$
+*&\"\"'!\"\"%#PiG\"\"\"F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "In a
+ces caz  Maple ignora periodicitatea functiei sinus." }{MPLTEXT 1 0 1 
+" " }{TEXT -1 31 "Vom schimba variabila de mediu " }{MPLTEXT 1 0 16 "_
+EnvAllSolutions" }{TEXT -1 9 " la true." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "_EnvAllSolutions := true;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%1_EnvAllSolutionsG%%trueG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 20 "sols := solve(eq,x);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%%solsG,(*&#\"\"\"\"\"'F(%#PiGF(F(*&#\"\"#\"\"$F(*&F*F(%%_B2|ir
+GF(F(F(*(F-F(F*F(%%_Z2|irGF(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+169 "Avem o familie de solutii, parametrizate de variabila booleana B1
+ (caracterul \"_\" din fata lui B indica un nume de variabila ales de \+
+Maple), si de parametrul intreg  Z1." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "family := (b,k) -> subs(_B1=b,_Z1=k
+,sols);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'familyGf*6$%\"bG%\"kG6\"
+6$%)operatorG%&arrowGF)-%%subsG6%/%$_B1G9$/%$_Z1G9%%%solsGF)F)F)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "family(1,3);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,(*&#\"\"\"\"\"'F&%#PiGF&F&*&#\"\"#\"\"$F&*&F(F&%%
+_B2|irGF&F&F&*(F+F&F(F&%%_Z2|irGF&F&" }}}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 18 "too many solutions" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 37 "eqn := (sin(x)^3 - 3*sin(x) + 1 = 3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$eqnG/,(*$)-%$sinG6#%\"xG\"\"$\"\"\"F.*&F-F.F)F.!\"\"
+F.F.F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve(eqn,x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%,*-%'arcsinG6#\"\"#\"\"\"*(F'F(F$F(%%_
+B3|irGF(!\"\"*(F'F(%#PiGF(%%_Z3|irGF(F(*&F-F(F*F(F(,&*&#F(F'F(F-F(F+*(
+F'F(F-F(%%_Z4|irGF(F(,&*&#F(F'F(F-F(F+*(F'F(F-F(%%_Z5|irGF(F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 111 "Sa presupunem ca suntem interesat
+i doar in solutiile reale. Atunci nu are sens sa cerem inversa sinusul
+ui in 2." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+17 "evalf(arcsin(2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#^$$\"+Fjzq:!
+\"*$!+(*y&pJ\"F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "Putem privi a
+ceasta ecuatie ca o ecuatie polinomiala in " }{XPPEDIT 18 0 "sin(x);" 
+"6#-%$sinG6#%\"xG" }{TEXT -1 1 ":" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 18 "solve(eqn,sin(x));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"#!\"\"F$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 183 "D
+in iesirea lui solve, vom ignora 2 (deoarece dorim doar solutiile real
+e) si vom pastra radacina dubla -1.  Aceasta radacina dubla nu rezulta
+ direct si evident din prima iesire a lui " }{TEXT 259 5 "solve" }
+{TEXT -1 49 ", unde putem lua valori diferite pentru Z3 si Z4." }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "expand(
+(sin(x)-2)*(sin(x)+1)^2)=lhs(eqn)-rhs(eqn);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/,(*$)-%$sinG6#%\"xG\"\"$\"\"\"F,*&F+F,F'F,!\"\"\"\"#F.
+F$" }}}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 21 "3. Sisteme de ecuatii" }
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "Vom ilustra cu un sistem de doua \+
+ecuatii liniare:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 80 "sys := \{a[1,1]*x[1]+a[1,2]*x[2] = b[1],\n        a[2
+,1]*x[1]+a[2,2]*x[2] = b[2]\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$s
+ysG<$/,&*&&%\"aG6$\"\"\"F,F,&%\"xG6#F,F,F,*&&F*6$F,\"\"#F,&F.6#F3F,F,&
+%\"bGF//,&*&&F*6$F3F,F,F-F,F,*&&F*6$F3F3F,F4F,F,&F7F5" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 64 "Recunoastem aici regula lui Cramer, cu de
+terminantul la numitor:" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "solve(sys,\{x[1],x[2]\});" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#<$/&%\"xG6#\"\"\"*&,&*&&%\"aG6$F(\"\"#F(&%\"bG6#F/F(F(*
+&&F1F'F(&F-6$F/F/F(!\"\"F(,&*&&F-6$F(F(F(F5F(F7*&&F-6$F/F(F(F,F(F(F7/&
+F&F2*&,&*&F:F(F0F(F7*&F=F(F4F(F(F(F8F7" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 281 "Solutiile sunt valide (sistem compatibil determinat) num
+ai daca determinantul matricei este nenul.  Distingem trei cazuri: caz
+ul general, primul caz special (sistem incompatibil - nici o solutie) \+
+si al doilea  caz special (sistem compatibil nedeterminat - o infinita
+te de solutii)." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 90 "Vom reveni asupra ecuatiilor liniare cand vom considera pachete
+le linalg si LinearAlgebra." }{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "
+" 0 "" {TEXT -1 24 "4. Metoda bazei Groebner" }}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 224 "Metoda bazei Groebner poate fi privita ca o generaliza
+re a metodei eliminarii pentru sisteme liniare si a celui mai mare div
+izor comun al polinoamelor de o variabila. Una din aplicatii este rezo
+lvarea sistemelor polinomiale." }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 47 "p1 := x^2 + x^3 - y^2; p2 := (x-1)^2 + y^2 -
+ 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p1G,(*$)%\"xG\"\"#\"\"\"F**$
+)F(\"\"$F*F**$)%\"yGF)F*!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p2
+G,(*$),&%\"xG\"\"\"F*!\"\"\"\"#F*F**$)%\"yGF,F*F*F*F+" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "sys := [p1,p2]; " }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%$sysG7$,(*$)%\"xG\"\"#\"\"\"F+*$)F)\"\"$F+F+*$)%\"y
+GF*F+!\"\",(*$),&F)F+F+F2F*F+F+F/F+F+F2" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 48 "Dorim sa gasim intersectia cubicei (definita de " }
+{MPLTEXT 1 0 2 "p1" }{TEXT -1 25 ") cu cercul (definit de  " }
+{MPLTEXT 1 0 2 "p2" }{TEXT -1 66 "). Putem vizualiza aceasta problema \+
+de intersectie bidimensionala:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(plots):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "plot1:=implicitplot(p1, x=-2..2, y=
+-2..2, color=red, grid=[70,70]):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 55 "plot2:=implicitplot(p2, x=-2..2, y=-2..2, color=green
+):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "display(plot1,plot2,s
+caling=constrained);" }}{PARA 13 "" 1 "" {GLPLOT2D 482 482 482 
+{PLOTDATA 2 "6&-%'CURVESG6i\\l7$7$$!3YTVI\"R<_c*!#=$!39Hd![#z2*)>F*7$$
+!3kIL29&=Uw*F*$!3eK)=BOv#\\9F*7$F-7$$!39**fT;U1H)*F*$!3Mur?P&Ga=\"F*7$
+7$$!3H-Z4ESp1**F*$!3wiH\"R<_cp)!#>F37$F97$$!3#3,WEUNX&**F*$!36wi^g=Z-[
+F>7$7$$!3!fQ0@yJz(**F*$!3O+wjC2b)*GF>F@7$7$$!3+(Q0@yJz(**F*$!3s+wjC2b)
+*GF>7$$!3y%Q0@yJz(**F*$\"30SGP$=$fG7F>7$7$FR$\"3/ixjC2b)*GF>FQ7$FW7$$!
+3%y*[(fdlF$**F*$\"39BLMrD.ulF>7$7$$!3&yp%4ESp1**F*$\"3uBJ\"R<_cp)F>Fen
+7$7$$!32+Z4ESp1**F*F^o7$$!35lz!oAE$R)*F*$\"3dO\\*G0uO9\"F*7$7$$!33DL29
+&=Uw*F*$\"3o[)=BOv#\\9F*Fdo7$7$$!3?EL29&=Uw*F*F]p7$$!30W#=**Q;1r*F*$\"
+3c^F$4OuYf\"F*7$7$F($\"3#ps0[#z2*)>F*Fcp7$7$$!3)[!oPYs]&)*)F*$!3)pt-q1
+@x%GF*7$$!3[!>@$=\\<w\"*F*$!3?0R<_cp3EF*7$7$$!3e\">@$=\\<w\"*F*Feq7$$!
+3a^9E#GKC^*F*$!3if#*G;1x\"3#F*7$7$$!3K$)H&[6<ha*F*$!3*)ojC2b)*G?F*F[r7
+$7$$!3U%)H&[6<ha*F*FdrF'7$Fip7$$!3Oe]l!p*H_&*F*$\"3W-rf1y1;?F*7$7$$!3W
+uH&[6<ha*F*$\"3*\\QYs]&)*G?F*F[s7$Fas7$$!3rFp+9&GxK*F*$\"3m3l([x17P#F*
+7$7$$!3Qz6K=\\<w\"*F*$\"3I@R<_cp3EF*Fgs7$7$$!3[!=@$=\\<w\"*F*F`t7$$!3#
+>oT1(*p:4*F*$\"3O)zQkPeZr#F*7$7$F^q$\"3aPF+n5sZGF*Fft7$7$$!3Go#\\95(z0
+%)F*$!3AA4I%z&GYLF*7$$!3\\e_9%onHh)F*$!3CT95(z0%)=$F*7$Feu7$F^q$!3UOF+
+n5sZGF*7$7$F^q$\"3)pt-q1@x%GF*7$$!3utJXdob2))F*$\"3kDy<3aX5IF*7$7$$!3h
+R_9%onHh)F*$\"3Md95(z0%)=$F*Fbv7$7$$!3]Q_9%onHh)F*F[w7$$!3%GCaN*eR&\\)
+F*$\"3MJk?*e/!yKF*7$7$Fau$\"3wA4I%z&GYLF*Faw7$F`u7$$!3kxeZXjg%3)F*$!3w
+I[2`lf4NF*7$7$$!3qJ<_cp3EyF*$!3l7;%zzT5k$F*F[x7$Fgw7$$!3;X,R'4`h7)F*$
+\"3Mr)pp$>Z)[$F*7$7$Fbx$\"347;%zzT5k$F*Fgx7$7$$!37&>%f6oPYsF*$!3u;!)=U
+?A+QF*7$$!3SpK]wLNytF*$!3#y(*G?%f6oPF*7$7$$!3GoK]wLNytF*$!3Ex*G?%f6oPF
+*7$Fbx$!347;%zzT5k$F*7$F]y7$$!3@fR3.a5FxF*$\"3)3A\"f)QM\"pOF*7$7$$!3M3
+K]wLNytF*$\"3O$**G?%f6oPF*Fez7$F[[l7$$!3UyKJ-2?ssF*$\"3av![F$)RRz$F*7$
+7$Fby$\"3&y,)=U?A+QF*Fa[l7$Fay7$$!3#G7=m8Y;@(F*$!3+\\]+<m%G!QF*7$7$$!3
+_emmmmmmmF*$!3>&\\pdOIS%QF*F[\\l7$Fg[l7$$!3SRUA`tCPnF*$\"3otleGmpQQF*7
+$7$Fb\\l$\"3I'\\pdOIS%QF*Fg\\l7$Fa\\l7$$!3;A\"=BJQbf'F*$!338vP'HW#RQF*
+7$7$$!3%>7R<_cp3'F*$!3JF8OaH-0QF*Fa]l7$7$$!3kfmmmmmmmF*$\"3'o\\pdOIS%Q
+F*7$$!3i[48#3El7'F*$\"3\\>3U-bo2QF*7$7$Fh]l$\"3UG8OaH-0QF*Fb^l7$Fg]l7$
+$!3=lg%>D>e0'F*$!3+M?#=@`#*z$F*7$7$$!37)H+eO#y()eF*F_zF\\_l7$Fb_l7$$!3
+%Q;E<#)))[d&F*$!3K*R9r\\t/q$F*7$7$$!3N&e6oPYs]&F*$!3]%>f:J]eo$F*Ff_l7$
+7$F]`l$\"3'R>f:J]eo$F*7$$!3%pP+eO#y()eF*F^[l7$Fe`lFh^l7$F\\`l7$$!3i_\"
+f7L#yJ^F*$!3'R(QlU)pQc$F*7$7$$!3L\\S)=BOv#\\F*$!3[r-wFX^(\\$F*Fj`l7$7$
+F]`l$\"3S$>f:J]eo$F*7$$!3')4_.rJR&Q&F*$\"3K<EDOFEYOF*7$7$$!3))\\S)=BOv
+#\\F*$\"3[r-wFX^(\\$F*Fial7$F`al7$$!3@6Bl*pluq%F*$!3zyJLHjZ3MF*7$7$$!3
+u7l&p3EyM%F*$!3S6KHk*pHE$F*Febl7$F_bl7$$!3'eg_))edIZ%F*$\"3L\\v**)HPOJ
+$F*7$7$$!3I8l&p3EyM%F*$\"318KHk*pHE$F*Facl7$7$FhclF^cl7$$!3[uX1%H!f'H%
+F*$!3[zL***eT'RKF*7$7$$!371iC:=1%=%F*FhuF^dl7$7$$!3e0iC:=1%=%F*Fhu7$$!
+3!y\\\\])33:RF*$!3o?43a3WTIF*7$7$F_z$!3OWs4<E9hHF*F[el7$7$F_z$\"3OWs4<
+E9hHF*7$$!3))QiC:=1%=%F*F[w7$Fhel7$Fhcl$\"3_7KHk*pHE$F*7$Fael7$$!3-wC
+\\i\"zRa$F*$!3W1/rJC$G$GF*7$7$Fhu$!3&o)p6j&z#HEF*F`fl7$Feel7$$!3nGu\"f
+@^lB$F*$\"3u3**)42Tol#F*7$7$Fhu$\"3^))p6j&z#HEF*Fjfl7$Fffl7$$!3%=dGrxU
+_<$F*$!3fun9s'e=i#F*7$7$$!31'4t(*[%*=:$F*FeqFdgl7$Fjgl7$$!3%\\g@ai[K$G
+F*$!3Y0i#*yE9%Q#F*7$7$Feq$!3a4\\g?z*eA#F*F^hl7$7$Feq$\"355\\g?z*eA#F*7
+$$!3e@Jx*[%*=:$F*F`t7$F[ilF`gl7$Fdhl7$$!3S&[hb*4Q*[#F*$!3U)yeQ;+$[@F*7
+$7$$!3UV(*yZA#fI#F*$!3<pjC2b)*G?F*F`il7$7$FgilFdr7$$!31Ib)[m,w:#F*$!3r
+2sg\\$p.!>F*7$7$Fdr$!3[8rdz)R))y\"F*F]jl7$7$Fiil$\"3A8rdz)R))y\"F*7$$!
+32l(*yZA#fI#F*$\"3F&QYs]&)*G?F*7$7$F[[mFdsFhhl7$Fcjl7$$!35:Pm_VYL=F*$!
+3l'[,p^'zW;F*7$7$$!3o\")R![Uo!o:F*F0Fb[m7$Fh[m7$$!3[wfa3mj6:F*$!3q)o\"
+4;T\"pQ\"F*7$7$F0$!3W3)z+U+!=8F*F\\\\m7$7$F0$\"3]1)z+U+!=8F*7$$!3++S![
+Uo!o:F*F]p7$Fi\\m7$FdrFhjl7$Fb\\m7$$!3-j1n*[:K?\"F*$!3$eYR+4Dc6\"F*7$7
+$$!3bLy%Qr8//*F>F<F_]m7$Fe]m7$$!3rFv=:b15*)F>$!3=*RQE$)Q7[)F>7$7$F<$!3
+U\"QSMUW&G\")F>Fi]m7$7$F<$\"3\"[JSMUW&G\")F>7$$!3l!)z%Qr8//*F>F^o7$Ff^
+mFf\\m7$F_^m7$$!3A0:6DpR^fF>$!3)y0RM(f!Gk&F>7$7$$!38+ZVI\"R<#HF>FIF[_m
+7$7$$!3y*pM/8R<#HF>FI7$$!3Z+ZVI\"R<#HF>$!3!**\\S)=BOvGF>7$7$$!3H*yM/8R
+<#HF>FXFh_m7$F^`mFc^m7$7$FX$!37FfR:Zb>HF>7$$!3fo;#z9f\"Rd!#JFI7$Ff`m7$
+$!3Y%*)QJO)fy:!#K$\"3my#\\Fkg`>$F^am7$7$$\"3q*)QHv%RMU&Fi`mFXF[am7$Fba
+m7$$\"3m)pE<%ypxGF>$\"3wD)[vg.%>HF>7$7$FX$\"3E2gR:Zb>HF>Ffam7$7$F^o$!3
+/)Q\\\"\\g?z*)F>7$$\"39$[2&p#ot<)F>F<7$Fcbm7$FX$!3ZFfR:Zb>HF>7$7$FX$\"
+3h2gR:Zb>HF>7$$\"3#Rn?tA(occF>$\"3&=@I7n:v$fF>7$7$$\"3!Qq2&p#ot<)F>F^o
+F^cm7$Fdcm7$$\"3aIg$*[9P7&)F>$\"3#p@!*))*G$*y))F>7$7$F^o$\"37C%\\\"\\g
+?z*)F>Fhcm7$7$F]p$!3?)>y/*>zO:F*7$$\"3=e/9UEzP8F*F07$Fedm7$F^o$!3k'Q\\
+\"\\g?z*)F>7$F^dm7$$\"3DG(>QSmF7\"F*$\"3yK/*e<ug>\"F*7$7$$\"36v/9UEzP8
+F*F]pF]em7$Fcem7$$\"3B[)HC5Z-S\"F*$\"37\\y?AOI)\\\"F*7$7$F]p$\"39+#y/*
+>zO:F*Fgem7$7$Fds$!3iG$)*zs%44AF*7$$\"3-9dt]$*))Q=F*Fdr7$FdfmFbdm7$F]f
+m7$$\"3w%\\)f-Sum;F*$\"3\"*Qn'p'o^6=F*7$7$$\"3,Hdt]$*))Q=F*FdsFifm7$7$
+F`gm$\"3r%QYs]&)*G?F*7$$\"3WENo;:]O>F*$\"3#QC4y\\p97#F*7$7$F][m$\"3tH$
+)*zs%44AF*Ffgm7$7$F`t$!3r@\"Hu$Q$\\\"HF*7$$\"3x5>4bc1DBF*Feq7$Fchm7$Fd
+gmFbfm7$7$Fds$\"3XH$)*zs%44AF*7$$\"3#)*HnYna!*>#F*$\"3[1Iv%[E'QCF*7$7$
+$\"34C>4bc1DBF*F`tF\\im7$Fbim7$$\"3gv.dN_WhCF*$\"3Gnuxog%fv#F*7$7$F`t$
+\"3FA\"Hu$Q$\\\"HF*Ffim7$7$F[w$!33T=UDVMaOF*7$$\"3U<OP))\\5*z#F*Fhu7$F
+cjmF`hm7$7$F`t$\"3r@\"Hu$Q$\\\"HF*7$$\"3dQF2ww%4s#F*$\"3gSE?tP:wIF*7$7
+$$\"3kHOP))\\5*z#F*F[wF[[n7$Fa[n7$$\"3))Q\"QJ$GJwHF*$\"3LwZ1h()\\+MF*7
+$7$F[w$\"3_S=UDVMaOF*Fe[n7$7$F^[l$!3m9KM1=S<WF*7$$\"3aI'oJq-sq$F*F\\cl
+7$7$Fc\\nFhcl7$$\"3tx`fcwt2NF*$!3m(*G_,yW(3%F*7$7$$\"3i*)[o726jKF*FiyF
+g\\n7$F]]nF`jm7$F[\\n7$$\"3GL.tI0]LKF*$\"3T<,S37-BPF*7$7$$\"3s+\\o726j
+KF*F^[lFb]n7$Fh]n7$$\"3YW#\\!=b;#[$F*$\"3EU(3gOmS0%F*7$7$$\"3JV'oJq-sq
+$F*$\"3%*Hl&p3EyM%F*F\\^n7$7$Fc^n$\"3QHl&p3EyM%F*7$$\"3QH*ymYPct$F*$\"
+3Q$f1Bc/.Q%F*7$7$F^[l$\"3x:KM1=S<WF*F[_n7$7$$\"3%)Gl&p3EyM%F*$!3'o'fry
+z))*>&F*7$$\"30$zE6)\\HITF*$!3x[S)=BOv#\\F*7$Fj_nF_\\n7$Fa_n7$$\"3QA-S
+K0#*zRF*$\"3(p$G^T;t:ZF*7$7$$\"3F0o7\")\\HITF*$\"3UlS)=BOv#\\F*Fa`n7$F
+g`n7$$\"3#\\P_\"e!*)oA%F*$\"3))>#)ogKZ[]F*7$7$Fi^n$\"3'o'fryz))*>&F*F]
+an7$7$Fj`n$!3Ta$HBJLu,'F*7$$\"3gOr*))oP;b%F*F]`l7$Fjan7$Fi^nFh_n7$Fcan
+7$$\"3a\"ojWwu.Z%F*$\"3S]WI*p(p%Q&F*7$7$$\"3E[r*))oP;b%F*$\"3,-;\"oPYs
+]&F*F`bn7$Ffbn7$$\"35dYu%z-6r%F*$\"3L55&R\")zOs&F*7$7$Fj`n$\"3I`$HBJLu
+,'F*F\\cn7$7$Fibn$!3_cM8=qs_oF*7$$\"3y^X/9@9o`F*Fb\\l7$Ficn7$$\"3]1Tt,
+i=l]F*$!38k\"*e\"\\1YA'F*7$7$$\"3%4Hcw\"4&3(\\F*Fh]lF]dn7$FcdnFgan7$Fb
+cn7$$\"3_$fV;'QAa\\F*$\"3%*4'z>*)o-1'F*7$7$$\"31-jl<4&3(\\F*$\"3eQ\"R<
+_cp3'F*Fhdn7$F^en7$$\"3)4z'*yhs*)=&F*$\"3t]Rl!GI_S'F*7$7$$\"3)RcWS6U\"
+o`F*$\"31ummmmmmmF*Fden7$Fjen7$$\"38RPv@/lFaF*$\"3;RXs@EEYnF*7$7$Fibn$
+\"3_cM8=qs_oF*F`fn7$7$Faen$!3vh&QPxFqr(F*7$$\"3_^I&3s;)fdF*Fby7$F]gnFf
+cn7$Fffn7$$\"3W[&RmZ,6m&F*$\"3Akiw6<_#4(F*7$7$$\"3iiI&3s;)fdF*$\"3w6Uf
+6oPYsF*Fbgn7$Fhgn7$$\"3?h#>HtiR*eF*$\"3/)39/gq$RuF*7$7$Faen$\"3kg&QPxF
+qr(F*F^hn7$7$$\"3=vmmmmmmmF*$!3?)RT$GWD-')F*7$$\"3[<^=]zyHlF*Fau7$F]in
+7$$\"3UiXdxYEviF*$!3_brN7^R9!)F*7$7$$\"3EPY^,0\"G:'F*FbxFain7$Fgin7$Fa
+en$!3'GcQPxFqr(F*7$Fdhn7$$\"3o+r3*y;!GhF*$\"3E'yt\"*oE]y(F*7$7$$\"3EZY
+^,0\"G:'F*$\"3N[<_cp3EyF*F_jn7$Fejn7$$\"39\"G_zn#HbjF*$\"3QUhBX4YP\")F
+*7$7$$\"3qH^=]zyHlF*$\"30'G\\95(z0%)F*F[[o7$Fa[o7$$\"3a.KHU[*fe'F*$\"3
+ecF#e#*ok[)F*7$7$Fihn$\"3?)RT$GWD-')F*Fg[o7$7$$\"3)G@%f6oPYsF*$!3z9oU)
+3R\\^*F*7$$\"3M2@TtR.,pF*F^q7$Ff\\oFhhn7$7$F]fn$\"34(RT$GWD-')F*7$$\"3
+n%p]<**)47oF*$\"3.-GH@\\2S))F*7$7$$\"3W=@TtR.,pF*$\"3_@oPYs]&)*)F*F^]o
+7$7$Fe]o$\"3U?oPYs]&)*)F*7$$\"3An[uQ\"ot.(F*$\"3=nhA>f^%>*F*7$7$F[hn$
+\"3z9oU)3R\\^*F*F]^o7$7$Fhjn$!3;:iv`M\\W5!#<7$$\"3X^0=cp:JwF*$!3!y=BOv
+#\\95Fj^o7$F[_o7$$\"3T)*3qf*Q:K(F*$!35G5TR&z.k*F*7$7$$\"3YnR'>R:aF(F*F
+(Fa_o7$Fg_o7$F[hnFd\\o7$7$F[hn$\"3!f\"oU)3R\\^*F*7$$\"3)R)GhATyksF*$\"
+3!fo&G!35oa*F*7$7$$\"3YxR'>R:aF(F*$\"35eVI\"R<_c*F*F``o7$7$Fg`o$\"3+dV
+I\"R<_c*F*7$$\"3Ol\"ypZH[[(F*$\"34Tz%3([Z1**F*7$7$$\"3Lg0=cp:JwF*$\"3O
+*=BOv#\\95Fj^oF_ao7$Feao7$$\"3VPrZn(Hzq(F*$\"3M]w_s%3j-\"Fj^o7$7$Fhjn$
+\"3Q:iv`M\\W5Fj^oF[bo7$7$$\"3%\\G\\95(z0%)F*$!3T,fJO6>S6Fj^o7$$\"3KO'4
++rbHM)F*$!37&p3EyM/8\"Fj^o7$Fjbo7$$\"3V&*)zolvQC)F*$!31c<:QEC96Fj^o7$7
+$$\"3#[OyB#*H#))zF*$!3YTf6oPYs5Fj^oF`co7$FfcoFg^o7$Fabo7$$\"3G*H'f&zG(
+GzF*$\"3#z[3Ue*>i5Fj^o7$7$$\"3qt$yB#*H#))zF*$\"3-Vf6oPYs5Fj^oF]do7$Fcd
+o7$$\"3_yXRQYuY\")F*$\"3a89U9!p$)4\"Fj^o7$7$$\"3JY'4+rbHM)F*$\"3o'p3Ey
+M/8\"Fj^oFido7$7$$\"3?X'4+rbHM)F*Fbeo7$$\"3qvfl1\\dn$)F*$\"3gF!)3-qDM6
+Fj^o7$7$Ffbo$\"3j,fJO6>S6Fj^oFheo7$7$$\"3kAoPYs]&)*)F*$!3[,\"*y0_#zB\"
+Fj^o7$$\"3iVhBRlr%o)F*$!3y[95(z0%)=\"Fj^o7$7$$\"3]UhBRlr%o)F*Fjfo7$Fd[
+oFhbo7$7$$\"3$QG\\95(z0%)F*F_fo7$$\"3)e$3#[p'\\#e)F*$\"3M&Hkx$etq6Fj^o
+7$7$$\"3]_hBRlr%o)F*$\"3K]95(z0%)=\"Fj^oFego7$7$F\\ho$\"35]95(z0%)=\"F
+j^o7$$\"3s)faI$3Q)z)F*$\"3%GnL%Q%=r?\"Fj^o7$7$Fg]o$\"3q,\"*y0_#zB\"Fj^
+oFdho7$7$Fi`o$!3iFQN&eMwL\"Fj^o7$$\"3-$f,uYc^O*F*$!35cp3EyM/8Fj^o7$Fai
+o7$$\"3Q?rkrjg%4*F*$!3AK77CnGd7Fj^o7$7$$\"3QopU`i)=.*F*$!3W-Uf6oPY7Fj^
+oFgio7$F]joFbfo7$Fjho7$$\"3dI#Q)[JX:!*F*$\"3)H1[8A#QV7Fj^o7$7$$\"3:wpU
+`i)=.*F*$\"3+/Uf6oPY7Fj^oFdjo7$Fjjo7$$\"3Z?=vN5dE#*F*$\"3kd%\\rWT-G\"F
+j^o7$7$$\"3!>g,uYc^O*F*$\"3ldp3EyM/8Fj^oF`[p7$Ff[p7$$\"3^h<gs\"f-W*F*$
+\"3U<s&zkVoJ\"Fj^o7$7$F]ao$\"3iFQN&eMwL\"Fj^oF\\\\p7$7$Fhao$!3\")f*e8t
+Q'R9Fj^o7$$\"3l=]v'>8I+\"Fj^o$!3TjC2b)*G?9Fj^o7$Fi\\p7$$\"3oD&Ho2L#y)*
+F*$!3iEA84/i$R\"Fj^o7$7$$\"3qNB0+9&**p*F*$!3w4(z0%)=BO\"Fj^oF_]p7$Fe]p
+F^io7$Fb\\p7$$\"3m%z%))fqP_'*F*$\"3Wn;stGg`8Fj^o7$7$$\"3eWB0+9&**p*F*$
+\"3I6(z0%)=BO\"Fj^oF\\^p7$7$$\"3oXB0+9&**p*F*Fe^p7$$\"31kr_fSUh)*F*$\"
+3E%=]#)=p1R\"Fj^o7$7$$\"3a>]v'>8I+\"Fj^o$\"3(\\Ys]&)*G?9Fj^oF[_p7$Fa_p
+7$$\"3Ax=PHyG25Fj^o$\"36xPKzZ\\F9Fj^o7$7$Fhao$\"3\")f*e8tQ'R9Fj^oFg_p7
+$7$Ffdo$!3%ox')**4,Qa\"Fj^o7$$\"3)fTxcRQ!o5Fj^o$!3tqz0%)=BO:Fj^o7$Fd`p
+7$$\"39OT4aqLi5Fj^o$!3'Q;O+<0h_\"Fj^o7$7$$\"3k\\;U02SN5Fj^o$!33<_cp3Ey
+9Fj^oFj`p7$F`apFf\\p7$7$Fhao$\"3.g*e8tQ'R9Fj^o7$$\"3!>l'3([d!G5Fj^o$\"
+35c<5Ohpk9Fj^o7$7$$\"3_];U02SN5Fj^o$\"3k=_cp3Ey9Fj^oFjap7$F`bp7$$\"3;4
+#f%)*4v[5Fj^o$\"3[_>ARO(>]\"Fj^o7$7$$\"3)oTxcRQ!o5Fj^o$\"3Hsz0%)=BO:Fj
+^oFfbp7$F\\cp7$$\"3QDNUD6np5Fj^o$\"39!R]n_C!R:Fj^o7$7$Ffdo$\"31xn)**4,
+Qa\"Fj^oFbcp7$7$Fbeo$!3'>0Q(*)f%*\\;Fj^o7$$\"3G#*)z!3bY*4\"Fj^o$!3QC2b
+)*G?%f\"Fj^o7$F_dp7$Ffdo$!31xn)**4,Qa\"Fj^o7$7$Ffdo$\"3Gxn)**4,Qa\"Fj^
+o7$$\"3QX84?h/!4\"Fj^o$\"3OB`dY0iw:Fj^o7$7$$\"3=$*)z!3bY*4\"Fj^o$\"3%f
+s]&)*G?%f\"Fj^oF\\ep7$Fbep7$$\"3^\"HKx;E06\"Fj^o$\"3LJrU8:69;Fj^o7$7$F
+beo$\"3=_!Q(*)f%*\\;Fj^oFhep7$7$F^ho$!3IG->,5!zv\"Fj^o7$$\"3A+([.7dA;
+\"Fj^o$!3rJi`F\\95<Fj^o7$7$$\"3++([.7dA;\"Fj^oFhfp7$$\"3g;w*\\j`G8\"Fj
+^o$!3)zRKaw#fa;Fj^o7$7$$\"3ln3O[LdJ6Fj^o$!31yM/8R<_;Fj^oF^gp7$FdgpF\\d
+p7$F^fp7$$\"3;ne%*y#)=J6Fj^o$\"374jq;/U^;Fj^o7$7$$\"3ao3O[LdJ6Fj^o$\"3
+gzM/8R<_;Fj^oF[hp7$7$Fbhp$\"3#)zM/8R<_;Fj^o7$$\"3O%o'[$GV7:\"Fj^o$\"3c
+X#emUO$*o\"Fj^o7$7$$\"35,([.7dA;\"Fj^o$\"3ELi`F\\95<Fj^oFjhp7$7$$\"3)3
+q[.7dA;\"Fj^oFcip7$$\"3Id@HQ*3:<\"Fj^o$\"3IEbM'yTqs\"Fj^o7$7$$\"3a]95(
+z0%)=\"Fj^o$\"3IG->,5!zv\"Fj^oFiip7$7$F][p$!3+NNQM$yy'=Fj^o7$$\"3_Y(4m
+*e%QA\"Fj^o$!3.R<_cp3E=Fj^o7$7$$\"3uY(4m*e%QA\"Fj^o$!3DR<_cp3E=Fj^o7$$
+\"3G%\\#fCL@*>\"Fj^o$!3MH+_pM#*y<Fj^o7$7$$\"3+11<j(oN>\"Fj^o$!3O&)*G?%
+f6o<Fj^oFc[q7$Fi[qFbfp7$7$F^ho$\"33G->,5!zv\"Fj^o7$$\"3C2W5``$=>\"Fj^o
+$\"3-Ig-'Q'ok<Fj^o7$7$$\"3)ogqJwoN>\"Fj^o$\"3#p)*G?%f6o<Fj^oFc\\q7$7$F
+j\\q$\"39()*G?%f6o<Fj^o7$$\"3J&\\,As'o67Fj^o$\"3g&p@9.1G!=Fj^o7$7$$\"3
+TZ(4m*e%QA\"Fj^o$\"3eS<_cp3E=Fj^oFb]q7$Fh]q7$$\"3e*[D81Q<B\"Fj^o$\"3*
+\\X!z1dsS=Fj^o7$7$F][p$\"3+NNQM$yy'=Fj^oF^^q7$7$Fi[p$!3-m!Rfj<)z>Fj^o7
+$$\"3Oi%R76-VG\"Fj^o$!3cYs]&)*G?%>Fj^o7$F[_q7$$\"3]<I*HxFIE\"Fj^o$!3T1
+LTK*32!>Fj^o7$7$$\"37$>V)RZXa7Fj^o$!3o#\\95(z0%)=Fj^oFa_q7$Fg_q7$F][p$
+!3CNNQM$yy'=Fj^o7$7$F][p$\"3yMNQM$yy'=Fj^o7$$\"3K&HSntk<D\"Fj^o$\"39.%
+oe/q'y=Fj^o7$7$$\"3+%>V)RZXa7Fj^o$\"3-%\\95(z0%)=Fj^oFd`q7$Fj`q7$$\"3i
+v%>z?79F\"Fj^o$\"3/w>=*e$*p\">Fj^o7$7$$\"3!GYR76-VG\"Fj^o$\"3*yC2b)*G?
+%>Fj^oF`aq7$7$$\"3/j%R76-VG\"Fj^oFiaq7$$\"3-Y4Do+D\"H\"Fj^o$\"3wfKMVn7
+b>Fj^o7$7$Fi[p$\"3-m!Rfj<)z>Fj^oF_bq7$7$$\"3dddz9<H98Fj^o$!\"#\"\"!Fh^
+q7$Febq7$$\"3J,-,(\\45J\"Fj^o$\"3odn2H$QL*>Fj^o7$7$$\"3Yedz9<H98Fj^o$
+\"3M,++++++?Fj^oF`cq-%'COLOURG6&%$RGBG$\"*++++\"!\")$F^cqF^cqFbdq-F$6a
+p7$7$$\"3[l************zF>$!3e*)************QF*7$$\"3+2++++++KF>$!3_.+
++++++CF*7$F[eq7$$\"3C*H9dG9dG#F>$!3=P9dG9dG=F*7$7$$\"3y;++++++k!#?$!3)
+[.++++++)F>Faeq7$Fgeq7$$\"35#)***********R'Fjeq$!3)fn+++++S'Fjeq7$7$$
+\"3Gh***********R'FjeqFgdqF^fq7$Fdfq7$$\"3W$4$z8C<b;F>$\"3v$o?'eF[M9F*
+7$7$$\"3m*)***********>$F>$\"3e'************R#F*Fhfq7$7$$\"3u\"*******
+*****>$F>Fagq7$$\"3KZjjjjjjVF>$\"3mejjjjjjFF*7$7$Fgdq$\"3E\"**********
+***QF*Fggq7$7$Fagq$!3u&***********\\kF*7$$\"3qa4Q_4Q_<F*$!3w-++++++cF*
+7$7$$\"3)\\&4Q_4Q_<F*$!3'Q++++++g&F*7$$\"3#3)*)))))))))))))F>$!3A0*)))
+)))))))3%F*7$7$$\"3U,C&4Q_4Q)F>$!3c.++++++SF*F_iq7$FeiqFfdq7$F]hq7$$\"
+35*\\l*o?'eF)F>$\"3mVM5$z8C(RF*7$7$$\"3]pB&4Q_4Q)F>$\"3)o*************
+RF*F\\jq7$Fbjq7$$\"3,/1111119F*$\"3+!RRRRRR*\\F*7$7$$\"3a]4Q_4Q_<F*$\"
+35'************f&F*Fhjq7$7$F_[r$\"3?(************f&F*7$$\"3**HCVKCVK?F
+*$\"3MkvcnvcnfF*7$7$Fagq$\"3u&***********\\kF*Fg[r7$7$Fejq$!3=)*******
+****fzF*7$$\"34\"=THN#)e5$F*$!3=/++++++sF*7$Fd\\rFahq7$F]\\r7$$\"3Mgjj
+jjjjFF*$\"3lKOOOOOOoF*7$7$$\"3(Q<THN#)e5$F*$\"3_(************>(F*F[]r7
+$Fa]r7$$\"3%e=*=*=*=*e$F*$\"3Y23\"3\"3\"3h(F*7$7$Fejq$\"3=)***********
+fzF*Fg]r7$7$Fe[r$!3+lmmmmmm*)F*7$$\"3[*p2Bp2BH&F*$!3[/++++++))F*7$7$Fe
+^r$!3e0++++++))F*Fa\\r7$F]^r7$$\"3$f!444444XF*$\"3y)344444H)F*7$7$$\"3
+E(o2Bp2BH&F*$\"3!y************z)F*F^_r7$7$$\"3Q)o2Bp2BH&F*Fg_r7$$\"3'z
+)=*=*=*=\\&F*$\"3%f53\"3\"3\"3*)F*7$7$Fe[r$\"3+lmmmmmm*)F*F]`r7$Fa^r7$
+$\"3gbmmmmmmeF*$!3)Gmmmmmm1*F*7$7$Fd]r$!3almmmmmm&*F*Fg`r7$Fc`r7$$\"3o
+RUUUUUUmF*$\"3)yvvvvvvN*F*7$7$Fd]r$\"3almmmmmm&*F*Faar7$F]ar7$$\"3Oq:j
+_5Uo\")F*$!3Mx:j_5Uo(*F*7$7$$\"3q'************z)F*$!3!***************)
+*F*F[br7$Fgar7$$\"3w*y8C<b'*)yF*$\"3(e?'eF[M5(*F*7$7$$\"3#*)**********
+**z)F*$\"3!***************)*F*Fgbr7$7$Fbbr$!3!))*************)*F*7$$\"
+3%\\^cp3Ey%**F*$!3[?l&p3Ey%**F*7$7$$\"3\")************R5Fj^o$!3!fmmmmm
+m'**F*Ffcr7$7$Fg_r$\"3!))*************)*F*7$$\"3-'***********z#*F*$\"3
+$*************>**F*7$7$F]dr$\"3!fmmmmmm'**F*Fedr7$F\\dr7$$\"3A.Pq.PqV6
+Fj^o$!3ZPq.Pq.P)*F*7$7$$\"3s*************>\"Fj^o$!3%zmmmmmmw*F*F_er7$F
+[er7$$\"374Q_4Q_*3\"Fj^o$\"350>w/>w/**F*7$7$Ffer$\"3%zmmmmmmw*F*F[fr7$
+Feer7$$\"3)*=un4(Q[F\"Fj^o$!3s&>un4(Q[&*F*7$7$$\"3m************f8Fj^o$
+!3g,++++++$*F*Fefr7$Fafr7$$\"3g\")eqk<T*G\"Fj^o$\"3cz6%HN#)e]*F*7$7$F
+\\gr$\"3g,++++++$*F*Fagr7$F[gr7$$\"3o8dG9dG%R\"Fj^o$!3!f9dG9dG9*F*7$7$
+$\"3M344444p9Fj^oF[_rF[hr7$7$FbhrFg^r7$$\"34n4(Q[N>]\"Fj^o$!3nz'4(Q[N>
+')F*7$7$$\"3d************>:Fj^o$!38.+++++?&)F*Ffhr7$7$F]ir$\"3C/+++++?
+&)F*7$$\"3o444444p9Fj^oFg_r7$7$$\"3Y444444p9Fj^oFbbr7$$\"3))**********
+**f8Fj^oFhgr7$F\\ir7$$\"3'4dG9dGaf\"Fj^o$!3==dG9dGazF*7$7$$\"3[*******
+*****z;Fj^o$!3R0+++++?tF*F`jr7$7$F]ir$\"38.+++++?&)F*7$$\"3z'*********
+*>j\"Fj^o$\"3OA+++++!o(F*7$7$Fgjr$\"3G/+++++?tF*F_[s7$Ffjr7$$\"3mXQ:YQ
+:'o\"Fj^o$!3%fYQ:YQ:E(F*7$7$$\"3/ot%*y:j#p\"Fj^oFg\\rFi[s7$F_\\s7$$\"3
+!)************f<Fj^o$!3o0++++++kF*7$7$$\"34JE0@%ot#=Fj^oF]iqFc\\s7$7$$
+\"3JJE0@%ot#=Fj^oF]iq7$$\"3gGh^k!eA$=Fj^o$!3(oHh^k!eAbF*7$7$$\"3T*****
+*******R=Fj^o$!373++++++aF*F`]s7$7$Fg]s$\"3A4++++++aF*7$$\"3vJE0@%ot#=
+Fj^oFe[r7$F_^s7$$\"3C/+++++g<Fj^o$\"3=]***********R'F*7$7$$\"3qot%*y:j
+#p\"Fj^oFd]rFc^s7$Fi^sFe[s7$7$Fg]s$!3A4++++++aF*7$$\"3o***********z)=F
+j^o$!3?1+++++![%F*7$7$$\"3=p3EyM/8>Fj^oFhiqFa_s7$7$$\"3Sp3EyM/8>Fj^oFh
+iq7$$\"3xTx'4(Q[N>Fj^o$!3#oUx'4(Q[N$F*7$7$$\"3=8R<_cpo>Fj^oF^eqF^`s7$7
+$$\"3'H\"R<_cpo>Fj^oF^eq7$$\"3%HLLLLLL(>Fj^o$!3!=MLLLLL8#F*7$7$$\"3%[V
+I\"R<_'*>Fj^oF[fqF[as7$Faas7$Fbas$!3/#eVI\"R<_wF>7$7$FbasFgdqFeas7$Fia
+s7$$\"3y5Uot%*y&*>Fj^o$\"3GA)y:j_5U)F>7$7$$\"3S8R<_cpo>Fj^oFagqF[bs7$7
+$Fe`sFagq7$$\"3i++++++_>Fj^o$\"3M&)**********zGF*7$7$$\"3ip3EyM/8>Fj^o
+FejqFfbs7$F\\csF\\^s-F\\dq6&F^dqFbdqF_dqFbdq-%(SCALINGG6#%,CONSTRAINED
+G-%+AXESLABELSG6%%\"xG%\"yG-%%FONTG6#%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 
+1 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" }}}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 99 " O baza Groebner cu o baza cu ordinea lex
+icografica pura produce un sistem triunghiular echivalent:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "with(Groebner);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#7:%&BasisG%%FGLMG%1HilbertDimensionG%2HilbertPolynomi
+alG%.HilbertSeriesG%,InterReduceG%)IsProperG%2IsZeroDimensionalG%3Lead
+ingCoefficientG%0LeadingMonomialG%,LeadingTermG%.MonomialOrderG%5Multi
+plicationMatrixG%+NormalFormG%*NormalSetG%'ReduceG%.RememberBasisG%,SP
+olynomialG%&SolveG%*TestOrderG%0ToricIdealBasisG%5UnivariatePolynomial
+G%%WalkG%*fglm_algoG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "gb \+
+:= Basis(sys,plex(x,y));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#gbG7$,(
+*$)%\"yG\"\"'\"\"\"F+*&\"#7F+)F)\"\"#F+!\"\"*&F-F+)F)\"\"%F+F+,(*&\"#C
+F+%\"xGF+F+*$F2F+F0*&\"#=F+F.F+F0" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+184 "In ordinea lexicografica pura a variabilelor sistemului, obtinem \+
+un sistem triunghiular: prima ecuatie este doar in y, a doua in x si y
+.  Observam ca sunt sase solutii in complex.  Cu " }{TEXT 260 5 "solve
+" }{TEXT -1 40 " putem obtine intai solutiile rationale:" }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "sy := solve(gb[1],
+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#syG6(\"\"!F&,$*$,&\"\"'!\"\"
+*&\"\"%\"\"\"\"\"$#F.\"\"#F.F0F+F(*&^#F+F.,&*&F-F.F/F0F.F*F.F0*&F4F0^#
+F.F." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 24 "Avem sase valori pentru \+
+" }{XPPEDIT 18 0 "y;" "6#%\"yG" }{TEXT -1 155 ".  0 apare de doua ori,
+ deci avem o radacina in (0,0), cum rezulta din a doua ecuatie. In plu
+s fata de origine mai avem doua solutii reale; sa le verificam" }
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(s
+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6($\"\"!F$F#$!+\\/LM'*!#5$\"+\\/L
+M'*F'^#$!+q5e&f$!\"*^#$\"+q5e&f$F-" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 27 "Pentru a gasi valorile lui " }{XPPEDIT 18 0 "x;" "6#%\"xG" }
+{TEXT -1 27 ", vom inlocui valorile lui " }{XPPEDIT 18 0 "y;" "6#%\"yG
+" }{TEXT -1 19 " in a doua ecuatie:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "eq2 := seq(subs(y=sy[k],gb[2]),k=1.
+.nops([sy]));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$eq2G6(,$*&\"#C\"\"
+\"%\"xGF)F)F&,**&F(F)F*F)F)*$),&\"\"'!\"\"*&\"\"%F)\"\"$#F)\"\"#F)F6F)
+F1\"$3\"F)*&\"#sF)F4F5F1F+,**&F(F)F*F)F)*$),&*&F3F)F4F5F)F0F)F6F)F1F7F
+)*&F9F)F4F5F)F:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "sx := ma
+p(eqx->solve(eqx,x),[eq2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#sxG7
+(\"\"!F&,&*$\"\"$#\"\"\"\"\"#F+F+!\"\"F',&F+F-F(F-F." }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 34 "sols := zip((x,y)->[x,y],sx,[sy]);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%solsG7(7$\"\"!F'F&7$,&*$\"\"$#\"\"
+\"\"\"#F-F-!\"\",$*$,&\"\"'F/*&\"\"%F-F+F,F-F,F/7$F)F17$,&F-F/F*F/*&^#
+F/F-,&*&F5F-F+F,F-F3F-F,7$F8*&F;F,^#F-F-" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 92 "Solutia este o lista de liste, fiecare element fiind o li
+sta cu doua elemente (coordonatele " }{XPPEDIT 18 0 "x;" "6#%\"xG" }
+{TEXT -1 4 " si " }{XPPEDIT 18 0 "y;" "6#%\"yG" }{TEXT -1 2 ")." }
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 19 "5. Alti rez
+olvitori" }}{PARA 0 "" 0 "" {TEXT -1 37 "Pentru aproximatii numerice u
+tilizam " }{MPLTEXT 1 0 6 "fsolve" }{TEXT -1 24 ". Alti rezolvitori su
+nt " }{MPLTEXT 1 0 6 "isolve" }{TEXT -1 28 " (pentru radacini intregi)
+, " }{MPLTEXT 1 0 7 "msolve " }{TEXT -1 32 "(pentru aritmetica modular
+a) si " }{MPLTEXT 1 0 6 "rsolve" }{TEXT -1 66 " (pentru rezolvarea rel
+atiilor de recurenta). De examplu, comanda " }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 50 "rsolve(\{f(n+1)=f(n)+f(n-1), f(0)=0, f(1)=1\},f(n))
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*(\"\"&!\"\"F%#\"\"\"\"\"#),&F'
+F(*&F)F&F%F'F&%\"nGF(F&*(F%F&F%F'),&F'F(*&F)F&F%F'F(F-F(F(" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 33 "da o formula explicita pentru a  " }
+{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 37 "-lea termen al sirului lui \+
+Fibonacci." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 20 "isolve(a^2+b^2=c^2);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#<%/%\"aG*(%$_Z3G\"\"\",&*$)%$_Z1G\"\"#F(!\"\"*$)%$_Z2GF-F(F(F(-%
+%igcdG6%F),&F*F(F/F(,$*(F-F(F,F(F1F(F.F./%\"cG*(F'F(F5F(F2F./&%\"AG6#
+\"\"$,$*,F-F(F'F(F,F(F1F(F2F.F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 21 "msolve(x*(x+9)=0,24);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$<#/%
+\"xG\"\"!<#/F%\"#:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+}{MARK "7 5 0 0" 8 }{VIEWOPTS 1 1 0 3 2 1804 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

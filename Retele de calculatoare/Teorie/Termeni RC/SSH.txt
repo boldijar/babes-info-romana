@@ -1,0 +1,7 @@
+Secure Shell or SSH is a network protocol that allows data to be exchanged using a secure channel between two computers. Encryption provides confidentiality and integrity of data over an insecure network, such as the Internet. SSH uses public-key cryptography to authenticate the remote computer and allow the remote computer to authenticate the user, if necessary.[1]
+SSH is typically used to log into a remote machine and execute commands, but it also supports tunneling, forwarding arbitrary TCP ports and X11 connections; it can transfer files using the associated SFTP or SCP protocols.[1] SSH uses the client-server protocol.
+An SSH server, by default, listens on the standard TCP port 22.[2]
+SSH is most commonly used:
+* with an SSH client that supports terminal protocols, for remote administration of the SSH server computer via terminal (character-mode) console; 
+* in combination with SFTP, as a secure alternative to FTP which can be set up more easily 
+

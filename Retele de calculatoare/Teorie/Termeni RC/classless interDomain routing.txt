@@ -1,0 +1,6 @@
+* CIDR: Classless InterDomain Routing
+* network portion of address of arbitrary length
+* address format: a.b.c.d/x, where x is # bits in network portion of address
+ex: 200.23.16.0/23
+
+Classless Inter-Domain Routing (CIDR, pronounced "cider") was introduced in 1993 and is the latest refinement to the way IP addresses are interpreted. It replaced the previous generation of IP address syntax, classful networks. Specifically, rather than allocating address blocks on eight-bit (i.e., octet) boundaries forcing 8, 16, or 24-bit prefixes, it used the technique of variable-length subnet masking (VLSM) to allow allocation on arbitrary-length prefixes.

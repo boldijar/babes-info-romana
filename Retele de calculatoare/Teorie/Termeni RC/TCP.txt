@@ -1,0 +1,34 @@
+The Transmission Control Protocol (TCP) is one of the core protocols of the Internet protocol suite. TCP provides reliable, in-order delivery of a stream of bytes, making it suitable for applications like file transfer and e-mail. It is so important in the Internet protocol suite that sometimes the entire suite is referred to as "the TCP/IP protocol suite." TCP is the transport protocol that manages the individual conversations between web servers and web clients. TCP divides the HTTP messages into smaller pieces, called segments, to be sent to the destination client. It is also responsible for controlling the size and rate at which messages are exchanged between the server and the client.
+* Source port (16 bits) – identifies the sending port 
+* Destination port (16 bits) – identifies the receiving port 
+* Sequence number (32 bits) – has a dual role 
+* If the SYN flag is present, then this is the initial sequence number and the first data byte is the sequence number plus 1 
+* If the SYN flag is not present, then the first data byte is the sequence number 
+* Acknowledgement number (32 bits) – if the ACK flag is set then the value of this field is the next expected byte that the receiver is expecting. 
+* Data offset (4 bits) – specifies the size of the TCP header in 32-bit words. The minimum size header is 5 words and the maximum is 15 words thus giving the minimum size of 20 bytes and maximum of 60 bytes. This field gets its name from the fact that it is also the offset from the start of the TCP packet to the data. 
+* Reserved (4 bits) – for future use and should be set to zero 
+* Flags (8 bits) (aka Control bits) – contains 8 1-bit flags 
+* CWR (1 bit) – Congestion Window Reduced (CWR) flag is set by the sending host to indicate that it received a TCP segment with the ECE flag set (added to header by RFC 3168). 
+* ECE (ECN-Echo) (1 bit) – indicate that the TCP peer is ECN capable during 3-way handshake (added to header by RFC 3168). 
+* URG (1 bit) – indicates that the URGent pointer field is significant 
+* ACK (1 bit) – indicates that the ACKnowledgment field is significant 
+* PSH (1 bit) – Push function 
+* RST (1 bit) – Reset the connection 
+* SYN (1 bit) – Synchronize sequence numbers 
+* FIN (1 bit) – No more data from sender 
+* Window (16 bits) – the size of the receive window, which specifies the number of bytes (beyond the sequence number in the acknowledgment field) that the receiver is currently willing to receive (see Flow control) 
+* Checksum (16 bits) – The 16-bit checksum field is used for error-checking of the header and data 
+* Urgent pointer (16 bits) – if the URG flag is set, then this 16-bit field is an offset from the sequence number indicating the last urgent data byte 
+* Options (Variable bits) – the total length of the option field must be a multiple of a 32-bit word and the data offset field adjusted appropriately 
+* 0 - End of options list 
+* 1 - No operation (NOP, Padding) 
+* 2 - Maximum segment size (see maximum segment size) 
+* 3 - Window scale (see window scaling for details) 
+* 4 - Selective Acknowledgement ok (see selective acknowledgments for details) 
+* 5 - 
+* 6 - 
+* 7 - 
+* 8 - Timestamp (see TCP Timestamps for details) 
+The last field is not a part of the header. The contents of this field are whatever the upper layer protocol wants but this protocol is not set in the header and is presumed based on the port selection.
+* Data (Variable bits): As you might expect, this is the payload, or data portion of a TCP packet. The payload may be any number of application layer protocols. The most common are HTTP, Telnet, SSH, FTP, but other popular protocols also use TCP.
+

@@ -1,0 +1,104 @@
+The Domain Name System (DNS) associates various information with domain names; most importantly, it serves as the "phone book" for the Internet by translating human-readable computer hostnames, e.g. www.example.com, into IP addresses, e.g. 208.77.188.166, which networking equipment needs to deliver information. A DNS also stores other information such as the list of mail servers that accept email for a given domain. By providing a worldwide keyword-based redirection service, the Domain Name System is an essential component of contemporary Internet use.
+* In the TCP/IP world each machine is uniquely identified by its IP Address.
+* IPAddress – 4 bytes = 32 bits
+* Numbers are hard to remember, names are easier.
+* Each machine is assigned a name in a tree-like structure.
+* Domain Names (FQDN) or URLs are used by users – www.google.com
+* IP Address needed by programs – 66.249.93.104
+* The DNS Service Provides IP Name Resolution 
+* DNS is a distributed database of Domain Names and their corresponding IP Addresses 
+* RFC 1034, 1035  
+* A hierarchical naming system used to give each server on the Internet a unique name. 
+* www.google.com  (URL or FQDN) HostName.Domain.TLD 
+* HostName and the Domain Name = Fully Qualified Domain Name (FQDN)
+
+Sources of Domain Names 
+* ICANN (Internet Corporation For Assigned Names and Numbers) Oversees the Domain Name Registration Process (www.icann.org)
+* Shared Database of Domain Names (Master Database)
+* Maintained under Contract by Network Solutions (originally InterNIC)
+* Domain registrars- keep things organized
+* Network Solutions, America Online, register.com, Tucows.com, RNC.RO
+* Complete List of Registrars:
+* http://www.icann.org/registrars/accredited-list.html
+Registering a Domain Name 
+* Contact a Domain Register 
+* Choose a Unique Domain Name http://www.rnc.ro/ or other Register!
+* To See Who Currently Owns a Name http://www.rnc.ro (Whois Query) or whois(Unix)
+* Register the Domain Name 
+* $10-35 a year 
+* You need the FQDN’s Names and IP Addresses of (2) Two DNS Servers That Store DNS Information for Your Domain
+Resource records
+RR=(Domain_name, Time_to_live, Class, Type, Value )
+
+Domain_name–the domain to which the resource belongs
+Time_to_live – how stable the record is
+Class – IN (Internet), Chaos, etc
+Type – types of the record
+Value – the record value
+
+DNS Software 	
+* Resolver 
+* Built into Client TCP/IP Software 
+* Ask Designated Name Server for IP Address When Client Enters FQDN (URL) 
+* Name Server 
+* a.k.a DNS Server (Available with Most OS’s) 
+* Retrieves IP Addresses for Clients 
+* Supplies IP Address to other Name Servers 
+* Provided by the Internet, ISP, or business
+
+
+DNS Name Solving
+* Originally one single central huge table.
+* Hierarchical structure:
+* Root DNS servers (serving .com .org .net, etc)
+* Domain servers – serve domain queries.
+* Types of queries:
+* Recursive queries
+* Non-recursive queries
+
+DNS – Non Recursive & Caching
+Connect at www.yahoo.com
+1. Ask the Root Server for the .com ( a.gtld-servers.net )
+2. a.gtld-servers.net asks the DNS server of the yahoo.com (ns1.yahoo.com)
+3. ns1.yahoo.com determines that www.yahoo.com => is an alias for www.yahoo.akadns.net
+4. Response gets back to the client www.yahoo.akadns.net
+
+DNS Recursive & caching
+Connect at www.yahoo.com
+1. Ask Local Server(LS) for the www.yahoo.com
+2. (LS) 
+1. www.yahoo.com – cached 216.109.118.68
+2. Or asks Root Server for the .com 
+3. (LS) asks a.gtld-servers.net who is the DNS server for yahoo.com => ns1.yahoo.com
+4. Ask ns1.yahoo.com who is www.yahoo.com => is alias for www.yahoo.akadns.net
+5. Ask ns1.yahoo.com who is www.yahoo.akadns.net =>216.109.118.68
+
+How DNS Works (The Two Key Functions)
+
+Configuring DNS
+* DNS 
+* Information Stored in a Zone File 
+* Text Files 
+* Information About One or More Domains 
+* S	tatic (Manually Updated) 
+* Dynamic DNS 
+* Same Process/Types on Information 
+* Each Computer Dynamically Updates Its Information 
+* RFC 
+* Windows Server, Netware, etc
+
+
+Placing DNS Servers on Internet
+* Need Two Name Servers 
+* Yours or ISP’s 
+* Register with Name Register (Rnc.Ro)  
+* Create a Host Record for Each Name Server (Host Name and IP Address) 
+* Register Domain Names With the Host Names and IP Addresses of Name Servers 
+
+Query DNS Packet Structure
+QName – host name or query data (www.cs.ubbcluj.ro)
+QType- A, PTR, MX, NS, SOA, etc
+QClass – the query class (type of adressing- IN=Internet)
+
+
+A single piece of information from the DNS database is called a resource record, or RR for short. Each record has a type associated with it, describing the sort of data it represents, and a class specifying the type of network it applies to. The latter accommodates the needs of different addressing schemes, like IP-addresses (the IN class), or addresses of Hesiod networks (used at MIT), and a few more. The prototypical resource record type is the A record which associates a fully qualified domain name with an IP-address.

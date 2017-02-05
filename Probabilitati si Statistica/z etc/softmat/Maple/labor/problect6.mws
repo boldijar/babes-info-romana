@@ -1,0 +1,1282 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Symbol" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 257 "Symbol" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "
+" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "Symbol" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 265 "Symbol" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 267 "Symbol" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "
+" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 74 0 179 0 0 1 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 91 50 44 0 0 1 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 276 "" 0 1 76 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 
+17 0 152 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 10 0 0 0 0 1 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 23 1 115 0 2 0 0 0 0 0 0 0 
+0 1 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 282 "" 0 1 0 0 4 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 0 1 0 
+0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 8 0 48 0 2 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 285 "" 0 1 93 1 0 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 0 1 0 0 
+2 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 2 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 290 "" 0 1 10 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 193 
+135 120 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 27 0 0 1 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 1 240 0 0 1 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 297 "" 0 1 51 136 1 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 0 
+1 0 0 92 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 99 136 0 0 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 0 15 0 0 1 0 0 0 0 0 0 
+0 1 }{CSTYLE "" -1 301 "" 0 1 0 0 68 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 302 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 304 "" 0 1 243 135 29 0 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 305 "" 1 24 0 1 0 0 0 0 2 0 0 0 0 0 
+0 1 }{CSTYLE "" -1 306 "" 0 1 150 136 104 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 307 "" 0 1 117 136 228 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 308 "" 0 1 115 105 111 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 309 "
+" 0 1 159 135 15 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 310 "" 0 1 33 
+136 152 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 312 "" 0 1 0 0 31 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 313 "" 0 1 1 128 1 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+314 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 315 "" 0 1 120 
+61 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 316 "" 0 1 0 0 20 0 0 1 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 317 "" 0 1 0 0 70 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 318 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+319 "" 0 1 243 135 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 320 "" 0 1 
+0 0 232 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 323 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+324 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 325 "" 0 1 252 
+135 12 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 326 "" 0 1 32 101 120 0 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 327 "" 0 1 101 120 112 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 329 "" 0 1 102 32 104 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 330 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 331 "" 0 1 
+83 101 116 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 333 "" 0 1 0 0 15 0 0 1 0 0 0 0 0 0 
+0 1 }{CSTYLE "" -1 334 "" 0 1 0 0 12 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 335 "" 0 1 110 103 24 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 336 "
+" 0 1 177 0 3 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 
+2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 338 "" 0 1 0 0 64 0 2 0 0 0 0 0 0 
+0 0 1 }{CSTYLE "" -1 339 "" 0 1 10 198 112 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 340 "" 0 1 32 49 32 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 341 "" 0 1 0 0 22 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 342 "" 0 1 
+0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 343 "" 0 1 0 0 12 0 2 0 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 344 "" 0 1 0 0 228 0 2 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 345 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+346 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 347 "" 0 1 108 
+101 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 348 "" 0 1 0 0 9 0 2 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 349 "" 0 1 88 84 32 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 350 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+351 "" 0 1 0 0 84 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 352 "" 0 1 0 0 
+20 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 353 "" 0 1 45 1 52 0 2 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 354 "" 0 1 0 0 20 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 355 "" 0 1 105 1 33 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 356 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 357 "" 0 1 0 
+0 0 0 2 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 358 "" 0 1 0 0 44 0 2 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 359 "" 0 1 0 0 11 0 2 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 360 "" 0 1 0 1 0 0 0 0 2 0 0 0 0 0 0 1 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 
+255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error
+" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 
+3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Title" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 24 0 0 0 1 2 1 2 
+2 2 2 1 1 1 1 }2 1 0 0 12 12 1 0 1 0 2 2 19 1 }{PSTYLE "Title" -1 257 
+1 {CSTYLE "" -1 -1 "Times" 1 24 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 
+12 12 1 0 1 0 2 2 19 1 }{PSTYLE "Title" -1 258 1 {CSTYLE "" -1 -1 "Tim
+es" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }2 1 0 0 12 12 1 0 1 0 2 2 19 1 }
+}
+{SECT 0 {EXCHG {PARA 257 "" 0 "" {TEXT -1 29 "1. Structuri de date in \+
+Maple" }{MPLTEXT 1 0 1 "\n" }}}{SECT 1 {PARA 0 "" 0 "" {TEXT 258 2 "1.
+" }{TEXT -1 5 " Fie " }{XPPEDIT 18 0 "U" "6#%\"UG" }{TEXT -1 41 " mult
+imea primelor 10 numere prime. Fie  " }{XPPEDIT 18 0 "V" "6#%\"VG" }
+{TEXT -1 50 " multimea primelor 20 de numere naturale de forma " }
+{XPPEDIT 18 0 "2^n-1" "6#,&)\"\"#%\"nG\"\"\"F'!\"\"" }{TEXT -1 2 ".\n
+" }{TEXT 273 3 "(a)" }{TEXT -1 38 " Generati multimile  U si V in Mapl
+e.\n" }{TEXT 274 3 "(b)" }{TEXT -1 11 " Calculati " }{XPPEDIT 18 0 "U
+" "6#%\"UG" }{TEXT -1 1 " " }{TEXT 257 1 "\310" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "V" "6#%\"VG" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "U" "6#%
+\"UG" }{TEXT -1 1 " " }{TEXT 256 1 "\307" }{TEXT -1 1 " " }{XPPEDIT 
+18 0 "V" "6#%\"VG" }{TEXT -1 2 ".\n" }}{SECT 0 {PARA 5 "" 0 "" {TEXT 
+280 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "U := \{seq(ithprime(i), i=1.
+.10)\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"UG<,\"\"#\"\"$\"\"&\"\"
+(\"#6\"#8\"#<\"#>\"#B\"#H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+27 "V := \{seq(2^i-1, i=1..20)\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%\"VG<6\"\"\"\"\"$\"\"(\"#:\"#J\"#j\"$F\"\"$b#\"$6&\"%B5\"%Z?\"%&4%\"%
+\">)\"&$Q;\"&nF$\"&Nb'\"'r58\"'V@E\"'(GC&\"(v&[5" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 281 3 "(b)
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "restart;\nU := \{seq(ith
+prime(i), i=1..10)\}:\nV := \{seq(2^i-1, i=1..20)\}:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 10 "U union V;" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#<>\"\"\"\"\"#\"\"$\"\"&\"\"(\"#6\"#8\"#:\"#<\"#>\"#B\"#H\"#J\"#j
+\"$F\"\"$b#\"$6&\"%B5\"%Z?\"%&4%\"%\">)\"&$Q;\"&nF$\"&Nb'\"'r58\"'V@E
+\"'(GC&\"(v&[5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "U interse
+ct V;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$\"\"$\"\"(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" 
+{TEXT 259 2 "2." }{TEXT -1 1 " " }{TEXT 275 3 "(a)" }{TEXT -1 75 " Gen
+erati o lista de 100 de numere aleatoare intregi intre  -10 si 10.\n  \+
+  " }{TEXT 276 3 "(b)" }{TEXT -1 44 " Eliminati toate duplicatele din \+
+lista.\n    " }{TEXT 277 3 "(c)" }{TEXT -1 87 " Selectati din lista ob
+tinuta la punctul (b) toate numerele divizibile cu 2 sau 3.\n    " }
+{TEXT 278 3 "(d)" }{TEXT -1 80 " Alegeti din lista obtinuta la punctul
+ (b) toate numerele mai mari decat 5.\n    " }{TEXT 279 3 "(e)" }
+{TEXT -1 119 " Pentru fiecare numar din lista obtinuta la (d) calculat
+i numarul de aparitii in lista originala de numere aleatoare.\n " }}
+{SECT 0 {PARA 5 "" 0 "" {TEXT 282 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 
+"die := rand(-10..10):\nlist_a := [seq(die(), i=1..100)]:\nlist_a;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7`q\"\"%\"\"#!\"&!\"*\"\"\"!\"(F&!\"'
+\"\"'!\"$F*F'\"\"(\"\"*\"\"!\"\")\"\"$F-F$F,!\"\"F1F(!\"#F%\"\"&!#5F&F
+%F1!\"%F6!\")F1F$F$F0\"#5F(F0F,F7F+F+F7F*F*F2F2F'F,F.F$F'F3F8F3F6F)F(F
+%F0F2F$F3F(F/F.F,F3F+F-F/F.F%F,F+F&F.F+F'F8F3F3F)F0F)F&F)F)F2F,F'F4F'F
+/F8F$F/F7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 
+{PARA 5 "" 0 "" {TEXT 283 3 "(b)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "convert(list_a, \+
+set);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<7!#5!\"*!\")!\"(!\"'!\"&!\"%
+!\"$!\"#!\"\"\"\"!\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")\"\"*\"#5" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "list_b := convert(%, list
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'list_bG77!#5!\"*!\")!\"(!\"'!
+\"&!\"%!\"$!\"#!\"\"\"\"!\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")\"\"
+*\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 
+{PARA 5 "" 0 "" {TEXT 284 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "list_c = select(
+ x -> (irem(x,2)=0 or irem(x,3)=0), list_b );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%'list_cG71!#5!\"*!\")!\"'!\"%!\"$!\"#\"\"!\"\"#\"\"$
+\"\"%\"\"'\"\")\"\"*\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 285 3 "(d)" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "li
+st_d := select(x -> x>5, list_b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%'list_dG7'\"\"'\"\"(\"\")\"\"*\"#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 286 3 "(e)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 166 "for i in list_d do \n   numberOfOccurrences := nop
+s(select( x-> x=i, list_a )):\n   print(`number of occurrences of `||i
+||` is `||\n         numberOfOccurrences)\nend do:" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%@number~of~occurrences~of~6~is~6G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%@number~of~occurrences~of~7~is~3G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%@number~of~occurrences~of~8~is~5G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%@number~of~occurrences~of~9~is~5G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%Anumber~of~occurrences~of~10~is~4G" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 260 
+2 "3." }{TEXT -1 50 " Desigur stiti cate solutii complexe are ecuatia \+
+ " }{XPPEDIT 18 0 "x^50-x^20=0" "6#/,&*$%\"xG\"#]\"\"\"*$F&\"#?!\"\"\"
+\"!" }{TEXT -1 27 ". Cand utilizati procedura " }{TEXT 0 5 "solve" }
+{TEXT -1 141 " la rezolvarea de ecuatii, defileaza atat de multe pe ec
+ran, incat este dificil sa numaram cate solutii a gasit Maple. Utiliza
+ti procedurile " }{TEXT 0 4 "nops" }{TEXT -1 4 " si " }{TEXT 0 3 "map
+" }{TEXT -1 143 " pentru ecuatia de mai sus in scopul de a numara solu
+tiile determinate si a verifica solutiile prin substitutie. (Se recoma
+nda sa se utilizeze " }{TEXT 0 3 "map" }{TEXT -1 18 " in combinatie cu
+ " }{TEXT 0 4 "subs" }{TEXT -1 80 " si astfel sa se priveasca ecuatia \+
+ca un sistem de o ecuatie cu o necunoscuta.)\n" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 21 "eq := x^50 -x^20 = 0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#eqG/
+,&*$)%\"xG\"#]\"\"\"F+*$)F)\"#?F+!\"\"\"\"!" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 38 "listOfSolutions := [solve(\{eq\}, \{x\})]:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "nops(listOfSolutions);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#]" }}}{PARA 0 "" 0 "" {TEXT -1 62 "
+Acesta este numarul asteptat de solutii! Sa le examinam putin:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "listOfSolutions;" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#7T<#/%\"xG\"\"!F$F$F$F$F$F$F$F$F$F$F$F$F$F$F
+$F$F$F$F$<#/F&!\"\"<#/F&\"\"\"<#/F&,$*$,(#F-\"\"%F**&F4F*\"\"&#F-\"\"#
+F-*(^##F-F4F-F8F7,&F6F-*$F6F7F-F7F-F7F*<#/F&,$*$,(#F-F4F**&F4F*F6F7F**
+(F:F-F8F7,&F6F-F=F*F7F-F7F*<#/F&,$*$,(#F-F4F**&F4F*F6F7F**(^##F*F4F-F8
+F7FFF7F-F7F*<#/F&,$*$,(#F-F4F**&F4F*F6F7F-*(FOF-F8F7F<F7F-F7F*<#/F&F1<
+#/F&FA<#/F&FJ<#/F&FT<#/F&,$*&F8F*,&F8F**&^#F8F-\"\"$F7F-F7F*<#/F&,$*&F
+8F*F_oF7F-<#/F&,$*&F8F*,&F8F**&^#!\"#F-FboF7F-F7F*<#/F&,$*&F8F*F[pF7F-
+<#/F&,$*$,***\"\")F*F8F7FboF7FFF7F-#F-FipF-*&FipF*F6F7F-*&,&*(FipF*F8F
+7FFF7F**&,&FjpF-*&FipF*F6F7F-F-FboF7F-F-^#F-F-F-F7F*<#/F&,$*$,***FipF*
+F8F7FboF7F<F7F-FjpF-*&FipF*F6F7F**&,&*&,&*&FipF*F6F7F-#F-FipF*F-FboF7F
+-*(FipF*F8F7F<F7F-F-FbqF-F-F7F*<#/F&,$*$,***FipF*F8F7FboF7FFF7F*FjpF-*
+&FipF*F6F7F-*&,&*(FipF*F8F7FFF7F-F_qF-F-FbqF-F-F7F*<#/F&,$*$,***FipF*F
+8F7FboF7F<F7F**&FipF*F6F7F*FjpF-*&,&*&,&FjpF-*&FipF*F6F7F*F-FboF7F-*(F
+ipF*F8F7F<F7F-F-FbqF-F-F7F*<#/F&,$*$,***FipF*F8F7FboF7F<F7F**&FipF*F6F
+7F*FjpF-*&^#F*F-FcsF-F-F7F*<#/F&,$*$,***FipF*F8F7FboF7FFF7F*FjpF-*&Fip
+F*F6F7F-*&F`tF-FirF-F-F7F*<#/F&,$*$,***FipF*F8F7FboF7F<F7F-FjpF-*&FipF
+*F6F7F**&F`tF-F[rF-F-F7F*<#/F&,$*$,***FipF*F8F7FboF7FFF7F-FjpF-*&FipF*
+F6F7F-*&F`tF-F]qF-F-F7F*<#/F&Ffp<#/F&Ffq<#/F&Fdr<#/F&F^s<#/F&F[t<#/F&F
+dt<#/F&F\\u<#/F&Fdu" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 32 "Sa le verificam numeric
+ efectiv." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "solutions := ma
+p(evalf, listOfSolutions);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%*solut
+ionsG7T<#/%\"xG$\"\"!F*F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&<#/F($!\"
+\"F*<#/F($\"\"\"F*<#/F(^$$!+U*p,4)!#5$!+AD&y(eF8<#/F(^$$!+V*p,4$F8$!+i
+^c5&*F8<#/F(^$F>$\"+i^c5&*F8<#/F(^$F6$\"+AD&y(eF8<#/F(^$$\"+U*p,4)F8FJ
+<#/F(^$$\"+V*p,4$F8FE<#/F(^$FTF@<#/F(^$FOF9<#/F(^$$!+++++]F8$!+SSDg')F
+8<#/F(^$$\"+++++]F8$\"+SSDg')F8<#/F(^$FinFbo<#/F(^$F`oF[o<#/F(^$$!+2gZ
+\"y*F8$!+4p6z?F8<#/F(^$$!+xXXN\"*F8$!+HkOnSF8<#/F(^$$!+jgI\"p'F8$!+b#[
+9V(F8<#/F(^$$!+KYGX5F8$!+b*=_%**F8<#/F(^$Fbq$\"+b*=_%**F8<#/F(^$F[q$\"
++b#[9V(F8<#/F(^$Fdp$\"+HkOnSF8<#/F(^$F]p$\"+4p6z?F8<#/F(^$$\"+2gZ\"y*F
+8Fhr<#/F(^$$\"+xXXN\"*F8Fcr<#/F(^$$\"+jgI\"p'F8F^r<#/F(^$$\"+KYGX5F8Fi
+q<#/F(^$F\\tFdq<#/F(^$FgsF]q<#/F(^$FbsFfp<#/F(^$F]sF_p" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "nops(solutions);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Di
+gits := 20:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "for s in sol
+utions do\n fnormal(evalf(subs(s, eq)), 7)\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F
+%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"
+!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"
+\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$
+\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/$\"\"!F%F$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/^$$!\"!\"\"!$F'F'F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/^$$!\"!\"\"!$F'F'F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$!\"!\"\"!
+F%$F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$!\"!\"\"!F%$F'F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$!\"!\"\"!$F'F'F(" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/^$$!\"!\"\"!$F'F'F(" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/^$$!\"!\"\"!F%$F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$!\"!
+\"\"!F%$F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$!\"!\"\"!$F'F'F(" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$!\"!\"\"!$F'F'F(" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/^$$!\"!\"\"!F%$F'F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/^$$!\"!\"\"!F%$F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"
+!F&$!\"!F&F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&F%F%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&$!\"!F&F%" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/^$$\"\"!F&$!\"!F&F%" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/^$$\"\"!F&F%F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&F%
+F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&$!\"!F&F%" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&F%F%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/^$$\"\"!F&$!\"!F&F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/^$$\"\"!F&F%F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&$!\"!F&
+F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&$!\"!F&F%" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&F%F%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/^$$\"\"!F&F%F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$
+\"\"!F&$!\"!F&F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/^$$\"\"!F&F%F%" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 0 "" 0 
+"" {TEXT 261 2 "4." }{TEXT -1 39 " Cum puteti dubla elementele din lis
+ta " }{XPPEDIT 18 0 "[a,b,c]" "6#7%%\"aG%\"bG%\"cG" }{TEXT -1 23 " pen
+tru a obtine lista " }{XPPEDIT 18 0 "[a,a,b,b,c,c]" "6#7(%\"aGF$%\"bGF
+%%\"cGF&" }{TEXT -1 35 "? Cum puteti apoi transforma lista " }
+{XPPEDIT 18 0 "[a,a,b,b,c,c]" "6#7(%\"aGF$%\"bGF%%\"cGF&" }{TEXT -1 
+10 " in lista " }{XPPEDIT 18 0 "[[a,a],[b,b],[c,c]]" "6#7%7$%\"aGF%7$%
+\"bGF'7$%\"cGF)" }{TEXT -1 123 "? Puteti aplica metoda dumneavoastra l
+istei primelor 10000 de numere naturale si sa obtineti rezultatul in t
+imp rezonabil?\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "[a,b,c];" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#7%%\"aG%\"bG%\"cG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "map(x -> (x,x), %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#7(%\"aGF$%\"bGF%%\"cGF&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "matrix(nops(%)/2,2, %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#K%'matr
+ixG6#7%7$%\"aGF(7$%\"bGF*7$%\"cGF,Q(pprint06\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 21 "convert(%, listlist);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7%7$%\"aGF%7$%\"bGF'7$%\"cGF)" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 18 "settime := time():" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "[$1..10000]:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "ma
+p(x -> (x,x), %):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "matrix(nops(%)
+/2,2, %):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "convert(%, listlist):
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "cpu_time = (time() - settime)* \+
+seconds;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%)cpu_timeG,$*&$\"#y!\"$
+\"\"\"%(secondsGF*F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}{SECT 0 {PARA 0 "" 0 "" {TEXT 262 2 "5." }{TEXT -1 29 " Scrieti o pr
+ocedura numita  " }{TEXT 0 9 "maketable" }{TEXT -1 122 " care, dandu-s
+e o lista a indicilor si o lista a intrarilor (valorilor), construiest
+e tabela corespunzatoare. De exemplu, " }{TEXT 0 33 "maketable( [red,g
+reen], [0,1/3] )" }{TEXT -1 31 " va crea asociatiile in tabela " }
+{TEXT 0 8 "red -> 0" }{TEXT -1 4 " si " }{TEXT 0 11 "green ->1/3" }
+{TEXT -1 2 ".\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 242 "Maketable := proc(L1::li
+st, L2::list ) \n  local T,i;\n  if nops(L1) <> nops(L2) then\n     er
+ror \"list should have the same number of entries\"\n  end if:\n  T :=
+ table():\n  for i to nops(L1) do\n    T[L1[i]] := L2[i] \n  end do:\n
+  eval(T)\nend proc;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%*MaketableGf
+*6$'%#L1G%%listG'%#L2GF)6$%\"TG%\"iG6\"F/C&@$0-%%nopsG6#9$-F46#9%YQLli
+st~should~have~the~same~number~of~entriesF/>8$-%&tableGF/?(8%\"\"\"FBF
+3%%trueG>&F=6#&F66#FA&F9FH-%%evalG6#F=F/F/F/" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 48 "colorTable := Maketable([red, green], [0, 1/3]);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+colorTableGK%&TABLEG6#7$/%$redG
+\"\"!/%&greenG#\"\"\"\"\"$Q(pprint06\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "colorTable[red];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "colorTable[green];
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"\"$" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 263 2 "6.
+" }{TEXT -1 20 " Creati o matrice  3" }{TEXT 264 1 "\264" }{TEXT -1 9 
+"3 numita " }{XPPEDIT 18 0 "M" "6#%\"MG" }{TEXT -1 43 " definita prin \+
+\n                           " }{XPPEDIT 18 0 "M[i,j] = x^(gcd(i+1,j+1
+)+1" "6#/&%\"MG6$%\"iG%\"jG)%\"xG,&-%$gcdG6$,&F'\"\"\"F0F0,&F(F0F0F0F0
+F0F0" }{TEXT -1 65 "\nsi scrieti-o ca pe o matrice cu intrari (element
+e) factorizate.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "M := Matrix(3, 3, (i,j)
+->(x^(gcd(i+1,j+1))+1));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG-%'R
+TABLEG6%\"*70`b\"-%'MATRIXG6#7%7%,&*$)%\"xG\"\"#\"\"\"F3F3F3,&F1F3F3F3
+F.7%F4,&*$)F1\"\"$F3F3F3F3F47%F.F4,&*$)F1\"\"%F3F3F3F3%'MatrixG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(M);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%'RTABLEG6%\"*70`b\"-%'MATRIXG6#7%7%,&*$)%\"xG\"\"#
+\"\"\"F1F1F1,&F/F1F1F1F,7%F2,&*$)F/\"\"$F1F1F1F1F27%F,F2,&*$)F/\"\"%F1
+F1F1F1%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "map(fact
+or, M);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*3aib\"-%'MAT
+RIXG6#7%7%,&*$)%\"xG\"\"#\"\"\"F1F1F1,&F/F1F1F1F,7%F2*&F2F1,(F-F1F/!\"
+\"F1F1F1F27%F,F2,&*$)F/\"\"%F1F1F1F1%'MatrixG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 2 "M;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6
+%\"*70`b\"-%'MATRIXG6#7%7%,&*$)%\"xG\"\"#\"\"\"F1F1F1,&F/F1F1F1F,7%F2,
+&*$)F/\"\"$F1F1F1F1F27%F,F2,&*$)F/\"\"%F1F1F1F1%'MatrixG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "LinearAlgebra:-Map(factor, M);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*70`b\"-%'MATRIXG6#7%7%,
+&*$)%\"xG\"\"#\"\"\"F1F1F1,&F/F1F1F1F,7%F2*&F2F1,(F-F1F/!\"\"F1F1F1F27
+%F,F2,&*$)F/\"\"%F1F1F1F1%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 2 "M;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*7
+0`b\"-%'MATRIXG6#7%7%,&*$)%\"xG\"\"#\"\"\"F1F1F1,&F/F1F1F1F,7%F2*&F2F1
+,(F-F1F/!\"\"F1F1F1F27%F,F2,&*$)F/\"\"%F1F1F1F1%'MatrixG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 
+266 2 "7." }{TEXT -1 18 " Creati matricea 5" }{TEXT 265 1 "\264" }
+{TEXT -1 3 "5  " }{XPPEDIT 18 0 "M" "6#%\"MG" }{TEXT -1 42 " definita \+
+prin \n                          " }{XPPEDIT 18 0 "M[i,j] = 10^(-(i^2+
+j^2))" "6#/&%\"MG6$%\"iG%\"jG)\"#5,$,&*$F'\"\"#\"\"\"*$F(F.F/!\"\"" }
+{TEXT -1 32 "\nsi utilizati procedura fnormal " }{TEXT 0 7 "fnormal" }
+{TEXT -1 51 " pentru a forta inlocuirea intregilor mici cu zero." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 53 "M := Matrix(5, 5, (i,j) -> fnormal(10^(-(i^2
++j^2))));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG-%'RTABLEG6%\")7`1;
+-%'MATRIXG6#7'7'#\"\"\"\"$+\"#F/\"'++5$\"\"!F4F3F37'F1#F/\"*++++\"F3F3
+F37'F3F3F3F3F3F8F8%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 268 2 "8." }{TEXT -1 19 " Creat
+i o matrice 7" }{TEXT 267 1 "\264" }{TEXT -1 28 "7, triunghiulara infe
+rior,  " }{XPPEDIT 18 0 "M" "6#%\"MG" }{TEXT -1 99 " cu toate intraril
+e nenule egale cu 1. Convertiti-o intr-o lista utilizand ordinea linie
+ cu linie.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "M := Matrix(7,7, (i,j)->if i
+>=j then 1 else 0 fi);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG-%'RTA
+BLEG6%\"))y!3<-%'MATRIXG6#7)7)\"\"\"\"\"!F/F/F/F/F/7)F.F.F/F/F/F/F/7)F
+.F.F.F/F/F/F/7)F.F.F.F.F/F/F/7)F.F.F.F.F.F/F/7)F.F.F.F.F.F.F/7)F.F.F.F
+.F.F.F.%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "convert
+(LinearAlgebra:-Transpose(M), Vector):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "convert(%, list);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+7S\"\"\"\"\"!F%F%F%F%F%F$F$F%F%F%F%F%F$F$F$F%F%F%F%F$F$F$F$F%F%F%F$F$F
+$F$F$F%F%F$F$F$F$F$F$F%F$F$F$F$F$F$F$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 290 2 "9." }{TEXT 
+-1 43 " Generalizati functia de indexare speciala " }{TEXT 0 11 "tridi
+agonal" }{TEXT -1 94 " cu codul dat mai jos pentru a putea fi utilizat
+a pentru matrice banda cu latimea benzii > 0.\n" }{TEXT 0 1454 "`index
+/tridiagonal` := \nproc(idx::list(posint), rtb::rtable, val::list)\n  \+
+local idx1, init_val;\n  idx1 := op(idx): # get the sequence of indice
+s   \n  if nargs=2 then\n     # retrieval\n     if outofband(idx1) the
+n\n        # indexing function determines value, i.e.,\n        # loca
+tion is not mutable\n        0;\n     else\n        # get value from s
+torage\n        rtb[idx1]\n     end if;\n  else\n     # storage\n     \+
+if outofband(idx1) then\n     # indexing function determines value, i.
+e.,\n     # location is not mutable\n     if op(val) <> 0 then\n     #
+ invalid value\n        error \"attempt to assign outside the band\";
+\n     else\n        # be sure to do explicit write, but catch\n      \+
+  # this if the storage fails, as storage\n        # for non-mutable l
+ocations need not be\n        # allocated\n        try\n            rt
+b[idx1] := op(val);\n            catch \"unable to store\":\n         \+
+   # couldn't write, return value (as if\n            # the write succ
+eeded)\n            op(val);\n        end try;\n     end if;\n     els
+e\n        # general value\n        rtb[idx1] := op(val);\n     end if
+;\n  end if;\nend proc:\noutofband := proc()\n   local indset, pairs, \+
+p, d:\n   indset := \{args\};\n   if nops(indset) <= 1 then return fal
+se end if;\n   pairs := combinat[choose](indset, 2);\n   for p in pair
+s do\n       d := p[1]-p[2];\n       if type(d, integer) and abs(d) > \+
+1\n       then return true # band width 1 is exceeded\n       end if\n
+   end do:\n   return false\nend proc:" }{TEXT -1 2 " \n" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 667 "`index/banded` := proc(idx::list(posint), rtb::rta
+ble, val::list)\n   local idx1, init_val;\n   idx1 := op(idx);\n   if \+
+not assigned(_EnvBandWidth) then\n      _EnvBandWidth := 1\n   end if;
+\n   if nargs=2 then\n     if outofband(idx1) then \n       0\n     el
+se \n       rtb[idx1]\n     end if;   \n   else\n     if outofband(idx
+1) then\n       if op(val)<>0 then \n         error \"band width \"||_
+EnvBandWidth||\" is exceeded\", \n             'indices' = idx1\n     \+
+  else \n         try\n           rtb[idx1] := op(val);\n           ca
+tch \"unable to store\":\n           op(val);\n         end try;\n    \+
+   end if;\n     else\n       rtb[idx1] := op(val);\n     end if;   \n
+   end if;\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 343 "o
+utofband := proc()\n   local indset, pairs, p, d:\n   indset := \{args
+\};\n   if nops(indset) <= 1 then \n     return false \n   end if;\n  \+
+ pairs := combinat[choose](indset, 2);\n   for p in pairs do\n     d :
+= p[1] - p[2];\n     if type( d, integer ) and abs(d) > _EnvBandWidth \+
+then \n       return true\n     end if\n   end do:\n   return false\ne
+nd proc:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "A := Array(band
+ed, 1..4, 1..4, fill=UNKNOWN);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+AG-%'RTABLEG6%\"(Kvx#-%'MATRIXG6#7&7&%(UNKNOWNGF.\"\"!F/7&F.F.F.F/7&F/
+F.F.F.7&F/F/F.F.%&ArrayG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 
+"_EnvBandWidth := 2:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "B :
+= Array( banded, 1..7, 1..7 , fill=UNKNOWN);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"BG-%'RTABLEG6%\"(![\"*H-%'MATRIXG6#7)7)%(UNKNOWNGF.
+F.\"\"!F/F/F/7)F.F.F.F.F/F/F/7)F.F.F.F.F.F/F/7)F/F.F.F.F.F.F/7)F/F/F.F
+.F.F.F.7)F/F/F/F.F.F.F.7)F/F/F/F/F.F.F.%&ArrayG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 291 3 "10.
+" }{TEXT -1 80 " Definiti o functie de indexare speciala pentru matric
+e triunghiulare superior.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 670 "`index/uppe
+rtriangular` := proc(idx::list(posint), rtb::rtable, val::list)\n   lo
+cal idx1, init_val;\n   idx1 := op(idx);   \n   if nargs=2 then\n     \+
+if inlowerpart(idx1) then \n       0\n     else \n       rtb[idx1]\n  \+
+   end if;   \n   elif nargs=3 then\n     if inlowerpart(idx1) then \n
+       if op(val)<>0 then\n          error \"you cannot assign a value
+ to a lower entry\", \n             'indices' = idx1\n       else\n   \+
+       try\n             rtb[idx1] := op(val);\n             catch \"u
+nable to store\":\n             op(val);\n          end try;\n       e
+nd if;\n     else \n       rtb[idx1] := op(val)\n     end if   \n   el
+se \n     error \"invalid arguments\"   \n   end if\nend proc:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "inlowerpart := proc()\n   ev
+alb(args[1]>args[2])\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 54 "A := Array(uppertriangular, 1..4, 1..4, fill=UNKNOWN);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'RTABLEG6%\")[#**f\"-%'MATRIXG
+6#7&7&%(UNKNOWNGF.F.F.7&\"\"!F.F.F.7&F0F0F.F.7&F0F0F0F.%&ArrayG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "A[4,1] := x;" }}{PARA 8 "" 
+1 "" {TEXT -1 95 "Error, (in index/uppertriangular) you cannot assign \+
+a value to a lower entry, indices = (4, 1)\n" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 292 3 "11." }
+{TEXT -1 49 " Definiti o functie de indexare speciala, numita " }
+{TEXT 0 10 "polynomial" }{TEXT -1 63 ", care restrictioneaza intrarile
+ unui tablou la tipul polinom.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 378 "`index/
+polynomial` := proc(idx::list(posint), rtb::rtable, val::list)\n   loc
+al idx1;\n   idx1 := op(idx);   \n   if nargs=2 then\n      rtb[idx1] \+
+\n   elif nargs=3 then\n     if not type(op(val), polynom) then \n    \+
+    error \"you can only assign a polynomial value\"\n     else \n    \+
+   rtb[idx1] := op(val)\n     end if\n   else \n     error \"invalid a
+rguments\"       \n   end if\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "A := Array( polynomial, 1..4);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'RTABLEG6%\"(W<b#-%'VECTORG6#7&\"\"!F-F-F-%&Arr
+ayG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "A[1] := x+1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"AG6#\"\"\",&%\"xGF'F'F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "A[2] := sin(y);" }}{PARA 8 "
+" 1 "" {TEXT -1 68 "Error, (in index/polynomial) you can only assign a
+ polynomial value\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "A;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"(W<b#-%'VECTORG6#7&,&%
+\"xG\"\"\"F-F-\"\"!F.F.%&ArrayG" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 
+269 3 "12." }{TEXT -1 32 " Reprezentati numerele de forma " }{XPPEDIT 
+18 0 "a + b*sqrt(2)" "6#,&%\"aG\"\"\"*&%\"bGF%-%%sqrtG6#\"\"#F%F%" }
+{TEXT -1 5 ", cu " }{XPPEDIT 18 0 "a" "6#%\"aG" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "b" "6#%\"bG" }{TEXT -1 44 " numere rationale, ca o pere
+che ordonata. \n\n" }{TEXT 270 3 "(a)" }{TEXT -1 65 " Implementati ace
+st numar ca o lista [a,b]. Scrieti procedurile  " }{TEXT 0 3 "ADD" }
+{TEXT -1 2 ", " }{TEXT 0 3 "MUL" }{TEXT -1 4 " si " }{TEXT 0 3 "DIV" }
+{TEXT -1 112 " care aduna, inmultesc si impart doua numere algebrice d
+e acest tip si furnizati rezultatul in forma canonica.\n\n" }{TEXT 
+271 3 "(b)" }{TEXT -1 66 " Implementati numerele algebrice de mai sus \+
+ca un apel de functie " }{TEXT 0 11 "algnum(a,b)" }{TEXT -1 22 ". Scri
+eti o procedura " }{TEXT 0 12 "print/algnum" }{TEXT -1 23 " care liste
+aza numarul " }{TEXT 0 11 "algnum(a,b)" }{TEXT -1 31 " in notatia mate
+matica uzuala  " }{XPPEDIT 18 0 "a+b*sqrt(2)" "6#,&%\"aG\"\"\"*&%\"bGF
+%-%%sqrtG6#\"\"#F%F%" }{TEXT -1 3 ".\n\n" }{TEXT 272 3 "(c)" }{TEXT 
+-1 58 " In implementarea de la partea (b), rescrieti procedurile " }
+{TEXT 0 3 "ADD" }{TEXT -1 2 ", " }{TEXT 0 3 "MUL" }{TEXT -1 6 ", si  \+
+" }{TEXT 0 3 "DIV" }{TEXT -1 2 ".\n" }}{SECT 1 {PARA 5 "" 0 "" {TEXT 
+287 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 192 "ADD := proc(x,y)\n  if not \+
+type( x, [anything,anything] ) or \n     not type( y, [anything,anythi
+ng] ) then \n    error \"Invalid arguments\"\n  else \n    [ x[1]+y[1]
+, x[2]+y[2] ]\n  end if\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 222 "MUL := proc(x,y)     \n  if not type( x, [anything,a
+nything] ) or\n     not type( y, [anything,anything] ) then \n    erro
+r \"Invalid arguments\"\n  else \n    [ x[1]*y[1] + 2*x[2]*y[2], x[1]*
+y[2] + x[2]*y[1] ]\n  end if\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 262 "DIV := proc(x,y)\n  local d;\n  if not type( x,[anyt
+hing,anything] ) or\n     not type( y,[anything,anything] ) then\n    \+
+error \"Invalid arguments\"\n  else \n    d := y[1]^2 - 2*y[2]^2;\n   \+
+ [ (x[1]*y[1] - 2*x[2]*y[2])/d , (x[2]*y[1] - x[1]*y[2])/d ]\n  end if
+\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "ADD([a,b], [
+c,d]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7$,&%\"aG\"\"\"%\"cGF&,&%\"b
+GF&%\"dGF&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "MUL([a,b], [c
+,d]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7$,&*&%\"aG\"\"\"%\"cGF'F'*(
+\"\"#F'%\"bGF'%\"dGF'F',&*&F&F'F,F'F'*&F+F'F(F'F'" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 19 "DIV([a,b], [c,d]); " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7$*&,&*&%\"aG\"\"\"%\"cGF(F(*(\"\"#F(%\"bGF(%\"dGF(!\"
+\"F(,&*$)F)F+F(F(*&F+F()F-F+F(F.F.*&,&*&F,F(F)F(F(*&F'F(F-F(F.F(F/F." 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 
+0 "" {TEXT 288 3 "(b)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "rest
+art;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "`print/algnum` := p
+roc(x,y) x+y*sqrt(2) end proc:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "algnum(a,b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&%\"aG\"\"\"*
+&%\"bGF%\"\"##F%F(F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}{SECT 1 {PARA 5 "" 0 "" {TEXT 289 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+49 "`print/algnum` := proc(x,y) x+y*sqrt(2) end proc:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 226 "ADD := proc(x,y)\n  if not type( x
+, specfunc(anything, algnum) ) or\n     not type( y, specfunc(anything
+, algnum) ) then\n     error \"Invalid arguments\"\n  else \n     algn
+um(op(1,x) + op(1,y), op(2,x) + op(2,y))\n  end if\nend proc:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 270 "MUL := proc(x,y)\n  if not \+
+type( x, specfunc(anything, algnum) ) or\n     not type( y, specfunc(a
+nything, algnum) ) then \n    error \"Invalid arguments\"\n  else \n  \+
+  algnum(op(1,x)*op(1,y) + 2*op(2,x)*op(2,y),\n           op(1,x)*op(2
+,y) + op(2,x)*op(1,y))\n  end if\nend proc:" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 327 "DIV := proc(x,y)\n  local d;     \n  if not type(
+ x, specfunc(anything, algnum) ) or\n     not type( y, specfunc(anythi
+ng, algnum) ) then\n    error \"Invalid arguments\"\n  else \n    d :=
+ op(1,y)^2 - 2*op(2,y)^2;\n    algnum((op(1,x)*op(1,y) - 2*op(2,x)*op(
+2,y))/d,\n           (op(2,x)*op(1,y) - op(1,x)*op(2,y))/d)\n  end if
+\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "algnum(a,b) \+
++ algnum(c,d) = ADD(algnum(a,b), algnum(c,d));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/,*%\"aG\"\"\"*&%\"bGF&\"\"##F&F)F&%\"cGF&*&%\"dGF&F)F*
+F&,(F%F&F+F&*&,&F(F&F-F&F&F)F*F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 56 "algnum(a,b)*algnum(c,d) = MUL(algnum(a,b), algnum(c,d
+));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&,&%\"aG\"\"\"*&%\"bGF'\"\"##
+F'F*F'F',&%\"cGF'*&%\"dGF'F*F+F'F',(*&F&F'F-F'F'*(F*F'F)F'F/F'F'*&,&*&
+F&F'F/F'F'*&F)F'F-F'F'F'F*F+F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 56 "algnum(a,b)/algnum(c,d) = DIV(algnum(a,b), algnum(c,d));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&,&%\"aG\"\"\"*&%\"bGF'\"\"##F'F*F'F
+',&%\"cGF'*&%\"dGF'F*F+F'!\"\",&*&,&*&F&F'F-F'F'*(F*F'F)F'F/F'F0F',&*$
+)F-F*F'F'*&F*F')F/F*F'F0F0F'*(,&*&F)F'F-F'F'*&F&F'F/F'F0F'F6F0F*F+F'" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{EXCHG {PARA 257 "
+" 0 "" {TEXT -1 23 "\n2. Facilitatea assume\n" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 0 {PARA 0 "" 0 "" {TEXT 295 1 "1" }{TEXT -1 17 
+". Calculati  cos(" }{XPPEDIT 18 0 "n*Pi" "6#*&%\"nG\"\"\"%#PiGF%" }
+{TEXT -1 9 ") si sin(" }{XPPEDIT 18 0 "n*(Pi/2)" "6#*&%\"nG\"\"\"*&%#P
+iGF%\"\"#!\"\"F%" }{TEXT -1 17 ") in ipoteza ca  " }{XPPEDIT 18 0 "n" 
+"6#%\"nG" }{TEXT -1 64 " este\n- intreg;\n- intreg impar.\n- intreg im
+par si poztitiv < 3.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "c := cos(n*Pi);  s
+ := sin(n*Pi/2); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG-%$cosG6#*&
+%\"nG\"\"\"%#PiGF*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG-%$sinG6#,
+$*(\"\"#!\"\"%\"nG\"\"\"%#PiGF-F-" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "c, s assuming n::integer;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$)!\"\"%\"nG-%$sinG6#,$*(\"\"#F$F%\"\"\"%#PiGF,F," }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "c, s assuming n::odd;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$!\"\")F#,&*&\"\"#F#%\"nG\"\"\"F)#F)F'F
+#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "assume(n, odd): additi
+onally(0<n, n<3):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "about(n
+);" }}{PARA 6 "" 1 "" {TEXT -1 25 "Originally n, renamed n~:" }}{PARA 
+6 "" 1 "" {TEXT -1 67 "  is assumed to be: AndProp(LinearProp(2,intege
+r,1),RealRange(1,2))" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 5 "c, s;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$!
+\"\")F#,&*&\"\"#F#%#n|irG\"\"\"F)#F)F'F#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "is(n=1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAILG" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "is(sin(n*Pi/2)=1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "_EnvTry := hard:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "forget(is):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 9 "about(n);" }}{PARA 6 "" 1 "" {TEXT -1 25 "Originally n, renamed n
+~:" }}{PARA 6 "" 1 "" {TEXT -1 67 "  is assumed to be: AndProp(LinearP
+rop(2,integer,1),RealRange(1,2))" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "is(n=1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%FAILG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "c
+oulditbe(n=1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAILG" }}}}{SECT 
+0 {PARA 0 "" 0 "" {TEXT 293 2 "2." }{TEXT -1 65 " Adaugati intervalul \+
+(-1,1) la ierarhia proprietatilor numerice.\n" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 57 "alias(absvaluelessthan1 = RealRange(Open(-1), Open(1)) ):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "addproperty(absvaluelessthan
+1, \{real\}, \{\}): " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "`pr
+operty/ParentTable`[BottomProp];" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#<9
+\"\"!\"\"\"%)operatorG%%typeG%)constantG%)fractionG%1ElementaryMatrixG
+%+irrationalG%+NullMatrixG%*LinearMapG-%$NonG6#%*symmetricG%&primeG%(E
+venMapG%'addmulG%'OddMapG%'scalarG%.GaussianPrimeG-%*RealRangeG6$,$%)i
+nfinityG!\"\"-%%OpenG6#F$%2absvaluelessthan1G%/IdentityMatrixG%2Rectan
+gularMatrixG%2MutuallyExclusiveG%+NullVectorG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 28 "`property/ChildTable`[real];" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#<'%)rationalG%+irrationalG-%*RealRangeG6$\"\"!%)infin
+ityG-F'6$,$F*!\"\"-%%OpenG6#F)%2absvaluelessthan1G" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 28 "is(-1/2, absvaluelessthan1);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 25 "is(1, absvaluelessthan1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&f
+alseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 
+{PARA 0 "" 0 "" {TEXT 294 2 "3." }{TEXT -1 220 " Un numar natural se n
+umeste perfect daca este egal cu unu plus suma divizorilor sai netrivi
+ali  (e.g., 6=2+3+1 si 28=2+4+7+14+1 are sunt numere perfecte). Adauga
+ti numerele perfecte la ierarhia proprietatilor numerice.\n" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 143 "`type/perfect` := proc(n)\n  if type(n, posint) th
+en\n    evalb( 2*n = convert(numtheory[divisors](n), `+`) )\n  else\n \+
+   false\n  end if\nend proc;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%-ty
+pe/perfectGf*6#%\"nG6\"F(F(@%-%%typeG6$9$%'posintG-%&evalbG6#/,$*&\"\"
+#\"\"\"F-F6F6-%(convertG6$-&%*numtheoryG6#%)divisorsG6#F-%\"+G%&falseG
+F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "addproperty(perfe
+ct, \{integer\}, \{\}): " }}}{PARA 0 "" 0 "" {TEXT -1 48 "Cateva exemp
+le pentru a vedea daca functioneaza:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "is(6, perfect);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%
+trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "is(28, perfect);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "is(11, perfect);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "assume(p, perf
+ect);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "is(p, perfect);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "is(q, perfect);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&
+falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 296 2 "4." }{TEXT -1 11 " O matrice " }{XPPEDIT 
+18 0 "n x n " "6#*(%\"nG\"\"\"%\"xGF%F$F%" }{TEXT -1 51 ",  A se numes
+te antidiagonala (skew-diagonal) daca " }{XPPEDIT 18 0 "A[ij]" "6#&%\"
+AG6#%#ijG" }{TEXT -1 24 "=0 exceptand cazul cand " }{XPPEDIT 18 0 "i" 
+"6#%\"iG" }{TEXT -1 1 "+" }{XPPEDIT 18 0 "j" "6#%\"jG" }{TEXT -1 1 "=
+" }{XPPEDIT 18 0 "n" "6#%\"nG" }{TEXT -1 26 "+1. Adaugati proprietatea
+ " }{TEXT 0 12 "skewdiagonal" }{TEXT -1 30 " la baza de cunostinte Map
+le.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "restart; " }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 337 "`type/skewdiagonal` := proc
+(M)\n  local i, j:\n  if type(M, 'matrix'(rational,square)) then\n    \+
+for i to linalg[rowdim](M) do\n      for j to linalg[coldim](M) do\n  \+
+       if i+j<>linalg[rowdim](M)+1 and M[i,j]<>0 then\n            ret
+urn false\n         end if\n      end do\n    end do:\n    return true
+ \n  else\n    return false\n  fi\nend proc:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 57 "addproperty(skewdiagonal, \{SquareMatrix\}, \{Nu
+llMatrix\}): " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "`property/
++`(skewdiagonal, skewdiagonal) := skewdiagonal:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 48 "`property/^`(skewdiagonal, odd) := skewdiagona
+l:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "`property/^`(skewdiag
+onal, even) := diagonal:" }}}{PARA 0 "" 0 "" {TEXT -1 39 "Cateva exemp
+le care arata cum lucreaza." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+41 "M := matrix([[0,0,1], [0,2,0], [3,0,0]]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"MGK%'matrixG6#7%7%\"\"!F*\"\"\"7%F*\"\"#F*7%\"\"$F*
+F*Q(pprint06\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "is(M, ske
+wdiagonal);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "is(M^3, skewdiagonal);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#%%FAILG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 29 "is(evalm(M^3), skewdiagonal);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "M3 := evalm(M
+^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#M3GK%'matrixG6#7%7%\"\"!F*
+\"\"$7%F*\"\")F*7%\"\"*F*F*Q(pprint06\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "is(M3, skewdiagonal);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%%trueG" }}}{EXCHG {PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "is(M&^3, skewdiagonal);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAILG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "is(evalm(M&^3), skewdiagonal);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "M
+3 := evalm(M&^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#M3GK%'matrixG6
+#7%7%\"\"!F*\"\"$7%F*\"\")F*7%\"\"*F*F*Q(pprint06\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 21 "is(M3, skewdiagonal);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 
+"assume(A, skewdiagonal, n, odd):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "is(A^n, skewdiagonal);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "assume(B, \+
+skewdiagonal):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "is(A+B, s
+kewdiagonal);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}}{EXCHG 
+{PARA 257 "" 0 "" {TEXT 305 16 "\n3. Simplificare" }{TEXT 360 1 "\n" }
+}}{SECT 0 {PARA 0 "" 0 "" {TEXT 297 2 "1." }{TEXT -1 13 " Aratati ca  \+
+" }{XPPEDIT 18 0 "sum(1/(k^2+1),k=1..infinity)=(Pi/2)*(coth(Pi))-1/2" 
+"6#/-%$sumG6$*&\"\"\"F(,&*$%\"kG\"\"#F(F(F(!\"\"/F+;F(%)infinityG,&*(%
+#PiGF(F,F--%%cothG6#F3F(F(*&F(F(F,F-F-" }{TEXT -1 1 "\n" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 30 "Sum(1/(k^2+1), k=1..infinity);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$SumG6$*&\"\"\"F',&*$)%\"kG\"\"#F'F'F'F'!\"\"/F+;F'%)
+infinityG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&#\"\"\"\"\"#!\"\"*&#F%F&F%*&%#PiGF%-
+%%cothG6#F+F%F%F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand
+(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&#\"\"\"\"\"#!\"\"*&#F%F&F%*&
+%#PiGF%-%%cothG6#F+F%F%F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "combine(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&#\"\"\"\"\"#!\"\"
+*&#F%F&F%*&%#PiGF%-%%cothG6#F+F%F%F%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "FunctionAdvisor(Psi);" }}{PARA 6 "" 1 "" {TEXT -1 
+162 "Psi belongs to the class \"Psi_related\" and so, in principle, it
+ can be related to various of the 3 functions of that class - see Func
+tionAdvisor( \"Psi_related\" );" }}{PARA 6 "" 1 "" {TEXT -1 104 "Unabl
+e to compute the DE form for Psi due to: the function does not admit a
+ differential representation." }}{PARA 6 "" 1 "" {TEXT -1 57 "The symm
+etries for Psi are unknown to the FunctionAdvisor" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#K%&TABLEG6#73/Q#DE6\"F)/Q)describeF)/%$PsiG%@Digamma~an
+d~Polygamma~functionsG/Q2classify_functionF)%,Psi_relatedG/Q.integral_
+formF)6$7$/-F-6#%\"zG-%$IntG6$,&*&\"\"\"F?*&-%$expG6#%$_k1GF?FDF?!\"\"
+F?*&F?F?*&),&FDF?F?F?F9F?FDF?FEFE/FD;\"\"!%)infinityG-%$AndG6#2FL-%#Re
+GF87$/-F-6$%\"nG%\"zG*&)FE,&FXF?F?F?F?-F;6$*()FDFXF?-FB6#*&FYF?FDF?FE,
+&F?F?*&F?F?FAFEFEFEFJF?-FO6$'FX%*nonnegintG2FL-FS6#FY/Q+identitiesF)7(
+/-F-6#,&F?F?%\"zGFE,&-F-6#F^pF?*&%#PiGF?-%$cotG6#*&FcpF?F^pF?F?F?/-F-6
+#,$F^pFE,(F`pF?*&F?F?F^pFEF?FbpF?7&/-F-6#,&F^pF?%\"nGF?,&F`pF?-%$SumG6
+$*&F?F?,&F^pF?FDF?FE/FD;FL,&FcqF?F?FEF?/-F-6#,&F^pF?FcqFE,&F`pF?-Ffq6$
+*&F?F?,(F^pF?FDFEF?FEFEFjqFE/-F-6#*&F^pF?FcqF?,&*&FcqFE-Ffq6$-F-6#,&F^
+pF?*&FDF?FcqFEF?FjqF?F?-%#lnG6#FcqF?-FO6#'FcqFco7&/-F-6$%\"nG%\"zG-%%D
+iffG6$-F-6#F]t-%\"$G6$F]tF\\t/Fjs-F_t6$-%(lnGAMMAGFbt-Fdt6$F]t,&F\\tF?
+F?F?/-F-6$F\\t,$F]tFE,(*&)FEF\\tF?FjsF?F?*(FduF?FcpF?-F_t6$-Fep6#*&Fcp
+F?F]tF?FctF?F?*&-%*factorialG6#F\\tF?)F]t,&F?FEF\\tFEF?F?-FO6#'F\\tFco
+7%/Fjs*(-%%ZetaG6%FLF]uF]tF?F\\vF?)FEF]uF?/-F-6$F\\t,$*&\"\"#F?F]tF?F?
+*&)F`wF`vF?,&FjsF?-F-6$F\\t,&F]tF?#F?F`wF?F?F?-FO6#'F\\t%'posintG7%/-F
+-6$F\\t,&F]tF?%\"mGF?,&FjsF?*(FduF?F\\vF?-Ffq6$*&F?F?),&F]tF?FDF?F]uFE
+/FD;FL,&FaxF?F?FEF?F?/-F-6$F\\t,&F]tF?FaxFE,&FjsF?*(FduF?F\\vF?-Ffq6$*
+&F?F?),&F]tF?FDFEF]uFE/FD;F?FaxF?FE-FO6#'<$FaxF\\t-%$setG6#Fco/Q5diffe
+rentiation_ruleF)/-F_t6$-F-6$%\"nG-%\"fG6#%\"zGF[[l*&-F-6$,&FgzF?F?F?F
+hzF?-%%diffG6$FhzF[[lF?/Q)sum_formF)6%7$/-F-6#%\"zG,&-Ffq6$,&*&F?F?FDF
+EF?*&F?F?,(FDF?Fj[lF?F?FEFEFE/FD;F?FMF?%&gammaGFE-FO6#',&Fj[lF?F?FE-%$
+NotG6#%'negintG7$/Fh[l-Ffq6$*()FE%$_k2GF?-Fhv6#,&Fc]lF?F`wF?F?)Fj[l,&F
+c]lF?F?F?F?/Fc]lFK-FO6#2-%$absGFi[lF?7$/-F-6$%\"nG%\"zG-Ffq6$,$*(-F]v6
+#Fc^lF?)FEFc^lF?),&FDF?Fd^lF?,&Fc^lF?F?F?FEFEFJ5-FO6$'Fc^lF[x'Fd^lFi\\
+l-FO6$Fb_l',&Fd^lF?F?FEFi\\l/Q/special_valuesF)7;/-F-6##!\"$F`w,(#\"\"
+)\"\"$F?Fd\\lFE*&F`wF?-Fcs6#F`wF?FE/-F-6##FEF`w,(F`wF?Fd\\lFE*&F`wF?Fe
+`lF?FE/-F-6##F?\"\"%,(Fd\\lFE*&Fc`lF?Fe`lF?FE*&F`wFEFcpF?FE/-F-6#Fgw,&
+Fd\\lFE*&F`wF?Fe`lF?FE/-F-6##Fc`lFaal,(Fd\\lFE*&Fc`lF?Fe`lF?FE*&F`wFEF
+cpF?F?/-F-6##F?Fc`l,(Fd\\lFE*(\"\"'FEFcpF?Fc`lFgwFE*&#Fc`lF`wF?-Fcs6#F
+c`lF?FE/-F-6##F`wFc`l,(Fd\\lFE*(FgblFEFcpF?Fc`lFgwF?*&#Fc`lF`wF?FjblF?
+FE/-F-6#F?,$Fd\\lFE/-F-Ff`l,&F?F?Fd\\lFE/-F-6#FE^$FMFM/-F-6#FLF^dl/-F-
+6#FMFM/-F-6#,$FMFE%*undefinedG/-F-6#^#FM,&FMF?*&^#FgwF?FcpF?F?/-F-6#^#
+Fhdl,&FMF?*&^#Fj`lF?FcpF?F?/-F-6$FE%\"zG,&*&#F?F`wF?-Fcs6#,$*&F`wF?Fcp
+F?F?F?FE-Fjt6#F[flF?/-F-6$F?F?,$*&FgblFEFcpF`wF?/-F-6$F?Fgw,$*&F`wFEFc
+pF`wF?/-F-6$F?F`al,&*&Fb`lF?%(CatalanGF?F?*$)FcpF`wF?F?/-F-6$FLF[fl-F-
+Fdfl/-F-6$%\"nGFEF^dl/-F-6$F^hlFLF^dl7$/-F-6#%\"nG,&-Ffq6$*&F?F?%\"kGF
+E/F[il;F?,&FfhlF?F?FEF?Fd\\lFE'FfhlF[x7%/-F-6#,&FfhlF?*&%\"pGF?%\"qGFE
+F?,,*&FgilF?-Ffq6$*&F?F?,&*&FgilF?F[ilF?F?FfilF?FE/F[il;FLF^ilF?F?*&F`
+wF?-Ffq6$*&-%$cosG6#,$*,F`wF?FcpF?FfilF?F[ilF?FgilFEF?F?-Fcs6#-%$sinG6
+#*(FcpF?F[ilF?FgilFEF?/F[il;F?-%&floorG6#,&*&F`wFEFgilF?F?#F?F`wFEF?F?
+*&#F?F`wF?*&FcpF?-Fep6#*(FcpF?FfilF?FgilFEF?F?FE-Fcs6#,$*&F`wF?FgilF?F
+?FEFd\\lFE/-F-6#,&FeilF?FfhlFE,,*&FgilF?-Ffq6$*&F?F?,&*&FgilF?,&F[ilF?
+F?F?F?F?FfilFEFEF_jlF?F?*&F`wF?FbjlF?F?*&#F?F`wF?Fj[mF?FEF^\\mFEFd\\lF
+E-FO6%'FfhlFco'<$FgilFfil-F^z6#F[x2FfilFgil7'/-F-6$F?,$%\"nGFEFM/-F-6$
+F?F^^m,&*&FgblFEFcpF`wF?-Ffq6$*&F?F?*$)%\"kGF`wF?FE/Fi^m;F?,&F^^mF?F?F
+EFE/-F-6$F?,&F^^mF?FgwF?,&*&F`wFEFcpF`wF?-Ffq6$,$*&FaalF?,&*&F`wF?Fi^m
+F?F?F?FE!\"#F?/Fi^m;F?F^^mFE/-F-6$F?,&FgwF?F^^mFE,&*&F`wFEFcpF`wF?Fc_m
+F?'F^^mF[x/Q5asymptotic_expansionF)/-%'asymptG6%-F-6#%\"zGF[amFaal,*-F
+csFj`mF?*&F?F?*&F`wF?F[amF?FEFE*&F?F?*&\"#7F?)F[amF`wF?FEFE-%\"OG6#*&F
+?F?*$)F[amFaalF?FEF?/Q+symmetriesF)7\"/Q.singularitiesF)6$7%-F-6#%\"zG
+/FcbmF^dl'Fcbm%*nonposintG7%-F-6$%\"nG%\"zG/F[cmF^dl'F[cmFfbm/Q'series
+F)/-%'seriesG6%-F-6#%\"zGFfcmFaal+/FfcmFEFEFgclFLFhflF?,$-FhvF[clFEF`w
+,$*&\"#!*FEFcpFaalF?Fc`l-FeamFfclFaal/Q.branch_pointsF)6$7$-F-6#%\"zGQ
+1No~branch~pointsF)7%-F-6$%\"nG%\"zG-FO6$'Fidm-Fj\\l6#%(integerG/FjdmF
+L-FO6$F]em/FjdmF^dl/Q+definitionF)6$7$/-F-6#%\"zG*&-F_t6$-%&GAMMAGF[fm
+F\\fmF?F`fmFE-%9with~no~restrictions~on~GF[fm7$/-F-6$%\"nG%\"zG-F_t6$-
+F-6#Fifm-Fdt6$FifmFhfm-FO6#'FhfmFco/Q1calling_sequenceF)6$-F-6#%\"zG-F
+-6$%\"nG%\"zG/Q3analytic_extensionF)/-F-6$%\"nG%\"zG*&,&-Fhv6%F?,&F?F?
+FbhmF?FchmF?*&,&Fd\\lF?-F-6#,$FbhmFEF?F?-Fhv6%FLFhhmFchmF?F?F?-FafmF\\
+imFE/Q,branch_cutsF)6$7$-F-6#%\"zGQ/No~branch~cutsF)7$-F-6$%\"nG%\"zG-
+FO6$'F\\jmF^em2F]jmFLQ(pprint0F)" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 
+298 2 "2." }{TEXT -1 20 " Expandati expresia " }{XPPEDIT 18 0 "((cos(2
+*x)+1)^2" "6#*$,&-%$cosG6#*&\"\"#\"\"\"%\"xGF*F*F*F*F)" }{TEXT -1 5 " \+
+in  " }{XPPEDIT 18 0 "cos(2x)^2+2*cos(2*x)+1" "6#,(*$-%$cosG6#*&\"\"#
+\"\"\"%\"xGF*F)F**&F)F*-F&6#*&F)F*F+F*F*F*F*F*" }{TEXT -1 57 ", i.e., \+
+expandati expresia ca si cum ar fi un polinom in " }{XPPEDIT 18 0 "cos
+(2*x)" "6#-%$cosG6#*&\"\"#\"\"\"%\"xGF(" }{TEXT -1 43 " si nu expandat
+i functiile trigonometrice.\n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "(cos(2*x)+
+1)^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$),&-%$cosG6#,$*&\"\"#\"\"\"
+%\"xGF,F,F,F,F,F+F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "expa
+nd(%, cos(2*x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)-%$cosG6#,$*&
+\"\"#\"\"\"%\"xGF,F,F+F,F,*&F+F,F&F,F,F,F," }}}{PARA 0 "" 0 "" {TEXT 
+-1 27 "O alternativa mai generala:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "expand(%%, cos);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+(*$)-%$cosG6#,$*&\"\"#\"\"\"%\"xGF,F,F+F,F,*&F+F,F&F,F,F,F," }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "
+" {TEXT 299 2 "3." }{TEXT -1 85 " Verificati ca Maple poate tranforma \+
+perechile de expresii urmatoare din una in alta\n" }{TEXT 300 3 "(a)" 
+}{TEXT -1 3 "   " }{XPPEDIT 18 0 "x+y+1/(x+y)" "6#,(%\"xG\"\"\"%\"yGF%
+*&F%F%,&F$F%F&F%!\"\"F%" }{TEXT -1 6 "  si  " }{XPPEDIT 18 0 "((x+y)^2
++1)/(x+y))" "6#*&,&*$,&%\"xG\"\"\"%\"yGF(\"\"#F(F(F(F(,&F'F(F)F(!\"\"
+" }{TEXT -1 2 "\n\n" }{TEXT 301 3 "(b)" }{TEXT -1 7 "   exp(" }
+{XPPEDIT 18 0 "x+y" "6#,&%\"xG\"\"\"%\"yGF%" }{TEXT -1 11 ")  si  exp(
+" }{XPPEDIT 18 0 "x" "6#%\"xG" }{TEXT -1 6 ") exp(" }{XPPEDIT 18 0 "y
+" "6#%\"yG" }{TEXT -1 3 ")\n\n" }{TEXT 302 3 "(c)" }{TEXT -1 3 "   " }
+{XPPEDIT 18 0 "ln(x/y)" "6#-%#lnG6#*&%\"xG\"\"\"%\"yG!\"\"" }{TEXT -1 
+6 "  si  " }{XPPEDIT 18 0 "ln(x)-ln(y)" "6#,&-%#lnG6#%\"xG\"\"\"-F%6#%
+\"yG!\"\"" }{TEXT -1 2 "\n\n" }{TEXT 303 3 "(d)" }{TEXT -1 3 "   " }
+{XPPEDIT 18 0 "x^(y+z)" "6#)%\"xG,&%\"yG\"\"\"%\"zGF'" }{TEXT -1 6 "  \+
+si  " }{XPPEDIT 18 0 "x^y*x^z" "6#*&)%\"xG%\"yG\"\"\")F%%\"zGF'" }
+{TEXT -1 2 "\n\n" }{TEXT 304 3 "(e)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "s
+qrt(x^2+1)" "6#-%%sqrtG6#,&*$%\"xG\"\"#\"\"\"F*F*" }{TEXT -1 6 "  si  \+
+" }{XPPEDIT 18 0 "sqrt(x-1)*sqrt(x+1)" "6#*&-%%sqrtG6#,&%\"xG\"\"\"F)!
+\"\"F)-F%6#,&F(F)F)F)F)" }{TEXT -1 1 "\n" }}{SECT 1 {PARA 5 "" 0 "" 
+{TEXT 334 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "x + y + 1/(x+y);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,(%\"xG\"\"\"%\"yGF%*&F%F%,&F$F%F&F%!
+\"\"F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "subs(x=a-y, %);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&%\"aG\"\"\"*&F%F%F$!\"\"F%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "normal(%);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#*&,&*$)%\"aG\"\"#\"\"\"F)F)F)F)F'!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "subs(a=x+y, %);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#*&,&*$),&%\"xG\"\"\"%\"yGF)\"\"#F)F)F)F)F)F'!\"\"" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "expand(%, x+y);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,(%\"xG\"\"\"%\"yGF%*&F%F%,&F$F%F&F%!\"\"F%
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "
+" 0 "" {TEXT 335 3 "(b)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "re
+start;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "exp(x + y);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$expG6#,&%\"xG\"\"\"%\"yGF(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#*&-%$expG6#%\"xG\"\"\"-F%6#%\"yGF(" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 11 "combine(%);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%$expG6#,&%\"xG\"\"\"%\"yGF(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 336 3 "(c)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 8 "ln(x/y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%#lnG6#*&%\"xG\"\"\"%\"yG!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 22 "simplify(%, symbolic);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&-%
+#lnG6#%\"xG\"\"\"-F%6#%\"yG!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "combine(%, ln, symbolic);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#lnG6#*&%\"xG\"\"\"%\"yG!\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 337 3 "(d)
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "x^(y+z);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#)%\"xG,&%\"yG\"\"\"%\"zGF'" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&)%
+\"xG%\"yG\"\"\")F%%\"zGF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+28 "combine(%, power, symbolic);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#)%
+\"xG,&%\"yG\"\"\"%\"zGF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 338 3 "(e)" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "sqrt(x^2-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$,&*$)%\"xG\"\"
+#\"\"\"F)F)!\"\"#F)F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "fa
+ctor(%^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"F&!\"\"F&
+,&F%F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "map(sqrt, %
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"F&!\"\"#F&\"\"#,&
+F%F&F&F&F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "sqrt(expand(%
+^2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$,&*$)%\"xG\"\"#\"\"\"F)F)!
+\"\"#F)F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 
+{PARA 0 "" 0 "" {TEXT 306 2 "4." }{TEXT -1 46 " Simplificati expresiil
+e simbolice urmatoare.\n" }{TEXT 307 3 "(a)" }{TEXT -1 4 "    " }
+{XPPEDIT 18 0 "(exp(x) + x)/(exp(2*x)+2*x*exp(x)+x^2)" "6#*&,&-%$expG6
+#%\"xG\"\"\"F(F)F),(-F&6#*&\"\"#F)F(F)F)*(F.F)F(F)-F&6#F(F)F)*$F(F.F)!
+\"\"" }{TEXT -1 3 "\n\n(" }{TEXT 308 2 "b)" }{TEXT -1 4 "    " }
+{XPPEDIT 18 0 "(x^5+40x^4+595x^3+3905x^2+9680x+1331)^(1/3)" "6#),.*$%
+\"xG\"\"&\"\"\"*&\"#SF(*$F&\"\"%F(F(*&\"$&fF(*$F&\"\"$F(F(*&\"%0RF(*$F
+&\"\"#F(F(*&\"%!o*F(F&F(F(\"%J8F(*&F(F(F0!\"\"" }{TEXT -1 3 "\n\n\n" }
+{TEXT 309 3 "(c)" }{TEXT -1 4 "    " }{XPPEDIT 18 0 "(x-2)^(3/2)/(x^2+
+4x+4)^(1/4)" "6#*&),&%\"xG\"\"\"\"\"#!\"\"*&\"\"$F'F(F)F'),(*$F&F(F'*&
+\"\"%F'F&F'F'F0F'*&F'F'F0F)F)" }{TEXT -1 3 "\n\n\n" }{TEXT 310 3 "(d)
+" }{TEXT -1 4 "    " }{XPPEDIT 18 0 "(sqrt(x)-y)/(x-y^2)" "6#*&,&-%%sq
+rtG6#%\"xG\"\"\"%\"yG!\"\"F),&F(F)*$F*\"\"#F+F+" }{TEXT -1 3 "\n\n\n" 
+}{TEXT 311 3 "(e)" }{TEXT -1 4 "    " }{XPPEDIT 18 0 "1/(2+5^(1/3))" "
+6#*&\"\"\"F$,&\"\"#F$)\"\"&*&F$F$\"\"$!\"\"F$F+" }{TEXT -1 2 "\n\n" }
+{TEXT 312 3 "(f)" }{TEXT -1 4 "    " }{XPPEDIT 18 0 "cos(x+y)+sin(x)*s
+in(y)+2^(x+y)" "6#,(-%$cosG6#,&%\"xG\"\"\"%\"yGF)F)*&-%$sinG6#F(F)-F-6
+#F*F)F))\"\"#,&F(F)F*F)F)" }{TEXT -1 2 "\n\n" }{TEXT 313 3 "(g)" }
+{TEXT -1 4 "    " }{XPPEDIT 18 0 "2*cos^2*(x)-cos*2x" "6#,&*(\"\"#\"\"
+\"*$%$cosGF%F&%\"xGF&F&*(F(F&F%F&F)F&!\"\"" }{TEXT -1 1 "\n" }}{SECT 
+1 {PARA 5 "" 0 "" {TEXT 339 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 
+"(exp(x)+x)/(exp(2*x)+2*x*exp(x)+x^2);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*&,&-%$expG6#%\"xG\"\"\"F(F)F),(-F&6#,$*&\"\"#F)F(F)F)F)*(F/F)F(
+F)F%F)F)*$)F(F/F)F)!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 
+"simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"\"F$,&-%$expG6#
+%\"xGF$F)F$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 5 "" 0 "" {TEXT 340 3 "(b)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 
+"(x^5+40*x^4+595*x^3+3905*x^2+9680*x+1331)^(1/3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),.*$)%\"xG\"\"&\"\"\"F**&\"#SF*)F(\"\"%F*F**&\"$&fF*
+)F(\"\"$F*F**&\"%0RF*)F(\"\"#F*F**&\"%!o*F*F(F*F*\"%J8F*#F*F2F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*$)*&,(*$)%\"xG\"\"#\"\"\"F+*&\"\"(F+F)F+F+F+F+F+)
+,&F)F+\"#6F+\"\"$F+#F+F1F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+22 "simplify(%, symbolic);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"x
+G\"\"\"\"#6F&F&),(*$)F%\"\"#F&F&*&\"\"(F&F%F&F&F&F&#F&\"\"$F&" }}}
+{PARA 0 "" 0 "" {TEXT -1 39 "Zaboviti putin asupra cuvantului cheie " 
+}{TEXT 0 8 "symbolic" }{TEXT -1 27 ". Uitati-va la urmatoarele:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "(x^3)^(1/3);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*$)*$)%\"xG\"\"$\"\"\"#F)F(F)" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 29 "simplify(%, assume=positive);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%\"xG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+30 "simplify(%%, assume=negative);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+,$*(\"\"#!\"\"%\"xG\"\"\",&F(F(*&\"\"$#F(F%^#F(F(F(F(F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 
+341 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "(x-2)^(3/2)/(x^2-4*x+4)^(1/4
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"\"\"#!\"\"#\"\"$F
+',(*$)F%F'F&F&*&\"\"%F&F%F&F(F/F&#F(F/" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%
+\"xG\"\"\"\"\"#!\"\"#\"\"$F'*$)F$F'F&#F(\"\"%" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 22 "simplify(%, symbolic);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&%\"xG\"\"\"\"\"#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 342 3 "(d)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 20 "(sqrt(x)-y)/(x-y^2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&*$%\"xG#\"\"\"\"\"#F(%\"yG!\"\"F(,&F&F(*$)F*F)F(F+F
++" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "subs(x=s^2, %);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*$*$)%\"sG\"\"#\"\"\"#F*F)F*%\"yG!
+\"\"F*,&F&F**$)F,F)F*F-F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "simplify(%, assume=positive);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*
+&\"\"\"F$,&%\"yGF$%\"sGF$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "subs(s=sqrt(x), %);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"
+\"F$,&%\"yGF$*$%\"xG#F$\"\"#F$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 343 3 "(e)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 14 "1/(2+5^(1/3));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*&\"\"\"F$,&\"\"#F$*$)\"\"&#F$\"\"$F$F$!\"\"" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 15 "rationalize(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(#\"\"%\"#8\"\"\"*(\"\"#F'F&!\"\"\"\"&#F'\"\"$F**&F&F*
+F+#F)F-F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 
+{PARA 5 "" 0 "" {TEXT 344 3 "(f)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "cos(x+y)
++sin(x)*sin(y)+2^(x+y);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(-%$cosG6#
+,&%\"xG\"\"\"%\"yGF)F)*&-%$sinG6#F(F)-F-6#F*F)F))\"\"#F'F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "expand(%, 2^(x+y));" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,&*&-%$cosG6#%\"xG\"\"\"-F&6#%\"yGF)F))\"\"#,&F(F)
+F,F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 
+{PARA 5 "" 0 "" {TEXT 345 3 "(g)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "2*cos(x)
+^2-cos(2*x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"#\"\"\")-%$cos
+G6#%\"xGF%F&F&-F)6#,$*&F%F&F+F&F&!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 
+0 "" 0 "" {TEXT 314 2 "5." }{TEXT -1 66 " Rezolvati urmatoarele proble
+me de echivalenta cu zero in Maple.\n\n" }{TEXT 315 3 "(a)" }{TEXT -1 
+4 "    " }{XPPEDIT 18 0 "(2^(1/3)+4^(1/3))^3-6(2^(1/3)+4^(1/3)) -6=0" 
+"6#/,(*$,&)\"\"#*&\"\"\"F*\"\"$!\"\"F*)\"\"%*&F*F*F+F,F*F+F*-\"\"'6#,&
+)F(*&F*F*F+F,F*)F.*&F*F*F+F,F*F,F1F,\"\"!" }{TEXT -1 2 "\n\n" }{TEXT 
+316 3 "(b)" }{TEXT -1 4 "    " }{XPPEDIT 18 0 "ln(tan(x/2+Pi/4))-arcsi
+nh(tan(x))=0" "6#/,&-%#lnG6#-%$tanG6#,&*&%\"xG\"\"\"\"\"#!\"\"F.*&%#Pi
+GF.\"\"%F0F.F.-%(arcsinhG6#-F)6#F-F0\"\"!" }{TEXT -1 1 "\n" }}{SECT 1 
+{PARA 5 "" 0 "" {TEXT 346 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "(2^(1/3)
++4^(1/3))^3 - 6*(2^(1/3)+4^(1/3)) - 6 = 0;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/,**$),&*$)\"\"##\"\"\"\"\"$F,F,*$)\"\"%F+F,F,F-F,F,*&
+\"\"'F,F)F,!\"\"*&F2F,F/F,F3F2F3\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "testeq(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAILG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "expand(%%);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/,**(\"\"$\"\"\")\"\"##F)F&F')\"\"%#F'F&F'F'
+*(F&F')F)F-F')F,F*F'F'*&\"\"'F'F/F'!\"\"*&F2F'F+F'F3\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/\"\"!F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT 347 3 "(b)" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 42 "ln(tan(1/2*x+Pi/4)) - arcsinh(tan(x)) = 0;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/,&-%#lnG6#-%$tanG6#,&*&\"\"#!\"\"%\"xG\"\"\"F0*&\"\"%F
+.%#PiGF0F0F0-%(arcsinhG6#-F)6#F/F.\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "testeq(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAILG
+" }}}{PARA 0 "" 0 "" {TEXT -1 115 "prin derivare aratam ca membrul sta
+ng este constant. Apoi vom arata prin substitutie ca constanta este eg
+ala cu  0." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "f := lhs(%%);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&-%#lnG6#-%$tanG6#,&*&\"\"#
+!\"\"%\"xG\"\"\"F1*&\"\"%F/%#PiGF1F1F1-%(arcsinhG6#-F*6#F0F/" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "diff(f, x);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,&*&,&#\"\"\"\"\"#F'*&F&F'*$)-%$tanG6#,&*&F(!\"\"%
+\"xGF'F'*&\"\"%F1%#PiGF'F'F(F'F'F'F'F,F1F'*$,&F'F'*$)-F-6#F2F(F'F'F&F1
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,,*&#\"\"\"\"\"#F&*&F&F&,&F&F&-%$tanG6#,$*&F'!
+\"\"%\"xGF&F&F&F/F&F&*&#F&F'F&*&F)F/F*F&F&F/*&F%F&*&F&F&,&F&F&F*F/F/F&
+F&*&F%F&*&F6F/F*F&F&F&*$,&F&F&*$)-F+6#F0F'F&F&F%F/" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 22 "simplify(%, symbolic);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "eva
+l(f, x=0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 1 {PARA 0 "" 0 "" {TEXT 317 2 "6." }{TEXT -1 63 " Utilizati Mapl
+e pentru a verifica identitatile trigonometrice\n" }{TEXT 318 3 "(a)" 
+}{TEXT -1 1 " " }{XPPEDIT 18 0 "sin*x+sin*y=2*sin((x+y)/2)*cos((x-y)/2
+)" "6#/,&*&%$sinG\"\"\"%\"xGF'F'*&F&F'%\"yGF'F'*(\"\"#F'-F&6#*&,&F(F'F
+*F'F'F,!\"\"F'-%$cosG6#*&,&F(F'F*F1F'F,F1F'" }{TEXT -1 2 "\n\n" }
+{TEXT 319 3 "(b)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "sin(5*x)=5sin x-20 s
+in^3x+16sin^5x" "6#/-%$sinG6#*&\"\"&\"\"\"%\"xGF),(*(F(F)F%F)F*F)F)*(
+\"#?F)*$F%\"\"$F)F*F)!\"\"*(\"#;F)*$F%F(F)F*F)F)" }{TEXT -1 2 "\n\n" }
+{TEXT 320 3 "(c)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "cot^2x+1=csc^2x" "6#
+/,&*&%$cotG\"\"#%\"xG\"\"\"F)F)F)*&%$cscGF'F(F)" }{TEXT -1 2 "\n\n" }
+{TEXT 321 3 "(d)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "tan x+tan y=sin(x+y)
+/(cos(x)*cos(y))" "6#/,&*&%$tanG\"\"\"%\"xGF'F'*&F&F'%\"yGF'F'*&-%$sin
+G6#,&F(F'F*F'F'*&-%$cosG6#F(F'-F26#F*F'!\"\"" }{TEXT -1 2 "\n\n" }
+{TEXT 322 3 "(e)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "cos^6x+sin^6x=1-3sin
+^2x*cos^2x" "6#/,&*&%$cosG\"\"'%\"xG\"\"\"F)*&%$sinGF'F(F)F),&F)F)*,\"
+\"$F)*$F+\"\"#F)F(F)F&F0F(F)!\"\"" }{TEXT -1 2 "\n\n" }{TEXT 323 3 "(f
+)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "sinh (2*x)=2*(tanh x)/(1-tanh^2x)" 
+"6#/-%%sinhG6#*&\"\"#\"\"\"%\"xGF)*(F(F)*&%%tanhGF)F*F)F),&F)F)*&F-F(F
+*F)!\"\"F0" }{TEXT -1 2 "\n\n" }{TEXT 324 3 "(g)" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "(sin(2x)+sin(2y))/(cos (2x)+cos(2y))=tan(x+y)" "6#/*&,&
+-%$sinG6#*&\"\"#\"\"\"%\"xGF+F+-F'6#*&F*F+%\"yGF+F+F+,&-%$cosG6#*&F*F+
+F,F+F+-F36#*&F*F+F0F+F+!\"\"-%$tanG6#,&F,F+F0F+" }{TEXT -1 1 "\n" }}
+{SECT 0 {PARA 5 "" 0 "" {TEXT 348 3 "(a)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 
+"2*(sin((x+y)/2)*(cos((x-y)/2)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+$*(\"\"#\"\"\"-%$sinG6#,&*&F%!\"\"%\"xGF&F&*&F%F,%\"yGF&F&F&-%$cosG6#,
+&*&F%F,F-F&F&*&F%F,F/F&F,F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 11 "combine(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&-%$sinG6#%\"xG
+\"\"\"-F%6#%\"yGF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 0 {PARA 5 "" 0 "" {TEXT 349 3 "(b)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "
+sin(5*x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$sinG6#,$*&\"\"&\"\"\"%
+\"xGF)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(sin(5*x)
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*(\"#;\"\"\"-%$sinG6#%\"xGF&)-
+%$cosGF)\"\"%F&F&*(\"#7F&F'F&)F,\"\"#F&!\"\"F'F&" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 52 "simplify(%, \{sin(x)^2+cos(x)^2=1\}, [cos(x),
+sin(x)]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"\"&\"\"\"-%$sinG6#%
+\"xGF&F&*&\"#?F&)F'\"\"$F&!\"\"*&\"#;F&)F'F%F&F&" }}}{PARA 0 "" 0 "" 
+{TEXT -1 40 "Aceasta ultima comanda rezolva problema." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 54 "simplify(%%%, \{sin(x)^2+cos(x)^2=1\}, [c
+os(x),sin(x)]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"\"&\"\"\"-%$s
+inG6#%\"xGF&F&*&\"#?F&)F'\"\"$F&!\"\"*&\"#;F&)F'F%F&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 
+350 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "cot(x)^2 + 1 = csc(x)^2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/,&*$)-%$cotG6#%\"xG\"\"#\"\"\"F,F,F,*
+$)-%$cscGF)F+F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "testeq(%
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "convert(%%, sincos);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/,&*&-%$cosG6#%\"xG\"\"#-%$sinGF(!\"#\"\"\"F.F.*&F.F.*$
+)F+F*F.!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "normal(%);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&,&*$)-%$sinG6#%\"xG\"\"#\"\"\"F
+-*$)-%$cosGF*F,F-F-F-F(!\"#*&F-F-*$F'F-!\"\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 29 "subs(cos(x)^2=1-sin(x)^2, %);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/*&\"\"\"F%*$)-%$sinG6#%\"xG\"\"#F%!\"\"F$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "
+" {TEXT 351 3 "(d)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "tan(x)+tan(y) = sin(x+
+y)/(cos(x)*cos(y));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,&-%$tanG6#%\"
+xG\"\"\"-F&6#%\"yGF)*(-%$sinG6#,&F(F)F,F)F)-%$cosGF'!\"\"-F3F+F4" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "testeq(%);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+38 "simplify( lhs(%%) - expand(rhs(%%)) );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}}{PARA 0 "" 0 "" {TEXT -1 11 "Alternativ:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 16 "tan(x) + tan(y);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&-%$tanG6#%\"xG\"\"\"-F%6#%\"yGF(" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 19 "convert(%, sincos);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&-%$sinG6#%\"xG\"\"\"-%$cosGF'!\"\"F)*&-F&6#%\"yGF)-
+F+F/F,F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "normal(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&*&-%$sinG6#%\"xG\"\"\"-%$cosG6#%\"
+yGF*F**&-F'F-F*-F,F(F*F*F*F1!\"\"F+F2" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "combine(numer(%)) / denom(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(-%$sinG6#,&%\"xG\"\"\"%\"yGF)F)-%$cosG6#F(!\"\"-F,6#F
+*F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 
+5 "" 0 "" {TEXT 352 3 "(e)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 
+"restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "cos(x)^6 + sin
+(x)^6 = 1 - 3*sin(x)^2*cos(x)^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,
+&*$)-%$cosG6#%\"xG\"\"'\"\"\"F,*$)-%$sinGF)F+F,F,,&F,F,*(\"\"$F,)F/\"
+\"#F,)F'F5F,!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "testeq
+(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 28 "simplify(lhs(%%) - rhs(%%));" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 353 3 "(f)" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "si
+nh(2*x) = 2*tanh(x)/(1-tanh(x)^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/-%%sinhG6#,$*&\"\"#\"\"\"%\"xGF*F*,$*(F)F*-%%tanhG6#F+F*,&F*F**$)F.F)
+F*!\"\"F4F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "testeq(%);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 28 "simplify(lhs(%%) - rhs(%%));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}}{PARA 0 "" 0 "" {TEXT -1 11 "Alternativ:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 24 "2*tanh(x)/(1-tanh(x)^2);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,$*(\"\"#\"\"\"-%%tanhG6#%\"xGF&,&F&F&*$)F'F%F&!\"\"F
+.F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "convert(%, sincos);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$**\"\"#\"\"\"-%%sinhG6#%\"xGF&-%
+%coshGF)!\"\",&F&F&*&F'F%F+!\"#F-F-F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(
+\"\"#\"\"\"-%%sinhG6#%\"xGF&-%%coshGF)F&F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 11 "combine(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%s
+inhG6#,$*&\"\"#\"\"\"%\"xGF)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 354 3 "(g)" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 50 "(sin(2*x)+sin(2*y))/(cos (2*x)+cos(2*y))=tan(x+y);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&,&-%$sinG6#,$*&\"\"#\"\"\"%\"xGF,F
+,F,-F'6#,$*&F+F,%\"yGF,F,F,F,,&-%$cosGF(F,-F5F/F,!\"\"-%$tanG6#,&F-F,F
+2F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "testeq(%);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 44 "simplify(expand(lhs(%%)) - expand(rhs(%%)));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 325 2 "7." }
+{TEXT -1 33 " Verificati cu Maple egalitatea  " }{XPPEDIT 18 0 "Pi/4=4
+*arctan(1/5)-arctan(1/239)" "6#/*&%#PiG\"\"\"\"\"%!\"\",&*&F'F&-%'arct
+anG6#*&F&F&\"\"&F(F&F&-F,6#*&F&F&\"$R#F(F(" }{TEXT -1 1 "\n" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 37 "Pi/4 = 4*arctan(1/5) - arctan(1/239);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/,$*&\"\"%!\"\"%#PiG\"\"\"F),&*&F&F)-%'arctanG6#
+#F)\"\"&F)F)-F-6##F)\"$R#F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "combine(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,$*&\"\"%!\"\"%#Pi
+G\"\"\"F)F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 
+1 {PARA 0 "" 0 "" {TEXT 333 2 "8." }{TEXT -1 80 " Calculati integralel
+e si verificati rezultatul prin derivare si simplificare.\n\n" }{TEXT 
+332 3 "(a)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "int(2/sqrt(4+x^2),x)" "6#-
+%$intG6$*&\"\"#\"\"\"-%%sqrtG6#,&\"\"%F(*$%\"xGF'F(!\"\"F/" }{TEXT -1 
+2 "\n\n" }{TEXT 331 3 "(b)" }{TEXT -1 1 " " }{XPPEDIT 18 0 "int(sqrt((
+1-cx^2)^3),x)" "6#-%$intG6$-%%sqrtG6#*$,&\"\"\"F+*$%#cxG\"\"#!\"\"\"\"
+$%\"xG" }{TEXT -1 2 "\n\n" }{TEXT 330 3 "(c)" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "int(1/(x^4-1),x)" "6#-%$intG6$*&\"\"\"F',&*$%\"xG\"\"%F
+'F'!\"\"F,F*" }{TEXT -1 2 "\n\n" }{TEXT 329 3 "(d)" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "int(1/(x^4-4),x)" "6#-%$intG6$*&\"\"\"F',&*$%\"xG\"\"%F
+'F+!\"\"F,F*" }{TEXT -1 2 "\n\n" }{TEXT 328 3 "(e)" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "int(sin*3*x*cos2*x,x)" "6#-%$intG6$*,%$sinG\"\"\"\"\"$F
+(%\"xGF(%%cos2GF(F*F(F*" }{TEXT -1 1 "\n" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{SECT 0 {PARA 5 "" 0 "" {TEXT 359 3 "(a)" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 28 "Integrate(2/sqrt(4+x^2), x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#-%$IntG6$,$*&\"\"#\"\"\",&\"\"%F)*$)%\"xGF(F)F)#!\"\"F(F)F." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,$*&\"\"#\"\"\"-%(arcsinhG6#,$*&F%!\"\"%\"xGF&F&F&F&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "diff(%,x);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,$*&\"\"#\"\"\",&\"\"%F&*$)%\"xGF%F&F&#!\"\"F%F
+&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "
+" 0 "" {TEXT 358 3 "(b)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "re
+start;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "Integrate(sqrt((1
+-c*x^2)^3), x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*$*$),&\"
+\"\"F**&%\"cGF*)%\"xG\"\"#F*!\"\"\"\"$F*#F*F/F." }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$
+*&#\"\"\"\"\")F&*,,$*$),&F&!\"\"*&%\"cGF&)%\"xG\"\"#F&F&\"\"$F&F-#F&F2
+,(**F3F&F1F&,&F&F&F.F-F4F/F4F&*&F3F&-%'arctanG6#*(F/F4F1F&F7#F-F2F&F&*
+*F2F&F1F&)F7#F3F2F&F/F4F&F&F,F-F7F=F/F=F&F-" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$
+*&#\"\"\"\"\")F&**,$*$),&F&!\"\"*&%\"cGF&)%\"xG\"\"#F&F&\"\"$F&F-#F&F2
+,(**\"\"&F&F1F&,&F&F&F.F-F4F/F4F-*&F3F&-%'arctanG6#*(F/F4F1F&F8#F-F2F&
+F-**F2F&)F1F3F&F8F4)F/#F3F2F&F&F&F8#!\"$F2F/F>F&F-" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 11 "diff(%, x);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#,(*&#\"\"$\"\")\"\"\"*.,$*$),&F(!\"\"*&%\"cGF()%\"xG\"\"#F(F(F&F
+(F.#F.F3,(**\"\"&F(F2F(,&F(F(F/F.#F(F3F0F9F.*&F&F(-%'arctanG6#*(F0F9F2
+F(F8F4F(F.**F3F()F2F&F(F8F9)F0#F&F3F(F(F(F8#!\"$F3F0F9F-F3F2F(F(F(*,F'
+F.F*F9,,*(F7F(F8F9F0F9F.**F7F(F2F3F8F4F0FBF(*(F&F(,&*&F0F9F8F4F(*(F0FB
+F2F3F8FCF(F(,&F(F(*(F0F(F2F3F8F.F(F.F.**\"\"'F(F1F(F8F9FAF(F(**F3F(F2
+\"\"%F8F4F0#F7F3F.F(F8FCF0F4F.*&#F&F'F(*,F*F9F5F(F8#!\"&F3F0F9F2F(F(F.
+" }}}{PARA 0 "" 0 "" {TEXT -1 63 "Vom verifica ca diferenta dintre der
+ivata si integrand este  0:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+32 "simplify(% - sqrt((1-c*x^2)^3));" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 
+{PARA 5 "" 0 "" {TEXT 357 3 "(c)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "Integrat
+e(1/(x^4-1),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*&\"\"\"F'
+,&*$)%\"xG\"\"%F'F'F'!\"\"F-F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 9 "value(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&#\"\"\"\"\"#F&
+-%(arctanhG6#%\"xGF&!\"\"*&#F&F'F&-%'arctanGF*F&F," }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "diff(%,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,&*&\"\"\"F%*&\"\"#F%,&F%F%*$)%\"xGF'F%!\"\"F%F,F,*&F%F%*&F'F%,&F%F
+%F)F%F%F,F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "normal(%, ex
+panded);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"\"F$,&*$)%\"xG\"\"%F
+$F$F$!\"\"F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 
+0 {PARA 5 "" 0 "" {TEXT 355 3 "(d)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 
+"Integrate(1/(x^4-4), x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$
+*&\"\"\"F',&*$)%\"xG\"\"%F'F'F,!\"\"F-F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "value(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&#\"\"
+\"\"\")F&*&\"\"##F&F)-%(arctanhG6#,$*(F)!\"\"%\"xGF&F)F*F&F&F&F0*&#F&F
+'F&*&F)F*-%'arctanGF-F&F&F0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "diff(%, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"\"F%*&\"\")
+F%,&F%F%*&\"\"#!\"\"%\"xGF*F+F%F+F+*&F%F%*&F'F%,&F%F%*&F*F+F,F*F%F%F+F
++" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "normal(%, expanded);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"\"F$,&*$)%\"xG\"\"%F$F$F)!\"\"
+F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 
+"" 0 "" {TEXT 356 3 "(e)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "r
+estart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "Integrate(sin(3*
+x)*cos(2*x), x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*&-%$sinG
+6#,$*&\"\"$\"\"\"%\"xGF-F-F--%$cosG6#,$*&\"\"#F-F.F-F-F-F." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&#\"\"\"\"#5F&-%$cosG6#,$*&\"\"&F&%\"xGF&F&F&!\"\"*&
+#F&\"\"#F&-F)6#F.F&F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "di
+ff(%,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&#\"\"\"\"\"#F&-%$sinG6
+#,$*&\"\"&F&%\"xGF&F&F&F&*&F%F&-F)6#F.F&F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 17 "subs(5*x=y, 2*%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#,&-%$sinG6#%\"yG\"\"\"-F%6#%\"xGF(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "trigsubs(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7#,$*
+(\"\"#\"\"\"-%$sinG6#,&*&F&!\"\"%\"yGF'F'*&F&F-%\"xGF'F'F'-%$cosG6#,&*
+&F&F-F.F'F'*&F&F-F0F'F-F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+22 "eval(op(%)/2,  y=5*x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%$sin
+G6#,$*&\"\"$\"\"\"%\"xGF*F*F*-%$cosG6#,$*&\"\"#F*F+F*F*F*" }}}{PARA 0 
+"" 0 "" {TEXT -1 111 "Mai usoara decat reconstructia integrandului est
+e verificarea ca diferenta dintre derivata si integrand este 0." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "integrate(sin(3*x)*cos(2*x),
+ x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&#\"\"\"\"#5F&-%$cosG6#,$*&
+\"\"&F&%\"xGF&F&F&!\"\"*&#F&\"\"#F&-F)6#F.F&F/" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 11 "diff(%, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,&*&#\"\"\"\"\"#F&-%$sinG6#,$*&\"\"&F&%\"xGF&F&F&F&*&F%F&-F)6#F.F&F&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "expand(% - sin(3*x)*cos
+(2*x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 327 2 "9.
+" }{TEXT -1 26 " Integrati functia reala  " }{XPPEDIT 18 0 "x->1/((a*x
++b)^2*(c*x+d)^2)" "6#f*6#%\"xG7\"6$%)operatorG%&arrowG6\"*&\"\"\"F,*&,
+&*&%\"aGF,F%F,F,%\"bGF,\"\"#,&*&%\"cGF,F%F,F,%\"dGF,F2!\"\"F*F*F*" }
+{TEXT -1 78 "  si puneti rezultatul sub forma:\n\n                    \+
+                       " }{XPPEDIT 18 0 "(2*a*c*ln((c*x+d)/(a*x+b)))/(
+a*d-b*c)^3-(2*a*c*x+a*d+b*c)/((a*d-b*c)^2*(a*x+b)*(c*x+d))" "6#,&*,\"
+\"#\"\"\"%\"aGF&%\"cGF&-%#lnG6#*&,&*&F(F&%\"xGF&F&%\"dGF&F&,&*&F'F&F/F
+&F&%\"bGF&!\"\"F&*$,&*&F'F&F0F&F&*&F3F&F(F&F4\"\"$F4F&*&,(**F%F&F'F&F(
+F&F/F&F&*&F'F&F0F&F&*&F3F&F(F&F&F&*(,&*&F'F&F0F&F&*&F3F&F(F&F4F%,&*&F'
+F&F/F&F&F3F&F&,&*&F(F&F/F&F&F0F&F&F4F4" }{TEXT -1 1 "\n" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "Integrate(1/((a*x+b)^2*
+(c*x+d)^2), x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*&\"\"\"F'
+*&),&*&%\"aGF'%\"xGF'F'%\"bGF'\"\"#F'),&*&%\"cGF'F-F'F'%\"dGF'F/F'!\"
+\"F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,**,\"\"#\"\"\"%\"aGF&,&*&F'F&%\"dGF&F&*&%\"
+bGF&%\"cGF&!\"\"!\"$F-F&-%#lnG6#,&*&F'F&%\"xGF&F&F,F&F&F.*,F%F&F'F&F(F
+/F-F&-F16#,&*&F-F&F5F&F&F*F&F&F&*(F-F&F(!\"#F9F.F.*(F'F&F(F<F3F.F." }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "logpart := select(has, %, l
+n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(logpartG,&*,\"\"#\"\"\"%\"aG
+F(,&*&F)F(%\"dGF(F(*&%\"bGF(%\"cGF(!\"\"!\"$F/F(-%#lnG6#,&*&F)F(%\"xGF
+(F(F.F(F(F0*,F'F(F)F(F*F1F/F(-F36#,&*&F/F(F7F(F(F,F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "rationalpart := %% - %;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%-rationalpartG,&*(%\"cG\"\"\",&*&%\"aGF(%
+\"dGF(F(*&%\"bGF(F'F(!\"\"!\"#,&*&F'F(%\"xGF(F(F,F(F/F/*(F+F(F)F0,&*&F
++F(F3F(F(F.F(F/F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor
+(logpart/2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$**%\"aG\"\"\"%\"cGF&
+,&-%#lnG6#,&*&F%F&%\"xGF&F&%\"bGF&F&-F*6#,&*&F'F&F.F&F&%\"dGF&!\"\"F&,
+&*&F%F&F4F&F&*&F/F&F'F&F5!\"$F5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 47 "logpart := 2*combine(%, ln, integer, symbolic);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%(logpartG,$*,\"\"#\"\"\"%\"aGF(,&*&F)F(%\"dGF(
+F(*&%\"bGF(%\"cGF(!\"\"!\"$F/F(-%#lnG6#*&,&*&F)F(%\"xGF(F(F.F(F0,&*&F/
+F(F8F(F(F,F(F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "ratio
+nalpart := factor(rationalpart);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+-rationalpartG,$**,(**\"\"#\"\"\"%\"cGF*%\"aGF*%\"xGF*F**&%\"bGF*F+F*F
+**&F,F*%\"dGF*F*F*,&F0F*F.!\"\"!\"#,&*&F+F*F-F*F*F1F*F3,&*&F,F*F-F*F*F
+/F*F3F3" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "solution = logpa
+rt + rationalpart;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%)solutionG,&*,
+\"\"#\"\"\"%\"aGF(,&*&F)F(%\"dGF(F(*&%\"bGF(%\"cGF(!\"\"!\"$F/F(-%#lnG
+6#*&,&*&F)F(%\"xGF(F(F.F(F0,&*&F/F(F8F(F(F,F(F(F(F(**,(**F'F(F/F(F)F(F
+8F(F(F-F(F+F(F(F*!\"#F9F0F6F0F0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{SECT 1 {PARA 0 "" 0 "" {TEXT 326 2 "10" }{TEXT -1 37 ". \+
+Implementati o rutina de expandare " }{TEXT 0 11 "expand/coth" }{TEXT 
+-1 28 " care imita comportarea lui " }{TEXT 0 10 "expand/cot" }{TEXT 
+-1 8 ", i.e., " }{TEXT 0 6 "expand" }{TEXT -1 194 " va expanda cotange
+ntele hiperbolice in functie de contangente hiperbolice in loc de sinu
+suri si cosinusuri hiperbolice. Faceti astfel ca rutina dumneavoastra \+
+sa inlocuiasca rutina predefinita.\n" }}{PARA 0 "" 0 "" {TEXT -1 33 "S
+a vedem intai procedurile vechi." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "interfac
+e(verboseproc=3):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "print(
+`expand/cot`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*6#%\"yG6+%\"xG%\"n
+G%\"tG%\"iG%\"SG%\"cG%\"NG%\"DG%5NumericEventHandlerTG6#%fnCopyright~(
+c)~1995~Waterloo~Maple~Inc.~All~rights~reserved.G6\"C%>8$-%'expandG6#9
+$@$0F5F9O-F76#-%$cotG6#F5@--%%typeG6$F5%\"+GC+>8%-%%nopsGFA>8&7#-%#opG
+FA>8,-%4NumericEventHandlerG6#/.%1division_by_zeroG.%*exceptionGZ(>FM7
+#-%$seqG6$-F@6#8'/F]oFMQDnumeric~exception:~division~by~zeroF2O-F@6#-%
+(convertG6$FM.FFF2YF2-FT6#FR>FM-F76#FM?(F]o\"\"!\"\"\"FI%%trueGC%>8)-&
+%)combinatG6#.%'chooseG6$FM,&FIF_pF]o!\"\">&8(F\\o-Fdo6$-%$mapG6%FdoFc
+p%\"*GFF@$2F_p-%%iremG6$F]o\"\"%>F^q,$F^qF\\q>8*-Fdo6$7#-Fin6$&F_q6#,$
+*&\"\"#F_pF]oF_pF_p/F]o;F^p-%%iquoG6$FIFirFF>8+-Fdo6$7#-Fin6$&F_q6#,&*
+&FirF_pF]oF_pF_pF_pF\\q/F]o;F_p-F]s6$,&FIF_pF_pF_pFirFF*&F_rF_pF`sF\\q
+3-FD6$F5Feq-FD6$-FP6$F_pF5%(integerGC(>FI-%$absG6#Fet>FM-F@6#*&F5F_pFI
+F\\q?(F]oF^pF_pFIF`pC$>F^q*&-%)binomialG6$FIF[qF_p)FMF[qF_p@$Fgq>F^qF]
+r>F_rF`r>F`sFasF_t-FD6$F5%(nonrealG*&,&*(^#F\\qF_p-F@6#-%#ReGFAF_p-%%c
+othG6#-%#ImGFAF_pF_pF_pF\\qF_p,&FdvF_p*&FcvF_pFhvF_pF_pF\\q3Fat-FD6$Fe
+tF_v-F76#-F@6#,&*&-FgvF\\uF_p-%'subsopG6$/F_pF_pF5F_pF_p*(-F\\wF\\uF_p
+FiwF_p^#F_pF_pF_p-FD6$F5.-%)specfuncG6$%)anythingG%#lnG*(FcvF_p,&)Fet^
+#FirF_pF_pF_pF_p,&FjxF_pF_pF\\qF\\qF?F2F2F2" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 21 "print(`expand/coth`);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#f*6#%\"xG6#%\"yG6#%aoCopyright~(c)~1991~by~the~Universi
+ty~of~Waterloo.~All~rights~reserved.G6\"C$>8$-%'expandG6#9$@'55-%%type
+G6$F-%\"+G3-F66$F-%\"*G-F66$-%#opG6$\"\"\"F-<$%(integerG%(nonrealG-F66
+$F-FE*&-F/6#-%%coshG6#F-FB-F/6#-%%sinhGFM!\"\"-F66$,$*&\"\"#FBF-FBFB%%
+nameG*&-FQ6#FUFB,&-FLFenFBFBFRFR-%%cothGFMF*F*F*" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 18 "expand(coth(x+y));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&*&-%%coshG6#%\"xG\"\"\"-F'6#%\"yGF*F**&-%%sinhGF(F*
+-F0F,F*F*F*,&*&F/F*F+F*F**&F&F*F1F*F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 20 "expand(coth(x+y+z));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*&,**(-%%coshG6#%\"xG\"\"\"-F'6#%\"yGF*-F'6#%\"zGF*F**(F&F*-%%si
+nhGF,F*-F3F/F*F**(-F3F(F*F2F*F.F*F**(F6F*F+F*F4F*F*F*,**(F6F*F+F*F.F*F
+**(F6F*F2F*F4F*F**(F&F*F2F*F.F*F**(F&F*F+F*F4F*F*!\"\"" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 9 "noul cod:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "rest
+art;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 788 "`expand/coth` := p
+roc(y)\nlocal x, n, t, i, S, c, N, D;\nx := expand(y);\nif x <> y then
+ return expand(coth(x)) end if;\nif type(x,`+`) then\n  n := nops(x);
+\n  t := [op(x)];\n  t := expand([seq(coth(i),i=t)]);\n  for i from 0 \+
+to n do\n    c := combinat['choose'](t,n-i);\n    S[i] := convert(map(
+convert,c,`*`), `+`);\n  end do;\n  N := convert([seq(S[2*i], i=0..iqu
+o(n,2))], `+`); \n  D := convert([seq(S[2*i-1], i=1..iquo(n+1,2))], `+
+`);\n  N/D # Don't expand the result\nelif type(x,`*`) and type(op(1,x
+),integer) then\n  n := abs(op(1,x));\n  t := coth(x/n);\n  for i from
+ 0 to n do\n    S[i] := binomial(n,n-i)*t^(n-i);\n  end do;\n  N := co
+nvert([seq(S[2*i], i=0..iquo(n,2))], `+`); \n  D := convert([seq(S[2*i
+-1], i=1..iquo(n+1,2))], `+`);\n  N/D # Don't expand the result\nelse \+
+coth(x)\nend if;\nend proc:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+70 "savelibname := \"CHAP14\":\nLibraryTools:-SaveToLibrary('`expand/c
+oth`'):" }}}{PARA 0 "" 0 "" {TEXT -1 33 "\nSa vedem efectul procedurii
+ noi:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "expand(coth(x+y));" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*&,&*&-%%coshG6#%\"xG\"\"\"-F'6#%\"yGF*F**&-%%sinh
+GF(F*-F0F,F*F*F*,&*&F/F*F+F*F**&F&F*F1F*F*!\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 20 "expand(coth(x+y+z));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,**(-%%coshG6#%\"xG\"\"\"-F'6#%\"yGF*-F'6#%\"zGF*F**(
+F&F*-%%sinhGF,F*-F3F/F*F**(-F3F(F*F2F*F.F*F**(F6F*F+F*F4F*F*F*,**(F6F*
+F+F*F.F*F**(F6F*F2F*F4F*F**(F&F*F2F*F.F*F**(F&F*F+F*F4F*F*!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "libname := \"CHAP14/\", libn
+ame; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(libnameG6$Q(CHAP14/6\"Q=C:
+\\Program~Files\\Maple~8/libF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "forget(expand);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "
+expand(coth(x+y));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&\"\"\"F%*&-%
+%cothG6#%\"xGF%-F(6#%\"yGF%F%F%,&F'F%F+F%!\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 20 "expand(coth(x+y+z));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,**(-%%cothG6#%\"xG\"\"\"-F'6#%\"yGF*-F'6#%\"zGF*F*F&
+F*F+F*F.F*F*,*F*F**&F&F*F+F*F**&F&F*F.F*F**&F+F*F.F*F*!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}}{MARK "26" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

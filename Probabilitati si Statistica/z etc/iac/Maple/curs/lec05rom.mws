@@ -1,0 +1,274 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" -1 20 "Times" 0 1 0 0 255 1 0 0 2 2 2 2 0 0 0 1 }
+{CSTYLE "_cstyle1" -1 204 "Times" 0 1 0 0 0 0 0 0 0 2 2 2 0 0 0 1 }
+{CSTYLE "_cstyle2" -1 205 "Courier" 0 1 255 0 0 1 0 1 0 2 1 2 0 0 0 1 
+}{CSTYLE "_cstyle3" -1 206 "Times" 1 18 0 0 0 0 0 1 0 2 2 2 0 0 0 1 }
+{CSTYLE "" 204 256 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 257 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 258 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 259 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 260 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 261 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 262 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 263 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 264 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 265 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 266 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 267 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 268 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 269 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 
+271 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 272 "C
+ourier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 273 "Courier
+" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 274 "Courier" 0 1 
+255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 275 "Courier" 0 1 255 0 
+0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 276 "Courier" 0 1 255 0 0 1 0 
+1 0 0 0 0 0 0 0 0 }{CSTYLE "" 204 277 "Courier" 0 1 255 0 0 1 0 1 0 0 
+0 0 0 0 0 0 }{CSTYLE "" 204 278 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" 204 279 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 
+}{CSTYLE "" 204 280 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 281 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 282 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 283 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 284 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 285 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 286 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 287 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 288 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 289 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 290 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 291 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 292 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 293 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 204 294 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 295 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 297 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 298 "Courier" 0 1 255 0 0 1 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 
+1 1 2 2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }{PSTYLE "_pstyle1" 
+-1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "_pstyle2" -1 202 1 {CSTYLE "" -1 
+-1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "_pstyle4" -1 204 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT -1 32 "Atribuire si anularea atr
+ibuirii" }}{PARA 0 "" 0 "" {TEXT -1 284 "In acest curs vom vedea efect
+ele atribuirii (:=) si cum se poate anula o atribuire. La fel de impor
+tant cum este in limbajul de programare C sa se faca distinctie intre \+
+valoarea si adresa unei variabile, vom vedea cum Maple face distinctie
+ intre valoarea unei variabile si numele sau." }}}{EXCHG {PARA 201 "> \+
+" 0 "" {MPLTEXT 1 205 8 "restart;" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 
+204 8 "Comanda " }{TEXT 256 7 "restart" }{TEXT 204 151 " sterge toate \+
+valorile atribuite variabilelor.  Efectul ei este deseori prea drastic
+.  Vom vedea cum putem anula atribuirea la o variabila particulara." }
+}}{SECT 0 {PARA 202 "" 0 "" {TEXT 206 35 "1. Verificarea formulelor si
+mbolice" }}{EXCHG {PARA 201 "" 0 "" {TEXT 204 236 "Vom incepe cu o apl
+icatie. Algebra pe calculator poate produce formule foarte lungi. Cum \+
+pot fi ele verificate? Ca prim exemplu vom incepe cu rezolvarea unei e
+cuatii polinomiale de gradul trei, cu coeficientii considerati ca para
+metrii:" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 27 "p := x^3 + a
+*x^2 + b*x + c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,**$)%\"xG\"
+\"$\"\"\"F**&%\"aGF*)F(\"\"#F*F**&%\"bGF*F(F*F*%\"cGF*" }}}{EXCHG 
+{PARA 201 "> " 0 "" {MPLTEXT 1 205 56 "sols := solve(p,x): # Maple cun
+oaste formula lui Cardano" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 47 "V
+om verifica formula pentru radacini aleatoare." }}}{EXCHG {PARA 201 ">
+ " 0 "" {MPLTEXT 1 205 41 "x1 := rand(): x2 := rand(): x3 := rand():" 
+}}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 60 "q := (x-x1)*(x-x2)*(x
+-x3); # polinomul cu radacini cunoscute" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"qG*(,&%\"xG\"\"\"\"-:k\")RJ>!\"\"F(,&F'F(\",l/<CC#F*F(,&F'F(
+\"-fW[(=+)F*F(" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 16 "eq :=
+ expand(q);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#eqG,**$)%\"xG\"\"$\"
+\"\"F**&\".R8Z^d,\"F*)F(\"\"#F*!\"\"*&\"9&*33X)G$oXgAo<F*F(F*F*\"CDb)Q
+5GVaYkA=(G@hlMF/" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 62 "a1 \+
+:= coeff(eq,x,2); b1 := coeff(eq,x,1); c1 := coeff(eq,x,0);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#a1G!.R8Z^d,\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#b1G\"9&*33X)G$oXgAo<" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#c1G!CDb)Q5GVaYkA=(G@hlM" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 
+204 79 "Pentru a verifica formulele pentru solutii vom atribui coefici
+entilor generali " }{TEXT 257 1 "a" }{TEXT 204 2 ", " }{TEXT 258 1 "b
+" }{TEXT 204 2 ", " }{TEXT 259 1 "c" }{TEXT 204 11 ", valorile " }
+{TEXT 260 2 "a1" }{TEXT 204 2 ", " }{TEXT 261 2 "b1" }{TEXT 204 2 ", \+
+" }{TEXT 262 2 "c1" }{TEXT 204 1 ":" }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 18 "a,b,c := a1,b1,c1;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>6%%\"aG%\"bG%\"cG6%!.R8Z^d,\"\"9&*33X)G$oXgAo<!CDb)Q5GVaYkA=(G@hlM
+" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 8 "a; b; c;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#!.R8Z^d,\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"9&*33X)G$oXgAo<" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!CDb)Q5GVaYkA=(
+G@hlM" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 78 "Efectul colateral al \+
+acestei atribuiri este acela ca solutiile atribuite lui \"" }{TEXT 
+263 4 "sols" }{TEXT 204 23 "\" s-au schimbat si ele:" }}{PARA 201 "> \+
+" 0 "" {MPLTEXT 1 205 5 "sols;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6%,(*&
+\"\"'!\"\",&\"FsQUN[t#\\m`=s8$=vDCH#\"\"\"*&\"#7F)!bo++#fw3ehU;Tn\\W()
+*HR`I%)o)*HVy2xc9Hwe%)*[>#F)\"\"#F)#F)\"\"$F)*(\":s/U1OrWcZmD+\"F)F0F&
+F'#F&F0F)#\".R8Z^d,\"F0F),**&F+F&F'F/F&*(\"9O-@.oNAyB$G,&F)F0F&F'F3F&F
+4F)*(^#F-F)F0F-,&*&F%F&F'F/F)*(\":s/U1OrWcZmD+\"F)F0F&F'F3F&F)F),**&F+
+F&F'F/F&*(\"9O-@.oNAyB$G,&F)F0F&F'F3F&F4F)*(^##F&F.F)F0F-F<F)F)" }}}
+{EXCHG {PARA 201 "" 0 "" {TEXT 204 105 "Pentru a verifica formula lui \+
+Cardano, vom incerca sa comparam valorile din sols cu radacinile aleat
+oare " }{TEXT 264 2 "x1" }{TEXT 204 2 ", " }{TEXT 265 2 "x2" }{TEXT 
+204 6 ", and " }{TEXT 266 2 "x3" }{TEXT 204 1 ":" }}}{EXCHG {PARA 201 
+"> " 0 "" {MPLTEXT 1 205 23 "x3 = simplify(sols[1]);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/\"-fW[(=+)F$" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 
+204 81 "Simplificarea lucreaza bine pentru solutia reala, dar nu si pe
+ntru cele complexe." }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 19 "
+#simplify(sols[2]);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,4*&#\"\"\"\"\"
+$F&*()\"\"(#F&F'F&)\"_or1d;rKP[aq>9vtR52dV?3dzn[!G];&**yt;S#F&\"\"'F&-
+%$cosG6#,$*&F+F&-%'arctanG6#,$*(\"Dva#)3Pzp#zZ(RVSpz7^\"F&\"D)\\.=)*[9
+N'R!>lBP_\">e$!\"\"F'#F&\"\"#F&F&F&F&F&F<*&#F&\"O\\$\\v:WE=/$4bM*e))4/
+;67X3t'F&*()F*#F>F'F&)F-#\"\"&F/F&F0F&F&F<#\".R8Z^d,\"F'F&*&#F&F'F&**F
+)F&F,F&-%$sinGF2F&F'F=F&F<*&#F&FAF&**FCF&FEF&FMF&F'F=F&F<**^##F<F'F&F)
+F&F,F&FMF&F&**^##F&FAF&FCF&FEF&FMF&F&*,^#F+F&F)F&F,F&F0F&F'F=F&*,^##F<
+FAF&FCF&FEF&F0F&F'F=F&" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 
+18 "evalf(sols[2],50);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#^$$\"S0+++++
++++++++++++++]YqTUA!#R$!Ro(\\TBG^Qq\")y>7SGzS-x>\\-Le)*!#')" }}}
+{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 3 "x1;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"-:k\")RJ>" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 12 "
+Observam ca " }{TEXT 294 2 "x1" }{TEXT 204 60 " coincide (in limitele \+
+rotunjirii) cu solutia simbolica din " }{TEXT 267 4 "sols" }{TEXT 204 
+1 "." }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 18 "evalf(sols[3],5
+0);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#^$$\"S-++++++++++++++++++:k\")R
+J>!#Q$\"So(\\TBG^Qq\")y>7SGzS-x>\\-LeE\"!#')" }}}{EXCHG {PARA 201 "> \+
+" 0 "" {MPLTEXT 1 205 3 "x2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\",l/<
+CC#" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 78 "Partea imaginara tinde \+
+catre zero, in mod misterios nu catre ceva apropiat de " }{XPPEDIT 18 
+0 "10^(-50);" "6#)\"#5,$\"#]!\"\"" }{TEXT 204 3 "..." }}}{EXCHG {PARA 
+201 "" 0 "" {TEXT 204 30 "Am pierdut polinomul original " }{TEXT 268 
+1 "p" }{TEXT 204 1 ":" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 2 
+"p;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$)%\"xG\"\"$\"\"\"F(*&\".R8Z
+^d,\"F()F&\"\"#F(!\"\"*&\"9&*33X)G$oXgAo<F(F&F(F(\"CDb)Q5GVaYkA=(G@hlM
+F-" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 49 "Aceasta pierdere nu este
+ de dorit, mai ales daca " }{TEXT 269 1 "p" }{TEXT 204 35 " a fost obt
+inut dupa calcule lungi." }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 
+205 29 "a := 'a'; b := 'b'; c := 'c';" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%\"aGF$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bGF$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"cGF$" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 
+24 "Cu aceasta dezasignare (" }{TEXT 270 12 "unassignment" }{TEXT 204 
+35 "), am recuperat polinomul original " }{TEXT 271 1 "p" }}}{EXCHG 
+{PARA 201 "> " 0 "" {MPLTEXT 1 205 2 "p;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,**$)%\"xG\"\"$\"\"\"F(*&%\"aGF()F&\"\"#F(F(*&%\"bGF(F&F(F(%\"cG
+F(" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 30 "precum si solutiile simb
+olice:" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 5 "sols;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6%,(*&\"\"'!\"\",**(\"#O\"\"\"%\"bGF*%\"
+aGF*F**&\"$3\"F*%\"cGF*F&*&\"\")F*)F,\"\"$F*F&*&\"#7F*,,*&F5F*)F+F3F*F
+**(F3F*)F+\"\"#F*)F,F;F*F&**\"#aF*F+F*F,F*F/F*F&*&\"#\")F*)F/F;F*F**(F
+5F*F/F*F2F*F*#F*F;F*#F*F3F**(F%F*,&*&F3F&F+F*F**&\"\"*F&F,F;F&F*F'#F&F
+3F&*&F3F&F,F*F&,**&F5F&F'FDF&*(F3F*FFF*F'FJF**&F3F&F,F*F&*(^#FCF*F3FC,
+&*&F%F&F'FDF**(F%F*FFF*F'FJF*F*F*,**&F5F&F'FDF&*(F3F*FFF*F'FJF**&F3F&F
+,F*F&*(^##F&F;F*F3FCFRF*F*" }}}{EXCHG {PARA 201 "" 0 "" {TEXT -1 0 "" 
+}}}}{SECT 0 {PARA 202 "" 0 "" {TEXT 206 56 "2. Valori partajate si efe
+ctul colateral al atribuirilor" }}{EXCHG {PARA 201 "" 0 "" {TEXT 204 
+46 "Putem crea deliberat legaturi intre variabile." }}}{EXCHG {PARA 
+201 "> " 0 "" {MPLTEXT 1 205 16 "x := 10; y := x;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"xG\"#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG\"#
+5" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 68 "Ceea ce este important es
+te ca x si y sunt independente una de alta:" }}}{EXCHG {PARA 201 "> " 
+0 "" {MPLTEXT 1 205 11 "x := 11; y;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"xG\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}}{EXCHG {PARA 
+201 "" 0 "" {TEXT 204 13 "Observam ca  " }{TEXT 272 8 "x := 11;" }
+{TEXT 204 12 " a schimbat " }{TEXT 273 1 "x" }{TEXT 204 11 ", dar lasa
+ " }{TEXT 274 1 "y" }{TEXT 204 16 " cu valoarea 10." }}{PARA 0 "" 0 "
+" {TEXT -1 5 "Vezi " }{URLLINK 17 "Figura 1" 4 "file:///E:/Radu/maple/
+cursuri/cursurirom/fig5_1.jpg" "" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 
+204 91 "Presupunem ca dorim sa legam o alta variabila z cu x, apoi sa \+
+utilizam apostroafele drepte:" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 
+1 205 40 "z := 'x';  # atribuim lui z numele lui x" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"zG%\"xG" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 
+1 205 14 "x := 12; y; z;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"xG\"#7
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#7" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 12 "Variabilele " }
+{TEXT 275 1 "z" }{TEXT 204 4 " si " }{TEXT 276 1 "x" }{TEXT 204 19 " s
+unt legate; cand " }{TEXT 277 1 "x" }{TEXT 204 28 " se schimba, de ase
+menea si " }{TEXT 278 1 "z" }{TEXT 204 18 " se schimba, vezi " }{TEXT 
+-1 0 "" }{URLLINK 17 "Figura 2" 4 "file:///E:/Radu/maple/cursuri/cursu
+rirom/fig5_2.jpg" "" }}}{EXCHG {PARA 201 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 16 "Dupa atribuirea " }{TEXT 295 9 "z := 'x';
+" }{TEXT -1 19 " putem verifica ca " }{TEXT 296 1 "z" }{TEXT -1 24 " n
+u este o variabila ca " }{TEXT 297 1 "x" }{TEXT -1 30 ", ci mai mult u
+n alias pentru " }{TEXT 298 1 "x" }{TEXT -1 1 "." }}{PARA 201 "" 0 "" 
+{TEXT 204 34 "Pentru a verifica legatura dintre " }{TEXT 279 1 "z" }
+{TEXT 204 4 " si " }{TEXT 280 1 "x" }{TEXT 204 51 ", putem elimina ope
+ratorul de adresare, similar cu " }{TEXT 281 2 "&x" }{TEXT 204 6 " din
+ C" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 18 "a := addressof(x)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"#D" }}}{EXCHG {PARA 201 "
+> " 0 "" {MPLTEXT 1 205 13 "addressof(z);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#D" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 282 1 "z" }
+{TEXT 204 4 " si " }{TEXT 283 1 "x" }{TEXT 204 80 " au aceeasi adresa.
+  Similar cu operatorul de referentiere * din C, unde scriem " }{TEXT 
+284 2 "*a" }{TEXT 204 16 ", in Maple avem:" }}}{EXCHG {PARA 201 "> " 
+0 "" {MPLTEXT 1 205 11 "pointto(a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"#7" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 13 "Observam ca  " }
+{TEXT 285 2 "*a" }{TEXT 204 24 " este 12,  deoarece lui " }{TEXT 286 
+1 "x" }{TEXT 204 28 " i s-a atribuit valoarea 12." }}}}{SECT 0 {PARA 
+202 "" 0 "" {TEXT 206 36 "3. Comenzile assign, unassign, evaln" }}
+{EXCHG {PARA 201 "" 0 "" {TEXT 204 78 "Cu apostrofurile drepte putem d
+ezasigna o variabila.  Sunt doua alternative: \"" }{TEXT 287 8 "unassi
+gn" }{TEXT 204 6 "\" si \"" }{TEXT 288 5 "evaln" }{TEXT 204 2 "\"." }}
+}{EXCHG {PARA 201 "" 0 "" {TEXT 204 37 "Sa examinam o aplicatie a atri
+buirii:" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 47 "formula := b
+alance = deposit*(1+interest_rate);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%(formulaG/%(balanceG*&%(depositG\"\"\",&F)F)%.interest_rateGF)F)" }
+}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 39 "deposit := 1024; inter
+est_rate := 0.04;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(depositG\"%C5
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.interest_rateG$\"\"%!\"#" }}}
+{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 8 "formula;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/%(balanceG$\"''\\1\"!\"#" }}}{EXCHG {PARA 201 "" 
+0 "" {TEXT 204 87 "Formula s-a schimbat prin atribuiri, dar ceea ce ne
+ place ca se schimba este variabila " }{TEXT 289 7 "balance" }{TEXT 
+204 26 ".  Dorim sa atribuim lui  " }{TEXT 290 7 "balance" }{TEXT 204 
+31 " valoarea calculata de formula." }}}{EXCHG {PARA 201 "" 0 "" 
+{TEXT 204 77 "Comanda assign converteste o ecuatie  \"=\" intr-o atrib
+uire  \":=\", de exemplu:" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 
+205 16 "assign(formula);" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 
+205 8 "balance;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"''\\1\"!\"#" }}}
+{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 55 "unassign('balance'); # a
+tentie la apostrofurile drepte!" }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 8 "balance;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(balanc
+eG" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 8 "formula;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/%(balanceG$\"''\\1\"!\"#" }}}{EXCHG {PARA 
+201 "" 0 "" {TEXT 204 61 "In mod tipic, multi rezolvitori din Maple re
+turneaza ecuatii:" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 42 "eq
+s := \{ y1 + y2 = p1, y1 + p1*y2 = y2 \}; " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$eqsG<$/,&%#y1G\"\"\"%#y2GF)%#p1G/,&F(F)*&F+F)F*F)F)F
+*" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 26 "sol := solve(eqs,
+\{y1,y2\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$solG<$/%#y2G,$*&,&\"
+\"#!\"\"%#p1G\"\"\"F,F-F.F,/%#y1G*(F-F.,&F.F,F-F.F.F*F," }}}{EXCHG 
+{PARA 201 "> " 0 "" {MPLTEXT 1 205 57 "assign(sol); # converteste ecua
+tiile din sol in atribuiri" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 
+205 7 "y1; y2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%#p1G\"\"\",&F%!\"
+\"F$F%F%,&\"\"#F'F$F%F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&,&\"\"#
+!\"\"%#p1G\"\"\"F'F(F)F'" }}}{EXCHG {PARA 201 "" 0 "" {TEXT 204 17 "O \+
+alternativa la " }{TEXT 291 8 "unassign" }{TEXT 204 7 " este \"" }
+{TEXT 292 5 "evaln" }{TEXT 204 33 "\" (evaln = evaluate to the name):
+" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 33 "y1 := evaln(y1); y2
+ := evaln(y2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y1GF$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#y2GF$" }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 4 "sol;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%#y2G,$*&
+,&\"\"#!\"\"%#p1G\"\"\"F*F+F,F*/%#y1G*(F+F,,&F,F*F+F,F,F(F*" }}}
+{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 7 "y1; y2;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#%#y1G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#y2G" }}}
+{EXCHG {PARA 201 "" 0 "" {TEXT 204 128 "In caz ca uitati ce variabile \+
+sunt in uz, sau doriti sa alegeti in program numele variabilelor care \+
+sunt in uz se poate utiliza " }{TEXT 293 6 "anames" }{TEXT 204 1 ":" }
+}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 64 "anames(user); # list t
+he names of variables assigned by the user" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "66%'UPDATEG%#a1G%#c1G%.interest_rateG%%solsG%#eqG%$eqsG%(
+formulaG%#b1G%\"zG%\"yG%$solG%\"xG%\"qG%\"pG%\"aG%(depositG%#x2G%#x1G%
+#x3G" }}}{EXCHG {PARA 201 "> " 0 "" {MPLTEXT 1 205 16 "anames(integer)
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "65%#a1G%#c1G%'DigitsG%$_FRG%4sqrfre
+e/sign/globalG%,sqrt/primesG%#b1G%8factor/icontsign/globalG%\"yG%\"xG%
+&OrderG%\"aG%+printlevelG%(depositG%#x2G%#x1G%#x3G%,root/primesG%Dsimp
+lify/radical/integer/prodprimesG" }}}{EXCHG {PARA 201 "> " 0 "" 
+{MPLTEXT 1 205 58 "unames(); # unassigned names are the names without \+
+a value" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 204 "
+" 0 "" {TEXT -1 0 "" }}}{MARK "4 9 0 10" 2 }{VIEWOPTS 1 1 0 3 2 1804 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

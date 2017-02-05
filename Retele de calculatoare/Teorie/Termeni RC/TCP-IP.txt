@@ -1,0 +1,16 @@
+The Internet protocol suite (commonly TCP/IP) is the set of communications protocols that implement the protocol stack on which the Internet and most commercial networks run. It is named for two of the most important protocols in it: the Transmission Control Protocol (TCP) and the Internet Protocol (IP), which were also the first two networking protocols defined. Today's IP networking represents a synthesis of two developments that began to evolve in the 1960s and 1970s, namely LANs (Local Area Networks) and the Internet, which, together with the invention of the World Wide Web by Sir Tim Berners-Lee in 1989, have revolutionized computing.
+The Internet protocol suite—like many protocol suites—can be viewed as a set of layers. Each layer solves a set of problems involving the transmission of data, and provides a well-defined service to the upper layer protocols based on using services from some lower layers. Upper layers are logically closer to the user and deal with more abstract data, relying on lower layer protocols to translate data into forms that can eventually be physically transmitted. The TCP/IP reference model consists of four layers [1]. From lowest to highest, these are the link layer, the network layer, the transport layer, and the application layer.
+Application –
+   DNS, TFTP, TLS/SSL, FTP, Gopher, HTTP, IMAP, IRC, NNTP, POP3, SIP, SMTP,       SNMP, SSH, TELNET, ECHO, RTP, PNRP, rlogin, ENRP 
+   Routing protocols like BGP, which for a variety of reasons run over TCP, may also be considered part of the application or network layer. 
+
+Transport - TCP, UDP, DCCP, SCTP, IL, RUDP 
+
+Internet - Routing protocols like OSPF, which run over IP, are also to be considered part of the network layer, as they provide path selection. ICMP and IGMP run over IP and are considered part of the network layer, as they provide control information. 
+      IP (IPv4, IPv6) 
+      ARP and RARP operate underneath IP but above the link layer so they belong somewhere in between. 
+
+Network access (combines Data link and Physical) - Ethernet, Wi-Fi, token ring, PPP, SLIP, FDDI, ATM, Frame Relay, SMDS
+
+IP datagram
+IP version number, header length(bytes), “type” of data, max nr remaining hops(decremented at each router), upper layer protocol to deliver payload to, for fragmentation/reassembly, DF+MF: ver(4)| head len(4)| type of service(8)| length(8); next line-> 16 bit identifier(16)| flgs(3)| 13 bit fragment offset; next line-> time to live(8)| upper layer(8)| header internet checksum(16); next line-> 32 bit source IP address(32); next line-> 32 bit IP dest address(32); next line-> options(if any); next line-> data(a tcp, udp segment). 

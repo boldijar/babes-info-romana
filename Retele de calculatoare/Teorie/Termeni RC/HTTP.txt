@@ -1,0 +1,37 @@
+* Allows exchange of HTML and Web data.
+* Works on TCP port 80 and is human readable.
+Ex: Connect to www.cs.ubbcluj.ro
+GET / HTTP/1.0 > 
+>
+	< HTTP/1.0 200 OK 
+	< Date: Wed, 18 Sep 1996 20:18:59 GMT 
+	< Server: Apache/1.0.0
+	< Content-type: text/html 
+	< Content-length: 1579 
+	< Last-modified: Mon, 22 Jul 1996 22:23:34 GMT
+	< 
+	< HTML document 
+
+
+
+Hypertext Transfer Protocol (HTTP) is a communications protocol for the transfer of information on the intranet and the World Wide Web. Its original purpose was to provide a way to publish and retrieve hypertext pages over the Internet.
+
+HTTP defines eight methods (sometimes referred to as "verbs") indicating the desired action to be performed on the identified resource.
+HEAD 
+Asks for the response identical to the one that would correspond to a GET request, but without the response body. This is useful for retrieving meta-information written in response headers, without having to transport the entire content. 
+GET 
+Requests a representation of the specified resource. By far the most common method used on the Web today. Should not be used for operations that cause side-effects (using it for actions in web applications is a common misuse). See 'safe methods' below. 
+POST 
+Submits data to be processed (e.g. from an HTML form) to the identified resource. The data is included in the body of the request. This may result in the creation of a new resource or the updates of existing resources or both. 
+PUT 
+Uploads a representation of the specified resource. 
+DELETE 
+Deletes the specified resource. 
+TRACE 
+Echoes back the received request, so that a client can see what intermediate servers are adding or changing in the request. 
+OPTIONS 
+Returns the HTTP methods that the server supports for specified URI. This can be used to check the functionality of a web server by requesting '*' instead of a specific resource. 
+CONNECT 
+Converts the request connection to a transparent TCP/IP tunnel, usually to facilitate SSL-encrypted communication (HTTPS) through an unencrypted HTTP proxy.[1] 
+HTTP servers are supposed to implement at least the GET and HEAD methods and, whenever possible, also the OPTIONS method.
+

@@ -1,0 +1,50 @@
+FN 1
+  - atomicitate
+  - scalaritate
+  
+PersID  Nume  Adresa  ProiectID NrOre
+1       Pop   adr1    Pr1       3
+2       Ion   adr2    Pr1       2
+3       Vas   adr3    Pr1       5
+4       Geo   adr4    Pr2       10
+
+atomicitate - cand imparti un camp in mai multe (De ex adresa in tara, oras, judet)
+scalaritate - cand avem campuri cu valori scalare, nu vectoriale (De ex nr de telefon)
+
+FN 2
+  - fiecare entitate sa fie in tabela ei
+  - cheie primara
+  
+Tabela1 - cheie primara: {PersID, ProiectID}
+PersID  Nume  Prenume Adresa  ProiectID NrOre
+1       Pop   Pren1   adr1    Pr1       3
+2       Ion   Pren2   adr2    Pr1       2
+3       Vas   Pren3   adr3    Pr1       5
+1       Pop   Pren1   adr1    Pr2       10
+
+Dependente:
+
+PersID  ->  Nume
+PersID  ->  Prenume
+PersID  ->  Adresa
+{PersID, ProiectID} ->  NrOre
+
+
+____
+
+Tabela1 - cheie primara: PersID
+PersID  Nume  Prenume Adresa
+1       Pop   Pren1   adr1
+2       Ion   Pren2   adr2
+3       Vas   Pren3   adr3
+1       Pop   Pren1   adr1
+
+Tabela2 - cheie primara: ProiectID
+PersID  ProiectID NrOre
+1       Pr1       3
+2       Pr1       2
+3       Pr1       5
+1       Pr2       10
+
+FN 3
+  - 
